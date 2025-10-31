@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://www.delicious.com
+url::www.greenhughes.com
+intent::android.intent.action.MAIN
+intent::android.intent.action.SEND
+intent::android.intent.category.DEFAULT
+url::http://www.greenhughes.com
+intent::android.intent.category.LAUNCHER
+url::www.delicious.com
+activity::.TabletToDelicious
+activity::com.greenhughes.apps.TabletToDelicious.TabletToDelicious

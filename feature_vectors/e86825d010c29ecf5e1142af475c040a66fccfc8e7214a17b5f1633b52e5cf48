@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+provider::.provider.LiberezLesAppWidgetProvider
+intent::android.intent.action.TIMEZONE_CHANGED
+call::getPackageInfo
+provider::android.appwidget.provider
+call::getSystemService
+intent::android.intent.action.TIME_SET

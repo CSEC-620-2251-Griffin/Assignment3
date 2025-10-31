@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+url::www.it4u.com.hr
+api_call::java/net/ServerSocket
+real_permission::android.permission.WAKE_LOCK
+api_call::android/hardware/Camera;->open
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::Obfuscation(Base64)
+url::http://www.it4u.com.hr/bzj/actions.php?
+real_permission::android.permission.CAMERA
+call::Read/Write External Storage
+permission::android.permission.WAKE_LOCK
+activity::.AdriaticBattle
+intent::android.intent.action.MAIN
+url::http://www.it4u.com.hr
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

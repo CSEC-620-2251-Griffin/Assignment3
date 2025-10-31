@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::drivermobile.phh.com
+intent::android.intent.action.MAIN
+permission::android.permission.READ_PHONE_STATE
+api_call::android/telephony/TelephonyManager;->getLine1Number
+url::https://drivermobile.phh.com/index.cfm?version%3D1.10&ani%3D
+intent::android.intent.category.LAUNCHER
+activity::.phhConnect
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

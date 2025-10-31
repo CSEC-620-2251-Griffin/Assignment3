@@ -1,0 +1,17 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+service_receiver::.widget.UserDetailsWidget
+url::http://stats.mnetcs.com/services/jsonPresentation.asmx/
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::stats.mnetcs.com
+intent::android.intent.action.SEARCH
+activity::.UserDetailsActivity
+url::http://stats.mnetcs.com/graph.aspx?Type%3DPointsForUser&alias%3D
+url::http://stats.mnetcs.com/graph.aspx?Type%3DPointsForUserCompetition&alias%3D
+provider::android.appwidget.provider
+activity::.UsersListActivity
+intent::android.intent.category.LAUNCHER

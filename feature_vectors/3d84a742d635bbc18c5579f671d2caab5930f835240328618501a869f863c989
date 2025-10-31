@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+activity::.SelectRuler
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::http://amazing-create.appspot.com/andrulerweb/andruler.xml
+url::http://www.amazing-create.com/android/andrulernet/\
+url::www.amazing-create.com
+activity::.Main
+call::Cipher(AES)
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+activity::.DeviceInfoActivity
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::amazing-create.appspot.com
+call::Read/Write External Storage
+call::HttpPost
+api_call::android/content/Context;->startActivity
+call::getSystemService
+url::http://amazing-create.appspot.com/andrulerweb

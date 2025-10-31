@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::InstallReferrerReceiver
+url::www.google.com
+url::http://www.google.com
+intent::android.intent.category.LAUNCHER
+activity::.InstallReferrerBroadcasterTwo
+api_call::android/content/Context;->startActivity

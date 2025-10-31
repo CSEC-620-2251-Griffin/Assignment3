@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.herdball.com/roster
+url::http://mobile.herdball.com/stats
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mobile.herdball.com
+url::http://mobile.herdball.com/schedule
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::Herd Ball
+intent::android.intent.category.LAUNCHER
+url::http://mobile.herdball.com/about
+url::mobile.herdball.com

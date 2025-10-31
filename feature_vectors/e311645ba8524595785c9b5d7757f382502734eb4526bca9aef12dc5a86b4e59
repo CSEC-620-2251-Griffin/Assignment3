@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->setWallpaper
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+activity::com.google.android.apps.analytics.AnalyticsReceiver
+activity::.activity.WebcamPreferenceActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+activity::.LeysinWebcams
+service_receiver::com.google.android.apps.analytics.AnalyticsReceiver
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.category.PREFERENCE
+activity::.activity.LeysinWebcams
+api_call::java/net/URL;->openConnection
+permission::android.permission.SET_WALLPAPER
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.SET_WALLPAPER

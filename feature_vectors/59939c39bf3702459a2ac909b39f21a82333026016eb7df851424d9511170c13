@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+service_receiver::.MissedCallReceiver
+intent::android.intent.action.MAIN
+service_receiver::.MissedCallVolumeService
+call::getSystemService
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+activity::.MissedCallVolume
+api_call::android/telephony/TelephonyManager;->listen
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/content/Context;->sendBroadcast
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::.MissedCallAutoStartReceiver

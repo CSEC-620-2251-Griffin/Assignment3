@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.LAUNCH
+activity::.SpeakerDetails
+intent::android.intent.action.MAIN
+call::getSystemService
+activity::.TourInfo
+activity::.CityList
+activity::.Entry
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+activity::.SpeakerList
+activity::.CityDetails
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW

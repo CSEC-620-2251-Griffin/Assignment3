@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+service_receiver::INSUN
+permission::android.permission.BIND_INPUT_METHOD
+permission::android.permission.WRITE_OWNER_DATA
+permission::android.permission.WRITE_SETTINGS

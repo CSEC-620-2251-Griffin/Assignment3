@@ -1,0 +1,18 @@
+activity::.MusicalClockWidgetActivity
+api_call::android/content/Context;->startService
+intent::android.intent.action.DATE_CHANGED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+service_receiver::MusicalClockWidgetBase
+service_receiver::.MusicalClockWigetService
+intent::android.intent.action.BATTERY_CHANGED
+service_receiver::Misucal Clock Widget(4x1)
+service_receiver::Misucal Clock Widget(2x1)
+intent::android.intent.action.USER_PRESENT
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+intent::android.intent.action.TIME_SET
+provider::android.appwidget.provider
+call::getSystemService
+intent::android.intent.action.TIMEZONE_CHANGED

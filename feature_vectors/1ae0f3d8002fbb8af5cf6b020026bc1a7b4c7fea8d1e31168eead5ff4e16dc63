@@ -1,0 +1,10 @@
+url::www.getwiddly.com
+feature::android.hardware.touchscreen
+url::http://www.getwiddly.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+activity::com.rabblesoft.widdlyscuds.WiddlyScuds
+real_permission::android.permission.INTERNET
+activity::.WiddlyScuds
+intent::android.intent.category.LAUNCHER

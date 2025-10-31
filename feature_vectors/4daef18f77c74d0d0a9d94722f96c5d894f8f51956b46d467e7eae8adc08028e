@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::dk.nordfalk.esperanta_telefono.Bonvenon
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Bonvenon

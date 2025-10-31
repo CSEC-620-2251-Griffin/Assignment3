@@ -1,0 +1,8 @@
+activity::.ChengGuCeYun
+intent::android.intent.action.MAIN
+activity::.HelpView
+feature::android.hardware.touchscreen
+activity::.ShowView
+activity::.AboutView
+activity::.MainView
+intent::android.intent.category.LAUNCHER

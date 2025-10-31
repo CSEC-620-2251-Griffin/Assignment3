@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+activity::.SplashScreen
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+activity::.ui.PreferenceActivity
+activity::.ui.SplashScreen
+intent::android.intent.category.LAUNCHER
+activity::.ui.MainActivity
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::HttpPost
+api_call::android/content/ContentResolver;->query

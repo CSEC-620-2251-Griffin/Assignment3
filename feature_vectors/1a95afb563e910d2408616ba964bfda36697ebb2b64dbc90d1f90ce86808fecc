@@ -1,0 +1,12 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.alternacomics.com
+url::http://www.robotcomics.net/2009/05/chair-1/
+url::www.alternacomics.com
+activity::.Settings
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.ComicViewer
+url::www.robotcomics.net
+url::http://www.robotcomics.net

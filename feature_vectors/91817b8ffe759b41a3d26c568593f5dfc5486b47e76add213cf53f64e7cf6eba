@@ -1,0 +1,31 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.DATE_CHANGED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+permission::android.permission.INTERNET
+intent::android.net.wifi.supplicant.CONNECTION_CHANGE
+intent::android.intent.action.ACTION_SHUTDOWN
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::Smart Data Watch Pro
+service_receiver::.mybroadcastreceiver
+permission::android.permission.ACCESS_WIFI_STATE
+intent::android.intent.action.TIME_TICK
+intent::android.net.wifi.STATE_CHANGE
+real_permission::android.permission.INTERNET
+intent::android.net.wifi.WIFI_STATE_CHANGED
+intent::android.intent.action.TIME_SET
+permission::android.permission.VIBRATE
+activity::.smartdatawatchpro
+real_permission::android.permission.VIBRATE
+service_receiver::.myservice
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify
+call::getSystemService
+provider::android.appwidget.provider

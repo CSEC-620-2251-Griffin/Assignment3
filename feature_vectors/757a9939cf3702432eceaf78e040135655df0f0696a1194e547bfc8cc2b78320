@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+service_receiver::.WidgetUpdateService
+intent::android.intent.action.PACKAGE_ADDED
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.action.PACKAGE_REMOVED
+intent::android.intent.action.PACKAGE_REPLACED
+api_call::android/content/Context;->startService
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+intent::android.intent.action.PACKAGE_CHANGED
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+api_call::android/content/ContentResolver;->query

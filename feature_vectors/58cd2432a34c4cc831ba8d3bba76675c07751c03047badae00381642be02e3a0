@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::vistacenter.org
+intent::android.intent.action.MAIN
+url::http://youtube.com/watch?v%3D
+url::http://vistacenter.org/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::youtube.com
+activity::.VideoSearchActivity
+call::getSystemService

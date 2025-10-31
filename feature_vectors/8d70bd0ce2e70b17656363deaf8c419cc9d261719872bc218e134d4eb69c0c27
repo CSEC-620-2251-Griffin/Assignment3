@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CONTACTS
+intent::android.intent.action.MAIN
+intent::android.intent.action.SEND
+intent::android.intent.category.DEFAULT
+activity::.tagEntryActivity
+activity::.MovaPicHelperActivity

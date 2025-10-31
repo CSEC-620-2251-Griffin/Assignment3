@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://[a-zA-Z0-9./_]*).*?>(.*?)</a>
+api_call::java/net/URL;->openConnection
+url::http://search.weather.yahoo.co.jp/bin/search?pref%3Dall&x%3D0&y%3D0&p%3D
+intent::android.intent.action.MAIN
+url::weather.yahoo.co.jp
+url::http://[a-zA-Z0-9./_]*)
+activity::.MainActivity
+permission::android.permission.INTERNET
+activity::AreaSelectActivity
+activity::HelpActivity
+intent::android.intent.category.LAUNCHER
+url::http://weather.yahoo.co.jp/weather/jp/13/4410/13101.html
+url::search.weather.yahoo.co.jp
+real_permission::android.permission.INTERNET
+call::getSystemService

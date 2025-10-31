@@ -1,0 +1,5 @@
+activity::.ShareLatestPhoto
+feature::android.hardware.touchscreen
+intent::android.intent.action.GET_CONTENT
+intent::android.intent.category.OPENABLE
+intent::android.intent.category.DEFAULT

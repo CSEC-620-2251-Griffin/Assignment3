@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::java/net/ServerSocket
+call::getPackageInfo
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+activity::.LanzaLWPFromMarket
+real_permission::android.permission.VIBRATE
+call::getSystemService
+activity::Settings
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::Obfuscation(Base64)
+activity::.LanzaLWP
+feature::android.software.live_wallpaper
+call::Read/Write External Storage
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.INFO

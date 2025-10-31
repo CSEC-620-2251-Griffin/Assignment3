@@ -1,0 +1,10 @@
+service_receiver::.AnalogClockProvider$UpdateService
+feature::android.hardware.touchscreen
+service_receiver::.ClockProvider$UpdateService
+call::printStackTrace
+activity::.MainActivity
+activity::.AnalogClockSettings
+service_receiver::.CountDownProvider$UpdateService
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+service_receiver::ClockService

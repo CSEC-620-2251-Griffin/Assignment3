@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.READ_PHONE_STATE
+call::Read/Write External Storage
+activity::.RandomList
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::fi.jonttesandroid.randomlist.RandomList

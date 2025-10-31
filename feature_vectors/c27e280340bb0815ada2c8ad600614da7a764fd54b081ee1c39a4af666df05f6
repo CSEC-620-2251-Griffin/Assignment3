@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::touch.facebook.com
+service_receiver::AlarmReceiver
+intent::android.intent.action.MAIN
+activity::.ProfileEditor
+api_call::android/content/Context;->startActivity
+url::http://touch.facebook.com/
+api_call::android/app/NotificationManager;->notify
+activity::.PMSMonitorLite
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.BOOT_COMPLETED
+activity::PMSMonitorLite
+call::getSystemService

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+service_receiver::.SystemInfoWidget$UpdateService
+call::Read/Write External Storage
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+call::getSystemService

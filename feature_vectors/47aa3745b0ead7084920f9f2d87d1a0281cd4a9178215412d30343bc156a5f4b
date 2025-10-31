@@ -1,0 +1,21 @@
+activity::%D8%A7%D9%D8%AA%D8%B9%D9%D9%D9%D8%A7%D8%AA
+feature::android.hardware.location
+activity::.MainSearchActivity
+url::api.qaym.com
+activity::.NearestNeighborActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::.AboutActivity
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+activity::.NameSearchActivity
+activity::%D9%D8%B9%D9%D9%D9%D8%A7%D8%AA %D8%A7%D9%D9%D8%B1%D9%D8%B9
+activity::.RatedRestaurantActivity
+activity::.AttributeSearchActivity
+intent::android.intent.category.LAUNCHER
+activity::.ViewOnMapActivity
+real_permission::android.permission.INTERNET
+activity::.IntroActivity
+url::http://api.qaym.com/0.1/

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.torerosball.com/schedule
+intent::android.intent.action.MAIN
+url::http://mobile.torerosball.com
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.torerosball.com/about
+activity::Toreros Ball
+url::http://mobile.torerosball.com/stats
+intent::android.intent.category.LAUNCHER
+url::http://mobile.torerosball.com/roster
+api_call::android/webkit/WebView
+url::mobile.torerosball.com

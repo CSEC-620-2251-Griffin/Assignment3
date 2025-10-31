@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.About
+intent::android.intent.action.MAIN
+activity::.Top10
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+service_receiver::KickStatsProvider
+api_call::java/net/URL;->openConnection
+real_permission::android.permission.VIBRATE
+api_call::android/app/NotificationManager;->notify
+provider::android.appwidget.provider
+call::getSystemService
+activity::.Configuration

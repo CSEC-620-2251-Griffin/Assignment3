@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.DublinBusGPS

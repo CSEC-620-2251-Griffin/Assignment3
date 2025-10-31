@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.TracksList
+activity::.widget.NowPlayingWidgetConfig
+service_receiver::.NowPlayingService
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://ws.audioscrobbler.com/1.0/user/StuBruRadio/recenttracks.rss
+activity::.NowPlayingPreferences
+api_call::java/net/URL;->openConnection
+url::ws.audioscrobbler.com
+provider::android.appwidget.provider
+call::getSystemService

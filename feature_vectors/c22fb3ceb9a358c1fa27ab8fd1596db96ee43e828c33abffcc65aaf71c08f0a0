@@ -1,0 +1,14 @@
+url::http://market.android.com/details?id%3Dcom.realtorapps.starleneward
+feature::android.hardware.touchscreen
+url::http://www.reobook.us/applinks/currentrates.htm
+url::http://www.reobook.us/applinks/monthlypaymentcalc.htm
+activity::.HelloAndroid
+intent::android.intent.action.MAIN
+url::market.android.com
+url::http://www.reobook.us/reobook/current.htm
+url::www.reobook.us
+feature::android.hardware.screen.portrait
+url::http://www.reobook.us/reobook/agents.htm
+url::http://www.reobook.us
+intent::android.intent.category.LAUNCHER
+url::http://www.reobook.us/applinks/getapprovednow.htm

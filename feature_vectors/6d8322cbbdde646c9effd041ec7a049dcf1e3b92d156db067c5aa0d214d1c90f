@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::com.nemustech.gallery.CropImage
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.CAMERA
+api_call::android/app/Activity;->startActivity
+activity::.MainActivity
+activity::com.nemustech.gallery.ImageGallery
+api_call::android/content/ContentResolver;->openOutputStream
+call::getSystemService
+permission::android.permission.CAMERA
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+call::Read/Write External Storage
+permission::android.permission.WAKE_LOCK
+activity::com.nemustech.ncam.MainActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera
+intent::android.intent.category.LAUNCHER
+api_call::android/app/WallpaperManager;->setBitmap
+real_permission::android.permission.SET_WALLPAPER

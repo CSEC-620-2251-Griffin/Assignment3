@@ -1,0 +1,15 @@
+activity::QBANIN GPSfix
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+intent::android.intent.action.SEARCH_LONG_PRESS
+intent::android.intent.action.MAIN
+activity::.GPSfix
+api_call::android/location/LocationManager;->sendExtraCommand
+permission::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+call::getSystemService

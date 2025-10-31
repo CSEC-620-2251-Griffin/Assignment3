@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getSystemService
+api_call::android/media/MediaPlayer;->start
+activity::.LoseYourSocks
+activity::.SplashScreen
+activity::.WinScreen
+real_permission::android.permission.WAKE_LOCK
+activity::.LoseScreen
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+intent::android.intent.category.LAUNCHER

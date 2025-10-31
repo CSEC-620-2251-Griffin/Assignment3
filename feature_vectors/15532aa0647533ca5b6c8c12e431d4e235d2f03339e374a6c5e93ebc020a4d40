@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::www.eventscreamer.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+activity::.esevents
+url::http://www.eventscreamer.com/mobile/index.html
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

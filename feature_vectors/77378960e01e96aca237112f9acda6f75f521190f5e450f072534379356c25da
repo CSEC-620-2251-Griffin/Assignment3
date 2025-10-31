@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.BatteryInfoActivity
+intent::android.intent.action.MAIN
+activity::.lovecalculator
+activity::.MainActivity
+activity::.NetworkInfoActivity
+activity::.SensorInfoActivity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.QSystemInfo$BootReceiver
+service_receiver::.WidgetProvider$EndTaskService

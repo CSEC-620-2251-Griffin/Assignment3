@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+activity::.MainActivity
+url::www.bankofcanada.ca
+permission::android.permission.INTERNET
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+url::http://www.bankofcanada.ca/stats/assets/csv/fx-seven-day.csv
+url::http://www.bankofcanada.ca
+real_permission::android.permission.INTERNET
+call::getSystemService

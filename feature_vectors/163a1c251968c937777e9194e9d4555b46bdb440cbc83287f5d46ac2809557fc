@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.DiviClockStart
+intent::android.intent.action.MAIN
+activity::divi.clock.appwidget.ClockAppWidgetPopupException
+call::getPackageInfo
+url::http://goo.gl/rA8q
+url::http://goo.gl/DQ2d
+intent::android.intent.category.LAUNCHER
+service_receiver::divi.clock.appwidget.service.KeepUpdating
+url::goo.gl
+activity::divi.clock.appwidget.DiviClockStart
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+activity::divi.clock.appwidget.ClockAppWidgetPopup
+call::getSystemService
+url::http://goo.gl/F05O

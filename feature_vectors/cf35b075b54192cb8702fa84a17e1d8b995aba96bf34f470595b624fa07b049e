@@ -1,0 +1,21 @@
+activity::JPEG Quality
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+activity::.About
+activity::Specify site
+api_call::android/hardware/Camera;->open
+permission::android.permission.CAMERA
+feature::android.hardware.camera
+activity::.Main
+activity::.Logon
+activity::New Patient
+call::Cipher(AES/CBC/PKCS5Padding)
+real_permission::android.permission.CAMERA
+activity::.Preferences
+call::getPackageInfo
+call::Cipher(PBEWithMD5AndDES)
+activity::.Manual
+call::Obfuscation(Base64)
+call::getSystemService
+intent::android.intent.category.LAUNCHER

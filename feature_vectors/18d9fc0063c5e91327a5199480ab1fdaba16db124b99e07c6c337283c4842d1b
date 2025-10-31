@@ -1,0 +1,13 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::blog.naver.com
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://ajax.googleapis.com/ajax/services/language/translate
+real_permission::android.permission.INTERNET
+url::http://blog.naver.com/crezo
+intent::android.intent.category.LAUNCHER
+url::ajax.googleapis.com
+activity::.SimpleTranslateApp
+url::http://ajax.googleapis.com/ajax/services/language/detect?v%3D1.0&q%3D

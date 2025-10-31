@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+service_receiver::com.grosssoftware.ontopcalculatorlib.OnTopCalculatorService
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.READ_PHONE_STATE
+api_call::android/content/Context;->startActivity
+activity::.ServiceStarterActivity
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::com.grosssoftware.ontopcalculatorlib.ServiceStarterActivity
+permission::android.permission.SYSTEM_ALERT_WINDOW
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

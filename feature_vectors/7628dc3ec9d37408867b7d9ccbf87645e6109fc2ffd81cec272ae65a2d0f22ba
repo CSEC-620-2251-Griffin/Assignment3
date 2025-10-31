@@ -1,0 +1,45 @@
+service_receiver::Simple Calendar 5x1
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+service_receiver::Simple Calendar 5x2
+url::http://schemas.android.com/apk/res/
+intent::android.intent.ACTION_TIME
+activity::.WidgendarSettings
+service_receiver::Simple Calendar 4x2
+url::r.admob.com
+service_receiver::Simple Calendar 4x4
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+real_permission::android.permission.ACCESS_FINE_LOCATION
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+service_receiver::Simple Calendar 5x5
+service_receiver::Simple Calendar 2x2
+service_receiver::Simple Calendar 2x1
+api_call::android/content/ContentResolver;->query
+url::http://mm.admob.com/static/android/canvas.html
+service_receiver::Simple Calendar 3x3
+service_receiver::Simple Calendar 3x2
+service_receiver::Simple Calendar 3x1
+api_call::android/content/Context;->startActivity
+url::http://a.admob.com/f0?
+service_receiver::Simple Calendar 4x1
+activity::.CalendarChoice
+url::http://mm.admob.com/static/android/i18n/20101109
+call::getSystemService
+activity::com.admob.android.ads.AdMobActivity
+service_receiver::ExampleBroadcastReceiver
+url::mm.admob.com
+activity::.ActivityList
+url::api.admob.com
+url::a.admob.com
+api_call::android/webkit/WebView
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+service_receiver::com.admob.android.ads.analytics.InstallReceiver
+intent::android.intent.ACTION_TIMEZONE_CHANGED
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+permission::android.permission.READ_CALENDAR
+provider::android.appwidget.provider
+url::schemas.android.com

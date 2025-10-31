@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.GMB_TV
+url::http://www.gmbtv.com/mobile/service_list.php
+permission::android.permission.INTERNET
+activity::.SVideoPlayer
+intent::android.intent.category.LAUNCHER
+url::www.gmbtv.com
+real_permission::android.permission.INTERNET
+activity::.SubView

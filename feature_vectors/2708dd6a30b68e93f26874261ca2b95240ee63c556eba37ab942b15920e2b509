@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::org.innerbrat.pslfeedreader.Preferences
+provider::org.innerbrat.provider.pslfeedreader
+permission::android.permission.INTERNET
+provider::org.innerbrat.provider.psleventreader
+real_permission::android.permission.INTERNET
+service_receiver::org.innerbrat.pslfeedreader.WebEventReaderService
+service_receiver::org.innerbrat.pslfeedreader.WebFeedReaderService
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.MainAppTab
+real_permission::android.permission.READ_CONTACTS
+api_call::java/net/URL;->getContent
+activity::PSL RSS Feeds
+call::printStackTrace
+call::getSystemService
+api_call::android/content/ContentResolver;->query

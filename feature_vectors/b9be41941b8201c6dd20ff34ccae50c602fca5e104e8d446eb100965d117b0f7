@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::ViewWebcam
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://api.allprogrammic.com/iGrandMassif
+activity::WebcamListTab
+activity::.Main
+url::api.allprogrammic.com
+permission::android.permission.INTERNET
+url::forum.grand-massif.net
+real_permission::android.permission.INTERNET
+url::http://www.grand-massif.net
+intent::android.intent.category.LAUNCHER
+url::www.grand-massif.net
+activity::LiaisonListTab
+api_call::java/net/URL;->openConnection
+url::http://forum.grand-massif.net

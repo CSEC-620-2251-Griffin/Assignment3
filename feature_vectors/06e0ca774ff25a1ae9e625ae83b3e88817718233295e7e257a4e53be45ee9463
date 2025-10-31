@@ -1,0 +1,23 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+activity::.DesertWindsNativeActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+activity::.VideoActivity
+url::s3.amazonaws.com
+call::printStackTrace
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+call::getSystemService
+activity::.GameCommandActivity
+feature::android.hardware.screen.landscape
+url::https://s3.amazonaws.com/snapdragon-game/desertwinds.mf
+activity::.DownloadActivity
+activity::.IncompatibleDeviceActivity
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+activity::.EULAActivity
+intent::android.intent.category.LAUNCHER

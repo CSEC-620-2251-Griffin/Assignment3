@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+intent::android.intent.action.MAIN
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+service_receiver::SilentSleep_Widget
+service_receiver::SilentSleep_Receiver
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+provider::android.appwidget.provider
+call::getSystemService
+activity::.SilentSleep

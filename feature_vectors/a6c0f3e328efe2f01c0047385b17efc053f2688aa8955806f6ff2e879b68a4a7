@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.CollatzConjecture
+url::http://www.google.com/search?q%3Dcollatz+conjecture
+real_permission::android.permission.INTERNET
+activity::CollatzConjecture
+intent::android.intent.category.LAUNCHER
+url::www.google.com
+call::getSystemService

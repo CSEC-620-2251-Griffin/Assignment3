@@ -1,0 +1,17 @@
+url::http://www.dragongoserver.net/sgf.php?gid%3D
+activity::HomeDGS
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://www.dragongoserver.net/login.php?quick_mode%3D1&userid%3D
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+url::www.dragongoserver.net
+permission::android.permission.INTERNET
+url::http://www.dragongoserver.net/quick_play.php?gid%3D
+call::Read/Write External Storage
+url::http://www.dragongoserver.net/quick_status.php
+intent::android.intent.category.LAUNCHER
+activity::.HomeDGS
+call::Execution of external commands
+real_permission::android.permission.INTERNET

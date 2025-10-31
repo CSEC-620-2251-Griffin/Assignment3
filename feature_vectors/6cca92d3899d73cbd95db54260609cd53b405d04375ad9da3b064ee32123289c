@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/app/backup/BackupManager;->dataChanged
+intent::android.intent.action.MAIN
+activity::com.guenmat.android.optimus2x.PreferencesActivity
+real_permission::android.permission.BACKUP
+service_receiver::com.guenmat.android.optimus2x.receiver.BootCompletedBroadcastReceiver
+intent::android.intent.category.LAUNCHER
+activity::com.guenmat.android.optimus2x.BrightnessActivity
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+activity::.BrightnessActivity

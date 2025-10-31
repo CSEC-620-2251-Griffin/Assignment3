@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+permission::android.permission.READ_PHONE_STATE
+call::Read/Write External Storage
+real_permission::android.permission.WAKE_LOCK
+activity::Preferences
+activity::.AiMusic
+api_call::android/media/MediaPlayer;->start
+activity::AiMusic
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/telephony/TelephonyManager;->listen
+api_call::java/lang/Runtime;->exec
+service_receiver::AiMusicSrv
+call::Execution of external commands
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

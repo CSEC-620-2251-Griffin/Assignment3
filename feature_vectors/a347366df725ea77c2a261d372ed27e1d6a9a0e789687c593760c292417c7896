@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.ListRewardsActivity
+call::printStackTrace
+activity::.EditChainActivity
+api_call::android/app/Activity;->startActivity
+activity::.EditRewardActivity
+intent::android.intent.category.LAUNCHER
+activity::.HelpActivity
+activity::Enter password
+provider::android.appwidget.provider
+activity::.MyChain
+activity::.ShowRewardActivity

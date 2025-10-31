@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::.Dice3DFree
+intent::android.intent.category.LAUNCHER
+activity::.Settings
+call::getSystemService

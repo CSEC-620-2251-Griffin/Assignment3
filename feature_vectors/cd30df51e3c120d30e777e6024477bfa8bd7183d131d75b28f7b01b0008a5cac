@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mobile.wareagleball.com
+url::http://mobile.wareagleball.com/schedule
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.wareagleball.com/about
+url::http://mobile.wareagleball.com/stats
+intent::android.intent.category.LAUNCHER
+url::mobile.wareagleball.com
+activity::War Eagle Ball
+url::http://mobile.wareagleball.com/roster

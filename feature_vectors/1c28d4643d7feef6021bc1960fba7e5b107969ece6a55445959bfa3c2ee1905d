@@ -1,0 +1,14 @@
+intent::android.intent.action.TIMEZONE_CHANGED
+feature::android.hardware.touchscreen
+service_receiver::.CalendarRenderService
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+real_permission::android.permission.READ_CONTACTS
+provider::android.appwidget.provider
+call::getSystemService
+intent::android.intent.action.TIME_SET

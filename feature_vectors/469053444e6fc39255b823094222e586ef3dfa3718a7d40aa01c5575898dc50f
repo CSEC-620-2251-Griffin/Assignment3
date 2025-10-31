@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::HttpPost
+activity::.SplashScreen
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://api.topthatpublishing.com/mobile/index.php
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+intent::android.intent.category.VIEW
+intent::android.intent.action.DEFAULT
+url::api.topthatpublishing.com
+call::getSystemService

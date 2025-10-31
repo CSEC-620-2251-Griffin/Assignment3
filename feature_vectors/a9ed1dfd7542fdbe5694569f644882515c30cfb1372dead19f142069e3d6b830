@@ -1,0 +1,45 @@
+feature::android.hardware.touchscreen
+activity::Draft
+url::http://l.yimg.com/a/i/us/sp/v/nfl/players_l/headshots/
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+activity::DraftPunk Changelog
+url::http://joshclemm.com/android/draftpunk/legal.html
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+real_permission::android.permission.INTERNET
+activity::About Draft Punk
+api_call::android/app/Activity;->startActivity
+activity::.WebViewActivity
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+url::news.google.com
+url::http://joshclemm.com/android/draftpunk/privacy.html
+url::http://joshclemm.com/android/draftpunk/version.txt
+url::http://a.admob.com/f0?
+url::http://joshclemm.com/android/draftpunk/terms.html
+activity::.rss.RssNewsActivity
+call::getSystemService
+url::joshclemm.com
+url::l.yimg.com
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://joshclemm.com/android/draftpunk/faq.html
+call::Cipher(AES/CBC/PKCS5Padding)
+url::http://news.google.com/news?pz%3D1&cf%3Dall&ned%3Dus&hl%3Den&cf%3Dall&output%3Drss&q%3D
+activity::.Rankings
+activity::Setup Draft
+activity::.FootballNewsActivity
+activity::.HomeActivity
+url::http://joshclemm.com/android/donate/draftpunk/index.html
+url::a.admob.com
+activity::.PlayerDetailsActivity
+url::http://joshclemm.com/android/draftpunk/permissions.html
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+activity::.dragndrop.EditRankingsActivity
+activity::Previous Drafts
+feature::android.hardware.screen.portrait
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+url::schemas.android.com

@@ -1,0 +1,37 @@
+feature::android.hardware.touchscreen
+url::http://market.android.com/details?id%3Dcom.lbslocal.cinema
+url::http://schemas.android.com/apk/res/
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+url::r.admob.com
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+activity::Confirme o destino:
+call::getPackageInfo
+call::getDeviceId
+activity::.Principal
+url::market.android.com
+api_call::android/content/Context;->startActivity
+url::http://mm.admob.com/static/android/i18n/20100331
+url::http://market.android.com/details?id%3Dcom.lbslocal.transito
+call::getSystemService
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::mm.admob.com
+call::Obfuscation(Base64)
+url::b.scorecardresearch.com
+url::http://mm.admob.com/static/android/canvas.html
+activity::Confirme a origem:
+url::api.admob.com
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://b.scorecardresearch.com/p?
+url::schemas.android.com

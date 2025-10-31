@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::trace.nullwire.com
+activity::.USDebtMain
+intent::android.intent.action.MAIN
+url::http://www.treasurydirect.gov/NP/BPDLogin?application%3Dnp
+service_receiver::USDebtProvider
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://trace.nullwire.com/collect/
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::getPackageInfo
+service_receiver::USDebtUpdate
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+call::HttpPost
+url::www.treasurydirect.gov

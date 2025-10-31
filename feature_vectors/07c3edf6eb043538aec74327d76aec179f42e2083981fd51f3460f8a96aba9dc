@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Obfuscation(Base64)
+call::printStackTrace
+call::Read/Write External Storage
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+activity::.DialogInputPass
+activity::.TravelCrypt
+activity::.FileList
+call::Cipher(SHA-1)

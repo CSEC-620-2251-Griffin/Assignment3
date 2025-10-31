@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.skqotd.com
+url::http://www.commahead.com/skqotd/
+activity::.ShowQuote
+url::http://www.skqotd.com/skqotd/QOTD.aspx
+url::http://www.skqotd.com/skqotd/
+url::www.commahead.com

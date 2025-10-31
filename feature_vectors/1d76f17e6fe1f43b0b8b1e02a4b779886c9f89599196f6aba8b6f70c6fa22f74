@@ -1,0 +1,18 @@
+url::twitter.com
+activity::OpenApp
+url::www.facebook.com
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::http://maxelus.net
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::http://www.facebook.com/pages/Maxelusnet/138469212885865?sk%3Dwall
+call::Read/Write External Storage
+url::http://twitter.com/maxelusNet
+feature::android.software.live_wallpaper
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+url::maxelus.net
+intent::android.intent.category.INFO
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

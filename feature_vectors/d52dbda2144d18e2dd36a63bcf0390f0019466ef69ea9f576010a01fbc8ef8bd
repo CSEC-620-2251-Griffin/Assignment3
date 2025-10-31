@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.StartGameActivity
+intent::android.intent.action.MAIN
+activity::com.tvcoders.games.as2.StartGameActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::com.tvcoders.games.as2.AboutActivity
+call::getSystemService

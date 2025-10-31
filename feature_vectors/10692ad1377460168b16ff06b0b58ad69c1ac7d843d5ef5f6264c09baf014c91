@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.NumFastPress
+activity::.startGame
+activity::.NumberMove
+activity::.SelectLevel
+intent::android.intent.action.DEFAULT
+call::getSystemService
+intent::android.intent.category.LAUNCHER

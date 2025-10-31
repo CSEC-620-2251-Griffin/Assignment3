@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::www.windin.com
+url::http://www.windin.com/home/stock/html_wind/
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.wind.com.cn
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://m.wind.com.cn
+feature::android.hardware.screen.landscape
+activity::.WiPadAppDelegate
+permission::android.permission.WRITE_OWNER_DATA
+api_call::android/webkit/WebView
+url::www.wind.com.cn
+url::m.wind.com.cn
+intent::android.intent.category.LAUNCHER

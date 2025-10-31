@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+activity::.SleepLogActivity
+feature::android.hardware.screen.portrait
+activity::.SleepDetailActivity
+intent::android.intent.category.LAUNCHER
+service_receiver::.SleepLogWidgetService
+provider::android.appwidget.provider
+activity::.SleepListActivity

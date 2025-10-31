@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::www.google.co.jp
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.google.co.jp/search?hl%3Dja&ie%3DUTF-8&q%3D
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.AndCCV
+call::Read/Write External Storage
+call::getSystemService

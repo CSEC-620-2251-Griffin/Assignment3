@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://traffic.511.org/portalmap2.gif
+intent::android.intent.action.MAIN
+activity::.BayAreaTraffic
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+url::http://maps.google.com/?ll%3D%s&z%3D11&layer%3Dt
+intent::android.intent.category.LAUNCHER
+url::maps.google.com
+url::traffic.511.org
+api_call::java/net/Socket
+call::getSystemService

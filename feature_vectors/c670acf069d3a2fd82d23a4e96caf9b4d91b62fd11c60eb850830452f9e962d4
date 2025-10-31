@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+activity::.CgAccountListActivity
+call::Read/Write External Storage
+activity::.CgPinDetailsActivity
+activity::.CgAppPreferencesActivity
+activity::.CgExportImportActivity
+activity::.CgChangeLoginPasswordActivity
+activity::.CgBackupActivity
+call::Obfuscation(Base64)
+call::getSystemService
+activity::.CgComboListActivity
+activity::.CgRestoreActivity
+call::Cipher(AES)
+activity::.CgLoginPageActivity
+activity::.CgStartActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.CgTabListActivity
+activity::.CgPinListActivity
+activity::.CgAccountDetailsActivity
+activity::.CgBackupFileListActivity
+intent::android.intent.category.LAUNCHER
+activity::.CgInformationActivity
+activity::.CgAboutActivity

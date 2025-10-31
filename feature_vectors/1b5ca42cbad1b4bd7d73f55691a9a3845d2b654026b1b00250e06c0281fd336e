@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+url::xsus.fi
+url::wiki.processing.org
+call::printStackTrace
+url::http://www.facebook.com/Laemae
+real_permission::android.permission.WAKE_LOCK
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::market.android.com
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+url::http://xsus.fi/laemae/?submit%3Dhighscore&date%3D
+call::Execution of external commands
+feature::android.hardware.screen.landscape
+activity::.Laemae
+url::http://xsus.fi/laemae/
+url::www.facebook.com
+url::http://wiki.processing.org/w/Android
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::https://market.android.com/details?id%3Dfreetimeheroes.laemae
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

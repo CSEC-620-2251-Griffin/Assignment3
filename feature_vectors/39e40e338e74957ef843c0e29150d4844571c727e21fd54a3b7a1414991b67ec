@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::com.ixellence.ixgyro.android.demo.DialogActivity
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/location/LocationManager;->isProviderEnabled
+feature::android.hardware.location.gps
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://www.ixellence.com/ixgyro/faq
+url::www.ixellence.com
+activity::SettingsActivity
+real_permission::android.permission.INTERNET
+activity::.CockpitActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

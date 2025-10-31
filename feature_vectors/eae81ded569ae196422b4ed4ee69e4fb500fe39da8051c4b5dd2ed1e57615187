@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::www.smokeybearmobile.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.smokeybearmobile.com/
+permission::android.permission.INTERNET
+activity::com.animax.smokeybear.SmokeyBear
+real_permission::android.permission.INTERNET
+activity::.SmokeyBear
+intent::android.intent.category.LAUNCHER

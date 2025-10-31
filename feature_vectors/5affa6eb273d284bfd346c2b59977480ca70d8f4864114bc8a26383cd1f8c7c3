@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Mypreferences
+url::http://www.wilmsoft.net/support
+activity::.main
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+url::www.wilmsoft.net
+url::http://www.wilmsoft.net/datewheel

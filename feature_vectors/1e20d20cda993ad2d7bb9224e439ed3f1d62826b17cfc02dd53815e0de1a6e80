@@ -1,0 +1,5 @@
+activity::.MobileDiary
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::EditActivity
+intent::android.intent.category.LAUNCHER

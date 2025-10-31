@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://example.com/zabbix/api_jsonrpc.php
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ActiveTriggerActivity
+intent::android.intent.category.LAUNCHER
+url::example.com
+call::getSystemService

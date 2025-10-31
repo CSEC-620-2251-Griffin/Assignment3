@@ -1,0 +1,10 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://finance.yahoo.com/d/quotes.csv?f%3Dsl1c6n&s%3D
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::finance.yahoo.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.StockPrices
+intent::android.intent.category.LAUNCHER

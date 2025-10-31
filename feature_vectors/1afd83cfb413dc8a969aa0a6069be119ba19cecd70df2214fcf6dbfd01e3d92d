@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://sites.google.com/site/gson/gson-user-guide
+activity::.Menu
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::slideme.org
+api_call::android/media/MediaPlayer;->start
+url::http://slideme.org/application/syrmia-td
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::sites.google.com
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

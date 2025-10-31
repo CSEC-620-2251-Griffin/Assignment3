@@ -1,0 +1,3 @@
+activity::com.LeocoreApps.LP_Corporate_Skin2.Skin
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen

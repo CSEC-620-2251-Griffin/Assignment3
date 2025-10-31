@@ -1,0 +1,9 @@
+activity::.KanjiFlashcards
+intent::android.intent.action.RUN
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+intent::android.intent.category.DEFAULT
+activity::Choose grade(s)
+intent::android.intent.category.LAUNCHER
+activity::Quiz results
+activity::Choose group(s)

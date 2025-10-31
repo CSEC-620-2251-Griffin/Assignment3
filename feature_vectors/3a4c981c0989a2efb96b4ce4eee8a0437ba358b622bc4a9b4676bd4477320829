@@ -1,0 +1,16 @@
+activity::.Volume
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+activity::.Alcoholism
+activity::.Mail
+activity::.Consumption
+feature::android.hardware.screen.portrait
+activity::.Home
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+activity::.Who
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService
+activity::.Advice

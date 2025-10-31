@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::ccom.blucat.arkanoid.intent.action.ArkanoidPreferenceActivity
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.PREFERENCE
+activity::.ArkanoidPreferenceActivity
+url::blucat.xoom.it
+activity::.ArkanoidActivity
+intent::android.intent.category.LAUNCHER
+url::http://blucat.xoom.it/\n
+real_permission::android.permission.WAKE_LOCK

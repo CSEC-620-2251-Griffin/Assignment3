@@ -1,0 +1,40 @@
+activity::InkBook - Forgot Password
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.CALL_PHONE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+activity::InkBook - Add Appointment
+activity::InkBook - Report Results
+activity::InkBook - Run Report
+url::https://www.liveaccess.com
+call::getPackageInfo
+call::HttpPost
+activity::InkBook - Create New Account
+api_call::android/content/Context;->startActivity
+activity::InkBook - Appointment Book
+activity::InkBook - Services List
+activity::com.dsi.preferences.CmjPreferencesActivity
+activity::InkBook
+activity::InkBook - Home
+url::dev.liveaccess.com
+call::getSystemService
+activity::InkBook - Add Client
+activity::.LoginActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::InkBook - Product List
+activity::InkBook - Error Log
+activity::InkBook - Appointment Date and Time
+url::www.liveaccess.com
+url::house.liveaccess.com
+activity::InkBook - Client List
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://dev.liveaccess.com
+feature::android.hardware.telephony
+url::http://house.liveaccess.com
+real_permission::android.permission.INTERNET
+activity::InkBook - Edit Client Notes
+activity::InkBook - Services and Products
+intent::android.intent.category.LAUNCHER

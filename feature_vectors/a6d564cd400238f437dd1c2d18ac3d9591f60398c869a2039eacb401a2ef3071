@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.BV_BookViewer
+intent::android.intent.action.MAIN
+call::printStackTrace
+feature::android.hardware.screen.portrait
+call::Cipher(AES/CBC/PKCS5Padding)
+activity::.TV_TextViewer
+intent::android.intent.category.LAUNCHER
+activity::.SF_SelectFileActivity
+call::getSystemService

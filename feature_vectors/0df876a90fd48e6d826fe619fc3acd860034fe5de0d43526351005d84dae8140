@@ -1,0 +1,44 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+url::twitter.com
+intent::android.intent.ACTION_TIME_TICK
+service_receiver::de.leihwelt.android.daysleft.ExampleBroadcastReceiver
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+activity::ExampleAppWidgetConfigureMiddle
+api_call::android/app/Activity;->startActivity
+activity::ExampleAppWidgetConfigure
+service_receiver::Days Left
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+activity::Days Left Widget
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+activity::EditWidgetActivity
+activity::.Tutorial
+activity::Select widget icon
+activity::com.google.ads.AdActivity
+url::http://a.admob.com/f0?
+activity::Select overlay image
+service_receiver::Days Left (2x1)
+call::getSystemService
+real_permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::Days Left (3x1)
+call::Cipher(AES/CBC/PKCS5Padding)
+url::www.gstatic.com
+url::a.admob.com
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+api_call::android/webkit/WebView
+url::market.android.com
+intent::android.intent.action.MAIN
+intent::android.intent.ACTION_TIMEZONE_CHANGED
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+activity::de.leihwelt.android.daysleft.PopupActivity
+activity::ExampleAppWidgetConfigureWide
+url::http://twitter.com/atla_
+intent::android.intent.category.LAUNCHER
+intent::android.intent.ACTION_TIME_CHANGED
+url::http://market.android.com/details?id%3Dcom.threebanana.notes
+provider::android.appwidget.provider
+activity::InstallNotesActivity
+url::schemas.android.com

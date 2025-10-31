@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::Register User
+url::http://noteonhand.com/service/
+url::http://noteonhand.com/service/updateMessages.php?
+url::http://noteonhand.com/service/register.php?
+activity::NoteOnHand
+url::noteonhand.com
+url::http://noteonhand.com/service/register.php?userName%3D
+url::http://noteonhand.com/service/register2.php?userName%3D
+call::getSystemService
+url::http://noteonhand.com/service/updateMessages.php?userId%3D
+url::http://noteonhand.com/service/getMessages.php?userId%3D
+activity::.MessageListView
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+url::http://noteonhand.com/service/register2.php?
+real_permission::android.permission.INTERNET
+activity::Big View
+intent::android.intent.category.LAUNCHER

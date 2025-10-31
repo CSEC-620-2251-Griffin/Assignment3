@@ -1,0 +1,12 @@
+activity::.BuzzwordBingoSetting
+feature::android.hardware.touchscreen
+activity::.BuzzwordBingoGame
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+activity::.BuzzwordBingoWinner
+activity::.BuzzwordBingoFinal
+activity::.BuzzwordBingoMainMenu
+activity::.BuzzwordBingoSplash
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER

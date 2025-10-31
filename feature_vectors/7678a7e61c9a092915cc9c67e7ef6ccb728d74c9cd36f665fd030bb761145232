@@ -1,0 +1,13 @@
+activity::FinishedListActivity
+feature::android.hardware.touchscreen
+activity::.CheckpocMainActivity
+intent::android.intent.action.MAIN
+activity::TemplateListActivity
+activity::TemplateEditorActivity
+activity::CheckpocMainActivity
+activity::CheckingActivity
+intent::android.intent.category.LAUNCHER
+provider::com.zealpockets.checkpoc.exportprovider
+call::getPackageInfo
+call::getSystemService
+intent::android.intent.action.VIEW

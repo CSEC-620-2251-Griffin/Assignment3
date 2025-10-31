@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.barclays.mobi
+activity::com.eminencecs.PixieLogo.BarclaysOnline
+activity::com.eminencecs.PixieLogo.Splash
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.barclays.mobi/mobile-banking.html
+intent::android.intent.category.LAUNCHER
+activity::.Splash

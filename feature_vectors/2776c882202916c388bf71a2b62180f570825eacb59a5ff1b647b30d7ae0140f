@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.Popupnews
+intent::android.intent.action.MAIN
+url::www.acadnetwork.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.acadnetwork.com/.xml/type,rss/
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.INSERT
+url::http://www.acadnetwork.com
+provider::android.appwidget.provider
+service_receiver::.HelpCAD$UpdateService
+api_call::android/content/Context;->startService

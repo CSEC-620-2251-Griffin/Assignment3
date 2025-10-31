@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.AmazingFactsTab
+activity::.DisplayFavFacts
+feature::android.hardware.screen.portrait
+activity::.AmazingFacts
+intent::android.intent.category.LAUNCHER
+activity::.DisplayFacts

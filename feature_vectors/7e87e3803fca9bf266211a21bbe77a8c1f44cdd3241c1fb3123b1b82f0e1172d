@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://zoinkles.com/beta/api/getDealDetails
+url::http://zoinkles.com/beta/
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://zoinkles.com/beta/api/getDealImage
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::WelcomeActivity
+activity::.WelcomeActivity
+url::zoinkles.com
+intent::android.intent.category.LAUNCHER
+url::http://zoinkles.com/beta/api/getTitle
+real_permission::android.permission.INTERNET

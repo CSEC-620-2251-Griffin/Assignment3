@@ -1,0 +1,9 @@
+url::www.bincoder.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.PACKAGE_ADDED
+intent::android.intent.action.MAIN
+activity::.Main
+intent::android.intent.category.LAUNCHER
+url::http://www.bincoder.com/entry.php?ctry%3D
+url::http://www.bincoder.com/products.php?upc%3D
+service_receiver::BroadMon

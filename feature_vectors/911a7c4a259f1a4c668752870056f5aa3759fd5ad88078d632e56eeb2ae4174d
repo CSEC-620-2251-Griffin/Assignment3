@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www5.vetmed.auburn.edu
+url::http://www5.vetmed.auburn.edu/cg/comascaledocs.html
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.comascaleapp
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::www.time.mk
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+url::http://www.time.mk/rss/all
+api_call::java/net/URL;->openConnection

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::com.fourqueue.android.killdroid.intent.action.Preferences
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+intent::android.intent.category.PREFERENCE
+activity::.MainActivity
+activity::.game.KillActivity
+real_permission::android.permission.INTERNET
+activity::.help.HelpActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.main.MainActivity
+activity::.pref.PreferenceActivity

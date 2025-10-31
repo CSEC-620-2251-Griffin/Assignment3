@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::HBA1C
+intent::android.intent.action.MAIN
+url::www.diabetes2.nl
+url::http://www.diabetes2.nl
+intent::android.intent.category.LAUNCHER
+activity::.HBA1C
+call::getSystemService

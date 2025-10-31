@@ -1,0 +1,12 @@
+url::www.andev.cn
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.CandidSnapshot
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/hardware/Camera;->open
+intent::android.intent.category.LAUNCHER
+url::http://www.andev.cn/joke
+api_call::android/webkit/WebView

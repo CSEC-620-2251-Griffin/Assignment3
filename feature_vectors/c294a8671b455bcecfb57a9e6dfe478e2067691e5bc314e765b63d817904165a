@@ -1,0 +1,10 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.SplashScreenActivity
+intent::android.intent.category.DEFAULT
+activity::GalleryExample
+intent::android.intent.action.VIEW
+intent::android.intent.category.MAIN
+intent::android.intent.category.LAUNCHER

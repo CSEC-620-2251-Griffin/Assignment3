@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_CONTACTS
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.READ_PHONE_STATE
+service_receiver::.NightService
+permission::android.permission.RECEIVE_SMS
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.NightRingerStart
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::getSystemService
+activity::.ContactManageActivity

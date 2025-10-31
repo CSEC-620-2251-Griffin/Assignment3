@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+url::spreadsheets.google.com
+permission::android.permission.INTERNET
+url::http://spreadsheets.google.com/formResponse?formkey%3D
+activity::AndDaavenSettings
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+activity::.AndDaavenSplash
+activity::org.acra.CrashReportDialog
+call::getSystemService

@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::http://andrewgarrison.com/iphone/simplephysics
+intent::android.intent.action.MAIN
+url::http://andrewgarrison.com/iphone/simplephysics/SubmitScore-Android.ashx
+call::getSystemService
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://andrewgarrison.com/iphone/bridgebasher/SubmitEmail.ashx?source%3Dsp-android
+api_call::android/app/Activity;->setContentView
+intent::android.intent.category.BROWSABLE
+call::HttpPost
+url::andrewgarrison.com
+intent::android.intent.action.VIEW

@@ -1,0 +1,15 @@
+activity::.RushHour
+feature::android.hardware.touchscreen
+activity::.Congrats
+intent::android.intent.action.MAIN
+activity::.About
+activity::.Tutorial
+activity::.Settings
+activity::.Home
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+activity::.Challenge
+feature::android.hardware.screen.portrait
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

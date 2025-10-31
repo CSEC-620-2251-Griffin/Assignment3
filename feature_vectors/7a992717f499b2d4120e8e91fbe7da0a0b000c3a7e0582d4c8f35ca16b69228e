@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+url::http://schemas.android.com/apk/res/android
+feature::android.hardware.camera
+intent::android.intent.action.SEND
+intent::android.intent.category.DEFAULT
+activity::mosaic.pro.dividebyzero.net.Mosaic
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->openInputStream
+real_permission::android.permission.READ_CONTACTS
+call::Read/Write External Storage
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+activity::.Mosaic
+url::schemas.android.com

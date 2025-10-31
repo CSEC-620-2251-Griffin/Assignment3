@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::getSystemService
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.Phoenix
+intent::android.intent.category.LAUNCHER
+url::iphoenix.codxp.com
+real_permission::android.permission.INTERNET
+url::http://iphoenix.codxp.com/

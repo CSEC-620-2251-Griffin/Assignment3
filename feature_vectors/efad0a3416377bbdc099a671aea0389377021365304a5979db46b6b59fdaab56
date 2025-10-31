@@ -1,0 +1,14 @@
+url::http://mobile.tsudaily.com/schedule
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::TSU Daily
+url::http://mobile.tsudaily.com/about
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.tsudaily.com
+intent::android.intent.category.LAUNCHER
+url::mobile.tsudaily.com
+url::http://mobile.tsudaily.com/stats
+url::http://mobile.tsudaily.com/roster

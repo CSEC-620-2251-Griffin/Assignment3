@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.net.conn.BACKGROUND_DATA_SETTING_CHANGED
+service_receiver::.SettingsWidget$UpdateService
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.net.conn.CONNECTIVITY_CHANGE
+api_call::android/content/Context;->startService
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/provider/Settings$System;->putInt
+provider::android.appwidget.provider
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

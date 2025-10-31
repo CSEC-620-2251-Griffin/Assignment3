@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.FavesList
+url::i.pricerunner.com
+activity::.EditPreferences
+permission::android.permission.INTERNET
+activity::.ProductSearch
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.PriceDroid
+activity::.ProductDetail
+url::http://i.pricerunner.com/images/site-gui/no-image/123x123/no-image_270x250.gif
+api_call::android/content/Context;->startActivity
+call::getSystemService

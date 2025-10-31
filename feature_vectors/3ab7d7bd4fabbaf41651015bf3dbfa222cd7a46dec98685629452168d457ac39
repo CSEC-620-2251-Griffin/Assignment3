@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.CALL_PHONE
+activity::.widget.DetailActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.telephony
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+provider::android.appwidget.provider
+call::getSystemService

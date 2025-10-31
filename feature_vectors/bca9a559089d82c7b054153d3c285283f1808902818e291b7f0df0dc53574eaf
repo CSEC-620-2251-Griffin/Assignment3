@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+service_receiver::.CameraPaperService
+api_call::android/hardware/Camera;->open
+permission::android.permission.CAMERA
+call::getSystemService

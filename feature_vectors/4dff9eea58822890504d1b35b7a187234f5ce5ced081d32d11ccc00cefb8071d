@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+url::market.android.com
+url::http://market.android.com/developer?pub%3DValtiel

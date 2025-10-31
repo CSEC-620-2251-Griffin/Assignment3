@@ -1,0 +1,14 @@
+url::http://mobile.dailybluedemon.com/roster
+feature::android.hardware.touchscreen
+activity::.Main
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mobile.dailybluedemon.com
+permission::android.permission.INTERNET
+url::http://mobile.dailybluedemon.com/about
+url::mobile.dailybluedemon.com
+url::http://mobile.dailybluedemon.com/stats
+intent::android.intent.category.LAUNCHER
+url::http://mobile.dailybluedemon.com/schedule
+real_permission::android.permission.INTERNET
+activity::Daily Blue Demon

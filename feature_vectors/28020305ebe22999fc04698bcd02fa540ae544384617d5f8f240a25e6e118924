@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+call::Obfuscation(Base64)
+intent::android.intent.action.SEND
+intent::android.intent.action.EDIT
+intent::android.intent.category.DEFAULT
+activity::.Super_Gen_Pass
+activity::.Preferences
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService
+intent::android.intent.category.LAUNCHER

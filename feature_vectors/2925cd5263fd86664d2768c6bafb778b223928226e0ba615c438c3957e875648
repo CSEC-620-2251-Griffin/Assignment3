@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://m.eraswitzerland.com/index.cfm?t%3Dhome&lang%3DSuisseFrench
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://m.eraswitzerland.com/index.cfm?t%3Dhome&lang%3DSwiss
+activity::.main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::m.eraswitzerland.com
+url::http://m.eraswitzerland.com/
+call::getSystemService

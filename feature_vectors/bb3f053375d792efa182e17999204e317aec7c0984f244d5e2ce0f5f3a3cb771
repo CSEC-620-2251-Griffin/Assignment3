@@ -1,0 +1,5 @@
+activity::.DisplayScoreSheet
+feature::android.hardware.touchscreen
+activity::Settings
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

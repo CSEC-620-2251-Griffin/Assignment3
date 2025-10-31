@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_USER_DICTIONARY
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::SoundVolumeDialog
+url::dl.dropbox.com
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+api_call::android/content/ContentResolver;->query
+activity::VibeDurationDialog
+activity::.tutorial.T9Info
+real_permission::android.permission.VIBRATE
+activity::FontSizeDialog
+call::getSystemService
+permission::android.permission.VIBRATE
+url::http://dl.dropbox.com/u/16567062/srb_cyr.mp3
+permission::android.permission.READ_USER_DICTIONARY
+activity::.util.SmileysActivity
+activity::ColorPickerDialog
+api_call::java/net/URL;->openConnection
+api_call::android/provider/UserDictionary$Words;->addWord
+url::http://dl.dropbox.com/u/16567062/srb_lat.mp3
+real_permission::android.permission.WRITE_USER_DICTIONARY
+service_receiver::SoftSerbianKeyboard

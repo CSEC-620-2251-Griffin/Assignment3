@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://www.marcochillemi.it
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.main
+permission::android.permission.INTERNET
+url::www.marcochillemi.it
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

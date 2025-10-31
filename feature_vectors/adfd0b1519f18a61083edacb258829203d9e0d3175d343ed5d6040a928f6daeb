@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::com.twofortyfouram.locale.intent.action.FIRE_SETTING
+real_permission::android.permission.VIBRATE
+url::www.yourcompany.com
+intent::com.twofortyfouram.locale.intent.action.EDIT_SETTING
+url::http://www.yourcompany.com/yourhelp.html
+call::getPackageInfo
+api_call::android/app/NotificationManager;->notify
+service_receiver::.FireReceiver
+intent::android.intent.category.INFO
+call::getSystemService

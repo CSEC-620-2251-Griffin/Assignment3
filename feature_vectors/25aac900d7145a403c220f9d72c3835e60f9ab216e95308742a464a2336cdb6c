@@ -1,0 +1,13 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://bus.gjcity.net)\uc758
+permission::android.permission.INTERNET
+activity::.GJbusInfo
+real_permission::android.permission.INTERNET
+url::bus.gjcity.net)\uc758
+url::wap.gjcity.net
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+url::http://wap.gjcity.net/KTF/view_arrival_info.php?ars_id%3D

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::.RPConfiguratorActivity
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+url::http://mmsc.cingular.com
+permission::android.permission.WRITE_APN_SETTINGS
+call::getSystemService
+url::mmsc.cingular.com

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.INFO
+service_receiver::White clock Widget
+provider::android.appwidget.provider
+activity::com.Ardchoille.Apps.WhiteClockWidget.Info

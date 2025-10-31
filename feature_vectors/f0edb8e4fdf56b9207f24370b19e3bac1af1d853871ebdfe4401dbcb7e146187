@@ -1,0 +1,6 @@
+activity::.RedlightActivity
+feature::android.hardware.touchscreen
+activity::.BluelightActivity
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+activity::.GreenlightActivity

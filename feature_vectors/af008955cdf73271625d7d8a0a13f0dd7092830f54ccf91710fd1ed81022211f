@@ -1,0 +1,21 @@
+url::www.kejut.com
+feature::android.hardware.touchscreen
+activity::yuku.alkitab.base.PengaturanActivity
+url::market.android.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+url::http://market.android.com/
+call::Read/Write External Storage
+permission::android.permission.INTERNET
+activity::yuku.alkitab.base.BukmakActivity
+url::http://www.kejut.com/prog/android/alkitab/renungan-proxy.php?nama%3D
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+activity::.IsiActivity
+url::http://www.kejut.com/prog/android/fidbek/kirim.php
+call::HttpPost
+activity::yuku.alkitab.base.BantuanActivity
+call::getSystemService

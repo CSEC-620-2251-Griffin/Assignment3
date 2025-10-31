@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::.FrontPage
+intent::android.intent.category.LAUNCHER
+activity::.Mastermind
+url::maize.hkg.tripod.com
+url::http://maize.hkg.tripod.com

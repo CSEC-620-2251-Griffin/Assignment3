@@ -1,0 +1,20 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+activity::.ProfileEdit
+intent::android.intent.action.MAIN
+api_call::java/net/Socket
+real_permission::android.permission.INTERNET
+activity::.KeypadActivity
+call::Cipher(Invalid keysize)
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+activity::.PasswordSetActivity
+real_permission::android.permission.VIBRATE
+url::sites.google.com
+activity::.SettingsActivity
+url::http://sites.google.com/site/gson/gson-user-guide
+activity::.MobileKPD2
+activity::.SplashActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

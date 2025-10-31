@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://www.ebookhow.info/Nexus_S/Gossips_of_Nexus_S.html
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://www.ebookhow.info/Nexus_S/Reviews_of_Nexus_S.html
+url::www.ebookhow.info
+url::http://www.ebookhow.info/Nexus_S/Google_Nexus_S.html
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.SplashActivity
+call::getSystemService
+url::http://www.ebookhow.info/Nexus_S/Gadgets_for_Nexus_S.html

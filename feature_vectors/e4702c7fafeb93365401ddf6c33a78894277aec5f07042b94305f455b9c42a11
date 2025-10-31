@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.wifi
+intent::com.twofortyfouram.locale.intent.action.FIRE_SETTING
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::.AutoWakeOnLanService
+permission::android.permission.INTERNET
+intent::com.twofortyfouram.locale.intent.action.EDIT_SETTING
+real_permission::android.permission.INTERNET
+call::getSystemService
+api_call::java/net/DatagramSocket
+real_permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+service_receiver::.EventReceiver
+api_call::android/content/Context;->startService

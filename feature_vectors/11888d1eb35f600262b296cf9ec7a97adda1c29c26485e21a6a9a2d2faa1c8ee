@@ -1,0 +1,6 @@
+activity::.LiquidBatteryHelpActivity
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS

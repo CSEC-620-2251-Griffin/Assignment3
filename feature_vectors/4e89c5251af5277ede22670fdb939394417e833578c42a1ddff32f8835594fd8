@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::mobile.kstateupdate.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::K-State Update
+activity::.Main
+permission::android.permission.INTERNET
+url::http://mobile.kstateupdate.com/stats
+real_permission::android.permission.INTERNET
+url::http://mobile.kstateupdate.com/roster
+url::http://mobile.kstateupdate.com
+intent::android.intent.category.LAUNCHER
+url::http://mobile.kstateupdate.com/about
+url::http://mobile.kstateupdate.com/schedule

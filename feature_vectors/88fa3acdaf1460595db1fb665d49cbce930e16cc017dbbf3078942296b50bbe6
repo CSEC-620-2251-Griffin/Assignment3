@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::pccw
+intent::android.intent.action.MAIN
+url::http://wap.pccwmobile.com/servicecorner
+activity::.pccw
+intent::android.intent.category.LAUNCHER
+url::wap.pccwmobile.com

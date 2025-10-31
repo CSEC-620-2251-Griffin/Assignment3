@@ -1,0 +1,9 @@
+activity::.OpenLink
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.mobi-spy.com/userguide.php
+url::www.mobi-spy.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

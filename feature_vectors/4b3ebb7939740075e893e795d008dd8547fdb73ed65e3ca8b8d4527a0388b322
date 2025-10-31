@@ -1,0 +1,63 @@
+feature::android.hardware.touchscreen
+call::Cipher(data too short)
+call::Cipher(5EBAC6E0054E166819AFF1CC6D346CDB)
+call::Cipher(invalid forcing byte in block)
+call::printStackTrace
+call::Cipher(BlockLength too large for simple addition.\n)
+call::Cipher(8ef0272c42db838bcf7b07af0ec30f38)
+call::Cipher(pad block corrupted)
+url::http://bbs.acgfuture.com
+call::Read/Write External Storage
+call::Cipher(failed short input check)
+call::Cipher(3fa40e8a984d48156a271787ab8883f9893d51ec4b563b53)
+call::getPackageInfo
+call::Cipher(malformed signature)
+call::Cipher(C34C052CC0DA8D73451AFE5F03BE297F)
+real_permission::android.permission.WAKE_LOCK
+call::Cipher(hc-128/ecrypt_HC-128.txt)
+call::Cipher(7a7bba4d79111d1e)
+call::Cipher(b1656851699e29fa24b70148503d2dfc)
+call::Cipher(c842a08972b43d20836c91d1b7530f6b)
+call::Cipher(block truncated)
+url::bbs.acgfuture.com
+api_call::android/media/MediaPlayer;->start
+api_call::java/net/Socket
+url::www.bouncycastle.org)
+call::Cipher(ebb773f993278eff)
+call::Cipher(dee9d4d8f7131ed9)
+call::Cipher(797bba4d78111d1e)
+call::Obfuscation(Base64)
+call::getSystemService
+call::Cipher(0EDD33D3C621E546455BD8BA1418BEC8)
+call::Cipher(ed732271a7b39f475b4b2b6719f194bf)
+call::Cipher(context)
+call::Cipher(f71f65e7b80c0c6966fee607984b5cdf)
+call::Cipher(4EF997456198DD78)
+url::test
+call::Cipher(AES)
+call::Cipher(00)
+feature::android.hardware.screen.landscape
+call::Cipher(mac check in EAX failed)
+call::Cipher(mac check in CCM failed)
+call::Cipher(BlockLength does not match modulus for Naccache-Stern cipher.\n)
+permission::android.permission.SYSTEM_ALERT_WINDOW
+call::Cipher(238B4FE5847E44B2)
+call::Cipher(3afbb5c77938280d)
+permission::android.permission.WAKE_LOCK
+call::Cipher(unwrap data must be a multiple of 8 bytes)
+call::Cipher(07923A39EB0A817D1C4D87BDB82D1F1C)
+call::Cipher(41ea3a0a94baa940)
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://test
+call::Cipher(input too short)
+call::Cipher(8910494504181950f98dd998a82b6749)
+real_permission::android.permission.INTERNET
+url::http://www.bouncycastle.org)
+call::Cipher(Mac codes failed to equal.)
+intent::android.intent.category.LAUNCHER
+call::Cipher(cipher returned null)
+call::Cipher(Null pointer as ciphertext)
+activity::.start
+call::Cipher(failed reversal)
+call::Cipher(2587cae27a12d300)

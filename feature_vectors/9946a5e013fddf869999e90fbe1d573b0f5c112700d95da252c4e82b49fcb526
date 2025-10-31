@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.KeyboardLabs
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+url::http://theory.cpe.ku.ac.th/
+activity::.TestResult
+url::theory.cpe.ku.ac.th
+real_permission::android.permission.INTERNET
+call::HttpPost
+call::getSystemService
+intent::android.intent.category.LAUNCHER

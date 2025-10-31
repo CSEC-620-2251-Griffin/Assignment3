@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::cubix.mk
+intent::android.intent.action.MAIN
+url::http://cubix.mk/oglasi
+url::http://cubix.mk/baraj
+url::http://cubix.mk/najnovo
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://cubix.mk/poraki
+intent::android.intent.category.LAUNCHER
+url::http://cubix.mk/upload/
+activity::.mPazarWidget
+url::http://cubix.mk/opcii

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.HaanKipHoen2
+url::http://www.leeskoffertjes.nl
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::www.leeskoffertjes.nl
+intent::android.intent.category.LAUNCHER

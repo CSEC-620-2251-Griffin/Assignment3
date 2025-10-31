@@ -1,0 +1,16 @@
+url::http://playerx.sf.net/quake/
+feature::android.hardware.touchscreen
+url::http://playerx.sf.net/quake/libquake_jni.so.gz
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+api_call::android/content/Context;->startActivity
+url::http://playerx.sf.net/quake/pak0.pak.gz
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.QuakeLauncher
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+url::http://playerx.sf.net/quake/soundtrack.zip
+url::http://playerx.sf.net/
+api_call::android/media/MediaPlayer;->start
+url::playerx.sf.net

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.kekka
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.settei
+intent::android.intent.category.LAUNCHER
+activity::.karte
+api_call::java/net/DatagramSocket
+activity::.Cheveux
+call::getSystemService

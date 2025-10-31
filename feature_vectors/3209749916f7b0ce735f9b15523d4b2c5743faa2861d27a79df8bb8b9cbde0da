@@ -1,0 +1,17 @@
+feature::android.hardware.location.network
+feature::android.hardware.location.gps
+activity::ricevi
+permission::android.permission.ACCESS_LOCATION
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::Cipher(DES/ECB/NoPadding)
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+permission::android.permission.ACCESS_FINE_LOCATION
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::.ricevi
+permission::android.permission.ACCESS_GPS
+api_call::java/net/Socket

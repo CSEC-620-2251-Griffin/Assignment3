@@ -1,0 +1,11 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+intent::android.intent.action.SET_WALLPAPER
+activity::.MainActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+activity::MainActivity

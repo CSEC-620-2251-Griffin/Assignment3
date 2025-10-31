@@ -1,0 +1,13 @@
+url::http://www.ebll.org/zzzdroid/FieldCond.php
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.YourLeagueWebSite
+url::http://www.ebll.org/zzzdroid/Home.php
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.ebll.org/zzzdroid/Schedule.php
+intent::android.intent.category.LAUNCHER
+url::http://www.ebll.org/zzzdroid/Fields.php
+url::http://www.ebll.org/zzzdroid/Standings.php
+url::www.ebll.org

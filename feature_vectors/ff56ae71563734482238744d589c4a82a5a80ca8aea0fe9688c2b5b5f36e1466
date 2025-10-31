@@ -1,0 +1,16 @@
+url::market.android.com
+feature::android.hardware.touchscreen
+url::http://www.cfhomeloans.com/mobile_app_links/getapprovednow.htm
+url::http://www.cfhomeloans.com/mobile_app_links/monthlypaymentcalc.htm
+activity::.HelloAndroid
+intent::android.intent.action.MAIN
+url::rozellrealestate.com
+url::www.cfhomeloans.com
+url::http://www.cfhomeloans.com/mobile_app_links/currentrates.htm
+url::http://www.homebenefitiq.com/login.aspx?u%3Drozell&p%3Dmike
+feature::android.hardware.screen.portrait
+url::www.homebenefitiq.com
+intent::android.intent.category.LAUNCHER
+url::http://rozellrealestate.com/home-search
+url::http://market.android.com/details?id%3Dcom.realtoraps.mikerozell
+url::http://rozellrealestate.com/featured-listings

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Grassroot
+real_permission::android.permission.INTERNET
+url::grassrootslit.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://grassrootslit.com/submissions.php

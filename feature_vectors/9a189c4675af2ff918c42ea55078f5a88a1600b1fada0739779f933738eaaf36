@@ -1,0 +1,9 @@
+activity::.Licenses
+activity::.SnowballGL
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+feature::android.hardware.sensor.accelerometer
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService

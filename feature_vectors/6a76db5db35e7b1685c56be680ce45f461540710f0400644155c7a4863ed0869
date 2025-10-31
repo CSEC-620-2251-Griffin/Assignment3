@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.VasdaqTVRemocon
+permission::android.permission.BLUETOOTH
+api_call::android/content/Context;->startActivity
+activity::VasdaqTVRemocon
+permission::android.permission.BLUETOOTH_ADMIN
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+permission::android.permission.RECORD_AUDIO
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

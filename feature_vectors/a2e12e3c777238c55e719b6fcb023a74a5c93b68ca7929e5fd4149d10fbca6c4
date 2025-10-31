@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::espen.drageseilere.net
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.lunch
+intent::android.intent.category.LAUNCHER
+url::http://espen.drageseilere.net/lunch.html

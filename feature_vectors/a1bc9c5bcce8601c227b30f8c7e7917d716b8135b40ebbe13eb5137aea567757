@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.Menu
+url::market.android.com
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+url::http://market.android.com/search?q%3Dpub:%22Bede%20Products%22
+call::getSystemService

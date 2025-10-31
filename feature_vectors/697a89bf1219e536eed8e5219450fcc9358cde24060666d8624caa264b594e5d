@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://www.freefitnesstracker.com
+intent::android.intent.action.MAIN
+call::HttpPost
+activity::com.cultusoft.workoutlogger.mobile.android.SplashActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::getPackageInfo
+url::http://10.100.2.3:8080
+url::www.freefitnesstracker.com
+api_call::android/app/Activity;->startActivity
+activity::.SplashActivity
+url::10.100.2.3

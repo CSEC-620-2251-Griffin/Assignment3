@@ -1,0 +1,15 @@
+url::market.android.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Calculator
+activity::.Prefs
+api_call::android/os/Vibrator;->vibrate
+url::http://market.android.com/search?q%3Dpub:\
+feature::android.hardware.screen.portrait
+activity::.Events
+permission::android.permission.VIBRATE
+activity::.Information
+real_permission::android.permission.VIBRATE
+activity::.Promo
+call::getSystemService
+intent::android.intent.category.LAUNCHER

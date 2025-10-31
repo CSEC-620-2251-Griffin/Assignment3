@@ -1,0 +1,56 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/location/LocationManager;->isProviderEnabled
+activity::com.droidmania.tooglewidgetspack.gps.GpsToggleActivity
+permission::android.permission.READ_PHONE_STATE
+service_receiver::com.droidmania.tooglewidgetspack.widgets.BluetoothWidget$UpdateService
+call::getWifiState
+real_permission::android.permission.ACCESS_FINE_LOCATION
+service_receiver::com.droidmania.tooglewidgetspack.widgets.GpsWidget$UpdateService
+call::getPackageInfo
+real_permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/bluetooth/BluetoothAdapter;->disable
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/bluetooth/BluetoothAdapter;->isEnabled
+feature::android.hardware.location.gps
+service_receiver::com.droidmania.tooglewidgetspack.widgets.AirplaneWidget$UpdateService
+activity::com.droidmania.tooglewidgetspack.brightness.BrightnessActivity
+real_permission::android.permission.BLUETOOTH
+feature::android.hardware.location
+permission::android.permission.BLUETOOTH_ADMIN
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+real_permission::android.permission.WRITE_SETTINGS
+call::setWifiEnabled
+service_receiver::2G/3G Toggle
+call::getSystemService
+service_receiver::com.droidmania.tooglewidgetspack.widgets.AutoRotateWidget$UpdateService
+permission::android.permission.WAKE_LOCK
+permission::android.permission.BLUETOOTH
+service_receiver::Bluetooth Toggle
+service_receiver::Brightness Level
+api_call::android/net/wifi/WifiManager;->setWifiEnabled
+service_receiver::Auto Rotate
+service_receiver::.ToggleService
+service_receiver::Wifi Toggle
+real_permission::android.permission.CHANGE_WIFI_STATE
+api_call::android/provider/Settings$System;->putInt
+real_permission::android.permission.BLUETOOTH_ADMIN
+permission::android.permission.CHANGE_WIFI_STATE
+service_receiver::Airplane Toggle
+service_receiver::Silent Toggle
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+service_receiver::.ToggleReceiver
+service_receiver::com.droidmania.tooglewidgetspack.widgets.BrightnessWidget$UpdateService
+permission::android.permission.WRITE_SETTINGS
+feature::android.hardware.screen.portrait
+service_receiver::com.droidmania.tooglewidgetspack.widgets.G3Widget$UpdateService
+service_receiver::com.droidmania.tooglewidgetspack.widgets.SilentWidget$UpdateService
+service_receiver::GPS Toggle
+intent::android.intent.category.LAUNCHER
+activity::com.droidmania.tooglewidgetspack.settings.SettingsActivity
+activity::.SettingsActivity
+activity::com.droidmania.tooglewidgetspack.dialogs.DialogActivity
+service_receiver::com.droidmania.tooglewidgetspack.widgets.WifiWidget$UpdateService
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

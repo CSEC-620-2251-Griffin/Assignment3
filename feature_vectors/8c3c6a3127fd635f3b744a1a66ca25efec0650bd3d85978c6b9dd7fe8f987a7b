@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.web2voice.com
+call::Cipher()
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.StartUp
+permission::android.permission.INTERNET
+url::http://www.web2voice.com/alibris-search-mobile.php?mobile%3D1
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getSystemService

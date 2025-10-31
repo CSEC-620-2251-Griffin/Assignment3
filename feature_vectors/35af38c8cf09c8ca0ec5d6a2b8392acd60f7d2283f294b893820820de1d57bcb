@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::images.ad-maker.info
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.TapTapSumo
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->startActivity
+url::http://images.ad-maker.info/apps/cdzgfv8h3xr8.html
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

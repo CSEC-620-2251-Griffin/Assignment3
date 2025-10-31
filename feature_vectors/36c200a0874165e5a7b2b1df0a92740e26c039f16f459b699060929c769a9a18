@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.FormFiller
+url::www.lesezirkel.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+activity::com.lesezirkel.leseprobe.FormFiller
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::HttpPost
+url::http://www.lesezirkel.com/gratisprobe.php?action%3Dsend

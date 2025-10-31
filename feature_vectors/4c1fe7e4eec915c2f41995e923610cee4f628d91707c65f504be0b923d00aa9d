@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::aranportal.com
+url::market.android.com
+intent::android.intent.action.MAIN
+activity::.Aranportal
+url::http://aranportal.com
+feature::android.hardware.faketouch
+url::www.baqueira.es
+activity::Aranportal
+url::http://www.facebook.com/aranportal
+url::www.youtube.com
+intent::android.intent.category.LAUNCHER
+url::http://www.baqueira.es/webcams/web-baqueira/web-mirador
+url::http://www.baqueira.es/parte-nieve
+url::https://market.android.com/details?id%3Dcom.aranportal
+url::http://www.youtube.com/watch?v%3DyT_aLI_MP-A

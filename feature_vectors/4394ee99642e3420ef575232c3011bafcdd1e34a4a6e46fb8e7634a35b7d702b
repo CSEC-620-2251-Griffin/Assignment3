@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.RockyM.net
+call::Read/Write External Storage
+url::http://www.RockyM.net
+intent::android.intent.category.LAUNCHER
+activity::.StorageInfo

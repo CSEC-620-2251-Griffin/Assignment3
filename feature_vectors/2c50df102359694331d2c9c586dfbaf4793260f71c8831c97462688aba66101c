@@ -1,0 +1,45 @@
+feature::android.hardware.touchscreen
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::java/net/HttpURLConnection
+activity::.Main
+activity::.app.InfoPage
+permission::android.permission.INTERNET
+url::magazin.softimage.cz
+activity::.app.EditAreas
+activity::.app.RadarPage
+service_receiver::Meteoservis 4x2
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.widgets.AppWidgetUpdateService
+real_permission::android.permission.WAKE_LOCK
+service_receiver::Meteoservis 2x1
+activity::.app.AddArea
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+api_call::android/media/MediaPlayer;->start
+service_receiver::.updservice.BootCompletedReceiver
+activity::.app.GraphPage
+activity::.app.GraphicsForecastPage
+service_receiver::Meteoservis 4x1\nKompaktn%C3%AD (4 dny)
+call::getSystemService
+url::http://magazin.softimage.cz/weather/
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startService
+url::toplist.cz
+url::http://toplist.cz/dot.asp?id%3D785223
+call::Read/Write External Storage
+url::http://magazin.softimage.cz/weather/forecast.php?pos%3D
+permission::android.permission.WAKE_LOCK
+service_receiver::.updservice.AlarmSetterService
+activity::.app.AppPreferences
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.app.AboutPage
+activity::.app.SatelitPage
+service_receiver::.updservice.MeteoservisService
+activity::.app.ImagePage
+real_permission::android.permission.INTERNET
+service_receiver::Meteoservis 4x1\nDetailn%C3%AD (po 3hod)
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::Meteoservis 3x2\nRadar
+provider::android.appwidget.provider

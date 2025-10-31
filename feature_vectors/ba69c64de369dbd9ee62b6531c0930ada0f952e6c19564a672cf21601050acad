@@ -1,0 +1,45 @@
+feature::android.hardware.touchscreen
+url::android.istrukta.net.in.tum.de
+call::getDeviceId
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://android.istrukta.net.in.tum.de
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_FINE_LOCATION
+url::http://alcatraz.net.in.tum.de:8745/parameters
+real_permission::android.permission.ACCESS_WIFI_STATE
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.INTERNET
+url::http://www.xenesis.net/ip.php
+real_permission::android.permission.WAKE_LOCK
+feature::android.hardware.location.gps
+url::www.xenesis.net
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/content/Context;->startActivity
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::http://alcatraz.net.in.tum.de:8746/myip
+feature::android.hardware.location
+call::getSystemService
+api_call::java/net/NetworkInterface
+service_receiver::MobStruktA Upload Service
+service_receiver::MobStruktA Measuring Service
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::.ShowConnectionInformation
+permission::android.permission.WAKE_LOCK
+api_call::android/net/wifi/WifiManager;->getConfiguredNetworks
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/location/LocationManager;->requestLocationUpdates
+service_receiver::MobStrukta Broadcast Receiver
+real_permission::android.permission.READ_PHONE_STATE
+url::alcatraz.net.in.tum.de
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.activities.ShowConnectionInformation
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+activity::.activities.PreferencesActivity
+intent::android.intent.category.LAUNCHER
+url::http://alcatraz.net.in.tum.de:8745/publish

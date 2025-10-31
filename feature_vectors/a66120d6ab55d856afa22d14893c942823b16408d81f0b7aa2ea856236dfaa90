@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.EditPhotoID
+intent::android.intent.action.MAIN
+activity::.Indications
+url::http://goo.gl/czNYP
+intent::android.intent.category.LAUNCHER
+url::goo.gl

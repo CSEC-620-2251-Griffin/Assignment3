@@ -1,0 +1,10 @@
+activity::jp.ne.sakura.androidapplilingerie.RakuReviewLingerie
+activity::.RakuReviewLingerie
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+url::rakutenreview.info
+real_permission::android.permission.INTERNET
+url::http://rakutenreview.info/lingerie/
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

@@ -1,0 +1,16 @@
+url::www.pama.org
+feature::android.hardware.touchscreen
+url::http://service.gofaapma.com/Service1.asmx/SearchFaaData
+url::http://www.pama.org
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::www.google.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://service.gofaapma.com/Service1.asmx/
+url::service.gofaapma.com
+url::http://www.google.com/search?q%3D
+call::HttpPost
+call::getSystemService
+activity::.GoFaa

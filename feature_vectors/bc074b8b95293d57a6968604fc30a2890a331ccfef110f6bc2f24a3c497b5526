@@ -1,0 +1,21 @@
+api_call::java/net/HttpURLConnection
+activity::.DMBook40Activity
+activity::DMBook 4.0
+real_permission::android.permission.CHANGE_NETWORK_STATE
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+url::dmbook.mobi
+intent::android.intent.category.LAUNCHER
+api_call::android/net/ConnectivityManager;->requestRouteToHost
+url::http://dmbook.mobi/api/
+real_permission::android.permission.INTERNET
+call::getSystemService
+permission::android.permission.CHANGE_NETWORK_STATE

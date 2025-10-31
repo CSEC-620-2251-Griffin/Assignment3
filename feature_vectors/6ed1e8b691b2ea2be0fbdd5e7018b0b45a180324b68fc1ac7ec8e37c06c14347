@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::cobratits.wordpress.com
+url::http://cobratits.wordpress.com/feed/
+url::www.bestofellis.com
+intent::android.intent.action.MAIN
+url::twitter.com
+url::http://twitter.com/statuses/user_timeline/26798304.rss
+url::http://www.bestofellis.com/feed
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.RSSFeed
+api_call::java/net/URL;->openConnection

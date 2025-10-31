@@ -1,0 +1,14 @@
+url::http://www.neumino.com/redcard/data/index.html
+feature::android.hardware.touchscreen
+activity::.Browser
+activity::.Card
+intent::android.intent.action.MAIN
+url::www.neumino.com
+url::http://www.neumino.com/redcard/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.neumino.com/redcard/data/update.txt
+activity::.Home
+activity::.Internet
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient

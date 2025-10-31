@@ -1,0 +1,16 @@
+activity::MudraView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::mob.adwhirl.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::new.spiritproject.com
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://new.spiritproject.com/medicus/
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->startActivity
+url::http://mob.adwhirl.com/getInfo.php?appid%3D%s&appver%3D%d&client%3D2
+api_call::java/net/URL;->getContent
+call::getSystemService
+activity::.SpiritMudras

@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+activity::.PreviewActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+activity::.flashlight.ChangeColourActivity
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.flashlight.FlashlightActivity
+api_call::android/hardware/Camera;->open
+call::Read/Write External Storage
+activity::PreviewActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/os/PowerManager$WakeLock;->acquire
+permission::android.permission.CAMERA
+real_permission::android.permission.WAKE_LOCK
+call::printStackTrace
+call::getSystemService
+activity::.colourTest.ColourBlindnessTestActivity

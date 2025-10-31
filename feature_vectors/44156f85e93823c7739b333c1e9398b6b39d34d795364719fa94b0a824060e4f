@@ -1,0 +1,17 @@
+api_call::android/webkit/WebView
+feature::android.hardware.location.network
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.INTERNET
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/webkit/WebChromeClient;->onGeolocationPermissionsShowPrompt
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::http://oudormir.mobi/
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::oudormir.mobi
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.OudormirExtend

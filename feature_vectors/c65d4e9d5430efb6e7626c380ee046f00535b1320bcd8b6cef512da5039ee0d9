@@ -1,0 +1,110 @@
+activity::Enable Auto-Sync
+call::getDeviceId
+service_receiver::One Num Widget Service
+url::https://gadgets.qlive.qwest.com:443/AFA/AFGadgetPluginRWS/restful/PHN01/login
+real_permission::android.permission.GET_ACCOUNTS
+service_receiver::com.google.android.c2dm.C2DMBroadcastReceiver
+call::getPackageInfo
+call::HttpPost
+service_receiver::Q: One Num Service
+activity::.clicktocall.CallActivity
+api_call::android/content/ContentResolver;->getMasterSyncAutomatically
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+activity::.voicemail.VoicemailDetail
+call::getSystemService
+intent::com.google.android.c2dm.intent.RECEIVE
+api_call::android/accounts/AccountManager;->blockingGetAuthToken
+service_receiver::Q: Home Messages
+permission::android.permission.GET_ACCOUNTS
+activity::.LandingActivity
+service_receiver::com.google.android.c2dm.C2DMRetryReceiver
+service_receiver::InitReceiver
+api_call::android/accounts/AccountManager;->addAccount
+intent::android.intent.action.VIEW
+permission::android.permission.WAKE_LOCK
+activity::.settings.CallFollowingSettings
+permission::android.permission.AUTHENTICATE_ACCOUNTS
+real_permission::android.permission.READ_SYNC_STATS
+real_permission::android.permission.USE_CREDENTIALS
+service_receiver::.sync.QwestSyncService
+permission::android.permission.INTERNET
+api_call::android/content/ContentResolver;->isSyncActive
+intent::android.net.conn.BACKGROUND_DATA_SETTING_CHANGED
+real_permission::android.permission.READ_SYNC_SETTINGS
+service_receiver::Home Msgs Widget Service
+api_call::android/accounts/AccountManager;->getAccounts
+permission::android.permission.READ_SYNC_STATS
+api_call::android/os/PowerManager$WakeLock;->acquire
+service_receiver::Push Notification Service
+api_call::android/content/Context;->startService
+real_permission::android.permission.READ_PHONE_STATE
+url::https://gadgets.qlive.qwest.com:443/AFA/AFLegalAckRWS/restful/GOOGLE/
+activity::Voicemails
+permission::android.permission.CHANGE_WIFI_STATE
+provider::com.qwest.mobileaf.android.qwestprovider
+api_call::android/net/wifi/WifiManager;->getWifiState
+permission::android.permission.READ_SYNC_SETTINGS
+service_receiver::Qwest Mobile Essentials
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/telephony/TelephonyManager;->getDeviceId
+call::getWifiState
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+api_call::android/accounts/AccountManager;->addAccountExplicitly
+service_receiver::Q: Call Following
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.MODIFY_AUDIO_SETTINGS
+activity::.util.NoLoginFrame
+permission::com.qwest.mobileaf.android.permission.C2D_MESSAGE
+activity::.voicemail.VoicemailTabWidget
+url::messagemanager.qwest.com
+permission::android.permission.READ_PHONE_STATE
+api_call::android/content/ContentResolver;->addPeriodicSync
+provider::.provider.QwestProvider
+permission::android.permission.WRITE_SYNC_SETTINGS
+real_permission::android.permission.AUTHENTICATE_ACCOUNTS
+activity::.callfollowing.CallFollowingAlertActivity
+activity::.calllogs.CallLogDetailActivity
+intent::com.google.android.c2dm.intent.RETRY
+permission::android.permission.MANAGE_ACCOUNTS
+activity::.callfollowing.ViewEditLocationsActivity
+intent::android.intent.action.PICK
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.settings.VoicemailSettings
+feature::android.hardware.screen.portrait
+api_call::android/app/NotificationManager;->notify
+service_receiver::CallFollowing Widget Service
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.WRITE_SYNC_SETTINGS
+permission::android.permission.CALL_PHONE
+activity::.settings.CallSettings
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+permission::android.permission.USE_CREDENTIALS
+permission::android.permission.ACCESS_WIFI_STATE
+service_receiver::com.qwest.mobileaf.android.sync.agent.SyncRetryReceiver
+permission::com.google.android.c2dm.permission.RECEIVE
+real_permission::android.permission.VIBRATE
+permission::android.permission.PROCESS_OUTGOING_CALLS
+url::https://messagemanager.qwest.com/GadgetFeedback
+permission::android.permission.VIBRATE
+activity::Call Logs
+intent::com.google.android.c2dm.intent.REGISTRATION
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.telephony
+service_receiver::.authenticator.AuthenticationService
+activity::.clicktocall.ClickToCallActivity
+permission::android.permission.ACCESS_CELL_ID
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+real_permission::android.permission.INTERNET
+url::gadgets.qlive.qwest.com
+real_permission::android.permission.MANAGE_ACCOUNTS
+provider::android.appwidget.provider
+api_call::android/media/AudioManager;->setMode

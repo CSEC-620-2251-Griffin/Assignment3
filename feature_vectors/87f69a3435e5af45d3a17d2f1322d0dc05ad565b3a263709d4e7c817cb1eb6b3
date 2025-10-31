@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://m.kpu.ac.kr/html/0005.html
+url::m.kpu.ac.kr
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://our-project-goschool.googlecode.com/files/SchoolRo.db
+activity::.MainActivity
+url::m.seoul.go.kr
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+url::our-project-goschool.googlecode.com
+url::http://m.seoul.go.kr/traffic/SubInfoLine.do?subSearch%3D
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

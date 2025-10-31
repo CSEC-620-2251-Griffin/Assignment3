@@ -1,0 +1,5 @@
+activity::.FakeCamera
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+intent::android.intent.category.DEFAULT

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::pure-i.net
+real_permission::android.permission.INTERNET
+activity::.PureiActivity
+url::http://pure-i.net/yyaty
+intent::android.intent.category.LAUNCHER

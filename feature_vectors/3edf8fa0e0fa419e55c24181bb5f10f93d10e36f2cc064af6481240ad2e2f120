@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://www.lotto.be/FR/RSS/joker.xml
+real_permission::android.permission.INTERNET
+activity::DetailsUser
+activity::AddGrid
+api_call::java/net/URL;->openConnection
+url::http://www.lotto.be/FR/RSS/lotto.xml
+call::getSystemService
+activity::.AtoutLotto
+url::www.lotto.be
+url::http://www.loterie-nationale.be/FR/RSS/euromillions.xml
+intent::android.intent.category.DEFAULT
+activity::ShowResults2
+activity::AddUser
+intent::android.intent.action.MAIN
+activity::AddGrid2
+activity::ShowResults
+feature::android.hardware.screen.portrait
+activity::EditUser
+intent::android.intent.category.LAUNCHER
+url::www.loterie-nationale.be

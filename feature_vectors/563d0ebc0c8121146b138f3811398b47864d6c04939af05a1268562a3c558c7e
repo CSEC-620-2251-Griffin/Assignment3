@@ -1,0 +1,36 @@
+activity::.Shopping
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+activity::Compare Prices
+activity::Offer Detail
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+activity::.Splash
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::HttpPost
+feature::android.hardware.location.gps
+activity::.Settings
+feature::android.hardware.location
+activity::.Test
+activity::About ShopDroid
+activity::.HelpTopic
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+url::http://tfserv1.appspot.com/shop/
+activity::.Categories
+activity::.NoResults
+activity::.ProductReviews
+activity::Product Detail
+activity::.HelpTopics
+activity::Matching Products
+activity::.SearchResults
+url::tfserv1.appspot.com
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+activity::.OfferWebView
+activity::Share
+activity::.Attributes
+activity::.ShowOffer

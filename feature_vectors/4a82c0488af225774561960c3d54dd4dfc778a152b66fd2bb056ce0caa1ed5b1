@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::com.Klaxon.Sub
+intent::android.intent.action.MAIN
+activity::.Intro
+api_call::android/media/MediaPlayer;->start
+activity::.Main
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

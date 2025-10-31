@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.newgame
+activity::.GamePlay
+intent::android.intent.category.LAUNCHER
+activity::.doduge
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

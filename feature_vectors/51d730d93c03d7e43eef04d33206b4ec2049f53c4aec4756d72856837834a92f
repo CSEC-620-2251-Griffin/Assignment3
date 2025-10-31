@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+url::games.fetchdoggy.net
+intent::android.intent.action.MAIN
+url::http://games.fetchdoggy.net/leaderboards/fruitblastSubmit.pl?score%3D
+api_call::android/media/MediaPlayer;->start
+url::http://games.fetchdoggy.net/leaderboards/fruitblast.txt
+activity::.Game
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+url::http://games.fetchdoggy.net/leaderboards/fruitblastSubmit.pl
+intent::android.intent.category.LAUNCHER
+url::http://games.fetchdoggy.net
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection
+real_permission::android.permission.WAKE_LOCK

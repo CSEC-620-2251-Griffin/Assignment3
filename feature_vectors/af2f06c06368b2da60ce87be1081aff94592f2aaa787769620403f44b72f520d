@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+url::http://0xbenchmark.appspot.com
+activity::Benchmark
+url::http://0xbenchmark.appspot.com/mobileLogin
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::.Benchmark
+api_call::android/webkit/WebView
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+url::http://0xbenchmark.appspot.com/static/MobileTracker.html
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+url::0xbenchmark.appspot.com
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

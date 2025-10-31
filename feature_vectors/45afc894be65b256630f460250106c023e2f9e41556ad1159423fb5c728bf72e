@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::ConnectionSettings
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+activity::.AndroidMPC
+api_call::java/net/Socket
+permission::android.permission.WRITE_APN_SETTINGS
+call::getSystemService

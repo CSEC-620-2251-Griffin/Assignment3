@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://192.168.10.134/webdesenv/android/executa_log_palm_desenv.php
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+url::http://192.168.10.134/webdesenv/android/icol_os/executaos_apres.php
+real_permission::android.permission.INTERNET
+url::192.168.10.134
+url::http://192.168.10.134/webdesenv/android/icol_os/executaos_prod.php
+activity::.frminicial
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+url::http://192.168.10.134/webdesenv/android/icol_os/executaos.php
+call::Read/Write External Storage
+call::HttpPost
+call::printStackTrace
+call::getSystemService
+permission::android.permission.READ_EXTERNAL_STORAGE

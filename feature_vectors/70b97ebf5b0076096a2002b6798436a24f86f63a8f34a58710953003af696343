@@ -1,0 +1,60 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+activity::Score Submission
+url::http://schemas.android.com/apk/res/
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::WorldChallengePastTopScores
+activity::.Main
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/net/wifi/WifiManager;->isWifiEnabled
+url::www.mathsworkout.net
+real_permission::android.permission.ACCESS_WIFI_STATE
+call::getPackageInfo
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::Answer Review
+real_permission::android.permission.WAKE_LOCK
+url::http://mm.admob.com/static/android/canvas.html
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+permission::android.permission.ACCESS_WIFI_STATE
+call::HttpPost
+api_call::android/media/MediaPlayer;->start
+url::http://a.admob.com/f0?
+activity::Todays Top 50 Scores
+real_permission::android.permission.VIBRATE
+url::http://www.mathsworkout.net/controller.php
+real_permission::android.permission.INTERNET
+url::http://mm.admob.com/static/android/i18n/20101109
+call::getSystemService
+activity::Upgrade Today
+permission::android.permission.VIBRATE
+api_call::android/os/Vibrator;->vibrate
+url::mm.admob.com
+intent::android.intent.action.ANSWER
+url::api.admob.com
+permission::android.permission.READ_PHONE_STATE
+activity::High Score
+url::r.admob.com
+real_permission::android.permission.READ_PHONE_STATE
+url::a.admob.com
+activity::World Challenge Submission
+url::http://www.mathsworkout.net/controller.php?REQUESTCODE%3D4
+activity::High Scores
+feature::android.hardware.wifi
+url::http://www.mathsworkout.net/controller.php?REQUESTCODE%3D7
+url::http://www.mathsworkout.net/controller.php?REQUESTCODE%3D8
+url::http://www.mathsworkout.net/controller.php?REQUESTCODE%3D9
+url::http://www.mathsworkout.net/controller.php?REQUESTCODE%3D10
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/location/LocationManager;->getBestProvider
+activity::Wallpaper Chooser
+call::getDeviceId
+intent::android.intent.category.LAUNCHER
+activity::com.admob.android.ads.AdMobActivity
+url::http://www.mathsworkout.net/controller.php?REQUESTCODE%3D2&IMEI%3D
+api_call::android/content/Context;->startActivity
+activity::Player Settings
+url::schemas.android.com

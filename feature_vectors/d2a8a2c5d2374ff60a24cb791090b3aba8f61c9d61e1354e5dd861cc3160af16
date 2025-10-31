@@ -1,0 +1,7 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::.AccellerationActivity

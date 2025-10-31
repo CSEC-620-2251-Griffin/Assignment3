@@ -1,0 +1,13 @@
+activity::.light
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.CAMERA
+feature::android.hardware.camera
+activity::.main
+permission::android.permission.FLASHLIGHT
+feature::android.hardware.screen.portrait
+api_call::android/hardware/Camera;->open
+activity::.led
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.DEFAULT

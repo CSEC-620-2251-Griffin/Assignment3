@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+activity::.sdcardrader
+api_call::android/content/Context;->sendBroadcast
+call::getSystemService

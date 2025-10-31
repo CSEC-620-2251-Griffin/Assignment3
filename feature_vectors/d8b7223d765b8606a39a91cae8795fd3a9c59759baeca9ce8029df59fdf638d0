@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+service_receiver:::remote
+service_receiver::.service.ClockService41
+service_receiver::Clean Clock (4x2)
+intent::android.intent.action.TIME_TICK
+service_receiver::Clean Clock (4x1)
+provider::android.appwidget.provider
+service_receiver::.service.ClockService
+api_call::android/content/Context;->startService

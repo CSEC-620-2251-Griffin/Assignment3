@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::%EB%A8%EA%B3%A8%ED%EB%AC%EC%A4%EB%AA%A8%EB%B0%EC%BC
+real_permission::android.permission.CAMERA
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+permission::android.permission.CAMERA
+feature::android.hardware.camera
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::http://s1.ahasoft.co.kr/dangolplus
+url::s1.ahasoft.co.kr
+real_permission::android.permission.INTERNET
+activity::.view_webframe
+call::getSystemService

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::3g.iletou.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.CALL_PHONE
+activity::.WebActivity
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.HelpActivity
+real_permission::android.permission.INTERNET
+activity::.MainTest
+activity::.SplashActivity
+url::http://3g.iletou.com

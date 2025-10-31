@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Acupoints
+url::tobwithu.community.officelive.com
+url::http://tobwithu.community.officelive.com/Documents/acupoints.html
+intent::android.intent.category.LAUNCHER

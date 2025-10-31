@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::getSystemService
+activity::.NumberDialog
+activity::.HelpDialog
+activity::.MainMenu
+activity::.Sudoku
+real_permission::android.permission.WAKE_LOCK
+activity::.NopeDialog
+intent::android.intent.category.LAUNCHER

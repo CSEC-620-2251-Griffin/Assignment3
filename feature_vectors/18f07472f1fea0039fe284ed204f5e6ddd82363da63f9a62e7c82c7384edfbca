@@ -1,0 +1,19 @@
+url::http://74.125.79.104
+feature::android.hardware.touchscreen
+url::www.koknystrom.se
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::HttpPost
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+service_receiver::Dagens Lunch (M%C3%B6rk)
+api_call::java/net/HttpURLConnection
+service_receiver::Dagens Lunch (Ljus)
+url::http://www.koknystrom.se/meny.xml.php?rand%3D
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+url::74.125.79.104
+activity::.MainScreenActivity
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider

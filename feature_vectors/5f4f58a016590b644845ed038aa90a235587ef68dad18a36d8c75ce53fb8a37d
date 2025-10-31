@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.PreferencesActivity
+intent::android.intent.action.MAIN
+activity::.WebPage1Activity
+activity::.WebPage4Activity
+activity::.AboutActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.WebPage0Activity
+api_call::android/webkit/WebView
+activity::.WebPage2Activity
+activity::.WebPage3Activity
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startActivity
+activity::.WebBrowserActivity

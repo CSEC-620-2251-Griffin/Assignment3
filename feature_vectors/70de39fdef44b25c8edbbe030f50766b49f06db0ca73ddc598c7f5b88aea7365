@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::com.tokyoBus.tokyoBusActivity
+intent::android.intent.action.MAIN
+url::webmarkcom.net
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://webmarkcom.net/android/tokyoBus/
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.tokyoBusActivity

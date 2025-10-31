@@ -1,0 +1,25 @@
+activity::.menuLoto
+activity::.menuSuper
+url::toponi.site50.net
+feature::android.hardware.touchscreen
+activity::.HSuper
+url::http://toponi.site50.net/demo/l649res.xml
+permission::android.permission.INTERNET
+activity::.Trioresult
+url::http://toponi.site50.net/demo/l649prem.xml
+activity::.Lotoresult
+activity::LOTOMANIA CAT Demo
+url::http://toponi.site50.net/demo/l649pot.xml
+activity::.Superesult
+activity::.HTrio
+activity::.HLoto
+url::http://toponi.site50.net/demo/superes.xml
+api_call::java/net/URL;->openConnection
+activity::.menuTrio
+intent::android.intent.action.MAIN
+url::http://toponi.site50.net/demo/triores.xml
+activity::.LotomaniaCAT_DEMO
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::Pot Lotto 6/49
+activity::Lotto 6/49

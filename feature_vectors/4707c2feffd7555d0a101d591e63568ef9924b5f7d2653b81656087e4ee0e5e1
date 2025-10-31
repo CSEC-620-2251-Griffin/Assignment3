@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::sites.google.com
+intent::android.intent.action.MAIN
+activity::.StutteringJoke
+intent::android.intent.category.LAUNCHER
+url::https://sites.google.com/site/stutteringjohnjoke/

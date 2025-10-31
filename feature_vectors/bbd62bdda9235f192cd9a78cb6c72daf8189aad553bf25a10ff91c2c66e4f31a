@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+activity::net.askdroid.Tabs
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::net.askdroid.poll.ViewPollActivity
+call::HttpPost
+activity::net.askdroid.poll.CollectPollDataActivity
+api_call::android/app/Activity;->startActivity
+activity::net.askdroid.survey.ViewSurveyActivity
+activity::net.askdroid.survey.SurveyListActivity
+call::getSystemService
+activity::net.askdroid.poll.PollListActivity
+activity::net.askdroid.account.AccountActivity
+real_permission::android.permission.READ_PHONE_STATE
+activity::.Tabs
+intent::android.intent.action.MAIN
+activity::net.askdroid.survey.CollectSurveyDataActivity
+real_permission::android.permission.INTERNET
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER

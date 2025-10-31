@@ -1,0 +1,10 @@
+activity::.nikorankkyoiku
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://i.kensakusan.com/smart_nikoniko6/
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+url::i.kensakusan.com
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

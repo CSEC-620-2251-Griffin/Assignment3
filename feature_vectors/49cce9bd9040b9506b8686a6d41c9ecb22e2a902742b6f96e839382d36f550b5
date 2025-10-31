@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://cs-cinema-workshop.s3.amazonaws.com/NAB/NabStartMenu.txt
+url::http://cs-cinema-workshop.s3.amazonaws.com/Loci/Demo.xml
+activity::.NabDemoView
+real_permission::android.permission.WAKE_LOCK
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/media/MediaPlayer;->start
+url::http://fest.tau.ac.il/mnm/e/E10OLH1.xml
+call::getSystemService
+url::cs-cinema-workshop.s3.amazonaws.com
+api_call::java/net/URL;->openStream
+activity::StartMenuView
+url::fest.tau.ac.il
+feature::android.hardware.screen.landscape
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+activity::NabDemoView
+intent::android.intent.category.LAUNCHER

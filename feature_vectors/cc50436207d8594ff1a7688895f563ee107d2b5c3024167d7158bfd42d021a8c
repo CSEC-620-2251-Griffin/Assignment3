@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.SEND_SMS
+activity::.Main
+feature::android.hardware.telephony
+permission::android.permission.INTERNET
+activity::wap.syst.Main
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getSystemService

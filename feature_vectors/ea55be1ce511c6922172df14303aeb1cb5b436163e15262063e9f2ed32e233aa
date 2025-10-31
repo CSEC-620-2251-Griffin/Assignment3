@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::img2.pconline.com.cn
+call::Read/Write External Storage
+url::http://hiphotos.baidu.com/5201314gcm/pic/item/7f826efaef2a1ed659ee90ac.jpg
+url::hiphotos.baidu.com
+url::blog.bandao.cn
+real_permission::android.permission.READ_CONTACTS
+activity::.callWS
+api_call::android/content/ContentResolver;->query
+activity::.testXmlParser
+call::HttpPost
+call::printStackTrace
+url::http://hiphotos.baidu.com/5201314gcm/pic/item/14811009147877912eddd498.jpg
+activity::.everydayPicture
+url::http://img2.pconline.com.cn/pconline/1012/24/2305151_U2707P2DT20101224164116.jpg
+permission::android.permission.SET_WALLPAPER
+provider::com.caman.everydaypicture.provider.msg
+url::http://blog.bandao.cn/UserFiles/BlogPics/19076/2010-01/201001102131124637570.jpg
+intent::android.intent.action.MAIN
+url::192.168.1.100
+real_permission::android.permission.INTERNET
+url::http://hiphotos.baidu.com/kittly25/pic/item/52d0772547ad60128644f9c7.jpg
+intent::android.intent.category.LAUNCHER
+url::http://192.168.1.100:8080/mytest/WebSite1/getContent.asmx/getData
+url::http://img2.pconline.com.cn/pconline/1012/24/2305151_U2707P2DT20101224164431.jpg

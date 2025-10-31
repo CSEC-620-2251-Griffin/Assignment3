@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+url::http://market.android.com/search?q%3Dpub:JRTStudio
+url::market.android.com
+intent::android.intent.action.MAIN
+intent::android.intent.action.UMS_CONNECTED
+service_receiver::com.jrtstudio.automount.UMSReciever
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+activity::.Config
+activity::com.jrtstudio.automountactivity.Config
+permission::android.permission.WRITE_SETTINGS
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+service_receiver::com.jrtstudio.automount.AutoMountService

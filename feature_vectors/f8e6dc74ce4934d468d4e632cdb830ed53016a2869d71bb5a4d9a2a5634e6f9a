@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://www.vegvesen.no/Kjoretoy/Eie+og+vedlikeholde/Tilhengerkalkulator
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.CarDetails
+url::http://www.vegvesen.no/Kjoretoy/Eie+og+vedlikeholde/Tilhengerkalkulator?ticket%3D
+url::www.vegvesen.no

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.GloftBEOW
+intent::android.intent.action.MAIN
+url::www.netmite.com
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.ALTERNATIVE
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.LAUNCHER

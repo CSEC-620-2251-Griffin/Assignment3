@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.Menu
+intent::android.intent.action.MAIN
+url::http://www.halcyon.ro
+api_call::android/content/Context;->startActivity
+url::www.halcyon.ro
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getSystemService

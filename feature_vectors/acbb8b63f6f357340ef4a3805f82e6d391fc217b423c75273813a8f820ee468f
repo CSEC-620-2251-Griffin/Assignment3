@@ -1,0 +1,5 @@
+activity::SexyLightsMenu
+feature::android.hardware.touchscreen
+activity::.SexyLightsMenu
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Color
+intent::android.intent.category.LAUNCHER
+url::softlab.net.tf
+url::http://softlab.net.tf/
+activity::com.misc.coloriungo.free.Color

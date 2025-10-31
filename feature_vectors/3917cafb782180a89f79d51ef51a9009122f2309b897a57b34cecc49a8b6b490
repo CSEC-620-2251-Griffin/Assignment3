@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+url::pagead2.googlesyndication.com
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+url::www.thehollywoodgossip.com
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+call::getSystemService
+url::http://www.thehollywoodgossip.com/categories/jennifer-aniston/
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+activity::.MemoriesOfFriendsActivity
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->startActivity

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.ChozenChapter
+api_call::android/content/Context;->startActivity
+activity::.SplashScreen
+activity::.ReadByBooksSelectionPage
+feature::android.hardware.screen.portrait
+intent::android.intent.category.DEFAULT
+activity::.ReadASpecificDay
+activity::com.Tehilim.SplashScreen
+activity::com.Tehilim.Main
+activity::com.Tehilim.SimpleRead
+intent::android.intent.category.LAUNCHER

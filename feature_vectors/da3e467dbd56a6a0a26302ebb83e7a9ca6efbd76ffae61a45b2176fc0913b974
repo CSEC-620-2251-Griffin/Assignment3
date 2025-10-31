@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::shn.clmhosting.com
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+url::http://shn.clmhosting.com/files/mealcounter/mealdatadetails.json
+permission::android.permission.INTERNET
+url::http://www.stophungernow.org
+feature::android.hardware.screen.portrait
+url::www.stophungernow.com
+url::www.stophungernow.org
+intent::android.intent.category.LAUNCHER
+url::http://www.stophungernow.com
+real_permission::android.permission.INTERNET
+activity::.StopHungerNow
+url::http://www.stophungernow.org/site/Donation2?1420.donation%3Dform1&df_id%3D1420

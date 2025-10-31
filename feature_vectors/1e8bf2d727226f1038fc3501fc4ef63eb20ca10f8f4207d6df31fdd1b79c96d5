@@ -1,0 +1,5 @@
+activity::.Time2Time
+intent::android.intent.category.LAUNCHER
+activity::.Preferences
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen

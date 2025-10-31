@@ -1,0 +1,10 @@
+activity::.dilbert
+url::feeds.dilbert.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://feeds.dilbert.com/DilbertDailyStrip?format%3Dxml
+api_call::java/net/URL;->openConnection

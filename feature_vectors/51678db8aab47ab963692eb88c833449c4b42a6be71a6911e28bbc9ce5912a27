@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://goldprice.org/NewCharts/gold/images/gold_1d_o_USD.png
+activity::.GoldPrice
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+permission::android.permission.INTERNET
+url::http://goldprice.org/NewCharts/gold/images/gold_1d_o_INR.png
+intent::android.intent.category.LAUNCHER
+url::http://goldprice.org/NewCharts/gold/images/gold_1d_o_GBP.png
+url::goldprice.org
+real_permission::android.permission.INTERNET

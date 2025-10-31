@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.VolumeConvertActivity
+activity::.KitchenHelperActivity
+activity::.EditRecipesActivity
+intent::android.intent.action.MAIN
+activity::.TimerActivity
+activity::.WeightConversionActivity
+activity::.OtherConversionsActivity
+activity::.FavouritesActivity
+activity::.TempConversionActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

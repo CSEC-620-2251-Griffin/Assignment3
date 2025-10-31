@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.WebViewActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::premierchapitre.fr
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+url::http://premierchapitre.fr/sp/iphone/
+call::getSystemService

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.Badumtss
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+service_receiver::.BadumtssListener
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

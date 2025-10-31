@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::mobile.montezumanation.com
+url::http://mobile.montezumanation.com/stats
+url::http://mobile.montezumanation.com/schedule
+intent::android.intent.action.MAIN
+url::http://mobile.montezumanation.com/about
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.montezumanation.com
+intent::android.intent.category.LAUNCHER
+url::http://mobile.montezumanation.com/roster
+api_call::android/webkit/WebView
+activity::Montezuma Nation

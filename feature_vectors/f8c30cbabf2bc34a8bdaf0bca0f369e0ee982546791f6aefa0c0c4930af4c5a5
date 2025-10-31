@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::OptionsActivity
+intent::android.intent.action.MAIN
+url::market.android.com
+call::Obfuscation(Base64)
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+call::getPackageInfo
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://tc.echoz.com/
+activity::.DeliveryActivity
+url::https://market.android.com/details?id%3Dcom.echoz.tc.cricketscorer
+url::tc.echoz.com

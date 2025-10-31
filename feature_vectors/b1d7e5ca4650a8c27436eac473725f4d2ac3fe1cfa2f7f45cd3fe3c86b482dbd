@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::com.edb.mobile.android.mobilebankwrapper.library.VideoActivity
+intent::android.intent.action.MAIN
+activity::com.edb.mobile.android.mobilebankwrapper.library.MainActivity
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+call::getSystemService

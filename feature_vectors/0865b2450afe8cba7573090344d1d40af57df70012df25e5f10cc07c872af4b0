@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.netmite.com/android/srv/2.0/upload/Iron_Man_2__320x240__e71.jar
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+url::http://www.netmite.com/android/andme_signed.apk
+activity::.GloftIRO2
+url::www.netmite.com
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER

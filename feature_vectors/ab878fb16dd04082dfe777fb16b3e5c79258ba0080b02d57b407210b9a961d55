@@ -1,0 +1,9 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+feature::android.software.live_wallpaper
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService
+activity::.LauncherActivity

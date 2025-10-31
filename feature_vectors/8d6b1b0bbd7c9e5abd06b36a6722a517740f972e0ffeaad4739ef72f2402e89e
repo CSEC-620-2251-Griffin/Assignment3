@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.Einstein
+intent::android.intent.action.MAIN
+activity::.Main
+activity::.LanguageGame
+intent::android.intent.category.LAUNCHER
+activity::.EngEinstein

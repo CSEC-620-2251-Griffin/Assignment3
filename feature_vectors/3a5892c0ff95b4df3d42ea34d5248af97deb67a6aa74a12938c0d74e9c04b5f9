@@ -1,0 +1,12 @@
+activity::.Fractoid
+feature::android.hardware.touchscreen
+permission::android.permission.STATUS_BAR
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->openOutputStream
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/app/WallpaperManager;->setBitmap
+real_permission::android.permission.READ_CONTACTS
+activity::Fractoid
+real_permission::android.permission.SET_WALLPAPER

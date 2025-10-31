@@ -1,0 +1,34 @@
+activity::Open Instructions
+activity::ImportActivity
+feature::android.hardware.touchscreen
+url::chart.apis.google.com
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+url::http://schemas.android.com/apk/res/android
+activity::ResetActivity
+url::http://code.google.com/p/zxing
+service_receiver::LGAppWidgetProvider
+activity::RandomizeActivity
+api_call::android/content/Context;->startActivity
+activity::ScreenShotActivity
+url::code.google.com
+call::Read/Write External Storage
+url::com.joko.lgt
+activity::FrequencyActivity
+url::http://chart.apis.google.com/chart?cht%3Dqr&chs%3D350x350&chl%3D
+feature::android.software.live_wallpaper
+service_receiver::%E8%AA%E5%AE%E4%B9
+activity::WidgetResponseActivity
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+activity::ProfileActivity2
+activity::BuyHolidayActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://com.joko.lgt/
+activity::AboutActivity
+call::getSystemService
+url::http://schemas.android.com/apk/res/com.joko.lightgridpro
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+url::schemas.android.com

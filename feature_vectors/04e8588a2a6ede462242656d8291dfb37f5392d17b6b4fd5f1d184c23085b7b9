@@ -1,0 +1,11 @@
+activity::.ShowCredits
+activity::.ChooseLevel
+activity::.EnterHighscore
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.Beginning
+activity::.ChooseTypeOfProblems
+activity::.ShowHelp
+intent::android.intent.category.LAUNCHER
+activity::.PoseProblems
+activity::.ShowHighscores

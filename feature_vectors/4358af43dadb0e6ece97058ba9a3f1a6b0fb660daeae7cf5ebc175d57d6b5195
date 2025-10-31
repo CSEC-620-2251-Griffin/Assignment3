@@ -1,0 +1,5 @@
+activity::.SettingsActivity
+feature::android.hardware.touchscreen
+provider::android.appwidget.provider
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

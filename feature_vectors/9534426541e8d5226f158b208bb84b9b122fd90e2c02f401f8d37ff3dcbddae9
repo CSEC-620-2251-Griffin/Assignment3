@@ -1,0 +1,9 @@
+activity::.DailyHoroscope
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+api_call::android/telephony/TelephonyManager;->getLine1Number
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

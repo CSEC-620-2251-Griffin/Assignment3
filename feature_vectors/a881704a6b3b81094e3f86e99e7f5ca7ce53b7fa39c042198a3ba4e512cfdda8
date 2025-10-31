@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.RollActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService
+url::service.droiddice.com
+url::http://service.droiddice.com/AndroidManifest.xml

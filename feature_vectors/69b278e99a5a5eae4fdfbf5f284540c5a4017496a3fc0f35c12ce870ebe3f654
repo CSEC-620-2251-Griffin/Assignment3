@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+call::Read/Write External Storage
+feature::android.hardware.microphone
+real_permission::android.permission.RECORD_AUDIO
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.WAKE_LOCK
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+service_receiver::LivoWidgetProvider
+activity::LivoRecord
+api_call::android/content/Context;->startService
+activity::LivoMain
+intent::android.intent.category.DEFAULT
+service_receiver::RecorderService
+permission::android.permission.WAKE_LOCK
+api_call::android/media/AudioRecord
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::com.mp1.livorec.LivoPreferences
+intent::android.intent.category.LAUNCHER
+activity::.LivoMain
+service_receiver::LivoBroadcastReceiver
+provider::android.appwidget.provider

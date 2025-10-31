@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.NetServiceBooks
+url::https://online.netservicebooks.com/Automate/Popups/index.jsp?from%3Dandroid
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::https://online.netservicebooks.com/Automate/servlet/Login.logout?from%3Dandroid
+activity::.getsig
+url::online.netservicebooks.com
+intent::android.intent.category.LAUNCHER

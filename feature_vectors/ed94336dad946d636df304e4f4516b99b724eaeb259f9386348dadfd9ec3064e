@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+api_call::java/net/HttpURLConnection
+service_receiver::Broadcast Receiver
+permission::android.permission.INTERNET
+intent::android.net.wifi.supplicant.CONNECTION_CHANGE
+real_permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.ACCESS_WIFI_STATE
+url::www.google.com
+call::printStackTrace
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+intent::android.net.wifi.STATE_CHANGE
+activity::.AuthenticatorActivity
+call::getSystemService
+activity::AuthenticatorActivity
+intent::android.net.wifi.supplicant.STATE_CHANGE
+intent::android.net.wifi.WIFI_STATE_CHANGED
+url::http://www.google.com
+url::http://google.com
+url::google.com
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

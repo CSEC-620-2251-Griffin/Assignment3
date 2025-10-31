@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::market.android.com
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::printStackTrace
+url::http://market.android.com/details?id%3Dorg.gnaural
+intent::android.intent.category.LAUNCHER
+activity::@string/app_name
+activity::.gnaural
+activity::.FileDialog
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

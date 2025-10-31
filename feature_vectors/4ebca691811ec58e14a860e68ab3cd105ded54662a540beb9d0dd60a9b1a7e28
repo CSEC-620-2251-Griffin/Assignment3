@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mobile.wolfpackreview.com/about
+activity::.Main
+url::mobile.wolfpackreview.com
+url::http://mobile.wolfpackreview.com/stats
+permission::android.permission.INTERNET
+url::http://mobile.wolfpackreview.com
+intent::android.intent.category.LAUNCHER
+url::http://mobile.wolfpackreview.com/roster
+real_permission::android.permission.INTERNET
+url::http://mobile.wolfpackreview.com/schedule

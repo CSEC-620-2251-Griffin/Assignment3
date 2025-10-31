@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_MOCK_LOCATION
+permission::android.permission.READ_LOGS
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+api_call::android/location/LocationManager;->addTestProvider
+api_call::android/location/LocationManager;->addGpsStatusListener
+feature::android.hardware.location.gps
+service_receiver::DeveloperShellService
+feature::android.hardware.location
+api_call::java/net/NetworkInterface
+activity::.DeveloperShellActivity
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+permission::android.permission.LOCATION
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.BROADCAST_SMS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::system/bin/su
+real_permission::android.permission.ACCESS_MOCK_LOCATION

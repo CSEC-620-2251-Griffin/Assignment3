@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.ClientInfoTabActivity
+activity::.EnvironmentalFactorsTabActivity
+activity::.MainActivity
+activity::.MajorSystemsTabActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.InteriorTabActivity
+call::getPackageInfo
+call::Read/Write External Storage
+intent::android.intent.action.VIEW
+activity::.InspectionForm
+activity::.ExteriorTabActivity

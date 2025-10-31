@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+service_receiver::YourKeyboard
+permission::android.permission.WRITE_SECURE_SETTINGS
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

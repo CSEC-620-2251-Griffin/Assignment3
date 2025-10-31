@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.CAL_NumericKeypad
+api_call::android/content/Context;->startActivity
+url::http://kakalicai.com
+feature::android.hardware.screen.portrait
+activity::.CAL_FirstActivity
+intent::android.intent.category.LAUNCHER
+url::kakalicai.com

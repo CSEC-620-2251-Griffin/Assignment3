@@ -1,0 +1,12 @@
+activity::page1
+feature::android.hardware.touchscreen
+activity::page2
+intent::android.intent.action.MAIN
+url::http://www.redmussa.com/app/postsearch/postsearch.php
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.redmussa.com
+api_call::android/webkit/WebView
+url::www.redmussa.com

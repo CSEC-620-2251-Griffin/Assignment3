@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::www.dweebsonduty.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.tencodes
+url::http://www.dweebsonduty.com/shanescode/tens.php
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+url::http://ja.m.wikipedia.org/
+api_call::android/webkit/WebView
+activity::.MobileWiki
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://images.ad-maker.info/apps/r5nzmgozjeew.html
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::images.ad-maker.info
+intent::android.intent.category.LAUNCHER
+url::ja.m.wikipedia.org
+call::getSystemService

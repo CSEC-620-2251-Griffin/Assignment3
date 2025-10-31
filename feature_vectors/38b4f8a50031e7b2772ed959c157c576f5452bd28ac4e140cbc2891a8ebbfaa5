@@ -1,0 +1,15 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+activity::.cmp
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW

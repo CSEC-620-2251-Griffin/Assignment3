@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::uang.in
+permission::android.permission.INTERNET
+activity::.WalmartGiftCard
+url::http://uang.in/walmart
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+call::system/bin/su
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+activity::.MainActivity
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage

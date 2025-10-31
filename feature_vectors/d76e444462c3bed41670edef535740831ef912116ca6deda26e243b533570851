@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://www.sanderdewildt.nl/vvosc/oscandroidappnieuws.php
+url::http://www.sanderdewildt.nl/vvosc/oscandroidappoverig.php
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.TabLayout
+url::http://www.sanderdewildt.nl/vvosc/oscandroidappwedstrijden.php
+url::www.sanderdewildt.nl

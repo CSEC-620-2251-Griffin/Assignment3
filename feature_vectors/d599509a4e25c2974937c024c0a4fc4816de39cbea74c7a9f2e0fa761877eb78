@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+call::Obfuscation(Base64)
+provider::android.appwidget.provider
+call::getSystemService
+service_receiver::.widget_service

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://hi.blbl.me/?ac%3Dshow
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::sns.blbl.me
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://hi.blbl.me/?ac%3Djoke
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://hi.blbl.me/?ac%3Dmms
+url::hi.blbl.me
+url::http://sns.blbl.me/index.php?from%3Dall_android

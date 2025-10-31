@@ -1,0 +1,12 @@
+url::wap2.tzt.cn
+feature::android.hardware.touchscreen
+url::www.netmite.com
+activity::.App
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+url::http://wap2.tzt.cn/JarFiles/52168/218039.jad
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.ALTERNATIVE
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER

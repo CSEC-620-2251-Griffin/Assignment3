@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+url::http://bit.ly/aZaHNS
+activity::.ScoreSubmission
+feature::android.hardware.screen.portrait
+activity::.Stacker
+intent::android.intent.category.LAUNCHER
+activity::.GameMenu
+url::bit.ly
+call::getSystemService

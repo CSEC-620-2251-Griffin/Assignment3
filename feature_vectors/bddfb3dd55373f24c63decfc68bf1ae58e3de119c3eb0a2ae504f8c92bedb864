@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.FcDroid
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+url::yoshi.s206.xrea.com
+intent::android.intent.category.LAUNCHER
+url::http://yoshi.s206.xrea.com/android/

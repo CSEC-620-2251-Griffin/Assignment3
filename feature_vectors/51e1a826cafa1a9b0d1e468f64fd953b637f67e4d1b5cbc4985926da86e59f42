@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+activity::com.antonio.media2.activity.AcNewspaper
+url::www.tonee.org
+activity::com.antonio.media2.activity.AcSettings
+call::printStackTrace
+activity::com.antonio.media2.activity.AcSquareLuncher04
+activity::com.antonio.media2.activity.AcSquareLuncher02
+activity::com.antonio.media2.activity.AcSquareLuncher03
+activity::com.antonio.media2.activity.AcSquareLuncher01
+url::http://www.facebook.com/Tonee.org
+feature::android.hardware.screen.portrait
+call::HttpPost
+api_call::android/app/Activity;->startActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::com.antonio.media2.activity.AcEULA
+url::tonee.org
+url::http://www.tonee.org
+activity::com.antonio.media2.activity.AcApplicationLunchers
+permission::android.permission.INTERNET
+activity::com.antonio.media2.activity.AcNews
+call::Read/Write External Storage
+url::www.facebook.com
+url::http://tonee.org/em10gjb10tx.php
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider

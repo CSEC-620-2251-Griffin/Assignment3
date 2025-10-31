@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.youtube.com
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.SurahAlMulkActivity
+url::http://www.youtube.com/watch?v%3Das-NqDzNlKQ

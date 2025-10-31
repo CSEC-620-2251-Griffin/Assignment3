@@ -1,0 +1,36 @@
+url::orangepixel.net
+feature::android.hardware.touchscreen
+url::twitter.com
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+real_permission::android.permission.GET_ACCOUNTS
+activity::NativeBrowser
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+api_call::android/app/Activity;->startActivity
+api_call::android/media/MediaPlayer;->start
+api_call::android/accounts/AccountManager;->getAccounts
+activity::Dashboard
+api_call::java/net/URL;->openStream
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+activity::IntroFlow
+activity::Settings
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Obfuscation(Base64)
+url::http://orangepixel.net/drillpanic
+call::Execution of external commands
+url::api.openfeint.com
+call::Read/Write External Storage
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.Startup
+url::https://api.openfeint.com
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://twitter.com/orangepixel

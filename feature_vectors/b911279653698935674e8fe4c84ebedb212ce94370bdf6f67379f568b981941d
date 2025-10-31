@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.marketingfacts.nl/android
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.HelloWebView
+url::www.marketingfacts.nl
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

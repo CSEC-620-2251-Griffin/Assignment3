@@ -1,0 +1,35 @@
+url::http://jakarta.apache.org/commons/logging/troubleshooting.html.
+feature::android.hardware.touchscreen
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+url::http://apache.org/xml/properties/schema/external-schemaLocation
+url::http://xml.org/sax/features/validation
+api_call::java/net/Socket
+url::http://xml.org/sax/features/external-general-entities
+url::apache.org
+real_permission::android.permission.READ_LOGS
+activity::.DocumentsActivity
+url::http://java.sun.com/xml/jaxp/properties/schemaLanguage
+url::http://java.sun.com/xml/jaxp/properties/schemaSource
+api_call::java/lang/Runtime;->exec
+url::http://apache.org/xml/properties/schema/external-noNamespaceSchemaLocation
+url::http://apache.org/xml/features/validation/schema-full-checking
+url::http://xml.org/sax/features/namespaces
+url::http://www.w3.org/2001/XMLSchema
+url::http://jakarta.apache.org/commons/logging/tech.html.
+url::http://xml.apache.org/commons/
+call::Obfuscation(Base64)
+call::Execution of external commands
+call::Read/Write External Storage
+url::jakarta.apache.org
+intent::android.intent.action.VIEW
+url::java.sun.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::xml.apache.org
+url::http://apache.org/xml/features/disallow-doctype-decl
+url::www.w3.org
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://apache.org/xml/features/validation/schema
+url::xml.org

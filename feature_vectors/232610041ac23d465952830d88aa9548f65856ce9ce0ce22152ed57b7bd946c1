@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+activity::.AccelerometerCheckerActivity
+feature::android.hardware.sensor.accelerometer
+url::http://market.android.com/details?id%3Duk.co.drdv.AccelerometerChecker
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

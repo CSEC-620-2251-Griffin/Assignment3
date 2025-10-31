@@ -1,0 +1,12 @@
+activity::.TheWebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.Project1Main
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://a85bff4i5cv80wq4uzinu4lc4i.hop.clickbank.net/
+url::a85bff4i5cv80wq4uzinu4lc4i.hop.clickbank.net
+intent::android.intent.category.DEFAULT

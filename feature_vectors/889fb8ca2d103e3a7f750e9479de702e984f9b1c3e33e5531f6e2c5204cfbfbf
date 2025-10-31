@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+api_call::java/net/HttpURLConnection
+activity::.Main
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::www.connect-utb.com
+intent::android.intent.action.BOOT_COMPLETED
+activity::.Prefs
+url::http://xmlpull.org/v1/doc/features.html
+provider::android.provider.Telephony.SMS_RECEIVED
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+url::http://www.connect-utb.com/smsforward/handle_upload.php
+api_call::android/telephony/SmsManager;->sendMultipartTextMessage
+call::sendSMS
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::xmlpull.org
+real_permission::android.permission.INTERNET
+call::readSMS
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::.SMSReceived

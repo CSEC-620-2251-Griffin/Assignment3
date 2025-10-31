@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+activity::.activity.LoginActivity
+url::www.pixeljoint.com
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::HttpPost
+activity::TabHostActivity
+feature::android.hardware.camera.autofocus
+activity::.activity.RegisterActivity
+permission::android.permission.CAMERA
+call::getSystemService
+activity::.activity.EditWishActivity
+api_call::java/net/URL;->openStream
+activity::.LoginActivity
+call::Obfuscation(Base64)
+url::http://www.pixeljoint.com/files/icons/patrick_spongebob.gif
+activity::.activity.ViewWishActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.camera
+activity::.activity.FriendListActivity
+call::Cipher(Blowfish)
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::android.permission.INTERNET

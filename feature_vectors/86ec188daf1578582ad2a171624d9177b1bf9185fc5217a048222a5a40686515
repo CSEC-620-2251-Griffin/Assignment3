@@ -1,0 +1,13 @@
+url::http://friendfeed-api.com/v2/short/
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+activity::.MainActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::friendfeed-api.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW

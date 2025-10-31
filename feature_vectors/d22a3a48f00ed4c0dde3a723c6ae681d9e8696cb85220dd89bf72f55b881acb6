@@ -1,0 +1,12 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://www.google.com/complete/search?hl%3Den&js%3Dtrue&qu%3D
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.google.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.iSearchLocale
+provider::android.appwidget.provider
+service_receiver::iSearch

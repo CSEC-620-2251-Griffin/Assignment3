@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://lotro.fr/phone/ajax_get_date/
+intent::android.intent.action.MAIN
+url::http://lotro.fr/phone/ajax_get_raid/
+url::lotro.fr
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ChangePrefs
+activity::.RaidPlannerLotroActivity
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+call::getSystemService
+url::http://lotro.fr/phone/ajax_get_raid/?uid%3D

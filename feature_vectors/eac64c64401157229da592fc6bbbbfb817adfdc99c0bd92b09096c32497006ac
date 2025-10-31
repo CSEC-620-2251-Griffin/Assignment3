@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+call::getPackageInfo
+url::http://schemas.android.com/apk/res/android
+call::getSystemService
+api_call::android/content/Context;->startService
+service_receiver::mClock 3x1
+service_receiver::mClock 3x2
+service_receiver::mClock 4x4
+service_receiver::mClock 4x2
+service_receiver::mClock 4x3
+service_receiver::mClock 4x1
+activity::.Configure
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+provider::android.appwidget.provider
+service_receiver::mClock 1x1
+service_receiver::mClock 2x1
+service_receiver::mClock 2x2
+service_receiver::UpdateService
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+service_receiver::mClock 5x2
+service_receiver::mClock 5x1
+url::schemas.android.com

@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+service_receiver::.DrocapService
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+activity::.main
+api_call::android/app/NotificationManager;->notify
+call::Read/Write External Storage
+call::Execution of external commands
+api_call::java/lang/Runtime;->exec
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+permission::android.permission.BLUETOOTH
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService
+api_call::android/content/ContentResolver;->query
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.CAMERA
+real_permission::android.permission.WAKE_LOCK

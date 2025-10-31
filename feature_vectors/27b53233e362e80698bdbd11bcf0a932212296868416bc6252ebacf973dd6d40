@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://schemas.android.com/apk/res/com.gueei.android.binding
+real_permission::android.permission.INTERNET
+activity::.RegisterAccount
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->setContentView
+url::http://code.google.com/p/android-binding/
+api_call::android/app/Activity;->startActivity
+url::code.google.com
+url::schemas.android.com

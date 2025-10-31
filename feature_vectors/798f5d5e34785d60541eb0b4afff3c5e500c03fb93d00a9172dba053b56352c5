@@ -1,0 +1,10 @@
+url::http://finance.yahoo.com/d/quotes.csv?s%3D
+feature::android.hardware.touchscreen
+service_receiver::.SmallStockWidget
+url::www.google.com
+url::finance.yahoo.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.google.com/finance?q%3D
+api_call::java/net/HttpURLConnection
+provider::android.appwidget.provider

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::http://market.android.com/details?id%3Dcom.boolbalabs.entropy
+url::market.android.com
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::.EntroptyBetaReminderActivity
+intent::android.intent.category.LAUNCHER

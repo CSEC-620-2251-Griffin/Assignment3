@@ -1,0 +1,41 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::printStackTrace
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::.activity.searchonline.SearchOnlineActivity
+permission::android.permission.INTERNET
+activity::.activity.filterlist.FilterListActivity
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::.activity.preferences.EditPreferences
+real_permission::android.permission.WAKE_LOCK
+call::Obfuscation(Base64)
+feature::android.hardware.location.gps
+activity::GeoHunter filters
+activity::.MainActivity
+feature::android.hardware.location
+call::getSystemService
+activity::Edit Geocache
+activity::GeoHunter proximity
+call::Read/Write External Storage
+api_call::android/webkit/WebView
+permission::android.permission.SEND_SMS
+feature::android.hardware.telephony
+url::http://www.bcaching.com/api/q.ashx?
+activity::.activity.prox.ProximityActivity
+intent::android.intent.category.BROWSABLE
+activity::Project Waypoint
+intent::android.intent.action.VIEW
+permission::android.permission.WAKE_LOCK
+url::www.bcaching.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/os/PowerManager$WakeLock;->release
+url::http://www.bcaching.com/api
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+activity::.activity.edit.EditCacheActivity
+api_call::android/content/Context;->startActivity
+activity::.activity.waypoint.project.ProjectWaypointActivity

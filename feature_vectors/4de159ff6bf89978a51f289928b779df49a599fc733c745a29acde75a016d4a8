@@ -1,0 +1,106 @@
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::tinyurl.com
+activity::Selected Options
+activity::More
+call::getPackageInfo
+url::secure.ows.newegg.com
+url::www.
+activity::.HomeStart
+activity::Tracking Order Detail
+activity::Email to Friends
+url::https://www.facebook.com/connect/uiserver.php
+call::getSystemService
+activity::Category
+url::http://mobile.twitter.com/
+permission::android.permission.CAMERA
+activity::.activity.product.GuideSearch
+activity::Order Preview
+intent::android.intent.action.VIEW
+activity::Register New Account
+activity::Thank You
+activity::.activity.home.HomeStart
+activity::Edit Shipping Address
+url::https://e3ssltest.newegg.com/
+activity::.activity.product.SearchList
+url::https://e4ssltest.newegg.com/
+url::http://10.16.47.47:8888/
+permission::android.permission.INTERNET
+activity::My Cart
+url::http://210.14.67.228/
+activity::Feedback
+url::http://e4wwwtest.newegg.com/
+activity::Return Policy
+activity::Shipping Address Setting
+url::api.facebook.com
+activity::SubCategory
+url::e3wwwtest.newegg.com
+activity::.activity.product.GuideSearchTab
+url::e4ssltest.newegg.com
+activity::Order Detail
+activity::My Account
+url::sites.google.com
+url::http://www.
+url::developers.facebook.com
+feature::android.hardware.camera
+activity::.activity.product.AdvancedSearchTab
+activity::Shopping Flow Switch
+intent::android.intent.category.LAUNCHER
+url::e4wwwtest.newegg.com
+url::http://www.ows.newegg.com/
+activity::Daily Deals
+activity::Help
+real_permission::android.permission.READ_CONTACTS
+activity::Login
+activity::Customer Reviews
+activity::Select Cancellation Reason
+call::printStackTrace
+url::http://e3wwwtest.newegg.com/
+activity::PromotionCode
+url::210.14.67.228
+url::http://developers.facebook.com/docs/reference/rest/
+url::https://www.facebook.com/dialog/oauth
+activity::SeeAllDeals
+url::http://sites.google.com/site/gson/gson-user-guide
+call::Cipher(AES)
+url::www.facebook.com
+url::10.16.47.47
+intent::android.intent.category.BROWSABLE
+url::https://secure.ows.newegg.com/
+activity::Share to Twitter
+activity::Add Wish List
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::Combo Image Gallery
+url::https://api.facebook.com/restserver.php
+intent::android.intent.category.DEFAULT
+url::graph.facebook.com
+activity::.activity.product.SearchDefault
+api_call::android/content/ContentResolver;->query
+activity::My Order
+api_call::android/app/Activity;->startActivity
+url::e3ssltest.newegg.com
+activity::Product Detail
+activity::Warning
+activity::Combo Deals Detail
+url::mobile.twitter.com
+url::http://tinyurl.com/api-create.php?url%3D
+activity::Wish List
+activity::Combo Deals
+activity::Browse
+activity::Combo Specifications
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.activity.more.HelpPage
+activity::Product Specifications
+activity::.activity.base.VersionPage
+activity::Free Shipping
+url::http://210.14.67.228:443/
+url::www.ows.newegg.com
+intent::android.intent.action.MAIN
+activity::Shipping Method Setting
+activity::Payment Method Setting
+real_permission::android.permission.INTERNET
+activity::Customer Review Detail
+activity::LogOut
+activity::.activity.home.Home
+url::https://graph.facebook.com/

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::nowtv
+url::http://wap.pccwmobile.com/nowtv
+intent::android.intent.category.LAUNCHER
+url::wap.pccwmobile.com
+activity::.nowtv

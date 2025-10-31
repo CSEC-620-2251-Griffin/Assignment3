@@ -1,0 +1,11 @@
+activity::.MainBookUi
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.FileMan
+call::printStackTrace
+activity::.HistoryView
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.mbook
+activity::.syssetting

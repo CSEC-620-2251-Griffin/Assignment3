@@ -1,0 +1,15 @@
+activity::.ExYellowDustActivity
+feature::android.hardware.touchscreen
+service_receiver::.YellowDustWidgetProvider
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+url::bit.ly
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::org/apache/http/impl/client/DefaultHttpClient
+service_receiver::.YellowDustWidgetUpdate
+url::http://bit.ly/lgqv5c
+provider::android.appwidget.provider
+call::getSystemService

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://www.bookyards.com/categories.html?type%3Dbooks&category_id%3D28
+intent::android.intent.action.MAIN
+url::www.bookyards.com
+activity::.bookyards_books_v1
+url::http://www.bookyards.com/categories.html?type%3Dbooks&category_id%3D235
+url::http://www.bookyards.com
+url::http://www.bookyards.com/categories.html?type%3Dbooks&category_id%3D229
+url::http://www.bookyards.com/categories.html?type%3Dbooks&category_id%3D228
+intent::android.intent.category.LAUNCHER
+url::http://www.bookyards.com/categories.html?type%3Dbooks&category_id%3D232
+url::http://www.bookyards.com/categories.html?type%3Dbooks&category_id%3D238
+url::http://www.bookyards.com/categories.html?type%3Dbooks&category_id%3D230

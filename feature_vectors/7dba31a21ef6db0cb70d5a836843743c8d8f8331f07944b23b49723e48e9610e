@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://www.vilanova.cat/html/RSS/noticies.xml
+intent::android.intent.action.MAIN
+url::http://www.oocit.cat/stats.php?appName%3D
+url::http://www.vilanova.cat/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.vilanova.cat
+url::www.oocit.cat
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.ACCESS_WIFI_STATE
+activity::.AjuntamentVilanova
+call::getSystemService
+api_call::android/net/wifi/WifiManager;->getConnectionInfo

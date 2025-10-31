@@ -1,0 +1,17 @@
+url::http://www.
+feature::android.hardware.touchscreen
+activity::.CaptureBarcodeActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/hardware/Camera;->open
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+real_permission::android.permission.CAMERA
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+url::https://www.
+call::getSystemService
+url::www.

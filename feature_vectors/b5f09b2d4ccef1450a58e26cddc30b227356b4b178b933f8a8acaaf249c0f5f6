@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/media/MediaRecorder;->setAudioSource
+real_permission::android.permission.RECORD_AUDIO
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::www.xgn100.cn
+url::ebbx.taobao.com
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+url::http://www.xgn100.cn/api/api.php
+real_permission::android.permission.INTERNET
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::.MyGame
+feature::android.hardware.microphone
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.WAKE_LOCK
+url::http://ebbx.taobao.com
+activity::com.hyx.android.Game.Login

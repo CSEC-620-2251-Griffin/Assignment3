@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getDeviceId
+intent::android.intent.action.MAIN
+url::http://www.eperto.com/SmartPharma/SmartPharma%20Android/myAndroidData.zip
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.eperto.com/SmartPharma/SmartPharma%20Android/myagg.txt
+api_call::java/net/HttpURLConnection
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_PHONE_STATE
+url::www.eperto.com
+call::getSystemService

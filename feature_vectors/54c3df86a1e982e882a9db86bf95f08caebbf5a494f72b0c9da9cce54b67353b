@@ -1,0 +1,17 @@
+url::http://210.51.11.195/P24_GameServer/P24Server
+feature::android.hardware.touchscreen
+url::www.netmite.com
+url::http://wap.x6game.cn/p29ladder/ladder.asp?p%3D0&x6id%3D
+url::http://wap.x6game.cn
+intent::android.intent.action.MAIN
+url::http://10.0.0.172:80
+api_call::android/content/Context;->startActivity
+activity::.GameMIDlet
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://10.0.0.172:80/P24_GameServer/P24Server
+url::http://wap.x6game.cn:8080/inner_bbs/discuz.do?param%3Dland&fid%3D37&x6id%3D
+url::210.51.11.195
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::wap.x6game.cn
+url::10.0.0.172

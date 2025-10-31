@@ -1,0 +1,12 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.WebScreen
+activity::.MainActivity
+url::www.fly.faa.gov
+url::http://www.fly.faa.gov/ratreader/jsp/index.jsp
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::MainActivity
+real_permission::android.permission.INTERNET
+url::http://www.fly.faa.gov/ratreader/jsp/showAdvisoryHandler.jsp?advzy%3D

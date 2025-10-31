@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Default
+intent::android.intent.category.LAUNCHER
+url::http://www.teratotech.com/
+call::getSystemService
+url::www.teratotech.com

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+service_receiver::com.bestivalcountdown.CountdownService
+call::getSystemService
+activity::com.bestivalcountdown.CountdownConfiguration
+service_receiver::com.bestivalcountdown.BestivalCountdown
+provider::android.appwidget.provider
+url::http://www.campbestival.net/
+url::www.campbestival.net

@@ -1,0 +1,13 @@
+url::http://services.sapo.pt/PunyURL/GetCompressedURLByURL?url%3D
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+call::getSystemService
+intent::android.intent.action.SEND
+permission::android.permission.INTERNET
+activity::.Settings
+url::services.sapo.pt
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.aPunyURL

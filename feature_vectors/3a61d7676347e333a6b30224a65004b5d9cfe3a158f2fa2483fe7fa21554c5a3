@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.cometome
+intent::android.intent.action.MAIN
+url::http://ohvideo.net/t/qr.php
+intent::android.intent.category.LAUNCHER
+url::ohvideo.net

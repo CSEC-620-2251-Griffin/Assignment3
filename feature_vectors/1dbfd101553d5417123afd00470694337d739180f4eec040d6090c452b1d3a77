@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+service_receiver::TimeLeapClock
+api_call::android/hardware/Camera;->open
+call::Read/Write External Storage
+real_permission::android.permission.CAMERA
+api_call::android/content/ContentResolver;->openInputStream
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService

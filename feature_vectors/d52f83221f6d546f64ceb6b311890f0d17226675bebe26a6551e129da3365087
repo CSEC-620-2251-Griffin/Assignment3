@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+activity::WidgetConfigView
+call::printStackTrace
+activity::.Main
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::ArticleView
+activity::FilterMenu
+call::HttpPost
+url::http://speedwall.lg.de/
+url::speedwall.lg.de
+call::getSystemService
+activity::FilterMenuView
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::ConfigView
+api_call::java/net/URL;->openConnection
+activity::AdDetailView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider

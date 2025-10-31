@@ -1,0 +1,10 @@
+feature::android.hardware.location.network
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.AppEntry
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::BigGayEvents
+permission::android.permission.INTERNET
+feature::android.hardware.location
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

@@ -1,0 +1,14 @@
+url::http://mobile.terrierdaily.com/roster
+feature::android.hardware.touchscreen
+url::http://mobile.terrierdaily.com/schedule
+url::mobile.terrierdaily.com
+intent::android.intent.action.MAIN
+url::http://mobile.terrierdaily.com
+activity::Terrier Daily
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.terrierdaily.com/stats
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://mobile.terrierdaily.com/about

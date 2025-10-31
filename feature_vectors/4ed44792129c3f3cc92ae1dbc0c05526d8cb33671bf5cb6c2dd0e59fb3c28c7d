@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+permission::android.permission.RESTART_PACKAGES
+url::http://bit.ly/cg0iLm
+api_call::android/app/ActivityManager;->restartPackage
+permission::android.permission.INTERNET
+real_permission::android.permission.RESTART_PACKAGES
+permission::tunnybrowser.permission.Extension
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+url::bit.ly
+intent::android.intent.category.INFO
+call::getSystemService

@@ -1,0 +1,14 @@
+url::mobile.uteupdate.com
+feature::android.hardware.touchscreen
+url::http://mobile.uteupdate.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.uteupdate.com/schedule
+intent::android.intent.category.LAUNCHER
+url::http://mobile.uteupdate.com/roster
+activity::UTE Update
+url::http://mobile.uteupdate.com/stats
+url::http://mobile.uteupdate.com/about

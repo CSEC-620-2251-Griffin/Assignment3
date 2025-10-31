@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://www.asociacionoberon.es/tagboard/index/onlinejson
+url::http://www.asociacionoberon.es/usuarios/identificar/identificar
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.asociacionoberon.es
+url::http://www.asociacionoberon.es/tagboard/index/json
+intent::android.intent.category.LAUNCHER
+url::http://www.asociacionoberon.es/tagboard/index/insertar
+activity::.Inicio
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK

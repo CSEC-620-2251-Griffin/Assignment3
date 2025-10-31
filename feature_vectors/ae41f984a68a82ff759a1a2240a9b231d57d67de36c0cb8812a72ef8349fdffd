@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+service_receiver::.BinaryTimeService
+activity::BinaryTimeConfiguration
+service_receiver::BinaryTimeWidget
+provider::android.appwidget.provider
+call::getSystemService

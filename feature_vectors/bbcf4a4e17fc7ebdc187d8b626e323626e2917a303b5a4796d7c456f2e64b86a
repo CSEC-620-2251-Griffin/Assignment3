@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+real_permission::android.permission.GET_TASKS
+intent::android.intent.action.MAIN
+api_call::android/os/Vibrator;->vibrate
+activity::.MainActivity
+api_call::android/app/ActivityManager;->getRecentTasks
+service_receiver::com.urbandroid.taskie.BootReciever
+permission::android.permission.GET_TASKS
+service_receiver::.GestureService
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.SYSTEM_ALERT_WINDOW
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+api_call::android/content/Context;->startService

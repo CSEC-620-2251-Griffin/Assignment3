@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.spartansupdate.com/stats
+intent::android.intent.action.MAIN
+activity::Spartans Update
+activity::.Main
+url::http://mobile.spartansupdate.com
+url::mobile.spartansupdate.com
+permission::android.permission.INTERNET
+url::http://mobile.spartansupdate.com/about
+url::http://mobile.spartansupdate.com/roster
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://mobile.spartansupdate.com/schedule

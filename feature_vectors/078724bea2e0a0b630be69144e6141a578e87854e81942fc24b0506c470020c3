@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.BMI
+intent::android.intent.action.MAIN
+activity::Logo2
+activity::BinaryProject2
+activity::BinaryProject
+activity::.Logo
+activity::.BinaryProject
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+activity::it.passwordkeeper.InserimentoGenerico
+activity::it.passwordkeeper.GoToPro
+call::Read/Write External Storage
+activity::it.passwordkeeper.VisualizzaAggiornaBancari
+activity::it.passwordkeeper.VisualizzaAggiornaInternet
+activity::it.passwordkeeper.InserimentoInternet
+activity::it.passwordkeeper.InserimentoBancari
+activity::it.passwordkeeper.Home
+url::http://market.android.com/details?id%3Dit.passwordkeeperPro
+activity::it.passwordkeeper.ModificaPasswordAccesso
+activity::it.passwordkeeper.IntroActivity
+call::getSystemService
+call::Cipher(AES)
+activity::it.passwordkeeper.InserimentoSelection
+activity::it.passwordkeeper.VisualizzaDati
+url::market.android.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::it.passwordkeeper.VisualizzaAggiornaGenerico
+activity::it.passwordkeeper.VisualizzaAggiornaEMail
+intent::android.intent.category.LAUNCHER
+activity::it.passwordkeeper.InserimentoEMail
+activity::.IntroActivity

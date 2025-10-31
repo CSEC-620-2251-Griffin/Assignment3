@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEND
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+api_call::android/app/Activity;->startActivity
+activity::.MainActivity
+activity::.ScriptEditorActivity
+url::http://bit.ly/ii7qPb
+activity::.HelpActivity
+intent::android.intent.action.INSERT_OR_EDIT
+url::bit.ly
+call::getSystemService
+call::Read/Write External Storage
+api_call::java/lang/Runtime;->exec
+intent::android.intent.action.EDIT
+activity::.SedroidPreferenceActivity
+call::Execution of external commands
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

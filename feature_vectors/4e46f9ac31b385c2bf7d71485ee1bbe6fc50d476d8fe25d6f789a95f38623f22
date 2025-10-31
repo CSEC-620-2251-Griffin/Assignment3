@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+service_receiver::.SOWidget
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+service_receiver::.UpdateService
+provider::android.appwidget.provider
+api_call::java/net/URL;->openConnection
+api_call::android/content/Context;->startService

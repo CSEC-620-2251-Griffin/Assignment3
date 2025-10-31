@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.NaviRemoCon
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::BEx
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::AEx
+api_call::java/net/DatagramSocket
+activity::FTPBROWSER
+real_permission::android.permission.INTERNET
+call::getSystemService
+permission::android.permission.READ_EXTERNAL_STORAGE

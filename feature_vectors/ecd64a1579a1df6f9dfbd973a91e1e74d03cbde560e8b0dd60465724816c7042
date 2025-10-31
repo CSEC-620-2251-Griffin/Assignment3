@@ -1,0 +1,28 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+url::http://alsalah.sileria.com/lookup?tz%3D
+url::http://alsalah.sileria.com/lookup?place%3D
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+activity::.android.History
+activity::.android.Help
+feature::android.hardware.location.gps
+url::alsalah.sileria.com
+activity::.android.Places
+call::printStackTrace
+activity::AlSalah - About
+activity::.AlSalah
+api_call::android/location/LocationManager;->isProviderEnabled
+activity::AlSalah - GPS
+activity::.android.AlSalah
+call::getSystemService
+feature::android.hardware.location
+activity::.android.Settings
+intent::android.intent.action.MAIN
+activity::AlSalah - Import
+intent::android.intent.category.LAUNCHER
+activity::AlSalah - Share

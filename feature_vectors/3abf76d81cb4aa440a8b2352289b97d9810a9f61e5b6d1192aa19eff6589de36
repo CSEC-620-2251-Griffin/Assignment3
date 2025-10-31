@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::http://www.blissitec.com/more/
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+url::www.blissitec.com
+url::http://www.facebook.com/pages/Blissitec/106386549453421?sk%3Dwall
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+provider::.provider.RCWidgetProvider22LT$RCUpdateService
+provider::.provider.RCWidgetProvider22LT
+feature::android.hardware.screen.portrait
+intent::android.intent.action.USER_PRESENT
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+call::getSystemService
+service_receiver::RCUpdateService

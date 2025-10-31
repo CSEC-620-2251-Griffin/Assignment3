@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+url::http://www.dynamicinnovations.co/storage/ad/android_app_ad.htm
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.MainGame
+activity::.MainMenu
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::www.dynamicinnovations.co
+api_call::android/webkit/WebView
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

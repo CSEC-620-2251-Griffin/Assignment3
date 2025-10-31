@@ -1,0 +1,10 @@
+activity::.FixedGears
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Alternate
+call::printStackTrace
+activity::.EditPreferences
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.Drivetrain
+activity::FixedGears

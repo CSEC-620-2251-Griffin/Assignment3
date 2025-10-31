@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.techcareers.com/m/?mobile%3Dy
+activity::.BrowserActivity
+intent::android.intent.category.LAUNCHER
+url::www.techcareers.com

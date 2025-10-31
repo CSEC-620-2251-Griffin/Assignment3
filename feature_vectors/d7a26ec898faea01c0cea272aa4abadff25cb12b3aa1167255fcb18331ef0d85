@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+provider::stage_widget_provider_label
+intent::dell.intent.category.STAGEWIDGET
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+provider::stage_widget_provider_id
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+activity::.WebStageWidgetActivity
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

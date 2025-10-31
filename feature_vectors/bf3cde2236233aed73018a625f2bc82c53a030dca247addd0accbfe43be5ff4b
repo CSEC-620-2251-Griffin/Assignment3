@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://www.example.de
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+real_permission::android.permission.INTERNET
+url::www.example.de
+intent::android.intent.category.LAUNCHER
+call::HttpPost
+activity::Main

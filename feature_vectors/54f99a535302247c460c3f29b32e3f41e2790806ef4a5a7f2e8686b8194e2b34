@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://drumrack.zxq.net/drumrack/loop2.png
+url::http://drumrack.zxq.net/drumrack/loop1.png
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.DrumrackActivity
+intent::android.intent.category.LAUNCHER
+url::drumrack.zxq.net
+api_call::java/net/URL;->openConnection

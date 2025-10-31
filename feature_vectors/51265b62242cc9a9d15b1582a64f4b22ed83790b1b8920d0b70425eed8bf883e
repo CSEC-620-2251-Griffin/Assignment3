@@ -1,0 +1,28 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::Help
+activity::Brochures
+permission::android.permission.INTERNET
+activity::Main Menu
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+activity::Brochure Viewer
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+api_call::android/webkit/WebView
+intent::android.intent.action.GET_CONTENT
+activity::shareAnywhere
+activity::.SplashScreenActivity
+call::Cipher(AES/ECB/PKCS7Padding)
+feature::android.hardware.screen.landscape
+url::http://dev.creativenorth.co.uk/jarshelf/android/crashlog/shareanywhere/
+call::Execution of external commands
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::dev.creativenorth.co.uk
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+service_receiver::uk.creativenorth.android.presenter.acquisition.PresentationAcquisitionService

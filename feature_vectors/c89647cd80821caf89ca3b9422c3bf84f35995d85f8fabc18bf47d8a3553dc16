@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.Update
+api_call::android/content/Context;->startActivity
+activity::.CoccMainViewer
+permission::android.permission.INTERNET
+activity::.PreferencesViewer
+intent::android.intent.category.LAUNCHER
+activity::.Launch
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+activity::.Cocc
+activity::.EndTrial
+call::getSystemService

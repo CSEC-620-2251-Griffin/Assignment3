@@ -1,0 +1,12 @@
+activity::ColorP
+feature::android.hardware.touchscreen
+activity::.Draw
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.Load
+feature::android.hardware.camera
+activity::.MainActivity
+feature::android.hardware.screen.portrait
+activity::Help
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage

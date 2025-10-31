@@ -1,0 +1,14 @@
+activity::.karaoke
+url::http://apps.mktgdept.com/android/v1/tracks.php
+intent::android.intent.action.MAIN
+url::apps.mktgdept.com
+feature::android.hardware.touchscreen
+permission::android.permission.READ_PHONE_STATE
+url::http://apps.mktgdept.com/android/v1/favorites.php
+url::http://apps.mktgdept.com/android/v1/songs.php
+url::http://apps.mktgdept.com/android/v1/artists.php
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+call::HttpPost

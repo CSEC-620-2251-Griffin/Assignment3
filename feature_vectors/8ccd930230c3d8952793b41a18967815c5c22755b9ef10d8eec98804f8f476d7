@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.TriniLingo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::TriniLingo
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::com.arkitechs.arklabs.trinilingo.WordActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.ShowWebpage
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.SEARCH
+call::getSystemService

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://mesapp.li/
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://mesapp.li/?id%3D
+activity::.MainActivity
+permission::android.permission.INTERNET
+url::mesapp.li
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::HttpPost

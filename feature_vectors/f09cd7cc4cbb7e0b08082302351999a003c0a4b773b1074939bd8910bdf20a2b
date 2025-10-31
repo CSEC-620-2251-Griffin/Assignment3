@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.StartPage
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+activity::.Result
+feature::android.hardware.screen.portrait
+activity::.Home
+activity::.RoughPad
+activity::.ShowQuestion
+activity::.Information
+activity::.Setting
+activity::.Solution

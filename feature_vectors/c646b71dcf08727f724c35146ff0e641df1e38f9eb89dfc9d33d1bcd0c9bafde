@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.ListWeeksActivity
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+service_receiver::WeekAppWidgetProvider
+intent::android.intent.action.MAIN
+intent::android.intent.ACTION_TIME
+intent::android.intent.ACTION_TIMEZONE_CHANGED
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+activity::.Preferences
+service_receiver::WeekBroadcastReceiver
+provider::android.appwidget.provider
+intent::android.intent.category.LAUNCHER

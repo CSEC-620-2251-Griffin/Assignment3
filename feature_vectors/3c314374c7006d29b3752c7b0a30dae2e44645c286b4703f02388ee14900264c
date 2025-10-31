@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::Read/Write External Storage
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+activity::NewFileActivity
+activity::RenameActivity
+call::getSystemService
+activity::SettingsActivity
+activity::DisplayActivity
+activity::.NotepadMainActivity
+intent::android.intent.action.EDIT
+intent::android.intent.category.DEFAULT
+activity::FileBrowserActivity
+intent::android.intent.action.VIEW
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::FolderAddActivity
+feature::android.hardware.screen.portrait
+activity::FileSaveActivity
+intent::android.intent.category.LAUNCHER
+activity::FileDeleteActivity

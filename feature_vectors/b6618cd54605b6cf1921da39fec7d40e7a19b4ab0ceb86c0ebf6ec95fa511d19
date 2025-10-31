@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+activity::.Home
+url::www.mmcsoftware.com
+url::http://www.mmcsoftware.com/growapp/growsuppliers.php
+intent::android.intent.category.LAUNCHER

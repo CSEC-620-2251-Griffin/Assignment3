@@ -1,0 +1,7 @@
+activity::.EmerActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.EnterActivity
+activity::.emergencyNumbers
+intent::android.intent.category.LAUNCHER
+activity::.HotelsActivity

@@ -1,0 +1,9 @@
+activity::.ResultsWebview
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::results4.brooklynmarathon.com
+permission::android.permission.INTERNET
+url::http://results4.brooklynmarathon.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

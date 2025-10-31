@@ -1,0 +1,15 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::TimerHistory
+activity::.Main
+feature::android.hardware.screen.portrait
+service_receiver::.background.BackgroundSrvc
+call::printStackTrace
+activity::.Preferences
+permission::android.permission.WAKE_LOCK
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+url::http://www.ipcweb.co.jp/cgi-bin/android/apli.cgi?la%3D
+activity::.MainActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.main.MainActivity
+url::www.ipcweb.co.jp
+url::http://www.ipcweb.co.jp/</a>
+call::getSystemService

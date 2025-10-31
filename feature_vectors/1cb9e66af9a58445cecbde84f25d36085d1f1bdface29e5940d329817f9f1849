@@ -1,0 +1,37 @@
+feature::android.hardware.touchscreen
+url::froyoroms.com
+permission::android.permission.INTERNET
+activity::.RootToolsHacks
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.INTERNET
+activity::Root Tools Settings
+url::http://www.froyoroms.com/files/developers/jrummy/JRummy/Other/goodies/fonts/
+activity::.BootAnimations
+url::http://froyoroms.com/files/developers/jrummy/JRummy/
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+activity::.SetProps
+activity::.AppManager
+call::getSystemService
+activity::.BackupRestore
+service_receiver::.service.BootReceiver
+service_receiver::Service
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+activity::App Management Settings
+activity::.PropEditor
+api_call::java/net/URL;->openConnection
+real_permission::android.permission.READ_LOGS
+activity::.About
+intent::android.intent.action.MAIN
+activity::.Fonts
+permission::android.permission.ACCESS_NETWORK_STATE
+url::www.froyoroms.com
+activity::.RootToolsExtras
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.AppViewer
+activity::.RootTools
+intent::android.intent.category.LAUNCHER
+activity::Sysctl Settings
+permission::android.permission.RECEIVE_BOOT_COMPLETED

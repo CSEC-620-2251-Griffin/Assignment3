@@ -1,0 +1,5 @@
+intent::com.locnet.flitkeyboard.plugin.intent.category.SUGGEST_ENGLISH
+feature::android.hardware.touchscreen
+intent::com.locnet.flitkeyboard.plugin.intent.action.PICK_PLUGIN
+service_receiver::.FlitSuggestService
+intent::com.locnet.flitkeyboard.plugin.intent.action.PICK_SUGGESTION

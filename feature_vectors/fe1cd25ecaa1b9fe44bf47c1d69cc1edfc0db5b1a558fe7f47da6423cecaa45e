@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::mobile.motorsport-magazin.com
+activity::.Motorsport
+call::getPackageInfo
+url::http://mobile.motorsport-magazin.com/
+intent::android.intent.action.VIEW
+intent::android.intent.category.LAUNCHER

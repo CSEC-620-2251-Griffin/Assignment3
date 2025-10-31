@@ -1,0 +1,14 @@
+url::http://mobile.rebelball.com/roster
+feature::android.hardware.touchscreen
+url::mobile.rebelball.com
+url::http://mobile.rebelball.com/stats
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::Rebel Ball
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://mobile.rebelball.com/about
+url::http://mobile.rebelball.com
+url::http://mobile.rebelball.com/schedule

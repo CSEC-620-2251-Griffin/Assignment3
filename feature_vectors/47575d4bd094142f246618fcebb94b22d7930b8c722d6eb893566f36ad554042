@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.DEFAULT
+activity::.PreferencesFromXml
+intent::android.intent.category.LAUNCHER
+intent::de.sendicom.intent.action.lovingme_SETTINGS
+permission::android.permission.PLAY_SOUND
+activity::.LoveQuestionActivity
+real_permission::android.permission.WAKE_LOCK

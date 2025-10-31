@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+url::http://www.modernjive.com/carcassonne/carcassonne.htm
+url::www.modernjive.com
+call::Read/Write External Storage
+activity::Who Goes First?
+url::sites.google.com
+url::market.android.com
+url::https://sites.google.com/a/ambibrain.com/carc/home/tutorials
+activity::.StoreActivity
+activity::.CarcSelectPlayersActivity
+activity::.TransFarmCompleteActivity
+call::getSystemService
+activity::.EndGameActivity
+activity::Share Carcassonne
+permission::android.permission.INTERNET
+activity::.ScoreboardActivity
+activity::CarcManageDBActivity
+activity::.FarmingActivity
+intent::android.intent.action.MAIN
+activity::.CarcPreferenceActivity
+activity::.TransactionActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.CarcStartActivity
+url::http://market.android.com/details?id%3Dcom.ab.carcsb

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+service_receiver::.UpdateService
+activity::.Info
+intent::android.intent.action.MAIN
+service_receiver::JewishDate
+intent::android.intent.category.LAUNCHER
+service_receiver::.Timechanged
+provider::android.appwidget.provider
+call::getSystemService
+intent::android.intent.action.TIME_SET

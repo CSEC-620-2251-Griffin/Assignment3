@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.othMostCall
+intent::android.intent.action.MAIN
+service_receiver::.othMostCallService
+permission::android.permission.CALL_PHONE
+api_call::android/content/Context;->startActivity
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::othMostCallBroadcastReceiver
+permission::android.permission.RECEIVE_BOOT_COMPLETED

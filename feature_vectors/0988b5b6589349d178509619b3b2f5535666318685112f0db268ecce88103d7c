@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::org.superdry.util.colorpicker.lib.SuperdryColorPicker
+activity::.PrefActivity
+intent::android.intent.action.MAIN
+activity::.MainActivity
+intent::android.intent.category.LAUNCHER

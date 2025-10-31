@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+activity::.Settings
+intent::android.intent.action.MAIN
+service_receiver::.MyTorchService
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+real_permission::android.permission.READ_LOGS
+service_receiver::.MyTorchWidget
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+api_call::android/hardware/Camera;->open
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+activity::.MyTorch
+provider::android.appwidget.provider
+api_call::java/lang/Runtime;->exec

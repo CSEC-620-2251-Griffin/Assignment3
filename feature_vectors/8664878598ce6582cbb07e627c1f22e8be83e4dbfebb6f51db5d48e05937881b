@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.PersonalIncomeTaxCalc
+intent::android.intent.action.MAIN
+activity::PersonalIncomeTaxCalc
+call::getSystemService
+intent::android.intent.category.LAUNCHER

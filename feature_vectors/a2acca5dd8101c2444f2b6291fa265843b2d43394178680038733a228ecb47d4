@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+url::yartemp.com
+real_permission::android.permission.INTERNET
+url::http://yartemp.com/webdata/
+provider::android.appwidget.provider
+api_call::java/net/URL;->openConnection

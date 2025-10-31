@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::sites.google.com
+intent::android.intent.action.MAIN
+url::twitter.com
+url::www.mydroidworld.com
+url::https://twitter.com/
+permission::android.permission.INTERNET
+activity::.droidconcepts
+url::http://www.droidforums.net/forum/droid-concepts/
+url::http://droidconcepts.forumotion.com/portal.htm
+intent::android.intent.category.LAUNCHER
+url::www.droidforums.net
+url::http://www.mydroidworld.com/forums/woodyman/
+url::droidconcepts.forumotion.com
+url::https://sites.google.com/site/teamdroidconcepts/

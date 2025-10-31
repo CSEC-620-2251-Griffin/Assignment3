@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+intent::android.intent.action.DATE_CHANGED
+call::printStackTrace
+service_receiver::.CTClockService
+call::Read/Write External Storage
+feature::android.hardware.microphone
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.WAKE_LOCK
+service_receiver::.CTCRcvChgDate
+service_receiver::.CTCRcvChgTime
+call::getSystemService
+intent::android.intent.action.TIME_SET
+real_permission::android.permission.RECORD_AUDIO
+api_call::android/media/MediaRecorder;->setAudioSource
+api_call::android/content/Context;->startService
+service_receiver::.CTCRcvDrawTime
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::.CTClockWidget
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+service_receiver::.CTCRcvTalking
+provider::android.appwidget.provider
+api_call::android/media/MediaPlayer;->start

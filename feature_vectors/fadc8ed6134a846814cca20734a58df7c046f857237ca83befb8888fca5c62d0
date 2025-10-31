@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://mobile.sapo.pt/_apps/pt.sapo.mobile.android/pt.html
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::mobile.sapo.pt
+call::getPackageInfo
+api_call::android/app/NotificationManager;->notify
+call::getSystemService
+activity::.LaunchMobileSite

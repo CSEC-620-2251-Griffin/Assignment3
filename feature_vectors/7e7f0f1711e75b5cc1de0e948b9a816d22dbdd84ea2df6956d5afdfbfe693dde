@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://dreamteamsoft.com/efapp1
+url::http://dreamteamsoft.com/efapp2
+url::dreamteamsoft.com
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Activity1

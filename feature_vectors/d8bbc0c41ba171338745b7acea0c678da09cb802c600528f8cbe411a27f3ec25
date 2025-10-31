@@ -1,0 +1,17 @@
+call::getSystemService
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.WsdotController
+activity::.RatesController
+intent::android.intent.category.DEFAULT
+permission::android.permission.INTERNET
+activity::.HomeController
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.screen.landscape
+activity::.SplashController
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/content/Context;->startActivity
+intent::android.intent.action.VIEW
+activity::.PreferencesController

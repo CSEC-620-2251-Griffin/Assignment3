@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.JLPTList
+intent::android.intent.action.MAIN
+activity::.Lists
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+activity::.SearchExampleSentences
+activity::.ViewSearchResults
+call::Read/Write External Storage
+activity::.KanjiMenu
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+activity::.JLPTMenu
+activity::.SearchDictionary
+call::getSystemService

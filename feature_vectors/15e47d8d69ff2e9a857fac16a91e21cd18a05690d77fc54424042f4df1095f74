@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+url::siacon.sakura.ne.jp
+feature::android.hardware.screen.portrait
+activity::.VirusAvoidLite
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://siacon.sakura.ne.jp/android/virusavoid.php
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

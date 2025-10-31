@@ -1,0 +1,9 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.INTERNET
+real_permission::android.permission.VIBRATE
+activity::com.googlecode.tcimeforpk.ImePreferenceActivity
+call::getSystemService

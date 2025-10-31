@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::Read/Write External Storage
+api_call::android/content/pm/PackageManager;->clearPackagePreferredActivities
+call::getPackageInfo
+real_permission::android.permission.SET_PREFERRED_APPLICATIONS
+permission::net.dinglisch.android.tasker.PERMISSION_RUN_TASKS
+url::http://tasker.dinglisch.net/download.html
+activity::.MyPreferences
+api_call::android/content/Context;->startActivity
+url::tasker.dinglisch.net
+call::getSystemService
+activity::.Filer
+permission::android.permission.SET_PREFERRED_APPLICATIONS
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+permission::android.permission.SET_WALLPAPER
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+activity::.TextPreferences
+intent::android.intent.category.LAUNCHER
+activity::.ImagePreferences

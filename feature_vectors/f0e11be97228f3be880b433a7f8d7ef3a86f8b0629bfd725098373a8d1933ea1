@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::79.125.20.47
+url::http://caniturniton.com/api/json
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::caniturniton.com
+intent::android.intent.category.LAUNCHER
+url::www.realtimecarbon.org
+activity::.HorizonEnergyAndroidClientActivity
+call::HttpPost
+url::http://www.realtimecarbon.org/ws/electricity/services/co2profile/5minute/item

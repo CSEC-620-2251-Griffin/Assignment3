@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+api_call::android/media/MediaPlayer;->start
+service_receiver::ObjectionAppWidgetProvider
+feature::android.hardware.screen.landscape
+provider::android.appwidget.provider
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

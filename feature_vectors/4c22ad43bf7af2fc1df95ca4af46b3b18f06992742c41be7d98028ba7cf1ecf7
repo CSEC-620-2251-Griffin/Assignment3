@@ -1,0 +1,13 @@
+url::http://game.yamkenoo.cn/UpLoads/sources/200908/166004/ngq_s60v3320.jar
+feature::android.hardware.touchscreen
+url::katamaripaks.namcowireless.com
+intent::android.intent.action.MAIN
+url::www.netmite.com
+activity::.Katamari
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://katamaripaks.namcowireless.com/query.php
+url::game.yamkenoo.cn
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.ALTERNATIVE

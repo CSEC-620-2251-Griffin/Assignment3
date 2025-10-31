@@ -1,0 +1,18 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+activity::.CountryIntroductionActivity
+activity::.RankingSelectionActivity
+activity::.RankingCategoriesActivity
+activity::.WorldFactbookActivity
+activity::.CountriesActivity
+permission::android.permission.INTERNET
+activity::.RankingActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.CountryActivity
+call::getPackageInfo
+activity::.CountryCategoryActivity
+call::Read/Write External Storage
+provider::android.appwidget.provider
+call::getSystemService

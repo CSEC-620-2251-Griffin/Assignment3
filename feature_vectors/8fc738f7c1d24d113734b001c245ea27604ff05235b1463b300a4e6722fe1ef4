@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::www.ndbc.noaa.gov
+url::http://sites.google.com/site/androidmission/app_assets/icon_marine.PNG
+url::http://www.ndbc.noaa.gov/rss/ndbc_obs_search.php?lat%3D%1$f&lon%3D%2$f&radius%3D50
+feature::android.hardware.location.gps
+url::http://www.ndbc.noaa.gov/rss/ndbc_obs_search.php?lat%3D37.75&lon%3D-122.43&radius%3D50
+url::sites.google.com
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+provider::com.martians.weather.imagecontentprovider
+activity::.BuoyDataActivity
+call::getSystemService
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/location/LocationManager;->requestLocationUpdates
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER

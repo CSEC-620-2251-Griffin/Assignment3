@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://caloriecount.about.com/cc/calories-goal.php
+intent::android.intent.category.LAUNCHER
+url::caloriecount.about.com
+real_permission::android.permission.INTERNET

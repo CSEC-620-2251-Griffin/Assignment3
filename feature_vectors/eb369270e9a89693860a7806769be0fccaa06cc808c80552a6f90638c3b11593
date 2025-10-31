@@ -1,0 +1,14 @@
+url::http://balaur.mihaiplesa.ro
+feature::android.hardware.touchscreen
+url::balaur.mihaiplesa.ro
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::SearchActivity
+url::balaur.ro
+permission::android.permission.INTERNET
+url::http://balaur.ro/cauta.json
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+activity::.SearchActivity
+activity::ResultsActivity

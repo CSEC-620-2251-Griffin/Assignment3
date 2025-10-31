@@ -1,0 +1,16 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+service_receiver::WallRotatorBroadcastReceiver
+intent::android.intent.action.MAIN
+intent::android.intent.category.HOME
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/content/Context;->setWallpaper
+url::http://www.synergy-dti.com
+intent::android.intent.category.LAUNCHER
+activity::.SettingsActivity
+intent::android.intent.action.BOOT_COMPLETED
+url::www.synergy-dti.com
+call::getSystemService
+service_receiver::ServiceWallpaperRotator
+real_permission::android.permission.SET_WALLPAPER
+api_call::android/content/Context;->startService

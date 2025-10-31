@@ -1,0 +1,7 @@
+intent::android.intent.action.GET_CONTENT
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera
+intent::android.intent.category.DEFAULT
+call::Read/Write External Storage
+intent::android.intent.category.OPENABLE

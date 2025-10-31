@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.activities.MenuActivity
+activity::.activities.TermsActivity
+activity::.SplashScreenActivity
+activity::.activities.UsefulInfoActivity
+intent::android.intent.category.LAUNCHER
+activity::.activities.AboutActivity
+activity::.activities.CoalConverterActivity
+activity::.activities.MassConverterActivity
+feature::android.hardware.screen.portrait
+call::getSystemService

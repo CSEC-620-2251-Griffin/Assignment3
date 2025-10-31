@@ -1,0 +1,20 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::trace.nullwire.com
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.READ_LOGS
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+call::HttpPost
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+call::getPackageInfo
+url::http://trace.nullwire.com/collect/
+url::r24591.ovh.net
+url::http://87.98.182.216/ads/x?d%3D
+url::http://r24591.ovh.net/crashreport/
+call::getSystemService
+url::87.98.182.216

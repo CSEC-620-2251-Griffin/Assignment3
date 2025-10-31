@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+activity::JARC Team
+call::printStackTrace
+url::https://api.facebook.com/restserver.php
+activity::.Main
+permission::android.permission.INTERNET
+url::graph.facebook.com
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+activity::Selesai
+activity::.Settings
+url::http://developers.facebook.com/docs/reference/rest/
+url::https://www.facebook.com/connect/uiserver.php
+url::api.facebook.com
+activity::Seamolec
+activity::JARC
+api_call::android/webkit/WebView
+url::www.facebook.com
+intent::android.intent.action.MAIN
+url::developers.facebook.com
+activity::.Game
+real_permission::android.permission.INTERNET
+url::https://graph.facebook.com/oauth/authorize
+url::https://graph.facebook.com/
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->startActivity

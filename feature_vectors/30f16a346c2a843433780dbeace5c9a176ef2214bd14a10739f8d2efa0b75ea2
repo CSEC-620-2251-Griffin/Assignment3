@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://outdoorfeeling.com/?outdoorshopapp
+activity::.Main
+url::outdoorfeeling.com
+intent::android.intent.category.LAUNCHER

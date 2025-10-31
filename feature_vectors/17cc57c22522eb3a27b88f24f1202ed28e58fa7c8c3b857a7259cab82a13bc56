@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_CONTACTS
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/accounts/AccountManager;->getAccounts
+permission::android.permission.INTERNET
+real_permission::android.permission.GET_ACCOUNTS
+permission::android.permission.GET_ACCOUNTS
+intent::android.intent.category.LAUNCHER
+api_call::java/net/NetworkInterface
+real_permission::android.permission.INTERNET
+activity::.OutlookSyncActivity
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::getSystemService
+service_receiver::.QuitSMWidget$UpdateService
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.QuitSM
+intent::android.intent.category.DEFAULT
+provider::android.appwidget.provider
+intent::android.intent.action.VIEW
+api_call::android/content/Context;->startService

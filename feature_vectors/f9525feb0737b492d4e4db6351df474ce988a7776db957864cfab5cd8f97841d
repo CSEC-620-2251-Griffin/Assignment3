@@ -1,0 +1,17 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::test.myusage.com
+intent::android.intent.action.MAIN
+url::https://www.myusage.com/ws/IHD.asmx
+url::https://test.myusage.com/ws/IHD.asmx
+url::www.w3.org
+url::http://www.w3.org/2003/05/soap-envelope
+activity::.Settings
+url::www.myusage.com
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.exceleron.com
+real_permission::android.permission.INTERNET
+activity::.Prepaid
+activity::.History
+url::http://www.exceleron.com/PAMS/IHD/

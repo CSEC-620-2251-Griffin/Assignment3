@@ -1,0 +1,16 @@
+activity::.ReceiverSelector
+feature::android.hardware.touchscreen
+service_receiver::.receivers.MediaButtonReceiver
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::getSystemService
+api_call::android/media/MediaPlayer;->start
+activity::.MediaButtonConfigure
+intent::android.intent.category.DEFAULT
+activity::.ReceiverSelectorLocked
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+api_call::android/content/Context;->sendOrderedBroadcast
+real_permission::android.permission.INTERNET
+intent::android.intent.action.MEDIA_BUTTON
+real_permission::android.permission.WAKE_LOCK

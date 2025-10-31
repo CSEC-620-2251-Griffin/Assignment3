@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+service_receiver::.NtpService
+activity::.DummyActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.action.TIMEZONE_CHANGED
+service_receiver::.NtpAppWidgetProvider
+api_call::java/net/DatagramSocket
+intent::android.intent.action.TIME_SET
+provider::android.appwidget.provider
+permission::android.permission.SET_TIME
+intent::android.intent.category.LAUNCHER

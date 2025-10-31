@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.EPClient
+api_call::android/app/ActivityManager;->restartPackage
+permission::android.permission.INTERNET
+real_permission::android.permission.RESTART_PACKAGES
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+call::getSystemService

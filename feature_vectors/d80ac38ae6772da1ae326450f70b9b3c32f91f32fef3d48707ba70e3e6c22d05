@@ -1,0 +1,8 @@
+activity::.NTimesBeforeActivityPlay
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.NTimesBeforeActivityRanking
+activity::.NTimesBeforeActivityTips
+feature::android.hardware.screen.portrait
+activity::.NTimesBeforeActivityTitle
+intent::android.intent.category.LAUNCHER

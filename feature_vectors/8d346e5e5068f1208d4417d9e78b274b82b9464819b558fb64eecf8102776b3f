@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+activity::.EyeballMain
+feature::android.hardware.microphone
+real_permission::android.permission.RECORD_AUDIO
+permission::android.permission.RECORD_AUDIO
+api_call::java/net/Socket
+real_permission::android.permission.CAMERA
+activity::com.dozingcatsoftware.eyeball.EyeballMain
+permission::android.permission.CAMERA
+call::Obfuscation(Base64)
+real_permission::android.permission.READ_CONTACTS
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+call::Read/Write External Storage
+api_call::android/media/AudioRecord
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/media/AudioRecord
+activity::tc2011.Preferences
+activity::Trails Challenge 2011
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.RECORD_AUDIO
+activity::.Activity1

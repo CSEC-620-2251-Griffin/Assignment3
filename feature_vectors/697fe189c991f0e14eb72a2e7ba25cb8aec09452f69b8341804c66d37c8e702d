@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.DailyPrayer
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK

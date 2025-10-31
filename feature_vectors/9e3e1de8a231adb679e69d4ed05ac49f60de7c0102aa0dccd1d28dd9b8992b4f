@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+service_receiver::fr-Classic1 Analogic Clock 3x4
+intent::android.intent.action.MAIN
+service_receiver::fr-Funny Analogic Clock 3x4
+service_receiver::fr-Classic2 Analogic Clock 3x4
+service_receiver::fr-MsVista Analogic Clock 3x4
+service_receiver::fr-Classic3 Analogic Clock 3x4
+activity::.InfoActivity
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

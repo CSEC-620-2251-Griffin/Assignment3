@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.QpreDialog
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.qpre.com
+activity::.QpreActivityDialog
+activity::.IchingHome
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://www.qpre.com/mobile\

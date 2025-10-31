@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+activity::.activities.wizards.budget.BudgetDetailsActivity
+call::Read/Write External Storage
+activity::.activities.AddAccountActivity
+activity::.activities.UpdateAccountActivity
+api_call::android/app/Activity;->setContentView
+activity::.iFreeBudget
+url::http://0.chart.apis.google.com/chart?
+activity::.activities.AddTransactionActivity
+activity::.activities.wizards.budget.AddBudgetActivity
+activity::.activities.UpdateCategoryActivity
+activity::.activities.ManageBudgetsActivity
+activity::.activities.AddCategoryActivity
+activity::.activities.ManageAccountsActivity
+activity::.activities.QuickAddTransactionActivity
+url::0.chart.apis.google.com
+activity::.activities.ViewBudgetActivity
+activity::.activities.UpdateTransactionActivity
+activity::.activities.ViewTransactionActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.activities.ManageDBActivity
+activity::.activities.ListTransactionsActivity
+real_permission::android.permission.INTERNET
+activity::.activities.ViewReportActivity
+intent::android.intent.category.LAUNCHER

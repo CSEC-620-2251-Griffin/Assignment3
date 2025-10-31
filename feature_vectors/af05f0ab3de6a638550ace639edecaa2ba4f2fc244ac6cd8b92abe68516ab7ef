@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+intent::android.intent.action.MAIN
+url::http://mobile.twitter.com/dualbootgames
+url::http://www.facebook.com/dualbootgames
+intent::android.intent.category.PREFERENCE
+activity::.ChristmasActivity
+intent::android.intent.category.DEFAULT
+feature::android.software.live_wallpaper
+url::mobile.twitter.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query

@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.activity.SettingsActivity
+intent::android.intent.action.MAIN
+real_permission::android.permission.VIBRATE
+activity::.activity.NewCouponActivity
+activity::.activity.ViewCouponActivity
+intent::android.intent.category.DEFAULT
+service_receiver::.broadcastreceiver.CheckerExpiration
+activity::.broadcastreceiver.CheckerExpiration
+api_call::android/app/NotificationManager;->notify
+activity::.SplashScreenActivity
+activity::.activity.MainActivity
+intent::android.intent.action.BOOT_COMPLETED
+call::getSystemService
+intent::android.intent.category.LAUNCHER

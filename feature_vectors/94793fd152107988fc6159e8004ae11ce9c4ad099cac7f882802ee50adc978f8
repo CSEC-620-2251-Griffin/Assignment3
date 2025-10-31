@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::http://2ch-m.info/ranking_xml/yearly_ranking.xml
+url::http://2ch-m.info/
+activity::co.jp.sharingseed.dev.Viewer2MM.NewsLookupActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://2ch-m.info/ranking_xml/monthly_ranking.xml
+intent::android.intent.category.LAUNCHER
+url::http://2ch-m.info/ranking_xml/weekly_ranking.xml
+url::2ch-m.info
+call::getSystemService
+url::http://2ch-m.info/ranking_xml/daily_ranking.xml
+activity::.NewsLookupActivity

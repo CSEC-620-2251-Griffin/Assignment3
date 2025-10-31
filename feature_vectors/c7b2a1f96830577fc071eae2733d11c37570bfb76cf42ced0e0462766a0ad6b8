@@ -1,0 +1,14 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://ra.fi/fj/rss_android.php
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::com.ra.funnyjunk.MainActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+call::getSystemService
+url::ra.fi

@@ -1,0 +1,147 @@
+call::getDeviceId
+url::http://place.daum.net/application/ModifyPlace.api
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::http://www.w3.org/2001/XMLSchema-instance
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::logins.daum.net
+call::getPackageInfo
+url::http://place.daum.net/application/HanmailList.do
+call::HttpPost
+api_call::android/hardware/Camera;->open
+activity::%EC%B9%EB%B7%B0
+url::xml.org
+url::org.dom4j.io.DoucmentSource
+url::m.daum.net
+activity::%ED%EB%A1%ED %EB%B1%EB%A1
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+call::getSystemService
+url::http://place.daum.net/application/UpdateStatusCheckinStory.api
+url::http://place.daum.net/YozmAuthentication.do
+url::http://place.daum.net/FacebookAuthorize.do
+url::http://blog.daum.net/placeapp
+permission::android.permission.CAMERA
+url::http://place.daum.net/application/PlaceCheckin.do
+permission::android.permission.ACCESS_WIFI_STATE
+intent::android.intent.action.VIEW
+activity::%EC%B4%EC%BC%EA%B8%B0
+activity::%EB%A1%EA%B7%B8%EC%B8
+url::http://xml.org/sax/handlers/LexicalHandler
+url::http://place.daum.net/application/DeleteFriend.api
+url::https://user.daum.net/joinuser/mb/mobileid.do
+url::http://place.daum.net/application/RegistApplicationUser.api
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+api_call::android/location/LocationManager;->getLastKnownLocation
+url::http://place.daum.net/application/RoadView.api?confirmid%3D
+activity::.IntroActivity
+url::http://xml.org/sax/features/namespace-prefixes
+url::http://org.dom4j.io.DoucmentSource/feature
+activity::Daum %ED%EB%A0%EC%B4%EC%A4
+url::http://place.daum.net/application/AppVersion.api
+activity::%EB%A6%AC%EB%B7%B0 %EB%AA%A9%EB%A1
+activity::%EC%A5%EC %EA%B2%EC
+url::http://place.daum.net/application/UserInfo.api
+url::http://xml.org/sax/features/validation
+activity::%EC%B2%B4%ED%AC%EC%B8
+url::http://place.daum.net/application/YozmFollowList.do
+feature::android.hardware.location.gps
+url::http://place.daum.net/application/AddFriend.api
+activity::%EC%B9%B4%ED%EA%B3%A0%EB%A6%AC %EC%A0%ED
+api_call::android/content/Context;->startActivity
+url::http://place.daum.net/application/UserMayorList.api
+url::http://place.daum.net/application/UserStoryList.api
+activity::%EC%B2%B4%ED%AC%EC%B8 %EA%B2%B0%EA%B3%BC
+url::http://place.daum.net/application/FriendsList.api
+url::http://go.daum.net/bin/daumtrans.gif
+url::http://place.daum.net/application/RecommendFriendsList.do
+url::intro.mobile.daum.net
+url::https://logins.daum.net/accounts/logout.do
+url::http://place.daum.net/application/BlogReviewList.api
+url::http://place.daum.net/application/TwitterFollowList.do
+url::http://place.daum.net/application/RecommendFriendsList.do?lat%3D
+url::http://www.w3.org/XML/1998/namespace
+feature::android.hardware.camera
+activity::%EC%A7%EB
+url::http://place.daum.net/application/InputTwitterScreenName.do
+feature::android.hardware.location.network
+url::http://xml.org/sax/features/string-interning
+intent::android.intent.category.LAUNCHER
+url::http://place.daum.net/application/AddMeToFriendsList.do
+permission::android.permission.ACCESS_FINE_LOCATION
+url::http://place.daum.net/application/StampList.api
+url::http://xml.org/sax/properties/declaration-handler
+url::http://place.daum.net/application/CheckRegistration.api
+url::http://place.daum.net/application/NearbyStoryList.api
+real_permission::android.permission.CAMERA
+feature::android.hardware.camera.autofocus
+url::http://place.daum.net/TwitterAuthorize.do
+url::http://xml.org/sax/features/namespaces
+activity::%EC%A5%EC %EC%A0%EB%B3%B4
+url::http://xmlpull.org/v1/doc/features.html
+url::http://m.daum.net/app.daum
+url::http://place.daum.net/application/StoryList.api
+call::Cipher(AES)
+url::place.daum.net
+url::http://m.daum.net
+permission::android.permission.INTERNET
+url::http://intro.mobile.daum.net/mobile/daumApps/androidDown.daum?appName%3DplaceApp
+url::http://place.daum.net/application/CateList.api
+activity::%EC%AC%EC%A9%EC %EC%A0%EB%B3%B4
+url::http://place.daum.net/application/SearchFriend.do
+intent::android.intent.category.BROWSABLE
+activity::%EC%A4%EC%A0
+url::user.daum.net
+feature::android.hardware.wifi
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://xml.org/sax/properties/lexical-handler
+call::Cipher(Blowfish)
+feature::android.hardware.screen.portrait
+activity::%EC%B9%EA%B5%AC %EC%B6%EA%B0
+url::https://user.daum.net/finduser/mb/findpw.do
+call::Cipher(DES/ECB/NoPadding)
+url::http://xml.org/sax/features/use-locator2
+url::http://place.daum.net/application/InsertPlace.api
+feature::android.hardware.touchscreen
+url::xmlpull.org
+activity::%EC%B0%EB%ED%EA%B8%B0
+call::printStackTrace
+permission::android.permission.CALL_PHONE
+url::http://place.daum.net/application/DeletePlace.api
+api_call::java/net/URL;->openStream
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_WIFI_STATE
+url::http://www.w3.org/2000/xmlns/
+permission::android.permission.GET_TASKS
+activity::%ED%EB%A1%EA%B7%B8%EB%A8 %EC%A0%EB%B3%B4
+url::http://place.daum.net/application/CafeReviewList.api
+activity::%EC%B4%EC%BC%EA%B8%B0 %EC%EC%B8
+api_call::android/app/ActivityManager;->getRunningTasks
+url::http://place.daum.net/application/OverlapPlace.do
+url::http://place.daum.net/application/AlertNotice.api
+feature::android.hardware.location
+activity::%EC%EC%B4%EC%A4
+url::http://place.daum.net/application/PointAddress.api
+url::http://www.w3.org/2001/XMLSchema
+activity::%EC%A5%EC %EC%EC%B8%EC%A0%EB%B3%B4
+url::http://place.daum.net/application/InsertUserSuggest.api
+activity::%EB%EB%A4%EC %EC%EB%A0%A5
+url::https://logins.daum.net/accounts/mobile.do
+url::http://place.daum.net/application/StoryContent.api
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.GET_TASKS
+activity::%EC%AC%EC%A7 %ED%AC%EA%B2 %EB%B3%B4%EA%B8%B0
+activity::%EC%EA%B2%AC %EB%B3%B4%EB%B4%EA%B8%B0
+feature::android.hardware.telephony
+url::go.daum.net
+url::http://place.daum.net/application/NearPlaceList.api
+url::http://place.daum.net/application/RoadView.api
+activity::%EC%A5%EC %EB%B1%EB%A1
+intent::android.intent.action.MAIN
+url::blog.daum.net
+url::www.w3.org
+activity::.activity.UriActivity
+real_permission::android.permission.INTERNET
+url::http://place.daum.net/application/PlaceInfo.api
+url::http://place.daum.net/application/RoadView.do?confirmid%3D
+url::http://place.daum.net

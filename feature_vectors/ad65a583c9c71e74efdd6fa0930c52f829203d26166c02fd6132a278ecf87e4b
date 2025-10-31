@@ -1,0 +1,11 @@
+intent::net.robotmedia.bugreporter.intent.action.REPORT_BUG
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.READ_LOGS
+activity::.BugReporter
+real_permission::android.permission.READ_LOGS
+intent::android.intent.category.DEFAULT
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::java/lang/Runtime;->exec

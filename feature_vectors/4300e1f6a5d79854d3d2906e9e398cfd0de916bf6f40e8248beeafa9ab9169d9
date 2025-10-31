@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::alternativeto.net
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::api.alternativeto.net
+call::Obfuscation(Base64)
+activity::.SearchScreen
+activity::.MainScreen
+activity::.RecentScreen
+permission::android.permission.INTERNET
+activity::.AlternativeDetailsScreen
+activity::.AboutUsScreen
+url::http://api.alternativeto.net/software/
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://alternativeto.net/software/
+url::http://api.alternativeto.net/software/recent/

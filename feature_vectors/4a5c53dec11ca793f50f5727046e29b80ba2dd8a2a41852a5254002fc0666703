@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.UnkoNose
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+real_permission::android.permission.INTERNET
+api_call::android/webkit/WebView
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+call::getPackageInfo
+api_call::android/content/Context;->sendBroadcast
+url::www.neko.ne.jp
+url::http://www.neko.ne.jp/

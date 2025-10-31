@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+activity::Buzzer
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+feature::android.hardware.screen.portrait
+activity::.Buzzer
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

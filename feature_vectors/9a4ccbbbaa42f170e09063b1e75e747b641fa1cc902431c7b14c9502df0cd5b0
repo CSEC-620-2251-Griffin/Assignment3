@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::com.Alten.RingsOfSaturn.RingsOfSaturn
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+activity::com.Alten.OpenMenu.Help
+activity::com.Alten.OpenMenu.Credits
+activity::com.Alten.OpenMenu.GestionIntro
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.WAKE_LOCK
+activity::.GestionIntro
+permission::android.permission.WAKE_LOCK
+activity::com.Alten.OpenMenu.Menu
+activity::com.Alten.OpenMenu.Options
+call::getSystemService
+intent::android.intent.category.LAUNCHER

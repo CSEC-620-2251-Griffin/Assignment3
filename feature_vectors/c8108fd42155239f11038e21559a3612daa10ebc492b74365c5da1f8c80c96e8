@@ -1,0 +1,10 @@
+url::http://m1.fank.ru/d/n1/56061/Dennis_Menace_Catapult_Master.jad
+feature::android.hardware.touchscreen
+url::m1.fank.ru
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+activity::.DMCatapultMaster
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::www.netmite.com

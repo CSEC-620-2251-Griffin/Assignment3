@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Main
+intent::android.intent.category.LAUNCHER
+url::http://andappstore.com/AndroidApplications/apps/gTasks
+url::andappstore.com
+call::getPackageInfo

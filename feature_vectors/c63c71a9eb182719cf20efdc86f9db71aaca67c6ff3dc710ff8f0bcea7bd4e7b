@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.READ_PHONE_STATE
+activity::.DualDialActivity
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CALL_PHONE
+call::getSystemService

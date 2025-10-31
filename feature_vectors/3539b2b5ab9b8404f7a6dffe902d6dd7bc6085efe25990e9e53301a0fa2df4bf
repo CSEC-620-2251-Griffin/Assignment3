@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.DiskUsage
+call::Read/Write External Storage
+permission::android.permission.GET_PACKAGE_SIZE
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

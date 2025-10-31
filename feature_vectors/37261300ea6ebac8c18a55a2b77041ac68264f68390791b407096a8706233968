@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::HttpPost
+url::a.greetsco.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.GalleryActivity
+intent::android.intent.category.LAUNCHER
+url::greetsco.com
+url::http://greetsco.com/ecards/
+call::getSystemService
+url::http://a.greetsco.com/i/tn/c

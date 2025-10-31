@@ -1,0 +1,16 @@
+url::http://mobile.twitter.com/CybExSolution
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::http://www.facebook.com/CybExSolutions
+activity::.ui.Connexion
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+activity::.Connexion
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.cybexsolutions.net/
+url::mobile.twitter.com
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->startActivity
+url::www.cybexsolutions.net
+url::http://www.cybexsolutions.net/server.dat

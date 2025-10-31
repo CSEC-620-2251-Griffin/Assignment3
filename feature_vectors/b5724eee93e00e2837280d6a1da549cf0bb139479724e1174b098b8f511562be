@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.italianapps.it/androidapp/codicefiscale
+url::www.weetmesoftware.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::www.italianapps.it
+url::http://www.weetmesoftware.com
+real_permission::android.permission.INTERNET
+activity::.CodiceFiscale

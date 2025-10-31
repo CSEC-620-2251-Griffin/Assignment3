@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+activity::.LeConjugueur
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

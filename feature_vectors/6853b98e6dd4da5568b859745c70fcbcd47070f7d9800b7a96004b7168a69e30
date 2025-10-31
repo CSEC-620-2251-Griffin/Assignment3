@@ -1,0 +1,19 @@
+url::http://www.hwjournal.com/files/android/
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://www.hwjournal.com/files/android/index.php
+call::Obfuscation(Base64)
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::Read/Write External Storage
+call::Cipher(AES/CBC/PKCS5Padding)
+url::http://market.android.com/search?q%3Dpname:
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+activity::.flash_notes
+url::www.hwjournal.com
+api_call::android/webkit/WebView

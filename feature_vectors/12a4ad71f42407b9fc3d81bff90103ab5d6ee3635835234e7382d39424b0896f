@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.Conversion
+intent::android.intent.action.MAIN
+activity::.Result
+api_call::android/app/Activity;->startActivity
+intent::android.intent.category.LAUNCHER
+activity::.WelcomeScreen
+activity::.CategorySelection

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.WebViewActivity
+intent::android.intent.action.MAIN
+activity::.MandarinActivity
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

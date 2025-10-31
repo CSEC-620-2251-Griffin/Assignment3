@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+provider::android.appwidget.provider
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/hardware/Camera;->open
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+activity::.SplashScreen
+feature::android.hardware.screen.portrait
+activity::SplashScreen
+real_permission::android.permission.CAMERA
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+call::getPackageInfo
+activity::Generate
+activity::com.ourbunny.PicshaPassFree.About
+call::getSystemService

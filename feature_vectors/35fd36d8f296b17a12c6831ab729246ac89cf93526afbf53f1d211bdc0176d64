@@ -1,0 +1,15 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.it-sam.info
+url::http://www.it-sam.info/styled/index.html
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.PERSISTENT_ACTIVITY
+url::http://www.it-sam.info/index.html
+real_permission::android.permission.INTERNET

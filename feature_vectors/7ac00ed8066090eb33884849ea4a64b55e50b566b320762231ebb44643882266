@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+activity::.ActivitySMSAR
+intent::android.intent.action.MAIN
+provider::android.provider.Telephony.SMS_RECEIVED
+real_permission::android.permission.SEND_SMS
+service_receiver::.SMSAutoReply
+permission::android.permission.RECEIVE_SMS
+feature::android.hardware.telephony
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage
+permission::android.permission.SEND_SMS
+call::getSystemService

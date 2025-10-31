@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.ContactsListActivity
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+service_receiver::.OnPhoneStateChangeReceiver
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::getSystemService

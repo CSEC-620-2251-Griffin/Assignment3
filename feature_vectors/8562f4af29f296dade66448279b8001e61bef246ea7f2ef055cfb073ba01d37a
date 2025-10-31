@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://ebookhow.info/InsuQuote/Life.html
+url::http://ebookhow.info/InsuQuote/Auto.html
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://ebookhow.info/InsuQuote/Auto_2.html
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://ebookhow.info/InsuQuote/Disability.html
+real_permission::android.permission.INTERNET
+activity::.SplashActivity
+url::ebookhow.info
+call::getSystemService

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+service_receiver::BootReceiver
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.AutoRotateOnOffStatusBar
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/content/Context;->startActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/provider/Settings$System;->putInt
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.WRITE_SETTINGS
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+activity::.Preferences

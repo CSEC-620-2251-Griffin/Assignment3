@@ -1,0 +1,17 @@
+activity::.activity.ShopActivity
+activity::.activity.ItemInfoActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.activity.ConversationActivity
+activity::.activity.HeroinfoActivity
+call::Obfuscation(Base64)
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.StartScreenActivity
+activity::.activity.StartScreenActivity
+api_call::android/app/Activity;->startActivity
+activity::.activity.MonsterInfoActivity
+activity::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+activity::.activity.AboutActivity
+activity::.activity.MonsterEncounterActivity
+activity::.activity.LevelUpActivity

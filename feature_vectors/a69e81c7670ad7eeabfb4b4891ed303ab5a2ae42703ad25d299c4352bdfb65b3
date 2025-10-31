@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.Help
+activity::.About
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+activity::.Forecast
+activity::.Preferences
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://www.met.ie/forecasts/pollen.asp
+real_permission::android.permission.INTERNET
+url::www.met.ie
+provider::android.appwidget.provider

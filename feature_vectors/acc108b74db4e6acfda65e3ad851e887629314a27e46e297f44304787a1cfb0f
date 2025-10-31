@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+feature::android.hardware.screen.portrait
+activity::.view_records_activity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.main_menu_icons
+activity::.blood_rec_activity
+activity::.main_settings_activity
+call::printStackTrace
+activity::.export_activity
+call::getPackageInfo
+activity::.charts_activity
+activity::.about_activity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

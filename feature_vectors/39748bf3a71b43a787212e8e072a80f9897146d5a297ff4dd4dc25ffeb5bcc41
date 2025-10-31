@@ -1,0 +1,14 @@
+url::www.jpct.de
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+activity::.An3DBenchXL
+call::Obfuscation(Base64)
+call::printStackTrace
+url::http://www.jpct.de/an3dbenchxl/upload.php?data%3D
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

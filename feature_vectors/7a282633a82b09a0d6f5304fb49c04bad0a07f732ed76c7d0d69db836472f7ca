@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::woop.la
+permission::android.permission.CALL_PHONE
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.telephony
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::la.woop.android.telechatDE.main
+url::https://woop.la/mywoopla/systemInterfaces/chat/fetchAppUsers.aspx
+call::HttpPost

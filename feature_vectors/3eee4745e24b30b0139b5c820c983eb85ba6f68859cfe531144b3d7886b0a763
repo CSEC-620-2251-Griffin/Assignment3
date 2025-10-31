@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CONTACTS
+api_call::android/app/Activity;->startActivity
+activity::%E5%A4%E8%A7%E2%E2%E2
+api_call::android/content/ContentResolver;->query
+service_receiver::.UpdateServiceSmall2_0
+real_permission::android.permission.INTERNET
+service_receiver::.UpdateServiceSmall
+service_receiver::%E6%A1%E9%A2%E6%A8%E5%B7 2x2%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CALL_PHONE
+real_permission::android.permission.READ_CONTACTS
+service_receiver::.UpdateService2_0
+provider::android.appwidget.provider
+api_call::java/net/URL;->openConnection
+service_receiver::.UpdateService

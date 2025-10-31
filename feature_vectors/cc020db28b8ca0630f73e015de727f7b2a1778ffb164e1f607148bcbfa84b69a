@@ -1,0 +1,12 @@
+activity::.MYmenu
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.DEFAULT
+activity::.backroundTwo
+real_permission::android.permission.WAKE_LOCK
+activity::.tutorialOne
+activity::.backroundThree
+activity::.backroundFour
+activity::.myMain
+intent::android.intent.category.LAUNCHER

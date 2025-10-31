@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.ChapterListActivity
+activity::Pick Sloka
+intent::android.intent.action.MAIN
+url::www.sparshapps.com
+url::http://www.sparshapps.com
+url::www.sparshapps.com\%27>
+feature::android.hardware.screen.portrait
+activity::Favorites
+activity::Gita
+url::http://www.sparshapps.com\%27>
+intent::android.intent.category.LAUNCHER

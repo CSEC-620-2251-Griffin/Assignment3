@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::Run script
+intent::android.intent.action.MAIN
+activity::.Disclaimer
+activity::.Scripter
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+activity::initscripter
+call::Execution of external commands
+call::getPackageInfo
+activity::.EditScript
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.RUN
+activity::.SettingsActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW

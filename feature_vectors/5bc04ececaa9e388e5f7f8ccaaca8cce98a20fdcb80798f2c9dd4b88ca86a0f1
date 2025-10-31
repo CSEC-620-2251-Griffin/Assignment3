@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+provider::.contentprovider.CID10MLProvider
+activity::.Main
+intent::android.intent.category.LAUNCHER
+provider::br.com.aeplan.contentprovider.cid10mlprovider
+call::getSystemService

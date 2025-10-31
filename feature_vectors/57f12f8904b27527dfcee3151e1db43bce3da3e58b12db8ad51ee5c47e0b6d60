@@ -1,0 +1,10 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::www.tinyurl.com
+intent::android.intent.action.MAIN
+url::http://www.tinyurl.com/ftaylor92/xxx
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.TabLayout
+call::getPackageInfo
+call::HttpPost

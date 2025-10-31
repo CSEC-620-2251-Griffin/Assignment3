@@ -1,0 +1,5 @@
+activity::.PlazaWinBingoBonanza
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.plazawin.games392.bingobonanza.PlazaWinBingoBonanza
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,15 @@
+url::http://twitter.com/statuses/user_timeline/16887507.rss
+feature::android.hardware.touchscreen
+url::http://www.droidgenerator.com
+intent::android.intent.action.MAIN
+url::twitter.com
+url::http://www.twitter.com/androidcentral/
+call::printStackTrace
+permission::android.permission.INTERNET
+url::www.droidgenerator.com
+url::www.twitter.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+activity::.Activity1
+url::http://www.droidgenerator.com/images/droidtweets.png

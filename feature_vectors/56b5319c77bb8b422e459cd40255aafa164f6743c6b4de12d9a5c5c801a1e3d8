@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.PlayNow
+service_receiver::Play Now (1x1)
+intent::android.intent.action.MAIN
+service_receiver::GameLauncherService
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+service_receiver::Play Now (2x1)

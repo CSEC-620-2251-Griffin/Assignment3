@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+url::http://www.hiphopdaily.mobi/polls/what-is-the-best-harry-potter-movie/
+intent::android.intent.category.LAUNCHER
+url::www.hiphopdaily.mobi
+real_permission::android.permission.INTERNET
+activity::.Activity1

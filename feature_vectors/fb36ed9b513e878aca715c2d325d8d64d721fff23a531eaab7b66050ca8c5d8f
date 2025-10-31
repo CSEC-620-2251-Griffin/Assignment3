@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://rss2facebook.com/android/whois/?d%3D
+intent::android.intent.action.MAIN
+url::rss2facebook.com
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::getSystemService

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.TwoPlayerInstructionsActivity
+activity::.GameActivity
+activity::.TitleScreenActivity
+feature::android.hardware.screen.portrait
+activity::.TwoPlayerStagingActivity
+activity::.PlayerSelectActivity
+intent::android.intent.category.LAUNCHER
+activity::.MultitouchTestActivity
+activity::.PostMatchActivity
+call::getPackageInfo
+activity::.OnePlayerStagingActivity
+url::http://jjcgames.com/airhockey/players/
+call::getSystemService
+url::jjcgames.com

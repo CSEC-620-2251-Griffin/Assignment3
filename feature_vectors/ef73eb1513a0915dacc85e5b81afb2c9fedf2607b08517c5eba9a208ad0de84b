@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::9299dlhjojld4jf9jb2io6hkfc.hop.clickbank.net
+url::http://9299dlhjojld4jf9jb2io6hkfc.hop.clickbank.net/
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://img138.imageshack.us/img138/2733/91581213.png
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.Activity1
+url::img138.imageshack.us

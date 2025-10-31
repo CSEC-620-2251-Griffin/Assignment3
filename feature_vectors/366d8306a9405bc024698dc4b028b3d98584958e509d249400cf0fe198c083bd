@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::Connected Blobs - Settings
+service_receiver::Connected Blobs

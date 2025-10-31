@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+activity::.MEMIDlet
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::wap.ribiq.com
+url::http://www.netmite.com/android/andme_signed.apk
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+url::http://wap.ribiq.com/chengren2/crdzs22/73552.jar
+intent::android.intent.category.ALTERNATIVE

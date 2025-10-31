@@ -1,0 +1,37 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_PHONE_STATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::PeopleList
+call::getPackageInfo
+service_receiver::Principalm Mass Storage Mode Receiver
+intent::android.intent.action.MEDIA_SHARED
+call::Cipher(AES/ECB/NoPadding)
+api_call::android/app/Activity;->startActivity
+url::discoverysoftware.com
+activity::.Principalm
+activity::Dashboard
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MEDIA_SCANNER_SCAN_FILE
+call::getSystemService
+intent::android.intent.action.MEDIA_EJECT
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MEDIA_CHECKING
+intent::android.intent.action.MEDIA_SCANNER_STARTED
+intent::android.intent.action.MEDIA_MOUNTED
+intent::android.intent.action.MEDIA_UNMOUNTED
+intent::android.intent.action.MEDIA_UNMOUNTABLE
+intent::android.intent.action.MEDIA_BUTTON
+service_receiver::Principalm Timeout Receiver
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+url::http://discoverysoftware.com/downloads/demo_data/
+intent::android.intent.category.LAUNCHER
+activity::Principalm Settings
+activity::Synchronize Data
+intent::android.intent.action.MEDIA_NOFS
+intent::android.intent.action.MEDIA_SCANNER_FINISHED
+intent::android.intent.action.MEDIA_REMOVED

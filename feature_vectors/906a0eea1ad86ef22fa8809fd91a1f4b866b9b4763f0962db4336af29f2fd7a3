@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.LoveHurtsLite
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+url::http://www.ximad.com/ad/ximad_redirect_am.php\
+real_permission::android.permission.VIBRATE
+api_call::android/webkit/WebView
+real_permission::android.permission.WAKE_LOCK
+url::www.ximad.com
+call::getSystemService
+intent::android.intent.category.LAUNCHER

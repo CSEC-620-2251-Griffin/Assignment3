@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::hjlas.com
+permission::android.permission.INTERNET
+url::http://hjlas.com/click/?s%3D23411&c%3D347606
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.Activity1

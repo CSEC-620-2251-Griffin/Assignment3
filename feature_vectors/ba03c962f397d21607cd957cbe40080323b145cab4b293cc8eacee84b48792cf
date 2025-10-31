@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+url::www2.shoutmix.com
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.Prefs
+activity::.RootEdShoutBox
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::java/net/HttpURLConnection
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.History
+call::getSystemService
+url::http://www2.shoutmix.com

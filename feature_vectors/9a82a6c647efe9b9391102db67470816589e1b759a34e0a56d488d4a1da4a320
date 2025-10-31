@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.ChangeLog
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.Prefs
+intent::android.intent.category.HOME
+service_receiver::.BootReceiver
+activity::.AppLaunch
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.SEARCH_LONG_PRESS
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.Config
+intent::android.intent.action.BOOT_COMPLETED
+call::Read/Write External Storage
+call::getSystemService

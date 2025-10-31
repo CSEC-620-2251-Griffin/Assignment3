@@ -1,0 +1,15 @@
+activity::jp.bluetone.thereminbt.android.service.KillPdService
+activity::.SettingActivity
+api_call::android/media/AudioRecord
+service_receiver:::remote
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.ThereminActivity
+feature::android.hardware.screen.portrait
+service_receiver::jp.bluetone.thereminbt.android.service.PdService
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->setContentView
+real_permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.INTERNET

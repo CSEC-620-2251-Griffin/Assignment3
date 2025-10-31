@@ -1,0 +1,20 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.app.NewGameActivity
+permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+activity::com.alfray.prefs.PrefsActivity
+feature::android.hardware.screen.portrait
+activity::Nerdkill - Report Error
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::com.alfray.app.IntroActivity
+call::getPackageInfo
+activity::.v3.game.NerdActivity3
+call::Execution of external commands
+real_permission::android.permission.INTERNET
+call::getSystemService
+activity::.LauncherActivity

@@ -1,0 +1,34 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_PHONE_STATE
+call::getDeviceId
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::com.requiem.RSL.PromotionDialog
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+activity::com.requiem.RSL.QuestionAlert
+call::Read/Write External Storage
+call::getPackageInfo
+activity::An Error Has Occurred On A Previous Run.
+url::rslservlet.appspot.com
+real_permission::android.permission.WAKE_LOCK
+url::market.android.com
+call::HttpPost
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.VIBRATE
+activity::Pick An Entity Type
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::.BlobSelectionWindow
+activity::.RaceRecordDialog
+activity::.SlimeballSpeedway
+url::http://market.android.com/search?q%3Dpname:
+real_permission::android.permission.READ_PHONE_STATE
+activity::.CourseSelectionWindow
+intent::android.intent.action.MAIN
+activity::com.requiem.RSL.OKAlert
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getSubscriberId
+url::http://rslservlet.appspot.com/slimeball_ghostrace

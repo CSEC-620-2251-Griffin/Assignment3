@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::CdipWebView
+activity::.CDIP
+url::http://cdip.ucsd.edu/recent/model_images/socal_now.png
+url::http://cdip.ucsd.edu/recent/model_images/sb_channel.png
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://cdip.ucsd.edu/recent/model_images/santa_monica.png
+url::http://cdip.ucsd.edu/recent/model_images/san_diego.png
+url::http://cdip.ucsd.edu/recent/model_images/san_pedro.png
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::cdip.ucsd.edu

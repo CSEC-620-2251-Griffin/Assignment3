@@ -1,0 +1,14 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+call::getDeviceId
+real_permission::android.permission.READ_LOGS
+permission::android.permission.BATTERY_STATS
+permission::android.permission.READ_PHONE_STATE
+api_call::java/lang/Runtime;->exec
+intent::android.intent.category.DEFAULT
+call::Execution of external commands
+api_call::android/telephony/TelephonyManager;->getDeviceId
+real_permission::android.permission.READ_PHONE_STATE
+activity::.SysInfo
+call::getSubscriberId
+call::getSystemService

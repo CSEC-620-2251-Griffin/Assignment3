@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::nzbs.org
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+url::http://nzbs.org/user.php?action%3Dmysearches
+url::http://www.nzbs.org/
+call::Obfuscation(Base64)
+activity::.GetNZB
+url::http://www.nzbs.org
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.nzbs.org/user.php
+url::www.nzbs.org
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::http://www.nzbs.org/index.php?action%3Dsearch&q%3D

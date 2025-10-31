@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://android.imomushi.com/unmei/msg.htm
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+activity::unmei
+service_receiver::.UnmeiService
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.unmei
+url::android.imomushi.com

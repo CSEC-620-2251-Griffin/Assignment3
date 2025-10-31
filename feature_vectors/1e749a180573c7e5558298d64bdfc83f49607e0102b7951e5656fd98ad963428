@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+permission::android.permission.SET_WALLPAPER_COMPONENT
+permission::android.permission.BIND_WALLPAPER

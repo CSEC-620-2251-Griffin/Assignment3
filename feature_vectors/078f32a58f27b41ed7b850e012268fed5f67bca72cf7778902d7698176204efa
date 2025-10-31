@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+real_permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT

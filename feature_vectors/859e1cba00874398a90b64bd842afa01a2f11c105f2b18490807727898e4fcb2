@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+service_receiver::.AlarmeService
+feature::android.hardware.screen.portrait
+activity::.Alarme
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.Configure
+intent::android.intent.category.DEFAULT
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::SelectItemsActivity
+activity::SearchActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+activity::ItemDetailsActivity
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+activity::AddEditCategoryActivity
+activity::ChangePlaceActivity
+activity::MainActivity
+activity::AddEditItemActivity

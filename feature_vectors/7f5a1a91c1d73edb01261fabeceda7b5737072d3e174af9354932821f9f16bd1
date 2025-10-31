@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+url::www1.aia.co.kr
+activity::.AIAKMPortal
+url::https://www1.aia.co.kr/eService/m_main.html
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.BROWSABLE
+activity::.Editor
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.EDIT
+feature::android.hardware.screen.portrait
+activity::Editor
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.DEFAULT

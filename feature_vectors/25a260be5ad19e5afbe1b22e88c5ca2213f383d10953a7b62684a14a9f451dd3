@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_CONTACTS
+activity::EditPrefs
+intent::android.intent.action.MAIN
+activity::DisplayMyImage
+permission::android.permission.CALL_PHONE
+url::http://www.cellularsales.com/store
+url::http://www.twitter.com/
+permission::android.permission.READ_CONTACTS
+url::www.twitter.com
+permission::android.permission.INTERNET
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.MyCellularSales
+url::www.cellularsales.com

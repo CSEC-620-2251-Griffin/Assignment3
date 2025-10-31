@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.uwmupdate.com
+url::http://mobile.uwmupdate.com/stats
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+url::http://mobile.uwmupdate.com/about
+activity::UWM Update
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://mobile.uwmupdate.com/schedule
+url::mobile.uwmupdate.com
+url::http://mobile.uwmupdate.com/roster

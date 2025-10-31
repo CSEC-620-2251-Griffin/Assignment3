@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::ExportCords
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::AddCord
+activity::CordGraph
+activity::ImportCords
+call::Read/Write External Storage
+activity::CordList
+activity::.CordList
+call::getSystemService
+intent::android.intent.category.LAUNCHER

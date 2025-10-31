@@ -1,0 +1,13 @@
+url::61.57.134.123
+activity::.Dungeons
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+service_receiver::BillingReceiver
+real_permission::android.permission.INTERNET
+service_receiver::BillingService
+intent::android.intent.category.LAUNCHER
+permission::com.android.vending.BILLING
+api_call::android/content/Context;->startService

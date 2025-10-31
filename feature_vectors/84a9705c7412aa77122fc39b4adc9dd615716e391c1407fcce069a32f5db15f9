@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://www.synccell.com/demo/SyncCell/SyncCell_Download.htm
+intent::android.intent.action.MAIN
+url::http://www.synccell.com/support/kb/categories.php?categoryid%3D44
+url::http://www.synccell.com/download2.aspx
+feature::android.hardware.screen.portrait
+url::http://www.synccell.com/demo/SyncCell/SyncCell_Install_Quick.htm
+intent::android.intent.category.LAUNCHER
+activity::.SyncCellTrial
+url::www.synccell.com
+url::http://www.synccell.com/demo/SyncCell/SyncCell_Android_Calendar_Sync.htm

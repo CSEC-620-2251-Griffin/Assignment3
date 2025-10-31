@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+service_receiver::.ScreenLockService
+activity::.ScreenLockActive
+activity::.ScreenLockActivity
+intent::android.intent.action.ALL_APPS
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+provider::android.appwidget.provider
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

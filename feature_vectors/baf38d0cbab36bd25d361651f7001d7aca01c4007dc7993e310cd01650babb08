@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::www.dhs.gov
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.dhs.gov/threat_level/current_new.gif
+provider::android.appwidget.provider

@@ -1,0 +1,18 @@
+intent::de.nsdroid.EasyShoppingSettings.intent.action.SEND_LOG
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+activity::EasyShoppingSettings
+activity::.EasyShoppingActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.READ_LOGS
+permission::android.permission.SEND_SMS
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+permission::android.permission.DISABLE_KEYGUARD
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+intent::android.intent.category.INFO
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

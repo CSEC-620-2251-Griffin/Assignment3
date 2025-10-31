@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.category.HOME
+activity::Add Item
+feature::android.hardware.screen.portrait
+activity::com.zeropointnine.homeScreen3d.HomeScreen3dFree
+intent::android.intent.category.DEFAULT
+call::getSystemService
+call::getPackageInfo
+activity::com.zeropointnine.homeScreen3d.AboutDialog
+intent::android.intent.action.SEARCH
+activity::Apps List

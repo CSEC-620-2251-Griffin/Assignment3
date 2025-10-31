@@ -1,0 +1,24 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+activity::.downAll
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+real_permission::android.permission.INTERNET
+permission::android.permission.ACCESS_WIFI_STATE
+url::http://218.145.31.184/
+call::getSystemService
+activity::.viewAll
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.view
+feature::android.hardware.screen.landscape
+url::218.145.31.184
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.main
+feature::android.hardware.screen.portrait
+activity::.download
+intent::android.intent.category.LAUNCHER

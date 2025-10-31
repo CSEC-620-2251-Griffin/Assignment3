@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.ACCESS_NETWORK_STATE
+url::https://webdmz.avans.nl/Tentamenrooster/StudentRooster.aspx
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::com.jeroenvanlogten.avanstentamenrooster.ExamActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService
+url::webdmz.avans.nl

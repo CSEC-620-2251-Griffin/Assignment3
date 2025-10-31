@@ -1,0 +1,10 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::passfolder
+call::printStackTrace
+call::Cipher(AES)
+intent::android.intent.category.LAUNCHER
+activity::PantG
+activity::.passfolder

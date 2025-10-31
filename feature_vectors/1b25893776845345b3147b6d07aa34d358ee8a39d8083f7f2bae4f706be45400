@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::tm3.bon.two.ConfigureWidgetActivity
+activity::tm3.bon.one.ConfigureWidgetActivity
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+service_receiver::tm3.bon.one.UpdateService
+permission::android.permission.CALL_PHONE
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+service_receiver::tm3.bon.two.UpdateService

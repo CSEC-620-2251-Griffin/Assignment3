@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.BbbAuctionUrlActivity
+intent::android.intent.action.MAIN
+url::bbbauction.co.kr
+url::http://bbbauction.co.kr
+intent::android.intent.category.LAUNCHER

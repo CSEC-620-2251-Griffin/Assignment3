@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.PoF
+url::http://paradeofflesh.com/
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.PoFShowList
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::paradeofflesh.com
+real_permission::android.permission.INTERNET

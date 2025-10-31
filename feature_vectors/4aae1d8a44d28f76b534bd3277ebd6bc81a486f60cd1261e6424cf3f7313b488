@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::net.redgeek.android.taoteching.Viewer
+activity::.Viewer
+intent::android.intent.category.LAUNCHER
+call::getSystemService

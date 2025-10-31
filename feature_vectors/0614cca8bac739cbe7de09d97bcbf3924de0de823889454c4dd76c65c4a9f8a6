@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.redwolvesreview.com/schedule
+url::http://mobile.redwolvesreview.com
+url::mobile.redwolvesreview.com
+intent::android.intent.category.LAUNCHER
+activity::Redwolves Review
+url::http://mobile.redwolvesreview.com/about
+url::http://mobile.redwolvesreview.com/roster
+url::http://mobile.redwolvesreview.com/stats

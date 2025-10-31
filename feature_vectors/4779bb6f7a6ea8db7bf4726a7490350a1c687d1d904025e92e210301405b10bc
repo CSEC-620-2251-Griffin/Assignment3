@@ -1,0 +1,14 @@
+permission::android.permission.SET_WALLPAPER
+activity::.mymenu
+api_call::android/content/Context;->setWallpaper
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+feature::android.hardware.screen.portrait
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.pgone
+activity::.mymain
+real_permission::android.permission.SET_WALLPAPER
+real_permission::android.permission.WAKE_LOCK

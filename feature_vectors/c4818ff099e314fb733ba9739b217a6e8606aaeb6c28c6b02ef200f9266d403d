@@ -1,0 +1,11 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://fipra.altervista.org/dos_4.xml
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://fipra.altervista.org/dos_3.xml
+url::fipra.altervista.org
+activity::.DearDos

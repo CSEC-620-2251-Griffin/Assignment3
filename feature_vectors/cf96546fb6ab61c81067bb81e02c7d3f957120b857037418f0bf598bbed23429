@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.Tanya
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+activity::SelectShiur
+activity::.Preferences

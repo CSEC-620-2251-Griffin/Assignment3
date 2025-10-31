@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://es.wikipedia.org/wiki/C\u00e1diz\nhttp://www.cadiz.es/
+intent::android.intent.action.MAIN
+url::es.wikipedia.org
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+activity::.Cadiz
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://www.netmite.com/android/srv/2.0/upload/cadiz_jad.jad
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+url::http://www.cmtbc.es/^\nTel\u00e9fono:
+url::www.cmtbc.es
+url::www.netmite.com

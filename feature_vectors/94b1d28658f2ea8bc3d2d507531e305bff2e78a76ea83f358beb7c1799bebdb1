@@ -1,0 +1,11 @@
+intent::android.intent.action.HEADSET_PLUG
+feature::android.hardware.touchscreen
+activity::.VolumeControl
+intent::android.intent.action.MAIN
+call::printStackTrace
+service_receiver::.VolumeControlService
+intent::android.intent.category.LAUNCHER
+api_call::android/telephony/TelephonyManager;->listen
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService
+api_call::android/content/Context;->startService

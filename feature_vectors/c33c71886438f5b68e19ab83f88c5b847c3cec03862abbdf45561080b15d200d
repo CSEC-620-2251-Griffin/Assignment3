@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::HttpPost
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+url::http://insilesia.pl/android/news
+real_permission::android.permission.VIBRATE
+service_receiver::com.encja.insilesia.CheckNews
+call::getSystemService
+permission::android.permission.VIBRATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::com.encja.insilesia.InsilesiaWidget
+url::insilesia.pl
+service_receiver::.SampleReceiver
+activity::.NewsPreview
+api_call::java/net/URL;->openConnection
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::com.encja.insilesia.Settings
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Insilesia
+provider::android.appwidget.provider

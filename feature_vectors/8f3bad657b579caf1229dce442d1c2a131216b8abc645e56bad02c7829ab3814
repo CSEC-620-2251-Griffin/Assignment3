@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::.Eraser
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.Ilovedle
+real_permission::android.permission.READ_CONTACTS
+activity::.Brush
+activity::.MyDrawings
+url::market.android.com
+api_call::android/content/Context;->startActivity
+activity::.layers
+activity::.colPalette
+activity::.CanvasSize
+activity::.howtouse
+activity::.Pencil
+activity::.RandomBrush
+activity::.magicdoodle
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+activity::.CanvasPage
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+url::www.magic-doodle.com
+intent::android.intent.category.LAUNCHER
+url::http://market.android.com/search?q%3Ddigital
+url::http://www.magic-doodle.com/

@@ -1,0 +1,16 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.location.network
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://ajax.googleapis.com/ajax/services/language/detect?
+permission::android.permission.INTERNET
+url::http://ajax.googleapis.com/ajax/services/language/translate
+url::http://www.market.com/
+feature::android.hardware.location
+feature::android.hardware.telephony
+activity::.BxLauncher
+intent::android.intent.category.LAUNCHER
+url::ajax.googleapis.com
+url::www.market.com
+real_permission::android.permission.INTERNET

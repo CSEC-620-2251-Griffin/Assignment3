@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.DoFCalcActivity
+intent::android.intent.category.LAUNCHER
+activity::DoFCalcActivity
+activity::SettingsActivity

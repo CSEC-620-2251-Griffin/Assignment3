@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::com.droidlib.permissions.BARCODE
+activity::.jkllkj
+intent::android.intent.category.LAUNCHER
+permission::com.droidlib.permission.TEST
+permission::com.droidlib.permission.MAD

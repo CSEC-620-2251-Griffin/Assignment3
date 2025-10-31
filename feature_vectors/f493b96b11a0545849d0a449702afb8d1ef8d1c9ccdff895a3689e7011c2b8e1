@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.OpenAlert
+service_receiver::.WeekUpdateService
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+call::getSystemService
+activity::Display style

@@ -1,0 +1,12 @@
+url::172.17.22.238
+feature::android.hardware.touchscreen
+url::http://gaeyjjtest.appspot.com/ServletApp
+intent::android.intent.action.MAIN
+url::http://172.17.22.238:8080/NsManager/my.LoginServlet?value%3D
+url::gaeyjjtest.appspot.com
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::java/net/HttpURLConnection
+intent::android.intent.category.LAUNCHER
+activity::.activity

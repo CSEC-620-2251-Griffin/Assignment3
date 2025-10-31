@@ -1,0 +1,13 @@
+url::info.catholic.or.kr
+feature::android.hardware.touchscreen
+url::music.catholic.or.kr
+intent::android.intent.action.MAIN
+url::http://info.catholic.or.kr/missa/missaprint.asp?goMonth%3D
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://info.catholic.or.kr/missa/missaprint.asp
+api_call::android/webkit/WebView
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.CatholicMissa
+url::http://music.catholic.or.kr/sungga/img/1998070

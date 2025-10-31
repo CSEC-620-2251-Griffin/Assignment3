@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.Menu
+activity::.MenuCredits
+activity::.MenuHelp
+intent::android.intent.action.MAIN
+activity::.MenuGame
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.Start
+intent::android.intent.category.DEFAULT
+call::getSystemService

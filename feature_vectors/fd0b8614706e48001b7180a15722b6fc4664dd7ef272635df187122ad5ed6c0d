@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+url::en.wikipedia.org
+api_call::android/content/Context;->startActivity
+activity::.main
+activity::com.JamesBecwar.PictureOfTheDay.main
+permission::android.permission.INTERNET
+url::http://en.wikipedia.org/wiki/Wikipedia:Picture_of_the_day
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService

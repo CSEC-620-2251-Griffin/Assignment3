@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::.AutomaticTimeAnnouncer
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/app/NotificationManager;->notify
+call::getSystemService
+activity::PreferencesFromXml
+real_permission::android.permission.WAKE_LOCK

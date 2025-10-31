@@ -1,0 +1,21 @@
+activity::com.android.Game11Bits.MainActivity
+feature::android.hardware.touchscreen
+permission::android.permission.DELETE_CACHE_FILES
+activity::com.android.Game11Bits.GameActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+url::download.anomalythegame.com
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::java/net/HttpURLConnection
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::com.android.Game11Bits.VideoActivity
+activity::com.android.Game11Bits.LoaderActivity
+url::http://download.anomalythegame.com/0000/
+call::Read/Write External Storage
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://mobile.wavefever.com/stats
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.wavefever.com/schedule
+intent::android.intent.category.LAUNCHER
+url::http://mobile.wavefever.com
+url::mobile.wavefever.com
+url::http://mobile.wavefever.com/about
+url::http://mobile.wavefever.com/roster
+activity::Wave Fever

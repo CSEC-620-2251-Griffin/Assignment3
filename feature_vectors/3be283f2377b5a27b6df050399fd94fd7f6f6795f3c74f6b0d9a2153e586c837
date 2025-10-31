@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::AppleDrop
+feature::android.hardware.screen.portrait
+activity::.AppleDrop
+intent::android.intent.category.LAUNCHER

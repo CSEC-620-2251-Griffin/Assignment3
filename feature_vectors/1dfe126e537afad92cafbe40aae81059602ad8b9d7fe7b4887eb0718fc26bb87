@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://grayzweb.info/115News.html
+url::http://grayzweb.info/95News.html
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+activity::.SplashScreen
+url::http://grayzweb.info/135News.html
+feature::android.hardware.screen.portrait
+activity::SplashScreen
+url::grayzweb.info
+url::http://grayzweb.info/cheerleading.html
+intent::android.intent.category.LAUNCHER
+url::http://grayzweb.info/yacSchedule.html
+permission::android.permission.INTERNET
+url::http://grayzweb.info/hltSchedule.html

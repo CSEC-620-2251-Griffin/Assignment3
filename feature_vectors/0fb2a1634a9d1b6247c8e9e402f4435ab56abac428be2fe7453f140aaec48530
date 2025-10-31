@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.SimpleAminoAcid
+activity::.All1
+activity::.TouchFreeLine
+intent::android.intent.category.LAUNCHER
+activity::SimpleAminoAcid
+intent::android.intent.category.BROWSABLE

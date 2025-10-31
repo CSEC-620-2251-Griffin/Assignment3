@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.ShortcutDetikForum
+url::http://forum.detik.com/mobile
+intent::android.intent.category.LAUNCHER
+url::forum.detik.com

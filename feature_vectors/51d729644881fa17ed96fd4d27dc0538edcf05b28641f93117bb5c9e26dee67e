@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.ECCardInfosActivity
+feature::android.hardware.nfc
+permission::android.permission.NFC
+intent::android.intent.category.LAUNCHER
+activity::TransactionsActivity

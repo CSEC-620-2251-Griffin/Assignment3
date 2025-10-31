@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+service_receiver::ProxyStarter
+intent::android.intent.action.MAIN
+intent::android.intent.category.HOME
+activity::AdBlock
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::java/net/ServerSocket
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::Proxy
+activity::.AdBlock
+call::getSystemService
+api_call::android/content/Context;->startService

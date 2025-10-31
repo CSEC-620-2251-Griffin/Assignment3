@@ -1,0 +1,16 @@
+activity::.ip_sel
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.about
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+activity::%EA%B8%B0%ED%B8%EC%EB%A0%A5
+real_permission::android.permission.INTERNET
+activity::.smart_control
+activity::%ED%A4%EB%B3%B4%EB %EC%EB%A0%A5
+api_call::java/net/DatagramSocket
+activity::%EB%A7%EC%B0%EC%A4 %ED%A8%EB
+activity::.set
+feature::android.hardware.screen.landscape
+call::getSystemService
+intent::android.intent.category.LAUNCHER

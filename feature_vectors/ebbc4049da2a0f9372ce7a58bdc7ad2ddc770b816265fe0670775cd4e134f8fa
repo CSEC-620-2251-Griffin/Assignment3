@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://66ov.com/android/gvideo/index2.html
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::66ov.com
+activity::.gmoviesnavi
+intent::android.intent.category.LAUNCHER

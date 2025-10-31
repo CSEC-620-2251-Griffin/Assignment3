@@ -1,0 +1,10 @@
+url::http://www.zse.hr/widget.aspx?dionice%3D
+activity::.Burza
+url::http://www.zse.hr/widget.aspx?dionice%3Dlista&te%3D4
+intent::android.intent.action.MAIN
+url::www.zse.hr
+permission::android.permission.INTERNET
+feature::android.hardware.touchscreen
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::java/net/HttpURLConnection

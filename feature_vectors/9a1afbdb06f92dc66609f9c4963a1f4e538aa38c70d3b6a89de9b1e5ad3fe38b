@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.ShortenUrl
+intent::android.intent.action.SEND
+url::http://is.gd/api.php?longurl%3D%1$s
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::is.gd
+url::http://bit.ly/a/your_api_key
+intent::android.intent.category.LAUNCHER
+activity::.Configure
+real_permission::android.permission.INTERNET
+url::bit.ly
+call::getSystemService

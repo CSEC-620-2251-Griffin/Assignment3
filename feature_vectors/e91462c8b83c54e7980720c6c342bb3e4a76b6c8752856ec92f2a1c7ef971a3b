@@ -1,0 +1,20 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+activity::.epg.EpgDetailedTimer
+url::http://\%27
+url::192.168.1.2
+permission::android.permission.INTERNET
+activity::.epg.EpgDetailedArchive
+real_permission::android.permission.INTERNET
+activity::.epg.EpgDetailedInfo
+url::\%27
+call::printStackTrace
+activity::.UfsControl
+real_permission::android.permission.VIBRATE
+api_call::android/webkit/WebView
+call::Read/Write External Storage
+call::getSystemService
+intent::android.intent.category.LAUNCHER

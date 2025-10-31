@@ -1,0 +1,9 @@
+activity::.brandtuuhansaitohikaku
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://apspr.tmc-11.com/brandtuuhansaitohikaku/
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::apspr.tmc-11.com

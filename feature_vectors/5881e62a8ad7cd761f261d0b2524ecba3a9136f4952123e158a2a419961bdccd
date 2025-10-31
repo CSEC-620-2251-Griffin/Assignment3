@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEND
+call::getDeviceId
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->getDeviceId
+call::Obfuscation(Base64)
+activity::EroPicStartActivity
+intent::android.intent.category.DEFAULT
+call::Cipher(AES/CBC/PKCS5Padding)
+activity::.EroPicStartActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_PHONE_STATE
+call::getPackageInfo
+activity::WorkOnPictureActivity
+call::getSystemService

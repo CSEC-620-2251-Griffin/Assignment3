@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://bw17.cn
+intent::android.intent.action.MAIN
+url::http://10.0.0.172:80
+url::www.netmite.com
+api_call::android/content/Context;->startActivity
+activity::.GameMidlet
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+url::bw17.cn
+call::getPackageInfo
+url::http://10.0.0.172:80/
+url::10.0.0.172

@@ -1,0 +1,54 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::com.drx2.bootmanager.Rominstaller
+service_receiver::Boot Manager 1x1
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::init2winitapps.com
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.INTERNET
+activity::com.drx2.bootmanager.Manual
+real_permission::android.permission.READ_LOGS
+activity::com.drx2.bootmanager.Restore
+activity::com.drx2.bootmanager.About
+activity::com.drx2.bootmanager.Settings
+api_call::android/content/Context;->startActivity
+activity::com.drx2.bootmanager.Installed
+intent::android.intent.action.UMS_DISCONNECTED
+activity::com.drx2.bootmanager.Help
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+service_receiver::Boot
+service_receiver::Boot Manager 4x1
+api_call::java/net/URL;->openStream
+activity::com.drx2.bootmanager.Setnames
+activity::com.drx2.bootmanager.widget.WidgetDialog
+activity::com.drx2.bootmanager.widget.WideWidgetDialog
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+intent::android.intent.action.UMS_CONNECTED
+activity::com.drx2.bootmanager.Manage
+activity::com.drx2.bootmanager.Romswitcher
+url::http://bootmanager.gflam.com/bootmanager/V1.3/
+call::Cipher(AES/CBC/PKCS5Padding)
+url::http://bootmanager.gflam.com/changelogs/bootmanager/changelog.txt
+activity::SdcardOff
+url::bootmanager.gflam.com
+service_receiver::AutoSdcard
+activity::com.drx2.bootmanager.Tips
+url::market.android.com
+intent::android.intent.action.MAIN
+activity::com.drx2.bootmanager.Extras
+activity::com.drx2.bootmanager.ShellCommand
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+activity::.Loader
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify
+call::Execution of external commands
+provider::android.appwidget.provider
+service_receiver::USBOff
+url::http://init2winitapps.com

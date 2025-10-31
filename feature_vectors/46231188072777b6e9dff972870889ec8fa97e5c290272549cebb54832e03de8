@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::market.android.com
+activity::.Main
+permission::android.permission.INTERNET
+url::https://market.android.com/details?id%3Dsajo.magazine2.v1&feature%3Dsearch_result
+url::https://market.android.com/details?id%3Dsajo.schedule.v001
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+url::https://market.android.com/details?id%3Dsajo.magazine2.v1

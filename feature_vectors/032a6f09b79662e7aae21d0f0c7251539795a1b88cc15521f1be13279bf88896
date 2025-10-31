@@ -1,0 +1,10 @@
+activity::.psg
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::mobi.foot-passion.fr
+real_permission::android.permission.INTERNET
+url::http://mobi.foot-passion.fr

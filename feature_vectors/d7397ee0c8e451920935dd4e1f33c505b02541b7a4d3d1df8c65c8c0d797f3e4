@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://wssms.fidenz.com/GetAllGroups
+url::http://wssms.fidenz.com/Login
+intent::android.intent.action.MAIN
+url::www.w3.org
+url::wssms.fidenz.com
+permission::android.permission.INTERNET
+activity::.lkMessenger
+intent::android.intent.category.LAUNCHER
+url::http://wssms.fidenz.com/
+url::http://www.w3.org/2001/XMLSchema-instance\
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+url::http://wssms.fidenz.com/MessageAddToGroup

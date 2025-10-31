@@ -1,0 +1,30 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+api_call::java/net/HttpURLConnection
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+url::http://java.sun.com/dtd/properties.dtd
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+call::Read/Write External Storage
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::Obfuscation(Base64)
+call::Execution of external commands
+real_permission::android.permission.READ_PHONE_STATE
+url::java.sun.com
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::spreadsheets.google.com
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify
+url::https://spreadsheets.google.com/formResponse?formkey%3D

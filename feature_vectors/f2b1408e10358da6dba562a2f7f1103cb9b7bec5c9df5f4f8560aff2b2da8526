@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.Stekk
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.meny
+intent::android.intent.category.LAUNCHER

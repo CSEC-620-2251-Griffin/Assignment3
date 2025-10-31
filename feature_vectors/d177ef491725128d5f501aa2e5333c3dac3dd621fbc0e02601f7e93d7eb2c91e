@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+activity::WorldsMostPointlessApp
+intent::android.intent.action.MAIN
+activity::.WorldsMostPointlessApp
+intent::android.intent.category.LAUNCHER

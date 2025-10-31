@@ -1,0 +1,14 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::http://www.bhartiinfosoft.com
+intent::android.intent.action.MAIN
+activity::Log
+feature::android.hardware.screen.portrait
+activity::.Home
+url::www.bhartiinfosoft.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.action.DEFALUT
+intent::android.intent.category.DEFAULT
+call::getSystemService

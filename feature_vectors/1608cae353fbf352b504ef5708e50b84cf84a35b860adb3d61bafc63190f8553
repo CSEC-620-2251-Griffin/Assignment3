@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+permission::org.anddev.andremote.pluginlayout.intent.permission.RECEIVE_PLUGINLAYOUT_REQUEST
+intent::org.anddev.andremote.pluginlayout.intent.permission.SEND_PLUGINLAYOUT_OFFER
+permission::org.anddev.andremote.pluginlayout.intent.permission.SEND_PLUGINLAYOUT_OFFER
+intent::org.anddev.andremote.pluginlayout.intent.action.PLUGINLAYOUT_REQUEST
+call::printStackTrace
+call::Read/Write External Storage
+api_call::android/content/Context;->sendBroadcast
+service_receiver::.VLCRemotePluginLayout
+intent::org.anddev.andremote.pluginlayout.intent.permission.RECEIVE_PLUGINLAYOUT_REQUEST

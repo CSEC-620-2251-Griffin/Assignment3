@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.medweb
+url::http://www.investorsoftware.net/DiagnoseAndroid/DiagnoseAndroid.html
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.investorsoftware.net
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::http://solvera.ch/android/history_browser/
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+activity::.ChronicBrowser
+call::getPackageInfo
+activity::.BookmarkActivity
+url::solvera.ch
+activity::.TextViewerActivity
+activity::.InfoActivity
+url::http://solvera.ch/android/history_browser/demo/
+call::getSystemService
+call::Read/Write External Storage
+activity::.SearchActivity
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://solvera.ch/android/history_browser/test/
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://solvera.ch/android/history_browser/2wk/

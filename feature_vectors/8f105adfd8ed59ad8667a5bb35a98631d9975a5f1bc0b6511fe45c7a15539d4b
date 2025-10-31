@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.GET_CONTENT
+intent::android.intent.category.DEFAULT
+provider::android.provider.MediaStore.RECORD_SOUND
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.WrappedSoundRecorder
+intent::android.intent.category.OPENABLE
+api_call::android/content/ContentResolver;->query

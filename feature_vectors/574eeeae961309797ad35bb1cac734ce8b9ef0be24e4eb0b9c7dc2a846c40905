@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.comparisonaz.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.comparisonaz.com/mobile.php
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://www.comparisonaz.com/txt.php
+activity::.compara

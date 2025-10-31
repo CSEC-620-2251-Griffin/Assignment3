@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.activity.CompassActivity
+activity::.activity.LcdActivity
+activity::.activity.setup.ImageChooser
+intent::android.intent.action.MAIN
+activity::.Welcome
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.category.DEFAULT
+intent::org.dg.intents.action.PICK_COLOR
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/content/ContentResolver;->openInputStream
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService
+activity::.colorpicker.ColorPickerActivity

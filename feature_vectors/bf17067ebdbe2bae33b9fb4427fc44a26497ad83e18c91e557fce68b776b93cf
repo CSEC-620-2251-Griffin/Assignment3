@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+service_receiver::.widget.UpdateService
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.WiseThoughts
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

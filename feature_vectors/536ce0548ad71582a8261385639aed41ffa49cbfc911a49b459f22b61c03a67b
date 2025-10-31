@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::android.netpincer.hu
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+url::http://android.netpincer.hu/
+activity::.launcher

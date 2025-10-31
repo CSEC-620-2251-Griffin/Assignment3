@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::http://app.amaze.gr/iphonedata/kontraschedule.aspx?dt%3D
+activity::.MainAct
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::app.amaze.gr
+url::http://app.amaze.gr/iphonedata/kontrasource.aspx?d%3Da4
+real_permission::android.permission.INTERNET

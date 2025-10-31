@@ -1,0 +1,11 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.category.PREFERENCE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+call::Read/Write External Storage
+call::getSystemService

@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+api_call::android/webkit/WebView
+url::down.ku6.cn\u4e0b\u8f7d\u4e00\u8d77\u73a9\u5427\uff01
+url::info.ku6.cn
+url::http://info.ku6.cn/clientRequest.htm?method%3DhotKeyword&ct%3Dandroid
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/telephony/TelephonyManager;->getSimSerialNumber
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::HttpPost
+url::http://info.ku6.cn/clientRequest.htm
+permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.category.LAUNCHER
+url::http://down.ku6.cn\u4e0b\u8f7d\u4e00\u8d77\u73a9\u5427\uff01
+real_permission::android.permission.INTERNET
+real_permission::android.permission.READ_PHONE_STATE
+activity::.SplashActivity
+api_call::android/content/Context;->startActivity
+call::getSystemService

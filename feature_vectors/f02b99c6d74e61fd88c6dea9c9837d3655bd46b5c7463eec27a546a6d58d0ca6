@@ -1,0 +1,13 @@
+activity::.ProbabilityActivity
+activity::.AddLotteryActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.OpenLotteryActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+activity::.LotteryActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.AddDrawActivity
+activity::.SplashActivity
+activity::.DrawActivity

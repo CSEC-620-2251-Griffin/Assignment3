@@ -1,0 +1,13 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::lunch.behnam.se
+call::HttpPost
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.Lunch
+intent::android.intent.category.LAUNCHER
+url::http://lunch.behnam.se/android4.php
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider

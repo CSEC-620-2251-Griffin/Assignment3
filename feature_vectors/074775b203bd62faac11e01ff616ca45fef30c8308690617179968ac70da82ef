@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::www.sr-online.de
+url::mobil.salue.de
+url::http://www.sr-online.de/nachrichten/34/
+intent::android.intent.action.MAIN
+permission::android.permission.CALL_PHONE
+api_call::java/net/URL;->openConnection
+permission::android.permission.INTERNET
+activity::.Blitzer
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+url::http://www.sr-online.de/nachrichten/34/315040-print.html
+real_permission::android.permission.INTERNET
+url::http://mobil.salue.de/staus.phtml
+call::getSystemService

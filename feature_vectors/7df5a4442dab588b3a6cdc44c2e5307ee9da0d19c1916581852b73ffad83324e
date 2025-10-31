@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.CheckBalanceConfigureNumbers
+activity::.AddNumberPreferences
+intent::android.intent.action.MAIN
+call::getSystemService
+permission::android.permission.CALL_PHONE
+intent::android.intent.category.DEFAULT
+feature::android.hardware.telephony
+activity::Choose Number
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+permission::android.permission.READ_CONTACTS
+intent::android.intent.action.VIEW

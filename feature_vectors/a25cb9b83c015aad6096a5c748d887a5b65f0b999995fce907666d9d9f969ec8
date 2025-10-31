@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.gammapoint.preschooltime.AbcDragAndDrop
+api_call::android/content/Context;->startActivity
+activity::com.gammapoint.preschooltime.matchgame
+feature::android.hardware.screen.portrait
+activity::abcHome
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+activity::.abcHome
+intent::android.intent.category.VIEW
+intent::android.intent.action.DEFAULT
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+activity::com.gammapoint.preschooltime.Numbers

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.DISABLE_KEYGUARD
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo
+activity::AIR GReader
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.lacasadeloshorrores.com
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://www.lacasadeloshorrores.com/?m%3D1
+activity::.Init
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

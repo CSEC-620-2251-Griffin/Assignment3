@@ -1,0 +1,14 @@
+url::http://www.regi.si/sgfreader/\n
+activity::.FileBrowser
+activity::.OpenFile
+url::http://www.regi.si/sgfreader/
+url::www.regi.si
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::printStackTrace
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+activity::.AspSgfRead
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW

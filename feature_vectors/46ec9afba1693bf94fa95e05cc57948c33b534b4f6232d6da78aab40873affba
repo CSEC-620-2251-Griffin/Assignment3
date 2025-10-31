@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.sl886.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.MADR
+intent::android.intent.category.LAUNCHER
+url::http://www.sl886.com/do.aspx?p%3Dmadr

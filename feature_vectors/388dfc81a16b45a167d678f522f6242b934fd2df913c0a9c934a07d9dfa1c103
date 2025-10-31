@@ -1,0 +1,14 @@
+url::http://mobile.tsureview.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::mobile.tsureview.com
+url::http://mobile.tsureview.com/roster
+url::http://mobile.tsureview.com/stats
+activity::.Main
+permission::android.permission.INTERNET
+activity::TSU Review
+url::http://mobile.tsureview.com/about
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://mobile.tsureview.com/schedule

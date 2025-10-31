@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::search result
+activity::.MainActivity
+activity::add tips
+intent::android.intent.category.LAUNCHER
+activity::view tips
+call::getSystemService
+activity::edit mode

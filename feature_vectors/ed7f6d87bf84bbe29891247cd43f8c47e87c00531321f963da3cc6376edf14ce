@@ -1,0 +1,15 @@
+url::http://mobile.twitter.com/mba46
+feature::android.hardware.touchscreen
+url::m.facebook.com
+intent::android.intent.action.MAIN
+url::http://www.youtube.com/v/
+activity::.ViralCasting
+call::getSystemService
+url::www.youtube.com
+permission::android.permission.INTERNET
+url::mobile.twitter.com
+intent::android.intent.category.LAUNCHER
+url::m.blog.naver.com
+url::http://m.blog.naver.com/bookmba
+activity::.MovieView
+url::http://m.facebook.com/bookmba

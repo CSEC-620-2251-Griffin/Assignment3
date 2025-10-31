@@ -1,0 +1,14 @@
+permission::com.google.android.providers.gmail.permission.READ_GMAIL
+feature::android.hardware.touchscreen
+api_call::android/accounts/AccountManager;->getAccounts
+permission::com.google.android.googleapps.permission.GOOGLE_AUTH
+real_permission::android.permission.GET_ACCOUNTS
+provider::com.google.android.providers.gmail.permission.READ_GMAIL
+permission::android.permission.GET_ACCOUNTS
+permission::com.google.android.gm.permission.READ_GMAIL
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+activity::.GmailInboxWidgetConfigure
+provider::android.appwidget.provider
+call::getSystemService
+intent::android.intent.action.PROVIDER_CHANGED

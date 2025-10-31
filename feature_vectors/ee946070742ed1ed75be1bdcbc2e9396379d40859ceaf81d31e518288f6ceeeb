@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+provider::com.kugoweb.caltheme.firsticons.icon_provider
+intent::android.intent.action.PACKAGE_REMOVED
+activity::.MainActivity
+service_receiver::.MainUninstallReceiver
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+call::getSystemService

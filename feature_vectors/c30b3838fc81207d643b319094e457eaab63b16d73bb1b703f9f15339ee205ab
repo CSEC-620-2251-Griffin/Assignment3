@@ -1,0 +1,16 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+url::http://images.ad-maker.info/apps/38oj2dje3ufc.html
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+activity::.AmidaMenu
+feature::android.hardware.screen.portrait
+url::images.ad-maker.info
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::AmidaView
+call::getSystemService

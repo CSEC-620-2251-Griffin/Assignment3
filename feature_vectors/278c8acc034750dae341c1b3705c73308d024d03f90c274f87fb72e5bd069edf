@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::www.google.co.jp
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+activity::com.mywebview.MyWebView
+url::http://www.google.co.jp
+activity::.MyWebView
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

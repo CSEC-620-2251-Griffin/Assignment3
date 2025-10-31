@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+activity::com.blackmoonit.AttachSave.AttachSaveDialog
+intent::android.intent.action.MAIN
+provider::com.android.email.attachmentprovider
+call::getSystemService
+feature::android.hardware.faketouch
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+provider::com.fsck.k9.attachmentprovider
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.AttachSaveLauncherStub
+intent::android.intent.category.BROWSABLE
+api_call::android/content/Context;->startActivity
+intent::android.intent.action.VIEW

@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/app/backup/BackupManager;->dataChanged
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.SenderDetails
+real_permission::android.permission.READ_CONTACTS
+call::HttpPost
+url::http://send-to-computer.appspot.com/associate?browser%3D
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.VIBRATE
+url::http://send-to-computer.appspot.com/submit
+real_permission::android.permission.BACKUP
+service_receiver::.Sender
+call::getSystemService
+url::http://send-to-computer.appspot.com/count?browser%3D
+activity::Send to Computer
+intent::android.intent.action.VIEW
+activity::.HelpPage
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+intent::android.intent.action.SEND
+activity::Associate
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::send-to-computer.appspot.com
+url::http://send-to-computer.appspot.com/me?browser%3D

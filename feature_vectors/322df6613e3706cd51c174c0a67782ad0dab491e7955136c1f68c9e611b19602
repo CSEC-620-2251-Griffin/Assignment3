@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.ViewReportScreen
+intent::android.intent.action.MAIN
+activity::.SelectReportingPeriodScreen
+activity::.DisplaySaveScreen
+activity::.SaveDialogScreen
+activity::.TipCalcPlus
+intent::android.intent.category.LAUNCHER

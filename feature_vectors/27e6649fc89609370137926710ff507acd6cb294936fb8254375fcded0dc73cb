@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://ebookhow.info/InAu/How.html
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://ebookhow.info/InAu/Tips.html
+intent::android.intent.category.LAUNCHER
+url::http://ebookhow.info/InAu/Savings.html
+url::http://ebookhow.info/InAu/More.html
+real_permission::android.permission.INTERNET
+activity::.SplashActivity
+url::ebookhow.info
+call::getSystemService

@@ -1,0 +1,66 @@
+activity::Overclock Settings
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEARCH_LONG_PRESS
+url::froyoroms.com
+url::twitter.com
+permission::android.permission.INTERNET
+api_call::java/net/HttpURLConnection
+activity::.LibertyTweaks
+call::Execution of external commands
+activity::.Remove
+intent::android.intent.action.SEARCH
+url::http://jrummy16.com/jrummy/roms/liberty/downloads/updaters/Patch.txt
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+url::http://jrummy16.com/jrummy/goodies/boot_logos/
+activity::.rom.manager.ROMDownloader
+url::http://www.froyoroms.com/files/developers/jrummy/JRummy/Other/goodies/fonts/
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/app/Activity;->startActivity
+url::http://www.twitter.com/JRummy16
+activity::.IconChooser
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+call::printStackTrace
+activity::.MainActivity
+url::www.twitter.com
+activity::.LibertyMods
+activity::.SetProps
+activity::Scheduler
+url::http://twitter.com/kejar31
+activity::.AppManager
+url::www.droidforums.net
+api_call::java/lang/Runtime;->exec
+activity::.rom.manager.FileBrowser
+url::http://jrummy16.com/jrummy/hidden/
+permission::android.permission.VIBRATE
+activity::.BackupRestore
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.FileManager
+url::http://twitter.com/
+activity::.RomManager
+activity::.IconMenu
+activity::.FreeEditor
+real_permission::android.permission.VIBRATE
+activity::Theme Settings
+activity::Help / Info
+url::http://www.droidforums.net/forum/liberty-rom-dx/
+call::Read/Write External Storage
+url::http://twitter.com/davekover
+activity::.BootLogos
+call::system/bin/su
+real_permission::android.permission.READ_LOGS
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.Fonts
+permission::android.permission.ACCESS_NETWORK_STATE
+url::www.froyoroms.com
+url::http://jrummy16.com/jrummy/
+url::http://froyoroms.com/files/developers/jrummy/JRummy/Other/
+feature::android.hardware.screen.portrait
+activity::Liberty Settings
+url::jrummy16.com
+intent::android.intent.category.LAUNCHER
+activity::Sysctl Settings
+activity::.Theme
+call::getSystemService
+url::http://jrummy16.com/jrummy/misc/bootstrap/

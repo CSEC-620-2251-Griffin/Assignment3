@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::deaeru.tv
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::getSystemService
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://deaeru.tv/bijo/index.html
+activity::com.milac.android.deaeru.hikaku013.MyWebView013
+real_permission::android.permission.INTERNET
+activity::.MyWebView013
+activity::com.milac.android.deaeru.hikaku013.HtmlView
+url::http://deaeru.tv/bijo/
+activity::.Contents
+intent::android.intent.category.LAUNCHER

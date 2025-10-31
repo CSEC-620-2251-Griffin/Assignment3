@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+intent::android.intent.action.MAIN
+url::http://www.w3.org/XML/1998/namespace
+call::Obfuscation(Base64)
+url::www.w3.org
+url::http://www.netmite.com/android/andme_signed.apk
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://www.netmite.com/android/srv/2.0/upload/mreader36.jar
+api_call::android/content/Context;->startActivity
+activity::.MReader

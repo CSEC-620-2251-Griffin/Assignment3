@@ -1,0 +1,11 @@
+real_permission::android.permission.INJECT_EVENTS
+feature::android.hardware.touchscreen
+intent::android.intent.category.SAMPLE_CODE
+intent::android.intent.action.MAIN
+intent::android.intent.action.CREATE_SHORTCUT
+api_call::android/content/Context;->startActivity
+activity::.SplashScreenActivity
+intent::android.intent.category.DEFAULT
+api_call::android/app/Instrumentation;->sendCharacterSync
+intent::android.intent.category.LAUNCHER
+activity::.shortcut.ShortcutCreator

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::com.loulousoft.puzzle.slideout.gridlist.NotAvailable
+intent::android.intent.action.MAIN
+call::getSystemService
+activity::.SplashScreen
+feature::android.hardware.screen.portrait
+activity::com.loulousoft.puzzle.slideout.gamegrid.Slideout
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+activity::com.loulousoft.puzzle.slideout.gridlist.GridListActivity
+activity::com.loulousoft.puzzle.slideout.preference.preferences
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+activity::com.loulousoft.puzzle.slideout.gridlist.GridList

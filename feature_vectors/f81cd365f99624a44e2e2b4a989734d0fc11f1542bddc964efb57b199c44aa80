@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.ArmsArmsMain
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::ArmsArmsTopScore
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->startActivity
+call::getSystemService

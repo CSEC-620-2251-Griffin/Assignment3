@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://colorpop.tony-kay.com/full-version
+api_call::android/telephony/TelephonyManager;->getDeviceId
+url::tonykaylicensing.appspot.com
+call::Read/Write External Storage
+url::http://tonykaylicensing.appspot.com/?a%3D%s&i%3D%s
+url::http://colorpop.tony-kay.com
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+url::colorpop.tony-kay.com
+activity::.whitebalance.WhiteBalanceActivity
+activity::.EULA
+intent::android.intent.category.DEFAULT
+call::getSystemService
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::.ImageEdit
+intent::android.intent.category.LAUNCHER

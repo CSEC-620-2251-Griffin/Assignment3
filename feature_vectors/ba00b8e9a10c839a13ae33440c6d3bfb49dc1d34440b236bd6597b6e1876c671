@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::BusSched
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+permission::android.permission.INTERNET
+url::http://flange.com/timetables/
+url::http://flange.com/timetables/index.txt
+activity::.BusSched
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::flange.com

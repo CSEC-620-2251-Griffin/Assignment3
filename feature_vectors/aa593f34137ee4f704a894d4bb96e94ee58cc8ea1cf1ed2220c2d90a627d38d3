@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+permission::android.permission.STATUS_BAR
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.c2020
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.twentytwenty.at
+intent::android.intent.category.LAUNCHER
+url::http://www.twentytwenty.at
+call::getSystemService

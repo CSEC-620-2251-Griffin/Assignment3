@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+activity::.setting.SettingPageCateEdit
+activity::.setting.SettingInit
+activity::.ViewerSheet
+activity::.ViewerSheetOption
+activity::.ViewerStat
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.setting.SettingFooter
+activity::.setting.SettingClass
+activity::.DataManager
+activity::.setting.SettingFunction
+activity::.ViewerPageOption
+intent::android.intent.category.LAUNCHER
+activity::.setting.SettingCategory
+call::getPackageInfo
+intent::android.intent.action.MAIN
+activity::.setting.SettingScreen
+activity::.ViewerPage
+call::getSystemService
+activity::.setting.SettingDefault

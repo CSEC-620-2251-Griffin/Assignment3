@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::com.abdullahsolutions.solatmalaysia.waktusolat
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+url::www.e-solat.gov.my
+activity::com.abdullahsolutions.solatmalaysia.ZonSolat
+activity::.waktusolat
+url::http://www.e-solat.gov.my/solat.php?kod%3D
+permission::android.permission.INTERNET
+url::http://blog.abdullahsolutions.com
+intent::android.intent.category.LAUNCHER
+url::blog.abdullahsolutions.com
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider

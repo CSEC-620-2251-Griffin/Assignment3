@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::wap.hedita.com
+url::mgame.ourgame.com\u3002
+intent::android.intent.action.MAIN
+call::getPackageInfo
+url::wap.ourgame.com
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://wap.hedita.com/game/mgame/JunQi_MTE6.jad
+intent::android.intent.category.LAUNCHER
+url::http://mgame.ourgame.com\u3002
+url::http://wap.ourgame.com
+activity::.GLWorld
+api_call::android/content/Context;->startActivity
+url::www.netmite.com

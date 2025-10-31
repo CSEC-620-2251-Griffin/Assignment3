@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.NutritionCalculator
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+feature::android.hardware.screen.portrait
+url::www.servicefoods.mobi
+url::http://www.servicefoods.mobi
+intent::android.intent.category.LAUNCHER
+call::getSystemService

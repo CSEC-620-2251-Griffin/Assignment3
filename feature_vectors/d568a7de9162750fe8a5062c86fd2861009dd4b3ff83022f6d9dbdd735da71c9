@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+service_receiver::com.otis8.nookpower.PowerButtonWidgetProvider
+real_permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+service_receiver::com.otis8.nookpower.PwrService
+api_call::android/content/Context;->startService
+permission::android.permission.SYSTEM_ALERT_WINDOW
+provider::android.appwidget.provider

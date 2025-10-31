@@ -1,0 +1,14 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::net.androbook.material110326165655_7219b767.MainActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+activity::net.androbook.material110326165655_7219b767.OpenBookActivity
+intent::android.intent.category.DEFAULT
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::Cipher(AES/ECB/ISO10126Padding)
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+call::Cipher(fcfd7db9833030669a8c45484d1ce1a7)

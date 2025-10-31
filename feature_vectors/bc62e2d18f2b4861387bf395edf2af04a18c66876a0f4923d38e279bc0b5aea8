@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://android.tgbus.com/news/rss.xml
+url::http://android.tgbus.com/
+api_call::java/net/URL;->openConnection
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+service_receiver::.TGBusWidget
+call::getSystemService
+api_call::android/content/Context;->sendBroadcast
+provider::android.appwidget.provider
+url::android.tgbus.com
+intent::android.intent.action.TIME_SET

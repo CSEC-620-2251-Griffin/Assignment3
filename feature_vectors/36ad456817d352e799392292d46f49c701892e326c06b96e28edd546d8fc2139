@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+service_receiver::StarTrek DeepSpace9
+service_receiver::StarTrek Enterprize Title
+service_receiver::StarTrek UFP Black
+service_receiver::StarTrek Enterprize
+service_receiver::StarTrek UFP White
+service_receiver::StarTrek UFP Blue
+service_receiver::StarTrek StartTrekTitle
+provider::android.appwidget.provider
+service_receiver::StarTrek SFC
+service_receiver::StarTrek BlueYellowLogo

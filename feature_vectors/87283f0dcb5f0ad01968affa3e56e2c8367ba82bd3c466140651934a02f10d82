@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+real_permission::android.permission.READ_CONTACTS
+activity::Okawix
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+url::http://www.okawix.com/download/index.php
+api_call::android/webkit/WebView
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.okawix.com/zenos/
+url::www.okawix.com
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+activity::.Liste
+intent::android.intent.category.LAUNCHER
+activity::.Okawix

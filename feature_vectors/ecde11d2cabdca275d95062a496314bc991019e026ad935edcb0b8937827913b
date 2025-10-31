@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+activity::Droid%E5%E3%AB%E3%A1%E3%A9
+feature::android.hardware.camera
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.camera.autofocus
+call::getPackageInfo
+permission::android.permission.CAMERA

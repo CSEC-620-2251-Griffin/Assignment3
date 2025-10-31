@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.FlipperActivity
+activity::.HelloAndroid
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+activity::.SecondActivity
+activity::.categoryList
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.dashboard
+intent::android.intent.category.LAUNCHER

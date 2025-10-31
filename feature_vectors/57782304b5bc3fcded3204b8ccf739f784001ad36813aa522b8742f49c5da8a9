@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::https://i.spin3.com/allslots/en/Web/?btag%3DASM_ANDR_Def
+api_call::android/media/MediaPlayer;->start
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::i.spin3.com
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

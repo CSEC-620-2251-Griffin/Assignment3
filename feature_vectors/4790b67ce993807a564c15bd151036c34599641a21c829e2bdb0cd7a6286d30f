@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.Toggle
+service_receiver::Time Clock
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.SetPay
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+url::tinyurl.com
+activity::.Share
+intent::android.intent.category.LAUNCHER
+activity::.TimeClock
+url::http://tinyurl.com/timecl0ck
+provider::android.appwidget.provider
+call::getSystemService

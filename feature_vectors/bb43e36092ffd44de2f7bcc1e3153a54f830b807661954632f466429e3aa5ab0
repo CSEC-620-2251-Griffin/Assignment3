@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.DroiDP
+feature::android.hardware.screen.portrait
+activity::DroiDP
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,17 @@
+service_receiver::.TurnOnAlarmReceiver
+activity::.TurnOnAlarmMain
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.TurnOnAlarmAlarm
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+service_receiver::.TurnOnAlarmUserPresentReceiver
+intent::android.intent.category.DEFAULT
+permission::android.permission.VIBRATE
+intent::android.intent.action.USER_PRESENT
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

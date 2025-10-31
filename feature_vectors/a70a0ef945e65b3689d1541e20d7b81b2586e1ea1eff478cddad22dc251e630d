@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+service_receiver::.services.CallListener
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+intent::android.intent.action.NEW_OUTGOING_CALL
+permission::android.permission.READ_CONTACTS
+feature::android.hardware.telephony
+permission::android.permission.WRITE_CONTACTS
+intent::android.intent.category.LAUNCHER
+activity::.activities.Delete
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.PROCESS_OUTGOING_CALLS
+activity::.Delete
+api_call::android/content/Context;->startActivity
+intent::android.intent.action.VIEW

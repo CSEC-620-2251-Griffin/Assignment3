@@ -1,0 +1,17 @@
+service_receiver::CloseEverythingNowWidget
+feature::android.hardware.touchscreen
+real_permission::android.permission.GET_TASKS
+activity::CloseEverythingNowActivity
+intent::android.intent.action.MAIN
+permission::android.permission.RESTART_PACKAGES
+api_call::android/app/ActivityManager;->restartPackage
+api_call::android/app/ActivityManager;->getRecentTasks
+real_permission::android.permission.RESTART_PACKAGES
+permission::android.permission.GET_TASKS
+activity::.CloseEverything
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService
+provider::android.appwidget.provider
+service_receiver::CloseEverythingNowWidget$UpdateService
+api_call::android/content/Context;->startService

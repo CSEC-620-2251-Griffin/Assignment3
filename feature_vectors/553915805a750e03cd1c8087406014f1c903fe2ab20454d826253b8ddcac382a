@@ -1,0 +1,54 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::.Main
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+intent::android.intent.category.DEFAULT
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://www.dinneratmyplace.com/android/1_5_6/process.php?
+activity::FeedBack / Bugs / Feature Request
+call::getPackageInfo
+activity::User Details
+activity::Shopping List
+activity::Preferences
+activity::Group Size
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+url::http://www.dinneratmyplace.com/images2/milestones/
+url::www.google.com
+api_call::android/content/Context;->startActivity
+activity::Recipe Manager
+feature::android.hardware.location
+url::http://mm.admob.com/static/android/i18n/20100331
+activity::DinnerAtMyPlace
+call::getSystemService
+permission::android.permission.VIBRATE
+url::www.dinneratmyplace.com
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::mm.admob.com
+real_permission::android.permission.VIBRATE
+url::http://dinneratmyplace.com/android/1_3_5/uploadImage.php
+activity::Search
+url::api.admob.com
+url::http://mm.admob.com/static/android/canvas.html
+url::r.admob.com
+activity::Leader Boards
+url::https://www.google.com/accounts/LoginAuth?Email%3D
+call::Read/Write External Storage
+intent::android.intent.action.VIEW
+permission::android.permission.WAKE_LOCK
+url::dinneratmyplace.com
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::https://www.google.com/accounts/LoginAuth
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+url::http://www.dinneratmyplace.com/temp/
+intent::android.intent.category.LAUNCHER
+url::schemas.android.com
+activity::Recipe Details

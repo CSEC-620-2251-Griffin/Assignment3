@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+activity::About Eva Clock
+permission::android.permission.READ_PHONE_STATE
+call::getPackageInfo
+service_receiver::ClockService
+permission::android.permission.GET_TASKS
+real_permission::android.permission.GET_TASKS
+api_call::android/app/ActivityManager;->getRunningTasks
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+intent::net.fractalmedia.intent.action.ACTION_UPDATE_CLOCK
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+api_call::android/content/Context;->startService
+intent::net.fractalmedia.intent.action.ACTION_USER_CLOCK
+api_call::android/webkit/WebView
+activity::Configure evangelion Clock Widget
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+api_call::android/app/NotificationManager;->notify
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

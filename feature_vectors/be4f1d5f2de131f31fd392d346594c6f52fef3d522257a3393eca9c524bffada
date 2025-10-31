@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+activity::.TelBuch
+url::http://bach.wu.ac.at/bachapp/cgi-bin/vz/vz.pl?search%3D
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::bach.wu.ac.at
+real_permission::android.permission.INTERNET
+call::getSystemService

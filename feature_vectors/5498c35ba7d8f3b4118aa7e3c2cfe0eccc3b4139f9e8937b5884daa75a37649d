@@ -1,0 +1,8 @@
+activity::.colorGuide
+activity::.assetsView
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.mainListView
+activity::.displayData
+intent::android.intent.category.LAUNCHER
+activity::.DroidGrainDBLite

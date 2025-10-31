@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.PACKAGE_ADDED
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.PACKAGE_REMOVED
+intent::android.intent.action.PACKAGE_REPLACED
+intent::android.intent.category.DEFAULT
+service_receiver::.AppReceiver
+intent::android.intent.action.PACKAGE_INSTALL
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+intent::android.intent.action.PACKAGE_CHANGED
+api_call::android/content/Context;->sendBroadcast
+url::schemas.android.com
+url::http://schemas.android.com/apk/res/android
+activity::.Drawer

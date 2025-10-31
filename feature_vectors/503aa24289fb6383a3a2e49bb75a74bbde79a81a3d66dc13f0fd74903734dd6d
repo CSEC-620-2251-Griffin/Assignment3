@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+activity::it.mrqzzz.comedysounds.meme01.Main
+intent::android.intent.category.DEFAULT
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

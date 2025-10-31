@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+activity::MensaFoodApp
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::java/net/URL;->openConnection
+activity::.MensaFoodApp
+activity::DetailActivity
+intent::android.intent.category.LAUNCHER
+activity::.view.Preferences
+service_receiver::WidgetMain
+url::http://85.25.68.93/mfa/
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+url::85.25.68.93
+call::getSystemService

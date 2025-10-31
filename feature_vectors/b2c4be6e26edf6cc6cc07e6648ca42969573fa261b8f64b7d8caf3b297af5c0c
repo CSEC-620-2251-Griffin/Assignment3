@@ -1,0 +1,26 @@
+activity::.KavaActivity
+feature::android.hardware.touchscreen
+activity::.MemDraw
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+call::Read/Write External Storage
+real_permission::android.permission.WAKE_LOCK
+permission::android.permission.GET_TASKS
+permission::android.permission.DELETE_CACHE_FILES
+real_permission::android.permission.VIBRATE
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+activity::App
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+activity::.CleanUp
+permission::android.permission.CLEAR_APP_CACHE
+permission::android.permission.ACCESS_CACHE_FILESYSTEM
+activity::.Frequency
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.StarMenu

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::misc0110.net.tf
+url::http://misc0110.net.tf/\n\n
+intent::android.intent.action.MAIN
+activity::.ticker
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::m.discoverireland.ie
+intent::android.intent.action.MAIN
+url::http://m.discoverireland.ie
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.Now
+url::http://www.facebook.com/discoverireland.ie

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://www.vimeo.com/m/
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.vimeo.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.SplashActivity

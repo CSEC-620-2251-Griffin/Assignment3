@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::http://babysignandlearn.com\%27>Baby
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.MainTab
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK
+url::babysignandlearn.com\%27>Baby
+url::http://www.facebook.com/pages/Baby-Sign-and-Learn/178458342178499

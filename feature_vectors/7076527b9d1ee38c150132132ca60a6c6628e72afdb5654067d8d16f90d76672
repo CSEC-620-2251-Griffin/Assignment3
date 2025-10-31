@@ -1,0 +1,13 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::java/net/URL;->getContent
+call::Obfuscation(Base64)
+activity::.splashscreen
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://files.abm2000.com/updater/android/
+url::files.abm2000.com

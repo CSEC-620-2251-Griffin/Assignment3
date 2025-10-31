@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.ShowPlayer
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Mp3
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.View
+real_permission::android.permission.WAKE_LOCK

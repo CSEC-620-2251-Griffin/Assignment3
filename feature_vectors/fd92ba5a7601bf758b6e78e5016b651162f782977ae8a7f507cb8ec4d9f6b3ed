@@ -1,0 +1,36 @@
+feature::android.hardware.touchscreen
+activity::.GraphViewDemo
+activity::View Fillups
+activity::Help
+activity::.NewCar
+activity::.MainTab
+activity::.NewTrip
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.Splash
+activity::.ViewCars
+real_permission::android.permission.INTERNET
+activity::Delete Car
+activity::Delete Trip
+activity::.EditTrip
+activity::Eula
+activity::.NewFillup
+activity::.EditOther
+activity::Delete Fillup
+activity::.EditFillup
+intent::android.intent.category.LAUNCHER
+activity::.EditCar
+activity::Settings
+activity::.Other
+activity::.Reports
+activity::Delete Other
+activity::View Other
+activity::View Trips
+activity::.MainForm
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.DbOptions
+feature::android.hardware.screen.portrait
+activity::.Chart
+activity::.DeleteDatabase

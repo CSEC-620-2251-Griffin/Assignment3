@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.ListaEquiposActivity
+url::http://supermanager.googlecode.com/files/
+activity::es.supermanager.ListaEquiposActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://jornadavirtual.acb.com/js/resumen/r
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+url::supermanager.googlecode.com
+url::jornadavirtual.acb.com

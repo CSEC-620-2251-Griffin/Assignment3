@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_CONTACTS
+url::www.autoambulanceservices.com
+intent::android.intent.action.MAIN
+url::http://www.autoambulanceservices.com/
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.AutoAmbulance

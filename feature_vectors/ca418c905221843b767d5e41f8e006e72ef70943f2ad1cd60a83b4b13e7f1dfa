@@ -1,0 +1,13 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+activity::.LIVE_8052Activity
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->stop
+url::http://live.hanarobi.co.kr:8052/%3B
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::rush79.com
+intent::android.intent.category.LAUNCHER
+url::http://rush79.com/a/?live_8052
+url::live.hanarobi.co.kr
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+activity::.WeightBalanceActivity
+url::www.semfc.org
+activity::.SEMFC
+url::http://www.semfc.org
+activity::.SEMFCSpecView
+intent::android.intent.category.LAUNCHER

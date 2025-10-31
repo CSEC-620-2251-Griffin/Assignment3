@@ -1,0 +1,10 @@
+url::http://homebanking.fwccu.org/iPhone/androidapp.asp
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::homebanking.fwccu.org
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.FWCCUActivity

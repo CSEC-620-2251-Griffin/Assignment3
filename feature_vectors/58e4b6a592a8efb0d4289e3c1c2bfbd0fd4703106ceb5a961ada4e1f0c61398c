@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::getSystemService
+permission::android.permission.READ_PHONE_STATE
+api_call::android/media/MediaPlayer;->start
+activity::.Main
+call::Cipher(AES)
+intent::android.intent.category.DEFAULT
+api_call::android/telephony/TelephonyManager;->getDeviceId
+real_permission::android.permission.WAKE_LOCK
+activity::Main
+real_permission::android.permission.INTERNET
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.VIEW
+intent::android.intent.category.LAUNCHER

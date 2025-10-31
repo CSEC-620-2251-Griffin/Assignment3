@@ -1,0 +1,7 @@
+activity::.UsbChecker
+service_receiver::UsbReceiver
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+intent::android.intent.action.UMS_CONNECTED
+intent::android.intent.action.UMS_DISCONNECTED
+intent::android.intent.category.LAUNCHER

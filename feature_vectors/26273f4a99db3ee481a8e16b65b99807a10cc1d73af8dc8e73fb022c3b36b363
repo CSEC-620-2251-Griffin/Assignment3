@@ -1,0 +1,14 @@
+activity::Bison Beat
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+url::mobile.bisonbeat.com
+url::http://mobile.bisonbeat.com/stats
+url::http://mobile.bisonbeat.com/schedule
+url::http://mobile.bisonbeat.com/roster
+intent::android.intent.category.LAUNCHER
+url::http://mobile.bisonbeat.com/about
+real_permission::android.permission.INTERNET
+url::http://mobile.bisonbeat.com

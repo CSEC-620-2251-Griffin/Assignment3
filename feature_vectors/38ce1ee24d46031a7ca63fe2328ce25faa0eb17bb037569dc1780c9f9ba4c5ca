@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::http://market.android.com/search?q%3Dpname:com.codeofzero.ifilm
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+url::http://api.ifilmplay.com/latest_version.php?platform%3Dandroid
+activity::.StartApp
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+url::market.android.com
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+activity::Live Player
+url::http://api.ifilmplay.com/liveplayer.php?language%3DlangCode
+feature::android.hardware.screen.landscape
+activity::VOD Player
+url::http://www.ifilmtv.ir
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+url::www.ifilmtv.ir
+real_permission::android.permission.INTERNET
+url::api.ifilmplay.com
+url::http://api.ifilmplay.com/liveplayer_hq.php?language%3DlangCode
+intent::android.intent.category.LAUNCHER

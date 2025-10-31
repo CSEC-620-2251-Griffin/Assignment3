@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+provider::android.appwidget.provider
+activity::.MainActivity
+intent::android.intent.category.LAUNCHER
+service_receiver::rnoggle.android.silentphonetoggle.AppWidget$ToggleService
+call::getSystemService
+api_call::android/content/Context;->startService

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.wifi
+permission::android.permission.CHANGE_WIFI_STATE
+service_receiver::ShutdownReceiver
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/net/wifi/WifiManager;->setWifiEnabled
+call::setWifiEnabled
+real_permission::android.permission.CHANGE_WIFI_STATE
+provider::android.appwidget.provider
+call::getSystemService

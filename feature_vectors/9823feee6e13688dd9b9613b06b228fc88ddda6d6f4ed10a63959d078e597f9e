@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://ui-house.com/s/
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::ui-house.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://ui-house.com<br/>064-783-5089<br/>\uc778\ud130\ub137
+activity::.UiHouseActivity
+activity::com.uihouse.UiHouseActivity
+url::ui-house.com<br

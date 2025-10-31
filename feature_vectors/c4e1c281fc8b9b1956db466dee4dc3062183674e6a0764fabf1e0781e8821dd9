@@ -1,0 +1,12 @@
+activity::.selectionGallery
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->stop
+activity::.setOrientation
+feature::android.hardware.screen.portrait
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.myController
+activity::.myMain
+activity::.selectionPage
+real_permission::android.permission.WAKE_LOCK

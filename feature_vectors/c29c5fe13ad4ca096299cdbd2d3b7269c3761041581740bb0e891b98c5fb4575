@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.ETK_Manual
+activity::.list1
+activity::.infopage
+activity::.list3
+activity::.list4
+activity::.list2
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN

@@ -1,0 +1,11 @@
+activity::Subactivity3
+provider::Widgetprovider
+activity::Subactivity4
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://www.yahoo.co.jp/
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::calcu
+provider::android.appwidget.provider
+url::www.yahoo.co.jp

@@ -1,0 +1,14 @@
+url::www.baidu.com
+feature::android.hardware.touchscreen
+url::www.bsalsa.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.baidu.com
+url::http://toolbarqueries.google.com/search?client%3Dnavclient-auto&hl%3Den&ch%3D6
+url::toolbarqueries.google.com
+real_permission::android.permission.INTERNET
+url::http://www.bsalsa.com/
+permission::tunnybrowser.permission.Extension
+call::getPackageInfo
+intent::android.intent.category.INFO
+api_call::java/net/URL;->openConnection

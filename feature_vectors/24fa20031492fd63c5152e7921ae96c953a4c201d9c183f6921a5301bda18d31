@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::com.signals23.gtx.Theme
+intent::android.intent.action.MAIN

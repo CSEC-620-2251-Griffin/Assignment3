@@ -1,0 +1,13 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.PACKAGE_ADDED
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.action.PACKAGE_REMOVED
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->startActivity
+activity::.SplashActivity
+call::getSystemService
+service_receiver::com.zappmarket.twitter.PackageReceiver

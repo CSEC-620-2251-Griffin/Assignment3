@@ -1,0 +1,10 @@
+url::http://foreignexchange2000.appspot.com/query
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::foreignexchange2000.appspot.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ForeignExchange
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+api_call::android/app/backup/BackupManager;->dataChanged
+activity::.Main
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.Preferences
+call::getPackageInfo
+activity::.ConfigDetail
+url::http://goo.gl/qcIf
+real_permission::android.permission.BACKUP
+activity::.Group
+activity::.OneClickWidgetConfigure
+service_receiver::OneClickWidgetProvider
+url::goo.gl
+api_call::java/net/DatagramSocket
+call::Read/Write External Storage
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.OneClickWidgetLauncher
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider

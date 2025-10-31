@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT
+activity::EditSong
+activity::SongOptions
+activity::.SongFileBrowser
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.VIEW

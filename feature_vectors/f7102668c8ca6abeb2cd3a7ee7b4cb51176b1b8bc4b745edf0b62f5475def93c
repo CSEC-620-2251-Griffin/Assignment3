@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::http://www.techshop.com.gr\n\n\u0391\u03bd\u03ac\u03c0\u03c4\u03c5\u03be\u03b7
+activity::.eortes
+intent::android.intent.action.MAIN
+url::www.techshop.com.gr\n\n\u0391\u03bd\u03ac\u03c0\u03c4\u03c5\u03be\u03b7
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+url::http://t.tmn.pt
+permission::android.permission.INTERNET
+activity::.LaunchTmnSite
+real_permission::android.permission.INTERNET
+url::t.tmn.pt
+real_permission::android.permission.VIBRATE
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::getPackageInfo
+call::getSystemService
+intent::android.intent.category.LAUNCHER

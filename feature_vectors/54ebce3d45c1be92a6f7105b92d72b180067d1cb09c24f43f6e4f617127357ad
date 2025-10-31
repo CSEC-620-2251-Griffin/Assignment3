@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://www.fivestarlimonv.com/booking_android.php?
+intent::android.intent.action.MAIN
+url::www.fivestarlimonv.com
+activity::OrderLimo
+permission::android.permission.INTERNET
+url::http://www.fivestarlimonv.com
+feature::android.hardware.screen.portrait
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::.FiveStarLimo
+real_permission::android.permission.INTERNET

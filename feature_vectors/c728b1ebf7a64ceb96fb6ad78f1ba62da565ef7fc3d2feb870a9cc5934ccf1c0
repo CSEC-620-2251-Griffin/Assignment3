@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.SEND_SMS
+activity::.Main
+real_permission::android.permission.SEND_SMS
+permission::android.permission.INTERNET
+api_call::android/telephony/SmsManager;->sendTextMessage
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getSystemService

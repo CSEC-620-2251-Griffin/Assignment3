@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://m.48hourprint.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::com.amgroup.android.fourtyeighthourprintmobile.Main
+permission::android.permission.INTERNET
+url::m.48hourprint.com
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Main

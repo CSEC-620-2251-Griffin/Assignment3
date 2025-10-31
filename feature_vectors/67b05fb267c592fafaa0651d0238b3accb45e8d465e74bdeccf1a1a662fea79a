@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://gujie.o234.com/download/upload/2009/04/08/17179356.jar
+intent::android.intent.action.MAIN
+url::gujie.o234.com
+api_call::android/content/Context;->startActivity
+activity::.GameMIDlet
+url::http://www.netmite.com/android/andme_signed.apk
+url::www.netmite.com
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER

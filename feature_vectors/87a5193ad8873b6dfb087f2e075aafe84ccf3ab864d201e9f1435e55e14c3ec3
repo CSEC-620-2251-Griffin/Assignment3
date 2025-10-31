@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+service_receiver::com.zirak.wh_rssreaderwidget.RssWidgetProvider
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::twitter.com
+permission::android.permission.INTERNET
+service_receiver::.RssReaderService
+real_permission::android.permission.INTERNET
+url::android.zirak.com
+url::http://twitter.com/statuses/user_timeline/30313925.rss
+api_call::android/content/Context;->sendBroadcast
+url::http://android.zirak.com
+provider::android.appwidget.provider

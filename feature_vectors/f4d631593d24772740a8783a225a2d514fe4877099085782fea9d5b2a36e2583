@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.FoofaMidlet
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+url::games.breakpoint.pl
+call::getPackageInfo
+url::http://games.breakpoint.pl:8080/gamma/req?
+url::www.netmite.com

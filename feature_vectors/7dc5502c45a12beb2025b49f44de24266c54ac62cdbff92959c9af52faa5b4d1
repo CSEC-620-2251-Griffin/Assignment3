@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::RegularSizeWidget_4x4
+service_receiver::RegularSizeWidget_2x4
+activity::.ConfigurationActivity_2x4
+service_receiver::RegularSizeWidget_2x2
+activity::.ConfigurationActivity_2x2
+feature::android.hardware.screen.portrait
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+activity::.Introduction
+call::Read/Write External Storage
+provider::android.appwidget.provider
+activity::.ConfigurationActivity_4x4
+call::getSystemService

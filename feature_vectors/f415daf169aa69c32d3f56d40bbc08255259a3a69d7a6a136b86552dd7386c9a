@@ -1,0 +1,15 @@
+activity::.OptionViewer
+intent::android.intent.action.MAIN
+activity::.CardViewer
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Cipher(AES)
+activity::.DataManager
+feature::android.hardware.screen.portrait
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.SecretCard
+api_call::android/app/NotificationManager;->notify
+call::Read/Write External Storage
+call::getSystemService

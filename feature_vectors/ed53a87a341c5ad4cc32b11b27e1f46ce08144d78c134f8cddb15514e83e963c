@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://www.netmite.com/android/srv/2.0/upload/SherlockHolmes_v1.0.0_N73_zh.jar
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.Gm2010
+url::www.netmite.com

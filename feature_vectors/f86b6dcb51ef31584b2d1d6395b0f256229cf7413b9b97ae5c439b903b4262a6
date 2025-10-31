@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::com.toxicvoxel.contrast.Theme
+intent::android.intent.action.MAIN

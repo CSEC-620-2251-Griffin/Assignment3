@@ -1,0 +1,12 @@
+activity::.Widgets
+activity::.njesa.ZgjidhNjesen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+url::www.eltonkola.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+feature::android.hardware.screen.portrait
+url::http://www.eltonkola.com/m/
+activity::.kryqi.ZgjidhKryqin
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider

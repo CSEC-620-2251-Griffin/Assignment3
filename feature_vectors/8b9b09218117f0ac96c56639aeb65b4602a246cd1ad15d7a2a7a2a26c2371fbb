@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+url::elearning.nxp.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.SplashScreen
+url::http://www.nxp.com/documents/selection_guide/nxp_rf_manual_15th_edition.pdf
+url::http://www.nxp.com/products/rf_zigbee_solutions/index.html
+url::http://www.nxp.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://elearning.nxp.com/course/view.php?id%3D55
+url::www.nxp.com

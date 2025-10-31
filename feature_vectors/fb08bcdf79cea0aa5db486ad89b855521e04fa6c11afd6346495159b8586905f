@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.aniPet
+call::getSystemService
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/content/Context;->startActivity
+api_call::android/provider/Settings$System;->putLong
+intent::android.intent.category.LAUNCHER
+permission::android.permission.SYSTEM_ALERT_WINDOW
+permission::android.permission.WRITE_SETTINGS
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

@@ -1,0 +1,17 @@
+activity::.ragingthunder
+call::getDeviceId
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::com.inject.InjectActivity
+permission::android.permission.READ_PHONE_STATE
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+api_call::android/telephony/TelephonyManager;->getDeviceId
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.InjectActivity
+call::getSimCountryIso
+real_permission::android.permission.READ_PHONE_STATE
+call::printStackTrace
+call::getSystemService

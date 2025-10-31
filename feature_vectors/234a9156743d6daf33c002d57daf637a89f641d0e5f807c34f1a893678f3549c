@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://m.hwasung.com/
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.CALL_PHONE
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::m.hwasung.com
+activity::com.gaewoozee.HwaSungParkDream.HwaSung
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.HwaSung

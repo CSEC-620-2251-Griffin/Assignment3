@@ -1,0 +1,15 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+activity::LiveLiveWallpaperSettings
+call::Read/Write External Storage
+api_call::android/hardware/Camera;->open
+call::printStackTrace
+permission::android.permission.CAMERA
+api_call::android/content/ContentResolver;->openInputStream
+real_permission::android.permission.READ_CONTACTS
+api_call::android/app/Activity;->startActivity
+call::getSystemService

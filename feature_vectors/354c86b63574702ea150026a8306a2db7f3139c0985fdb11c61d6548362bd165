@@ -1,0 +1,60 @@
+url::http://api.vkontakte.ru/api.php
+feature::android.hardware.touchscreen
+url::http://ws.audioscrobbler.com/2.0/
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+activity::ManualAlbumArtActivity
+service_receiver::FileDownloadService
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+service_receiver::%C2%B3 Large
+service_receiver::RockOnNextGenService
+call::getPackageInfo
+url::http://abrantix.org/cubed-donate.php
+feature::android.hardware.screen.portrait
+real_permission::android.permission.READ_CONTACTS
+activity::.RockOnNextGenGL
+real_permission::android.permission.WAKE_LOCK
+url::http://api.lyricsfly.com/api/api.php
+api_call::android/content/ContentResolver;->query
+url::images.google.com
+url::http://images.google.com/images?hl%3Den&source%3Dhp&gbv%3D2&aq%3Df&oq%3D&aqi%3D&q%3D
+activity::DonateActivity
+url::api.vkontakte.ru
+url::http://ws.audioscrobbler.com/2.0/?method%3Dartist.getsimilar&limit%3D20&
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+url::http://images.google.com/
+service_receiver::%C2%B3 Small
+url::http://www.freecovers.net/api/search/
+call::getSystemService
+call::Read/Write External Storage
+api_call::android/telephony/TelephonyManager;->listen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/webkit/WebView
+url::http://api.lyricsfly.com/api/api.php?i%3D3210f29dd5cf0032e-temporary.API.access&
+service_receiver::MediaButtonIntentReceiver
+service_receiver::%C2%B3 Medium
+real_permission::android.permission.DISABLE_KEYGUARD
+activity::RockOnNextGenPreferences
+api_call::android/app/KeyguardManager;->exitKeyguardSecurely
+permission::android.permission.DISABLE_KEYGUARD
+api_call::android/content/Context;->sendBroadcast
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.MEDIA_BUTTON
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.freecovers.net
+url::http://ws.audioscrobbler.com/2.0/?method%3Dartist.getinfo&
+api_call::android/os/PowerManager$WakeLock;->release
+url::abrantix.org
+url::api.lyricsfly.com
+service_receiver::%C2%B3 Classic
+intent::android.intent.category.LAUNCHER
+url::http://api.vkontakte.ru/api.php?
+permission::android.permission.ACCESS_NETWORK_STATE
+url::ws.audioscrobbler.com
+provider::android.appwidget.provider

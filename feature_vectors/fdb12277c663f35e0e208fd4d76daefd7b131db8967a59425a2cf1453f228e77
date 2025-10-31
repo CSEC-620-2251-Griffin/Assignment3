@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://market.android.com/search?q%3D
+call::getSystemService
+activity::.App2Market

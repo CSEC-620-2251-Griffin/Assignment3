@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::.sitetable
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://flightpred.homelinux.org/forecast.php?format%3Djson
+permission::android.permission.INTERNET
+url::flightpred.homelinux.org
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+intent::android.intent.category.LAUNCHER
+url::http://192.168.2.5/flightpred/forecast.php?format%3Djson
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::192.168.2.5
+intent::android.intent.category.EMBED
+activity::MapTabView

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://weather.noaa.gov/pub/data/observations/metar/stations/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.MetarGrab
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::weather.noaa.gov

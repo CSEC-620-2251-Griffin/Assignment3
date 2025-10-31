@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.Main
+permission::android.permission.INTERNET
+url::beust.com
+url::http://xml.org/sax/features/validation
+url::istanbulbus.appspot.com
+url::http://testng.org/testng-1.0.dtd
+url::xml.org
+url::http://www.w3.org/1999/xhtml\
+url::http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\
+api_call::java/lang/Runtime;->exec
+url::http://beust.com/testng/testng-1.0.dtd
+call::Execution of external commands
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+url::www.w3.org
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://testng.org/testng-1.0.dtd\
+url::testng.org
+url::http://istanbulbus.appspot.com/mweb/route.html

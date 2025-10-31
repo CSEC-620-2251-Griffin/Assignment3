@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.netmite.com/android/srv/2.0/upload/kxnc_s60v3240.jar
+url::http://game.e7play.com/
+activity::.GameMidlet
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+url::game.e7play.com
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+url::www.netmite.com

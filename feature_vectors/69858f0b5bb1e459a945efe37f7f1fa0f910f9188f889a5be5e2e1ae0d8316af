@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+url::24.106.195.62
+url::http://24.106.195.62:81/iDryClean/default.aspx?QA%3DiPhone,
+url::http://24.106.195.62:81/iDryClean/default.aspx?QA%3DiPhone,8889,1,1,1
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+activity::.DryCleanActivity
+url::http://24.106.195.62:81/iDryClean/default.aspx?QA%3DiPhone,0,
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://24.106.195.62:81/iDryClean/default.aspx?QA%3DiPhone,19,
+call::getSystemService

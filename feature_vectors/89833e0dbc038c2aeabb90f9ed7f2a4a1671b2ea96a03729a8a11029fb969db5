@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://luck-of-wise.appspot.com/get?q%3D
+url::api.bit.ly
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+activity::.BookListActivity
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+activity::.activity.BookDetailActivity
+url::luck-of-wise.appspot.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+api_call::android/content/Context;->startActivity
+call::getSystemService
+url::http://api.bit.ly/shorten?version%3D2.0.1&longUrl%3D

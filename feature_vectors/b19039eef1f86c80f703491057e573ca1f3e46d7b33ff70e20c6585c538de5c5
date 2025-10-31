@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+provider::jp.futuremap.provider.FutureMapProvider
+call::Read/Write External Storage
+activity::.Setting
+real_permission::android.permission.READ_CONTACTS
+provider::jp.futuremap.provider
+api_call::android/content/ContentResolver;->query
+activity::.FutureMapList
+activity::.FilterInput
+activity::.CategoryEdit
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::.StatisticalInformation
+activity::.CategoryList
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+activity::.FutureItemEdit
+activity::.BackupAndRestore
+activity::.activity

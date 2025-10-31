@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::kor.inlive.co.kr
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->stop
+activity::.KOR_8000Activity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::rush79.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.WAKE_LOCK
+url::http://rush79.com/a/?kor_8000
+url::http://kor.inlive.co.kr:8000/%3B

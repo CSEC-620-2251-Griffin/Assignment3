@@ -1,0 +1,30 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+url::http://mm.admob.com/static/android/tiles/default.png
+url::api.admob.com
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::World Score
+url::http://brenkapps.com/p/putscore.php?g%3D
+url::http://mm.admob.com/static/android/i18n/20091123
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+api_call::android/content/Context;->startActivity
+call::getSystemService
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::mm.admob.com
+url::http://brenkapps.com/p/putscore.php
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://brenkapps.com/p/getscores.php
+url::brenkapps.com
+url::r.admob.com
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::http://brenkapps.com/p/getscores.php?g%3D
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+activity::.MainMenu
+intent::android.intent.category.LAUNCHER
+activity::Next Level
+url::schemas.android.com

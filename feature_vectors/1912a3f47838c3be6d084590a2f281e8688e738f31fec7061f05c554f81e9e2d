@@ -1,0 +1,9 @@
+activity::.TailorAlarmActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AlarmForExerciseActivity
+service_receiver::.ExerciseRunAlarm
+activity::.AlarmForTradersActivity
+intent::android.intent.category.LAUNCHER
+service_receiver::.TradersRunAlarm
+call::getSystemService

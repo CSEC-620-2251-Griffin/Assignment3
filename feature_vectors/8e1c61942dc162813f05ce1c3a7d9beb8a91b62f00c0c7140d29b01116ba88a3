@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.Yicha
+url::www.d-android.com
+intent::android.intent.action.MAIN
+url::http://cet.99sushe.com/s
+permission::android.permission.INTERNET
+url::cet.99sushe.com
+feature::android.hardware.screen.portrait
+api_call::java/net/HttpURLConnection
+intent::android.intent.category.LAUNCHER
+url::http://www.d-android.com
+real_permission::android.permission.INTERNET
+url::http://cet.99sushe.com/

@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::http://docs.google.com/gview?embedded%3Dtrue&url%3D
+intent::android.intent.action.MAIN
+provider::android.provider.Telephony.SMS_RECEIVED
+activity::.WebBrowser
+permission::android.permission.CALL_PHONE
+permission::android.permission.SEND_SMS
+service_receiver::.SmsReceiver
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.CALL_PRIVILEGED
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+feature::android.hardware.telephony
+url::docs.google.com
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.INTERNET
+permission::android.permission.READ_CONTACTS
+api_call::android/webkit/WebView

@@ -1,0 +1,14 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::PlayerService
+call::printStackTrace
+service_receiver::BluetoothReceiver
+activity::.MusicExplorer
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://pipilaka.com/
+intent::android.intent.action.MAIN
+activity::.SplashScreen
+intent::android.intent.category.DEFAULT
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::pipilaka.com
+intent::android.intent.action.VIEW

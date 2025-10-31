@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.a7219603.0fees.net/amfphp/services/QuerySudoku.php?q%3D
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Sudoku
+url::www.a7219603.0fees.net
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->sendBroadcast
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.activities.TasksActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.TasksActivity
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+activity::.activities.MonthActivity
+permission::android.permission.WRITE_CALENDAR
+call::Read/Write External Storage
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://cyberactivities.com/ads/ballbreaker.html
+intent::android.intent.action.MAIN
+url::market.android.com
+activity::.BallBreakerFreeActivity
+url::http://market.android.com/details?id%3Dcom.cyberactivities.ballbreaker
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::cyberactivities.com
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::Statistics
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::Preferences
+activity::.NoteTeacher
+intent::android.intent.category.SAMPLE_CODE
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::About
+real_permission::android.permission.WAKE_LOCK

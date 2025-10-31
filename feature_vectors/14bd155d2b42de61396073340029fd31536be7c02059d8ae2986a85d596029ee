@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::Settings
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::.DigitalClock
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::getSystemService
+url::http://www.androlabs.com
+intent::android.intent.action.EDIT
+intent::android.intent.category.DEFAULT
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.action.VIEW
+url::www.androlabs.com

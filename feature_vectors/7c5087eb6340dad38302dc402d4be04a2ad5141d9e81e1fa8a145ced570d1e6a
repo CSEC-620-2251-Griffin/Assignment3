@@ -1,0 +1,12 @@
+url::http://ci.jamdat.com/prodmgr2/subscription
+feature::android.hardware.touchscreen
+url::www.netmite.com
+intent::android.intent.action.MAIN
+url::http://ci.jamdat.com/0/0au1
+url::http://www.netmite.com/android/srv/2.0/upload/855985345214.jar
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+activity::.SDKMIDlet
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::ci.jamdat.com

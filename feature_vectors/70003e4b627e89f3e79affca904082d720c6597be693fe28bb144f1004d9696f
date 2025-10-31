@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.pacware.com/desire.mp3
+api_call::android/media/MediaPlayer;->start
+url::www.pacware.com
+intent::android.intent.category.LAUNCHER
+activity::.carcerysvale
+real_permission::android.permission.WAKE_LOCK

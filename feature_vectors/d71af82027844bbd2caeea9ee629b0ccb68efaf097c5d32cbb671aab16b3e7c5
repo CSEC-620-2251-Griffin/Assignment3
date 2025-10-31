@@ -1,0 +1,11 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.atsox.com
+url::http://www.AtSox.com
+url::http://www.atsox.com/service.php?KEY%3Dafanche&UserEmail%3D
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.AtSox.com
+intent::android.intent.category.LAUNCHER
+activity::.ATTodoList

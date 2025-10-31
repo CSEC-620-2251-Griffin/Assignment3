@@ -1,0 +1,11 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+activity::.RockBandDLC
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.youtube.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.youtube.com/results?search_query%3D
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage

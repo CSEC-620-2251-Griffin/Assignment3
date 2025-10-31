@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+service_receiver::HistoPediaAppWidgetProvider
+url::http://de.m.wikipedia.org/wiki/
+url::de.m.wikipedia.org
+url::en.m.wikipedia.org
+provider::android.appwidget.provider
+url::http://en.m.wikipedia.org/wiki/

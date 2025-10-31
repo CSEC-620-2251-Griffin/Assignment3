@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::http://www.bptest.nl/m/musicquote/androidgetquotes.php?fromDate%3D
+intent::android.intent.action.MAIN
+url::twitter.com
+api_call::android/content/Context;->startActivity
+activity::.main
+url::http://twitter.com/share?text%3D
+permission::android.permission.INTERNET
+url::www.bptest.nl
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::HttpPost
+url::http://www.bptest.nl/m/musicquote/androidgetquotes.php?lastDate%3D
+call::printStackTrace

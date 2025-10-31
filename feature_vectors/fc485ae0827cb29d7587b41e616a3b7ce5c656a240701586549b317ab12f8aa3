@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::goapk.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+permission::android.permission.ACCESS_NETWORK_STATE
+call::printStackTrace
+url::http://goapk.com\uff09
+permission::android.permission.INTERNET
+activity::.AusgabenAndroid
+feature::android.hardware.screen.portrait
+url::goapk.com\uff09
+intent::android.intent.category.LAUNCHER
+api_call::java/net/NetworkInterface
+real_permission::android.permission.INTERNET
+url::http://goapk.com
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

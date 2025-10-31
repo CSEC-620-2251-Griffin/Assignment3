@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://sites.google.com/site/gson/gson-user-guide
+intent::android.intent.action.MAIN
+api_call::android/app/Activity;->startActivity
+url::nf.aafp.org
+api_call::java/net/URL;->openConnection
+activity::.TopicModuleListActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::https://nf.aafp.org/rest/AafpPublic.svc/customers/
+real_permission::android.permission.INTERNET
+url::sites.google.com
+url::www.aafp.org
+call::getSystemService
+url::http://www.aafp.org/topicModules.json

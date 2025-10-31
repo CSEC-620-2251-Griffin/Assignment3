@@ -1,0 +1,12 @@
+activity::.ValiutuKursai
+feature::android.hardware.touchscreen
+activity::ValiutuKursai
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.lb.lt
+api_call::java/net/HttpURLConnection
+intent::android.intent.category.LAUNCHER
+url::http://www.lb.lt/exchange/Results.asp?Lang%3D%s&id%3D19269&ord%3D1&dir%3DASC&Y%3D
+call::getSystemService

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::nabster.wen9.net
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://nabster.wen9.net/zee/naby_pc.jad
+activity::.GloftCRIK
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::www.netmite.com

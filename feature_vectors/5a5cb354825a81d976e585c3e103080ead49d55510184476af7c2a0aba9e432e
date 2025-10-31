@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.INTERNET
+activity::%E6%E3%E8%A9%B1
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+url::http://iwconstructions.com/Regnum/slides/%04d.jpg
+api_call::org/apache/http/impl/client/DefaultHttpClient
+service_receiver::.StartupReceiver
+intent::android.intent.category.HOME
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.Preferences
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.VIBRATE
+url::www.regnumonlinegame.com
+call::getSystemService
+url::iwconstructions.com
+service_receiver::.UpdateReceiver
+url::http://iwconstructions.com/Regnum/comic.php
+url::http://www.regnumonlinegame.com/\
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.Comic
+real_permission::android.permission.INTERNET
+url::http://iwconstructions.com/Regnum/\
+activity::.AboutCBA
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED

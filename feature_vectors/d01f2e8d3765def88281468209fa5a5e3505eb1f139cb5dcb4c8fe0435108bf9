@@ -1,0 +1,33 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::forum.xda-developers.com
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::java/net/ServerSocket
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+activity::fr.mydedibox.pimpmycpu.stress.kube.ActivityStressKube
+activity::fr.mydedibox.pimpmycpu.ActivityMain
+activity::fr.mydedibox.pimpmycpu.stress.ActivityStressPhysics
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+activity::fr.mydedibox.pimpmycpu.ActivityPreferences
+api_call::android/os/Vibrator;->vibrate
+call::Obfuscation(Base64)
+activity::fr.mydedibox.pimpmycpu.stress.ActivityStressActivity
+call::Execution of external commands
+api_call::android/app/Activity;->startActivity
+activity::fr.mydedibox.pimpmycpu.ActivityWidgetTap
+url::http://forum.xda-developers.com/showthread.php?p%3D12583089
+activity::.ActivityMain
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::fr.mydedibox.pimpmycpu.ActivityCPU
+provider::android.appwidget.provider

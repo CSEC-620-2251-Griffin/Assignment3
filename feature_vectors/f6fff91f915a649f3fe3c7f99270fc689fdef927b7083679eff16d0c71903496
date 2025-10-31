@@ -1,0 +1,31 @@
+feature::android.hardware.touchscreen
+activity::.about
+service_receiver::startup
+service_receiver::.activewidgetservice
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::Profiles
+intent::android.intent.action.BOOT_COMPLETED
+activity::.cupcake
+activity::.overclocking
+real_permission::android.permission.VIBRATE
+activity::Advanced Settings
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+activity::System Info
+permission::android.permission.VIBRATE
+service_receiver::.cupcakeservice
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+activity::.widgetconfig
+api_call::android/content/Context;->sendBroadcast
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+provider::android.appwidget.provider
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+service_receiver::SetCPU
+service_receiver::.set
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+activity::.stresstest

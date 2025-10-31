@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.almushahidassiyasi.com/app/
+intent::android.intent.category.LAUNCHER
+activity::.WebappActivity
+url::www.almushahidassiyasi.com

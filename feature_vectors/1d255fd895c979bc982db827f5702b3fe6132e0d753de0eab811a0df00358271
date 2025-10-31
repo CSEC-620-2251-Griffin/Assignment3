@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+service_receiver::SoundService
+api_call::android/media/MediaPlayer;->start
+activity::.StartActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

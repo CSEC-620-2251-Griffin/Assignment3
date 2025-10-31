@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+call::getSystemService
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+activity::SnoozeAlarm
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.WRITE_SETTINGS
+api_call::android/content/Context;->startActivity
+activity::.WakeUpLight
+service_receiver::ShowNotification

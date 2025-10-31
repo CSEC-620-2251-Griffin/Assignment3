@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://mobile.twitter.com/FortuneFlux
+url::http://en.m.wikipedia.org/wiki?search%3D
+service_receiver::FortuneFluxAppWidgetProvider
+intent::android.intent.action.SEARCH
+url::mobile.twitter.com
+intent::android.intent.category.LAUNCHER
+url::en.m.wikipedia.org
+activity::.FortuneFlux
+activity::FortuneScore
+provider::android.appwidget.provider

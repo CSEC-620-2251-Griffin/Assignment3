@@ -1,0 +1,16 @@
+url::http://www.freetradeireland.ie/api/texts.php?type%3Dfaq
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://www.freetradeireland.ie/site/images/no_image_available.png
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+url::http://www.freetradeireland.ie/api/texts.php?type%3Dabout_us
+url::http://www.freetradeireland.ie/api/
+url::https://market.android.com/details?id%3Dcom.lomancusack.freetradeireland
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::www.freetradeireland.ie
+activity::.FreeTradeIreland
+real_permission::android.permission.INTERNET
+call::getSystemService

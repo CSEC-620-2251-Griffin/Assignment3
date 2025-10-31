@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.SmartWay
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.smartway.seoul.kr
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.smartway.seoul.kr/mobile/mhtml/traffic/traffic.html
+intent::android.intent.category.LAUNCHER

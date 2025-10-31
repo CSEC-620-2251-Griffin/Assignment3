@@ -1,0 +1,33 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+call::getDeviceId
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+real_permission::android.permission.GET_ACCOUNTS
+api_call::java/net/HttpURLConnection
+url::http://com-s4bb-ebooks.s3.amazonaws.com/ebooks/
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+activity::.about.AboutActivity
+api_call::android/accounts/AccountManager;->getAccounts
+call::getSystemService
+call::Read/Write External Storage
+activity::.TheArtOfWarMilitaryEditionActivity
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.AUTHENTICATE_ACCOUNTS
+call::Execution of external commands
+permission::android.permission.GET_ACCOUNTS
+real_permission::android.permission.READ_PHONE_STATE
+url::http://com-s4bb-ebooks.s3.amazonaws.com/ebooks/EBookStore/
+url::market.android.com
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::android/accounts/AccountManager;->getUserData
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::com-s4bb-ebooks.s3.amazonaws.com
+intent::android.intent.category.LAUNCHER

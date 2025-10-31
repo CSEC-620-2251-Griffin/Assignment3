@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::Snooker Analog Clock
+activity::.snookerclock
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

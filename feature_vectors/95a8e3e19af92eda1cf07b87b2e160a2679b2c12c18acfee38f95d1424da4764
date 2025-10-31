@@ -1,0 +1,10 @@
+url::www.torchlightgame.com
+feature::android.hardware.touchscreen
+activity::.ClassSelectionActivity
+intent::android.intent.action.MAIN
+activity::.SkillActivity
+feature::android.hardware.screen.portrait
+url::http://www.torchlightgame.com/
+intent::android.intent.category.LAUNCHER
+activity::.SkillTabActivity
+call::getSystemService

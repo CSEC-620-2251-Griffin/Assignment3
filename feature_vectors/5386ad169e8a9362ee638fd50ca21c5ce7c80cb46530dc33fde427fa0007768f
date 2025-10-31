@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::mobile.usfupdate.com
+url::http://mobile.usfupdate.com
+intent::android.intent.action.MAIN
+url::http://mobile.usfupdate.com/about
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.usfupdate.com/roster
+intent::android.intent.category.LAUNCHER
+url::http://mobile.usfupdate.com/schedule
+api_call::android/webkit/WebView
+url::http://mobile.usfupdate.com/stats
+activity::USF Update

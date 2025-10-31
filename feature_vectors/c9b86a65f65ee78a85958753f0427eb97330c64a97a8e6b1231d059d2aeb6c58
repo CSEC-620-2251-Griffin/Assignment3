@@ -1,0 +1,16 @@
+provider::com.comparebookings.cbtravel.internalfilecontentprovider
+url::seattleclouds.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://seattleclouds.com/myapps.aspx?username%3D
+call::printStackTrace
+url::http://seattleclouds.com/getfilelist.ashx?username%3D
+url::http://seattleclouds.com/
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+url::http://seattleclouds.com/auth.ashx?username%3D
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection
+activity::.AppActivityGroup
+call::getSystemService

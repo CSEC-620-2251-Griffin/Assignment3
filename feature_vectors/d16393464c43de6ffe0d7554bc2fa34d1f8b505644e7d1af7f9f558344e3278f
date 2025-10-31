@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+call::getPackageInfo
+activity::An Error Has Occurred On A Previous Run.
+url::rslservlet.appspot.com
+url::http://rslservlet.appspot.com/fastfoodmayhem_highscores
+real_permission::android.permission.WAKE_LOCK
+call::HttpPost
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::.NameDialog
+activity::.fastFoodMayhemAndroid
+real_permission::android.permission.READ_PHONE_STATE
+activity::Invalid IMEI
+intent::android.intent.action.MAIN
+activity::com.requiem.RSL.OKAlert
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getSubscriberId

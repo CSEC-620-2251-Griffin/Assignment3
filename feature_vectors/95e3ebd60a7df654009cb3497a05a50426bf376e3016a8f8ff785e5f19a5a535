@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.ZahlenLernenSplashActivity
+activity::tk.pankratz.learning.LA_LearningAppPreferences
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+activity::.ZahlenLernenMainActivity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.VIEW
+intent::android.intent.action.DEFAULT
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

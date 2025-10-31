@@ -1,0 +1,13 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+activity::.CheckSamsungFW
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::fus.samsungmobile.com
+api_call::java/lang/Runtime;->exec
+url::http://fus.samsungmobile.com/MS_TEST/msfus.php
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

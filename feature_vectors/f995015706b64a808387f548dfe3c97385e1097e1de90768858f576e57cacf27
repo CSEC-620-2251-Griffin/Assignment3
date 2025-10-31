@@ -1,0 +1,15 @@
+activity::.activities.SpareTimeListActivity
+activity::.activities.StatisticActivity
+activity::.activities.AgenciesListActivity
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.MainActivity
+real_permission::android.permission.INTERNET
+activity::.activities.InfrastructureListActivity
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.screen.landscape
+activity::.activities.TippsAndTricksActivity
+call::Read/Write External Storage
+activity::.activities.BuildingsListActivity
+api_call::java/net/URL;->openConnection

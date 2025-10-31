@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.HumanBodyFactsActivity
+url::http://m.cexams.com/101/?cid%3D32
+intent::android.intent.action.MAIN
+url::m.cexams.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

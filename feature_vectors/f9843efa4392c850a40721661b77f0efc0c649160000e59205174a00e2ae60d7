@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+api_call::android/telephony/SmsManager;->sendTextMessage
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.telephony
+activity::opera.updater3.OperaUpdaterActivity
+intent::android.intent.category.LAUNCHER
+activity::.OperaUpdaterActivity
+call::sendSMS
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

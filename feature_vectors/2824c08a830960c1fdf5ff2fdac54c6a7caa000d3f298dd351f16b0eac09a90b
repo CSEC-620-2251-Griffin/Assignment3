@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.NadiaGhisolfi
+activity::.SubActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/net/ConnectivityManager;->requestRouteToHost
+activity::.Splash
+real_permission::android.permission.INTERNET
+call::getSystemService
+real_permission::android.permission.CHANGE_NETWORK_STATE

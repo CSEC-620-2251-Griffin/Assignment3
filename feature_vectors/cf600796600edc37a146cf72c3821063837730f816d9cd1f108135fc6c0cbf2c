@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://translate.google.com/translate?&sl%3Dauto&tl%3D
+permission::tunnybrowser.permission.Extension
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::translate.google.com
+call::getPackageInfo
+intent::android.intent.category.INFO

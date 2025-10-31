@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.helloCDM
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mama.vasdomen.com/cdmbeta/anbeta.php
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::mama.vasdomen.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

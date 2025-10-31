@@ -1,0 +1,25 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::10.0.2.2
+intent::android.intent.action.BOOT_COMPLETED
+feature::android.hardware.location.gps
+service_receiver::.GeoService
+activity::.preference.Preferences
+feature::android.hardware.location
+call::getSystemService
+url::http://opengeotracker.org/
+service_receiver::.BootReceiver
+api_call::android/location/LocationManager;->requestLocationUpdates
+api_call::android/content/Context;->startService
+activity::.OpenGeoTracker
+url::http://10.0.2.2/OpenGeoTracker/
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::opengeotracker.org
+permission::android.permission.RECEIVE_BOOT_COMPLETED

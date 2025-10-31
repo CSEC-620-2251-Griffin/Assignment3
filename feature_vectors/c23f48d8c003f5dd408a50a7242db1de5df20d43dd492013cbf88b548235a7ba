@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+url::https://www.
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.WAKE_LOCK
+real_permission::android.permission.CAMERA
+feature::android.hardware.camera.autofocus
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+real_permission::android.permission.VIBRATE
+url::www.
+call::getSystemService
+permission::android.permission.VIBRATE
+permission::android.permission.CAMERA
+activity::.history.HistoryDetailView
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+api_call::android/app/Activity;->startActivity
+url::http://www.
+activity::CaptureActivity
+activity::.history.HistoryActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.camera
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

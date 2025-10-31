@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+service_receiver::.ui.DeviceAdminActivity$Receiver
+activity::.ui.CheckActivity
+service_receiver::.receiver.UssdReceiver
+permission::android.permission.CALL_PHONE
+feature::android.hardware.telephony
+service_receiver::.service.ExtendedNetworkService
+call::getSystemService
+api_call::android/content/Context;->sendBroadcast
+activity::.ui.DeviceAdminActivity

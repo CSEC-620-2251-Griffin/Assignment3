@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+provider::stainprovider
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::ProductView
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.StainBrain
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.SEARCH
+call::getSystemService

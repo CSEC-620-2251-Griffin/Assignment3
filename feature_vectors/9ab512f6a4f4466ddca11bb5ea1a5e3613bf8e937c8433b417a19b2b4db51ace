@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Obfuscation(Base64)
+intent::android.intent.action.SEND
+intent::android.intent.category.ALTERNATIVE
+intent::android.intent.category.DEFAULT
+activity::.PhotoEnhance
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+activity::.Preferences
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::Read/Write External Storage
+activity::.Crop
+activity::.Adjust

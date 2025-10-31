@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+service_receiver::.android.data.DBaseService
+intent::android.intent.action.MAIN
+url::http://www.slf4j.org/codes.html
+intent::android.intent.category.DEFAULT
+activity::.android.AbstractActivity
+intent::android.intent.category.LAUNCHER
+url::www.slf4j.org
+activity::.SummaryActivity
+call::getSystemService

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::api.bit.ly
+api_call::java/net/HttpURLConnection
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://drdmkt.com/MakeLink.aspx?package%3D
+url::http://drdmkt.com/MakeMulti.aspx?p%3D
+url::drdmkt.com
+call::getSystemService
+url::http://api.bit.ly/shorten?version%3D2.0.1&longUrl%3D

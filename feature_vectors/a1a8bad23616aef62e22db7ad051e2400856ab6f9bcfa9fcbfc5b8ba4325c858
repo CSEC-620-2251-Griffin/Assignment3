@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+permission::android.permission.READ_PHONE_STATE
+activity::Ultimate Miner
+permission::android.permission.INTERNET
+activity::.AppEntry
+permission::android.permission.READ_INPUT_STATE
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

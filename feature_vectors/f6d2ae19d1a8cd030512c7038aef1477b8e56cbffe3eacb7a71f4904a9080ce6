@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.sapocom.com
+api_call::android/media/MediaPlayer;->start
+url::http://www.sapocom.com/AndroidApps/banner300x100.cfm?APP%3DKKPS&interface%3Dandroid
+activity::.mainactivity
+permission::android.permission.INTERNET
+url::http://3093.live.streamtheworld.com:80/KKPSFMCMP3
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::3093.live.streamtheworld.com
+url::http://www.sapocom.com/AndroidApps/contact.cfm?APP%3DKKPS&interface%3Dandroid
+url::http://www.sapocom.com/AndroidApps/info.php?APP%3DKKPS&interface%3Dandroid
+real_permission::android.permission.WAKE_LOCK

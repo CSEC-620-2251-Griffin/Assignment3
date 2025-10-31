@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.Popupnews
+intent::android.intent.action.MAIN
+url::http://www.cafeducoin.com
+url::www.cafeducoin.com
+permission::android.permission.INTERNET
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.INSERT
+api_call::android/content/Context;->startService
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+service_receiver::.HelpCAD$UpdateService
+url::http://www.cafeducoin.com/index.php?type%3Drss2%3Baction%3D.xml

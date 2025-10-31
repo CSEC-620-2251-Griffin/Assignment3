@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+url::http://cipherlk.com/android/slradio/?url%3D1
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::cipherlk.com
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+api_call::java/net/URL;->openStream
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.SriLankaRadio
+real_permission::android.permission.INTERNET
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

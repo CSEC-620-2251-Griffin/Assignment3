@@ -1,0 +1,62 @@
+activity::Order Payment Method
+feature::android.hardware.touchscreen
+call::getPackageInfo
+url::http://data.coremetrics.com/eluminate
+activity::Help
+permission::android.permission.CALL_PHONE
+api_call::android/app/Activity;->startActivity
+activity::Order Status
+url::data.coremetrics.com
+activity::Product Gallery
+url::http://www.qvc.com/qWebServices/ShowList.aspx?Guide%3DROA&MinProds%3D25&ProdList%3DY
+url::https://quality-s.qvc.com/qWebServices/CustomerService.aspx
+intent::android.intent.action.SEARCH
+activity::More
+activity::Order List
+activity::.HomePage
+activity::ListActivity Page
+call::HttpPost
+url::http://images-p.qvc.com/is/image/%%40/%%40/%%40_%%40.%%40?%%40
+activity::Product Description
+activity::Video
+url::http://www.qvc.com/qWebServices/Product.aspx?Item%3D%%40&NodeType%3DDetail
+activity::Bill-To/Ship-To Address
+url::https://quality-s.qvc.com/qWebServices/OrderV2.aspx
+call::printStackTrace
+url::http://reviews.qvc.com/1689b/%%40/5/rating.gif
+url::http://www.qvc.com/qWebServices/%%40&OutputType%3DJSON%%40
+activity::Support
+url::reviews.qvc.com
+url::http://www.qvc.com/qWebServices/Settings.aspx?App%3DAndroid1-5
+url::quality-s.qvc.com
+activity::.Home.HomePage
+activity::.ProductSearch.ProductSearchLauncher
+call::getSystemService
+url::http://images-p.qvc.com/is/image/%%40/%%40/%%40%%40%%40
+activity::.OrderFlow.SendEmail
+activity::Verify Security Code
+activity::Checkout
+activity::Checkout Existing Customer
+url::images-p.qvc.com
+activity::Auto-Delivery Confirmation
+permission::android.permission.INTERNET
+feature::android.hardware.telephony
+url::http://www.qvc.com/qWebServices/%%40&App%3DAndroid1-5&OutputType%3DJSON&Version%3D3
+url::http://www.qvc.com/qWebServices/Search.aspx
+url::http://www.qvc.com/qWebServices/Product.aspx?Item%3D%%40&NodeType%3DDetail%%40
+intent::android.intent.category.DEFAULT
+activity::Error
+url::http://www.qvc.com/qWebServices/ShowList.aspx?Guide%3DROA&NumHours%3D24&ProdList%3DN
+activity::Thank You
+activity::.ProductSearch.ProductSearchManager
+intent::android.intent.action.MAIN
+activity::Sign In
+real_permission::android.permission.INTERNET
+activity::Your Information
+url::https://quality-s.qvc.com/qWebServices/Customer.aspx
+intent::android.intent.category.LAUNCHER
+url::http://www.qvc.com/qWebServices/Reviews.aspx?Item%3D%%40
+api_call::android/webkit/WebView
+activity::Template Page
+activity::Product List
+url::www.qvc.com

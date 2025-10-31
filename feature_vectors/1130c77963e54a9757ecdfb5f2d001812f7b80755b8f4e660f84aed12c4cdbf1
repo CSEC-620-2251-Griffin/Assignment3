@@ -1,0 +1,45 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+intent::android.intent.category.HOME
+url::astronomypictureoftheday.appspot.com
+activity::.Main
+intent::android.intent.action.ACTION_POWER_DISCONNECTED
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.AnpodService
+url::http://astronomypictureoftheday.appspot.com/
+service_receiver::4x3 Astronomy Widget
+url::http://astronomypictureoftheday.appspot.com/version
+service_receiver::.Receiver
+url::http://astronomypictureoftheday.appspot.com/rate?rating%3D
+real_permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::.AppUpdateService
+api_call::android/telephony/TelephonyManager;->getDeviceId
+api_call::android/app/WallpaperManager;->setStream
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.SET_WALLPAPER
+url::http://astronomypictureoftheday.appspot.com/list?page%3D
+service_receiver::com.google.android.apps.analytics.AnalyticsReceiver
+intent::android.intent.action.ACTION_POWER_CONNECTED
+api_call::android/content/Context;->startService
+url::http://astronomypictureoftheday.appspot.com/json
+real_permission::android.permission.READ_PHONE_STATE
+url::http://astronomypictureoftheday.appspot.com/bestJson
+service_receiver::4x1 Astronomy Widget
+api_call::android/content/ContentResolver;->openInputStream
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://astronomypictureoftheday.appspot.com/list?by_rating%3Dtrue&page%3D
+provider::android.appwidget.provider
+real_permission::android.permission.SET_WALLPAPER

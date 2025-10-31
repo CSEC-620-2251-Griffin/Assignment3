@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.TQkey
+intent::android.intent.action.MAIN
+activity::TQkey
+intent::android.intent.action.EDIT
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+provider::com.netdragon.provider.tqgame
+intent::android.intent.action.VIEW

@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+provider::android.appwidget.provider
+intent::android.intent.category.LAUNCHER
+activity::com.supermegaguay.android.smokefree.SmokeFreeConfigure

@@ -1,0 +1,8 @@
+activity::.WorktimeReport
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Prefs
+activity::.WorktimeList
+activity::.WorktimeEdit
+intent::android.intent.category.LAUNCHER
+activity::.WorktimeEntry

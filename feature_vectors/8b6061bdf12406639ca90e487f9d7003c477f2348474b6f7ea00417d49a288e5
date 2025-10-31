@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.CorporateBingo
+activity::.activity.HelpActivity
+intent::android.intent.category.LAUNCHER
+activity::.activity.CorporateBingo
+activity::.activity.SettingsScreen
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

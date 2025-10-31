@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::c5.inlive.co.kr
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/media/MediaPlayer;->start
+url::http://c5.inlive.co.kr:7930/%3B
+permission::android.permission.INTERNET
+url::rush79.com
+intent::android.intent.category.LAUNCHER
+url::http://rush79.com/a/?c5_7930
+activity::.C5_7930Activity
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK

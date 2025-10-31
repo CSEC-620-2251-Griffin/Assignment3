@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+url::http://www.cches.edu.hk/chi/iphone_news/iphone_news.aspx
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.cches.edu.hk/chi/mobile/course.aspx
+url::http://www.cches.edu.hk/chi/mobile/Contact.html
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+url::http://www.cches.edu.hk/chi/mobile/magazine/test_list.aspx
+intent::android.intent.category.LAUNCHER
+activity::.tabbar
+url::www.cches.edu.hk

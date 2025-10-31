@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.magnetCalculator
+feature::android.hardware.screen.portrait
+activity::Magnet Calculator
+intent::android.intent.category.LAUNCHER

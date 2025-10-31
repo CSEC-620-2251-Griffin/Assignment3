@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::www.druginfo.co.kr
+intent::android.intent.action.MAIN
+url::www.google.co.kr
+url::en.wikipedia.org
+url::http://www.google.co.kr/search?sourceid%3Dchrome&ie%3DUTF-8&q%3D
+activity::.B119Main
+intent::android.intent.category.LAUNCHER
+url::http://www.druginfo.co.kr/search2/search.aspx?q%3D
+url::http://en.wikipedia.org/wiki/

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.jerseymenu.mobi
+url::www.jerseymenu.mobi
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.JerseyMenuOnlineOrdering
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

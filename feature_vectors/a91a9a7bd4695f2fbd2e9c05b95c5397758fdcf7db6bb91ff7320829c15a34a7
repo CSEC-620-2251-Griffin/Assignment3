@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MEDIA_EJECT
+intent::android.intent.action.MEDIA_BAD_REMOVAL
+call::printStackTrace
+intent::android.intent.action.MEDIA_MOUNTED
+service_receiver::com.endhiroid.livewallpaper.ExternalStorageInfoReceiver
+intent::android.intent.action.MEDIA_NOFS
+intent::android.intent.action.MEDIA_UNMOUNTED
+url::endhiroid.blogspot.com
+url::http://endhiroid.blogspot.com
+call::getSystemService
+intent::android.intent.action.MEDIA_REMOVED

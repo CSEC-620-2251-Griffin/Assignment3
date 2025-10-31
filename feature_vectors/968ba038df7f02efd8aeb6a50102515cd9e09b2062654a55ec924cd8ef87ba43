@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.sensor.accelerometer
+feature::android.software.live_wallpaper
+call::getSystemService
+feature::android.hardware.screen.portrait

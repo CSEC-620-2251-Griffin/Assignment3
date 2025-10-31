@@ -1,0 +1,10 @@
+activity::com.KabuUp1.KabuUp1Activity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::webmarkcom.net
+activity::.KabuUp1Activity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://webmarkcom.net/android/KabuUp1/
+api_call::android/webkit/WebView

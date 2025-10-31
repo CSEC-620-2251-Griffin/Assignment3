@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::kr.co.chanet.rsm.main
+activity::.main
+url::http://m.rsm.chanet.co.kr
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+permission::android.permission.RESTART_PACKAGES
+intent::android.intent.category.LAUNCHER
+url::m.rsm.chanet.co.kr
+real_permission::android.permission.RESTART_PACKAGES
+api_call::android/app/ActivityManager;->killBackgroundProcesses
+call::getSystemService

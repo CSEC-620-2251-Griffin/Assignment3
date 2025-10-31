@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.dailyhilltopper.com/schedule
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+url::http://mobile.dailyhilltopper.com/about
+real_permission::android.permission.INTERNET
+url::http://mobile.dailyhilltopper.com/stats
+url::mobile.dailyhilltopper.com
+url::http://mobile.dailyhilltopper.com/roster
+intent::android.intent.category.LAUNCHER
+url::http://mobile.dailyhilltopper.com
+activity::Daily Hilltopper

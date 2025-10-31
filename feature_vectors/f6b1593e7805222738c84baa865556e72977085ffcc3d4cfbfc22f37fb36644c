@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.BLUETOOTH
+permission::android.permission.BLUETOOTH
+feature::android.hardware.bluetooth
+api_call::android/bluetooth/BluetoothAdapter;->getAddress
+intent::android.intent.category.LAUNCHER
+activity::.DispBluetooth

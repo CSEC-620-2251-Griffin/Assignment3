@@ -1,0 +1,10 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+api_call::android/os/Vibrator;->vibrate
+call::getSystemService
+service_receiver::NeopadIMETrialSammun
+activity::.NeopadInfo
+activity::NeopadIMESetting
+activity::.NeopadGuarantee

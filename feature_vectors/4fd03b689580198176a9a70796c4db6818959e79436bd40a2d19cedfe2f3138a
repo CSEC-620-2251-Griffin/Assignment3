@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://kakalicai.com
+feature::android.hardware.screen.portrait
+activity::.Tax_NumericKeypad
+intent::android.intent.category.LAUNCHER
+activity::.Tax_pers_income
+url::kakalicai.com

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/provider/Settings$System;->putString
+activity::.MonoGraphActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+real_permission::android.permission.WRITE_SETTINGS
+activity::.MainActivity
+activity::.GraphActivity
+feature::android.hardware.screen.portrait
+activity::.VectorActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.SettingsActivity
+activity::.OrientationActivity
+activity::.SingleValueActivity
+call::getSystemService

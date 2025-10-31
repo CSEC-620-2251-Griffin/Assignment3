@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::http://www.diversityworkers.com/m/?mobile%3Dy
+intent::android.intent.action.MAIN
+url::www.diversityworkers.com
+intent::android.intent.category.LAUNCHER
+activity::.BrowserActivity

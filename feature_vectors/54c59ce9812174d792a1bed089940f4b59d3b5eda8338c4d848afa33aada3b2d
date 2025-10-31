@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.rbtradutor.com
+activity::.RBtradutor
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.rbtradutor.com/mobile
+intent::android.intent.category.LAUNCHER
+url::http://www.rbtradutor.com/mobile/inicio.aspx

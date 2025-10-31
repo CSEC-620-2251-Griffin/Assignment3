@@ -1,0 +1,21 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+activity::.MotionControl
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+activity::.Intro
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+call::Read/Write External Storage
+feature::android.hardware.screen.portrait
+activity::.EntryPoint
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+api_call::java/net/URL;->openConnection
+url::abductiongame.wordpress.com
+real_permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+url::http://abductiongame.wordpress.com/wc/
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

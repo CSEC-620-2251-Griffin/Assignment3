@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::RecipeMenu
+feature::android.hardware.screen.portrait
+activity::.Recipe
+intent::android.intent.category.LAUNCHER
+activity::com.EaseApps.reviveasunnah.Detail

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::http://www.adinf.se/advertisement
+feature::android.software.live_wallpaper
+url::schemas.android.com
+url::www.adinf.se
+url::http://schemas.android.com/apk/res/android
+activity::WallpaperSettings

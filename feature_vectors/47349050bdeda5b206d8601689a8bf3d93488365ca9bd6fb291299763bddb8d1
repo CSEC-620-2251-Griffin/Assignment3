@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+call::Cipher(RSA)
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::Obfuscation(Base64)
+activity::.ChartEditorActivity
+intent::android.intent.category.LAUNCHER
+activity::.aiChartDemo
+intent::android.intent.action.VIEW

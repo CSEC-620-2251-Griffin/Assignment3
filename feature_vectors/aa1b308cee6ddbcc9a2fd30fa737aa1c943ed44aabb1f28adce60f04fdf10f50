@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.idtech.widgets.car6.Info
+service_receiver::car6
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

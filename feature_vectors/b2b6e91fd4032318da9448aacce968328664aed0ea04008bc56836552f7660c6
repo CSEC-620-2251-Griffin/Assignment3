@@ -1,0 +1,15 @@
+feature::android.hardware.location.network
+url::[a-zA-Z0-9\\.\\
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::.MainActivity
+permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://[a-zA-Z0-9\\.\\:]+/INDEED/setHomeCCAndGo\\?cc%3D[a-zA-Z][a-zA-Z]$
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getSystemService

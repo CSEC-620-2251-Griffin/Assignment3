@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://www.goalhappy.com/mobile/m_myaccount.aspx
+url::http://www.goalhappy.com/mobile/m_login.aspx
+intent::android.intent.action.MAIN
+url::http://www.goalhappy.com/mobile/m_editgoals.aspx
+url::http://www.goalhappy.com/mobile/m_monthgoals.aspx
+url::http://www.goalhappy.com/mobile/m_daygoals.aspx
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://www.goalhappy.com/mobile/m_examples.aspx
+url::http://www.goalhappy.com/mobile/m_addgoal.aspx
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.GoalHappy
+real_permission::android.permission.INTERNET
+url::www.goalhappy.com
+url::http://www.goalhappy.com/mobile/m_weekgoals.aspx

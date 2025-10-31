@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::facecard.larkintuckerllc.com
+api_call::java/net/HttpURLConnection
+url::spreadsheets.google.com
+url::http://facecard.larkintuckerllc.com
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.FaceCard
+real_permission::android.permission.INTERNET
+url::http://spreadsheets.google.com/feeds/list/

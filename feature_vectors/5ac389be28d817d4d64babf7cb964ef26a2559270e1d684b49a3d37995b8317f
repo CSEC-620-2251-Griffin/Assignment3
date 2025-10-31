@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+service_receiver::.DataDisablerService
+service_receiver::.DataDisablerWidget
+feature::android.hardware.telephony
+api_call::android/content/Context;->startService
+permission::android.permission.MODIFY_PHONE_STATE
+provider::android.appwidget.provider
+call::getSystemService
+feature::android.permission.MODIFY_PHONE_STATE

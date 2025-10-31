@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.screen.portrait
+intent::android.intent.action.MAIN
+url::http://www.linkedin.com/in/sinclairchristopher
+call::getSystemService
+activity::.MainMenu
+activity::Examination
+activity::Instructions
+intent::android.intent.category.LAUNCHER
+activity::Practice
+activity::MainMenu
+url::www.linkedin.com
+activity::Scores

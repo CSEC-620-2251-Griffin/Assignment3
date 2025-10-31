@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://market.nduoa.com/update/nDuoaMarket.apk
+service_receiver::.VibratorService
+permission::android.permission.INTERNET
+url::market.nduoa.com
+call::Read/Write External Storage
+activity::.Vibrator
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+service_receiver::com.jss.android.vibrator.VibratorBootReceiver
+service_receiver::com.jss.android.vibrator.VibratorWidgetReceiver
+api_call::android/content/ContentResolver;->query
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.VibratorWidgetService
+service_receiver::com.jss.android.vibrator.VibratorReceiver
+call::getSystemService
+api_call::android/content/Context;->startService
+permission::android.permission.RECEIVE_BOOT_COMPLETE
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+provider::android.appwidget.provider

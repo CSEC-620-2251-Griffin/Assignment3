@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::Rank
+activity::.Rankings
+activity::Rankings
+activity::List
+call::getSystemService
+intent::android.intent.category.LAUNCHER

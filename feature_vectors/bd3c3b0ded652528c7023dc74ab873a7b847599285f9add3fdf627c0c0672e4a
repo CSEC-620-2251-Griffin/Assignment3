@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.BlinkenlightsBattery
+service_receiver::.BlinkenlightsBatteryService
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+service_receiver::BlinkenlightsBatteryBootReceiver
+intent::android.intent.action.BOOT_COMPLETED
+call::getSystemService
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+activity::BlinkenlightsBattery
+api_call::android/content/Context;->startService

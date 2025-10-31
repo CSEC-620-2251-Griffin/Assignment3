@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://services.housing.berkeley.edu/FoodPro/dining/static/todaysentrees.asp
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::services.housing.berkeley.edu
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+activity::.CalDining
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection

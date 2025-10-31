@@ -1,0 +1,13 @@
+url::https://sites.google.com/a/hassett-mail.com/rpfapphelp/help2
+feature::android.hardware.touchscreen
+url::hassettadvisors.com
+url::http://hassettadvisors.com/
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+activity::.RPF_Value
+url::https://sites.google.com/a/hassett-mail.com/rpfapphelp/help1
+intent::android.intent.category.LAUNCHER
+url::sites.google.com
+real_permission::android.permission.INTERNET
+call::getSystemService

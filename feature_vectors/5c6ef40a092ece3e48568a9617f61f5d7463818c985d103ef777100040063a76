@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.jeffboody.net/gears4android.php\
+intent::android.intent.category.ALTERNATIVE
+activity::.GearsES1eclair
+intent::android.intent.action.ABOUT
+activity::.GearsES1eclairAbout
+real_permission::android.permission.INTERNET
+url::www.jeffboody.net
+intent::android.intent.category.LAUNCHER

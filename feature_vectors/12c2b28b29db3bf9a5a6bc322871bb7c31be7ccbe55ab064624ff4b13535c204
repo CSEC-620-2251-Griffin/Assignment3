@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://www.florianwilk.com/stolenDroid
+service_receiver::.Receiver
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+url::www.florianwilk.com
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/provider/Settings$System;->putInt
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/content/Context;->startService
+activity::.RotationLockActivity
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

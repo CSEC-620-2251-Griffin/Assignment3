@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+activity::com.chiralcode.fullcolorlite.activity.SelectStageActivity
+intent::android.intent.category.LAUNCHER
+activity::.MenuActivity
+activity::com.chiralcode.fullcolorlite.activity.MenuActivity
+activity::com.chiralcode.fullcolorlite.activity.RulesActivity

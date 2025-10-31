@@ -1,0 +1,6 @@
+activity::.DateAfterTabActivity
+feature::android.hardware.touchscreen
+activity::.DateDiffTabActivity
+intent::android.intent.action.MAIN
+activity::.main
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+service_receiver::com.bcseime.android.telenor.dataforbruk.WidgetUpdateService
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::com.bcseime.android.telenor.dataforbruk.MainActivity
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+activity::com.bcseime.android.telenor.dataforbruk.ConfigureActivity
+call::getSystemService

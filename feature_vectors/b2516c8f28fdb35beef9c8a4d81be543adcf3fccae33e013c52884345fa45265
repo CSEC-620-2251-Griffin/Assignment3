@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.activity.FuelGauge
+provider::.provider.FillupContentProvider
+activity::.preference.GeneralPreferences
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+provider::com.sqerz.fuelgauge.provider.FillupContentProvider
+activity::.preference.DetailsPreferences
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+activity::.activity.FillupStatistic
+activity::.FuelGauge
+activity::.activity.FillupDetails
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.action.SEARCH
+activity::Prefs
+intent::android.intent.category.LAUNCHER
+activity::.Conversions
+call::getSystemService

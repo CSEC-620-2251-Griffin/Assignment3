@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://homepage1.nifty.com/ave/android/laptime/laptime.html
+intent::android.intent.category.LAUNCHER
+url::homepage1.nifty.com
+call::getSystemService
+activity::.LapTime

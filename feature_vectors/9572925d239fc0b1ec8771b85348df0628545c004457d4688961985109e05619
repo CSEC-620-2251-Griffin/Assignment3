@@ -1,0 +1,10 @@
+url::http://market.android.com/search?q%3Dpname:net.vgart.vexedpro\n\nOr
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+activity::net.vgart.vexed.LevelSetActivity
+intent::android.intent.category.LAUNCHER
+url::http://market.android.com/search?q%3Dpname:net.vgart.vexedpro
+activity::.LevelSetActivity

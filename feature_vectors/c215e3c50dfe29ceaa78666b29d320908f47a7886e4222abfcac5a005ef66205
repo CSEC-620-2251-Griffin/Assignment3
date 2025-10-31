@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://josephmakandroid.blogspot.com/
+url::josephmakandroid.blogspot.com
+intent::android.intent.action.MAIN
+activity::PoemViewer
+activity::.TangPoemMainActivity
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::SubLevelActivity

@@ -1,0 +1,16 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::say.appspot.com
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://say.appspot.com/oh
+service_receiver::.AlarmInitReceiver
+service_receiver::.CronService
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+call::getSystemService
+activity::Main

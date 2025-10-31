@@ -1,0 +1,10 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+activity::.HotPotato
+intent::android.intent.action.MAIN
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService

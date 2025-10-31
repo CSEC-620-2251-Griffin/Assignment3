@@ -1,0 +1,17 @@
+activity::RegNote
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::DelListActivity
+activity::NoteListActivity
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.VIBRATE
+service_receiver::AlarmService_Service
+activity::Tools
+intent::android.intent.category.LAUNCHER
+service_receiver::NotifyService
+call::getPackageInfo
+api_call::android/app/NotificationManager;->notify
+call::getSystemService
+api_call::android/content/Context;->startService

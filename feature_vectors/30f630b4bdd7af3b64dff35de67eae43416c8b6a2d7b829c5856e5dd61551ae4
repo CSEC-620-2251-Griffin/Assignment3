@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+intent::android.intent.category.PREFERENCE
+activity::.SplashScreen
+permission::android.permission.WRITE_CALENDAR
+intent::android.intent.category.DEFAULT
+activity::SplashScreen
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+activity::Preference
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+api_call::android/content/ContentResolver;->query

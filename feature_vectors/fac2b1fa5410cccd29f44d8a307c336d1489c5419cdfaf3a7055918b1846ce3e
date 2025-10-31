@@ -1,0 +1,15 @@
+url::http://docs.google.com/Doc?id%3Ddddbdn3f_135z2kxdm2
+feature::android.hardware.touchscreen
+activity::.Tractor
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://docs.google.com/Doc?id%3Ddddbdn3f_02qmbpbhp
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::docs.google.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+call::getSystemService

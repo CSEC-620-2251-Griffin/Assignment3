@@ -1,0 +1,5 @@
+activity::.com.kv.kvslotmachinelite
+feature::android.hardware.touchscreen
+activity::.kvslotmachinelite
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

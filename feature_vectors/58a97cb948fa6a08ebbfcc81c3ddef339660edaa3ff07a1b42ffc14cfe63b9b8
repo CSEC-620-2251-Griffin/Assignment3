@@ -1,0 +1,50 @@
+url::kitconet.com
+feature::android.hardware.touchscreen
+activity::Widget_chart_activity
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::Widget Chart Menu
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+service_receiver::Bullion Bug Demo Widget
+activity::AlertList
+activity::Preferences
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+activity::ValueCalculator
+activity::Portfolio
+activity::Widget Menu
+activity::Chart
+url::http://a.admob.com/f0?
+url::http://www.kitco.com
+url::http://www.kitconet.com/charts/metals/
+url::www.kitconet.com
+activity::EditMetal
+activity::Inventory
+url::www.kitco.com
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::Widget_activity
+call::Cipher(AES/CBC/PKCS5Padding)
+service_receiver::Bullion Bug Demo Chart Widget
+url::www.gstatic.com
+api_call::android/app/Activity;->startActivity
+url::a.admob.com
+url::http://www.kitconet.com/images/quote.gif
+api_call::android/webkit/WebView
+activity::AlertEdit
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://kitconet.com/charts/metals/
+real_permission::android.permission.INTERNET
+url::http://www.kitco.com/LFgif/
+activity::EditStack
+intent::android.intent.category.LAUNCHER
+activity::.HomeScreen
+call::getSystemService
+provider::android.appwidget.provider
+service_receiver::SpotPriceReceiver
+url::schemas.android.com

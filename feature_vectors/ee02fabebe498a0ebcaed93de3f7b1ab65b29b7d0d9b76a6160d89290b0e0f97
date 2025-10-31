@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.Info
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.splash
+activity::.Esbirros
+activity::.Otros
+intent::android.intent.category.DEFAULT
+activity::.Blai
+intent::android.intent.category.LAUNCHER
+activity::.Joao
+activity::.Vildu
+real_permission::android.permission.WAKE_LOCK

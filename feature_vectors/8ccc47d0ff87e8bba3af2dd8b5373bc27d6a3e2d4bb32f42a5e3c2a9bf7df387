@@ -1,0 +1,12 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+service_receiver::.WidgetProvider$WidgetUpdator
+activity::.PageInfo
+intent::android.intent.action.MAIN
+real_permission::android.permission.WRITE_SETTINGS
+intent::android.intent.category.LAUNCHER
+activity::.AppGate
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.WRITE_SETTINGS

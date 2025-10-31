@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+provider::android.appwidget.provider
+service_receiver::.UpdateService
+call::getSystemService

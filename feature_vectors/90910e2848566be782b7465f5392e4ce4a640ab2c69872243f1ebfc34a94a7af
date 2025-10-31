@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::http://www.kolosej.si/spored/xml/2.0/
+url::http://www.planet-tus.com/xml/spored.xml
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::www.planet-tus.com
+activity::.Init
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::www.kolosej.si

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.activities.SplashScreen
+call::Obfuscation(Base64)
+call::Cipher(Blowfish)
+activity::.SplashScreen
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::HttpPost
+call::getSystemService
+service_receiver::RestService

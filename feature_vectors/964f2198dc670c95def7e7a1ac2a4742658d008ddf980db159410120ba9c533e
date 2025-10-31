@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->query
+call::getSystemService
+permission::android.permission.READ_CALENDAR
+real_permission::android.permission.READ_CONTACTS

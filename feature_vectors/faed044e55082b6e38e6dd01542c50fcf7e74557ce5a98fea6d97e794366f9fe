@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.cilctel.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.cilctel.com/
+url::radios.cilctel.com
+activity::.Init
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->stop
+url::http://radios.cilctel.com:8000/barcelonafmHD.mp3

@@ -1,0 +1,14 @@
+url::robots-everywhere.com
+feature::android.hardware.touchscreen
+url::f3.to
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::printStackTrace
+api_call::java/net/ServerSocket
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://f3.to/ip/
+intent::android.intent.category.LAUNCHER
+activity::.PhoneServer
+url::http://robots-everywhere.com/ip/
+call::getSystemService

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mobile.aggieball.com
+activity::.Main
+url::mobile.aggieball.com
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://mobile.aggieball.com/about
+url::http://mobile.aggieball.com/roster
+url::http://mobile.aggieball.com/schedule
+real_permission::android.permission.INTERNET
+url::http://mobile.aggieball.com/stats
+activity::Aggie Ball

@@ -1,0 +1,10 @@
+activity::.Dungeons
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::Obfuscation(Base64)
+service_receiver::com.ciklum.dungeons.BillingReceiver
+permission::com.android.vending.BILLING
+activity::Dungeons
+intent::android.intent.category.LAUNCHER
+service_receiver::com.ciklum.dungeons.BillingService
+api_call::android/content/Context;->startService

@@ -1,0 +1,15 @@
+call::Cipher(AES/ECB/NoPadding)
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+url::http://maps.google.com/maps?t%3Dm&q%3D
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+url::http://%s/iphone.php?wsv%3D%s&devel
+intent::android.intent.category.LAUNCHER
+url::maps.google.com
+url::http://%s/img/%d/%d
+call::getSystemService
+activity::.SplashScreenPresenter

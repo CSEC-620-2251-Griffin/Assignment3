@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.WebScores
+url::http://www.hadensgate.com/cosmic/cosmicscores.html
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::http://www.hadensgate.com/cosmic/form.php?code%3D\
+activity::.CosmicForce
+url::www.hadensgate.com
+call::getSystemService

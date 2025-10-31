@@ -1,0 +1,17 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.ActivityExpressSettings
+url::www.sayhello2theworld.com\n\nThank
+api_call::android/app/ActivityManager;->restartPackage
+activity::.ActivityExpress
+real_permission::android.permission.RESTART_PACKAGES
+service_receiver::TaskExpressStartup
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+permission::android.permission.RESTART_PACKAGES
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+url::http://www.sayhello2theworld.com\n\nThank
+call::getSystemService

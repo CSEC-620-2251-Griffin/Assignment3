@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://oa.instantfeedback.net/submit.php
+intent::android.intent.action.MAIN
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.OpieAndAnthonyFeedbackSubmitter
+url::www.opieandanthony.com
+url::http://www.opieandanthony.com/livefeedback.cfm
+url::oa.instantfeedback.net
+call::HttpPost

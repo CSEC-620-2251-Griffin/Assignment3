@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+intent::android.intent.category.HOME
+activity::.HourlyChimeActivity
+service_receiver::.HourlyChimeReceiver
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.VIBRATE
+permission::android.permission.READ_PHONE_STATE
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+service_receiver::HourlyChimeIntentService
+api_call::java/lang/Runtime;->exec
+service_receiver::.OnBootReceiver
+call::Execution of external commands
+api_call::java/net/URL;->openConnection
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED

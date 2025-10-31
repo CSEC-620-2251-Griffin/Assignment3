@@ -1,0 +1,4 @@
+service_receiver::Learn Hiragana
+feature::android.hardware.touchscreen
+provider::android.appwidget.provider
+service_receiver::Learn Katakana

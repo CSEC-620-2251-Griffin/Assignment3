@@ -1,0 +1,14 @@
+feature::android.hardware.location.network
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::http://coldtail.com/callsigns/?s%3D
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::coldtail.com
+call::getSystemService
+activity::.CallsignLookup

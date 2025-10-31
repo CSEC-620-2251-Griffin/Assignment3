@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://ww2.parcoinc.com/app/InventoryService.svc/web/GetInventory?IM_PART%3D
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::ww2.parcoinc.com
+activity::.Home
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.LaunchApp

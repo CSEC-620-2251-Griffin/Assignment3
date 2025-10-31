@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::webmail.vtc.edu.hk
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::hk.edu.vtc.webmail.Main
+activity::.Main
+permission::android.permission.INTERNET
+url::https://webmail.vtc.edu.hk/OWA/
+url::webmail.stu.vtc.edu.hk
+intent::android.intent.category.LAUNCHER
+url::https://webmail.stu.vtc.edu.hk/Exchange
+url::http://webmail.vtc.edu.hk
+real_permission::android.permission.INTERNET

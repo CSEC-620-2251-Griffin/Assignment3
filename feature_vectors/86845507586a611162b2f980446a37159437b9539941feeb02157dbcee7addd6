@@ -1,0 +1,3 @@
+activity::com.junction.lexin.exppack.blessing.GetPackage
+call::printStackTrace
+feature::android.hardware.touchscreen

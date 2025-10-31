@@ -1,0 +1,11 @@
+activity::.XTextConfig
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.RESTART_PACKAGES
+api_call::android/app/ActivityManager;->restartPackage
+feature::android.hardware.screen.portrait
+real_permission::android.permission.RESTART_PACKAGES
+intent::android.intent.category.LAUNCHER
+activity::.XTextMain
+provider::android.appwidget.provider
+call::getSystemService

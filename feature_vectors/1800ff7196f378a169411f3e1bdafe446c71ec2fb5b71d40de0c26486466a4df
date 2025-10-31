@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.MixDroidActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::getSystemService
+call::Obfuscation(Base64)
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+service_receiver::com.SeewaldSolutions.MixDroid.BillingService
+service_receiver::com.SeewaldSolutions.MixDroid.BillingReceiver
+api_call::android/media/MediaPlayer;->start
+permission::com.android.vending.BILLING
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.EquiPlaceActivity
+permission::android.permission.INTERNET
+url::this-is-me-and-you.ning.com
+real_permission::android.permission.INTERNET
+url::http://www.equi-place.net
+intent::android.intent.category.LAUNCHER
+url::http://www.equi-place.net/index.php?p%3Dlogin
+api_call::android/webkit/WebView
+url::www.equi-place.net
+activity::EquiPlaceActivity
+url::http://this-is-me-and-you.ning.com/group/equiplacenieuws

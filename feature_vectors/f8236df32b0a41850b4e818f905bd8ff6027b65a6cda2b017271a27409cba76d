@@ -1,0 +1,18 @@
+url::http://ipodislam.com/podcast.php
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+url::ipodislam.com
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+service_receiver::Downloader
+activity::SplashActivity
+call::Read/Write External Storage
+activity::.SplashActivity
+call::getSystemService

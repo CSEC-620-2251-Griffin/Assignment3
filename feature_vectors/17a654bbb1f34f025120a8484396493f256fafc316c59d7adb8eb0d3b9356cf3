@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+service_receiver::org.handydroid.liveview.plugins.PluginReceiver
+service_receiver::OpenWatch Api Service
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+permission::com.sonyericsson.extras.liveview.permission.LIVEVIEW_API
+call::Read/Write External Storage
+activity::org.handydroid.liveview.OpenWatchApiPrefs

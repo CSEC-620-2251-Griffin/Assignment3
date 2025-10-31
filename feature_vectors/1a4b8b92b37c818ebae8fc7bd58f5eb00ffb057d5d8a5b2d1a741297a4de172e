@@ -1,0 +1,8 @@
+service_receiver::.CameraReceiver
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/content/Context;->sendBroadcast
+call::getSystemService

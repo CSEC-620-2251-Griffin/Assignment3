@@ -1,0 +1,24 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::printStackTrace
+service_receiver::%E6 %E8%AF%AD%E5%E8%AF
+api_call::android/os/Vibrator;->vibrate
+url::http://gxmcool.com/BookWord.php?q%3D
+permission::android.permission.INTERNET
+service_receiver::com.gxmcool.Service.CoreService
+intent::android.intent.action.BOOT_COMPLETED
+activity::.MainActivity
+real_permission::android.permission.VIBRATE
+url::gxmcool.com
+call::getSystemService
+permission::android.permission.VIBRATE
+url::http://gxmcool.com/
+url::http://gxmcool.com/Query.php?q%3D
+url::http://gxmcool.com/BookList.php
+api_call::android/content/Context;->startService
+activity::.QueryWordActivity
+service_receiver::com.gxmcool.Service.AutoBootReceiver
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider

@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->stop
+api_call::android/os/Vibrator;->vibrate
+activity::.ThreeMan
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::http://www.freesound.org
+url::www.freesound.org
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Basic_Example
+activity::.Annotating_A_Chart
+activity::.CrossHairPluginSample
+intent::android.intent.category.LAUNCHER
+activity::.Setting_Various_Options
+activity::.Different_Grap_Types
+activity::.Interacting_With_Datapoints
+activity::.FlotAndroidSamples

@@ -1,0 +1,15 @@
+feature::android.hardware.location.network
+feature::android.hardware.location.gps
+activity::com.combain.invoicing.MainActivity
+url::http://touch.combain.com/?client%3Dinvoicing
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::touch.combain.com

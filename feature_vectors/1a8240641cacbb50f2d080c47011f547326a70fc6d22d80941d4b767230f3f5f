@@ -1,0 +1,18 @@
+feature::android.hardware.touchscreen
+url::http://images.ad-maker.info/apps
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::jp.co.nisc.idpassmanegerfree.SplashActivity
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(AES)
+permission::android.permission.INTERNET
+url::http://images.ad-maker.info/apps/uoyhhb6duqbb.html
+real_permission::android.permission.INTERNET
+url::images.ad-maker.info
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+activity::.SplashActivity
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+call::getSystemService

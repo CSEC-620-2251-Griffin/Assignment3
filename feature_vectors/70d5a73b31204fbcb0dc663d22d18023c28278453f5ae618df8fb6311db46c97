@@ -1,0 +1,11 @@
+permission::android.permission.VIBRATE
+activity::.TimerActivity
+intent::android.intent.action.CATEGORY_PREFERENCE
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.TimerPrefActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+service_receiver::.TimerService
+call::getSystemService

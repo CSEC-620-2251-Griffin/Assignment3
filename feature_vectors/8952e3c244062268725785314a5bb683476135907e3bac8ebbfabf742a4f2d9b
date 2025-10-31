@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.SubjectsListActivity
+call::HttpPost
+permission::android.permission.INTERNET
+activity::.ObservationsActivity
+real_permission::android.permission.INTERNET
+activity::.QuestionsListActivity
+activity::.HelpActivity
+api_call::android/webkit/WebView
+activity::.SettingsActivity
+activity::.LaunchActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

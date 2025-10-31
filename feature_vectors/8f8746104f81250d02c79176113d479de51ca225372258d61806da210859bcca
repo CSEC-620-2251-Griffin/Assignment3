@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.Checkbook200
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.smallscreensoftware.com/cgnewspagedata/newstext.html
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://www.smallscreensoftware.com/cgenius.html
+url::www.smallscreensoftware.com
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+call::getSystemService

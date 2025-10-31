@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.FetCheck
+url::s99clubcheck.appspot.com
+url::http://www.eplay.com.tw/wap/
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::www.eplay.com.tw
+intent::android.intent.category.LAUNCHER
+activity::EPlayComTw
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://s99clubcheck.appspot.com/

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.VoiceCallApp
+activity::%EB%B3%B4%EC%B4%EC%A4%EC%BD%EC%B1
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getSystemService

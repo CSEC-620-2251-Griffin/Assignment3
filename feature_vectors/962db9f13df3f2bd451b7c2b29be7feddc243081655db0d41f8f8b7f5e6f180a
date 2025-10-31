@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::bradandroid.webs.com
+url::http://bradandroid.webs.com/index.htm
+intent::android.intent.category.LAUNCHER
+activity::.RecitePi

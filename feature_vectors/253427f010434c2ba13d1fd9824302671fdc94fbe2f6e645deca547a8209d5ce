@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.mainwindow
+intent::android.intent.action.MAIN
+service_receiver::wake
+real_permission::android.permission.VIBRATE
+api_call::android/app/NotificationManager;->notify
+call::getSystemService
+intent::android.intent.category.LAUNCHER

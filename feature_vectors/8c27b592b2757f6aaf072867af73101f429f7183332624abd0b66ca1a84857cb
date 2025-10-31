@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://devapi.www.tvn.hu/api.tvn
+url::www.tvn.hu
+call::HttpPost
+permission::android.permission.READ_EXTERNAL_STORAGE
+url::http://(.*)
+api_call::java/net/Socket
+url::devapi.www.tvn.hu
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.TVNForAndroid
+url::http://www.tvn.hu
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+api_call::android/app/NotificationManager;->notify
+service_receiver::.CheckMailService
+url::(.*)

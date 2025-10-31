@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.RECEIVE_SMS
+activity::Pick Contacts:
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+activity::Enter A Label:
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_SMS
+service_receiver::.WidgetProvider
+call::getSystemService
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+api_call::android/telephony/SmsManager;->sendTextMessage
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+activity::Enter Your Message:
+call::sendSMS
+activity::Send Message?
+feature::android.hardware.screen.portrait
+activity::com.burmat.quick.text.Config
+provider::android.appwidget.provider

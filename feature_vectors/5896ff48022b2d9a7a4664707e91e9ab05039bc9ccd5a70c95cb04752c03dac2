@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://www.handykochen.at/de/suche?words%3D
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.handykochen.at?app%3D1
+url::http://www.handykochen.at/?shake%3D1
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+activity::.show
+activity::show
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::www.handykochen.at
+url::http://www.handykochen.at/?manifest%3D1
+call::getSystemService

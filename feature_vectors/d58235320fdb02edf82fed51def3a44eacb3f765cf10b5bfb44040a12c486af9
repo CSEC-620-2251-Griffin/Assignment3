@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::m.finavia.fi
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://m.finavia.fi/mobiili-lentotiedot/mobiili-lentoasema?airport%3D
+activity::.helsinkiVantaa
+intent::android.intent.category.LAUNCHER

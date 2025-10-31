@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+activity::.Help
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+activity::.Main
+permission::android.permission.FLASHLIGHT
+feature::android.hardware.screen.portrait
+api_call::android/hardware/Camera;->open
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+real_permission::android.permission.INTERNET
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

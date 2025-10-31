@@ -1,0 +1,7 @@
+activity::.games
+feature::android.hardware.touchscreen
+activity::games
+intent::android.intent.action.MAIN
+url::http://wap.pccwmobile.com/games
+intent::android.intent.category.LAUNCHER
+url::wap.pccwmobile.com

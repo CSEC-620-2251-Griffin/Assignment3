@@ -1,0 +1,12 @@
+activity::com.katusekino.Katusekino
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Katusekino
+intent::android.intent.category.LAUNCHER
+url::m.katusekino.ee
+api_call::android/webkit/WebView
+api_call::android/app/Activity;->startActivity
+url::http://m.katusekino.ee

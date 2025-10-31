@@ -1,0 +1,12 @@
+activity::.scoreBoard
+activity::.GameScreen
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+call::getSystemService
+activity::.instructions

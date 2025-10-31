@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+activity::.DoomGLES
+url::kokak.free.fr
+call::printStackTrace
+url::http://kokak.free.fr/DoomGLES/Patch1_
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+url::http://kokak.free.fr/DoomGLES/Patch0_
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+url::http://kokak.free.fr/DoomGLES/
+permission::android.permission.GET_ACCOUNTS
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.hardware.screen.landscape
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.category.LAUNCHER
+url::http://kokak.free.fr/DoomGLES/DoomGLES_

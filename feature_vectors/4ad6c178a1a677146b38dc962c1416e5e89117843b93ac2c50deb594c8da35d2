@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::getSystemService
+intent::android.intent.action.CREATE_SHORTCUT
+url::http://github.com/jrudolph/object-browser\
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+url::github.com
+intent::android.intent.category.BROWSABLE
+activity::.ObjectBrowserView
+intent::android.intent.action.VIEW

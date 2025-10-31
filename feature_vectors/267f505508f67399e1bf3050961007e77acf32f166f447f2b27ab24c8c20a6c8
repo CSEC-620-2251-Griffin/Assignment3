@@ -1,0 +1,16 @@
+url::https://data.flurry.com/aar.do
+feature::android.hardware.touchscreen
+activity::.App
+intent::android.intent.action.MAIN
+call::HttpPost
+url::data.flurry.com
+real_permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::com.rovio.ka3d.App
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::getPackageInfo
+api_call::android/location/LocationManager;->getBestProvider
+url::http://data.flurry.com/aar.do
+call::getSystemService

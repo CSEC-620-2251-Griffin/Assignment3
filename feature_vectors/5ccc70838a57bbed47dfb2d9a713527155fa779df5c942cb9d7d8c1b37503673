@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+api_call::java/net/HttpURLConnection
+activity::NextActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://www.americanclassifieds.com
+activity::AdDetail
+activity::PaperPull
+activity::.Home
+url::http://www.americanclassifieds.com/tnol/servlet/AdSearchServlet
+activity::SavedAds
+call::getSystemService
+url::https://www.americanclassifieds.com/tnol/servlet/SavedAds
+activity::Settings
+url::http://www.americanclassifieds.com/tnol/servlet/AppInfoServlet
+activity::Search
+activity::ImageDetail
+url::www.americanclassifieds.com
+url::https://www.americanclassifieds.com/placeAd.cfm
+url::http://www.americanclassifieds.com/
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+activity::Search Results
+intent::android.intent.category.LAUNCHER

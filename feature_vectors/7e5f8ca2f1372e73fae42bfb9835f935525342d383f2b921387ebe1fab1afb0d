@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://202.85.221.87:36925/baidu/baidu.action?
+url::202.85.221.87
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://zhidao.baidu.com
+real_permission::android.permission.INTERNET
+call::getSystemService
+url::zhidao.baidu.com

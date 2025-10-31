@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::getSystemService
+intent::android.intent.category.DEFAULT
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.category.LAUNCHER
+activity::.MobiInfo
+intent::android.intent.action.VIEW
+real_permission::android.permission.WAKE_LOCK

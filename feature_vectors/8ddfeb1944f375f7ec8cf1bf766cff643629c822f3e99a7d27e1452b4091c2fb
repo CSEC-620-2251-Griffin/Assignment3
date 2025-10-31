@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.internetshoppingapp
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.online-preiswert-einkaufen.de
+permission::android.permission.INTERNET
+url::http://www.online-preiswert-einkaufen.de/index.htm
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

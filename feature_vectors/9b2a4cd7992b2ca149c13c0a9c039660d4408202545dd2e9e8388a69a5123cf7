@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.facebook.com/pages/Legendary-Defense-for-Android/103587226388047
+call::Read/Write External Storage
+api_call::android/media/MediaPlayer;->stop
+intent::android.intent.category.LAUNCHER
+activity::.LegendaryDefense
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

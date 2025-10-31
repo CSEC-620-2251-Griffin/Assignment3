@@ -1,0 +1,11 @@
+activity::.StockView
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.CillinStkAct
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.IndexView
+intent::android.intent.category.DEFAULT

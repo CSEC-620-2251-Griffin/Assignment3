@@ -1,0 +1,26 @@
+url::http://root-ed.com/filemgmt/files/AndroidFonts/AndroidFonts/
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+url::root-ed.com
+call::Read/Write External Storage
+url::http://dl.dropbox.com/u/7081072/METAMANAGER/FontSwitcher/FontList.json
+url::dl.dropbox.com
+activity::.switcher
+url::http://N3xGenApps.com/Files/Fonts/
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::java/net/URL;->openStream
+api_call::java/lang/Runtime;->exec
+url::http://dl.dropbox.com/u/7081072/METAMANAGER/Message.json
+activity::.com.lee.android.font.switcher
+call::Execution of external commands
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::N3xGenApps.com
+url::http://dl.dropbox.com/u/7081072/METAMANAGER/Version.json

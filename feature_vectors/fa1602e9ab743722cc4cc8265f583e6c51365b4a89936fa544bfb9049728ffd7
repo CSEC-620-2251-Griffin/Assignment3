@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.ArchosButtons
+intent::android.intent.action.MAIN
+activity::mobi.pruss.archosbuttons.ArchosButtons
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.READ_LOGS
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::java/lang/Runtime;->exec
+permission::android.permission.WRITE_SETTINGS

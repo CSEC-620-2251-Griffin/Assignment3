@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.ExpenseEdit
+intent::android.intent.action.MAIN
+activity::.MoneyTracker
+intent::android.intent.action.CONFIGURATION_CHANGED
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+activity::.SettingsActivity
+api_call::android/content/Context;->sendBroadcast
+provider::android.appwidget.provider
+call::getSystemService

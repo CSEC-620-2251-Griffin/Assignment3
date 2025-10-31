@@ -1,0 +1,9 @@
+activity::.A4
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::www.a4anes.net
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://www.a4anes.net/mobile.asp

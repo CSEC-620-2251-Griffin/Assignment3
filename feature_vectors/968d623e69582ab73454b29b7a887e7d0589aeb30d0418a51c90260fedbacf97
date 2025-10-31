@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+service_receiver::.QuoteWidget$UpdateService
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::.CombatsCh
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

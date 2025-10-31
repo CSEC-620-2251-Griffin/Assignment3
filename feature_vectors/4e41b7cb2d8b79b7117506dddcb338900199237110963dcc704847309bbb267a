@@ -1,0 +1,12 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::www.saturn.dti.ne.jp
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.andromusic
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+activity::andromusic
+url::http://www.saturn.dti.ne.jp/

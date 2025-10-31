@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::api.bookscouter.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.CAMERA
+feature::android.hardware.camera
+permission::android.permission.INTERNET
+permission::android.permission.FLASHLIGHT
+real_permission::android.permission.INTERNET
+url::http://api.bookscouter.com/prices.php?isbn%3D%s&uid%3D%s
+activity::.Bookscouter
+real_permission::android.permission.VIBRATE
+api_call::android/app/NotificationManager;->notify
+api_call::android/app/Activity;->startActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

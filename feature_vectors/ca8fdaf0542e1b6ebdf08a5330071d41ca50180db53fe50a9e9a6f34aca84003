@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+call::printStackTrace
+url::http://www.hdjr.org/?Date%3D2010-06-03
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+activity::.PhoneCalenderEntryView
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::www.hdjr.org
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::getSystemService

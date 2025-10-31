@@ -1,0 +1,42 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_SELECT_TIME
+activity::.activities.ActivityQuestionTab
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_APPOINTMENTREPEAT
+intent::android.intent.category.DEFAULT
+service_receiver::.reminder.AlarmService
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.WAKE_LOCK
+activity::.TwangTcm
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_TASK
+activity::.activities.ActivityCalendarTab
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.action.AnCal.ACTION_MODE_VIEW_ALARMDIALOG
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.AnCal.ACTION_MODE_NEW_NOTE
+activity::.activities.ActivityAbout
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.AnCal.ACTION_MODE_VIEW_ABOUT
+activity::.BlankOutPage
+intent::android.intent.action.AnCal.ACTION_MODE_NEW_APPOINTMENT
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_SELECT_DATE
+activity::.activities.ActivityFindDoc
+api_call::android/app/Activity;->startActivity
+activity::.activities.ActivityTask
+activity::.activities.ActivityOptions
+activity::.activities.ActivityNote
+intent::android.intent.action.AnCal.ACTION_MODE_NEW_TASK
+intent::android.intent.action.MAIN
+activity::Edit text
+activity::.activities.ActivityAppointment
+activity::Select date
+activity::.activities.ActivityDataEntyTab
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_OPTIONS
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_TEXT
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_APPOINTMENT
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_NOTE
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::.AnCalReceiver
+activity::Select time

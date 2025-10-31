@@ -1,0 +1,36 @@
+activity::.PreferenceList
+url::pagead2.googlesyndication.com
+feature::android.hardware.touchscreen
+api_call::android/app/ActivityManager;->restartPackage
+service_receiver::Task Bar
+api_call::android/app/ActivityManager;->getRunningTasks
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+activity::.TasKiller
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.ScreenOffReceiver
+permission::android.permission.GET_TASKS
+real_permission::android.permission.GET_TASKS
+intent::android.intent.action.SCREEN_OFF
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+real_permission::android.permission.VIBRATE
+call::getSystemService
+service_receiver::.BootReceiver
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.RESTART_PACKAGES
+service_receiver::.TasKillerLauncher
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+api_call::android/webkit/WebView
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.RESTART_PACKAGES
+real_permission::android.permission.INTERNET
+activity::.IgnoreList
+activity::.SettingsList
+intent::android.intent.category.LAUNCHER
+service_receiver::mini Task Bar
+permission::android.permission.REORDER_TASKS
+provider::android.appwidget.provider

@@ -1,0 +1,11 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::www.stevelist.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.stevelist.com/list
+activity::.LoaderParser
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getSystemService

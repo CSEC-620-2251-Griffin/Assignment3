@@ -1,0 +1,13 @@
+activity::.ChildrensBible
+feature::android.hardware.touchscreen
+url::www.christianapps.org
+intent::android.intent.action.MAIN
+url::www.gutenberg.org
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+activity::.Reader
+url::http://www.christianapps.org
+real_permission::android.permission.INTERNET
+url::http://www.gutenberg.org

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::www.todayer.com
+intent::android.intent.action.MAIN
+activity::.RedokuBasic
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://www.todayer.com/android/android-redoku.php?q%3D
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService

@@ -1,0 +1,16 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.xil3.com
+activity::.AllergyPal
+activity::.EditAllergy
+permission::android.permission.INTERNET
+url::http://ajax.googleapis.com/ajax/services/language/translate
+real_permission::android.permission.INTERNET
+url::http://www.xil3.com
+url::http://ajax.googleapis.com/ajax/services/language/detect?v%3D1.0&q%3D
+intent::android.intent.category.LAUNCHER
+url::ajax.googleapis.com
+activity::.AddAllergy
+call::getSystemService

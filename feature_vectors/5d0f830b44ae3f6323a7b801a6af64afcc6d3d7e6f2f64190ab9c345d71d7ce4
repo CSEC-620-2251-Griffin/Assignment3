@@ -1,0 +1,17 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://www.mtel.bg/my/selfcare/current_bill.php?
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.mtel.bg/my/selfcare/remaining_minutes.php?
+activity::.HelpInformation
+permission::android.permission.INTERNET
+url::http://www.mtel.bg/my/selfcare/current_bill.php
+intent::android.intent.category.DEFAULT
+url::http://www.mtel.bg/login_img.php?sid%3D
+activity::.MainInformation
+intent::android.intent.category.LAUNCHER
+activity::.MtelLoginForm
+real_permission::android.permission.INTERNET
+intent::android.intent.action.VIEW
+url::www.mtel.bg

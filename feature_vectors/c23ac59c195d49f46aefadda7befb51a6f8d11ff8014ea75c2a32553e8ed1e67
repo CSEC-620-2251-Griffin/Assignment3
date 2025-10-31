@@ -1,0 +1,45 @@
+feature::android.hardware.touchscreen
+url::http://m.worldstarhiphop.com/?category%3D&start%3D5&limit%3D1
+url::http://m.worldstarhiphop.com/?category%3D&start%3D2&limit%3D1
+url::http://)
+permission::android.permission.INTERNET
+url::)
+intent::android.intent.category.DEFAULT
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.SEARCH
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+url::http://m.worldstarhiphop.com/?category%3D&start%3D4&limit%3D1
+api_call::android/app/Activity;->startActivity
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+activity::com.rshaw.wshhtv.SplashScreenActivity
+url::http://a.admob.com/f0?
+activity::Worldstar Candy
+url::www.worldstarcandy.com
+url::http://m.worldstarhiphop.com/?category%3D&start%3D1&limit%3D1
+activity::Media Player
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::m.worldstarhiphop.com
+activity::Search
+activity::.SplashScreenActivity
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.hardware.screen.landscape
+url::http://www.worldstarcandy.com/
+url::http://m.worldstarhiphop.com/
+call::Read/Write External Storage
+url::a.admob.com
+url::http://m.worldstarhiphop.com/?category%3D&start%3D3&limit%3D1
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+url::http://m.worldstarhiphop.com/search.php
+url::schemas.android.com

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.Pgmtool
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+url::ianwongkh.blogspot.com
+intent::android.intent.category.LAUNCHER
+url::http://ianwongkh.blogspot.com/2009/11/programmer-tool-dec-hex-bin.html

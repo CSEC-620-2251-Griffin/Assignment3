@@ -1,0 +1,16 @@
+activity::.SettingActivity
+feature::android.hardware.touchscreen
+api_call::android/provider/Settings$System;->putString
+service_receiver::.AlarmReceiver
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+real_permission::android.permission.WRITE_SETTINGS
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/content/Context;->sendBroadcast
+permission::android.permission.WRITE_SETTINGS
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+activity::com.studiokuma.exceptionreporter.ExceptionReporterActivity

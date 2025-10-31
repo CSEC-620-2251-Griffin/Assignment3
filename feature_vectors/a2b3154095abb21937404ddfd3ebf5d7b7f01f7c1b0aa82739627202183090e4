@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEND
+intent::android.intent.category.INFO
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT

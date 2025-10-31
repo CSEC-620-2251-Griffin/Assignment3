@@ -1,0 +1,18 @@
+activity::.SettingActivity
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+activity::.RefActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+api_call::java/net/HttpURLConnection
+url::detectface.com
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+activity::.PhotoActivity
+real_permission::android.permission.INTERNET
+activity::.TitleActivity
+url::http://detectface.com/api/detect

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.camera
+feature::android.hardware.screen.portrait
+call::getPackageInfo
+activity::.GalleryActivity
+intent::android.intent.category.LAUNCHER
+activity::.PuzzleStarFree
+api_call::android/content/Context;->startActivity
+call::getSystemService

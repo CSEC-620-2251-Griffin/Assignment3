@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.PopUp
+intent::android.intent.action.MAIN
+activity::.SearchUsers
+activity::.Login
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.ViewUser
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+call::Obfuscation(Base64)
+activity::.ListOfUsers
+activity::.ResetPassword

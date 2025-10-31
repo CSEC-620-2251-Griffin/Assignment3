@@ -1,0 +1,14 @@
+url::www.bayareavipclub.com
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+api_call::android/app/Activity;->startActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.Home
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+intent::android.intent.category.DEFAULT
+call::getSystemService
+url::http://www.bayareavipclub.com/cgi-bin/get.pl?user%3D

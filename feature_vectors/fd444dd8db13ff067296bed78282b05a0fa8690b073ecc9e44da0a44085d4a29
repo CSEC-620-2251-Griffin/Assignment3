@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.shoparatti.com/mobile/android.php
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::www.shoparatti.com
+real_permission::android.permission.INTERNET
+activity::.Shoparatti

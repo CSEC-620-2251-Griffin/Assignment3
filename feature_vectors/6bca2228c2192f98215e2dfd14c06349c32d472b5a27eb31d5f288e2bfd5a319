@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+activity::.Main
+service_receiver::Tap Tap App Service
+service_receiver::net.maicas.android.wsleep.ReceiverAll
+api_call::android/app/KeyguardManager$KeyguardLock;->disableKeyguard
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.WAKE_LOCK
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+permission::android.permission.DEVICE_POWER
+real_permission::android.permission.DISABLE_KEYGUARD
+intent::android.intent.action.USER_PRESENT
+api_call::android/content/Context;->startService
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+provider::android.appwidget.provider
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+permission::android.permission.DISABLE_KEYGUARD

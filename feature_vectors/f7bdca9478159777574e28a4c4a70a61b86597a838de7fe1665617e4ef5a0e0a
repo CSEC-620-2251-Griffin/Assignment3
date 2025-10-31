@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+activity::.GameActivity
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+activity::com.lastcastlegames.demo.ticktocktext.GameActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+url::http://market.android.com/details?id%3Dcom.lastcastlegames.ticktocktext
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

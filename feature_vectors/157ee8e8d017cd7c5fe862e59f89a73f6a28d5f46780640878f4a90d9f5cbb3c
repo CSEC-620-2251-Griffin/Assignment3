@@ -1,0 +1,15 @@
+activity::.BetaWidgetLaunchActivity
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+call::getDeviceId
+api_call::android/content/ContentResolver;->query
+api_call::android/telephony/TelephonyManager;->getDeviceId
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+service_receiver::.BetaWidgetBroadcastReceiver
+service_receiver::BetaWidgetProvider
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->sendBroadcast
+real_permission::android.permission.READ_PHONE_STATE
+provider::android.appwidget.provider
+call::getSystemService

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::android/telephony/TelephonyManager;->getLine1Number
+intent::android.intent.action.MAIN
+service_receiver::.MyPhoneNumberWidget$UpdateService
+activity::.MyPhoneNumber
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_PHONE_STATE
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

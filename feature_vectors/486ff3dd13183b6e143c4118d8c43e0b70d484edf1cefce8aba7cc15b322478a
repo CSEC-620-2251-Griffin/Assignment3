@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::SetupActivity
+activity::DrunkometerActivity
+activity::TheDrinkingGame
+intent::android.intent.category.LAUNCHER
+activity::.TheDrinkingGame
+feature::android.hardware.screen.portrait
+activity::GameActivity
+call::getSystemService

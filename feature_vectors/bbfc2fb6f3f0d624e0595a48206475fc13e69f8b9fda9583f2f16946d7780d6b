@@ -1,0 +1,11 @@
+activity::.SettingActivity
+feature::android.hardware.touchscreen
+url::dm.yubisashi-portal.com
+intent::android.intent.action.MAIN
+url::market.android.com
+url::http://dm.yubisashi-portal.com/
+activity::.MainActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+url::http://market.android.com/details?id%3Dcom.gdc.android.yubisashi.jpus

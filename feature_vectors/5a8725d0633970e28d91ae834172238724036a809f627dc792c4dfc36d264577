@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::www.livejournal.com
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.livejournal.com/interface/xmlrpc
+intent::android.intent.category.LAUNCHER
+url::http://url.com/a_tale_of_two_cities?var1%3Da_query_&amp%3Bvar2%3Dstring\
+activity::.SettingsActivity
+url::http://url.com/a_tale_of_two_cities?var1%3Da_query_&var2%3Dstring
+call::HttpPost
+activity::.SimpleJournalActivity
+url::url.com

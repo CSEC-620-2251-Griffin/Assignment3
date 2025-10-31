@@ -1,0 +1,10 @@
+url::segnorasque.blogspot.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.SplashScreen
+intent::android.intent.category.DEFAULT
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://segnorasque.blogspot.com/

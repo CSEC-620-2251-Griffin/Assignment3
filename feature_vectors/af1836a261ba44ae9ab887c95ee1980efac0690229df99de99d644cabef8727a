@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.Intro_Activity
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+call::printStackTrace
+api_call::android/app/ActivityManager;->restartPackage
+activity::.Progress_Activity
+feature::android.hardware.screen.portrait
+permission::android.permission.RESTART_PACKAGES
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+real_permission::android.permission.RESTART_PACKAGES
+call::getSystemService

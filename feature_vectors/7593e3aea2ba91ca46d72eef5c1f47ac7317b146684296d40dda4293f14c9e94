@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.GoldCard
+url::psas.revskills.de
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+url::http://psas.revskills.de/?q%3Dgoldcard

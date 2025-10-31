@@ -1,0 +1,33 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.INTERNET
+real_permission::android.permission.GET_ACCOUNTS
+url::http://zwcad.cadm.co.uk/_sys/dbclient/getblob.php?blob_id%3D26979
+activity::com.cadm.accordant.mobile.activities.ChangeConnection
+activity::com.cadm.accordant.mobile.surveyer.Surveys
+activity::com.cadm.android.ShowFloor
+feature::android.hardware.location.gps
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::com.cadm.accordant.mobile.activities.BrowseEstate
+activity::.CadmMain
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+api_call::android/accounts/AccountManager;->getAccounts
+activity::com.cadm.accordant.mobile.activities.Find
+call::getSystemService
+activity::Survey Desk
+activity::com.cadm.accordant.mobile.activities.ELOC_Results
+activity::Survey Conf.
+url::zwcad.cadm.co.uk
+activity::com.cadm.android.CadmMain
+intent::android.intent.action.MAIN
+activity::com.cadm.accordant.mobile.activities.SelectFloor
+activity::com.cadm.accordant.mobile.surveyer.Survey
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER
+activity::Find Location on Floor
+activity::com.cadm.accordant.mobile.surveyer.SurveyFloor
+activity::com.cadm.accordant.mobile.activities.SignUp

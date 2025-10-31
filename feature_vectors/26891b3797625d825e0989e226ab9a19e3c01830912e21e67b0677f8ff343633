@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.kahrlconsulting.com
+intent::android.intent.category.LAUNCHER
+url::http://www.kahrlconsulting.com/Kasino-Blackjack.htm
+activity::.BlackJack

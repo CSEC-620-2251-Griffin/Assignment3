@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+url::http://tv.sergiusd.ru/mob5/0.4/
+url::http://tv.sergiusd.ru/mob/news.htm
+permission::android.permission.WRITE_CALENDAR
+permission::android.permission.INTERNET
+url::tv.sergiusd.ru
+api_call::android/app/Activity;->setContentView
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+real_permission::android.permission.INTERNET
+activity::.TVControl
+url::http://tv.sergiusd.ru/chan.htm
+activity::TVControl
+real_permission::android.permission.READ_CONTACTS

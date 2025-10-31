@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.SoundBoard
+intent::android.intent.action.MAIN
+url::www.chemdroid.de
+api_call::android/media/MediaPlayer;->start
+url::http://www.chemdroid.de
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK

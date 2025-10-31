@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.MainActy
+url::http://newkorea2.dothome.co.kr/android/service_list.asp
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.CALL_PHONE
+url::http://newkorea2.dothome.co.kr/android/feed_detail.asp
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.telephony
+url::newkorea2.dothome.co.kr
+intent::android.intent.category.LAUNCHER
+url::http://newkorea2.dothome.co.kr/android/feeds.asp
+call::getSystemService

@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+activity::.Panecal
+url::https://sites.google.com/site/panecal/
+url::sites.google.com
+url::market.android.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::getSystemService
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.portrait
+real_permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+url::https://market.android.com/details?id%3Djp.ne.kutu.PanecalPlus
+api_call::android/webkit/WebView
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+activity::Panecal

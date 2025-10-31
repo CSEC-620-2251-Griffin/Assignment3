@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+activity::.MainTraffic
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::www.cooplyapps.com
+activity::.loader
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.ViewHTML
+intent::android.intent.category.DEFAULT
+call::HttpPost
+url::http://www.cooplyapps.com/traffic/r/v.php

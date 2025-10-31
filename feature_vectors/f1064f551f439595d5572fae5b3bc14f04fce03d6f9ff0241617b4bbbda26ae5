@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::http://www.tinmoo.com/mobileappserver/app/WishSpring.do?json%3D
+url::www.tinmoo.com
+intent::android.intent.action.MAIN
+url::http://ninhaoma.com\%27>\u5b88\u673a\u5f85\u5154</a>
+permission::android.permission.READ_PHONE_STATE
+activity::.Main
+permission::android.permission.READ_CONTACTS
+activity::.SplashScreen
+intent::android.intent.category.DEFAULT
+permission::android.permission.INTERNET
+api_call::java/net/HttpURLConnection
+url::http://www.tinmoo.com/mobileappserver/app/WishSpring.do
+intent::android.intent.category.LAUNCHER
+url::http://www.tinmoo.com
+url::http://www.tinmoo.com/mobileappserver/app/rabbit?n%3D
+real_permission::android.permission.INTERNET
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::ninhaoma.com\%27>\u5b88\u673a\u5f85\u5154<

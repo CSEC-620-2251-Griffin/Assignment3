@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::com.chordbot.Main
+activity::.Main
+feature::android.hardware.screen.portrait
+url::http://chordbot.com/android/manual/v1/?locale%3D
+api_call::android/content/ContentResolver;->openInputStream
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+url::chordbot.com
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW

@@ -1,0 +1,19 @@
+activity::.ID3v1
+feature::android.hardware.touchscreen
+url::musicbrainz.org
+activity::.ID3v2
+url::http://musicbrainz.org/ws/1/track/?type%3Dxml&artist%3D
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Obfuscation(Base64)
+activity::.Tag
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.Artwork
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::http://musicbrainz.org/ws/1/track/?type%3Dxml
+activity::.ID3EditWindow
+api_call::java/net/URL;->getContent
+call::getSystemService

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.WhiteFlashlightActivity
+activity::.GreenFlashlightActivity
+intent::android.intent.category.Process
+intent::android.intent.category.LAUNCHER
+activity::.RedFlashlightActivity

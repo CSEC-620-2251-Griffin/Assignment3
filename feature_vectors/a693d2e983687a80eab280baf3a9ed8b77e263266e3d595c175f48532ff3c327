@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+activity::.AndroidGameEncyclopedia
+intent::android.intent.action.MAIN
+url::http://www.gamesradar.com
+url::http://api.gamesradar.com/game/
+url::http://api.gamesradar.com/game/reviews/
+url::api.gamesradar.com
+url::static.gamesradar.com
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+url::http://api.gamesradar.com/search/gameName/
+intent::android.intent.category.LAUNCHER
+url::www.gamesradar.com
+url::http://static.gamesradar.com/images/empty_01_logo.jpg
+url::http://api.gamesradar.com/game/news/
+real_permission::android.permission.INTERNET

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.SmartAss
+url::xmlpull.org
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+activity::SmartAss
+call::getPackageInfo
+call::getSystemService
+url::http://xmlpull.org/v1/doc/features.html

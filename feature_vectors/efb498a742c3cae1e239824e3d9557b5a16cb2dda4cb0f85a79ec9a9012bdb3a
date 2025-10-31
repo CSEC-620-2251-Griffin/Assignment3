@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Prefs
+url::http://www.jakesandersonapps.com
+feature::android.hardware.screen.portrait
+url::www.jakesandersonapps.com
+intent::android.intent.category.LAUNCHER
+activity::.MixAndMatchAnimals

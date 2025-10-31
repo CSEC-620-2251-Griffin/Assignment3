@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.NoteListActivity
+activity::NoteListActivity
+activity::HelloNote
+feature::android.hardware.screen.landscape
+activity::SettingsActivity
+activity::ListPrefActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

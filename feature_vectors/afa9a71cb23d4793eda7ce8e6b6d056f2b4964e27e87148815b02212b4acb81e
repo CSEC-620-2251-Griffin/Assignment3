@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+url::reformatus.hu
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::.Splash
+call::getPackageInfo
+url::http://reformatus.hu/napi_ige_rss.xml
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

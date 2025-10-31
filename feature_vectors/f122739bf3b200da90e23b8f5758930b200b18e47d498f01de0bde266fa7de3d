@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.DEFAULT
+api_call::android/net/wifi/WifiManager$WifiLock;->release
+real_permission::android.permission.WAKE_LOCK
+activity::com.escape.MoodRing.MoodRing
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.MoodRing
+call::getSystemService
+intent::android.intent.category.LAUNCHER

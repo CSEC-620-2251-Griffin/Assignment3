@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.main
+intent::android.intent.action.MAIN
+url::http://m.cityaktiv.ch
+url::m.cityaktiv.ch
+intent::android.intent.category.LAUNCHER

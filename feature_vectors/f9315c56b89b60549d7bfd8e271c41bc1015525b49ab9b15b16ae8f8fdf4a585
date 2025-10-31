@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+url::mobileads.msn.com
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getDeviceId
+url::ws.mobpartner.com
+service_receiver::com.cfr.test.MobPartnerSDK
+activity::.Test
+url::http://mobileads-test.msn.com/v3/Delivery/Placement
+url::http://mobileads.msn.com/v3/Delivery/Placement
+call::getSimCountryIso
+url::mobileads-test.msn.com
+call::getSystemService
+api_call::android/content/Context;->startService
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+url::http://ws.mobpartner.com/v2/ws_test.php?mobtag%3D
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::com.cfr.test.MobPartnerSDK$ProcessCode
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::schemas.android.com

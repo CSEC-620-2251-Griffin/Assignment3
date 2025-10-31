@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+url::www.jappit.com
+url::http://www.jappit.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.jappit.com/m/android/codice_fiscale/check_version.php
+intent::android.intent.category.LAUNCHER
+activity::SplashActivity
+activity::.SplashActivity
+call::getSystemService

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::http://www.emsc-csem.org/service/rss/rss.php?typ%3Demsc
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.RssReaderActivity
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+intent::android.intent.action.VIEW
+url::www.emsc-csem.org

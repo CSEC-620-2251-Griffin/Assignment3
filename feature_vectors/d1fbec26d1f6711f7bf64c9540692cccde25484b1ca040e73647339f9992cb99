@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.DramaRank
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER

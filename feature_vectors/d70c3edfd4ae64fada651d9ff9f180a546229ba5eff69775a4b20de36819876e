@@ -1,0 +1,23 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::http://www.youtube.com/v/$1\%27></param><embed
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+call::HttpPost
+url::http://schemas.android.com/apk/res/android
+activity::.SplashScreen
+call::getSystemService
+call::Obfuscation(Base64)
+url::https://data.flurry.com/aar.do
+url::data.flurry.com
+url::http://data.flurry.com/aar.do
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.youtube.com
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::schemas.android.com

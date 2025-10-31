@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+intent::android.intent.category.LAUNCHER
+service_receiver::.PhoneCallListener
+call::getSystemService
+activity::.SilentUnknownCall

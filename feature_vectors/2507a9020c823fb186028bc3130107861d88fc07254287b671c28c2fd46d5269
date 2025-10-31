@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.planetdance.de/iapp/win.asp
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.planetdance.de/iapp/vip.asp
+url::http://www.planetdance.de/iapp/events.asp
+url::http://www.planetdance.de/iapp/news.asp
+activity::.Planet
+url::www.planetdance.de

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.PengiunPinball
+api_call::android/app/Activity;->setContentView
+feature::android.hardware.screen.portrait

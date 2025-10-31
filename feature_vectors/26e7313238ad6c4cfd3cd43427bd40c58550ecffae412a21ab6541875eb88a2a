@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+service_receiver::app.trackler.services.BackgroundTiming
+activity::app.trackler.activities.Period
+intent::android.intent.action.MAIN
+activity::app.trackler.activities.RecentPeriods
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.RecentPeriods
+api_call::android/app/NotificationManager;->notify
+call::getSystemService

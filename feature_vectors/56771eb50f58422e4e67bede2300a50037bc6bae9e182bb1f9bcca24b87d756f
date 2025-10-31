@@ -1,0 +1,14 @@
+url::m.dooit.co.kr
+feature::android.hardware.touchscreen
+url::http://m.dooit.co.kr
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::%EB%EC %EB%A6%AC%EC%EC%B9
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+activity::.DooitResearch
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService

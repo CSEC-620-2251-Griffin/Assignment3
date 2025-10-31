@@ -1,0 +1,16 @@
+activity::.RoyVolumeControlActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEARCH_LONG_PRESS
+intent::android.intent.action.MAIN
+permission::android.permission.MODIFY_PHONE_STATE
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.category.DEFAULT
+feature::android.hardware.telephony
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.DISABLE_KEYGUARD
+api_call::android/app/KeyguardManager;->exitKeyguardSecurely
+call::getSystemService
+permission::android.permission.DISABLE_KEYGUARD

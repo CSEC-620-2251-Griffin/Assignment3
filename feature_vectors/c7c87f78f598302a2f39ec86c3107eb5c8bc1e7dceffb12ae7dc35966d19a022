@@ -1,0 +1,17 @@
+api_call::java/net/HttpURLConnection
+activity::.Searcher
+activity::.launcher
+url::www1.euskadi.net
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::aulex.org
+url::http://www1.euskadi.net/hizt_3000/Images/3000.gif
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.Resultados
+url::http://aulex.org/es-ja/
+url::http://aulex.org/es-ja/?busca%3D
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::printStackTrace
+intent::android.intent.action.VIEW

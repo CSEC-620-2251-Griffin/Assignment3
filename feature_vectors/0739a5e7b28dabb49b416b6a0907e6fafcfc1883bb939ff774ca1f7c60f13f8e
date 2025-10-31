@@ -1,0 +1,52 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+url::r.admob.com
+real_permission::android.permission.RECORD_AUDIO
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+feature::android.hardware.microphone
+call::getPackageInfo
+service_receiver::Livo Widget 2x
+permission::android.permission.RECORD_AUDIO
+call::HttpPost
+service_receiver::Livo Widget 4x
+service_receiver::Livo Widget 1x
+url::http://mm.admob.com/static/android/canvas.html
+activity::LivoPreferences
+url::a.admob.com
+api_call::android/content/Context;->startActivity
+url::http://a.admob.com/f0?
+real_permission::android.permission.VIBRATE
+url::http://mm.admob.com/static/android/i18n/20100527
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+call::Read/Write External Storage
+api_call::android/telephony/TelephonyManager;->listen
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::mm.admob.com
+url::https://data.flurry.com/aar.do
+activity::LivoRecord
+url::data.flurry.com
+url::api.admob.com
+activity::LivoMain
+real_permission::android.permission.READ_PHONE_STATE
+url::http://data.flurry.com/aar.do
+service_receiver::RecorderService
+permission::android.permission.WAKE_LOCK
+api_call::android/media/AudioRecord
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.LivoMain
+service_receiver::LivoBroadcastReceiver
+api_call::android/app/NotificationManager;->notify
+provider::android.appwidget.provider
+url::schemas.android.com

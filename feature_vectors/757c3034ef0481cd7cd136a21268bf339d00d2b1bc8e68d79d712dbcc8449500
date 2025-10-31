@@ -1,0 +1,16 @@
+activity::.seo
+feature::android.hardware.touchscreen
+url::www.handycheats.de
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.google.com\r\n
+activity::Screen2
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://www.handycheats.de/seo/pleasewait.html?
+url::http://www.vondir.de/images/ajax.gif\
+url::www.vondir.de
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::http://www.google.com\r\n

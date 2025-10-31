@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+api_call::android/hardware/Camera;->open
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+activity::.StreakLight
+service_receiver::Streak Light
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+provider::android.appwidget.provider

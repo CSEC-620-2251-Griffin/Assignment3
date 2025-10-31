@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.DateEditorActivity
+activity::.DaysToGoActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.HelpActivity
+call::getPackageInfo
+api_call::android/app/NotificationManager;->notify
+call::getSystemService

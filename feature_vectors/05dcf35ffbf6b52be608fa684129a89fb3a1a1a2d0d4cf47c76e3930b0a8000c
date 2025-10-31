@@ -1,0 +1,9 @@
+url::www.propagation-systems.com
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.ColourTrackball
+real_permission::android.permission.VIBRATE
+url::http://www.propagation-systems.com/apps.htm
+call::getSystemService
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+real_permission::android.permission.WRITE_SETTINGS
+activity::.MainActivity
+intent::android.intent.category.DEFAULT
+activity::com.oranus.jaavo.android.clock.core.PreferencesActivity
+intent::android.intent.category.LAUNCHER
+activity::com.oranus.jaavo.android.clock.core.ColorActivity
+activity::com.oranus.jaavo.android.clock.core.EulaActivity
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.WRITE_SETTINGS

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+permission::android.permission.WAKE_LOCK
+service_receiver::Flashlight
+provider::android.appwidget.provider
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

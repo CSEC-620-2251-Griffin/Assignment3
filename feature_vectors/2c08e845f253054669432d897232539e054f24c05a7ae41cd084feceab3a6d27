@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.StartupActivity
+activity::.MainActivity
+url::http://sekaroengine.appspot.com/engine
+intent::android.intent.category.LAUNCHER
+url::sekaroengine.appspot.com

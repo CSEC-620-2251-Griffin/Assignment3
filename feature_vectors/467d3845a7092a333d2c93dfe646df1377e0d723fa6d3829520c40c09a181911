@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT
+activity::.PText
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+intent::android.intent.action.VIEW

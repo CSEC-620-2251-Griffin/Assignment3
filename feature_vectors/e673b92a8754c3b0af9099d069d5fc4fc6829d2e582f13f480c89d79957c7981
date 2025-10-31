@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen.multitouch.distinct
+activity::.AppEntry
+permission::android.permission.INTERNET
+permission::android.permission.DISABLE_KEYGUARD
+feature::android.hardware.touchscreen.multitouch
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo
+activity::Sunscreener

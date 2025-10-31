@@ -1,0 +1,13 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::printStackTrace
+call::Obfuscation(Base64)
+api_call::android/os/Vibrator;->vibrate
+activity::MarblesLiveWallpaperSettings
+real_permission::android.permission.INTERNET
+real_permission::android.permission.VIBRATE
+api_call::java/net/ServerSocket
+intent::android.intent.category.DEFAULT
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,11 @@
+call::Read/Write External Storage
+activity::.AndroMazeActivity
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+feature::android.hardware.screen.portrait
+activity::.AndroMazeEditorActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW

@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+url::wiki.processing.org
+call::printStackTrace
+url::http://schemas.android.com/apk/res/android
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+activity::PlasmaThereminEffectsSettings
+activity::.PlasmaSound
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+api_call::java/net/URL;->openStream
+real_permission::android.permission.RECORD_AUDIO
+call::Obfuscation(Base64)
+call::Execution of external commands
+feature::android.hardware.screen.landscape
+api_call::android/media/AudioRecord
+url::http://wiki.processing.org/w/Android
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+activity::.PlasmaThereminAudioSettings
+intent::android.intent.category.LAUNCHER
+url::schemas.android.com

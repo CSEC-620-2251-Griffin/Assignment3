@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://www.hybridgenius.com/android/cs_sb/createXml.php
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+real_permission::android.permission.INTERNET
+url::www.hybridgenius.com
+real_permission::android.permission.WAKE_LOCK

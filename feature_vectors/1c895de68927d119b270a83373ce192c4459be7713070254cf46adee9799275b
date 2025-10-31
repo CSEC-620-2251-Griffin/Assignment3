@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+service_receiver::.MultiPictureService
+activity::.FolderPicker
+feature::android.hardware.screen.portrait
+feature::android.software.live_wallpaper
+call::getSystemService
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::Read/Write External Storage
+intent::android.intent.category.INFO
+activity::.MultiPictureSetting
+activity::.QRViewer

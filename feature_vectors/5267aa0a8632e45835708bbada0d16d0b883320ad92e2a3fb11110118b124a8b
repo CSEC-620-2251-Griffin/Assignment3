@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::Saved Requests
+activity::Select Filename
+call::Obfuscation(Base64)
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+activity::Add Header
+activity::Add Raw POST Data
+activity::.MainView
+intent::android.intent.category.LAUNCHER
+call::Cipher(DES/ECB/NoPadding)
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+call::printStackTrace
+activity::Add Parameter

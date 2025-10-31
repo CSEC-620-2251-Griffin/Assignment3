@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::printStackTrace
+url::www.highou.com
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::java/net/Socket
+feature::android.hardware.location.gps
+feature::android.hardware.camera.autofocus
+url::http://www.highou.com/android/androidpost.php
+feature::android.hardware.location
+call::getSystemService
+permission::android.permission.CAMERA
+call::Obfuscation(Base64)
+activity::.PhotoPost
+intent::android.intent.action.MAIN
+feature::android.hardware.camera
+call::Cipher(Blowfish)
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::HttpPost

@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.HOME
+service_receiver::Wifi Automatic Monitor Service
+intent::android.intent.action.BOOT_COMPLETED
+activity::.WiFiAutomaticPrefs
+real_permission::android.permission.ACCESS_WIFI_STATE
+activity::.Start
+permission::android.permission.ACCESS_WIFI_STATE
+service_receiver::StartupReciever
+real_permission::android.permission.VIBRATE
+service_receiver::DoNotDisableWifiAction
+call::setWifiEnabled
+call::getSystemService
+intent::android.intent.category.PREFERENCE
+api_call::android/content/Context;->startService
+real_permission::android.permission.CHANGE_WIFI_STATE
+permission::android.permission.CHANGE_WIFI_STATE
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+api_call::android/net/wifi/WifiManager;->setWifiEnabled
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/net/wifi/WifiManager;->isWifiEnabled

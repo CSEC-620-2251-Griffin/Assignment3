@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::Obfuscation(Base64)
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://www.zimagez.com/apiXml.php
+intent::android.intent.category.LAUNCHER
+activity::MesPreferences
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::www.zimagez.com

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/media/AudioRecord
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+activity::AudioApp
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+permission::android.permission.RECORD_AUDIO
+call::Read/Write External Storage
+api_call::java/net/Socket
+activity::.AudioApp

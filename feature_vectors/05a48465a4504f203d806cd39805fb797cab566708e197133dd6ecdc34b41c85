@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://www.w3.org/XML/1998/namespace
+api_call::android/media/MediaPlayer;->start
+url::www.w3.org
+activity::.UniWarActivity
+permission::android.permission.INTERNET
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::http://www.w3.org/2000/xmlns/
+real_permission::android.permission.INTERNET
+call::HttpPost
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

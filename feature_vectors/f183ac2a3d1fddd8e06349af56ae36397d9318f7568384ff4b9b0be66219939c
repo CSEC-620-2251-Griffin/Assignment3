@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+provider::android.appwidget.provider
+permission::android.permission.EXPAND_STATUS_BAR

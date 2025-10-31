@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::Select Contact/Group
+activity::.QuickPoll
+permission::android.permission.RECEIVE_SMS
+activity::Select a Poll
+intent::android.intent.action.BOOT_COMPLETED
+activity::Edit Poll, then click OK button
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+activity::.Prefs
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_SMS
+real_permission::android.permission.VIBRATE
+api_call::android/telephony/gsm/SmsManager;->sendMultipartTextMessage
+call::getSystemService
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+service_receiver::QuickPollServiceManager
+feature::android.hardware.telephony
+api_call::android/webkit/WebView
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+call::readSMS
+intent::android.intent.category.LAUNCHER

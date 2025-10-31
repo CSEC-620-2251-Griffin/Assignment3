@@ -1,0 +1,33 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+activity::Article
+url::http://put.hk/headline/
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::put.hk
+activity::Server Options
+api_call::java/net/Socket
+real_permission::android.permission.READ_PHONE_STATE
+activity::Android Usenet Reader
+url::android.newsgroupstats.hk
+call::getSystemService
+activity::Settings
+activity::Thread
+url::http://android.newsgroupstats.hk
+activity::Headlines
+call::Obfuscation(Base64)
+activity::New Article
+activity::Select Newsgroup
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+activity::Edit Newsgroup
+intent::android.intent.action.MAIN
+activity::.NewsgroupsActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://put.hk/xover.jsp?server%3D
+call::getSubscriberId
+activity::Dummy

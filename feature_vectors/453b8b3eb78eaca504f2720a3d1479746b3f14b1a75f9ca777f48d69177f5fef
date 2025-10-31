@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::speedandpower.co.kr
+intent::android.intent.action.MAIN
+url::http://www.crossfitsap.co.kr/
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::sapMain
+permission::android.permission.INTERNET
+url::http://speedandpower.co.kr/day_trainning/list.asp
+real_permission::android.permission.INTERNET
+activity::.sapApps
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+permission::android.hardware.touchscreen
+url::www.crossfitsap.co.kr

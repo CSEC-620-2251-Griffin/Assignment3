@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+activity::.Eurovision2011
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER

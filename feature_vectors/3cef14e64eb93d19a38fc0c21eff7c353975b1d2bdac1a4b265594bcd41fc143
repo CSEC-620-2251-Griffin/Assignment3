@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.HistoryActivity
+permission::android.permission.INTERNET
+activity::.BackupActivity
+activity::.ItemActivity
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+activity::.PreferencesActivity
+call::getSystemService
+activity::.FeedbackActivity
+api_call::android/webkit/WebView
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+feature::android.hardware.telephony
+call::Read/Write External Storage
+url::http://www.infored.no/remember
+api_call::android/telephony/SmsManager;->sendMultipartTextMessage
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.infored.no
+real_permission::android.permission.INTERNET
+activity::.MoveActivity
+activity::.ListActivity
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,15 @@
+call::getSystemService
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_LOGS
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.READ_FRAME_BUFFER
+api_call::android/media/MediaPlayer;->start
+activity::.main
+url::www.giksoft.com
+call::Execution of external commands
+url::http://www.giksoft.com
+real_permission::android.permission.WAKE_LOCK
+api_call::java/lang/Runtime;->exec
+activity::main
+intent::android.intent.category.LAUNCHER

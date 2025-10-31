@@ -1,0 +1,20 @@
+service_receiver::RemoteControlReceiver
+feature::android.hardware.touchscreen
+url::musicbrainz.org
+url::www.id3.org
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getSystemService
+permission::android.permission.READ_PHONE_STATE
+call::Obfuscation(Base64)
+activity::.Exsurdo
+call::Read/Write External Storage
+api_call::android/telephony/TelephonyManager;->listen
+intent::android.intent.category.LAUNCHER
+url::http://www.id3.org/dummy/ufid.html
+url::http://musicbrainz.org
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/content/Context;->startActivity
+intent::android.intent.action.MEDIA_BUTTON
+real_permission::android.permission.WAKE_LOCK

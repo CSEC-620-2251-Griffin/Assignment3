@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::www.instapaper.com
+url::www.github.com
+url::http://www.github.com/codeswimmer
+call::printStackTrace
+real_permission::android.permission.INTERNET
+url::https://www.instapaper.com/api/add
+url::http://news.ycombinator.com/
+intent::android.intent.category.LAUNCHER
+url::news.ycombinator.com
+call::getSystemService
+url::http://news.ycombinator.com/newest
+activity::.ScreenzActivity

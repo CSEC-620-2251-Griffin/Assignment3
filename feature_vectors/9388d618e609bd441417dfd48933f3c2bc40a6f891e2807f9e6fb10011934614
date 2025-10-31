@@ -1,0 +1,10 @@
+activity::.CountDown
+feature::android.hardware.touchscreen
+activity::ShowMessage
+service_receiver::CountDownAppWidgetProvider
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+activity::TimeAdjuster
+api_call::android/content/Context;->sendBroadcast
+provider::android.appwidget.provider
+call::getSystemService

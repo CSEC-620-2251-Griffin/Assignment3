@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.hattricksilkies.com
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.HattrickWV
+url::http://www.hattricksilkies.com

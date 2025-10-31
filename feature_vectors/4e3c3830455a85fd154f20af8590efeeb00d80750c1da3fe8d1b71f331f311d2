@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.CandleLight
+intent::android.intent.action.MAIN
+activity::.AboutActivity
+activity::.CandleColorActivity
+intent::android.intent.category.LAUNCHER

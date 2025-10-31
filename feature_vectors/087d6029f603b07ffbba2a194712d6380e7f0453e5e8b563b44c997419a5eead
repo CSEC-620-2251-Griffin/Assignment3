@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://mobile.devildaily.com/roster
+activity::.Main
+url::http://mobile.devildaily.com/stats
+permission::android.permission.INTERNET
+url::http://mobile.devildaily.com/about
+real_permission::android.permission.INTERNET
+url::http://mobile.devildaily.com/schedule
+url::http://mobile.devildaily.com
+activity::Devil Daily
+api_call::android/webkit/WebView
+url::mobile.devildaily.com
+intent::android.intent.category.LAUNCHER

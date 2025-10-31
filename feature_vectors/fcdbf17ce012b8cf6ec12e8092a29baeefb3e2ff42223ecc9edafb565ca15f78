@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+feature::android.hardware.screen.portrait
+url::www.ubiquitous-tech.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::AboutScreen
+activity::.SplashScreen
+activity::MemomotoActivity
+activity::TurnTable
+api_call::android/media/MediaPlayer;->stop
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+activity::MainMenu
+url::http://www.ubiquitous-tech.com/en/index.html
+permission::android.permission.RECORD_AUDIO
+activity::HealthMngActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

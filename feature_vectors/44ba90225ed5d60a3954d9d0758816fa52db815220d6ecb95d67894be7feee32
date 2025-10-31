@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::com.twofortyfouram.locale.intent.action.FIRE_SETTING
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::elmicha.de
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+feature::android.hardware.bluetooth
+permission::android.permission.INTERNET
+intent::com.twofortyfouram.locale.intent.action.EDIT_SETTING
+call::Execution of external commands
+call::printStackTrace
+url::http://elmicha.de/app/LocaleExecute/plugin-help.php?v%3D
+call::getPackageInfo
+service_receiver::.FireReceiver
+intent::android.intent.category.INFO

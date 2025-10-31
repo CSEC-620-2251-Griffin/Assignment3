@@ -1,0 +1,14 @@
+url::http://mobile.bosshoggbeat.com/roster
+feature::android.hardware.touchscreen
+url::http://mobile.bosshoggbeat.com/schedule
+intent::android.intent.action.MAIN
+url::http://mobile.bosshoggbeat.com
+url::mobile.bosshoggbeat.com
+activity::.Main
+permission::android.permission.INTERNET
+activity::Boss Hogg Beat
+url::http://mobile.bosshoggbeat.com/stats
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://mobile.bosshoggbeat.com/about

@@ -1,0 +1,13 @@
+service_receiver::com.eugene.defy.bootstrap.BootReceiver
+feature::android.hardware.touchscreen
+activity::com.eugene.defy.bootstrap.Bootstrap
+activity::.Bootstrap
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+service_receiver::com.eugene.defy.bootstrap.BootService
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/content/Context;->startService

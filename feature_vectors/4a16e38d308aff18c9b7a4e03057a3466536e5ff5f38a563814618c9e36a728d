@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::printStackTrace
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.An3DBench
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

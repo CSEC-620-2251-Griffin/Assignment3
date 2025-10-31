@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.Launcher
+intent::android.intent.action.MAIN
+url::bb.gmpa.jp
+url::http://bb.gmpa.jp/
+intent::android.intent.category.LAUNCHER

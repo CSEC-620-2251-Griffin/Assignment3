@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::192.168.24.11
+activity::.StreamTestActivity
+url::http://bensig.isa-geek.com:8000/stream\n\n
+call::printStackTrace
+api_call::android/media/MediaPlayer;->stop
+intent::android.intent.category.LAUNCHER
+url::bensig.isa-geek.com
+url::http://192.168.24.11:8080
+intent::android.intent.action.MAIN
+real_permission::android.permission.WAKE_LOCK

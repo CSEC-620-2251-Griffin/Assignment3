@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.session.LuminousSession
+activity::.IntroManager
+intent::android.intent.action.MAIN
+activity::.session.JoyfulSession
+activity::.session.SorrowfulSession
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+activity::.intro.IntroManager
+activity::.questions.QuestionsActivity
+intent::android.intent.category.LAUNCHER
+activity::.session.GloriousSession
+activity::.options.OptionsManager
+intent::android.intent.action.VIEW
+real_permission::android.permission.WAKE_LOCK

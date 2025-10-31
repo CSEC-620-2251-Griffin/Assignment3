@@ -1,0 +1,16 @@
+url::http://alise.roberts.remax.com/listings/residential_r4.aspx
+feature::android.hardware.touchscreen
+url::http://alise.roberts.remax.com/listings/featuredproperties_r4.aspx
+url::http://www.cfhomeloans.com/mobile_app_links/monthlypaymentcalc.htm
+activity::.HelloAndroid
+intent::android.intent.action.MAIN
+url::www.homebenefitiq.com
+url::http://www.homebenefitiq.com/login.aspx?u%3Dalise&p%3Droberts
+url::http://www.cfhomeloans.com/mobile_app_links/currentrates.htm
+feature::android.hardware.screen.portrait
+url::www.cfhomeloans.com
+url::http://janicepoole.remax.com/communityinfo/homesales.aspx
+intent::android.intent.category.LAUNCHER
+url::alise.roberts.remax.com
+url::http://www.cfhomeloans.com/mobile_app_links/getapprovednow.htm
+url::janicepoole.remax.com

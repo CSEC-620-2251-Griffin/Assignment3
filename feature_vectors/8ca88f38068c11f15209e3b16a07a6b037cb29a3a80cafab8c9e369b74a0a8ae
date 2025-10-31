@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::Start
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->setContentView
+call::getPackageInfo
+activity::.Start
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK

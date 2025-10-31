@@ -1,0 +1,18 @@
+feature::android.hardware.touchscreen
+url::www.psfreedom.freehosting.com
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+activity::.gui.Status
+permission::android.permission.INTERNET
+activity::.gui.Help
+url::http://www.psfreedom.freehosting.com/files/content.pfm
+activity::.gui.Payload
+intent::android.intent.category.LAUNCHER
+activity::.Status
+call::Execution of external commands
+real_permission::android.permission.INTERNET
+activity::.gui.Download
+call::getSystemService

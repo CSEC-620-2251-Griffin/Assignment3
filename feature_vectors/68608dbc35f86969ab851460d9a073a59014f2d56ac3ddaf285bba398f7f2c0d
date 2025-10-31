@@ -1,0 +1,61 @@
+api_call::android/media/RingtoneManager;->setActualDefaultRingtoneUri
+feature::android.hardware.touchscreen
+activity::.NotificationSettings
+activity::Silence built-in SMS tones
+url::http://electricpocketshop.com/ringotones/android.php?android%3D1&userng%3D1&version%3D
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::ringomo.com
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.RECEIVE_SMS
+activity::About Ringo
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::HttpPost
+permission::android.permission.WRITE_SETTINGS
+activity::.ringo
+api_call::android/content/ContentResolver;->query
+url::http://electricpocket.com/buycode.php?distributor%3D
+permission::android.permission.WRITE_CONTACTS
+provider::android.provider.Telephony.WAP_PUSH_RECEIVED
+activity::FriendsFastTabList
+feature::android.hardware.faketouch
+call::printStackTrace
+url::electricpocket.com
+real_permission::android.permission.WRITE_SETTINGS
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+activity::Unlock Ringo
+provider::android.provider.Telephony.SMS_RECEIVED
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.EDIT
+permission::android.permission.RECEIVE_MMS
+permission::android.permission.INTERNET
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+permission::android.permission.DISABLE_KEYGUARD
+url::http://electricpocketshop.com/tracereport/server.php
+url::http://electricpocket.com
+real_permission::android.permission.DISABLE_KEYGUARD
+activity::DefaultTabControls
+service_receiver::.SmsIntentReceiver
+service_receiver::.NotificationService
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::What is PhoneFace?
+feature::android.hardware.camera
+activity::Get Ringtones
+service_receiver::.PreferenceWorker
+url::electricpocketshop.com
+activity::.HelpDialog
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+activity::What is Ringo Pro?
+api_call::android/app/Activity;->startActivity
+api_call::android/app/KeyguardManager;->exitKeyguardSecurely
+api_call::android/media/MediaPlayer;->start
+url::http://ringomo.com/indexandroid.php?version%3D

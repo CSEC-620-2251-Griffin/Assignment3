@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.joke-belge.fr
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::com.vdopia.client.android.VDOActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.jokebelge
+intent::android.intent.category.LAUNCHER
+url::http://www.joke-belge.fr

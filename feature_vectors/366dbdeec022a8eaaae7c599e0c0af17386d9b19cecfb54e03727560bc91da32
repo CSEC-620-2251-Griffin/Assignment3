@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://b.hatena.ne.jp/entry/
+intent::android.intent.action.SEND
+url::b.hatena.ne.jp
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.SettingsActivity

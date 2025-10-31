@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://dataserver812.appspot.com/getrecords?limit%3D50
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.Puzzle
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://6.latest.dataserver812.appspot.com/addrecord?
+url::6.latest.dataserver812.appspot.com
+url::dataserver812.appspot.com
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

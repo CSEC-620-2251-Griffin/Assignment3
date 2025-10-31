@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.SDFCU
+intent::android.intent.action.MAIN
+url::go.sdfcu.org
+url::https://go.sdfcu.org/gs?stk%3Dhome&msestks%3Dns_sdfcu.xml&zqqx%3Dsh
+intent::android.intent.category.LAUNCHER

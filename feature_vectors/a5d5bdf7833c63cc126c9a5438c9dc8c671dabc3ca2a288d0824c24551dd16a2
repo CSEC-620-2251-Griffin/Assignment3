@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+permission::android.permission.CAMERA
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+api_call::android/hardware/Camera;->open
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+url::http://www.google.com/products?q%3D
+permission::android.permission.INTERNET
+activity::KBReader
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::www.google.com
+call::getSystemService
+activity::.KBReader

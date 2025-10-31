@@ -1,0 +1,17 @@
+activity::.MLGPrefs
+activity::.Donate
+activity::.About
+activity::.MLGModeTimer
+feature::android.hardware.touchscreen
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+activity::com.tnf.halomlgtimer.mlgtimetest
+url::halomlgtimer.blogspot.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK
+activity::.SlayerModeTimer
+activity::.mlgtimetest
+url::http://halomlgtimer.blogspot.com
+intent::android.intent.action.MAIN
+activity::.MapSelect
+activity::.Help

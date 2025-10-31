@@ -1,0 +1,18 @@
+activity::txtencrypt
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://1393Designatum.com
+call::Cipher(AES)
+intent::android.intent.category.DEFAULT
+call::Read/Write External Storage
+activity::.txtencrypt
+url::http://1393Designatum.com/txt_encrypt.html
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+url::1393Designatum.com
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+intent::android.intent.category.LAUNCHER

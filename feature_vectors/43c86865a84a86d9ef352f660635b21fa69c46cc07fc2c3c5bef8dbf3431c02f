@@ -1,0 +1,14 @@
+url::m.healthcarealert.com
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.LoginActivity
+url::http://m.healthcarealert.com/hca/get-started
+url::http://m.healthcarealert.com/api-1/get_risks
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://m.healthcarealert.com/api-1/authenticate
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::http://m.healthcarealert.com/api-1/get_reminders

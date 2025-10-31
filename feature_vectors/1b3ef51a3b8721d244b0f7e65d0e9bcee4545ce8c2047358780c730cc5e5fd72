@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+permission::android.permission.CAMERA
+feature::android.hardware.camera
+real_permission::android.permission.INTERNET
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/app/Activity;->setContentView
+api_call::android/media/MediaPlayer;->start
+activity::.SplashActivity
+activity::com.google.zxing.client.android.CaptureActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

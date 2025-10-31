@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::results4.brooklynmarathon.com
+url::http://results4.brooklynmarathon.com/handicap?mypace%3D
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+url::http://results4.brooklynmarathon.com/handicap?mypace%3D7
+activity::.ResultsNative
+real_permission::android.permission.INTERNET
+call::getSystemService
+url::http://results4.brooklynmarathon.com/?viewer%3Dnative

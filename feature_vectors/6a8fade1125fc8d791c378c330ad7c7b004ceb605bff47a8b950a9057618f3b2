@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::SiteLauncher
+url::http://www.NeverSurrenderDreams.com
+url::www.NeverSurrenderDreams.com
+permission::android.permission.INTERNET
+activity::.SiteLauncher
+intent::android.intent.category.LAUNCHER

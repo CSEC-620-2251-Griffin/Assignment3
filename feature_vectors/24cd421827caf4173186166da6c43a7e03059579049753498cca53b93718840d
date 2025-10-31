@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.dialektron.earthphases.SplashScreenActivity
+activity::com.dialektron.earthphases.MonthActivity
+activity::.SplashScreenActivity
+intent::android.intent.category.LAUNCHER
+activity::com.dialektron.earthphases.PhaseActivity

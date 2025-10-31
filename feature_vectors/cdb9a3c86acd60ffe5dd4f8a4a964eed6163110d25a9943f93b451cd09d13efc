@@ -1,0 +1,15 @@
+url::http://garda.ie/Controller.aspx?Page%3D85&Lang%3D1
+feature::android.hardware.touchscreen
+activity::StepTwo
+activity::StepOne
+intent::android.intent.action.MAIN
+url::missingpersonslimerick.webs.com
+url::garda.ie
+url::http://www.missing.ws
+url::http://www.missingpersons.ie
+activity::StepThree
+intent::android.intent.category.LAUNCHER
+url::http://missingpersonslimerick.webs.com/
+activity::.MissingPersons
+url::www.missing.ws
+url::www.missingpersons.ie

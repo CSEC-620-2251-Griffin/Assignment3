@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::http://manning.com/ableson2
+intent::android.intent.action.MAIN
+url::manning.com
+activity::.UA2EFindEdges
+intent::android.intent.category.LAUNCHER

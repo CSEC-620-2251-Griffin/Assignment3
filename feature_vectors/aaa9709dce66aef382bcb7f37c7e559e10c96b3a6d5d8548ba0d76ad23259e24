@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://wap.pccwmobile.com/lifestyle
+activity::.lifestyle
+intent::android.intent.category.LAUNCHER
+url::wap.pccwmobile.com
+activity::lifestyle

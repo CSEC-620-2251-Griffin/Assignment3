@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.AddTask
+activity::.About
+activity::.ListViewTask
+activity::.ViewTask
+activity::.GToDoActivity
+activity::.ModTask
+intent::android.intent.action.MAIN
+call::getSystemService
+intent::android.intent.category.LAUNCHER

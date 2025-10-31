@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+api_call::android/os/Vibrator;->vibrate
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::android/media/MediaPlayer;->start
+call::Obfuscation(Base64)
+call::printStackTrace
+url::http://www.rastaduck.org/games/highscores/xmlengine.php
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.rastaduck.org
+url::http://www.rastaduck.org/games/highscores/xmlengine.php?action%3Dsave&x%3D
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::Execution of external commands
+real_permission::android.permission.WAKE_LOCK
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+activity::.MainAndroid

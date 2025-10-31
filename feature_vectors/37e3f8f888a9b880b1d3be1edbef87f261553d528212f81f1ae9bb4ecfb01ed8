@@ -1,0 +1,14 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+url::hdicts.appspot.com
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://hdicts.appspot.com/?
+activity::.qword
+real_permission::android.permission.INTERNET
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+real_permission::android.permission.WAKE_LOCK

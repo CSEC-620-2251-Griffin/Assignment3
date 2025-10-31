@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://market.android.com/search?q%3D%3Djetset.widget
+service_receiver::.Widget$MyAirplaneMode
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.WRITE_SETTINGS
+intent::android.intent.category.LAUNCHER
+activity::.Pub
+activity::.Configure
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::RebootReceiver
+provider::android.appwidget.provider
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.WRITE_SETTINGS

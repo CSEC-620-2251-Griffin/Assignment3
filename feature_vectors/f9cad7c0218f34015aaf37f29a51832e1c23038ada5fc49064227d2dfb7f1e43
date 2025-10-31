@@ -1,0 +1,4 @@
+call::sendSMS
+real_permission::android.permission.SEND_SMS
+api_call::android/telephony/SmsManager;->sendTextMessage
+call::getSystemService

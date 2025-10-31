@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+provider::com.absurdsoft.colorfilterdemo.settingsprovider
+activity::.ColorFilterSettingsDemo
+intent::android.intent.category.LAUNCHER
+service_receiver::.ColorFilterServiceDemo
+permission::android.permission.SYSTEM_ALERT_WINDOW
+call::getSystemService

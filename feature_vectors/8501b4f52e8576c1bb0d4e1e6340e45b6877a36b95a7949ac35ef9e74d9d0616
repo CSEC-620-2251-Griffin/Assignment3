@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.SUqKey
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.SUqItemEdit
+call::Cipher(AES)
+feature::android.hardware.screen.portrait
+activity::.SUqHelp
+activity::.SecurUbique
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService

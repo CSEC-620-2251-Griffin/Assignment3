@@ -1,0 +1,21 @@
+service_receiver::.widget.SolarCalculator_Widget$AvitionWidget_UpdateService
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+api_call::android/location/LocationManager;->requestLocationUpdates
+service_receiver::Solar Caluculator 12h
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+service_receiver::Solar Caluculator 6 hour
+api_call::android/provider/Settings$System;->putInt
+real_permission::android.permission.WRITE_SETTINGS
+activity::.SolarCalculator_EditPage
+provider::android.appwidget.provider
+call::getSystemService

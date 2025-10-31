@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::Moai FLV Player-old ver
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.AppEntry
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo
+permission::android.permission.DISABLE_KEYGUARD

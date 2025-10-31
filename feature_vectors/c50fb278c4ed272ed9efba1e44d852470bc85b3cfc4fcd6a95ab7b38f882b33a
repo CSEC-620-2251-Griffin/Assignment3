@@ -1,0 +1,15 @@
+activity::.SettingActivity
+feature::android.hardware.touchscreen
+activity::org.amd.colorpicker.ColorPickerDetail
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/content/Context;->startActivity
+api_call::android/os/Vibrator;->vibrate
+activity::org.amd.colorpicker.ColorPicker
+call::Read/Write External Storage
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+activity::.BoardActivity
+call::getSystemService

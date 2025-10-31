@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://thesundancekid.net/
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::thesundancekid.net
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.FingerPlayActivity
+api_call::java/net/DatagramSocket
+activity::.settings.SettingsView
+call::Read/Write External Storage
+call::getSystemService

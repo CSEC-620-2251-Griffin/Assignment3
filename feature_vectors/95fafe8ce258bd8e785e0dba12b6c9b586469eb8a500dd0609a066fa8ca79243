@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+service_receiver::qrBoard
+call::getDeviceId
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::.Splash
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::\%27)
+intent::android.intent.category.LAUNCHER
+url::http://\%27)
+real_permission::android.permission.READ_PHONE_STATE
+provider::android.appwidget.provider
+call::getSystemService

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+activity::Moose Garden
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+activity::.AppEntry
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+permission::android.permission.ACCESS_WIFI_STATE
+feature::android.hardware.location
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo
+permission::android.permission.DISABLE_KEYGUARD

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://www.netmite.com/android/srv/1.6/upload/MafatihArabic.jar
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.MafatihApp
+url::www.netmite.com

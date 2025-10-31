@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://www.paulshin.ca/yunatube/counter.php
+api_call::android/app/Activity;->startActivity
+activity::.Index
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+url::en.wikipedia.org
+url::www.paulshin.ca
+url::www.youtube.com
+permission::android.permission.INTERNET
+url::http://en.wikipedia.org/wiki/Yuna_kim
+feature::android.hardware.screen.portrait
+url::http://www.paulshin.ca/yunatube/res/
+intent::android.intent.category.LAUNCHER
+url::http://www.youtube.com/watch?v%3D
+real_permission::android.permission.INTERNET
+activity::Index

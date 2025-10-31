@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_CONTACTS
+intent::android.intent.action.MAIN
+activity::.Intro
+intent::android.intent.category.LAUNCHER
+url::www.waxworlds.org
+url::http://www.waxworlds.org/edam/software/android/import-contacts
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/provider/Contacts$People;->addToMyContactsGroup

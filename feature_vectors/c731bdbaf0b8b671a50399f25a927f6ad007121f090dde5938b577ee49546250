@@ -1,0 +1,16 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+api_call::android/content/ContextWrapper;->setWallpaper
+intent::android.intent.action.MAIN
+url::http://4u.straightline.jp/rss
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::java/net/HttpURLConnection
+url::4u.straightline.jp
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.easy4UBrowser
+url::http://nijigen.straightline.jp/rss
+real_permission::android.permission.SET_WALLPAPER
+url::nijigen.straightline.jp

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://jcvd.joke-belge.fr
+intent::android.intent.action.MAIN
+activity::.jcvd.citations
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::jcvd.joke-belge.fr
+api_call::android/webkit/WebView
+activity::.citations

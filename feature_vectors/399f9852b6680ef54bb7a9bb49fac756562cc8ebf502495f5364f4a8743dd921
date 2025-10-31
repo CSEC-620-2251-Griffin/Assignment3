@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::www.facebook.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://photos
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::com.schnitzel.WebViewer
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+url::photos
+url::http://www.facebook.com
+activity::com.schnitzel.Schnitzel
+activity::.Schnitzel
+call::getSystemService

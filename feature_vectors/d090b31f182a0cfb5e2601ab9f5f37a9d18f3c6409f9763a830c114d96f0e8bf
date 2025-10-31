@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::www.brondby-if.dk
+activity::UpdaterActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/media/MediaPlayer;->start
+activity::.UpdaterActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::SettingsActivity
+real_permission::android.permission.WAKE_LOCK
+url::http://www.brondby-if.dk/div/Live_Transmission/liveupdate.asp?page%3Dupdate
+call::getSystemService
+intent::android.intent.category.LAUNCHER

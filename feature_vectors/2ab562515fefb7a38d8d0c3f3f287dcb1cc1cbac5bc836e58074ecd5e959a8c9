@@ -1,0 +1,27 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.ACCESS_WIFI_STATE
+url::market.android.com
+permission::android.permission.ACCESS_WIFI_STATE
+activity::.MainActivity
+call::setWifiEnabled
+call::getSystemService
+activity::.GameActivity
+call::Obfuscation(Base64)
+activity::.ConfigureActivity
+feature::android.hardware.screen.landscape
+api_call::java/net/DatagramSocket
+real_permission::android.permission.CHANGE_WIFI_STATE
+permission::android.permission.CHANGE_WIFI_STATE
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.DonatorActivity
+api_call::android/net/wifi/WifiManager;->setWifiEnabled
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/net/wifi/WifiManager;->isWifiEnabled

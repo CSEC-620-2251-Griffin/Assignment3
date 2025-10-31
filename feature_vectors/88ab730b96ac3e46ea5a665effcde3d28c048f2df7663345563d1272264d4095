@@ -1,0 +1,17 @@
+activity::.CDPPrefActivity
+feature::android.hardware.touchscreen
+api_call::android/media/MediaRecorder;->setAudioSource
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+intent::android.intent.category.HOME
+permission::android.permission.READ_PHONE_STATE
+service_receiver::cz.byteworks.cdp.StartupReceiver
+service_receiver::CDPService
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService
+api_call::android/content/Context;->startService

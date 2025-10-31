@@ -1,0 +1,35 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+call::printStackTrace
+activity::Window List
+permission::android.permission.READ_PHONE_STATE
+activity::PhoneMyPC Help
+activity::Action List
+api_call::android/app/Activity;->startActivity
+call::getWifiState
+call::getPackageInfo
+real_permission::android.permission.ACCESS_WIFI_STATE
+api_call::java/net/Socket
+activity::Save Snapshot as...
+permission::android.permission.ACCESS_WIFI_STATE
+activity::Select a Feature
+api_call::android/telephony/TelephonyManager;->getDeviceId
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+activity::Select a Button
+api_call::android/net/wifi/WifiManager;->getDhcpInfo
+call::Obfuscation(Base64)
+intent::android.intent.category.PREFERENCE
+activity::Connecting...
+permission::android.permission.INTERNET
+call::Execution of external commands
+real_permission::android.permission.READ_PHONE_STATE
+activity::Process List
+activity::.Act_PCList
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,17 @@
+permission::com.google.android.providers.gmail.permission.READ_GMAIL
+feature::android.hardware.touchscreen
+service_receiver::.MonitorUnreadService
+api_call::android/content/ContentResolver;->query
+api_call::android/accounts/AccountManager;->getAccounts
+api_call::android/app/Activity;->startActivity
+service_receiver::GmailUnreadWidgetProvider
+real_permission::android.permission.GET_ACCOUNTS
+provider::com.google.android.providers.gmail.permission.READ_GMAIL
+permission::android.permission.GET_ACCOUNTS
+permission::com.google.android.googleapps.permission.GOOGLE_AUTH
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::Read/Write External Storage
+provider::android.appwidget.provider
+call::getSystemService
+permission::com.google.android.gm.permission.READ_GMAIL

@@ -1,0 +1,16 @@
+activity::.Brown
+activity::.Red
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.Purple
+activity::.Pink
+activity::.Orchid
+activity::.Aquamarine
+activity::.Gray
+intent::android.intent.category.DEFAULT
+activity::.Orange
+activity::.Yellow
+activity::.Magenta
+activity::.Green
+activity::.Blue
+activity::.Cyan

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEARCH_LONG_PRESS
+intent::android.intent.action.MAIN
+activity::.TransparentScreen
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+permission::android.permission.DEVICE_POWER
+intent::android.intent.category.DEFAULT
+permission::android.permission.DISABLE_KEYGUARD
+api_call::android/app/KeyguardManager;->exitKeyguardSecurely
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.BootReceiver2
+real_permission::android.permission.DISABLE_KEYGUARD
+service_receiver::.ScreenToolsService
+api_call::android/content/Context;->startActivity
+call::getSystemService
+activity::.ConfigurationScreen

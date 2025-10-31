@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::nl.zworld.android.wgt.About
+intent::android.intent.action.MAIN
+activity::nl.zworld.android.wgt.WGT
+activity::.WGT
+activity::nl.zworld.android.wgt.ShowArtists
+activity::nl.zworld.android.wgt.ArtistInfo
+activity::nl.zworld.android.wgt.FestivalDay
+intent::android.intent.category.LAUNCHER

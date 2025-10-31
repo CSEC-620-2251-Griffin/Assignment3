@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.ChinaUsefulPhone_Second
+permission::android.permission.CALL_PHONE
+feature::android.hardware.telephony
+activity::.ChinaUsefulPhone_Main
+intent::android.intent.category.LAUNCHER

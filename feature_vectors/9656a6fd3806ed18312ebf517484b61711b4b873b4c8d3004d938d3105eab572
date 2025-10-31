@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+url::home.ncbo.noaa.gov
+call::getSystemService
+activity::.SmartBuoys
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+url::https://home.ncbo.noaa.gov/local/util/cbibs/icbibsGetter.php
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+service_receiver::.SmartBuoyWidget$UpdateService
+service_receiver::Smart Buoys

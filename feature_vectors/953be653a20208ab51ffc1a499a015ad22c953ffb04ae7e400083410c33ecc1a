@@ -1,0 +1,14 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://tepco-usage-api.appspot.com/latest.json
+service_receiver::TepcoWidget1x1$TepcoWidgetService
+url::tepco-usage-api.appspot.com
+service_receiver::%E6%B1%E9%BB %E9%BB%E5%E4%BD%BF%E7%A8%E71x1
+service_receiver::%E6%B1%E9%BB %E9%BB%E5%E4%BD%BF%E7%A8%E72x1
+intent::android.intent.action.CONFIGURATION_CHANGED
+permission::android.permission.INTERNET
+url::http://tepco-usage-api.appspot.com/
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+call::getSystemService
+service_receiver::TepcoWidget2x1$TepcoWidgetService

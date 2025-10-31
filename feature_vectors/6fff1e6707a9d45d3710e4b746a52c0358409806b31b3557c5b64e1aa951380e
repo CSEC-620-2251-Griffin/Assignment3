@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.Mid
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+url::www.netmite.com
+call::getPackageInfo
+url::java.prowap.ru
+url::http://java.prowap.ru/res/media/11986.jar
+intent::android.intent.category.LAUNCHER

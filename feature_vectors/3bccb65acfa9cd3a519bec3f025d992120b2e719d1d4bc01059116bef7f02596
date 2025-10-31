@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.VietKitchen
+feature::android.hardware.screen.portrait
+provider::com.qgs.provider.Foods
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+activity::qgs.VietKitchen.WordActivity
+call::getSystemService

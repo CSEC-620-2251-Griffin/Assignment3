@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+url::nabster.wen9.net
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+activity::.DCWasabi
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://nabster.wen9.net/zee/naby_mafia.jad
+intent::android.intent.category.ALTERNATIVE

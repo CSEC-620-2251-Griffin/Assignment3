@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::www.rinknet.mobi
+intent::android.intent.action.MAIN
+activity::.ActivityVisitRinkNetMobi
+url::http://www.rinknet.mobi?psw%3D1
+intent::android.intent.category.LAUNCHER

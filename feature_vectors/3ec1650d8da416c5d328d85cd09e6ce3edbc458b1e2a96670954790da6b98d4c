@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.hooreview.com/about
+intent::android.intent.action.MAIN
+url::http://mobile.hooreview.com/roster
+url::http://mobile.hooreview.com/schedule
+activity::.Main
+url::http://mobile.hooreview.com/stats
+url::mobile.hooreview.com
+permission::android.permission.INTERNET
+activity::Hoo Review
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://mobile.hooreview.com
+real_permission::android.permission.INTERNET

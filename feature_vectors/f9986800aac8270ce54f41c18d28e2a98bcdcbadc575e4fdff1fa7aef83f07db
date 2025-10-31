@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+activity::.PORTRAIT
+url::https://market.android.com/search?q%3DKayC+Calculator&so%3D1&c%3Dapps
+activity::.LVActivity
+intent::android.intent.category.LAUNCHER
+activity::.LANDSCAPE

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://market.android.com/search?q%3Dpname%3Ade.staticing.linequ&so%3D1&c%3Dapps
+intent::android.intent.category.LAUNCHER
+activity::.EquationLight

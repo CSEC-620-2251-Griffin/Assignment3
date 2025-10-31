@@ -1,0 +1,17 @@
+activity::.radio
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.MAIN
+url::mediaserver3.afa.net
+url::http://mediaserver3.afa.net:8000/inspo.mp3
+activity::.afachannel
+url::donate.afa.net
+api_call::android/media/MediaPlayer;->stop
+url::http://mediaserver3.afa.net:8000/talk.mp3
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_PHONE_STATE
+api_call::android/telephony/TelephonyManager;->listen
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+url::https://donate.afa.net

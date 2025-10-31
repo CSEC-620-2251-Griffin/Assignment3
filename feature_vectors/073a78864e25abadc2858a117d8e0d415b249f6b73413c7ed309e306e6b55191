@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+activity::.Paris
+intent::android.intent.action.MAIN
+url::es.wikipedia.org
+url::http://www.netmite.com/android/srv/1.6/upload/paris.jad
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+url::http://es.wikipedia.org/wiki/Par\u00eds\nwww.mundocity.com\n/iconos/linea.jpg
+call::getPackageInfo
+intent::android.intent.category.ALTERNATIVE

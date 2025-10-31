@@ -1,0 +1,20 @@
+feature::android.hardware.touchscreen
+activity::BrowserView
+url::json.reddit.com
+intent::android.intent.action.MAIN
+url::http://www.reddit.com
+url::http://i.reddit.com
+call::Obfuscation(Base64)
+real_permission::android.permission.READ_LOGS
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.reddit.com
+url::http://json.reddit.com
+url::i.reddit.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::Execution of external commands
+api_call::android/app/Activity;->startActivity
+api_call::java/lang/Runtime;->exec
+activity::AppPreferenceActivity

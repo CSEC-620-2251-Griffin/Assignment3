@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.ViewPost
+activity::.loadDiary
+activity::.MainView
+intent::android.intent.category.LAUNCHER
+activity::.editPost

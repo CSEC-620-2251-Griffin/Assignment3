@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::SetUpActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://webservice.webxml.com.cn/WebServices/WeatherWS.asmx/getRegionProvince?
+activity::.MainActivity
+permission::android.permission.INTERNET
+activity::AboutActivity
+intent::android.intent.category.default
+url::webservice.webxml.com.cn
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+service_receiver::WeatherService
+activity::MainActivity
+url::http://webservice.webxml.com.cn/WebServices/WeatherWS.asmx/getRegionCountry?

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://m.youtube.com/
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getSystemService
+api_call::android/content/Context;->startActivity
+activity::.main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://api.twitter.com/1/statuses/user_timeline.xml?screen_name%3D
+intent::android.intent.category.LAUNCHER
+url::m.youtube.com
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+activity::main
+url::api.twitter.com

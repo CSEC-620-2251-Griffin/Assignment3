@@ -1,0 +1,10 @@
+url::http://www.active9.com/AndroidApps/Launchers/MSN.php?v%3D1.0.4
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.active9.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.active9.com/privacy_policy.html
+activity::.MSN

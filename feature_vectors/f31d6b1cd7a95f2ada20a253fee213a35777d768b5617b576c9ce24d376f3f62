@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::imgsrc.baidu.com
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::.ListViewActivity
+activity::com.witmob.rivers.DetailViewActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://imgsrc.baidu.com/baike/pic/item/389aa8fdb7b8322e08244d3c.jpg
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://imgsrc.baidu.com/baike/pic/item/d56b36344a36c27a5ab5f554.jpg
+real_permission::android.permission.READ_CONTACTS
+api_call::android/app/Activity;->startActivity
+call::getSystemService
+url::http://imgsrc.baidu.com/baike/pic/item/d8b8c92a9d091b69d42af1b2.jpg

@@ -1,0 +1,13 @@
+activity::.ActivityMain
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.keenvim.com\n
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.INTERNET
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+url::http://www.keenvim.com\n
+call::getSystemService

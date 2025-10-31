@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WAKE_LOCK
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::com.android.vending.CHECK_LICENSE
+api_call::android/app/Activity;->startActivity
+intent::android.intent.category.LAUNCHER
+activity::.UnrarPro
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

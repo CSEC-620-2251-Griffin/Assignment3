@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.MainActivity
+permission::android.permission.INTERNET
+permission::android.permission.WRITE_CALENDAR
+real_permission::android.permission.INTERNET
+feature::android.hardware.telephony
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CALL_PHONE
+call::getPackageInfo
+call::HttpPost
+call::getSystemService

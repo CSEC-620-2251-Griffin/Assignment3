@@ -1,0 +1,31 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://www.hotpim.com/ef/
+call::printStackTrace
+activity::.PlayerActivity
+url::http://www.aipim.cn/publicfiles/versionCode.txt
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.MessageTaobao
+url::www.hotpim.com
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+api_call::android/content/Context;->startActivity
+activity::.MessageSync
+url::http://www.aipim.cn/publicfiles/
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+service_receiver::cloud.widget.music.BackService
+service_receiver::.UpdateBroadCast
+activity::.MessageLauncher
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+activity::cloud.widget.music.MessageSoftMarket
+url::www.aipim.cn
+provider::android.appwidget.provider
+api_call::android/media/MediaPlayer;->start

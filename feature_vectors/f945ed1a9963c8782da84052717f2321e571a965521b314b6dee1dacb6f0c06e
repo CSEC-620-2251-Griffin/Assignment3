@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::OpenUrl
+permission::android.permission.INTERNET
+url::http://docs.google.com/viewer?url%3D
+intent::android.intent.category.DEFAULT
+url::http://bit.ly/9iexmG
+url::docs.google.com
+permission::tunnybrowser.permission.Extension
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+intent::android.intent.category.BROWSABLE
+url::bit.ly
+intent::android.intent.category.INFO
+intent::android.intent.action.VIEW

@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::getSystemService
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::http://203.241.193.70/room_
+url::http://203.241.193.70/seat_info_db.asp
+url::203.241.193.70
+real_permission::android.permission.INTERNET
+activity::.Seat_Detail
+activity::.Dongeui_Library_Seat

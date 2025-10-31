@@ -1,0 +1,18 @@
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->cancel
+real_permission::android.permission.RECORD_AUDIO
+activity::.UxAndroid
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.GdxRemote
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/media/AudioRecord
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::java/net/ServerSocket
+call::Read/Write External Storage
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

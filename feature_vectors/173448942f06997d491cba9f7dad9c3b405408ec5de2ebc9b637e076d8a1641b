@@ -1,0 +1,17 @@
+api_call::android/webkit/WebView
+feature::android.hardware.location
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.help.GPSpeed_help
+activity::.GPSpeed
+activity::.select.GPSpeed_select
+call::printStackTrace
+real_permission::android.permission.INTERNET
+activity::.pref.GPSpeed_pref
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+api_call::android/location/LocationManager;->isProviderEnabled
+call::getPackageInfo
+call::getSystemService

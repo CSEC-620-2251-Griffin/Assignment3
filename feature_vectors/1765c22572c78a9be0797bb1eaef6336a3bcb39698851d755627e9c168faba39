@@ -1,0 +1,53 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+call::getPackageInfo
+permission::android.permission.CALL_PHONE
+url::api.admob.com
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+real_permission::android.permission.ACCESS_FINE_LOCATION
+real_permission::android.permission.READ_CONTACTS
+intent::android.net.wifi.WifiManager.NETWORK_STATE_CHANGED_ACTION
+activity::Update
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+url::http://mm.admob.com/static/android/canvas.html
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+api_call::android/content/Context;->startActivity
+activity::.Settings
+url::http://a.admob.com/f0?
+service_receiver::6 Recent Calls
+url::http://mm.admob.com/static/android/i18n/20101109
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+activity::Recent Call 5
+activity::Recent Call 4
+activity::Recent Call 6
+activity::Recent Call 1
+activity::Recent Call 3
+activity::Recent Call 2
+service_receiver::1 Recent Call
+service_receiver::2 Recent Calls
+permission::android.permission.READ_PHONE_STATE
+feature::android.hardware.telephony
+url::r.admob.com
+url::a.admob.com
+url::jonbze.com
+api_call::android/webkit/WebView
+url::schemas.android.com
+intent::android.intent.action.MAIN
+service_receiver::com.admob.android.ads.analytics.InstallReceiver
+url::http://jonbze.com
+intent::android.intent.action.PHONE_STATE
+service_receiver::4 Recent Calls
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+activity::Frequent Call 6
+activity::Frequent Call 4
+activity::Frequent Call 5
+activity::Frequent Call 2
+activity::Frequent Call 3
+activity::Frequent Call 1
+activity::com.admob.android.ads.AdMobActivity
+provider::android.appwidget.provider
+url::mm.admob.com

@@ -1,0 +1,39 @@
+feature::android.hardware.touchscreen
+activity::intelliPilot Settings
+permission::android.permission.INTERNET
+activity::.AirportEditor
+activity::.PastHoursList
+activity::.RegoList
+activity::.AircraftEditor
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+api_call::android/app/Activity;->startActivity
+activity::.AircraftList
+activity::.Export
+intent::android.intent.action.INSERT
+activity::.FlightEditor
+activity::intelliPilot Info
+call::getSystemService
+call::Read/Write External Storage
+permission::au.com.nestan.android.permission
+activity::.PastHoursEditor
+intent::android.intent.action.GET_CONTENT
+intent::android.intent.action.EDIT
+activity::.FlightList
+activity::.Import1
+activity::.Backup
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.EMBED
+intent::android.intent.action.VIEW
+api_call::android/webkit/WebView
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.RegoEditor
+real_permission::android.permission.INTERNET
+activity::.Home
+activity::.FlightSummary
+intent::android.intent.category.LAUNCHER
+activity::.AirportList
+activity::.ViewMap

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+service_receiver::AlarmReceiver
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->sendBroadcast
+call::getSystemService
+activity::.br
+service_receiver::timerFinished

@@ -1,0 +1,16 @@
+api_call::android/webkit/WebView
+url::twitter.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://i53.tinypic.com/k2jslj.png
+call::printStackTrace
+url::i53.tinypic.com
+permission::android.permission.INTERNET
+url::www.twitter.com
+url::http://7fbc79pmndjk-wawwbkz6gyi30.hop.clickbank.net/?tid%3DBUNNIES
+url::7fbc79pmndjk-wawwbkz6gyi30.hop.clickbank.net
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://www.twitter.com/breedingRabbits/
+activity::.Activity1
+url::http://twitter.com/statuses/user_timeline/250648118.rss

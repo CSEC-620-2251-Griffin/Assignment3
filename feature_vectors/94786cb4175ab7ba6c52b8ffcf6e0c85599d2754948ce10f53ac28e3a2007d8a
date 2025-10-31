@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+url::codigosneo.com
+activity::C%C3%B3digos Neo
+activity::.NeoReaderActivity
+real_permission::android.permission.WAKE_LOCK
+real_permission::android.permission.CAMERA
+feature::android.hardware.camera.autofocus
+api_call::android/media/MediaPlayer;->start
+url::http://codigosneo.com
+real_permission::android.permission.VIBRATE
+permission::android.permission.WRITE_SETTINGS
+call::getSystemService
+permission::android.permission.VIBRATE
+url::http://router.neom.com/gwv4/gateway?CODE%3D
+permission::android.permission.CAMERA
+url::http://router.neom.com/gwv4/gateway
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+feature::android.hardware.camera
+real_permission::android.permission.INTERNET
+url::router.neom.com
+intent::android.intent.category.LAUNCHER

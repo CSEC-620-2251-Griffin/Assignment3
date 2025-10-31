@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::.RedDroid
+intent::android.intent.category.DEFAULT

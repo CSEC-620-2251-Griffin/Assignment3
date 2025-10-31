@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::com.spartacusrex.spincube.Help
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.google.com
+call::Obfuscation(Base64)
+activity::.CubeStartLite
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::pagead2.googlesyndication.com
+intent::android.intent.category.LAUNCHER
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+call::getSystemService
+url::http://www.google.com/search?q%3D

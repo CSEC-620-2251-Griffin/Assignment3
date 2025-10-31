@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::m.korea.go.kr
+intent::android.intent.action.MAIN
+activity::.Intro
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+url::http://m.korea.go.kr
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://m.korea.go.kr/mbl/searchmgr/appIndex.do
+real_permission::android.permission.INTERNET
+call::getSystemService
+url::http://m.korea.go.kr/mbl/searchmgr/searchPPKXML.do

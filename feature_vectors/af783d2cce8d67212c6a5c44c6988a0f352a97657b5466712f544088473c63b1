@@ -1,0 +1,12 @@
+activity::.Stories
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::votpusk.eu
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::https://market.android.com/search?q%3Dpname:com.funny.anekdot\n
+intent::android.intent.category.LAUNCHER
+url::http://votpusk.eu/android/index5.php?type%3Dis&licence%3Dfree&version%3D9
+call::getSystemService

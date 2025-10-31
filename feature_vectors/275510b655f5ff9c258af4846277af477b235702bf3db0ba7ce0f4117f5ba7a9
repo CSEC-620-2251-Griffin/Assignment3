@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->stop
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.BLUE_9008Activity
+url::rush79.com
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://blue.inlive.co.kr:9008/%3B
+url::http://rush79.com/a/?blue_9008
+url::blue.inlive.co.kr

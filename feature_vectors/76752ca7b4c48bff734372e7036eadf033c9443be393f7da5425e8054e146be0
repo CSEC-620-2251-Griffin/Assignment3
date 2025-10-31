@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_SETTINGS
+activity::.YancActivity
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.WRITE_SETTINGS

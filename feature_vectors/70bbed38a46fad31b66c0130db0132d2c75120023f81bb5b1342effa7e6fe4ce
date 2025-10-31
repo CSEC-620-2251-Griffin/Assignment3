@@ -1,0 +1,21 @@
+url::http://vsquery.virtualsystems.com/Service.asmx
+feature::android.hardware.touchscreen
+activity::SplashScreenActivity
+intent::android.intent.action.MAIN
+activity::ReportActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.CALL_PHONE
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.SplashScreenActivity
+activity::PropertiesActivity
+call::Read/Write External Storage
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+url::vsquery.virtualsystems.com
+intent::android.intent.category.LAUNCHER
+activity::ReportsActivity
+real_permission::android.permission.INTERNET
+activity::ReportDetailActivity
+call::HttpPost
+api_call::java/net/URL;->openConnection

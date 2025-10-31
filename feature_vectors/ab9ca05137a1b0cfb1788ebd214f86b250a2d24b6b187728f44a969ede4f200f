@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.ChangeText
+intent::android.intent.action.MAIN
+activity::Set Tax (%25)
+activity::.RateTip
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.Preferences
+activity::Round Total
+activity::.ChangePercent
+activity::.activity
+call::getSystemService
+activity::Set Specific Tip (%25)

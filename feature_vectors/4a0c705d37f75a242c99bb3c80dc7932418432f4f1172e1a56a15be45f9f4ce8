@@ -1,0 +1,33 @@
+feature::android.hardware.touchscreen
+activity::.activity.List
+call::printStackTrace
+url::https://market.android.com/details?id%3Dru.krikun.freespace.plus
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+service_receiver::FreeSpace
+call::Read/Write External Storage
+call::getPackageInfo
+activity::.activity.Single
+activity::.List
+url::http://schemas.android.com/apk/lib/com.google.ads
+url::market.android.com
+url::http://a.admob.com/f0?
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+call::Execution of external commands
+activity::.activity.Settings
+call::Cipher(AES/CBC/PKCS5Padding)
+api_call::android/app/Activity;->startActivity
+url::a.admob.com
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+api_call::android/webkit/WebView
+activity::FreeSpace
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+url::schemas.android.com

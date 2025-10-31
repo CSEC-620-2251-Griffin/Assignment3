@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::www\\.elvisthecomic\\.com
+intent::android.intent.category.BROWSABLE
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+permission::android.permission.INTERNET
+url::www.elvisthecomic.com
+activity::.Settings
+activity::.Viewer
+url::http://www.elvisthecomic.com/wp-admin/admin-ajax.php
+url::http://www.elvisthecomic.com/
+activity::.Billboard
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://www\\.elvisthecomic\\.com/\\?st%3D([0-9]*)\
+intent::android.intent.category.DEFAULT
+call::HttpPost
+intent::android.intent.action.VIEW

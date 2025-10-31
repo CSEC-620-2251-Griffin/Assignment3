@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::Andraider
+intent::android.intent.action.MAIN
+activity::.Andraider
+activity::Help
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::Spec

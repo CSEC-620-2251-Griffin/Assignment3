@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::www.trackeverycoin.com
+intent::android.intent.action.MAIN
+url::https://www.trackeverycoin.com/m/
+intent::android.intent.category.LAUNCHER
+activity::.TEClauncher

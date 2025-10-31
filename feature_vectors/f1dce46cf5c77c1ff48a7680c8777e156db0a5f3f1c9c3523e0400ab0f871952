@@ -1,0 +1,13 @@
+url::s3.amazonaws.com
+feature::android.hardware.touchscreen
+url::schemas.xmlsoap.org
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::Obfuscation(Base64)
+url::https://s3.amazonaws.com/soap
+real_permission::android.permission.INTERNET
+url::http://schemas.xmlsoap.org/soap/envelope/\
+intent::android.intent.category.LAUNCHER
+api_call::java/net/HttpURLConnection
+call::getSystemService
+activity::.PasswordSafeView

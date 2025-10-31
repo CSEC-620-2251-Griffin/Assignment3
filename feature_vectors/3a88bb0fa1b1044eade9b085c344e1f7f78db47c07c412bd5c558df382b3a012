@@ -1,0 +1,15 @@
+api_call::java/net/HttpURLConnection
+activity::.activity.search.SearchArtistActivity
+intent::android.intent.action.MAIN
+url::http://api.setlist.fm/rest/0.1/search/setlists
+call::printStackTrace
+url::www.setlist.fm
+permission::android.permission.INTERNET
+url::http://www.setlist.fm/help/api-terms
+url::http://api.setlist.fm/rest/0.1/search/artists
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::.activity.detail.DetailSetListActivity
+call::getSystemService
+url::api.setlist.fm

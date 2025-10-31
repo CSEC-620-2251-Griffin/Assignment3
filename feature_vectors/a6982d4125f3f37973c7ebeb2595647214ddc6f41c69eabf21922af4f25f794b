@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::.WhiteHero
+intent::android.intent.category.DEFAULT

@@ -1,0 +1,6 @@
+url::https://chrometabcloud.appspot.com/tabs.jsp
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.TabCloud
+url::chrometabcloud.appspot.com
+intent::android.intent.category.LAUNCHER

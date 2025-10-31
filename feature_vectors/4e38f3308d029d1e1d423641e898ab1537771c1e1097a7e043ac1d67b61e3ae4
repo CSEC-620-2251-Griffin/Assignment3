@@ -1,0 +1,20 @@
+activity::OpenRepositoryActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::SearchActivity
+api_call::android/content/Context;->startActivity
+activity::ChangePasswordActivity
+activity::.MainActivity
+activity::RestoreBackupActivity
+url::http://jointlogic.com/b-folders/android/vercheck.jsp?ver%3D
+call::Read/Write External Storage
+call::getPackageInfo
+activity::HelpActivity
+activity::EditFormActivity
+activity::SettingsActivity
+activity::NewRepositoryActivity
+activity::ItemBrowserActivity
+activity::MainActivity
+url::jointlogic.com
+call::getSystemService
+intent::android.intent.category.LAUNCHER

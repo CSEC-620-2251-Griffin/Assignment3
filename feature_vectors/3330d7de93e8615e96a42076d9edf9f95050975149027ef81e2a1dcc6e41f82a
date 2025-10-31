@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://probaseballapps.com/apps/ryan_hanigan.php
+permission::android.permission.INTERNET
+url::probaseballapps.com
+activity::.ryanhanigan
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

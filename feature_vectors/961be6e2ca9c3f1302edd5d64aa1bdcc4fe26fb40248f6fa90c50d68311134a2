@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+service_receiver::.ChristmasNotificationReceiver
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+activity::.ChristmasActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+activity::.ChristmasPreferences
+service_receiver::.ChristmasWidgetReceiver
+intent::android.intent.action.BOOT_COMPLETED
+call::getSystemService
+provider::android.appwidget.provider
+service_receiver::.ChristmasBootReceiver

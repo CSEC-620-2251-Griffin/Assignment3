@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+real_permission::android.permission.INTERNET
+activity::.Ekonomi
+permission::android.permission.ACCESS_WIFI_STATE
+activity::.MainActivity
+activity::.SecondTab
+call::getSystemService
+activity::.ThirdTab
+activity::.Tips
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.nustartarviomsverige.se/android/nyhetslist.php
+url::http://www.nustartarviomsverige.se/android/efakta.html
+url::http://www.nustartarviomsverige.se/android/insplist.php
+api_call::android/webkit/WebView
+url::www.nustartarviomsverige.se
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.FirstTab
+intent::android.intent.category.LAUNCHER
+activity::Om Vismainfoline

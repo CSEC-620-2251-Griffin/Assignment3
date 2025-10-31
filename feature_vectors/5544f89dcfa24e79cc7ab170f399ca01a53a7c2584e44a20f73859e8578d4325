@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/app/ActivityManager;->restartPackage
+permission::android.permission.KILL_BACKGROUND_PROCESSES
+activity::.DailyReboot
+real_permission::android.permission.RESTART_PACKAGES
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::RebootReceiver
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService

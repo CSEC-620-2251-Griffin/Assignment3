@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.ABCActivity
+url::http://www3.htl-hl.ac.at/homepage/android/and1.php?
+intent::android.intent.action.MAIN
+url::www3.htl-hl.ac.at
+permission::android.permission.INTERNET
+activity::Android Bulb Circuit
+feature::android.hardware.screen.portrait
+activity::.ABCInfoActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection

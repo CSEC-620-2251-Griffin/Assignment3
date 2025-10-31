@@ -1,0 +1,26 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+url::http://itunes.apple.com/us/app/mega-hearts-2-slots/id315407039?mt%3D8
+url::http://itunes.apple.com/us/app/pirates-plunder-slots/id336566432?mt%3D8
+activity::.KalahariSun
+url::itunes.apple.com
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+url::market.android.com
+api_call::android/content/Context;->startActivity
+url::http://itunes.apple.com/us/app/monkey-money-slots/id306270740?mt%3D8
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+url::http://itunes.apple.com/us/app/aztec-invaders-slots/id318471313?mt%3D8
+activity::Kalahari Sun
+url::http://itunes.apple.com/us/app/totem-treasure-2-slots/id303708127?mt%3D8
+url::http://itunes.apple.com/us/app/golden-vault-slots/id336272392?mt%3D8
+url::http://itunes.apple.com/us/app/gallop-for-gold-slots/id330399165?mt%3D8
+url::http://itunes.apple.com/us/app/dragon-dollars-slots/id309409106?mt%3D8
+call::Cipher(AES/CBC/PKCS5Padding)
+url::http://itunes.apple.com/us/app/kalahari-sun-slots/id321852752?mt%3D8
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+api_call::android/media/MediaPlayer;->start

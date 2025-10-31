@@ -1,0 +1,9 @@
+url::www.alphalounge.org
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+url::http://www.alphalounge.org/zitate.txt
+real_permission::android.permission.INTERNET
+permission::android.permission.READ_PHONE_STATE
+provider::android.appwidget.provider
+api_call::java/net/URL;->openConnection

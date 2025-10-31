@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://images.ad-maker.info/apps/1czbcqg4fdcl.html
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::images.ad-maker.info
+activity::.DateMash
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

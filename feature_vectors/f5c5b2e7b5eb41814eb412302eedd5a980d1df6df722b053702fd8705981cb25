@@ -1,0 +1,11 @@
+activity::.InvoiceSettings
+activity::.InvoicePal
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+activity::.EditInvoice
+call::Read/Write External Storage
+activity::.AddInvoice
+intent::android.intent.category.LAUNCHER
+call::getSystemService

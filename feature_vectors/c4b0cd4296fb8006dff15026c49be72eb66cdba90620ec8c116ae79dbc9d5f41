@@ -1,0 +1,26 @@
+url::twitter.com
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::HttpPost
+activity::.BillionStoriesTrial
+activity::.ImageListActivity
+api_call::android/app/Activity;->startActivity
+call::printStackTrace
+activity::.InfomationActivity
+url::http://twitter.com/oauth/access_token
+call::getSystemService
+call::Obfuscation(Base64)
+url::http://api.twitpic.com/1/uploadAndPost.xml
+activity::.BookViewActivity
+url::softolet.com
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://twitter.com/oauth/request_token
+real_permission::android.permission.INTERNET
+activity::.NewPageActivity
+intent::android.intent.category.LAUNCHER
+url::http://softolet.com/android/view/billionstories/
+url::http://twitter.com/oauth/authorize
+url::api.twitpic.com

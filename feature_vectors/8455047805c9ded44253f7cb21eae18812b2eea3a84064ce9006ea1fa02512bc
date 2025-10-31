@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://clic-clac.me/clic-clac.php
+url::clic-clac.me
+url::http://clic-clac.me\
+intent::android.intent.action.MAIN
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::clic-clac.me\
+call::HttpPost

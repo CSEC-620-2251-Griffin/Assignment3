@@ -1,0 +1,8 @@
+url::http://www.accountingontheweb.com/
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.accountingontheweb.com
+url::http://www.accountingontheweb.com/m/
+intent::android.intent.category.LAUNCHER
+activity::.es
+url::http://www.accountingontheweb.com/common/availprop/es_new/available.aspx

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.gob23Activity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::gob23.gob.jp
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://gob23.gob.jp/android/

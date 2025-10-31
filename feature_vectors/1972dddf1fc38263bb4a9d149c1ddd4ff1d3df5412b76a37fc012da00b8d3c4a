@@ -1,0 +1,16 @@
+activity::.MashupOrganizer
+feature::android.hardware.touchscreen
+url::androidmashup.org
+activity::.Ui.Preferences
+provider::com.mashup.mashupdataprovider
+intent::android.intent.action.MAIN
+url::http://androidmashup.org/xml
+activity::.Ui.MashupTabApplications
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.Ui.MashupOrganizerTestApp
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+provider::com.androidMashup.provider.MashupProvider
+activity::.Ui.MashupTabIntents
+real_permission::android.permission.INTERNET

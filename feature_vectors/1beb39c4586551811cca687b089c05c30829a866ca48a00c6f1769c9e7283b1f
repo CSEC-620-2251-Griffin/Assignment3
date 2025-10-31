@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.claimsecure.com/mobile/?lang%3D
+url::www.claimsecure.com
+activity::.weblauncher
+intent::android.intent.category.LAUNCHER

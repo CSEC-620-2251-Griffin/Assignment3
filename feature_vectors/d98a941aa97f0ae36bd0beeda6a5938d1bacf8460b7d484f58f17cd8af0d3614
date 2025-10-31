@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+url::keye.phk.at
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://mm.admob.com/static/android/tiles/default.png
+url::api.admob.com
+url::http://r.admob.com/ad_source.php
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://keye2.phk.at/.
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+activity::.keye_android_demo
+api_call::android/content/Context;->startActivity
+call::getSystemService
+url::mm.admob.com
+url::r.admob.com
+url::keye2.phk.at
+url::http://keye.phk.at/
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://score.phk.at/crashlog.php
+real_permission::android.permission.INTERNET
+url::score.phk.at
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+url::http://mm.admob.com/static/android/i18n/20090728
+url::schemas.android.com

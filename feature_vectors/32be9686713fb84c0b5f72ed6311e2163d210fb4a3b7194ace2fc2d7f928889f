@@ -1,0 +1,10 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+url::market.android.com
+call::Obfuscation(Base64)
+url::www.youtube.com
+activity::About Butterfly
+call::Cipher(AES/CBC/PKCS5Padding)
+url::http://www.youtube.com/watch?v%3DYYgN33B4acE
+call::getPackageInfo
+intent::android.intent.action.VIEW

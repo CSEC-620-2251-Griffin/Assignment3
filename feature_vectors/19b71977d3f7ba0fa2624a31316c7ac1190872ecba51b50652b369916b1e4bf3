@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+url::www.unwired.com.au
+url::http://www.unwired.com.au/get/retailers_ajax.php?action%3DgetOne&id%3D%d
+intent::android.intent.category.LAUNCHER
+activity::.Map
+call::getSystemService

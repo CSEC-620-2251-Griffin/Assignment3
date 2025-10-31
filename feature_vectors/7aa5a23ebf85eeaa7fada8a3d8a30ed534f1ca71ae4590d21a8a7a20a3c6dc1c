@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/hardware/Camera;->open
+permission::android.permission.CAMERA
+feature::android.hardware.camera
+call::printStackTrace
+service_receiver::se.hiq.androidlib.utils.debug.DebugManagerReceiver
+intent::android.intent.category.DEFAULT
+api_call::java/net/HttpURLConnection
+api_call::android/content/ContentResolver;->openInputStream
+activity::.camera.StillPictureCamera
+service_receiver::.LiveViewCameraService
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startActivity
+activity::.Preferences

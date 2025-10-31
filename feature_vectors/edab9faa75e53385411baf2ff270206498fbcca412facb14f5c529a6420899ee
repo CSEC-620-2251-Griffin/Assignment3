@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.activity.ColorsChooseActivity
+intent::android.intent.action.MAIN
+api_call::android/app/Activity;->startActivity
+intent::android.intent.category.LAUNCHER
+activity::.ColorsChooseActivity
+call::getSystemService

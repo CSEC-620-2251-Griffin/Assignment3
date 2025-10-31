@@ -1,0 +1,41 @@
+activity::.GDEStarter
+feature::android.hardware.touchscreen
+intent::android.intent.category.HOME
+permission::android.permission.CALL_PHONE
+api_call::android/os/Vibrator;->vibrate
+api_call::android/app/ActivityManager;->restartPackage
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::%E8%AE%BE%E7%BD%AE%E5%A8%E7%BB%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2
+permission::android.permission.READ_CONTACTS
+activity::IconPicker
+permission::android.permission.WRITE_SETTINGS
+permission::android.permission.GET_TASKS
+permission::android.permission.BIND_APPWIDGET
+activity::%E6%A1%E9%A2%E8%AE%BE%E7%BD%AE%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2
+url::www.google.com
+api_call::android/content/Context;->startActivity
+activity::%E6%E9%AE%E8%AE%BE%E7%BD%AE%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2
+permission::android.permission.VIBRATE
+real_permission::android.permission.VIBRATE
+call::getSystemService
+activity::%E9%E6%A9%E5%BE%E6%A0%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2
+api_call::android/content/ContentResolver;->query
+intent::android.intent.action.SET_WALLPAPER
+url::http://www.google.com
+real_permission::android.permission.RESTART_PACKAGES
+activity::%E5%A4%E8%A7%E8%AE%BE%E7%BD%AE%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2
+feature::android.hardware.telephony
+activity::%E9%E6%A9%E4%B8%BB%E9%A2%E2%E2%E2%E2%E2%E2%E2%E2
+permission::android.permission.SET_WALLPAPER
+permission::android.permission.READ_SMS
+permission::android.permission.SET_WALLPAPER_HINTS
+intent::android.intent.action.MAIN
+permission::android.permission.RESTART_PACKAGES
+permission::android.permission.RAISED_THREAD_PRIORITY
+activity::Item properties
+intent::android.intent.category.LAUNCHER
+activity::Sort items
+permission::android.permission.EXPAND_STATUS_BAR
+activity::Item action

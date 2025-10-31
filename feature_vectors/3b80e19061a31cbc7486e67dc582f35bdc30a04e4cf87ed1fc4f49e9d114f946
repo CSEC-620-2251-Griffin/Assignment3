@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::www.sk-spell.sk.cx
+call::getPackageInfo
+url::http://www.openthesaurus.de/synonyme/search
+url::193.2.66.133
+permission::android.permission.INTERNET
+url::http://193.2.66.133:85/xml_api.php
+real_permission::android.permission.INTERNET
+url::http://www.sk-spell.sk.cx/thesaurus/xml_api.php
+intent::android.intent.category.LAUNCHER
+url::www.openthesaurus.de
+activity::.OpenThesaurus
+call::getSystemService
+activity::.activities.About
+activity::.activities.Settings

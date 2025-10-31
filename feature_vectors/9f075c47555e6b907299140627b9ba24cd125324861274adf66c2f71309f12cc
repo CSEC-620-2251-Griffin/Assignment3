@@ -1,0 +1,17 @@
+url::http://www.takahicorp.com/android/mindmapmemo.html\%27>takahicorp.com</a>
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.GET_CONTENT
+call::printStackTrace
+url::http://www.takahicorp.com/android/mindmapmemo.html
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+call::getPackageInfo
+api_call::android/webkit/WebView
+provider::com.takahicorp.provider.MindMap
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::www.takahicorp.com
+activity::.MindMap
+intent::android.intent.category.DEFAULT

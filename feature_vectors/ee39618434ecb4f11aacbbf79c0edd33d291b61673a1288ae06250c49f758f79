@@ -1,0 +1,16 @@
+call::getSystemService
+feature::android.hardware.touchscreen
+url::android.dh-web.net
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.ParFit
+call::Obfuscation(Base64)
+url::http://android.dh-web.net/activations/default.aspx
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::Cipher(DES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::.ParkerIntro

@@ -1,0 +1,6 @@
+url::http://96.9.186.213:18300
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::96.9.186.213
+activity::.SuperStereo
+intent::android.intent.category.LAUNCHER

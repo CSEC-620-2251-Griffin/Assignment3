@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_MOCK_LOCATION
+intent::android.intent.action.MAIN
+activity::LocationTestMap
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::.LocationStatus
+api_call::android/location/LocationManager;->getBestProvider
+permission::android.permission.INTERNET
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.location.network
+call::getSystemService
+permission::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS

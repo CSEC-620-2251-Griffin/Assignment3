@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::market.android.com
+intent::android.intent.action.MAIN
+url::https://market.android.com/details?id%3Dcom.businesscard.hvcc.steve
+activity::.MainActivity
+url::www.bankrate.com
+permission::android.permission.INTERNET
+url::http://www.bankrate.com/syndication/Bankrate_TodaysStories.xml
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService

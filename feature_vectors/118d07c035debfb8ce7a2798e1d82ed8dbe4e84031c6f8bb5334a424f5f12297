@@ -1,0 +1,10 @@
+url::apk.angeeks.com
+feature::android.hardware.touchscreen
+activity::.FoodSelector
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://apk.angeeks.com/d.do?soft_id%3D10015532
+feature::android.hardware.screen.portrait
+api_call::java/net/HttpURLConnection
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

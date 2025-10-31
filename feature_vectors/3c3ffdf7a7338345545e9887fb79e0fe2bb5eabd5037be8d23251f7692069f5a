@@ -1,0 +1,65 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+service_receiver::4x1 Premium Forecasts
+permission::android.permission.ACCESS_FINE_LOCATION
+call::getDeviceId
+activity::com.premiumwidgets.activities.BrowserActivity
+url::http://www.google.com/ig/api?weather%3D
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::com.premiumwidgets.activities.VideoLoadingActivity
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+activity::com.premiumwidgets.activities.ForecastsActivity
+url::http://free.worldweatheronline.com/feed/weather.ashx?q%3D
+call::HttpPost
+url::www.pizero.net
+url::free.worldweatheronline.com
+activity::com.premiumwidgets.activities.WeatherDetailActivity
+feature::android.hardware.location.gps
+real_permission::android.permission.READ_PHONE_STATE
+url::market.android.com
+activity::.activities.VideoLoadingWeatherDetailActivity
+url::www.google.com
+url::http://d1.appredeem.com/redeem_android.php?uuid%3D
+call::printStackTrace
+feature::android.hardware.location
+permission::com.android.vending.CHECK_LICENSE
+real_permission::android.permission.INTERNET
+activity::.VideoLoadingActivity
+call::getSystemService
+activity::com.premiumwidgets.activities.SettingsPrefActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::4x1 Premium Small Clock
+api_call::android/content/ContentResolver;->query
+activity::com.premiumwidgets.activities.ClockActivity2
+activity::com.premiumwidgets.activities.ClockActivity3
+call::Obfuscation(Base64)
+activity::com.premiumwidgets.activities.ClockActivity1
+service_receiver::4x2 Premium Clock 3
+service_receiver::4x2 Premium Clock 2
+service_receiver::4x2 Premium Clock 1
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.activities.SelectWeatherActivity
+url::d1.appredeem.com
+url::http://maps.google.com/maps/geo?q%3D
+url::http://www.pizero.net
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+provider::android.appwidget.provider
+activity::com.premiumwidgets.activities.BaseActivity
+permission::android.permission.ACCESS_MOCK_LOCATION
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.hardware.screen.portrait
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+activity::com.premiumwidgets.activities.SettingsActivity
+url::maps.google.com
+activity::.activities.ThemeActivity
+activity::com.premiumwidgets.activities.LicenseActivity
+activity::com.premiumwidgets.activities.SmallClockActivity

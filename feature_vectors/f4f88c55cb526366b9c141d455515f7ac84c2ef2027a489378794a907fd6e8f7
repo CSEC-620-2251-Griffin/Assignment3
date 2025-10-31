@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+activity::.About
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+activity::.TorchLight
+permission::android.permission.CAMERA
+feature::android.hardware.camera
+url::http://www.gpspleinair.com
+api_call::android/hardware/Camera;->open
+intent::android.intent.category.LAUNCHER
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::www.gpspleinair.com
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+url::https://geoastroapiws.biio.it/api/moonInfo
+permission::android.permission.INTERNET
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+feature::android.software.live_wallpaper
+api_call::android/location/LocationManager;->getLastKnownLocation
+api_call::java/net/URL;->openConnection
+real_permission::android.permission.INTERNET
+url::https://geoastroapiws.biio.it/api/sunInfo
+url::geoastroapiws.biio.it
+url::https://geoastroapiws.biio.it/api/moonIlluminatedFraction
+call::getSystemService
+activity::Preferenze

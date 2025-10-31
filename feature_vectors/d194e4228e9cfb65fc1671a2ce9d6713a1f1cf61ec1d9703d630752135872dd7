@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.READ_LOGS
+intent::android.intent.action.MAIN
+permission::android.permission.READ_LOGS
+intent::android.intent.action.CREATE_SHORTCUT
+api_call::java/lang/Runtime;->exec
+activity::.SendLog
+intent::android.intent.category.DEFAULT
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::Read/Write External Storage

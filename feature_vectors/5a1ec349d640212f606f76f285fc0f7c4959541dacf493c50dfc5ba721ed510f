@@ -1,0 +1,11 @@
+url::http://www.cloudrf.com/m/instructions.html
+feature::android.hardware.touchscreen
+activity::.MapsActivity
+intent::android.intent.action.MAIN
+url::www.cloudrf.com
+url::http://www.cloudrf.com/m/public/
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.cloudrf.com/m/android.php?lat%3D
+url::http://www.cloudrf.com/m/about.html
+activity::.updatesettings

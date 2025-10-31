@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::com.mechsoft.pdd.ShowAnswerActivity
+call::Read/Write External Storage
+call::getPackageInfo
+activity::com.mechsoft.pdd.RootActivity
+real_permission::android.permission.INTERNET
+activity::com.mechsoft.pdd.ExamChooseActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.w3.org/1999/xhtml\
+call::getSystemService
+intent::android.intent.category.SAMPLE_CODE
+activity::com.mechsoft.pdd.EducationChooseActivity
+activity::com.mechsoft.pdd.ResultActivity
+activity::pref
+api_call::android/webkit/WebView
+call::Cipher(RSA)
+intent::android.intent.action.MAIN
+activity::com.mechsoft.pdd.SlideActivity
+activity::browser
+url::www.w3.org
+feature::android.hardware.screen.portrait
+activity::com.mechsoft.pdd.DocsActivity
+intent::android.intent.category.LAUNCHER
+activity::.SplashActivity

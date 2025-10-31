@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+provider::com.allogy.arrowhead.provider.agenda
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::www.allogy.com\
+url::http://www.allogy.com\
+intent::android.intent.category.LAUNCHER
+activity::.SplashActivity
+call::getSystemService
+provider::.provider.AgendaProvider

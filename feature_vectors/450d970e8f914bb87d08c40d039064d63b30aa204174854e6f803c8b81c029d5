@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::AA_DB_NAME
+real_permission::android.permission.INTERNET
+url::http://www.thetvdb.com/api/GetSeries.php?seriesname%3D
+url::http://mindprod.com
+url::http://services.tvrage.com/tools/quickinfo.php?show%3D
+call::getSystemService
+url::www.imdb.com
+url::services.tvrage.com
+url::www.thetvdb.com
+url::mindprod.com
+url::http://www.thetvdb.com/banners/
+url::www.metacritic.com
+url::http://www.imdb.com/find?s%3Dall&q%3D
+activity::.TVStart
+activity::.activity.AddShow
+url::http://services.tvrage.com/feeds/search.php?show%3D
+api_call::java/net/URL;->openConnection
+url::http://www.metacritic.com/search/process?sort%3Drelevance&termtype%3Dall&ts%3D
+activity::.activity.ViewShow
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

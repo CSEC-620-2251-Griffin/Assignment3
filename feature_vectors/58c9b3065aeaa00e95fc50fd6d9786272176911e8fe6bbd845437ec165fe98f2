@@ -1,0 +1,15 @@
+url::http://10.0.0.172:80
+url::www.netmite.com
+url::http://59.42.254.3:8081/pay/largecharge.do
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+url::http://www.netmite.com/android/srv/2.0/upload/D_ZLZ_N73.jad
+url::59.42.254.3
+call::getPackageInfo
+activity::.CMidlet
+url::http://59.42.254.3:8081/pay/largecheck.do
+url::10.0.0.172

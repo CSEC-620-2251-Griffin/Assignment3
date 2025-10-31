@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+service_receiver::com.cervomedia.RiotRingsHD.InAppService
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+service_receiver::com.cervomedia.RiotRingsHD.InAppReceiver
+call::Obfuscation(Base64)
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::com.cervomedia.RiotRingsHD.RiotRingsHD
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::.RiotRingsHD
+permission::com.android.vending.BILLING
+api_call::android/content/Context;->startService

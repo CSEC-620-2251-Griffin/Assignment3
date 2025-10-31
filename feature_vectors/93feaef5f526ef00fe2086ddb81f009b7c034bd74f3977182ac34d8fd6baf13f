@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.DEFAULT
+activity::.VRTunnelMaxSettings
+call::getSystemService
+real_permission::android.permission.READ_CONTACTS
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

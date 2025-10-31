@@ -1,0 +1,42 @@
+feature::android.hardware.touchscreen
+activity::Disclaimer
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::Exercise
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+activity::My stats
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+service_receiver::BillingService
+activity::Exercise Browser
+service_receiver::BillingReceiver
+url::http://a.admob.com/f0?
+permission::com.android.vending.BILLING
+url::http://www.ludusfit.com/app/api/register/?username%3D
+activity::About Ludusfit
+url::www.ludusfit.com
+activity::Workout levels
+activity::My Stats
+activity::.Fitness
+api_call::android/webkit/WebView
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.ludusfit.com/app/api/save/?username%3D
+call::Cipher(AES/CBC/PKCS5Padding)
+activity::Register
+api_call::android/app/Activity;->startActivity
+url::a.admob.com
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/os/PowerManager$WakeLock;->acquire
+feature::android.hardware.screen.portrait
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+activity::Work out
+call::getSystemService
+url::schemas.android.com

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+activity::HallalAdditives
+call::printStackTrace
+feature::android.hardware.screen.portrait
+url::www.les-additifs-alimentaires.com
+url::http://www.les-additifs-alimentaires.com/EXXX.php
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+activity::Splash
+real_permission::android.permission.INTERNET
+call::getSystemService

@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.HOME
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::org.lsartory.cachecleaner.ng.Receiver
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.action.CREATE_SHORTCUT
+api_call::android/content/Context;->startActivity
+activity::.PrefsScreen
+activity::org.lsartory.cachecleaner.ng.PrefsScreen
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+activity::org.lsartory.cachecleaner.ng.ShortcutHandler
+permission::android.permission.RECEIVE_BOOT_COMPLETED

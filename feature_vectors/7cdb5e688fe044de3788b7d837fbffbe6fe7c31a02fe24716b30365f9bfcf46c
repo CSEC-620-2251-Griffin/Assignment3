@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::Settings
+activity::.CalculatorActivity
+intent::android.intent.action.MAIN
+url::market.android.com
+url::http://market.android.com/search?q%3Dpub:\
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+intent::org.openintents.action.CALCULATOR

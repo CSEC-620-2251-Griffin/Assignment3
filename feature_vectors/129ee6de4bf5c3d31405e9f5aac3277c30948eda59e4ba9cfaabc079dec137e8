@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://market.nduoa.com/update/nDuoaMarket.apk
+permission::android.permission.INTERNET
+url::market.nduoa.com
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+real_permission::android.permission.VIBRATE
+service_receiver::TakeScreenshotService
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->startActivity

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+call::printStackTrace
+activity::.ColorSwitcher
+feature::android.hardware.screen.portrait
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/content/Context;->sendBroadcast
+call::Read/Write External Storage
+call::getSystemService

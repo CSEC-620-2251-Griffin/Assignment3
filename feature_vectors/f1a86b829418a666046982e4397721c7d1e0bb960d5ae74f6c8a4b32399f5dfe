@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.activity.GameTypeSelectionActivity
+url::http://m.slideme.org/application/kids-alphabet
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.SplashScreenActivity
+feature::android.hardware.screen.portrait
+activity::.activity.LetterActivity
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+activity::.activity.SplashScreenActivity
+activity::.activity.FindLetterActivity
+intent::android.intent.category.DEFAULT
+activity::.activity.AlphabetActivity
+call::getSystemService
+url::m.slideme.org

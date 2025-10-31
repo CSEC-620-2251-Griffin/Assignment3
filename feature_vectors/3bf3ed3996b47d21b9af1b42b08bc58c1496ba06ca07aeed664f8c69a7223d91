@@ -1,0 +1,14 @@
+activity::.STA
+url::www.netmite.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://sngame.3g.qq.com
+url::10.0.0.172
+url::sngame.3g.qq.com
+intent::android.intent.category.LAUNCHER
+url::211.139.188.53
+call::getPackageInfo
+url::http://10.0.0.172:80
+url::http://sngame.3g.qq.com/sngame/svtdo2

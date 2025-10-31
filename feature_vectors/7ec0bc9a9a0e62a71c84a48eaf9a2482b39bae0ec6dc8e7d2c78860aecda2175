@@ -1,0 +1,40 @@
+feature::android.hardware.touchscreen
+activity::MenuActivity
+call::getDeviceId
+call::printStackTrace
+service_receiver::.OnBootAlarmSetup
+permission::android.permission.INTERNET
+activity::Schedule
+activity::com.guidebook.android.WebActivity
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+activity::About Guidebook
+real_permission::android.permission.VIBRATE
+url::gears.dev.guidebookapp.com
+activity::.LaunchActivity
+call::getSystemService
+url::http://gears.guidebookapp.com/service/v1
+activity::MyMapActivity
+activity::Download Guides
+activity::Maps
+activity::Redeem Code
+url::http://gears.dev.guidebookapp.com/service/v1
+api_call::java/lang/Runtime;->exec
+activity::Search
+call::Execution of external commands
+activity::Exhibitors
+activity::Create Task
+activity::GuideSelector
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+url::gears.guidebookapp.com
+activity::SearchableActivity
+real_permission::android.permission.READ_LOGS
+service_receiver::EventAlertAlarm
+activity::Event Details
+intent::android.intent.category.LAUNCHER
+activity::Todo
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+activity::General Info

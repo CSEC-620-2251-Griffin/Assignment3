@@ -1,0 +1,14 @@
+activity::com.gf.allergytraveller.core.ActivityMessageType
+intent::android.intent.action.MAIN
+activity::com.gf.allergytraveller.core.ActivityConfigure
+feature::android.hardware.touchscreen
+intent::android.intent.action.PACKAGE_REMOVED
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+activity::com.gf.allergytraveller.core.ActivityTranslationPicker
+service_receiver::com.gf.allergytraveller.core.PackageAddRemoveIntentReceiver
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+activity::.ActivityDisplay
+activity::com.gf.allergytraveller.core.ActivityDisplay
+intent::android.intent.action.PACKAGE_ADDED

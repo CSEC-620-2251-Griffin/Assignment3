@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.CALL_PHONE
+url::http://mobile.vpay.co.kr/jsp/MISP/andown.jsp
+url::http://custay.sarangbang.com/mobile/?android
+permission::android.permission.INTERNET
+permission::android.permission.CALL_PRIVILEGED
+url::custay.sarangbang.com
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://custay.sarangbang.com/mobile/
+activity::.custay
+url::mobile.vpay.co.kr

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.CouponWorld
+url::http://www.seniorhome.com.tw/front/bin/cws.phtml?Id%3D1277
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.seniorhome.com.tw

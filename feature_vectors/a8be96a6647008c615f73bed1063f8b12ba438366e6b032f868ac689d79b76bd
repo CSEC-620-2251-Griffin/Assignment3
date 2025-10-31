@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+real_permission::android.permission.READ_LOGS
+service_receiver::WidgetUpdateBooster
+intent::android.intent.action.MAIN
+service_receiver::LogcatRecorderService
+permission::android.permission.READ_LOGS
+service_receiver::WidgetReceiver
+api_call::java/lang/Runtime;->exec
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Execution of external commands
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo
+activity::.LogcatRecorder
+provider::android.appwidget.provider
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

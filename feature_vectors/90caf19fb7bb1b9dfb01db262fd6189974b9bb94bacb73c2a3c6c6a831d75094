@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.GET_CONTENT
+call::Read/Write External Storage
+activity::.FilePicker
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.OPENABLE

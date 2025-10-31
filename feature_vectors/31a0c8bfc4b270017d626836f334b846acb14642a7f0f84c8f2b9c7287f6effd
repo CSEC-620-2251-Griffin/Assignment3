@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::ConnectionActivity
+permission::android.permission.INTERNET
+url::)
+call::getPackageInfo
+call::HttpPost
+api_call::java/net/Socket
+activity::SplashActivity
+call::getSystemService
+service_receiver::com.blizzard.permission.BMA_TOKEN_SERVICE
+activity::SetupActivity
+activity::ConnectionFailActivity
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+activity::WarningActivity
+activity::ViewCodeActivity
+url::http://)?[a-zA-Z_0-9\\-]+(\\.[a-zA-Z_0-9\\-]+)+(/[
+activity::SetupInitialActivity
+service_receiver::.service.TokenService
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::.SplashActivity
+activity::AboutActivity
+real_permission::android.permission.INTERNET
+activity::HelpActivity
+intent::android.intent.category.LAUNCHER
+permission::com.blizzard.permission.BMA_TOKEN_SERVICE

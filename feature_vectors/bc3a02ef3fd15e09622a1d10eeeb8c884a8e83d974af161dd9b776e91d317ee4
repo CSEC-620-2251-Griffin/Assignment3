@@ -1,0 +1,12 @@
+url::m.aibo123.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://m.aibo123.com
+activity::.TargetActivity
+activity::.AiBo
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+service_receiver::ExampleAppWidgetProvider

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+activity::com.shenouda.coptic.Synaxarium.Synaxarium_home
+activity::.Synaxarium_home
+intent::android.intent.category.LAUNCHER

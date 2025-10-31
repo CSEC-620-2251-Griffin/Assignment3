@@ -1,0 +1,9 @@
+service_receiver::.ToggleHeadsetAppWidgetProvider$ToggleHeadsetService
+feature::android.hardware.touchscreen
+service_receiver::.ToggleHeadsetBroadcastReceiver
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+intent::android.intent.action.ACTION_POWER_CONNECTED
+intent::android.intent.action.ACTION_POWER_DISCONNECTED
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+call::getSystemService

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://goo.gl/2N1i
+activity::.EeniePreferences
+url::goo.gl
+intent::android.intent.category.LAUNCHER
+activity::.eeniemeenie

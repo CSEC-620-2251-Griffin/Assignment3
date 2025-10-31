@@ -1,0 +1,26 @@
+provider::com.gxapplications.android.gxsuite.banktrial.chartproviders.BudgetsProvider
+feature::android.hardware.touchscreen
+activity::.BankOperationList
+intent::android.intent.category.DEFAULT
+url::http://www.gxapplications.com/gxbank-forum\%27>gX
+intent::org.openintents.action.CALCULATOR
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+activity::.BankIndicatorCoinsWidgetConfigure
+provider::com.gxapplications.android.gxsuite.banktrial.chartproviders.CategoriesProvider
+intent::android.intent.action.EDIT
+provider::com.gxapplications.android.gxsuite.banktrial.chartproviders.budgets_provider
+call::Read/Write External Storage
+intent::android.intent.action.VIEW
+api_call::android/webkit/WebView
+provider::com.gxapplications.android.gxsuite.banktrial.chartproviders.categories_provider
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.gxapplications.com
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+intent::org.openintents.action.PICK_FILE
+api_call::android/app/NotificationManager;->notify
+intent::org.openintents.action.PICK_DIRECTORY
+provider::android.appwidget.provider

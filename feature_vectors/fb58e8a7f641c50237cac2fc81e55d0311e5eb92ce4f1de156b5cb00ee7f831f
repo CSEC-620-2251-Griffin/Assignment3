@@ -1,0 +1,21 @@
+real_permission::android.permission.INJECT_EVENTS
+feature::android.hardware.touchscreen
+url::http://203.114.103.68/etipitaka/android/ETPK.zip
+api_call::android/app/Instrumentation;->sendKeyDownUpSync
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+activity::.SelectBookActivity
+real_permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::java/net/HttpURLConnection
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::203.114.103.68
+api_call::android/content/Context;->startActivity
+call::getSystemService

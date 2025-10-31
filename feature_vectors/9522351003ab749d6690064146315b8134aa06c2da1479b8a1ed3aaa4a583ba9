@@ -1,0 +1,17 @@
+activity::.SelectMod
+api_call::java/net/URL;->openConnection
+activity::.About
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+permission::android.permission.INTERNET
+activity::.main2
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+url::http://home.kpn.nl/ber02644/SGSbat_icon.txt
+intent::android.intent.category.LAUNCHER
+url::http://home.kpn.nl/ber02644/
+call::printStackTrace
+call::getSystemService
+url::home.kpn.nl

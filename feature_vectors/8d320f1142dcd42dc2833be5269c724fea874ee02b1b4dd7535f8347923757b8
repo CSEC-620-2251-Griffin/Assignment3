@@ -1,0 +1,14 @@
+url::www.pragprog.com
+feature::android.hardware.touchscreen
+activity::.MainMenuActivity
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+activity::.RegisterActivity
+activity::.MyPreferenceActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.pragprog.com/titles/eband3/hello-android
+intent::android.intent.category.LAUNCHER
+url::ajax.googleapis.com
+activity::.ReviewActivity
+url::http://ajax.googleapis.com/ajax/services/language/translate?v%3D1.0&q%3D

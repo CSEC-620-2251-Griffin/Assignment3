@@ -1,0 +1,7 @@
+activity::.jiemeng
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.StartActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.listshow

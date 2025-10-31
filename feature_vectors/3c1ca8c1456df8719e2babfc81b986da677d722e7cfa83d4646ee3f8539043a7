@@ -1,0 +1,27 @@
+url::beekeeperlabs.com
+feature::android.hardware.touchscreen
+service_receiver::com.beekeeper.android.weeweek.base.SyncService
+call::Read/Write External Storage
+service_receiver::Wee Week (Trial)
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+url::http://beekeeperlabs.com/ContactUs.php
+api_call::android/content/Context;->startActivity
+api_call::android/accounts/AccountManager;->getAccounts
+call::getSystemService
+activity::com.beekeeper.android.weeweek.base.AllPrefs
+api_call::android/content/ContentResolver;->isSyncActive
+permission::android.permission.GET_ACCOUNTS
+permission::android.permission.READ_SYNC_SETTINGS
+real_permission::android.permission.GET_ACCOUNTS
+api_call::android/content/ContentResolver;->getIsSyncable
+api_call::java/net/URL;->openConnection
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::com.beekeeper.android.weeweek.base.RuleEdit
+real_permission::android.permission.INTERNET
+real_permission::android.permission.READ_SYNC_SETTINGS
+activity::com.beekeeper.android.weeweek.base.ConfigPrefs
+permission::android.permission.READ_CALENDAR
+permission::android.permission.READ_SYNC_STATS
+provider::android.appwidget.provider
+real_permission::android.permission.READ_SYNC_STATS

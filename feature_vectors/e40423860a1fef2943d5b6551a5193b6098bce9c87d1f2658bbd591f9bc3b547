@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.SettingsHC
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+activity::.coin2d.Coin2DActivityHC
+activity::.LifeCounter
+activity::.Settings
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+real_permission::android.permission.READ_CONTACTS
+api_call::android/app/Activity;->startActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

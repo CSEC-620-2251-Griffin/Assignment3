@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.Expenses
+intent::android.intent.action.MAIN
+activity::.Income
+activity::.ExpensesEdit
+activity::.IncomeEdit
+intent::android.intent.category.LAUNCHER
+activity::.QuickBudget

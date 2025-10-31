@@ -1,0 +1,51 @@
+activity::.activity.AddShareView
+activity::.activity.ShareView
+activity::My Shares
+activity::Select share-name
+activity::.activity.SearchSubnetView
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+url::http://www.vg.no
+activity::.activity.ChooseFolderView
+service_receiver::.service.BootCompleteReceiver
+activity::Add Share
+activity::Known Hosts
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.INTERNET
+activity::Choose local folder
+activity::.activity.SharedFolderSelectorView
+real_permission::android.permission.READ_LOGS
+activity::.activity.MainMenuView
+activity::.activity.ManualHostInput
+activity::Select Folder
+activity::.activity.SetupShareView
+activity::.activity.ChooseHostView
+activity::.activity.SettingsView
+api_call::java/lang/Runtime;->exec
+intent::android.intent.category.LAUNCHER
+activity::LAN-scan
+service_receiver::.service.ShareBoxService
+activity::Settings
+activity::.activity.SelectRepoView
+activity::.activity.ShareListView
+call::Obfuscation(Base64)
+activity::.activity.HostListView
+call::Execution of external commands
+service_receiver::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/content/Context;->startService
+call::Cipher(RC4)
+activity::Select remote host
+api_call::java/net/HttpURLConnection
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.w3.org
+call::Cipher(none)
+url::http://www.w3.org/2001/XMLSchema\
+activity::Share
+activity::.activity.FolderBrowserView
+call::printStackTrace
+activity::.MainMenuView
+activity::Manual host input
+url::www.vg.no
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+activity::.service.ShareBoxService

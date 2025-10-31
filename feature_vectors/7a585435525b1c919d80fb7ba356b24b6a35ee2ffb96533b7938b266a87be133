@@ -1,0 +1,15 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www-tss.cisco.com/eservice/mobile_apps/mobile.xml
+url::www.youtube.com
+url::www-tss.cisco.com
+url::http://www-tss.cisco.com/eservice/mobile_apps/login.php?username_signin%3D
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www-tss.cisco.com/eservice/mobile_apps/estm_logo.jpg
+url::http://www.youtube.com/watch?v%3D
+activity::.ESTMobileDemo
+real_permission::android.permission.INTERNET

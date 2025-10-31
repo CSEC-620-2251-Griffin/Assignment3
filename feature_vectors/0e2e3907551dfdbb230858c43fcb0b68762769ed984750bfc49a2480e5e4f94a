@@ -1,0 +1,18 @@
+feature::android.hardware.touchscreen
+service_receiver::.Services.StartAtBootServiceReceiver
+service_receiver::.Widget.ImagesWidgetProvider
+service_receiver::.Services.StartAtBootService
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.HOME
+provider::android.appwidget.provider
+feature::android.hardware.camera
+api_call::android/content/Context;->startActivity
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+activity::.MoneyDroid
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService

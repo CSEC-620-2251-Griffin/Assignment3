@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.sense.jp
+call::getSystemService
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+activity::.Body_measurement
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::Read/Write External Storage
+url::http://www.sense.jp

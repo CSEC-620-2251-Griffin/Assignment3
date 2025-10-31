@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.GoWidgetActivity
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.DEFAULT
+feature::android.hardware.telephony
+url::http://61.145.124.93/soft/3GHeart/com.gau.go.launcherex.apk
+url::61.145.124.93
+permission::android.permission.CALL_PHONE
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+intent::android.intent.category.INFO
+api_call::android/provider/ContactsContract$Contacts;->getLookupUri

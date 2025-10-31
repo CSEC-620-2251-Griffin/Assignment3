@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::www.tielu.org
+activity::.TrainTime
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::http://www.tielu.org/Search/
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService

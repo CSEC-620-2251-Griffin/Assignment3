@@ -1,0 +1,15 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://chathirak.appspot.com/zigsaw?cat%3D
+intent::android.intent.category.LAUNCHER
+url::chathirak.appspot.com
+real_permission::android.permission.INTERNET
+activity::.Introduction
+activity::.ShowImage
+call::getSystemService
+activity::.Instructions

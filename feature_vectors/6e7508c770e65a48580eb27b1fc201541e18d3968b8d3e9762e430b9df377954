@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+service_receiver::.SMSResponderService
+real_permission::android.permission.SEND_SMS
+permission::android.permission.SEND_SMS
+activity::.BzzyStatus
+permission::android.permission.RECEIVE_SMS
+api_call::android/telephony/SmsManager;->sendTextMessage
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.BzzyMenu
+activity::.Bzzy
+api_call::android/app/NotificationManager;->notify
+call::getSystemService

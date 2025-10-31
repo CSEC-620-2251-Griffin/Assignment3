@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+permission::android.permission.BATTERY_STATS
+intent::android.intent.action.BATTERY_CHANGED
+api_call::android/content/Context;->startService
+service_receiver::AndBattReceiver
+provider::android.appwidget.provider

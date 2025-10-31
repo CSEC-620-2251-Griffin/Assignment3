@@ -1,0 +1,13 @@
+activity::.Amsterdam
+url::www.tourmovil.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+url::http://www.dieportvancleve.com^
+url::http://www.netmite.com/android/andme_signed.apk
+url::www.dieportvancleve.com^
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://www.tourmovil.com/amsterdam.jad
+url::www.netmite.com

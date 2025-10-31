@@ -1,0 +1,3 @@
+activity::.PhotoClockConfigure
+provider::android.appwidget.provider
+feature::android.hardware.touchscreen

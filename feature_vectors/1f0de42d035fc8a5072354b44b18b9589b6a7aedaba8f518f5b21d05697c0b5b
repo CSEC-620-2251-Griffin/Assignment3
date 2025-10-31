@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+call::getSystemService
+service_receiver::SoftKeyboard
+url::www.kandroid.com
+url::http://www.kandroid.com/market/product.php?id%3D1

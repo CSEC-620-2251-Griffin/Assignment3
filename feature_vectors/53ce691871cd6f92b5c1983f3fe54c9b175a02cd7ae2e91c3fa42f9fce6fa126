@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://m.keystoneedu.com/mobile/main.asp
+activity::.EduencePDAActivity
+url::http://m.keystoneedu.com/mobile/sms.html
+url::m.keystoneedu.com
+permission::android.permission.INTERNET
+url::http://m.keystoneedu.com/mobile/msg.html
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

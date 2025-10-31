@@ -1,0 +1,48 @@
+feature::android.hardware.touchscreen
+url::www.geekselection.com
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::printStackTrace
+intent::android.intent.category.HOME
+permission::android.permission.READ_PHONE_STATE
+activity::.Main
+permission::android.permission.INTERNET
+service_receiver::InfoConso 4x1
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.INTERNET
+call::HttpPost
+api_call::android/content/ContentResolver;->query
+activity::Preferences
+url::http://wap.sdp.sfr.fr/cae/3pi/display.do?nodeName%3Dpml_mesoptions_1
+permission::android.permission.ACCESS_WIFI_STATE
+url::http://www.geekselection.com/android/infoconso/InfoConso.wml
+api_call::java/net/Socket
+url::http://www.geekselection.com/android/infoconso/MesOptionsAccueil.wml
+url::http://www.geekselection.com/android/infoconso/MaFacture.wml
+real_permission::android.permission.VIBRATE
+call::setWifiEnabled
+url::wap.sdp.sfr.fr
+url::http://m.sfr.fr/auth/index
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+service_receiver::InfoConso Service
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/net/wifi/WifiManager;->setWifiEnabled
+api_call::android/content/Context;->startService
+url::http://wap.sdp.sfr.fr/cae/3pi/display.do?nodeName%3Dpml_moninfoconso_1
+url::http://www.geekselection.com/android/infoconso/MonForfait.wml
+real_permission::android.permission.CHANGE_WIFI_STATE
+service_receiver::StartupIntentReceiver
+permission::android.permission.CHANGE_WIFI_STATE
+url::http://wap.sdp.sfr.fr/cae/3pi/display.do?nodeName%3Dpml_monforfait_1
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+provider::android.appwidget.provider
+url::m.sfr.fr
+service_receiver::InfoConso Hors forfait 1x1
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/app/NotificationManager;->notify
+service_receiver::InfoConso Tps restant 1x1
+call::getSystemService
+url::http://wap.sdp.sfr.fr/cae/3pi/display.do?nodeName%3Dpml_mesfactures_1

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://godap.info/meet/meet_index.html
+activity::.DeaiPro
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::godap.info
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

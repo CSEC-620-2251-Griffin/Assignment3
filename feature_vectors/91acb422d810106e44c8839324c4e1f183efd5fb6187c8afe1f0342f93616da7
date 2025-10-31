@@ -1,0 +1,12 @@
+activity::PlayActivity
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+activity::StartActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.StartActivity
+activity::HighscoreActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.activity
+call::getSystemService

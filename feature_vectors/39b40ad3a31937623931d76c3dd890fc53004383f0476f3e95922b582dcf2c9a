@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+url::medinet.se
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://medinet.se:8421/cgi-bin/mUser.pl?
+intent::android.intent.category.LAUNCHER
+activity::.SplashActivity

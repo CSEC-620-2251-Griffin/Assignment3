@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+url::http://au.finance.yahoo.com/d/quotes.csv?s%3D%40
+intent::android.intent.action.MAIN
+url::au.finance.yahoo.com
+permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::Widget Service
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.CONFIGURATION_CHANGED
+api_call::java/net/Socket
+url::www.pac-invest.com.au
+permission::android.permission.INTERNET
+url::http://www.pac-invest.com.au/
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+activity::.testdraw
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

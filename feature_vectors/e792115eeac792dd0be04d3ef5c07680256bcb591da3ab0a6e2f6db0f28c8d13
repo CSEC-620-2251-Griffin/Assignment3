@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.dailybronco.com/roster
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mobile.dailybronco.com/about
+activity::.Main
+url::http://mobile.dailybronco.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.dailybronco.com/schedule
+intent::android.intent.category.LAUNCHER
+url::mobile.dailybronco.com
+activity::Daily Bronco
+url::http://mobile.dailybronco.com/stats

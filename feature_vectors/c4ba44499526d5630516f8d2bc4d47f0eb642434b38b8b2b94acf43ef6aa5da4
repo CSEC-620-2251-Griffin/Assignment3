@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.BaiduTop10Activity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::top.baidu.com
+intent::android.intent.category.LAUNCHER
+url::http://top.baidu.com/buzz/top10.html
+api_call::java/net/URL;->openConnection

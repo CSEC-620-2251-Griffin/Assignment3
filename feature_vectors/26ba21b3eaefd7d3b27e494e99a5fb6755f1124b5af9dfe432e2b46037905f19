@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::clouddevday-schedule.s3-website-us-east-1.amazonaws.com
+intent::android.intent.action.MAIN
+url::http://www.greymatterworx.com/MobiDevDay/data.xml
+permission::android.permission.INTERNET
+activity::.SplashScreenActivity
+url::http://clouddevday-schedule.s3-website-us-east-1.amazonaws.com/
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::www.greymatterworx.com

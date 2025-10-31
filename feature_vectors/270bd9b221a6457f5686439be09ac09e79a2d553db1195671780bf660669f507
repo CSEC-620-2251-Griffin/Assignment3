@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::http://m7lola.com/mreader/download/tahmeel.php?f%3D
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+url::http://www.m7lola.com/mreader/library/index.php
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/webkit/WebView
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+activity::.Library
+permission::android.permission.ACCESS_NETWORK_STATE
+url::m7lola.com
+url::www.m7lola.com
+intent::android.intent.category.LAUNCHER

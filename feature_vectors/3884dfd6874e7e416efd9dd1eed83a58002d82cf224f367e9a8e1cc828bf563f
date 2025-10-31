@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.imou
+intent::android.intent.action.MAIN
+url::http://perso.orange.es/web110862/ads.html
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::perso.orange.es
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->stop
+url::shoutcast.kglt.net
+url::www.kglt.net
+url::http://shoutcast.kglt.net:8000
+url::http://www.kglt.net/
+intent::android.intent.category.LAUNCHER
+activity::.KGLTFMActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

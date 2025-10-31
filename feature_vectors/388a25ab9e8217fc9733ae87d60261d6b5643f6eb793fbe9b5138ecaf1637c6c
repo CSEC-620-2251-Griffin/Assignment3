@@ -1,0 +1,11 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.RESTART_PACKAGES
+api_call::android/app/ActivityManager;->restartPackage
+activity::.AppManagerActivity
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.RESTART_PACKAGES
+call::getSystemService

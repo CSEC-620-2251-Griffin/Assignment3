@@ -1,0 +1,15 @@
+activity::Category Title
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::Add Game
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+permission::android.permission.READ_PHONE_STATE
+call::Read/Write External Storage
+activity::.FlashGamesManager
+call::getSystemService

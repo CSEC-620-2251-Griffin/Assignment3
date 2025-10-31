@@ -1,0 +1,23 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::org.achartengine.GraphicalActivity
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_COURSE_LOCATION
+feature::android.hardware.location.gps
+url::market.android.com
+url::http://market.android.com/details?id%3Dcom.zonedcode.android.lifestyle.timediary
+feature::android.hardware.location
+call::getSystemService
+url::http://www.youtube.com/watch?v%3DEmeFvZkViQI
+api_call::android/location/LocationManager;->requestLocationUpdates
+call::Read/Write External Storage
+activity::.StatusList
+activity::.TimeDiary
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.youtube.com
+intent::android.intent.category.LAUNCHER
+activity::.PunchDetail

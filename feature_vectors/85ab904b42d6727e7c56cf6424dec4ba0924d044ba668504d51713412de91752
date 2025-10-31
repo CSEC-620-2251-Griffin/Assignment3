@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.yennik.com/go/internet_it_security_news.htm
+activity::.ITnews
+url::http://www.yennik.com/go/email_banking_news.htm
+url::http://www.yennik.com/go
+permission::android.permission.INTERNET
+url::http://www.yennik.com/go/internet_banking_news.htm
+intent::android.intent.category.LAUNCHER
+activity::.MenuActivity
+api_call::android/webkit/WebView
+url::www.yennik.com
+real_permission::android.permission.INTERNET
+activity::.SplashActivity
+activity::.Internetbank
+activity::.Audits
+activity::.Emailbank

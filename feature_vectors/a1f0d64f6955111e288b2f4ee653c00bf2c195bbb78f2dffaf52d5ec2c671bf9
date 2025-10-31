@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://120.193.11.15/s1/021/1836/6541.jar
+url::http://www.netmite.com/android/andme_signed.apk
+url::www.netmite.com
+call::getPackageInfo
+url::120.193.11.15
+activity::.Gamelet
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::https://market.android.com/details?id%3Dcom.boots.MyAppsList
+url::chart.apis.google.com
+url::http://chart.apis.google.com/chart?chs%3D200x200&cht%3Dqr&chl%3D%s
+call::Read/Write External Storage
+activity::.MyAppsList
+intent::android.intent.category.LAUNCHER
+url::https://market.android.com/details?id%3D
+call::getPackageInfo
+call::getSystemService

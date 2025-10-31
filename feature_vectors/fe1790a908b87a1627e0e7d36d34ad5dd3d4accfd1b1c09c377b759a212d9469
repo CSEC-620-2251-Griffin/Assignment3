@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+activity::.PeakFlowGraphActivity
+intent::android.intent.action.MAIN
+service_receiver::com.cowjumping.android.peakflow.cowjumpingdonation.BillingService
+call::getSystemService
+call::Obfuscation(Base64)
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::com.cowjumping.android.peakflow.cowjumpingdonation.BillingReceiver
+activity::.AboutActivity
+activity::.Settings
+permission::com.android.vending.BILLING
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.PeakFlowListActivity
+call::getPackageInfo
+feature::android.hardware.screen.portrait
+activity::.PeakFlowEntryActivity
+activity::.cowjumpingdonation.DonationActivity

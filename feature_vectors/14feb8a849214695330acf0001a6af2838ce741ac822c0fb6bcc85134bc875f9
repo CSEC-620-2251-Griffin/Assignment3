@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+activity::.sett
+service_receiver::recv
+intent::android.intent.action.MAIN
+real_permission::android.permission.VIBRATE
+intent::android.intent.category.DEFAULT
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+service_receiver::svc
+intent::android.intent.action.BOOT_COMPLETED
+call::Read/Write External Storage
+call::getSystemService
+service_receiver::boot

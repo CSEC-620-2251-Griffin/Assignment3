@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+feature::android.hardware.screen.portrait
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+activity::.FurichActivity
+call::getSystemService

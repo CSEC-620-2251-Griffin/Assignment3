@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.myjb.co.kr/appl/06_food_view/food_view.php
+url::http://www.myjb.co.kr/appl/09_cupon/cupon.php
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.myjb.co.kr/appl/08_recommend/recommend.php
+activity::.Main
+url::http://www.myjb.co.kr/appl/07_news/news_list.php
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+activity::.Jeonbuk
+intent::android.intent.category.LAUNCHER
+url::www.myjb.co.kr
+real_permission::android.permission.INTERNET

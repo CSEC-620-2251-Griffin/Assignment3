@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::MainMenu
+activity::.MainMenu
+activity::StageActivity
+activity::SettingsActivity
+api_call::android/app/Activity;->startActivity
+activity::CampaignActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

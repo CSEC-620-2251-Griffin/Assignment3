@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.READ_CONTACTS
+activity::Aaapos
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+feature::android.hardware.location
+api_call::java/net/URL;->openStream
+activity::.Immer_Service_AT
+call::getSystemService
+activity::Einstellungen
+url::www.jobst-software.com
+url::http://www.w3.org/TR/2001/REC-xhtml11-20010531/DTD/xhtml11-flat.dtd\
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+activity::.AaaPrintViewer
+url::www.w3.org
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+url::http://www.jobst-software.com

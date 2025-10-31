@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::yahoo.widget.free.fr
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://yahoo.widget.free.fr/
+intent::android.intent.category.LAUNCHER
+activity::.PipCalculator
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::HttpPost
+activity::PipCalculator

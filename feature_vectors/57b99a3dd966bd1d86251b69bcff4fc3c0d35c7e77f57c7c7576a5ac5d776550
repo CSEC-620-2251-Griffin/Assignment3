@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.google.com/cse?cx%3D009202765687273617243%3Ayg4dejxiqca&ie%3DUTF-8&q%3D
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.google.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.google.com/cse?cx%3D009202765687273617243%3Arqtgjk3xi2q&ie%3DUTF-8&q%3D
+activity::.LotusCustomSearches
+url::http://www.google.com/cse?cx%3D009202765687273617243:_qnujupd_pk&ie%3DUTF-8&q%3D
+call::getSystemService

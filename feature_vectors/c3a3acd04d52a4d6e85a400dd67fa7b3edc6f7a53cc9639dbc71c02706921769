@@ -1,0 +1,16 @@
+activity::.MemoryInformation
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.RESTART_PACKAGES
+api_call::java/lang/Runtime;->exec
+call::printStackTrace
+api_call::android/app/ActivityManager;->restartPackage
+permission::android.permission.KILL_BACKGROUND_PROCESSES
+real_permission::android.permission.RESTART_PACKAGES
+call::Execution of external commands
+activity::.MainMenu
+permission::android.permission.GET_TASKS
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService

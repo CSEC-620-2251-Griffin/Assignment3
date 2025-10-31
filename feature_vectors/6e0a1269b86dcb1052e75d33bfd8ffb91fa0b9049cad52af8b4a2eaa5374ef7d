@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::api.tubeupdates.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.TubeStatus
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://api.tubeupdates.com/
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startActivity
+call::getSystemService

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+real_permission::android.permission.WRITE_SETTINGS
+service_receiver::OffTheHookService
+intent::android.intent.category.LAUNCHER
+activity::.OffTheHookSettings
+api_call::android/media/RingtoneManager;->setActualDefaultRingtoneUri
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

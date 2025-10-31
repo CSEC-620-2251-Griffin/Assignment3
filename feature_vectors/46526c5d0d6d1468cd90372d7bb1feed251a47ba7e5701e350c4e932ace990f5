@@ -1,0 +1,21 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::www.ottafone.com
+intent::android.intent.action.MAIN
+url::http://www.ottafone.com/gl/dlfw1.asp?ademo%3D1
+url::http://www.ottafone.com/gl/dlfw2.asp
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+call::getSystemService
+api_call::java/net/HttpURLConnection
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::.HomeScreen
+api_call::android/app/WallpaperManager;->setBitmap
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.SET_WALLPAPER

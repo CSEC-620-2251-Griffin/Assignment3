@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::.OAplikaciji
+intent::android.intent.action.MAIN
+url::jakopec.com
+call::getSystemService
+activity::.Aplikacija
+feature::android.hardware.screen.portrait
+activity::.NovaIgra
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+activity::.PromjenaIgra
+real_permission::android.permission.WAKE_LOCK
+url::http://jakopec.com
+activity::.Postavke

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.PACKAGE_ADDED
+intent::android.intent.action.MAIN
+service_receiver::.PackagesChangedReceiver
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+activity::.Scan4ME
+intent::android.intent.action.PACKAGE_INSTALL
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/app/NotificationManager;->notify
+activity::.settings
+call::getSystemService

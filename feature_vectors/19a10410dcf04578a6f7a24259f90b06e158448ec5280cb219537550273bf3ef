@@ -1,0 +1,5 @@
+url::http://ccode.tistory.com/29
+feature::android.hardware.touchscreen
+url::ccode.tistory.com
+service_receiver::SoftKeyboard
+permission::android.permission.VIBRATE

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.Shrtn
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+url::shr.tn
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+url::http://shr.tn/api/v1/short?long%3D
+real_permission::android.permission.INTERNET
+call::getSystemService

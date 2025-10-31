@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::Category Display
+service_receiver::WidgetProvider
+api_call::android/app/NotificationManager;->notify
+activity::Category Edit
+activity::Task Alarm
+activity::Task Display
+service_receiver::Task_Manage_Alarm
+real_permission::android.permission.VIBRATE
+activity::Application Preferences
+activity::Application Tips
+activity::Task Edit
+provider::android.appwidget.provider
+call::getSystemService

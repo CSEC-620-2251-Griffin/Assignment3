@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.QuoterActivity
+call::printStackTrace
+service_receiver::com.mrg.ronburgundyquoter.QuoterWidget$UpdateService
+intent::android.intent.category.LAUNCHER
+service_receiver::com.mrg.ronburgundyquoter.QuoterWidget
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

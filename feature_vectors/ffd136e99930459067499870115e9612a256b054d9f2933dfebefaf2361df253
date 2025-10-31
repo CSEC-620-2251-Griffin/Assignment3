@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::http://koldcollege.net.dynamicweb.dk/Default.aspx?ID%3D789
+intent::android.intent.action.MAIN
+url::http://koldcollege.net.dynamicweb.dk/Default.aspx?ID%3D788
+url::http://koldcollege.net.dynamicweb.dk/Default.aspx?ID%3D787
+url::http://koldcollege.net.dynamicweb.dk/Default.aspx?ID%3D786
+url::http://koldcollege.net.dynamicweb.dk/Default.aspx?ID%3D785
+activity::.Main
+url::http://koldcollege.net.dynamicweb.dk/Default.aspx?ID%3D783
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::koldcollege.net.dynamicweb.dk

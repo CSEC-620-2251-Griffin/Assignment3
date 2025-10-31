@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.LDSHymns
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::net.swankwiki.ldshymns.DownloaderActivity
+activity::net.swankwiki.ldshymns.LDSHymns
+api_call::android/app/Activity;->startActivity
+api_call::java/net/Socket
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,13 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+feature::android.hardware.screen.portrait
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::aptly.mobi
+intent::android.intent.category.DEFAULT
+permission::android.permission.INTERNET
+permission::android.permission.INSTALL_PACKAGES
+url::http://aptly.mobi/api/
+real_permission::android.permission.INTERNET
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW

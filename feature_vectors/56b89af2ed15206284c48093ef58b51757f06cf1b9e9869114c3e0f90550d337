@@ -1,0 +1,15 @@
+url::market.android.com
+feature::android.hardware.touchscreen
+activity::.actGame
+intent::android.intent.action.MAIN
+activity::.PopBallLite
+url::https://market.android.com/details?id%3Dsglpnt.PopBall
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+activity::.help

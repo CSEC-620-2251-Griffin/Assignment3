@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.About
+intent::android.intent.action.MAIN
+activity::.Count
+intent::android.intent.category.LAUNCHER
+activity::.Preferences
+call::getSystemService
+activity::.Instructions

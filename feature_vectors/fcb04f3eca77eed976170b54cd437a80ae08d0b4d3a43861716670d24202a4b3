@@ -1,0 +1,21 @@
+url::market.android.com
+feature::android.hardware.location.network
+url::www.facebook.com
+service_receiver::%CF Time
+url::http://market.android.com/details?id%3Dcom.devnaos.pitime
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+service_receiver::%CF Time (Small)
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::.ConfigActivity
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+service_receiver::AppWidgetUpdaterService
+call::getSystemService
+url::http://www.facebook.com/pages/Pi-Time-%CF%80-Time/173921369329416

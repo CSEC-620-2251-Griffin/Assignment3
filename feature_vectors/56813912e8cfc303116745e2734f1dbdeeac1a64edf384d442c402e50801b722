@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+service_receiver::wisdomwidgetProvider
+permission::android.permission.INTERNET
+activity::.shakeaproverb
+feature::android.hardware.screen.portrait
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+url::www.biblegateway.com
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+url::http://www.biblegateway.com/passage/?search%3D
+intent::android.intent.category.DEFAULT
+provider::android.appwidget.provider
+call::getSystemService

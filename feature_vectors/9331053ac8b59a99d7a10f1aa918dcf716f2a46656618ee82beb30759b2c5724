@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::HttpPost
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::java/net/HttpURLConnection
+url::verizonconcierge.com
+intent::android.intent.category.LAUNCHER
+activity::.ui.SplashActivity
+url::https://verizonconcierge.com/mobile/
+real_permission::android.permission.INTERNET
+activity::.SplashActivity
+url::https://webservices.smpkcore.com/techciergeWS
+call::getSystemService
+url::webservices.smpkcore.com

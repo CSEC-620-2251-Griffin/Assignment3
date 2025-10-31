@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::getSystemService
+url::siebn.de
+feature::android.hardware.screen.portrait
+activity::NeoCurve
+activity::NeoCurvePreferences
+api_call::android/app/Activity;->setContentView
+intent::android.intent.category.LAUNCHER
+activity::.NeoCurve
+real_permission::android.permission.INTERNET
+url::schemas.android.com
+url::http://schemas.android.com/apk/res/android
+url::http://siebn.de

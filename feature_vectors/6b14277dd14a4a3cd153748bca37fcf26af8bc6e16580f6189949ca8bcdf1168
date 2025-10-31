@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+url::crab.yd.go.kr
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::www.plands.co.kr
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+url::http://www.plands.co.kr
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+url::http://crab.yd.go.kr
+call::getSystemService
+url::http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd><html
+url::http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\%27><html
+activity::.YDFestival
+activity::%EC%EB%EB%EA%B2 %EC%B6%EC%A0
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+url::www.w3.org
+url::www.youtube.com
+url::http://www.youtube.com/watch?v%3DFCdCGHLpw84
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER

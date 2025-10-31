@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::.Widget
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.HabitList
+provider::android.appwidget.provider
+call::getSystemService

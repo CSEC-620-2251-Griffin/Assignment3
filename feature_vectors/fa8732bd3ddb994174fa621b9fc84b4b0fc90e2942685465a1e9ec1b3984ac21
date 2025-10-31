@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+url::www.w3.org
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.category.LAUNCHER
+url::http://www.w3.org/TR/html4/strict.dtd\
+activity::.ItemListActivity
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+call::getSystemService

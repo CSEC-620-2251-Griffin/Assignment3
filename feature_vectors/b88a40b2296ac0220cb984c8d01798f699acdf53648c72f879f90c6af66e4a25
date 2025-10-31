@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.SAMPLE_CODE
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::This tag already Exist.
+activity::.Main
+activity::.activity.Main
+intent::android.intent.category.LAUNCHER
+activity::.activity.ApplicationInfo
+activity::.activity.ViewTagList
+activity::.activity.TagCheckTagList
+real_permission::android.permission.READ_CONTACTS

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://diegoveloper.blogspot.com/2010/09/donate.html\
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+activity::.ViewActivity
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.screen.landscape
+real_permission::android.permission.WAKE_LOCK
+url::diegoveloper.blogspot.com

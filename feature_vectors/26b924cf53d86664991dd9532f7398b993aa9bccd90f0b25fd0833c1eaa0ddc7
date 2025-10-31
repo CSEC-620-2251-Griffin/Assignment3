@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+call::Obfuscation(Base64)
+intent::android.intent.action.SEND
+activity::.PwdHashApp
+intent::android.intent.category.DEFAULT
+call::getSystemService

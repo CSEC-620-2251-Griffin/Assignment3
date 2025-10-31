@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.tProcessKiller
+permission::android.permission.RESTART_PACKAGES
+permission::android.permission.KILL_BACKGROUND_PROCESSES
+intent::android.intent.category.LAUNCHER
+call::getSystemService

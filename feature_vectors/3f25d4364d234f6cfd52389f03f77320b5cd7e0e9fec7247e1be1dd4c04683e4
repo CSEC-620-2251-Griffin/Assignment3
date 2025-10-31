@@ -1,0 +1,11 @@
+permission::android.permission.VIBRATE
+activity::.TiltMazesActivity
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.touchscreen
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

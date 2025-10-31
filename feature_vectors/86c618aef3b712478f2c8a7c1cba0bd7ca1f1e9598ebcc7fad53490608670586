@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::ahoapp.appspot.com
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+url::http://ahoapp.appspot.com/
+call::getSystemService

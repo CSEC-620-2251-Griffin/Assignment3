@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+call::Obfuscation(Base64)
+call::printStackTrace
+url::http://www.securiteinfo.com/bogomips_
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.BogoMIPS
+call::Execution of external commands
+real_permission::android.permission.INTERNET
+url::www.securiteinfo.com
+api_call::java/lang/Runtime;->exec
+api_call::java/net/URL;->openConnection
+url::http://www.securiteinfo.com/divers/android_bogomips_benchmark.shtml\n\nYour

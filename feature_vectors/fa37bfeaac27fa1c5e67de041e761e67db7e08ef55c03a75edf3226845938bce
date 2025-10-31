@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+activity::Settings
+activity::PerformanceSettingsAct
+activity::Atomdroid
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+activity::GenSettingsAct
+permission::android.permission.INTERNET
+url::http://www.pdb.org/pdb/files/
+real_permission::android.permission.INTERNET
+url::http://www.rcsb.org/pdb/files/ligand/
+intent::android.intent.category.LAUNCHER
+activity::.Atomdroid
+activity::UFFSettingsDialog
+call::Read/Write External Storage
+url::www.pdb.org
+api_call::java/net/URL;->openConnection
+url::www.rcsb.org

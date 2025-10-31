@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.GET_ACCOUNTS
+call::HttpPost
+activity::.activities.WelcomeActivity
+api_call::java/net/Socket
+url::http://api.fanbridge.com/v2/auth/get_salt.json
+api_call::android/accounts/AccountManager;->getAccounts
+activity::.activities.CarrierActivity
+url::http://api.fanbridge.com/iphone_v1/import_fans.php
+call::Obfuscation(Base64)
+url::api.fanbridge.com
+permission::android.permission.GET_ACCOUNTS
+url::http://api.fanbridge.com/v2/
+call::Read/Write External Storage
+url::http://api.fanbridge.com/v2/fan_questions/update.json?__scp%3D
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.activities.HelpActivity
+call::Cipher(Blowfish)
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::Cipher(DES/ECB/NoPadding)
+activity::.FanCollector

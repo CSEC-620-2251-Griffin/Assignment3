@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www37.atwiki.jp/pjkyt/
+activity::com.kyt.android.openwnn.JAJP.UserDictionaryToolsEditJAJP
+call::printStackTrace
+service_receiver::KatakanaIME
+activity::OpenWnnControlPanelJAJP
+real_permission::android.permission.VIBRATE
+activity::com.kyt.android.openwnn.EN.UserDictionaryToolsEditEN
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+url::www37.atwiki.jp

@@ -1,0 +1,45 @@
+feature::android.hardware.touchscreen
+activity::.Launcher
+service_receiver::.service.SentSmsReceiver
+intent::android.intent.category.HOME
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.category.DEFAULT
+activity::Event's contacts
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.READ_CONTACTS
+activity::Pick up group
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+activity::TemplateEdit
+service_receiver::.service.SendEventProcess
+intent::android.intent.category.TAB
+permission::android.permission.WRITE_SMS
+activity::Pickup template
+activity::Edit contact group
+activity::Event's  contact groups
+permission::android.permission.VIBRATE
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::EventList
+permission::android.permission.WAKE_LOCK
+activity::Modify custom phone number
+permission::android.permission.SEND_SMS
+activity::Group's contacts
+real_permission::android.permission.SEND_SMS
+api_call::android/telephony/SmsManager;->sendTextMessage
+activity::HistoryList
+feature::android.hardware.telephony
+service_receiver::.service.DeliverySmsReceiver
+service_receiver::.service.BootCompletedReceiver
+intent::android.intent.action.VIEW
+permission::android.permission.READ_SMS
+call::sendSMS
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+real_permission::android.permission.VIBRATE
+provider::com.sergfsoft.smsscheduler.demo.provider.TaskDroid
+activity::ContactGroupList
+intent::android.intent.category.LAUNCHER
+activity::Event's custom phones
+call::getSystemService
+activity::TemplateList

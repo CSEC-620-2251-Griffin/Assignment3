@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.CalculatorActivity
+intent::android.intent.action.MAIN
+url::android.jtooker.com
+activity::.AboutActivity
+url::http://android.jtooker.com
+intent::android.intent.category.LAUNCHER
+activity::.HelpActivity

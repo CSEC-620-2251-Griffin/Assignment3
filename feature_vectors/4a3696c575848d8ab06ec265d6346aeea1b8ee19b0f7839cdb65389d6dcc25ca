@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.CubeActivity
+intent::android.intent.action.MAIN
+activity::de.oaky.RibbonCube.HelpActivity
+intent::android.intent.category.LAUNCHER
+activity::de.oaky.RibbonCube.CubeActivity
+call::getSystemService

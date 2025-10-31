@@ -1,0 +1,21 @@
+url::https://data.flurry.com/aar.do
+feature::android.hardware.touchscreen
+activity::WatchVideoActivity
+activity::MainTabActivity
+activity::GogoPhotoGalleryActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::getSystemService
+url::http://data.flurry.com/aar.do
+permission::android.permission.INTERNET
+url::data.flurry.com
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+activity::.MainTabActivity
+call::HttpPost

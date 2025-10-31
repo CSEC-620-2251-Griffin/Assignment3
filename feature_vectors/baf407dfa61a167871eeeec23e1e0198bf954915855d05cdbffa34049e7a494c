@@ -1,0 +1,23 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+activity::com.mobileares.android.DumpActivity
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/content/ContentResolver;->openFileDescriptor
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+activity::com.mobileares.android.ViewWeb
+call::HttpPost
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+activity::com.mobileares.android.HomeBase
+call::getSystemService
+real_permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::com.mobileares.android.service.DataSyncService
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+activity::.Home
+intent::android.intent.category.LAUNCHER

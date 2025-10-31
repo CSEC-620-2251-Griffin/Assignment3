@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.sqlstar.com.sg\%27>www.sqlstar.com.sg</a>
+permission::android.permission.READ_CONTACTS
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.CALL_PHONE
+url::www.sqlstar.com.sg\%27>www.sqlstar.com.sg<
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.splash
+real_permission::android.permission.READ_CONTACTS
+activity::.selection
+call::getSystemService

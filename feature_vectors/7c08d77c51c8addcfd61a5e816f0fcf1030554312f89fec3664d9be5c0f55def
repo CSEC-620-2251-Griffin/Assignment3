@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::http://www.facebook.com/nypsit
+intent::android.intent.action.MAIN
+activity::.Life_fun
+feature::android.hardware.screen.portrait
+url::http://www.nyp.edu.sg/sit
+intent::android.intent.category.LAUNCHER
+activity::.nypSITSplash
+url::www.nyp.edu.sg
+call::getSystemService

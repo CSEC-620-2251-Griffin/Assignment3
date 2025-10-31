@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+service_receiver::.UpdateService
+activity::.PreferencesActivity
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

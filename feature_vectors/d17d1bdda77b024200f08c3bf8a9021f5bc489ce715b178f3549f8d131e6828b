@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+service_receiver::Android.com.pl News 4x3
+service_receiver::Android.com.pl News 4x2
+url::http://android.mlagrass.com
+permission::android.permission.INTERNET
+service_receiver::.RssReaderService
+service_receiver::Android.com.pl News 4x4
+url::feeds.feedburner.com
+url::android.mlagrass.com
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->sendBroadcast
+url::http://feeds.feedburner.com/android/com/pl?format%3Dxml
+provider::android.appwidget.provider

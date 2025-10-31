@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::trism.demiforce.com
+intent::android.intent.action.MAIN
+activity::.TrismAppDelegate$TrismAppDelegateHelper
+activity::.ActivityWithStatusBar
+activity::.TrismAppDelegate
+api_call::android/media/MediaPlayer;->start
+url::http://trism.demiforce.com/forum/default.aspx?g%3Dposts&t%3D46
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://trism.demiforce.com/forum/
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::.TrismGameActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

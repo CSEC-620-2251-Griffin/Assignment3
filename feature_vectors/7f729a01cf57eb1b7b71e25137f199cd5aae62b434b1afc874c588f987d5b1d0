@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://www.osaris.net/spacechallenge/
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+url::http://www.osaris.net
+intent::android.intent.category.LAUNCHER
+url::http://www.osaris.net/spacechallenge/scores.php5?code%3D
+activity::.JumpyBall
+url::www.osaris.net
+call::getSystemService

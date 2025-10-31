@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::forum.fladnag.net
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::www.fladnag.net
+url::http://forum.fladnag.net
+activity::.fladnaGBrowser
+call::getSystemService
+url::http://www.fladnag.net

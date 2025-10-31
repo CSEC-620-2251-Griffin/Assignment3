@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.ToDoList
+service_receiver::.widget.ToDoWidgetService
+intent::android.intent.category.LAUNCHER
+activity::.ui.ToDoList
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

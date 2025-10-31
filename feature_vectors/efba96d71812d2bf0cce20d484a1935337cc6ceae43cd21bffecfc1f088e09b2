@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::http://gwweb.pawlingschools.org/gw/webacc
+intent::android.intent.action.MAIN
+activity::.link
+intent::android.intent.category.LAUNCHER
+url::gwweb.pawlingschools.org

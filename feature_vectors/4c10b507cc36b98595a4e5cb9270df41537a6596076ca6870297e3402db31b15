@@ -1,0 +1,15 @@
+api_call::android/webkit/WebView
+url::pagead2.googlesyndication.com
+intent::android.intent.action.MAIN
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+url::www.mindorange.cn\n
+activity::.BlackWhite
+activity::.Logo
+url::http://www.mindorange.cn\n
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

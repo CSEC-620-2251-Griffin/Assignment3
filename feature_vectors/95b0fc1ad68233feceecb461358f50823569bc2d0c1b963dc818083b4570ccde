@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::www.mikhaylov.tumblr.com
+intent::android.intent.action.MAIN
+activity::.Omnibus
+intent::android.intent.category.LAUNCHER
+url::http://www.mikhaylov.tumblr.com

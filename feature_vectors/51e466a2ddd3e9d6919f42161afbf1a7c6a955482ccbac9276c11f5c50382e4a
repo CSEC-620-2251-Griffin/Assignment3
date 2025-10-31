@@ -1,0 +1,34 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+url::https://lh
+permission::android.permission.READ_LOGS
+permission::android.permission.READ_PHONE_STATE
+activity::.Main
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+call::getPackageInfo
+url::www.guohead.com
+feature::android.hardware.location.gps
+url::http://www.guohead.com
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/os/Vibrator;->vibrate
+url::lh
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER

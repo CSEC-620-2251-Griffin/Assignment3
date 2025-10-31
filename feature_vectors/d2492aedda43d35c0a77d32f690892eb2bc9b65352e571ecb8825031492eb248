@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.TicTacToe
+intent::android.intent.action.MAIN
+url::www.awnry.com
+intent::android.intent.category.DEFAULT
+url::http://www.awnry.com/
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+service_receiver::.cupcakeservice
+activity::SetCPU Profiles
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+service_receiver::startup
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+activity::.overclocking
+activity::System Info
+activity::Advanced Settings
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.set
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+activity::.cupcake

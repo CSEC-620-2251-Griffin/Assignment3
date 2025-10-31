@@ -1,0 +1,9 @@
+url::http://www.whitehouse.gov/contact
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.dodobirddevelopers.com/2010/02/instructions-for-save-astronauts.html
+intent::android.intent.category.LAUNCHER
+activity::.HomeDisplay
+call::getPackageInfo
+url::www.whitehouse.gov
+url::www.dodobirddevelopers.com

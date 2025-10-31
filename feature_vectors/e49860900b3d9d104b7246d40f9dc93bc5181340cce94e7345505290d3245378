@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.RecipeAct
+intent::android.intent.category.LAUNCHER
+activity::.InstructionsAct
+call::getSystemService
+activity::.CocktailHero

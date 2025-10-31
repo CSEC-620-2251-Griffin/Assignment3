@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.CinemaBrowser
+intent::android.intent.action.MAIN
+url::www.starticket.ch
+url::www.orangecinema.ch
+url::https://www.starticket.ch/OrangeCinemaZuerich/0Showlist.asp
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://www.orangecinema.ch/mobile/
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::https://www.starticket.ch/OrangeCinemaBern/0Showlist.asp
+real_permission::android.permission.INTERNET
+url::https://www.starticket.ch/OrangeCinemaBasel/0Showlist.asp

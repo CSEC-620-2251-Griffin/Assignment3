@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.Minecraft_Market
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService

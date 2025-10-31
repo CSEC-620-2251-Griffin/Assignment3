@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::www.perpetumdesign.com
+activity::.SafeBox
+intent::android.intent.action.MAIN
+activity::.QuickNoteEntry
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.SEND
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+url::http://www.perpetumdesign.com/safebox/safebox.jsp
+provider::android.appwidget.provider
+call::getSystemService

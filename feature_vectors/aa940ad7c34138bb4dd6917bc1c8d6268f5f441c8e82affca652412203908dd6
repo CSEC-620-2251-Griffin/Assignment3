@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.adegustar
+url::http://www.adegustar.com
+intent::android.intent.category.LAUNCHER
+url::www.adegustar.com

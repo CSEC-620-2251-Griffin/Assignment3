@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.LiveWallpaperSettings
+url::http://tm.die-webber.com/equirectangular/panoPlanet.php?xml&database&index
+activity::.Launcher
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::tm.die-webber.com
+call::Obfuscation(Base64)
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.software.live_wallpaper
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+service_receiver::PanoPlanet
+call::getSystemService

@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+service_receiver::StarWars Clock08
+service_receiver::StarWars Clock09
+service_receiver::StarWars Clock02
+service_receiver::StarWars Clock03
+service_receiver::StarWars Clock01
+service_receiver::StarWars Clock06
+service_receiver::StarWars Clock07
+service_receiver::StarWars Clock04
+service_receiver::StarWars Clock05
+service_receiver::StarWars Clock20
+service_receiver::StarWars Clock19
+service_receiver::StarWars Clock18
+service_receiver::StarWars Clock11
+service_receiver::StarWars Clock10
+service_receiver::StarWars Clock13
+service_receiver::StarWars Clock12
+service_receiver::StarWars Clock15
+service_receiver::StarWars Clock14
+service_receiver::StarWars Clock17
+service_receiver::StarWars Clock16
+service_receiver::StarWars Clock21
+provider::android.appwidget.provider

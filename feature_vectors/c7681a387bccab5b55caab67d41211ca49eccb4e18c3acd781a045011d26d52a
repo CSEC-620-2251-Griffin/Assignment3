@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://www.redcross.se/forstahjalpen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/media/MediaPlayer;->start
+activity::.AZListActivity
+feature::android.hardware.screen.portrait
+activity::.HLRVuxenActivity
+activity::.BrowserActivity
+intent::android.intent.category.LAUNCHER
+activity::.MenuActivity
+url::www.redcross.se
+real_permission::android.permission.INTERNET
+activity::.LVHActivity
+real_permission::android.permission.WAKE_LOCK

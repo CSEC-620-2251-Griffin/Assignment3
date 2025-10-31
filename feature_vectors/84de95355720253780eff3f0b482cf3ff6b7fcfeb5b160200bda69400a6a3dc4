@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.home
+url::http://www.cytitube.com
+url::www.cytitube.com
+intent::android.intent.category.LAUNCHER

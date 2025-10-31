@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+url::pagead2.googlesyndication.com
+permission::android.permission.INTERNET
+activity::.CurrencyListActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+call::HttpPost
+url::www.google.com
+api_call::android/content/Context;->startActivity
+url::http://help.dayup.org/war/apps.html
+url::http://pagead2.googlesyndication.com/pagead/show_mobile_ads.js
+call::getSystemService
+url::http://www.google.com/finance/info?q%3D
+api_call::java/lang/Runtime;->exec
+url::data.flurry.com
+call::Execution of external commands
+url::https://data.flurry.com/aar.do
+url::http://www.google.com/finance/info?q%3DCURRENCY:
+url::http://data.flurry.com/aar.do
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+url::help.dayup.org
+real_permission::android.permission.READ_LOGS
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

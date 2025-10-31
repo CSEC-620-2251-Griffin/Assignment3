@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://www.web2pdfconvert.com/engine.aspx?curl%3D
+url::www.dolphin-browser.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.dolphin-browser.com/jp/addonjp.php
+url::www.web2pdfconvert.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://bit.ly/9iexmG
+permission::tunnybrowser.permission.Extension
+api_call::android/webkit/WebView
+url::bit.ly
+intent::android.intent.category.INFO
+url::http://www.dolphin-browser.com/kr/addonkr.php

@@ -1,0 +1,21 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+url::http://wiki.processing.org/w/Android
+api_call::android/app/Activity;->startActivity
+url::wiki.processing.org
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/webkit/WebView
+activity::.lettersandnumbers
+real_permission::android.permission.INTERNET
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

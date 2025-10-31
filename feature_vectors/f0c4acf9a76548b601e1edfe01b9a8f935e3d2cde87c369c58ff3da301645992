@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::com.bb.cpulivewallpaper.lib.CpuWallpaperSettings
+call::printStackTrace

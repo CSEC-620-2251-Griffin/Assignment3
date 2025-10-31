@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.100tennis.com
+url::http://www.100tennis.com/magazine/index.php\n
+activity::.MyBook
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.PreferencesActivity

@@ -1,0 +1,10 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.RpnCalcFree
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+intent::org.openintents.action.CALCULATOR
+activity::RpnCalcFree
+call::getSystemService

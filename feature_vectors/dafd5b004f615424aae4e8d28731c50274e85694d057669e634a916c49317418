@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::feeds.nytimes.com
+url::rss.cnn.com
+intent::android.intent.action.MAIN
+url::http://rss.cnn.com/rss/cnn_topstories.rss
+url::http://feeds.nytimes.com/nyt/rss/HomePage
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://pheedo.msnbc.msn.com/id/3032091/device/rss
+api_call::java/net/URL;->openConnection
+url::pheedo.msnbc.msn.com
+activity::.news_reader
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::.LiveWallpaperSettings
+service_receiver::D3D Dancing Android Boy

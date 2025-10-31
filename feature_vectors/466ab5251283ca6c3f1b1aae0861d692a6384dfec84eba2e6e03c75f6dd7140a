@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+activity::.DroidFourOneOneActivity
+intent::android.intent.action.MAIN
+url::http://www.google.com/goog411
+url::www.google.com
+url::www.800theinfo.com
+service_receiver::.DroidFourOneOneWidgetUpdateService
+url::http://www.discoverbing.com/mobile/411
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+url::http://www.800theinfo.com
+permission::android.permission.CALL_PHONE
+url::www.free411.com
+provider::android.appwidget.provider
+url::http://www.free411.com
+url::www.discoverbing.com

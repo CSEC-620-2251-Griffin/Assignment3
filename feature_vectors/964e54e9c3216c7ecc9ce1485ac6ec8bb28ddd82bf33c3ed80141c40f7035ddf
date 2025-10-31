@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.sensor.proximity
+intent::android.intent.action.MAIN
+feature::android.hardware.camera
+activity::.MainActivity
+feature::android.hardware.telephony
+feature::android.hardware.screen.portrait
+feature::android.hardware.touchscreen.multitouch
+feature::android.software.live_wallpaper
+feature::android.hardware.sensor.light
+feature::android.hardware.microphone
+intent::android.intent.category.LAUNCHER

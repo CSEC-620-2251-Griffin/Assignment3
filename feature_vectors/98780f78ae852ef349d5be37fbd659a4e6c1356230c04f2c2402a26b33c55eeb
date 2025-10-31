@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.BahnhofActivity
+service_receiver::Mac-like Clock
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

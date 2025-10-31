@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.Launcher
+intent::android.intent.action.MAIN
+url::http://www.autobildindonesia.com
+intent::android.intent.category.LAUNCHER
+url::www.autobildindonesia.com

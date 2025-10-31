@@ -1,0 +1,9 @@
+activity::.TalkThemeRoulette
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::.FirstPage
+real_permission::android.permission.WAKE_LOCK

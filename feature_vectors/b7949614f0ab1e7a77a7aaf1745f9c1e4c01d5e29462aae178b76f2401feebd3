@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.SendEmail
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+api_call::java/net/Socket
+activity::.Login
+activity::.SplashScreen
+activity::.ReprotoxView
+url::phonehome.reprotox.org
+url::http://www.reprotox.org/android/reprotox.txt
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::www.reprotox.org
+call::Obfuscation(Base64)
+activity::.HttpDownload
+url::http://phonehome.reprotox.org/rptservice/loginservice.asmx/ValidateUser
+call::Read/Write External Storage
+permission::android.permission.WAKE_LOCK
+activity::.FavoritesList
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.SEND
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

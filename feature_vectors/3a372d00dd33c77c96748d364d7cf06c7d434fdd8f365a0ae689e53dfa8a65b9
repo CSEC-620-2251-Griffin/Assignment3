@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+url::http://www.123west.ca/
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::java/net/ServerSocket
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+url::market.android.com
+activity::ZOMBIES!!!! Preferences
+real_permission::android.permission.VIBRATE
+call::getSystemService
+activity::.OpenActivity
+call::Obfuscation(Base64)
+feature::android.software.live_wallpaper
+url::www.123west.ca
+url::http://market.android.com/details?id%3Dcom.onetwentythree.zombieswallpaper
+call::Read/Write External Storage
+service_receiver::ZOMBIES!!!! Live Wallpaper
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.INFO

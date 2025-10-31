@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+service_receiver::AdbWidgetProvider
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::.WifiAdbActivity
+call::Execution of external commands
+service_receiver::.WidgetBroadcastReceiver
+provider::android.appwidget.provider
+api_call::java/lang/Runtime;->exec
+call::getSystemService

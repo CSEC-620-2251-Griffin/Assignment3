@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::itanyplace.com
+url::www.google.com
+url::http://www.google.com
+call::printStackTrace
+activity::.ITAnyplaceMain
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::http://itanyplace.com/plants/mobile?businessid%3D17&type%3Dlite

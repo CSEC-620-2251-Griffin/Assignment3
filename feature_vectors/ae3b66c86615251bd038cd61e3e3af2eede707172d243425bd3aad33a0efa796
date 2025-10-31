@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+provider::com.mjdev.people.provider
+provider::com.mjdev.people.data_provider
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->sendBroadcast
+permission::android.permission.READ_CONTACTS
+provider::android.appwidget.provider
+api_call::android/content/ContentResolver;->query

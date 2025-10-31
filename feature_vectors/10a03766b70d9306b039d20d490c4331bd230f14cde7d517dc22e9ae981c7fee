@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+service_receiver::BootUpReceiver
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CALENDAR
+api_call::android/app/NotificationManager;->notify
+activity::.AutoRingMode
+real_permission::android.permission.READ_CONTACTS
+api_call::android/provider/Calendar$CalendarAlerts;->query
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+service_receiver::AutoRingModeService
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+api_call::android/content/Context;->startService

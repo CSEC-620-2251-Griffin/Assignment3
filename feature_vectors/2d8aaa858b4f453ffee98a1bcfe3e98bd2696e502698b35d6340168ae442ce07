@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+activity::Settings
+activity::ColorPicker
+intent::android.intent.category.DEFAULT

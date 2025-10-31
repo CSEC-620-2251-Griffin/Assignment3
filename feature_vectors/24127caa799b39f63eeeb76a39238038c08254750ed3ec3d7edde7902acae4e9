@@ -1,0 +1,15 @@
+api_call::android/media/RingtoneManager;->setActualDefaultRingtoneUri
+feature::android.hardware.touchscreen
+url::www.antenna.gr
+url::http://www.antenna.gr/radioarvyla/\%27>Radio
+intent::android.intent.action.MAIN
+url::aaggel.blogspot.com\%27>blog<
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/media/MediaPlayer;->start
+activity::.main
+url::http://aaggel.blogspot.com\%27>blog</a>
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.screen.portrait
+call::printStackTrace
+permission::android.permission.WRITE_SETTINGS

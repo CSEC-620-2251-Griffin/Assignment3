@@ -1,0 +1,26 @@
+url::http://gzwgb.talentvalley.cn:8080/offline.jar
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.READ_CONTACTS
+activity::CameraActivity
+activity::Preferences
+real_permission::android.permission.CAMERA
+url::market.android.com
+feature::android.hardware.camera.autofocus
+call::printStackTrace
+url::gzwgb.talentvalley.cn
+activity::.AndroidWeb
+call::getSystemService
+url::http://gzwgb.talentvalley.cn:8080/offline/main.htm
+api_call::android/content/ContentResolver;->query
+permission::android.permission.CAMERA
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+url::https://market.android.com/details?id%3Dcom.google.zxing.client.android
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

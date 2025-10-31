@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.help
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.T6
+activity::.T10
+permission::android.permission.INTERNET
+activity::.T12
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.CompeitoLite
+real_permission::android.permission.INTERNET

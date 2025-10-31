@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+url::chart.apis.google.com
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+url::www.anubavam.com
+activity::.WelcomeScreen
+real_permission::android.permission.VIBRATE
+url::http://chart.apis.google.com/chart?cht%3Dqr&chl%3D
+url::http://www.androidpeople.com/wp-content/uploads/2010/09/Anubavam-abtus.html
+call::getSystemService
+activity::.QRGeneratorActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+url::http://www.anubavam.com/android-application-development\%27>www.anubavam.com</a>
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.androidpeople.com

@@ -1,0 +1,11 @@
+url::m.chosun.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.TodayUnse
+url::m.joins.com
+url::http://m.joins.com/list/list.asp?topmn%3D119
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://m.chosun.com/article.html?contid%3D
+call::getSystemService

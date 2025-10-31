@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+service_receiver::iTrim 4x1
+provider::android.appwidget.provider

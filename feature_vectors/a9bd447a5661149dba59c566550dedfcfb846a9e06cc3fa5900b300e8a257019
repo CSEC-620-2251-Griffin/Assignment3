@@ -1,0 +1,17 @@
+activity::scrap
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::getSystemService
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::iphone.jroute.or.kr
+url::http://iphone.jroute.or.kr/
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+activity::.splashActivity
+activity::main

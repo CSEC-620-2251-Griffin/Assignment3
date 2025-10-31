@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.Main
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+url::http://thunder.worldclockr.com/android.html
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::thunder.worldclockr.com
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/webkit/WebView
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

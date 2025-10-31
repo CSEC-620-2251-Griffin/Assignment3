@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+intent::android.intent.category.HOME
+service_receiver::com.pickle.remindMe.AlarmBroadcastReciever
+activity::com.pickle.remindMe.Reminder
+service_receiver::com.pickle.remindMe.AlarmService
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.BOOT_COMPLETED
+activity::.Reminder
+call::getSystemService

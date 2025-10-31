@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.apodiscounter.de
+activity::.Apodiscounter
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::www.apodiscounter.de
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+activity::de.apodiscounter.androidphone.BrowserView

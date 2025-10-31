@@ -1,0 +1,13 @@
+activity::.Credits
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.viewer.Credits
+provider::.provider.FlashCardProvider
+activity::.viewer.DeleteDeck
+activity::.viewer.Preferences
+intent::android.intent.category.LAUNCHER
+provider::com.ggause.flashcard.provider.FlashCardProvider
+feature::android.hardware.screen.landscape
+activity::.viewer.About
+activity::.viewer.DeckInfo
+activity::.viewer.FlashCards

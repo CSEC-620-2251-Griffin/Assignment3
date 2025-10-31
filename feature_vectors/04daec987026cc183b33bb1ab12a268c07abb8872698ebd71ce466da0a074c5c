@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.RECORD_AUDIO
+url::spellingbee.larkintuckerllc.com
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+api_call::android/media/MediaRecorder;->setAudioSource
+url::http://spellingbee.larkintuckerllc.com
+activity::.SpellingBee
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+permission::android.permission.RECORD_AUDIO
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

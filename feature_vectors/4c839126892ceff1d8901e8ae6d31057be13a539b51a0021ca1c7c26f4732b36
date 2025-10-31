@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.SungshinAppActivity
+intent::android.intent.category.LAUNCHER
+url::m.mitutoyomall.com
+url::http://m.mitutoyomall.com

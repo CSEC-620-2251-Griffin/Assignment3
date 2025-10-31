@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.FifteenActivity
+intent::android.intent.action.MAIN
+activity::FifteenActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

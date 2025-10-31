@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::.BrightFlash
+intent::android.intent.category.LAUNCHER
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

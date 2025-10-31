@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.mormon.org
+url::http://www.mormon.org
+intent::android.intent.category.LAUNCHER
+activity::.LivingChrist

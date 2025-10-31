@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.SAMPLE_CODE
+activity::dk.crsw.milealight.Preference
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::dk.crsw.milealight.MileALight
+url::www.crsw.dk
+intent::android.intent.category.LAUNCHER
+activity::.MileALight
+url::http://www.crsw.dk

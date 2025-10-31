@@ -1,0 +1,21 @@
+call::getSystemService
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CONTACTS
+intent::android.intent.action.MAIN
+service_receiver::.SCWidgetService
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+service_receiver::Sobriety Counter 2
+service_receiver::Sobriety Counter 3
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+feature::android.hardware.telephony
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CALL_PHONE
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+service_receiver::Sobriety Counter 1
+activity::.SobrietyCounter
+provider::android.appwidget.provider
+permission::android.permission.CAMERA

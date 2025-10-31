@@ -1,0 +1,10 @@
+url::https://market.android.com/details?id%3Dsexy.mandra.zombies
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::market.android.com
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+activity::.Entrada
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::com.spartacusrex.prodj.backend.service.ScanInfo
+call::getDeviceId
+url::pagead2.googlesyndication.com
+api_call::android/telephony/TelephonyManager;->getDeviceId
+call::Read/Write External Storage
+activity::com.spartacusrex.prodj.tutorial.tutlist
+activity::com.spartacusrex.prodj.tutorial.tutview
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+activity::.maindecks
+api_call::android/content/Context;->startActivity
+activity::com.spartacusrex.filechoose.filechooser
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+call::Obfuscation(Base64)
+call::Execution of external commands
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/media/MediaPlayer;->start

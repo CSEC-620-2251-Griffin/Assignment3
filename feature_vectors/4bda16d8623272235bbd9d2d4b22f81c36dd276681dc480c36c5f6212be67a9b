@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::Redfox Review
+url::http://mobile.redfoxreview.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+url::http://mobile.redfoxreview.com/schedule
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://mobile.redfoxreview.com/stats
+url::mobile.redfoxreview.com
+url::http://mobile.redfoxreview.com/roster
+url::http://mobile.redfoxreview.com/about

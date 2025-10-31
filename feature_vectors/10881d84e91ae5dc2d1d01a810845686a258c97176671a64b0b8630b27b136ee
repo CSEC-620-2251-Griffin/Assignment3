@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.nationwide.co.uk/pdaroot/default.htm
+activity::com.eminencecs.PixieLogo.Splash
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.nationwide.co.uk
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+activity::com.eminencecs.PixieLogo.NATIONWIDEmobile

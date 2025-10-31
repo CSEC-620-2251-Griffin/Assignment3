@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+url::http://www.hyperaware.com/android/g-tar/updates/submit.jsp?device%3D
+call::getDeviceId
+activity::.Help
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+url::http://www.hyperaware.com/android/g-tar/updates/submit.jsp
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.Preferences
+call::getPackageInfo
+activity::.ChordBrowser
+activity::.ChooseGuitar
+activity::.Play
+url::www.hyperaware.com
+activity::.DownloadUpdates
+url::http://www.hyperaware.com/android/g-tar/updates/catalog.txt
+activity::.ShareSong
+call::getSystemService
+activity::.SaveSong
+activity::.ChooseProgression
+activity::.Launch
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

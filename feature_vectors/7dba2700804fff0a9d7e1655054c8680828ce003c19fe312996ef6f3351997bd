@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+url::http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png
+url::http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png
+call::Read/Write External Storage
+intent::android.intent.category.CAR_MODE
+url::http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+url::http://maps.google.com/mapfiles/kml/paddle/grn-circle.png
+api_call::android/content/ContentResolver;->query
+url::http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png
+url::www.opengis.net
+permission::android.permission.READ_PHONE_STATE
+call::getSystemService
+url::http://maps.google.com/mapfiles/kml/paddle/blu-circle.png
+url::http://maps.google.com/mapfiles/kml/paddle/red-circle.png
+api_call::android/app/Activity;->startActivity
+url::http://www.opengis.net/kml/2.2
+intent::android.intent.action.MAIN
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::.Top10
+api_call::android/location/LocationManager;->getBestProvider
+intent::android.intent.category.LAUNCHER
+url::maps.google.com
+url::http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png

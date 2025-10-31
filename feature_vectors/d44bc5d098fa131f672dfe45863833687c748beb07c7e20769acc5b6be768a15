@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+url::http://59.42.254.3:8081/pay/largecharge.do
+intent::android.intent.action.MAIN
+url::http://10.0.0.172:80
+url::http://www.netmite.com/apks/lakoo/jar/KXXCN_LaKoo_Sony-Ericsson_S700C.jad
+call::printStackTrace
+activity::.GameMIDlet
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::59.42.254.3
+url::http://59.42.254.3:8081/pay/largecheck.do
+api_call::android/content/Context;->startActivity
+url::10.0.0.172

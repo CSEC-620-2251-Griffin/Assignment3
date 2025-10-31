@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+provider::com.dyussebayev.provider.lenta
+url::img.lenta.ru
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+feature::android.hardware.screen.portrait
+permission::android.permission.READ_EXTERNAL_STORAGE
+api_call::android/content/ContentResolver;->query
+call::getSystemService
+url::lenta.ru
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::static.medportal.ru
+url::http://img.lenta.ru/ireal
+activity::.ArticleListActivity
+intent::android.intent.category.DEFAULT
+url::http://lenta.ru/rss
+api_call::java/net/URL;->getContent
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+provider::com.dyussebayev.lenta.provider.ArticleProvider
+url::http://static.medportal.ru
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

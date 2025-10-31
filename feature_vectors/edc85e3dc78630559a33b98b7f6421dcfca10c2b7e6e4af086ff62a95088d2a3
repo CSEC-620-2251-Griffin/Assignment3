@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::http://labs.movenda.com/atac/stop_name.php?stop_id%3D
+real_permission::android.permission.READ_PHONE_STATE
+call::getDeviceId
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+url::labs.movenda.com
+api_call::java/net/URL;->openConnection
+url::http://labs.movenda.com/atac/stop.php?stop_id%3D
+permission::android.permission.INTERNET
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.RomeBus
+url::http://labs.movenda.com/atac/path.php?path_id%3D
+url::http://labs.movenda.com/atac/bus.php?bus_id%3D
+call::getSystemService

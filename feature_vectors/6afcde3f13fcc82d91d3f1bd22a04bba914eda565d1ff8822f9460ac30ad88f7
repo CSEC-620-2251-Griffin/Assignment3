@@ -1,0 +1,6 @@
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+activity::.FlashLight
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService

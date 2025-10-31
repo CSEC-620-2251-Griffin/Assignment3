@@ -1,0 +1,12 @@
+activity::com.ToxicBakery.lwp.cubecomplex.WallpaperSettings
+feature::android.hardware.touchscreen
+url::robobunny.com
+call::printStackTrace
+url::http://robobunny.com
+url::http://toxicbakery.com
+feature::android.software.live_wallpaper
+call::getSystemService
+url::toxicbakery.com
+call::Read/Write External Storage
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

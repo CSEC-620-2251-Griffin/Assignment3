@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://www.ent-wickler.de/
+intent::android.intent.action.MAIN
+url::www.ent-wickler.de
+url::http://www.ent-wickler.de
+url::https://www.ssl-id.de/ent-wickler.de/spruch.php
+url::http://10.0.2.2/ew/image/baum_test.png
+url::http://10.0.2.2/ew/spruch.php
+permission::android.permission.INTERNET
+url::www.ssl-id.de
+url::http://10.0.2.2
+activity::.Cactivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::10.0.2.2
+real_permission::android.permission.INTERNET
+call::HttpPost
+intent::android.intent.category.LAUNCHER

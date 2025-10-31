@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::com.twofortyfouram.locale.intent.action.FIRE_SETTING
+intent::android.intent.action.MAIN
+activity::.BootActivity
+intent::android.intent.action.CREATE_SHORTCUT
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+intent::com.twofortyfouram.locale.intent.action.EDIT_SETTING
+intent::android.intent.category.DEFAULT
+call::Execution of external commands
+service_receiver::RebootService
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::system/bin/su
+service_receiver::.plus.LocalePluginBroadcastReceiver

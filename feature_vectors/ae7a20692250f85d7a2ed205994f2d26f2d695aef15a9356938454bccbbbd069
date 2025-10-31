@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+url::http://www.homerchess.com/sd-booster/SD-Booster-v1-ger.html
+url::http://www.homerchess.com/sd-booster/SD-Booster-v1-eng.html
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.HOME
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+service_receiver::SDboostIntentReceiver
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+activity::SDboost
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->sendBroadcast
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::com.android.md5.Settings
+call::Read/Write External Storage
+service_receiver::SDboostService
+activity::.SDboost
+url::www.homerchess.com

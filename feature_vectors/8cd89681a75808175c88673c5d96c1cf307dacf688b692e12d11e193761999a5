@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+service_receiver::MIUI Analog Clock Small
+activity::.Info
+intent::android.intent.action.MAIN
+service_receiver::MIUI Analog Clock Large
+service_receiver::MIUI Analog Clock
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

@@ -1,0 +1,11 @@
+activity::MMBA
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.millionairemba.com
+url::http://www.millionairemba.com
+activity::.MMBA
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startActivity

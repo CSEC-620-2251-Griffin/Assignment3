@@ -1,0 +1,9 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+service_receiver::.EnglishChineseDictionaryKeyboard
+activity::.Settings
+real_permission::android.permission.VIBRATE
+call::getSystemService

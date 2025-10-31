@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.Principal
+intent::android.intent.action.MAIN
+url::http://perso.orange.es/web110862/ads.html
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+activity::AddInsult
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::perso.orange.es

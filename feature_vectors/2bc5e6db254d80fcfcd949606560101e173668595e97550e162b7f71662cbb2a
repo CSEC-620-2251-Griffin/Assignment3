@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://www.orkut.com.br/Main
+url::pt-br.facebook.com
+url::deu-alokamodas.blogspot.com
+intent::android.intent.action.MAIN
+url::twitter.com
+url::http://pt-br.facebook.com/people/Deu-A-Loka-Modas/100001814285193/
+feature::android.hardware.screen.portrait
+url::http://deu-alokamodas.blogspot.com/
+url::http://twitter.com/deualokamodas/
+activity::.deualoka
+intent::android.intent.category.LAUNCHER
+url::www.orkut.com.br

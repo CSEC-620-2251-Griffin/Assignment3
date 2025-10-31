@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.TestOpenUrl
+intent::android.intent.action.MAIN
+url::114.251.36.136
+permission::android.permission.CALL_PHONE
+url::http://114.251.36.136/ibsm/content/order/main.jsp
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+url::www.freeinvestmentscore.com
+url::http://www.freeinvestmentscore.com/mobile
+intent::android.intent.category.LAUNCHER
+activity::.investmentScore

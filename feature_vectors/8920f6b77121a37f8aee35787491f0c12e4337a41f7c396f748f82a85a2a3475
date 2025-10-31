@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.cpmobileapp
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.cellepathic.com
+intent::android.intent.category.LAUNCHER
+api_call::android/provider/Browser;->clearHistory
+call::getSystemService
+url::http://www.cellepathic.com/m/default.aspx
+real_permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+permission::android.permission.CHANGE_NETWORK_STATE

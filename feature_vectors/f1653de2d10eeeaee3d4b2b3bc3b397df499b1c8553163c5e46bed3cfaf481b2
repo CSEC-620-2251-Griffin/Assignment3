@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+url::http://liplis.mine.nu/Api.asmx/lpsGetOshirase
+intent::android.intent.action.MAIN
+url::liplis.mine.nu
+call::HttpPost
+url::http://liplis.mine.nu/xml/Tone/LiplisLili.xml
+service_receiver::.Widget.LiplisWidgetProvider
+permission::android.permission.INTERNET
+activity::.Activity.LiplisWidgetConfiguration
+url::http://liplis.mine.nu/Api.asmx/lpShortNews
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::.LiplisWidgetConfiguration
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+call::getSystemService

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::org.openintents.metadata.COPYRIGHT
+intent::org.openintents.metadata.WEBSITE_LABEL
+intent::org.openintents.metadata.ARTISTS
+intent::android.intent.action.MAIN
+intent::org.openintents.metadata.WEBSITE_URL
+call::getSystemService
+activity::.VolumeDock
+intent::org.openintents.metadata.LICENSE
+service_receiver::.DockEventReceiver
+intent::org.openintents.metadata.TRANSLATORS
+intent::org.openintents.metadata.COMMENTS
+intent::org.openintents.metadata.DOCUMENTERS
+intent::org.openintents.metadata.EMAIL
+intent::org.openintents.metadata.AUTHORS
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.GOScreenLockInstallDialog
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://61.145.124.93/soft/3GHeart/GOLauncherEXlocker/GOLauncherEXLocker.apk
+url::61.145.124.93
+intent::android.intent.category.INFO

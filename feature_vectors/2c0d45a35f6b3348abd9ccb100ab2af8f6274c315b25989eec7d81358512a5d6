@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.opticomdataresearch.com/tiprecorder_ads.php
+activity::.TipRecorder
+intent::android.intent.category.LAUNCHER
+url::www.opticomdataresearch.com

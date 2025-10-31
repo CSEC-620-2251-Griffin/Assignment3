@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://www.medipartner.jp/
+url::www.medipartner.jp
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+activity::jp.medipartner.android.browser.ApiDemos
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.ApiDemos
+intent::android.intent.category.BROWSABLE
+call::HttpPost
+intent::android.intent.action.VIEW
+activity::ApiDemos

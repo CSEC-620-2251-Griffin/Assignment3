@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.StatsGallery
+intent::android.intent.action.MAIN
+call::getSystemService
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.CricketScorecard
+intent::android.intent.category.DEFAULT
+activity::.SystemSettings

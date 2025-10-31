@@ -1,0 +1,80 @@
+feature::android.hardware.touchscreen
+activity::PowerAMP Changelog
+activity::.dialogs.PlaylistSelectActivity
+permission::android.permission.BROADCAST_STICKY
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+permission::android.permission.READ_PHONE_STATE
+activity::PowerAMP Edit Tags
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.CAR_MODE
+intent::android.intent.action.SEARCH
+real_permission::android.permission.WAKE_LOCK
+activity::PowerAMP App2SD
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.dialogs.FilteredPlayingDialogActivity
+activity::PowerAMP Eq
+intent::android.intent.action.VIEW
+service_receiver::Player Service
+api_call::android/webkit/WebView
+activity::.dialogs.EqPresetEditActivity
+service_receiver::PlayerMediaButtonReceiver
+url::http://powerampapp.com/
+activity::.dialogs.PlaylistSortActivity
+url::images.google.com
+activity::PowerAMP Full Version
+activity::PowerAMP Help
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.CREATE_SHORTCUT
+api_call::android/content/Context;->startActivity
+url::http://xmlpull.org/v1/doc/properties.html
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService
+activity::PowerAMP Expired
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MEDIA_BUTTON
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.MODIFY_AUDIO_SETTINGS
+service_receiver::com.maxmpz.audioplayer.widgetpack1.WidgetUpdaterService
+activity::.dialogs.SelectAlbumArtActivity
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+api_call::android/telephony/TelephonyManager;->listen
+activity::.dialogs.SupportDialogActivity
+activity::.StartupActivity
+activity::PowerAMP Welcome
+activity::.dialogs.PlaylistNameEditActivity
+activity::PowerAMP Song Info
+call::Obfuscation(Base64)
+service_receiver::StorageBroadcastReceiver
+intent::android.intent.action.MEDIA_MOUNTED
+activity::.dialogs.DhdEffectActivity
+call::Cipher(AES/CBC/PKCS5Padding)
+permission::android.permission.DISABLE_KEYGUARD
+url::https://mxmdownloads.s3.amazonaws.com/lyriXmatch4android.apk
+permission::android.permission.ACCESS_NETWORK_STATE
+url::powerampapp.com
+activity::.dialogs.SupportSendMessageActivity
+activity::.dialogs.EqPresetActivity
+api_call::android/media/AudioManager;->isBluetoothA2dpOn
+url::http://images.google.com/images?imgsz%3Dlarge&safe%3Dactive&q%3D
+activity::PowerAMP
+intent::android.intent.action.MAIN
+activity::.dialogs.ListOptsActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::PowerAMP Lyrics
+url::mxmdownloads.s3.amazonaws.com
+url::xmlpull.org
+permission::android.permission.WRITE_SETTINGS
+feature::android.hardware.screen.portrait
+service_receiver::Headset Micro Service
+call::printStackTrace
+intent::android.bluetooth.a2dp.intent.action.SINK_STATE_CHANGED
+intent::android.intent.action.MEDIA_SEARCH
+service_receiver::PowerAMP Scan Service
+api_call::android/os/PowerManager$WakeLock;->release
+url::http://xmlpull.org/v1/doc/features.html
+provider::android.appwidget.provider

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+service_receiver::.CalendarWidget$UpdateService
+activity::.CalendarActivity
+provider::android.appwidget.provider
+intent::android.intent.category.LAUNCHER

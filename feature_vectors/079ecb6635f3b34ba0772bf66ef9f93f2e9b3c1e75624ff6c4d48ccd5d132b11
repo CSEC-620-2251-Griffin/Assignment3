@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.ToDoList
+activity::.NotePadList
+activity::.NotePreferences
+intent::android.intent.category.LAUNCHER
+activity::.NotePadEdit
+real_permission::android.permission.WAKE_LOCK
+provider::android.appwidget.provider
+service_receiver::.NoteWidget$ToggleService

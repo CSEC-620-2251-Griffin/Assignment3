@@ -1,0 +1,6 @@
+activity::.scoutcrest
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+service_receiver::scoutcrest
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

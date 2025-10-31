@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.mizugi1
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::adlyze.net
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://adlyze.net/link/bi1top.html

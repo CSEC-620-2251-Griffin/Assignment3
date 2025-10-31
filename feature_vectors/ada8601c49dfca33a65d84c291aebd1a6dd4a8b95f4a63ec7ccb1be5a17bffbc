@@ -1,0 +1,22 @@
+activity::.help.HelpContentsActivity
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.fragment.FragmentViewActivity
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+activity::.fragment.FileChooserActivity
+activity::FragmentListActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.INSERT
+activity::.fragment.FragmentDetailActivity
+activity::.Player
+call::getSystemService
+api_call::android/media/MediaPlayer;->stop
+intent::android.intent.action.EDIT
+call::Read/Write External Storage
+intent::android.intent.action.VIEW
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

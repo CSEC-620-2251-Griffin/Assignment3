@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::agc-android-app.appspot.com
+intent::android.intent.action.MAIN
+activity::.AndroidAstro
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.DataSheet
+intent::android.intent.category.LAUNCHER
+url::http://agc-android-app.appspot.com/tellAstro?ID%3D
+api_call::java/net/URL;->openConnection
+api_call::android/content/Context;->startActivity
+call::getSystemService

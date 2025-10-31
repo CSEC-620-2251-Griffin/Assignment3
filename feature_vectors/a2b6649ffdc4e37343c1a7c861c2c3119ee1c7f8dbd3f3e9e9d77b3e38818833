@@ -1,0 +1,9 @@
+activity::.ShortcutMailActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.GET_ACCOUNTS
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS

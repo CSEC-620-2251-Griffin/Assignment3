@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::www.matt-verges.com\n\n
+activity::Mult
+url::en.wikipedia.org\n\n
+intent::android.intent.action.MAIN
+url::http://en.wikipedia.org\n\n
+url::http://www.matt-verges.com\n\n
+feature::android.hardware.screen.portrait
+activity::Memorize
+intent::android.intent.category.LAUNCHER
+url::www.matt-verges.com\n\nWord
+url::http://www.matt-verges.com\n\nWord
+activity::.actHome
+activity::Word Genius

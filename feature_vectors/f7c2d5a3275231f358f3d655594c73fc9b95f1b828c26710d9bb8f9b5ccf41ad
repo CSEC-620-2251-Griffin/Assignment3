@@ -1,0 +1,16 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://www.herosordinaires.com/images/thumbnails/
+url::www.herosordinaires.com
+intent::android.intent.action.MAIN
+url::http://www.qimnet.com
+url::www.qimnet.com
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+url::http://[a-z0-9.]*herosordinaires\\.com/([^/]+)/([0-9]+)
+real_permission::android.permission.INTERNET
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+url::[a-z0-9.]*herosordinaires\\.com
+intent::android.intent.action.VIEW
+activity::.HerosOrdinairesBrowser

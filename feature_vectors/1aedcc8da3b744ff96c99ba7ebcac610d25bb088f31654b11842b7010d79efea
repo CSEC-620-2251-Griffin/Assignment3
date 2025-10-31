@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::x90.es
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://x90.es/api.php?&action%3Dshorturl&format%3Djson&url%3D
+intent::android.intent.action.SEND
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.INTERNET

@@ -1,0 +1,12 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.BSpell
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::BSpell
+activity::com.effectiveobjects.bspellinglib.TextEntryDialog
+feature::android.hardware.screen.portrait
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

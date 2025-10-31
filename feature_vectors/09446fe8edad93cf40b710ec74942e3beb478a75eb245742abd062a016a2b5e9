@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::http://www.uni-ulm.de/mensaplan/mensaplan.xml
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.Mensaplan
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.uni-ulm.de
+call::getSystemService

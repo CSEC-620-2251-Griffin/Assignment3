@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+activity::verperfil
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+call::Read/Write External Storage
+url::http://www.id3.org/dummy/ufid.html
+call::getPackageInfo
+activity::Preferences
+url::www.id3.org
+service_receiver::.RandomRingService
+call::getSystemService
+api_call::android/telephony/TelephonyManager;->listen
+url::musicbrainz.org
+call::Obfuscation(Base64)
+activity::.RandomRing
+url::http://musicbrainz.org
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+activity::.BuscadorArchivos
+permission::android.permission.RECEIVE_BOOT_COMPLETED

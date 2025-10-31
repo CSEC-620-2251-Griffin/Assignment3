@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+service_receiver::com.Gnathonic.SystemStatsLivePro.StatsService
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+api_call::java/net/Socket
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+feature::android.software.live_wallpaper
+intent::org.openintents.colorpicker.ColorPickerActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+real_permission::android.permission.READ_LOGS
+permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.ScreenEditor
+activity::com.Gnathonic.SystemStatsLivePro.WallpaperSettings
+intent::org.openintents.action.PICK_COLOR

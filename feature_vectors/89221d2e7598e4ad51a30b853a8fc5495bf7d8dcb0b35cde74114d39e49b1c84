@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+activity::.intro
+url::http://www.saweet.com\%27>www.saweet.com</a>
+intent::android.intent.category.DEFAULT
+url::http://market.android.com/search?q%3Dpname:android.gpacalculator
+intent::android.intent.category.LAUNCHER
+url::http://market.android.com/search?q%3Dpname:android.gpalettercalculator
+url::www.saweet.com\%27>www.saweet.com<
+activity::.GpaCalculator

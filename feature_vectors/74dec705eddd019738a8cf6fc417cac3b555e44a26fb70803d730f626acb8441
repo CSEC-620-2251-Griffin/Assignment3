@@ -1,0 +1,11 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->openOutputStream
+feature::android.hardware.screen.portrait
+activity::.Slydology
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.DEFAULT
+call::getSystemService

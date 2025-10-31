@@ -1,0 +1,17 @@
+activity::.eigo
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+permission::android.permission.ACCESS_NETWORK_STATE
+url::mdn.mainichi.jp
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://images.ad-maker.info/apps/5t4q2gc0ph28.html
+permission::android.permission.INTERNET
+url::images.ad-maker.info
+intent::android.intent.category.LAUNCHER
+url::http://mdn.mainichi.jp/
+activity::.start
+real_permission::android.permission.INTERNET
+call::getSystemService

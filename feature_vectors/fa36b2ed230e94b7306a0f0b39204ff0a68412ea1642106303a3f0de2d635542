@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.reazon.in.brain.Brain
+url::no-nai.me
+intent::android.intent.category.LAUNCHER
+url::http://no-nai.me/?dsn070
+activity::.Brain

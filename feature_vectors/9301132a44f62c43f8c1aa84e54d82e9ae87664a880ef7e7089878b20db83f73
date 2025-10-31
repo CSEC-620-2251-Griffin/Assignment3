@@ -1,0 +1,16 @@
+url::flydata.avinor.no
+feature::android.hardware.touchscreen
+activity::info.brathen.flytid.activities.Departures
+intent::android.intent.action.MAIN
+url::http://flydata.avinor.no/flightStatuses.asp?
+url::http://flydata.avinor.no/airlineNames.asp?
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+url::http://flydata.avinor.no/XmlFeed.asp?TimeFrom%3D0&TimeTo%3D3&
+url::http://flydata.avinor.no/airportNames.asp?
+real_permission::android.permission.INTERNET
+activity::info.brathen.flytid.activities.Arrivals
+intent::android.intent.action.VIEW
+activity::.Departures

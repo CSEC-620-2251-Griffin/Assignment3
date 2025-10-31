@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::http://www.cellularsouth.com/DiscoverCenter/mobile/android/dcapps/interests.xml
+activity::.CategoryList
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.cellularsouth.com/DiscoverCenter/mobile/android/dcapps/files/
+permission::android.permission.INTERNET
+url::http://www.cellularsouth.com/DiscoverCenter/mobile/android/dcapps/dcapplist.xml
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+url::www.cellularsouth.com
+call::getSystemService

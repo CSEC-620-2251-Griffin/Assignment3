@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.edit___
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+activity::.qichuangba___
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+api_call::android/app/NotificationManager;->notify
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

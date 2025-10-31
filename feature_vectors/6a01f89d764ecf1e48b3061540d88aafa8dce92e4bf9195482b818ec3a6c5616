@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.Main
+permission::com.android.launcher.permission.WRITE_SETTINGS
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.TIMEZONE_CHANGED
+service_receiver::.ReceiverIconChange
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.WRITE_SETTINGS
+api_call::android/content/ContentResolver;->query
+intent::android.intent.action.CREATE_SHORTCUT
+call::getSystemService
+intent::android.intent.action.TIME_SET
+activity::.CreateShortcuts
+service_receiver::.ReceiverInitAlarm
+api_call::android/content/Context;->sendBroadcast
+call::Read/Write External Storage
+permission::com.android.launcher.permission.READ_SETTINGS
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT

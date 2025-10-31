@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::mobileapps.one-economy.com
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::.Respond
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::www.youtube.com
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://mobileapps.one-economy.com/respond_toolboxes.txt
+intent::android.intent.category.LAUNCHER
+url::http://www.youtube.com/watch?v%3D
+real_permission::android.permission.INTERNET
+call::getSystemService

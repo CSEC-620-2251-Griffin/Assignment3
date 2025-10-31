@@ -1,0 +1,41 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::Timer Settings
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+real_permission::android.permission.ACCESS_WIFI_STATE
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.AVRSettings
+real_permission::android.permission.WAKE_LOCK
+service_receiver::.timer.TimerService
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_WIFI_STATE
+service_receiver::SetTimerAtBootReceiver
+api_call::android/content/Context;->startActivity
+activity::OSD
+intent::android.intent.action._BOOT_COMPLETED
+call::getSystemService
+url::http://xmlpull.org/v1/doc/features.html
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.VIBRATE
+api_call::android/net/wifi/WifiManager;->getDhcpInfo
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.AboutActivity
+call::Execution of external commands
+service_receiver::.timer.AlarmReceiver
+activity::Level
+api_call::android/webkit/WebView
+api_call::android/content/ContentResolver;->openInputStream
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Rename
+url::xmlpull.org
+activity::.AVRRemote
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/app/NotificationManager;->notify
+call::HttpPost

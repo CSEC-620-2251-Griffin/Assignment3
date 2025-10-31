@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::com.tombarrasso.android.wp7calculator.ThemeActivity
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.HomeActivity
+api_call::android/app/Activity;->startActivity
+call::getSystemService

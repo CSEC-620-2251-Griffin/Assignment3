@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+permission::android.permission.READ_CONTACTS
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::http://textr.us/autosms.php?client%3Dmobile-Android&getcarriers%3D1&region%3DUSA
+url::http://textr.us/autosms.php?client%3Dmobile-Android&device_id%3D
+url::textr.us
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.Sender
+intent::android.intent.category.BROWSABLE
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.action.VIEW

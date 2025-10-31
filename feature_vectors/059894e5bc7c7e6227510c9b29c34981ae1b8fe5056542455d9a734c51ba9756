@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+service_receiver::Hodge Podge
+provider::android.appwidget.provider

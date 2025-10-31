@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://m.ecglobal.co.kr
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::m.ecglobal.co.kr
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.MainIntroActivity

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.saweet.com\%27>www.saweet.com</a>
+activity::.GpaCalculator
+activity::.CumulatedGPA
+activity::.GpaValue
+url::www.saweet.com\%27>www.saweet.com<
+intent::android.intent.category.DEFAULT
+activity::.Report
+intent::android.intent.category.LAUNCHER

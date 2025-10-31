@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::http://www.youtube.com/watch?v%3DGPhvk8DIA5M
+api_call::android/os/Vibrator;->vibrate
+call::Read/Write External Storage
+url::http://www.youtube.com/watch?v%3DTC2dSVled7g
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+url::http://www.youtube.com/watch?v%3DJuK0XdPeNts
+activity::.framework.game.ScoreList
+url::http://www.youtube.com/watch?v%3Dbj2ZmJqJOGI
+url::http://www.traveldealmap.com/gobuggy/youtube/menulink
+activity::.framework.game.GoBuggy
+intent::android.intent.action.MAIN
+url::http://www.youtube.com/watch?v%3DhcojgJ4Fe38
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.youtube.com
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.GoBuggy
+url::www.traveldealmap.com

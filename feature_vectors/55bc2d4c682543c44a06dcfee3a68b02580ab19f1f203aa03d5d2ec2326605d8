@@ -1,0 +1,9 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+real_permission::android.permission.GET_TASKS
+intent::android.intent.action.MAIN
+activity::.activitylaunchmode
+api_call::android/app/ActivityManager;->getRunningTasks
+intent::android.intent.category.LAUNCHER
+activity::.Standard
+call::getSystemService

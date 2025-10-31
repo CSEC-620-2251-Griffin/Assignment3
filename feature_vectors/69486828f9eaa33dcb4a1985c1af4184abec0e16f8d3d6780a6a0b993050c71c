@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::img215.imageshack.us
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://img215.imageshack.us/img215/4745/splashi.png
+permission::android.permission.INTERNET
+url::http://2360ajmekeeh0c96mayqq9-r6m.hop.clickbank.net/
+activity::.Activity1
+url::feeds.ezinearticles.com
+url::2360ajmekeeh0c96mayqq9-r6m.hop.clickbank.net
+real_permission::android.permission.INTERNET
+url::http://feeds.ezinearticles.com/category/Business:Job-Search-Techniques.xml
+intent::android.intent.category.LAUNCHER

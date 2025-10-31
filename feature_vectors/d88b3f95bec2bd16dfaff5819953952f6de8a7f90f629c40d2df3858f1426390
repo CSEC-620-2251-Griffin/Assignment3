@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.pesse.ch/contact.php?x%3D1?device%3Diphone
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.pesse.ch
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://www.pesse.ch/index2.php?option%3Dcom_virtuemart&Itemid%3D123&device%3Diphone
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::Pesse

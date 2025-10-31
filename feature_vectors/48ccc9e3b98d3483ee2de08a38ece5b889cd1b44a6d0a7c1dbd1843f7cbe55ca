@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.ContextActivity
+intent::android.intent.action.MAIN
+activity::.contextes.ContextesActivity
+activity::ch.shimbawa.contextswitcher.context.ContextActivity
+intent::android.intent.category.LAUNCHER
+call::getSystemService

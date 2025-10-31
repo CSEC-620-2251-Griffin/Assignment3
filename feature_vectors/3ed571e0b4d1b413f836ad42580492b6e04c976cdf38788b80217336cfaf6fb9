@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Main
+permission::android.permission.INTERNET
+activity::.Settings
+url::slacktrackeronline.com
+url::http://slacktrackeronline.com/checkuser.php
+intent::android.intent.category.LAUNCHER
+url::http://slacktrackeronline.com/message.php
+activity::.Timerview
+activity::.Slacktivities
+real_permission::android.permission.INTERNET

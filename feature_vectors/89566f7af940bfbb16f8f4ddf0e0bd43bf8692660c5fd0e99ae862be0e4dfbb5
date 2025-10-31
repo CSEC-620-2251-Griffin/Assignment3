@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+service_receiver::.StartupReceiver
+activity::OrientationPreferenceActivity
+real_permission::android.permission.WRITE_SETTINGS
+permission::android.permission.WRITE_SETTINGS
+intent::android.intent.category.DEFAULT
+activity::.OrientationPreferenceActivity
+activity::OrientationActivity
+real_permission::android.permission.VIBRATE
+api_call::android/provider/Settings$System;->putInt
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.READ_SETTINGS
+call::getSystemService
+intent::android.intent.category.LAUNCHER

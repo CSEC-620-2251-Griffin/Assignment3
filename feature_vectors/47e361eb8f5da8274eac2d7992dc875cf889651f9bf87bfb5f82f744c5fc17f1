@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.juris.de/jportal/nav/nachrichten/newsappimpressum.jsp
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+call::getSystemService
+activity::.NewsEntry
+url::www.juris.de
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.NewsList
+url::https://www.juris.de/jportal/docs/newsapp_list
+url::http://www.juris.de

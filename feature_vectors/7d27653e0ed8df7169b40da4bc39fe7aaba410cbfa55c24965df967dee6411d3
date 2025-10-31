@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+service_receiver::.RootAccessDeniedAlarm
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+intent::android.intent.category.INFO
+call::Execution of external commands
+real_permission::android.permission.VIBRATE
+api_call::android/app/Activity;->setContentView
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+activity::com.schreinerDev.Resources.WidgetHelpAction
+call::getSystemService

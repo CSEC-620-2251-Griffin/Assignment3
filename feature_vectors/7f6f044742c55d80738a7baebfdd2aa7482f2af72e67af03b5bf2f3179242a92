@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.juret.fr/
+intent::android.intent.action.MAIN
+url::www.orange-business.com
+activity::.Main
+permission::android.permission.INTERNET
+url::www.iutnantes.univ-nantes.fr
+url::www.juret.fr
+url::http://www.thinkboxmalta.com/
+intent::android.intent.category.LAUNCHER
+activity::.HelloGoogleMaps
+url::http://www.iutnantes.univ-nantes.fr/321/0/fiche___formation/
+url::www.thinkboxmalta.com
+url::http://www.orange-business.com/

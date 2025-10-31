@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::HttpPost
+url::http://www.mobimash.org/cmrank/
+permission::android.permission.INTERNET
+url::www.mobimash.org
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.SplashActivity
+url::http://www.mobimash.org/cmrank/launches.php

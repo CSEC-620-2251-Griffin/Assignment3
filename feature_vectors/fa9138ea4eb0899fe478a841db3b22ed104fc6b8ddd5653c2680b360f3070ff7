@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.EnterpriseClock
+service_receiver::EnterpriseClock
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

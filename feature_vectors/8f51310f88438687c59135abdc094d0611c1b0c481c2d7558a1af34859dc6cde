@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.AllIncomeActivity
+activity::.ItemDetailActivity
+activity::.IncomeSourceDetailActivity
+activity::.ManageExpenseActivity
+intent::android.intent.action.MAIN
+activity::.MonthSelector
+activity::.LoginActivity
+activity::.MainActivity
+activity::.AllExpenseActivity
+activity::.MonthIncomeActivity
+intent::android.intent.category.LAUNCHER
+activity::.PreferencesActivity
+activity::.MonthExpenseActivity
+activity::.ManageExpenseActivity_Items
+activity::.ManageIncomeActivity_IncomeSources
+activity::.ManageIncomeActivity

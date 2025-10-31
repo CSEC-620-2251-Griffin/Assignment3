@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.wordclock
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.LAUNCHER
+url::softlab.net.tf
+provider::android.appwidget.provider
+url::http://softlab.net.tf/
+call::getSystemService

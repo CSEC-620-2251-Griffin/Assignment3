@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.Calculator
+intent::android.intent.action.MAIN
+activity::N Calulator v1.01
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::N %EC%EA%B8%EC%B2

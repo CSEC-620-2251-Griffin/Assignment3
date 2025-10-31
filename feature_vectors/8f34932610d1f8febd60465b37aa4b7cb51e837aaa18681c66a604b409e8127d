@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::.CounterListView
+activity::.HookView
+call::Read/Write External Storage
+activity::.KnittingStashHome
+activity::.myPreferencesActivity
+activity::.NeedleView
+activity::.ProjectView
+activity::.NeedleEditActivity
+activity::.ProjectAddActivity
+activity::.EditPreferencesActivity
+activity::.NeedleAddActivity
+activity::.ProjectListView
+activity::.NeedleListView
+activity::.ProjectFullViewActivity
+activity::.Counters
+activity::.ProjectEditActivity
+activity::.HookListView
+activity::.HookAddActivity
+activity::.KnittingStashTabs
+intent::android.intent.action.MAIN
+activity::.CounterEditActivity
+activity::.HookEditActivity
+activity::.CounterView
+activity::.CounterAddActivity
+intent::android.intent.category.LAUNCHER
+activity::.KnittingStashListHome

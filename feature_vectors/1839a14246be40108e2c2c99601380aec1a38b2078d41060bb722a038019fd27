@@ -1,0 +1,15 @@
+url::m.facebook.com
+feature::android.hardware.touchscreen
+url::www.nullapp.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::HttpPost
+activity::.Main
+url::http://www.nullapp.com/drumkit/report.php
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://m.facebook.com/sharer.php?u%3Dhttp://www.nullapp.com/
+url::http://www.nullapp.com/

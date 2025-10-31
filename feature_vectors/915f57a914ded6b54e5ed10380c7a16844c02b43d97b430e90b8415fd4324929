@@ -1,0 +1,36 @@
+feature::android.hardware.touchscreen
+service_receiver::.service.BTGPSService
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_MOCK_LOCATION
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+service_receiver::BluetoothGPS Service
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+api_call::android/location/LocationManager;->addTestProvider
+feature::android.hardware.location.gps
+api_call::android/bluetooth/BluetoothAdapter;->cancelDiscovery
+intent::android.intent.action.CREATE_SHORTCUT
+feature::android.hardware.location
+real_permission::android.permission.VIBRATE
+permission::android.permission.BLUETOOTH
+api_call::android/bluetooth/BluetoothDevice;->getName
+call::getSystemService
+service_receiver::.appwidget.ServiceWidgetBroadcastReceiver
+real_permission::android.permission.BLUETOOTH
+activity::BluetoothGPS Service Shortcut
+service_receiver::ServiceControlBroadcastReceiver
+api_call::android/content/Context;->startService
+real_permission::android.permission.BLUETOOTH_ADMIN
+activity::.BluetoothGPSActivity
+intent::android.intent.action.MAIN
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+feature::android.hardware.bluetooth
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/location/LocationManager;->getProvider
+permission::android.permission.BLUETOOTH_ADMIN
+api_call::android/app/NotificationManager;->notify
+provider::android.appwidget.provider
+real_permission::android.permission.ACCESS_MOCK_LOCATION

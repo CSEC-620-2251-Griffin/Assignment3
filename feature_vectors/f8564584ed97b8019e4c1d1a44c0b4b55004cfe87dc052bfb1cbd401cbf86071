@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://www.pressepipole.com/top10pipole.php
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.PressePipole
+permission::android.permission.INTERNET
+url::http://www.presseipole.com/top10pipole.php
+url::www.pressepipole.com
+intent::android.intent.category.LAUNCHER
+url::www.presseipole.com
+real_permission::android.permission.INTERNET

@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/media/MediaRecorder;->setAudioSource
+activity::com.newburygraphics.talknow.CanvasDrawingActivity
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.WAKE_LOCK
+activity::.TalkNow
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

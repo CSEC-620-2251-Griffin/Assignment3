@@ -1,0 +1,27 @@
+url::http://www.topografix.com/GPX/1/1
+feature::android.hardware.touchscreen
+url::www.w3.org
+url::www.topografix.com
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.TrekTrak
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+feature::android.hardware.location.gps
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.pdjpdj.go-plus.net
+feature::android.hardware.location
+api_call::android/location/LocationManager;->isProviderEnabled
+url::http://www.w3.org/2001/XMLSchema
+call::getSystemService
+url::http://xmlpull.org/v1/doc/features.html
+feature::android.hardware.screen.landscape
+url::http://www.pdjpdj.go-plus.net
+call::Read/Write External Storage
+intent::android.intent.action.VIEW
+intent::android.intent.action.MAIN
+activity::GraphIt
+url::xmlpull.org
+intent::android.intent.category.LAUNCHER

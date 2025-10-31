@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+service_receiver::BootReceiver
+permission::android.permission.WRITE_CONTACTS
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.READ_CONTACTS
+activity::.EmergencyCalls
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.READ_CONTACTS
+service_receiver::InstanceSaverService
+call::getSystemService
+api_call::android/content/Context;->startService

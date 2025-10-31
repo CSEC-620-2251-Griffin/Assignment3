@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.illiniupdate.com
+url::http://mobile.illiniupdate.com/roster
+url::http://mobile.illiniupdate.com/stats
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::mobile.illiniupdate.com
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.illiniupdate.com/schedule
+intent::android.intent.category.LAUNCHER
+url::http://mobile.illiniupdate.com/about
+activity::Illini Update

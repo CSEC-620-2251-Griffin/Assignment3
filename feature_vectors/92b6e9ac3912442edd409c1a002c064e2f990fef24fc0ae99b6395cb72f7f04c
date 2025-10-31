@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+url::http://www.partyoftwo.game-host.org/gateway/upload/score.php?action%3Dpost&
+url::www.partyoftwo.game-host.org
+activity::.Run
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://www.partyoftwo.game-host.org/gateway/upload/score.php?action%3Dget
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

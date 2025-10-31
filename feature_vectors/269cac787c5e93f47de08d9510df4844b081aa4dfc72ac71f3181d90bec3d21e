@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::RabiSoft.intent.action.PICK_SEND_INTENT
+intent::android.intent.action.MAIN
+activity::Pick Intent
+intent::android.intent.category.HOME
+activity::.Main
+intent::intent/broadcast
+intent::android.intent.category.DEFAULT
+activity::.Home
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->startActivity
+call::getSystemService

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::LandscapeActivity
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+activity::.GridCarbonActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient

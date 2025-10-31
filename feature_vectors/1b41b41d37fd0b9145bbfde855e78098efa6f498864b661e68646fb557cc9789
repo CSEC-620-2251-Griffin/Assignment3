@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::www.noamwolf.com
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+url::http://www.noamwolf.com/android/clockapps/help.html
+activity::.ClockApps
+activity::.stopwatch.StopwatchActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.SettingsActivity
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+service_receiver::.timer.NotificationReceiver

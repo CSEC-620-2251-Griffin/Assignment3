@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::Contact
+activity::.Main
+activity::Options
+activity::AddModule
+service_receiver::Module Timetable
+activity::EULA
+provider::android.appwidget.provider
+activity::About
+intent::android.intent.category.LAUNCHER

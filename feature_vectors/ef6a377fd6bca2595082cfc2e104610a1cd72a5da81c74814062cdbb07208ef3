@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::64.139.124.76
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.MainMenu
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://64.139.124.76/upload.php
+real_permission::android.permission.WAKE_LOCK
+call::HttpPost
+call::getSystemService
+url::http://64.139.124.76/getTimes.php

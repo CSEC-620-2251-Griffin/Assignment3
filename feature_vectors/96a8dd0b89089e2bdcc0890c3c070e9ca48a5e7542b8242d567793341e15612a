@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+url::http://download.anomalythegame.com/0001/
+real_permission::android.permission.WAKE_LOCK
+activity::com.android.Game11Bits.MainActivity
+permission::android.permission.DELETE_CACHE_FILES
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+url::https://humblebundle.appspot.com/androidapp/v1/version_check
+url::https://humblebundle.appspot.com/androidapp/v1/version_check?
+activity::com.android.Game11Bits.LoaderActivity
+activity::com.android.Game11Bits.GameActivity
+activity::com.android.Game11Bits.VideoActivity
+feature::android.hardware.screen.landscape
+api_call::android/app/Activity;->startActivity
+url::humblebundle.appspot.com
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::download.anomalythegame.com
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

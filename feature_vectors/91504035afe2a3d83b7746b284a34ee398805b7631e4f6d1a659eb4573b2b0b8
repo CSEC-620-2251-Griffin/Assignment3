@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.Main
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+activity::.Results
+activity::.WarmUp
+activity::.RecordCount
+activity::.Settings
+activity::.ExerciseType
+activity::.Cardiovascular
+activity::.ResultDetail
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+feature::android.hardware.screen.portrait
+activity::.OpenAnimationActivity
+call::getSystemService

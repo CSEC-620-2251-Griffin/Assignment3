@@ -1,0 +1,13 @@
+url::http://m.pokec.sk
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::https://www.facebook.com
+intent::android.intent.action.MAIN
+url::m.pokec.sk
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.TabsActivity
+intent::android.intent.action.VIEW

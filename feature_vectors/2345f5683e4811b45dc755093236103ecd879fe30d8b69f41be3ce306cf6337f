@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.Greet
+activity::.HtmlInfo
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+activity::.Tab
+real_permission::android.permission.INTERNET
+url::cleanair.seoul.go.kr
+activity::.Jabsori
+url::http://cleanair.seoul.go.kr/rt_measure.htm
+call::getSystemService
+intent::android.intent.category.LAUNCHER

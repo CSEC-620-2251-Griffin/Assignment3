@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+service_receiver::Tank Petrol
+intent::android.intent.action.MAIN
+activity::.SplashScreen
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->startActivity
+provider::android.appwidget.provider

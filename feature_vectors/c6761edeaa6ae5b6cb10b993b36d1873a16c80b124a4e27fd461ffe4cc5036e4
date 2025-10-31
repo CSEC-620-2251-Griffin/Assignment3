@@ -1,0 +1,11 @@
+url::http://30by40.com
+feature::android.hardware.touchscreen
+activity::.OnTheFlyBackupActivity
+intent::android.intent.action.MAIN
+url::30by40.com
+permission::android.permission.RESTART_PACKAGES
+api_call::android/content/Context;->startActivity
+api_call::android/app/ActivityManager;->restartPackage
+real_permission::android.permission.RESTART_PACKAGES
+intent::android.intent.category.LAUNCHER
+call::getSystemService

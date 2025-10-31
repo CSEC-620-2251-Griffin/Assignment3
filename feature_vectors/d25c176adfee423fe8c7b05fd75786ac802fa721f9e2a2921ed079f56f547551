@@ -1,0 +1,22 @@
+permission::com.google.android.providers.gmail.permission.READ_GMAIL
+feature::android.hardware.touchscreen
+provider::com.android.email.attachmentprovider
+api_call::android/app/Activity;->startActivity
+provider::com.google.android.providers.gmail.permission.READ_GMAIL
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.AttachSaveLauncherStub
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.BROWSABLE
+intent::android.intent.category.DEFAULT
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+permission::com.google.android.gm.permission.READ_GMAIL
+provider::com.fsck.k9.attachmentprovider
+intent::android.intent.action.VIEW
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.blackmoonit.com
+permission::com.android.email.permission.READ_ATTACHMENT
+url::http://www.blackmoonit.com/android/attachsave

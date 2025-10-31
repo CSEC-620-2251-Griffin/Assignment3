@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::Settings
+intent::android.intent.action.MAIN
+feature::android.software.live_wallpaper
+activity::com.driftwood.wallpaper.daybreak.OpenActivity
+intent::android.intent.category.INFO
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

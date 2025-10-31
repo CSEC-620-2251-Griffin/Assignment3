@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::alfffa.Chart.Menu1
+activity::alfffa.Chart.MeterTexto
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.Alfffa_Chart
+activity::alfffa.Chart.EsEsta
+api_call::android/content/ContentResolver;->openFileDescriptor
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS

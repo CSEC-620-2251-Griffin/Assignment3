@@ -1,0 +1,14 @@
+activity::EditMenuItemName
+feature::android.hardware.touchscreen
+activity::.TakeAwayOrders
+activity::ManageMenuLibrary
+activity::DisplayAbout
+activity::EditPersonName
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::AskIFWantsAShareOf
+activity::EditLibraryName
+activity::TakeAwayOrders
+activity::AskForHowMany
+activity::ChangePrice
+intent::android.intent.category.LAUNCHER

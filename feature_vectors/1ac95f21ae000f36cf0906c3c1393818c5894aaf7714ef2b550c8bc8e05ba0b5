@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::kooeeapp.com
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::http://kooeeapp.com/api1/verifyUser.php
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://kooeeapp.com/iapi02/createAccount.php
+url::http://kooeeapp.com/iapi02/updateNFCToken.php
+intent::android.intent.category.LAUNCHER
+url::http://kooeeapp.com/api1/addFriend.php
+call::getSystemService
+url::http://kooeeapp.com/iapi02/getNFCToken.php
+activity::.Kooee
+url::http://kooeeapp.com/iapi02/friendsListAndroid.php

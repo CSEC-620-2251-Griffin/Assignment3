@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+intent::android.intent.category.HOME
+service_receiver::.calendarReceiver
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.statusbar
+intent::android.intent.action.BOOT_COMPLETED
+call::getSystemService
+service_receiver::.UpdateService

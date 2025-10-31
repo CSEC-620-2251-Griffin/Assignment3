@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.SelectedFoodItemList
+activity::.OwnFoodItem
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::.AddSelectFoodItem
+activity::.HelpDiabetes

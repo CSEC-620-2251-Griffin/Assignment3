@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::http://www.nague.com/m/profiles/members/
+url::www.nague.com
+intent::android.intent.action.MAIN
+url::http://www.nague.com/m/forum
+intent::android.intent.category.LAUNCHER
+activity::.Nague
+url::http://www.nague.com/m/activity/log/list

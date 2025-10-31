@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.ExpenseActivity
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.portrait
+activity::com.littlebookapps.android.expenses.TutorialActivity
+activity::com.littlebookapps.android.expenses.ExpenseDetailActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::com.littlebookapps.android.expenses.AnalyticsActivity
+activity::com.littlebookapps.android.expenses.EditCategoryActivity
+call::getSystemService

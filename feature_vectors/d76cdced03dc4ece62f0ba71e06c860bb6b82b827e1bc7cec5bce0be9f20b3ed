@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.activity.STLViewActivity
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.STLViewActivity
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW

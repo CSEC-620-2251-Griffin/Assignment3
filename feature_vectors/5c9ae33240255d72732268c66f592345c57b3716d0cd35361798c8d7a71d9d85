@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::.App
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://application.la-terrasse.be/accueil.html
+permission::android.permission.INTERNET
+url::http://application.la-terrasse.be/photos.html
+feature::android.hardware.screen.portrait
+url::http://application.la-terrasse.be/restaurant.html
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://application.la-terrasse.be/agenda.html
+url::application.la-terrasse.be
+call::getSystemService

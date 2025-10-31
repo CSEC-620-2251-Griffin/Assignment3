@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::twitter.com
+activity::.VictoryV
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://twitter.com/badpixelkr
+call::getSystemService

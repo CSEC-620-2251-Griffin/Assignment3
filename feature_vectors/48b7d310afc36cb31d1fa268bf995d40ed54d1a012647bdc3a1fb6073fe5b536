@@ -1,0 +1,15 @@
+url::http://www.mallzi.cn/train/TrainStation.asp?Station%3D
+feature::android.hardware.touchscreen
+url::http://www.mallzi.cn/train/CheckUpdate.asp
+intent::android.intent.action.MAIN
+url::www.mallzi.cn
+api_call::java/net/HttpURLConnection
+url::http://www.mallzi.cn/train/CheckUpdate.asp?DownType%3DCheck
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+url::http://www.mallzi.cn/train/TrainDetail.asp?TrainName%3D
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.JohnTool
+call::getSystemService

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.zonerantivirus.com
+activity::.ActMain
+activity::com.zoner.android.eicar.ActMain
+url::http://www.zonerantivirus.com
+intent::android.intent.category.LAUNCHER

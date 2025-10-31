@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+activity::com.okdpdc.dos.RecentGallery
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::com.okdpdc.dos.SplashScreen
+url::http://api.flickr.com/services/rest/?method%3Dflickr.photos.getInfo&api_key%3D
+url::http://farm
+activity::.SplashScreen
+activity::com.okdpdc.dos.AllSetsGallery
+call::getSystemService
+activity::com.okdpdc.dos.sets
+url::http://api.flickr.com/services/rest/?method%3Dflickr.photosets.getPhotos&api_key%3D
+url::http://api.flickr.com/services/rest/?method%3Dflickr.collections.getTree&api_key%3D
+url::http://api.flickr.com/services/rest/?method%3Dflickr.photosets.getList&api_key%3D
+url::api.flickr.com
+call::Read/Write External Storage
+activity::com.okdpdc.dos.allSets
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::com.okdpdc.dos.GalleryExample
+url::farm
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::com.okdpdc.dos.main

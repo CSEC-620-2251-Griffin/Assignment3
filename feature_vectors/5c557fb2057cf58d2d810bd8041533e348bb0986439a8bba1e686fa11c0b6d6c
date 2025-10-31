@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.SplashScreen
+intent::android.intent.category.DEFAULT
+activity::SplashScreen
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://m.abnsave.com?ref%3D183
+url::m.abnsave.com

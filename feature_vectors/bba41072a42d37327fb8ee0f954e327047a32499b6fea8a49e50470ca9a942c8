@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.hakynda.com/data.sqlite
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.AnaAktiviti
+real_permission::android.permission.INTERNET
+url::www.hakynda.com
+call::getSystemService

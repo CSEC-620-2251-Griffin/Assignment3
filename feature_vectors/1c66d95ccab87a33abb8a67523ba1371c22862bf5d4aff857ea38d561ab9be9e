@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.MODIFY_AUDIO_SETTINGS
+intent::android.intent.action.MAIN
+service_receiver::OnDock
+call::getSystemService
+api_call::android/media/AudioManager;->isBluetoothA2dpOn
+service_receiver::DockService
+intent::android.intent.action.DOCK_EVENT
+activity::.DockVolume
+api_call::android/content/Context;->startService
+url::schemas.android.com
+url::http://schemas.android.com/apk/res/android
+intent::android.intent.category.LAUNCHER

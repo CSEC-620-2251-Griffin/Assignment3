@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+url::apklabs.com
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://apklabs.com/amateur-radio-call-log/?s%3D
+activity::.ManageDB
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+activity::.LogEdit
+call::getSystemService
+activity::.CallLog
+intent::android.intent.action.Lookup
+intent::android.intent.category.DEFAULT
+api_call::android/webkit/WebView
+intent::android.intent.action.ManageDB
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.LogEdit
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+activity::.Lookup
+intent::android.intent.category.LAUNCHER

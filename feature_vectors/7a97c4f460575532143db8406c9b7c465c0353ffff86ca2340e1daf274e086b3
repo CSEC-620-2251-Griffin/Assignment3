@@ -1,0 +1,48 @@
+feature::android.hardware.touchscreen
+activity::com.wmsd.transferbotsd.ScrnTabWidgetMain
+call::printStackTrace
+service_receiver::TransferBotSD NetConx
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+activity::com.wmsd.transferbotsd.ScrnCreateAcct
+url::http://schemas.android.com/apk/lib/com.google.ads
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+service_receiver::TBSD bg-netconx
+activity::com.wmsd.transferbotsd.ScrnStart
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+permission::android.permission.WAKE_LOCK
+url::http://a.admob.com/f0?
+activity::com.wmsd.transferbotsd.ScrnIntro
+intent::android.intent.category.LAUNCHER
+permission::android.permission.VIBRATE
+url::http://transferbotsd.com
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::com.wmsd.transferbotsd.ScrnLogin
+activity::com.wmsd.transferbotsd.ScrnIntroCreate
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.ScrnStart
+activity::com.wmsd.transferbotsd.ScrnMain
+call::Cipher(AES/CBC/PKCS5Padding)
+activity::com.wmsd.transferbotsd.ScrnAboutPlans
+api_call::android/app/Activity;->startActivity
+url::a.admob.com
+activity::com.wmsd.transferbotsd.ScrnDebug
+url::http://transferbotsd.com/app/
+activity::inactive.ScrnFailMsg
+url::transferbotsd.com
+service_receiver::TransferBotSD FileWorker
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(Blowfish)
+real_permission::android.permission.INTERNET
+url::www.gstatic.com
+activity::com.wmsd.transferbotsd.ScrnPrefs
+api_call::android/webkit/WebView
+call::getSystemService
+activity::com.wmsd.transferbotsd.ScrnFeedback
+url::schemas.android.com

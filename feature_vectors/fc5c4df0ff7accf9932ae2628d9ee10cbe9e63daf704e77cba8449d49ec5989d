@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.CALL_PHONE
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.telephony
+url::ipension.kr
+url::http://ipension.kr/home/pensionhill/index.html
+intent::android.intent.category.LAUNCHER

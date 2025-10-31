@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::AlarmReceiver
+real_permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+activity::.ListApp
+api_call::android/app/backup/BackupManager;->dataChanged
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.BACKUP
+call::getSystemService

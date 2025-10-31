@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::http://www.leteckaposta.cz/
+url::leteckaposta.cz
+intent::android.intent.action.MAIN
+url::http://leteckaposta.cz/info/uploadStatus_rpc.php?ticket%3D
+url::www.leteckaposta.cz
+permission::android.permission.INTERNET
+activity::.Home
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/app/NotificationManager;->notify
+activity::.FileBrowserActivity
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::.HistoriaActivity
+call::getSystemService

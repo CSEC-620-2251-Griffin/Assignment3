@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+provider::android.provider.Telephony.SMS_RECEIVED
+intent::android.intent.action.DATA_SMS_RECEIVED
+activity::.SMSFilterSettings
+permission::android.permission.RECEIVE_SMS
+activity::.AboutActivity
+intent::android.intent.category.DEFAULT
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+permission::android.permission.WRITE_SMS
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+service_receiver::.SMSFilterReceiver

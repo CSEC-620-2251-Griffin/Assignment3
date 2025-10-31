@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://www.cantonuovo.eu/?feed%3Drss2
+service_receiver::.SaintWidget$UpdateService
+intent::android.intent.category.DEFAULT
+url::www.cantonuovo.eu
+url::feeds.feedburner.com
+permission::android.permission.INTERNET
+api_call::android/content/Context;->startService
+url::http://feeds.feedburner.com/catholicnewsagency/saintoftheday/
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider

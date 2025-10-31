@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+activity::.ServiceStarter
+real_permission::android.permission.WRITE_SETTINGS
+service_receiver::.RotationControl
+service_receiver::.MyIntentReceiver
+intent::android.intent.category.HOME
+intent::android.intent.category.LAUNCHER
+api_call::android/provider/Settings$System;->putInt
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+service_receiver::.BootUpReceiver
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::java/net/Socket
+api_call::java/lang/Runtime;->exec
+call::printStackTrace
+service_receiver::.SyncService
+activity::.Settings
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+call::Execution of external commands
+intent::android.intent.category.DEFAULT
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+activity::.Sytrant
+api_call::android/content/Context;->startService

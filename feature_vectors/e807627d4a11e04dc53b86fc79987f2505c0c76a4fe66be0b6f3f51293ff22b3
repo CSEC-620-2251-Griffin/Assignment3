@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::java/net/HttpURLConnection
+url::www.google.com
+url::http://www.google.com
+permission::android.permission.INTERNET
+activity::.Settings
+url::http://www.google.com/dictionary?&langpair%3D
+service_receiver::.DictAddOnService
+url::ajax.googleapis.com
+url::http://ajax.googleapis.com/ajax/services/language/translate?v%3D1.0&langpair%3D
+real_permission::android.permission.INTERNET
+call::getSystemService

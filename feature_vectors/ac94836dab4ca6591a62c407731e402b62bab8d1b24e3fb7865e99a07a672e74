@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+url::pagead2.googlesyndication.com
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/content/pm/PackageManager;->getPackageSizeInfo
+url::10.0.2.2
+call::getPackageInfo
+activity::com.lindaandny.applicationmanager.ApplicationManager
+api_call::android/content/Context;->startActivity
+url::lindawallpapers.appspot.com
+url::lindawallpapers.s3.amazonaws.com
+url::http://pagead2.googlesyndication.com/pagead/show_mobile_ads.js
+activity::com.lindaandny.applicationmanager.InstalledActivity
+service_receiver::com.lindaandny.filemanager.FileService
+call::getSystemService
+url::http://lindawallpapers.appspot.com/
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+permission::android.permission.GET_PACKAGE_SIZE
+real_permission::android.permission.GET_PACKAGE_SIZE
+intent::android.intent.category.LAUNCHER
+activity::com.lindaandny.applicationmanager.StoreActivity
+url::http://lindawallpapers.s3.amazonaws.com/wallpapers/
+url::http://10.0.2.2:8888/wallpapers/
+activity::.ApplicationManager

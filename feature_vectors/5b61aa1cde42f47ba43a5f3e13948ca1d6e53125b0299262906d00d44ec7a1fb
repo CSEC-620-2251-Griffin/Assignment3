@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.tn1empire.com/myphoneapps/20vat/app.html
+activity::com.eminencecs.PixieLogo.Splash
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+url::www.tn1empire.com
+activity::com.eminencecs.PixieLogo.TN1DESIGNdemo

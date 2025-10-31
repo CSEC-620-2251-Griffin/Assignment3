@@ -1,0 +1,19 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://www.warp.com.mx/discos/feed
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://gdata.youtube.com/feeds/api/users/WARPcommx/uploads?orderby%3Drelevance
+url::http://www.warp.com.mx/noticias/feed
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::gdata.youtube.com
+url::http://www.warp.com.mx/encore/feed
+intent::android.intent.category.LAUNCHER
+url::http://www.warp.com.mx/destacados/feed
+activity::.Splash
+url::www.warp.com.mx
+call::Read/Write External Storage
+url::http://www.warp.com.mx/gigs/feed
+call::getSystemService
+url::http://www.warp.com.mx

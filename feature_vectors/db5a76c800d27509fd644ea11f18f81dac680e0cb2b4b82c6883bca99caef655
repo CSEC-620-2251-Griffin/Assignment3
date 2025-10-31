@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::m.gschickt.de
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://m.gschickt.de
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::com.sonyericsson.extras.liveview.plugins.PluginPreferences
+real_permission::android.permission.READ_CONTACTS
+call::Read/Write External Storage
+service_receiver::Gschickt MessageService
+api_call::android/content/ContentResolver;->query
+service_receiver::com.sonyericsson.extras.liveview.plugins.PluginReceiver

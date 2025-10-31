@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+intent::android.intent.action.SEARCH
+activity::BookSearchActivity
+real_permission::android.permission.READ_CONTACTS
+url::d.hatena.ne.jp
+url::http://d.hatena.ne.jp/ra-i-zu/20110427/1303874313
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.VIBRATE
+call::getSystemService
+call::Obfuscation(Base64)
+url::books.google.co.jp
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+service_receiver::InputServise
+url::http://books.google.co.jp/books?vid%3Disbn
+intent::android.intent.category.LAUNCHER
+activity::.BookList

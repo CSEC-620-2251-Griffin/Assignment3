@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.Main
+intent::android.intent.action.MAIN
+url::m.fundhana.com
+url::http://m.fundhana.com
+intent::android.intent.category.LAUNCHER

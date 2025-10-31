@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www9.welt-trainer.de/wm31/app/tippen.php
+intent::android.intent.action.MAIN
+url::http://www9.welt-trainer.de/wm31/app/tabellen.php
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.WMActivity
+url::http://www9.welt-trainer.de/wm31/app/
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://www9.welt-trainer.de/wm31/app/punktestand.php
+url::http://www9.welt-trainer.de/wm31/app/preise.php
+real_permission::android.permission.INTERNET
+url::www9.welt-trainer.de

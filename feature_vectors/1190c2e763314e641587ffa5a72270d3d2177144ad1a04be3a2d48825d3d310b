@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+url::http://www.doodle-jump.com/H_NOK5800XPR/?request%3D
+url::http://www.doodle-jump.com/H_NOK5800XPR/?mb%3D1&cid%3D1
+intent::android.intent.action.MAIN
+url::http://www.netmite.com/android/srv/1.6/upload/dole_vv2lcqe2.jad
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+url::www.doodle-jump.com
+intent::android.intent.category.ALTERNATIVE
+activity::.S
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER

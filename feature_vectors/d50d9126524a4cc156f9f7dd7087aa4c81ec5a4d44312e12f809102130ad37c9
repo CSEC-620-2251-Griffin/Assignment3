@@ -1,0 +1,5 @@
+service_receiver::LangPicker$LocaleChangerReceiver
+feature::android.hardware.touchscreen
+provider::android.appwidget.provider
+service_receiver::LangPicker
+permission::android.permission.CHANGE_CONFIGURATION

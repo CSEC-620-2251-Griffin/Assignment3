@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::http://www.sansibar.de/tycon/file.php?id%3D29840
+permission::android.permission.STATUS_BAR
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+activity::.Sansibar
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.sansibar.de
+api_call::java/net/URL;->openConnection
+real_permission::android.permission.INTERNET
+call::HttpPost
+call::getSystemService

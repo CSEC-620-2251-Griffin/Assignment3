@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::api.appseleration.net
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+activity::.WelcomeScreen
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.FlagsGrid
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::https://api.appseleration.net/api
+activity::.FlagPage
+real_permission::android.permission.WAKE_LOCK

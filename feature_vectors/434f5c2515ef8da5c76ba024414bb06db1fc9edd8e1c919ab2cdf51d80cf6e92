@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::fbfreakynuts.byethost15.com
+url::www.kaskus.us
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://fbfreakynuts.byethost15.com/faqdroid.html
+url::http://bit.ly/indexdeviceandroidkaskus
+intent::android.intent.category.LAUNCHER
+url::http://bit.ly/kamarandroidkaskus
+url::http://www.kaskus.us/showthread.php?t%3D8368560
+url::bit.ly
+url::http://www.kaskus.us/showthread.php?t%3D5577827
+activity::.mainapps

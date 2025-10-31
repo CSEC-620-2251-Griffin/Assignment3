@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::com.astheysay.nl.android.Slide
+intent::android.intent.action.MAIN
+url::www.snsbank.nl
+permission::android.permission.INTERNET
+activity::.Slide
+feature::android.hardware.screen.portrait
+url::https://www.snsbank.nl/mobiel/secure/login.html?handset%3Dja
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

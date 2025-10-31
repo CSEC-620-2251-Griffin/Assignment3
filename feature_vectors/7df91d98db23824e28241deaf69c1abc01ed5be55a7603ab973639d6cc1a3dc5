@@ -1,0 +1,14 @@
+url::http://www.traducteur-sms.com/mob.php?q%3D
+feature::android.hardware.touchscreen
+activity::.choisir
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+url::www.traducteur-sms.com
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query

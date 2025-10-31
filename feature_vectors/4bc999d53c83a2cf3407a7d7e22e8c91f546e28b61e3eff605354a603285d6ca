@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::unihockey.ch
+url::http://unihockey.ch/api-public/getNews.php?i%3D
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::http://unihockey.ch/api-public/getGames.php?i%3D
+activity::.Main
+permission::android.permission.INTERNET
+url::http://unihockey.ch/api-public/isNewest.php?id%3D
+url::http://unihockey.ch/help/
+url::http://unihockey.ch/api-public/getTicker.php?id%3D
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+service_receiver::com.admob.android.ads.analytics.InstallReceiver
+activity::com.admob.android.ads.AdMobActivity

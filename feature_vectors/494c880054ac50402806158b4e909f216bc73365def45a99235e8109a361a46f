@@ -1,0 +1,8 @@
+activity::.fors
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::antech.forsranningen.startlista
+activity::antech.forsranningen.fors
+activity::antech.forsranningen.schema
+activity::antech.forsranningen.description
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.handyx.net
+intent::android.intent.action.MAIN
+url::http://www.netmite.com/android/srv/2.0/upload/859109205712.jar
+url::www.netmite.com
+url::http://www.netmite.com/android/andme_signed.apk
+activity::.Quiz
+url::http://www.handyx.net
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.LAUNCHER

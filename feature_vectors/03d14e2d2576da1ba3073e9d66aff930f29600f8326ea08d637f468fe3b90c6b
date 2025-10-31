@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.BROWSABLE
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::getSystemService
+call::Obfuscation(Base64)
+call::Cipher(pad block corrupted)
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.IntersafeApp
+real_permission::android.permission.INTERNET
+activity::IntersafeApp
+call::HttpPost
+intent::android.intent.action.VIEW
+intent::android.intent.category.LAUNCHER

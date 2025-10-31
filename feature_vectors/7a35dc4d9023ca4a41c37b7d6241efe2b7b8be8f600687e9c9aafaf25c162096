@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.MODIFY_PHONE_STATE
+activity::.WebActivity
+real_permission::android.permission.INTERNET
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+api_call::java/net/NetworkInterface
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+real_permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.ACCESS_CHECKIN_PROPERTIES
+permission::android.permission.CHANGE_WIFI_STATE
+call::getSystemService
+api_call::android/net/wifi/WifiManager;->getConnectionInfo

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://www.premierleague.com
+url::http://schemas.android.com/apk/res/
+url::www.premierleague.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://www.premierleague.com/namedImage/12306/premLeaguePenPic_
+url::http://www.premierleague.com/dynamicxml/stats/0/PlayerProfile_
+intent::android.intent.category.LAUNCHER
+activity::.PremierLeagueAd
+real_permission::android.permission.INTERNET
+url::http://www.premierleague.com/dynamicxml/stats/
+api_call::java/net/URL;->openConnection
+url::schemas.android.com

@@ -1,0 +1,18 @@
+activity::.Favorite
+feature::android.hardware.touchscreen
+url::hkjude.textcube.com
+url::http://hkjude.textcube.com/8/attach/
+intent::android.intent.action.MAIN
+activity::%EC%B0%ED%B8%EB%B2%ED%B8 %EA%B2%EC
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://serlya.tistory.com/attachment/cfile
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+activity::.DataSearch
+url::serlya.tistory.com
+intent::android.intent.category.LAUNCHER
+activity::.Notice
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+activity::%EC%B0%ED%B8%EB%B2%ED%B8
+call::getSystemService

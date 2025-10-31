@@ -1,0 +1,17 @@
+activity::.PanelActivity
+activity::.SettingActivity
+intent::android.intent.action.MAIN
+activity::.MsgActivity
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.Main
+activity::.AboutActivity
+feature::android.hardware.touchscreen
+activity::.DataActivity
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.PhoneActivity
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query

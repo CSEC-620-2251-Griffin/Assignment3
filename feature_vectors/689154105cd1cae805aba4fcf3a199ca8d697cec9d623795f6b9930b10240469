@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::beecherhg.t15.org
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://beecherhg.t15.org/mobileAdsTest.html
+activity::com.beecherhg.android.silentmodetoggle.MainActivity
+service_receiver::com.beecherhg.android.silentmodetoggle.AppWidget$ToggleService
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

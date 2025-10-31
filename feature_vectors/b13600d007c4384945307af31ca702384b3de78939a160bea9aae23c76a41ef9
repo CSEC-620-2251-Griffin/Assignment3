@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.ShowInfos
+activity::.About
+intent::android.intent.action.MAIN
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://android.seo-stats.eu/index.php?u%3D
+intent::android.intent.category.LAUNCHER
+url::android.seo-stats.eu
+api_call::java/net/URL;->openConnection

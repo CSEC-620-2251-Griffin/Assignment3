@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.tcureview.com/about
+url::http://mobile.tcureview.com/schedule
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.tcureview.com
+intent::android.intent.category.LAUNCHER
+url::mobile.tcureview.com
+url::http://mobile.tcureview.com/roster
+url::http://mobile.tcureview.com/stats
+activity::TCU Review

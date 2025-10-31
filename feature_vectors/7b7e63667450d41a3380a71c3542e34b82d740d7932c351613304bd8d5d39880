@@ -1,0 +1,109 @@
+call::Cipher(Cipher.BROKENPBEWITHSHA1ANDDES)
+call::getDeviceId
+call::Cipher(pad block corrupted)
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::Cipher(Cipher.RSA/ISO9796-1)
+call::getPackageInfo
+call::Cipher(Cipher.RC2WRAP)
+call::HttpPost
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND2-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.ELGAMAL/PKCS1)
+url::www.bouncycastle.org)
+service_receiver::com.backelite.bkdroid.webservices.request.RequestService
+call::Cipher(Cipher.OLDPBEWITHSHAANDTWOFISH-CBC)
+call::Cipher(Cipher.OLDPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+call::getSystemService
+url::http://maps.google.com/maps?saddr%3D%s&daddr%3D%s
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC2-CBC)
+api_call::android/webkit/WebView
+call::Cipher(Cipher.PBEWITHSHAANDTWOFISH-CBC)
+call::Cipher(Cipher.PBEWITHSHAAND128BITAES-CBC-BC)
+call::Cipher(Cipher.RSA/OAEP)
+url::java.sun.com
+call::Cipher(Cipher.RSA/PKCS1)
+call::Cipher(Cipher.PBEWITHMD5ANDDES)
+permission::android.permission.WAKE_LOCK
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND3-KEYTRIPLEDES-CBC)
+url::spreadsheets.google.com
+real_permission::android.permission.READ_LOGS
+call::Cipher(Cipher.PBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+url::http://www.bouncycastle.org)
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC4)
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://fr.sitestat.com/%s/s
+url::%s.xiti.com
+call::Cipher(BlockLength too large for simple addition.\n)
+permission::android.permission.INTERNET
+call::Cipher(malformed signature)
+call::Cipher(Cipher.PBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+feature::android.hardware.location.gps
+call::Cipher(Cipher.RSA/2)
+call::Cipher(block truncated)
+call::Cipher(Mac codes failed to equal.)
+call::Cipher(Cipher.BrokenIES)
+call::Cipher(Cipher.RSA)
+api_call::java/lang/Runtime;->exec
+call::Cipher(Cipher.BROKENPBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::Cipher(Cipher.PBEWITHSHA1ANDDES)
+call::Cipher(Cipher.ECIES)
+url::http://%s/%s/
+call::Cipher(mac check in EAX failed)
+real_permission::android.permission.READ_PHONE_STATE
+call::Cipher(input too short)
+call::Cipher(Cipher.RSA/1)
+call::Cipher(Cipher.IES)
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER
+url::http://%s.xiti.com/hit.xiti
+permission::android.permission.ACCESS_FINE_LOCATION
+call::Cipher(data too short)
+api_call::android/telephony/TelephonyManager;->getDeviceId
+call::Read/Write External Storage
+real_permission::android.permission.READ_CONTACTS
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC4)
+call::Cipher(Cipher.PBEWITHMD5ANDRC2)
+call::Cipher(Cipher.BROKENPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+url::fr.sitestat.com
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC2-CBC)
+activity::.activities.SplashScreenActivity
+call::Cipher(AES)
+activity::.SplashScreenActivity
+call::Execution of external commands
+call::Cipher(Camellia)
+url::http://java.sun.com/dtd/properties.dtd
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC4)
+call::Cipher(Cipher.BROKENPBEWITHMD5ANDDES)
+call::Cipher(Cipher.DES)
+url::maps.google.com
+api_call::android/app/NotificationManager;->notify
+url::https://spreadsheets.google.com/formResponse?formkey%3D
+feature::android.hardware.touchscreen
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC2-CBC)
+call::Cipher(invalid forcing byte in block)
+call::printStackTrace
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+url::http://%s.xiti.com/go.ad
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+real_permission::android.permission.VIBRATE
+call::Cipher(Cipher.PBEWITHSHA1ANDRC2)
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(Cipher.GOST28147)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC2-CBC)
+call::Cipher(mac check in CCM failed)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC4)
+call::Cipher(Cipher.ELGAMAL)
+call::Cipher(unwrap data must be a multiple of 8 bytes)
+intent::android.intent.action.MAIN
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+call::Cipher(Cipher.RC2)
+call::Cipher(Null pointer as ciphertext)
+call::Cipher(Cipher.1.2.840.113549.3.2)
+call::Cipher(Cipher.BrokenECIES)

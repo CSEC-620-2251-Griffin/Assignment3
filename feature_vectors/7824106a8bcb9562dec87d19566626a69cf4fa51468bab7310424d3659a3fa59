@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+url::http://api.mixpanel.com
+call::getDeviceId
+permission::android.permission.INTERNET
+url::picafight.com
+call::getPackageInfo
+service_receiver::com.jazzychad.picafight.PAFInstall
+call::HttpPost
+url::http://picafight.com/android
+url::http://api.mixpanel.com/track
+activity::.MainActivity
+activity::Pic A Fight
+url::www.picafight.com
+api_call::java/net/URL;->openStream
+url::http://www.picafight.com/aapi/battle.json
+call::Obfuscation(Base64)
+feature::android.hardware.screen.landscape
+url::api.mixpanel.com
+intent::android.intent.action.MAIN
+url::http://www.picafight.com/aapi/do_battle.json
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

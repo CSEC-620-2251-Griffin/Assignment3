@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+activity::.SplashScreen
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::208.43.81.168
+real_permission::android.permission.WAKE_LOCK
+url::http://208.43.81.168:8722/

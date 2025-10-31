@@ -1,0 +1,14 @@
+url::f73ed1w-ny4v4n2krbzhy5vvdt.hop.clickbank.net
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://news.search.yahoo.com/news/rss?p%3Dtennis&ei%3DUTF-8&fl%3D0&x%3Dwrt
+url::http://i55.tinypic.com/i58zdt.jpg
+activity::.Activity1
+permission::android.permission.INTERNET
+api_call::android/webkit/WebView
+url::i55.tinypic.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://f73ed1w-ny4v4n2krbzhy5vvdt.hop.clickbank.net/?tid%3Ddriod
+url::news.search.yahoo.com

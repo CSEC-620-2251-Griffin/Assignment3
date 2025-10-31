@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::paypal.com
+url::https://paypal.com/cgi-bin/webscr?cmd%3D_s-xclick&hosted_button_id%3DNBXLSKRNJ8T2S
+intent::android.intent.action.MAIN
+service_receiver::.ProfileCheckService
+activity::.AutoSilentMain
+intent::android.intent.category.LAUNCHER
+service_receiver::.ASbrodcastR
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.DisableService
+service_receiver::.EnableService
+call::getSystemService
+api_call::android/content/Context;->startService

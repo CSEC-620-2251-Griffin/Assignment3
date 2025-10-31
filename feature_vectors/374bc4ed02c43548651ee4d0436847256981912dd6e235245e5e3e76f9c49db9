@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://paperclipcrm.com/
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.BIND_INPUT_METHOD
+permission::android.permission.INTERNET
+url::http://paperclipcrm.com/android_login/?format%3Dxml
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::com.paperclip.paperclipcrm.ClientFrom
+activity::.ClientFrom
+permission::android.permission.WRITE_SETTINGS
+call::HttpPost
+url::paperclipcrm.com

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SCREEN_ON
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+intent::android.intent.action.SCREEN_OFF
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+service_receiver::.UnlockReceiver
+activity::.Interface
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.NilfsCleanerdService
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/content/Context;->startService

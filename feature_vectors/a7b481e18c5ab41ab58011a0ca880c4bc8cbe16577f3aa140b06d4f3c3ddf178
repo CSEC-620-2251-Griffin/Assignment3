@@ -1,0 +1,15 @@
+permission::android.permission.CALL_PHONE
+feature::android.hardware.touchscreen
+url::http://www.centaline-cis.com:1888/
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://itunes.apple.com/hk/app/id383639208?mt%3D8
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+url::www.centaline-cis.com
+intent::android.intent.category.LAUNCHER
+url::itunes.apple.com
+real_permission::android.permission.INTERNET

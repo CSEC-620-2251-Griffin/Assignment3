@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::ko.m.wikipedia.org
+intent::android.intent.category.LAUNCHER
+activity::.wikipedia
+url::http://ko.m.wikipedia.org

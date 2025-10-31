@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.byig.com/kitco.php?p%3Dapmex
+intent::android.intent.action.MAIN
+permission::android.permission.READ_PHONE_STATE
+url::http://www.byig.com/kitco.php?p%3Dkitco&id%3D
+permission::android.permission.INTERNET
+activity::.Test2
+url::www.byig.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+url::http://www.byig.com/kitco.php?p%3Dkitco2
+intent::android.intent.category.LAUNCHER

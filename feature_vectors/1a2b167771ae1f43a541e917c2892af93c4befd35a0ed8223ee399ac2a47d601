@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://GraceBibleSoftware.com
+call::getDeviceId
+activity::.App
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::GraceBibleSoftware.com
+permission::android.permission.READ_PHONE_STATE
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/telephony/TelephonyManager;->getDeviceId
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

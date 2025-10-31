@@ -1,0 +1,21 @@
+permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+call::system/bin/su
+api_call::android/provider/Settings$Secure;->putInt
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+call::getSystemService
+real_permission::android.permission.WRITE_SETTINGS
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+permission::android.permission.WRITE_SECURE_SETTINGS
+activity::.ListActivity
+intent::android.intent.category.LAUNCHER
+activity::.HelpActivity
+api_call::android/webkit/WebView
+permission::android.permission.WRITE_SETTINGS
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

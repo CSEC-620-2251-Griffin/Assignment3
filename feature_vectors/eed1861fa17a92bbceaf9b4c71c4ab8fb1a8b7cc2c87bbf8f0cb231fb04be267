@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.AndroidFortune
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.FortuneAppWidgetConfigure
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+activity::.StatusBarNotificationView
+activity::.Settings
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+intent::android.intent.category.DEFAULT
+provider::android.appwidget.provider
+call::getSystemService

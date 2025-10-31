@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.FreeRun
+activity::.PlayGame
+activity::.Menu
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.Piano
+feature::android.hardware.screen.portrait
+feature::android.hardware.screen.landscape
+activity::.MysteryCircleActivity
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::simplysellanything.com
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.INTERNET
+activity::Agora
+real_permission::android.permission.INTERNET
+url::http://simplysellanything.com/posts.xml
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+url::http://simplysellanything.com/
+real_permission::android.permission.READ_CONTACTS
+call::HttpPost
+activity::.Agora
+api_call::android/content/ContentResolver;->query

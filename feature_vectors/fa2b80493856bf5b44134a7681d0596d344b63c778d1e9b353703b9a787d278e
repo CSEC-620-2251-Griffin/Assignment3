@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::https://portal.dedipower.com/api.php?format%3Djson&action%3D
+activity::.Launcher
+intent::android.intent.action.MAIN
+url::https://portal.dedipower.com/api.php?format%3Djson&action%3Daddticket
+url::portal.dedipower.com
+url::https://portal.dedipower.com/api.php?format%3Djson&action%3Dlogin
+call::HttpPost
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::https://portal.dedipower.com/api.php?format%3Djson&action%3Dreplytoticket
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+provider::android.appwidget.provider
+call::getSystemService

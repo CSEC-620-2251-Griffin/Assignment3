@@ -1,0 +1,14 @@
+url::tmcfinancing.com
+feature::android.hardware.touchscreen
+activity::.LoanCalculator
+intent::android.intent.action.MAIN
+url::http://tmcfinancing.com/rate/
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/webkit/WebView
+activity::.HelpScreen
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.StartScreen
+activity::.CalculateScreen

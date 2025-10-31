@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::http://www.reddit.com/domain/i.imgur.com.json?limit%3D5&after%3D
+activity::.JustSomePics
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::www.reddit.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::http://www.reddit.com/search.json?q%3D
+real_permission::android.permission.INTERNET
+call::getSystemService

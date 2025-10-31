@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://www.pdactech.com/pdactech/index_heb.asp
+intent::android.intent.action.MAIN
+url::www.pdactech.com
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.spalshscreen
+call::getSystemService

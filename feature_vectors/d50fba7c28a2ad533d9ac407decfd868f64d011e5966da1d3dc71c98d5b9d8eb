@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://www.maahalai.com/happypig
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.maahalai.com
+permission::android.permission.INTERNET
+activity::.happypig
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

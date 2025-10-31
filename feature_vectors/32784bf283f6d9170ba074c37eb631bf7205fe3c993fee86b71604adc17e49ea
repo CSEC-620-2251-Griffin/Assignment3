@@ -1,0 +1,20 @@
+feature::android.hardware.touchscreen
+activity::com.duskjockeys.photokubelibrary.PhotoCubeWallpaperEffectPickerActivity
+intent::android.intent.action.MAIN
+activity::.PhotoCubeWallpaperSettings
+activity::Size and Position
+call::getSystemService
+url::duskjockeys.blogspot.com
+service_receiver::Photo Cube Live Wallpaper
+activity::com.duskjockeys.photokubelibrary.PhotoCubeWallpaperSettings
+activity::com.duskjockeys.photokubelibrary.PhotoCubeWallpaperCustomPictureSettings
+url::http://duskjockeys.blogspot.com
+activity::com.duskjockeys.photokubelibrary.PhotoCubeWallpaperFramePickerActivity
+activity::com.duskjockeys.photokubelibrary.PhotoCubeWallpaperBackgroundSettings
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+activity::com.duskjockeys.photokubelibrary.PhotoCubeWallpaperImageCropper
+url::schemas.android.com
+call::printStackTrace
+url::http://schemas.android.com/apk/res/android
+intent::android.intent.category.LAUNCHER

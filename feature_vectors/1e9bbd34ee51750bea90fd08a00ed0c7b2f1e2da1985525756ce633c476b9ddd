@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.PillarChurch
+intent::android.intent.action.MAIN
+url::m.pillar.or.kr
+url::http://m.pillar.or.kr/index.asp?intro_yn%3DY
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK

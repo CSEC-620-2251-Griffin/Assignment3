@@ -1,0 +1,19 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+url::xmlpull.org
+api_call::android/app/Activity;->startActivity
+url::dynamicg-android-apps2.googlecode.com
+intent::android.intent.action.MAIN
+url::market.android.com
+activity::.Main
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+call::Read/Write External Storage
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::https://dynamicg-android-apps2.googlecode.com/svn/trunk/BookmarkTree\n
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+activity::com.dynamicg.bookmarkTree.Main
+permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+call::getPackageInfo
+url::http://xmlpull.org/v1/doc/features.html
+call::getSystemService
+intent::android.intent.category.LAUNCHER

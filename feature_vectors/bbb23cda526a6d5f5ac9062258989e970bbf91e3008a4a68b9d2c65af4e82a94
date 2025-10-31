@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+service_receiver::CameraService
+api_call::android/app/NotificationManager;->notify
+call::printStackTrace
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+api_call::android/content/ContentResolver;->openOutputStream
+intent::android.intent.action.CONFIGURATION_CHANGED
+activity::Please wait...
+real_permission::android.permission.READ_CONTACTS
+api_call::android/hardware/Camera;->open
+real_permission::android.permission.VIBRATE
+permission::android.permission.CAMERA
+service_receiver::Camera Widget
+provider::android.appwidget.provider
+call::getSystemService

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.AndroNumberBaseBall2Activity
+feature::android.hardware.screen.portrait
+activity::.NumberBaseballGameIntroActivity
+intent::android.intent.category.LAUNCHER
+activity::.AndroNumberBaseBallActivity
+real_permission::android.permission.WAKE_LOCK

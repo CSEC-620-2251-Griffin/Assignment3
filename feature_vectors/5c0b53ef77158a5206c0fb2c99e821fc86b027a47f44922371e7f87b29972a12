@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::www.chaiaurcoffee.com
+intent::android.intent.action.MAIN
+url::http://www.chaiaurcoffee.com
+url::www.youtube.com
+permission::android.permission.INTERNET
+activity::.SkeletonActivity
+real_permission::android.permission.INTERNET
+url::http://www.youtube.com/v/%s
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://www.youtube.com/watch?v%3D

@@ -1,0 +1,10 @@
+url::portal.iusacell3g.com.mx
+feature::android.hardware.touchscreen
+url::http://portal.iusacell3g.com.mx/BB01/
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.IusaTV
+api_call::java/net/Socket
+call::getSystemService

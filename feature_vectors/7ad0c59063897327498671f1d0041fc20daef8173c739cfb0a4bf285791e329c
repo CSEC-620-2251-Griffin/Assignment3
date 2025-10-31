@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.Help
+intent::android.intent.action.MAIN
+url::agca.webnode.cz\%27>agca.webnode.cz<
+url::http://agca.webnode.cz\%27>agca.webnode.cz</a>
+intent::android.intent.category.LAUNCHER
+activity::.Training

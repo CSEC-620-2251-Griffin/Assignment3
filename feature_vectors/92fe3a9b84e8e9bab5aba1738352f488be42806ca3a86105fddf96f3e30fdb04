@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+activity::.PedometerConfig
+provider::android.appwidget.provider
+call::getSystemService
+service_receiver::PedometerWidget

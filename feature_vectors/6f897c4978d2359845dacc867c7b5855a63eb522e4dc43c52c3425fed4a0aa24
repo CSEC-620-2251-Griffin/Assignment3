@@ -1,0 +1,6 @@
+activity::.ProtocoloActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+intent::android.intent.category.DEFAULT
+activity::.ui.ProtocoloActivity
+intent::android.intent.category.LAUNCHER

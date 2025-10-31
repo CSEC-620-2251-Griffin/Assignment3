@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::register.ourgame.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://register.ourgame.com/regist/index.html
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+call::getSystemService

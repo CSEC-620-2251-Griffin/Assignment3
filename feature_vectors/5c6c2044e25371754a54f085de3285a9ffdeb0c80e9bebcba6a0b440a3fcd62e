@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.ScreenAboutUs
+activity::.ScreenMain
+intent::android.intent.action.MAIN
+url::http://www.androidiki.ru/android/horoscopes.php?mode%3Ddhoro&sign%3D
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::www.androidiki.ru
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+activity::.ScreenNumerologyCellInfo

@@ -1,0 +1,58 @@
+url::http://github.com/droidfu/schema
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEND
+call::getDeviceId
+permission::android.permission.READ_LOGS
+activity::.DropboxBrowser
+permission::android.permission.READ_PHONE_STATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+url::dropbox.com
+intent::android.intent.action.SEARCH
+activity::.activity.NewAccountActivity
+real_permission::android.permission.READ_CONTACTS
+call::HttpPost
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.GET_TASKS
+real_permission::android.permission.READ_LOGS
+api_call::android/app/Activity;->startActivity
+url::http://...
+activity::.activity.GalleryActivity
+intent::android.intent.action.CREATE_SHORTCUT
+call::printStackTrace
+provider::.provider.DropboxProvider
+url::...
+url::api.dropbox.com
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::Dropbox
+real_permission::android.permission.VIBRATE
+url::github.com
+call::Obfuscation(Base64)
+call::getSystemService
+call::Read/Write External Storage
+api_call::java/net/URL;->openStream
+intent::android.intent.action.GET_CONTENT
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.category.PREFERENCE
+intent::android.intent.action.EDIT
+permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+url::http://dropbox.com
+api_call::android/app/ActivityManager;->getRunningTasks
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.VIEW
+service_receiver::Dropbox Receiver
+service_receiver::Dropbox Service
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.activity.DropboxDialogs
+intent::android.intent.action.SEND_MULTIPLE
+call::Cipher(Blowfish)
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::https://api.dropbox.com:443/0/send_trace
+activity::Dropbox FileBrowser

@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::.LiveWallpaperSettings
+service_receiver::Oger the Game Live Wallpaper (Free)

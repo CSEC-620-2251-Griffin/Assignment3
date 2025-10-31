@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.WRITE_SETTINGS
+activity::com.tizianhoesch.autorotateswitch.AutoRotateChanger
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WRITE_SETTINGS
+api_call::android/provider/Settings$System;->putInt
+activity::.AutoRotateChanger

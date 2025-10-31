@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.SettingsPreferences
+service_receiver::.service.TorService
+intent::android.intent.category.BROWSABLE
+service_receiver:::remote
+url::check.torproject.org
+api_call::java/net/Socket
+real_permission::android.permission.VIBRATE
+call::getSystemService
+activity::.Orbot
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+url::https://check.torproject.org
+intent::android.intent.action.VIEW
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+url::http://check.torproject.org
+intent::android.intent.category.LAUNCHER

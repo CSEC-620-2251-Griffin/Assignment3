@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::www.questionablecontent.net
+intent::android.intent.action.MAIN
+url::http://www[.]questionablecontent[.]net/comics/([0-9]+)[.]png.*
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.questionablecontent.net/comics/%s.png
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www[.]questionablecontent[.]net
+api_call::java/net/URL;->openStream
+activity::.GraphicPageViewerActivity
+url::http://www.questionablecontent.net
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER

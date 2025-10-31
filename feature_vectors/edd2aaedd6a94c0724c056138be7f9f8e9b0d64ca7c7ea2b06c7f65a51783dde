@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.activities.MemoryActivity
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->stop
+activity::.activities.ActionsActivity
+api_call::android/app/Activity;->startActivity
+activity::.activities.AnimalsActivity
+activity::.MainActivity
+feature::android.hardware.screen.portrait
+real_permission::android.permission.WAKE_LOCK
+activity::.activities.ColorsActivity
+activity::.activities.MainActivity
+activity::.activities.FormsActivity
+intent::android.intent.category.LAUNCHER

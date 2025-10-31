@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.ImageViewActivity
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.INTERNET
+permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+activity::.ColorSchemeActivity
+call::Read/Write External Storage
+activity::.ColorSchemeListActivity
+call::getSystemService

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.EditLootPrices
+intent::android.intent.action.MAIN
+url::http://api.eve-central.com/api/marketstat?typeid%3D
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::api.eve-central.com
+activity::.EVESleeperLootCalculator

@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+url::https://www.
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+url::www.
+api_call::android/content/ContentResolver;->query
+activity::.Prefs
+api_call::android/content/Context;->startActivity
+activity::.OtherAppsActivity
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+intent::android.intent.action.INSERT
+call::getSystemService
+permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+intent::android.intent.category.DEFAULT
+real_permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+api_call::android/webkit/WebView
+activity::.CombinedBookmarkActivity
+intent::android.intent.action.MAIN
+activity::Save bookmark
+api_call::android/provider/Browser;->clearHistory
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT

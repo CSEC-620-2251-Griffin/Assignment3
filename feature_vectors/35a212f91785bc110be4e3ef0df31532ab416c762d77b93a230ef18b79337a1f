@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+service_receiver::.VolumeControlWidgetProvider
+activity::.VolumeControlConfiguration
+provider::android.appwidget.provider
+call::getSystemService
+service_receiver::.VolumeControlActivity

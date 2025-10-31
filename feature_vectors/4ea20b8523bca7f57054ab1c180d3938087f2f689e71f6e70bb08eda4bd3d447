@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.VirtualCalculator
+url::http://www.fabiosistemas.com.br/mobile/
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+activity::.Skins
+url::www.fabiosistemas.com.br
+call::getSystemService

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+activity::.Station
+activity::.Routes
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+activity::.Arrivals
+real_permission::android.permission.INTERNET
+url::http://69.33.224.6/WebWatch/MobileAda.aspx
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::69.33.224.6

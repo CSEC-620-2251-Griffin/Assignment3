@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.google.com
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.ThrutuInstallCheckActivity
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+api_call::android/content/ContentResolver;->query
+url::http://www.google.com/search?q%3D

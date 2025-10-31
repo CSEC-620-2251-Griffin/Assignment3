@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::kankan.wheel.demo.PasswActivity
+activity::kankan.wheel.demo.CitiesActivity
+activity::kankan.wheel.demo.TimeActivity
+activity::.WheelDemo
+activity::kankan.wheel.demo.EmptyActivity
+intent::android.intent.category.LAUNCHER

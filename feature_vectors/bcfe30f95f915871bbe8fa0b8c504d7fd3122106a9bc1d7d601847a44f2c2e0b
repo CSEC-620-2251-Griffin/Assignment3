@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::ArdroidMain
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.ArdroidMain
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+call::getSystemService
+permission::android.permission.CHANGE_NETWORK_STATE

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.slcjobs
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://bighits.net/slcjobs/index.php
+intent::android.intent.category.LAUNCHER
+url::bighits.net
+api_call::android/webkit/WebView

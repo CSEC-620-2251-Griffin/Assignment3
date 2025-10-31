@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.obfuscation.org
+url::www.youtube.com
+url::http://www.youtube.com/watch?v%3DPiQsv3Q5P8Y
+activity::.ShoppingList
+url::http://www.obfuscation.org/ipf/
+url::www.zenirc.org
+intent::android.intent.category.LAUNCHER
+url::http://www.youtube.com/watch?v%3DdQw4w9WgXcQ
+url::http://www.zenirc.org/
+call::getSystemService
+url::bitbucket.org
+url::https://bitbucket.org/faried/shoppinglistapk\nQuestions,

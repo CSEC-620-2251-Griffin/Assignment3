@@ -1,0 +1,14 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://tcity.uz/dl/cake.db.zip
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::tcity.uz
+call::Read/Write External Storage
+call::getSystemService

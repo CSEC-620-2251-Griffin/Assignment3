@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.CALL_PHONE
+permission::android.permission.SEND_SMS
+activity::.main
+real_permission::android.permission.SEND_SMS
+permission::android.permission.INTERNET
+url::www.smic.com
+permission::android.permission.CALL_PRIVILEGED
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage
+real_permission::android.permission.INTERNET
+url::http://www.smic.com/windpanel180150.htm

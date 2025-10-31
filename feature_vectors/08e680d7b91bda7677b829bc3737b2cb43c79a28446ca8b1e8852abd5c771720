@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.SAMPLE_CODE
+activity::.Menu_Screen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+service_receiver::.BackGround_Service
+feature::android.hardware.screen.portrait
+activity::.Speed_Tester
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.WAKE_LOCK

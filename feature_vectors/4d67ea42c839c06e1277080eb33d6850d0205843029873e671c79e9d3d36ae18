@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::drunkpirate.pl
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::Obfuscation(Base64)
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://drunkpirate.pl/?page_id%3D67
+activity::pl.drunkpirate.glassline.demo.MainActivity

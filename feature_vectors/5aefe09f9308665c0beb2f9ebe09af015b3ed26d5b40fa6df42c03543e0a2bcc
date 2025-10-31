@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+activity::.MusicMagazineActivity
+call::getSystemService
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.MP3ResActivity
+intent::android.intent.category.LAUNCHER
+activity::.MagazineActivity
+real_permission::android.permission.INTERNET
+activity::.MVideoResActivity

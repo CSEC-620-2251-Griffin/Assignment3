@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+service_receiver::.NotificationService
+service_receiver::Notification Widget Trial (4x2)
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+service_receiver::Notification Widget Trial (4x3)
+activity::.NotificationsConfiguration
+service_receiver::Notification Widget Trial (4x4)
+activity::.NotificationClickActivity
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+provider::android.appwidget.provider
+service_receiver::Notification Widget Trial (4x1)
+call::getSystemService

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::www.wifeelgood.co.uk
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.wifeelgood.co.uk/foods/new.json
+intent::android.intent.category.LAUNCHER
+activity::.SearchForm

@@ -1,0 +1,75 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+url::http://api.meetup.com/
+url::http://api.meetup.com/events.json
+url::http://api.meetup.com/2/event_comments.json
+url::http://www.meetup.com/authorize/
+permission::android.permission.INTERNET
+activity::.views.activity.EventRatingActivity
+url::http://api.meetup.com/activity.json
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://api.meetup.com/groups.json
+intent::android.intent.action.BOOT_COMPLETED
+call::getPackageInfo
+activity::Photo Comments
+url::http://api.meetup.com/2/event_rating
+intent::android.intent.action.VIEW
+service_receiver::.service.BootListener
+call::Obfuscation(Base64)
+url::http://api.meetup.com/2/photo_albums.json
+feature::android.hardware.location.gps
+intent::android.intent.category.BROWSABLE
+activity::.views.activity.RendezvousPreferences
+url::http://api.meetup.com/2/photo_comments.json
+activity::Gallery
+feature::android.hardware.camera.autofocus
+url::http://api.meetup.com/2/event_comment
+url::http://api.meetup.com/photos.json
+feature::android.hardware.location
+activity::Group Information
+activity::.views.activity.AddPhotoCommentActivity
+real_permission::android.permission.INTERNET
+url::http://api.meetup.com/photo
+url::http://www.meetup.com/oauth/access/
+url::api.meetup.com
+url::www.meetup.com
+intent::android.intent.category.LAUNCHER
+activity::.views.activity.PhotoCommentListActivity
+activity::Settings
+real_permission::android.permission.VIBRATE
+activity::.views.activity.GroupInfoActivity
+permission::android.permission.CAMERA
+activity::.views.activity.GalleryActivity
+url::http://api.meetup.com/rsvp
+url::http://api.meetup.com/2/checkins.json
+api_call::android/location/LocationManager;->requestLocationUpdates
+activity::.views.activity.EventCheckinsListActivity
+activity::Checkins for the meetup
+url::http://api.meetup.com/2/checkin
+intent::android.intent.category.DEFAULT
+service_receiver::.service.NotificationService
+activity::Add Comment
+url::http://www.meetup.com/authorize/?oauth_token%3D
+url::http://www.meetup.com/oauth/request/
+url::http://api.meetup.com/2/event_ratings.json
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://api.meetup.com/rsvps.json
+activity::Rate Event
+feature::android.hardware.camera
+intent::android.intent.action.SEND
+call::Cipher(Blowfish)
+activity::.Rendezvous
+call::Read/Write External Storage
+activity::.views.activity.EventInfoActivity
+url::http://api.meetup.com/members.json
+permission::android.permission.VIBRATE
+activity::.views.activity.UploadPhotoActivity
+url::http://api.meetup.com/2/photo_comment
+service_receiver::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+activity::Rendezvous
+call::HttpPost
+api_call::android/content/Context;->startService

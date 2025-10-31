@@ -1,0 +1,7 @@
+activity::.QuickNote
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+intent::android.intent.action.VIEW

@@ -1,0 +1,8 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+api_call::android/content/Context;->startService
+real_permission::android.permission.VIBRATE
+service_receiver::.PomodoroWidget$UpdateService
+provider::android.appwidget.provider
+call::getSystemService

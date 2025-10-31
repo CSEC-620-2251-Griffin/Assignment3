@@ -1,0 +1,179 @@
+activity::com.djigzo.android.common.activity.KeyStorePassphraseDialog
+activity::com.djigzo.android.common.activity.SMTPAccountSettingsActivity
+call::getPackageInfo
+activity::com.djigzo.android.common.activity.ImportCertificateActivity
+call::Cipher(Cipher.CAST6)
+activity::.Djigzo
+activity::com.djigzo.android.common.activity.CreateKeyAndCertificateActivity
+activity::com.djigzo.android.common.activity.AboutDjigzoActivity
+real_permission::android.permission.GET_ACCOUNTS
+provider::com.djigzo.android.common.provider.certificate
+call::Cipher(Cipher.RSA/ISO9796-1)
+activity::com.djigzo.android.common.activity.SearchCertificatesActivity
+call::Cipher(data too short)
+call::Cipher(Cipher.RC2WRAP)
+api_call::java/net/Socket
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND2-KEYTRIPLEDES-CBC)
+activity::CTLs
+call::Cipher(Cipher.XTEA)
+call::Cipher(Cipher.VMPC)
+call::Cipher(Cipher.ELGAMAL/PKCS1)
+url::www.bouncycastle.org)
+call::Cipher(Camellia)
+activity::com.djigzo.android.common.activity.CTLViewActivity
+activity::S/MIME settings
+call::Cipher(Cipher.OLDPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+call::getSystemService
+call::Cipher(pad block corrupted)
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC2-CBC)
+activity::com.djigzo.android.application.wizard.AccountWizardActivity
+provider::com.djigzo.android.common.provider.certificate.permission.READ_MESSAGES
+activity::com.djigzo.android.common.activity.ImportLicenseActivity
+activity::Add CTL entry
+call::Cipher(Cipher.PBEWITHSHAAND128BITAES-CBC-BC)
+permission::android.permission.GET_ACCOUNTS
+call::Cipher(Cipher.RSA/OAEP)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND3-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.RSA/PKCS1)
+activity::CRL settings
+call::Cipher(Cipher.TEA)
+intent::android.intent.action.VIEW
+call::Cipher(Cipher.PBEWITHMD5ANDDES)
+call::Cipher(Cipher.1.3.6.1.4.1.3029.1.2)
+activity::com.djigzo.android.common.activity.ViewMessageActivity
+intent::android.intent.action.SEND
+activity::com.djigzo.android.common.activity.CRLSettingsActivity
+url::http://www.bouncycastle.org)
+call::Cipher(Cipher.BROKENPBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+intent::android.intent.action.SEND_MULTIPLE
+call::Cipher(Cipher.TWOFISH)
+call::Cipher(Cipher.BLOWFISH)
+permission::android.permission.INTERNET
+call::Cipher(Cipher.PBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+activity::com.djigzo.android.common.activity.NewTaskKeyStorePassphraseDialog
+activity::com.djigzo.android.common.activity.FileChooserActivity
+call::Cipher(Cipher.SALSA20)
+call::Cipher(Cipher.HC128)
+call::Cipher(Cipher.RSA/1)
+activity::Export key
+provider::com.djigzo.android.common.provider.messagecache
+activity::com.djigzo.android.common.activity.LDAPServerSettingsActivity
+real_permission::android.permission.READ_LOGS
+call::Cipher(Cipher.RSA/2)
+call::Cipher(Cipher.DESEDE)
+call::Cipher(block truncated)
+api_call::android/content/Context;->startActivity
+api_call::android/accounts/AccountManager;->getAccounts
+call::Cipher(Cipher.BROKENPBEWITHMD5ANDDES)
+call::Cipher(Cipher.BrokenIES)
+activity::com.djigzo.android.common.activity.ImportCertificatesActivity
+permission::com.djigzo.android.passphrase.permission.RECEIVE
+call::Cipher(Cipher.RSA)
+api_call::java/lang/Runtime;->exec
+call::Cipher(Cipher.VMPC-KSA3)
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC4)
+activity::Settings
+call::Cipher(Cipher.PBEWITHSHA1ANDDES)
+intent::android.intent.action.PICK
+call::Cipher(Cipher.ECIES)
+activity::com.djigzo.android.application.wizard.SMTPAccountWizardActivity
+permission::com.google.android.gm.permission.READ_GMAIL
+call::Cipher(Cipher.SERPENT)
+call::Cipher(Cipher.RC5)
+call::Cipher(Cipher.ARC4)
+url::registration.djigzo.com
+activity::com.djigzo.android.common.activity.SettingsActivity
+call::Cipher(input too short)
+call::Cipher(Cipher.DES)
+call::Cipher(Cipher.IES)
+activity::com.djigzo.android.common.activity.AddCTLEntryActivity
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::Cipher(Cipher.RC6)
+call::Cipher(Cipher.OLDPBEWITHSHAANDTWOFISH-CBC)
+provider::com.djigzo.android.common.provider.CertificateContentProvider
+call::Cipher(Cipher.RC5-64)
+call::Cipher(Cipher.HC256)
+activity::com.djigzo.android.common.activity.AccountSettingsActivity
+call::Cipher(Cipher.BROKENPBEWITHSHA1ANDDES)
+call::Cipher(mac check in EAX failed)
+call::Read/Write External Storage
+activity::Account settings
+activity::Key store settings
+permission::com.djigzo.android.common.provider.messagecache.permission.READ_MESSAGES
+real_permission::android.permission.READ_CONTACTS
+call::Cipher(RSA/ECB/PKCS1Padding)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC4)
+activity::com.djigzo.android.common.activity.SMIMESettingsActivity
+activity::com.djigzo.android.common.activity.LicenseListActivity
+activity::com.djigzo.android.application.wizard.CertificateWizardActivity
+call::Cipher(BlockLength too large for simple addition.\n)
+activity::com.djigzo.android.common.activity.ImportKeysActivity
+activity::SMTP settings
+provider::com.djigzo.android.common.provider.messagecache.permission.READ_MESSAGES
+activity::com.djigzo.android.common.activity.CertificateDetailsActivity
+call::Cipher(Cipher.BROKENPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+activity::com.djigzo.android.common.activity.CertificateViewActivity
+activity::com.djigzo.android.common.activity.ExportKeyActivity
+activity::com.djigzo.android.common.activity.SimpleMessageBoxActivity
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC2-CBC)
+url::www.slf4j.org
+call::Cipher(AES)
+intent::android.intent.action.EDIT
+call::Execution of external commands
+activity::CRLs
+activity::com.djigzo.android.common.activity.ComposeMessageActivity
+activity::Certificate details
+activity::com.djigzo.android.application.wizard.GmailAccountWizardActivity
+intent::android.intent.category.BROWSABLE
+call::Cipher(Cipher.SKIPJACK)
+activity::com.djigzo.android.common.activity.NotRegisteredActivity
+activity::General settings
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC4)
+activity::Download CRLs
+call::Cipher(Cipher.PBEWITHMD5ANDRC2)
+activity::com.djigzo.android.common.activity.KeyStoreSettingsActivity
+activity::CRL details
+call::Cipher(DES/ECB/NoPadding)
+call::Cipher(Mac codes failed to equal.)
+feature::android.hardware.touchscreen
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC2-CBC)
+call::Cipher(Cipher.DESEDERFC3211WRAP)
+call::Cipher(invalid forcing byte in block)
+url::http://www.slf4j.org/codes.html
+intent::android.intent.category.DEFAULT
+activity::com.djigzo.android.common.activity.LDAPServerSettingsListActivity
+url::http://registration.djigzo.com
+permission::android.permission.READ_CONTACTS
+activity::com.djigzo.android.application.wizard.StartWizardActivity
+api_call::android/content/ContentResolver;->query
+activity::Search certificates
+call::Cipher(Cipher.DESEDEWRAP)
+call::Cipher(Cipher.PBEWITHSHAANDTWOFISH-CBC)
+activity::com.djigzo.android.application.wizard.FinishWizardActivity
+call::Cipher(Cipher.PBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+activity::com.djigzo.android.common.activity.ImportCRLsActivity
+intent::android.intent.action.SENDTO
+call::Cipher(Cipher.PBEWITHSHA1ANDRC2)
+call::Obfuscation(Base64)
+call::Cipher(Cipher.GOST28147)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC2-CBC)
+activity::com.djigzo.android.application.wizard.GenerateCertificateWizardActivity
+activity::com.djigzo.android.common.activity.CRLDetailsActivity
+call::Cipher(mac check in CCM failed)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC4)
+call::Cipher(Cipher.ELGAMAL)
+call::Cipher(unwrap data must be a multiple of 8 bytes)
+intent::android.intent.action.MAIN
+activity::com.djigzo.android.common.activity.CRLViewActivity
+provider::com.djigzo.android.common.provider.MessageCacheContentProvider
+real_permission::android.permission.INTERNET
+activity::com.djigzo.android.common.activity.GeneralSettingsActivity
+permission::com.djigzo.android.common.provider.certificate.permission.READ_MESSAGES
+call::Cipher(Cipher.RC2)
+call::Cipher(Cipher.RIJNDAEL)
+call::Cipher(Null pointer as ciphertext)
+call::Cipher(Cipher.1.2.840.113549.3.2)
+call::Cipher(Cipher.BrokenECIES)
+activity::LDAP server settings

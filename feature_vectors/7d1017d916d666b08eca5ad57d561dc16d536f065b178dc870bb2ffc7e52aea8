@@ -1,0 +1,13 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.CATEGORY_PREFERENCE
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.DEFAULT
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.Calculator_Activity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

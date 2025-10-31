@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::wamwamkun.com
+intent::android.intent.category.DEFAULT
+url::http://wamwamkun.com/
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+service_receiver::Wam_AnalogClock

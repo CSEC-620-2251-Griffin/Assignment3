@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::www.getgreatinfo.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+url::http://www.getgreatinfo.com/cafreelottery.php
+real_permission::android.permission.INTERNET
+activity::.CAFreeLottery
+intent::android.intent.category.LAUNCHER

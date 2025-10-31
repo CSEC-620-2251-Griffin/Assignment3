@@ -1,0 +1,14 @@
+url::https://market.android.com/details?id%3Dcom.xllusion.livewallpaper.mysticnightpro
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::market.android.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::Obfuscation(Base64)
+activity::.AppLauncher
+call::Read/Write External Storage
+feature::android.software.live_wallpaper
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

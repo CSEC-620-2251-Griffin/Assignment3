@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+url::www.ecme-center.org
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+api_call::java/net/Socket
+api_call::android/content/Context;->startActivity
+call::getSystemService
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.Magazines
+activity::.ui.Magazines
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.ecme-center.org/WebObjects/ECMECenter.woa/epub/
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

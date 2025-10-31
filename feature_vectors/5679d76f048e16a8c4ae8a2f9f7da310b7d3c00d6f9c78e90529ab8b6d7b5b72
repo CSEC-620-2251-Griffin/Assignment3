@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.WordNetwork
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.tulix.com/mobile/wordnetwork/
+url::www.tulix.com
+permission::android.permission.CAMERA

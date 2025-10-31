@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.TextMemoEditActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+activity::.TextMemoListActivity
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+permission::android.permission.READ_EXTERNAL_STORAGE

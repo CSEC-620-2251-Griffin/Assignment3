@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.contractbridge.net
+feature::android.hardware.screen.portrait
+activity::.BridgeScorer
+intent::android.intent.category.LAUNCHER
+url::www.contractbridge.net
+call::getSystemService

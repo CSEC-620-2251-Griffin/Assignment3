@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/media/AudioRecord
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+url::www.edbasoftware.com
+api_call::android/os/Vibrator;->cancel
+activity::.WoodBridgesFreeActivity
+call::Obfuscation(Base64)
+call::printStackTrace
+activity::com.edba.woodbridgesfree.WoodBridgesFreeActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection
+url::http://www.edbasoftware.com/scores/woodbridges.php
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

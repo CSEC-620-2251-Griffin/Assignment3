@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.OPENABLE
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.action.GET_CONTENT
+activity::com.example.android.rings_extended.MusicPicker
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.INFO
+call::getSystemService
+intent::android.intent.action.RINGTONE_PICKER

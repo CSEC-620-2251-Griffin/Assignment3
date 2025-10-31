@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.google.com
+activity::.Main
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://www.google.com/search?q%3Dbeautiful+ladies
+api_call::java/net/URL;->openConnection

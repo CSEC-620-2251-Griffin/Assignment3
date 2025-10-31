@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.network
+intent::android.intent.category.SAMPLE_CODE
+intent::android.intent.action.MAIN
+activity::.activity.MapViewActivity
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+activity::.activity.LineActivity
+feature::android.hardware.location
+activity::.activity.StationActivity
+intent::android.intent.category.LAUNCHER
+activity::.LineActivity
+activity::.activity.AtmListActivity

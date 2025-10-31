@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Feestdagen
+feature::android.hardware.screen.portrait
+activity::.OvStatus
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.OverOns
+activity::.OvGeldig
+intent::android.intent.action.VIEW

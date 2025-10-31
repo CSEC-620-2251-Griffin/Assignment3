@@ -1,0 +1,14 @@
+url::mobile.dailyvandals.com
+feature::android.hardware.touchscreen
+url::http://mobile.dailyvandals.com/roster
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+url::http://mobile.dailyvandals.com
+url::http://mobile.dailyvandals.com/about
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://mobile.dailyvandals.com/schedule
+real_permission::android.permission.INTERNET
+activity::Daily Vandals
+url::http://mobile.dailyvandals.com/stats

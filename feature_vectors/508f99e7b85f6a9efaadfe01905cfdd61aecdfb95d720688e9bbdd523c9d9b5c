@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+url::http://m.seilglobal.co.kr/index.asp?m%3D
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://m.seilglobal.co.kr/search.asp
+url::http://m.seilglobal.co.kr/cart.asp
+url::http://m.seilglobal.co.kr/attention.asp
+permission::android.permission.CALL_PHONE
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+feature::android.hardware.telephony
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+api_call::android/telephony/TelephonyManager;->getCellLocation
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::.main
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::m.seilglobal.co.kr
+url::http://m.seilglobal.co.kr/mypage.asp

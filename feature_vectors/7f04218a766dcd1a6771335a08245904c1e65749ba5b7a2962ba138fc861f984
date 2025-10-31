@@ -1,0 +1,15 @@
+url::http://groups.google.com/group/mobile-twin-cities/feed/rss_v2_0_msgs.xml
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::twitter.com
+url::tc-gtug.org
+permission::android.permission.INTERNET
+url::mobiletwincities.com
+url::http://twitter.com/statuses/user_timeline.json?id%3Dmobiletc
+url::http://tc-gtug.org/
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+url::groups.google.com
+real_permission::android.permission.INTERNET
+url::http://mobiletwincities.com

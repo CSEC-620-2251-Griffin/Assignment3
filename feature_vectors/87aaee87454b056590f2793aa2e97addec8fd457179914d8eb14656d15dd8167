@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.SAMPLE_CODE
+activity::OnActivity
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.LAUNCHER
+activity::.OnActivity
+activity::org.konst1970.activities.AboutActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

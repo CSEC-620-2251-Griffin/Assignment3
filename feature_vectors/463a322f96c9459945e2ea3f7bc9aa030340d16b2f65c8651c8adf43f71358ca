@@ -1,0 +1,16 @@
+activity::.MainTabHost
+url::www.masternaut.co.uk
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::https://www.masternaut.co.uk/rapideapp/json_v3.aspx?device%3Dandroid&version%3D
+url::https://www.masternaut.co.uk/rapideapp/json_v3.aspx
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.telephony
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CALL_PHONE
+call::getPackageInfo
+api_call::android/content/Context;->sendBroadcast
+url::http://www.masternaut.co.uk/Login/login_getPass.aspx

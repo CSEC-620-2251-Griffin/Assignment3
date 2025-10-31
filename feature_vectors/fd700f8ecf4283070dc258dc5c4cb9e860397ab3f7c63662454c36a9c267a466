@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+url::pagead2.googlesyndication.com
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+call::Obfuscation(Base64)
+url::www.hanajobs.com
+permission::android.permission.INTERNET
+url::http://www.hanajobs.com/background/query?category%3Dall&count%3D4&method%3D
+activity::.ImageDetail
+intent::android.intent.category.LAUNCHER
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+activity::.BackgroundMain
+call::getSystemService

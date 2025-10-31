@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.RepCode
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.ticorphoneapps.com
+activity::.Details
+url::http://www.ticorphoneapps.com/mobile_bb.php?code%3D
+call::HttpPost
+url::http://www.ticorphoneapps.com/lookupRepByCode.php?code%3D

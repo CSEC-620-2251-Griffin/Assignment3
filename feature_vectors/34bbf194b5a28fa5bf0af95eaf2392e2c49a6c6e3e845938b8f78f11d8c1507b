@@ -1,0 +1,11 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+url::http://demontpx.com/
+intent::android.intent.action.MAIN
+url::demontpx.com
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.portrait
+activity::.SliderPuzzle
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService

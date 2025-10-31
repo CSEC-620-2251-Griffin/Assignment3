@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+service_receiver::.Listen
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.saveNum
+permission::android.permission.CALL_PHONE
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.Info
+intent::android.intent.action.MAIN
+provider::android.appwidget.provider
+api_call::android/content/Context;->startActivity
+activity::.BrightnessConfiguration
+service_receiver::com.tding.bright.BrightnessProvider
+real_permission::android.permission.WRITE_SETTINGS
+activity::.SetView
+intent::android.intent.category.INFO
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.WRITE_SETTINGS

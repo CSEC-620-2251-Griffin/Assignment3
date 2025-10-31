@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.waldo
+intent::android.intent.action.MAIN
+url::waldo.villagesoup.com
+api_call::android/webkit/WebView
+url::http://waldo.villagesoup.com/mobile/android/index.seam
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

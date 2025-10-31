@@ -1,0 +1,17 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+url::www.makayama.com
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+service_receiver::CallTimerAlertReceiver
+real_permission::android.permission.READ_CONTACTS
+url::http://www.makayama.com/buydjmixerandroid.html
+real_permission::android.permission.INTERNET
+activity::.LaunchActivity
+api_call::android/content/Context;->startActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

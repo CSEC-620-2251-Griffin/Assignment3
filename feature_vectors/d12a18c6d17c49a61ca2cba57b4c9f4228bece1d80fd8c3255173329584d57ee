@@ -1,0 +1,14 @@
+permission::android.permission.CALL_PHONE
+feature::android.hardware.touchscreen
+url::http://www.uniodonto.com.br
+intent::android.intent.action.MAIN
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.CALL_PRIVILEGED
+permission::android.permission.INTERNET
+feature::android.hardware.telephony
+activity::.TT4
+intent::android.intent.category.LAUNCHER
+url::www.uniodonto.com.br
+permission::android.permission.READ_CONTACTS
+permission::android.permission.CAMERA

@@ -1,0 +1,15 @@
+activity::.DimiBobActivity
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+url::viewide.kr
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::http://viewide.kr/dev/dimibob/thisweek/
+service_receiver::AlarmService
+url::http://viewide.kr/dev/dimibob/today/
+real_permission::android.permission.INTERNET
+call::getSystemService

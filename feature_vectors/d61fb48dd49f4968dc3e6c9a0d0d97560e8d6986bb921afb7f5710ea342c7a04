@@ -1,0 +1,19 @@
+url::http://printable-cards.gotfreecards.com/iphone/apps/rss_news/index.php?src%3D
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+activity::Detailed News
+intent::android.intent.action.MAIN
+activity::Selected Resources
+activity::News Resources
+activity::.First_Page
+call::printStackTrace
+activity::.Mainactivity
+url::printable-cards.gotfreecards.com
+permission::android.permission.INTERNET
+activity::.search_for_news_result
+activity::.all_news_resources
+intent::android.intent.category.LAUNCHER
+activity::.splash
+activity::.top_news_resources
+real_permission::android.permission.INTERNET
+url::http://printable-cards.gotfreecards.com/iphone/apps/rss_news/getsrc.php

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.LabyrinthWallpaperApp
+intent::android.intent.action.MAIN
+feature::android.software.live_wallpaper
+intent::android.intent.category.LAUNCHER
+call::getSystemService

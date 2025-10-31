@@ -1,0 +1,19 @@
+url::http://www.publicobject.com.br
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+url::www.publicobject.com.br
+call::Cipher(AES/CBC/PKCS5Padding)
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getPackageInfo
+api_call::android/app/Activity;->setContentView
+call::Read/Write External Storage
+activity::.PequenosVelozes
+call::getSystemService

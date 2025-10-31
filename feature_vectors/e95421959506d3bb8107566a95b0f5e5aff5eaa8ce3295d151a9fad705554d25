@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CONTACTS
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::.ContactManager
+url::http://schemas.android.com/apk/res/com.gueei.android.binding
+real_permission::android.permission.INTERNET
+permission::android.permission.GET_ACCOUNTS
+url::www.gueei.com
+url::http://www.gueei.com/android-binding/
+activity::ContactAdder
+api_call::android/app/Activity;->setContentView
+real_permission::android.permission.READ_CONTACTS
+url::schemas.android.com
+intent::android.intent.category.LAUNCHER

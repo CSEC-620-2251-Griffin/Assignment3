@@ -1,0 +1,15 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://m.hyundai.com/hmb/web/gate_app_andro.jsp?inetMbrId%3D
+intent::android.intent.action.MAIN
+activity::.Intro
+url::http://m.hyundai.com/hmb/web/gate_app_andro.jsp
+permission::android.permission.ACCESS_NETWORK_STATE
+url::m.hyundai.com
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://m.hyundai.com/hmb/web/gate_app_andro.jsp?fw_page%3Dsearch&query%3D
+url::http://m.hyundai.com/hmb/web/gate_app_andro.jsp?inetMbrId%3D&pw%3D&fw_page%3DmbrJoin
+call::getSystemService

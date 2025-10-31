@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::Nic Nac Noe Free
+permission::android.permission.READ_PHONE_STATE
+activity::.AppEntry
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+permission::android.permission.ACCESS_COARSE/FINE_LOCATION

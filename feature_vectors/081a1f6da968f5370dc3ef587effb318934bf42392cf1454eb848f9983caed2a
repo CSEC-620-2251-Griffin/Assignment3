@@ -1,0 +1,10 @@
+service_receiver::.KeyCheckReceiver
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+service_receiver::.KeyCheckService
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+call::Cipher(AES/CBC/PKCS5Padding)
+api_call::android/content/Context;->startService
+call::getPackageInfo
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting

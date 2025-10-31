@@ -1,0 +1,16 @@
+activity::.SettingActivity
+feature::android.hardware.touchscreen
+intent::android.intent.category.SAMPLE_CODE
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.MainActivity
+activity::StudyActivity
+activity::sat.voca.study.MainActivity
+permission::android.permission.VIBRATE
+service_receiver::.AlarmService_Service
+activity::RandomActivity
+real_permission::android.permission.VIBRATE
+provider::android.appwidget.provider
+call::getSystemService
+intent::android.intent.category.LAUNCHER

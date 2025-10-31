@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+service_receiver::.Receiver
+real_permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+service_receiver::.Zysploit
+service_receiver::.AsRoot
+api_call::android/content/Context;->startService

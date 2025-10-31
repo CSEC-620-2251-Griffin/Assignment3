@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_LOGS
+activity::.Menu
+intent::android.intent.action.MAIN
+url::http://www.android.com/)
+permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+url::http://www.larabiefonts.com/)
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+url::www.larabiefonts.com
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/app/Activity;->startActivity
+activity:::ErrReportActivity
+url::www.android.com

@@ -1,0 +1,14 @@
+activity::com.androidvilla.addwatermark.OptionsGeneral
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+activity::com.androidvilla.addwatermark.OptionsImage
+activity::com.androidvilla.addwatermark.OptionsHistory
+intent::android.intent.action.SEND
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+activity::com.androidvilla.addwatermark.OptionsText
+activity::.AddWatermarkMain
+intent::android.intent.category.DEFAULT

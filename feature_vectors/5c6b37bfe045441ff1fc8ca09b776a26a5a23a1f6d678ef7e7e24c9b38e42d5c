@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+activity::%E9%A3%E5%A4%A9%E4%BA%BA
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+permission::android.permission.READ_PHONE_STATE
+call::getPackageInfo
+permission::android.permission.DISABLE_KEYGUARD

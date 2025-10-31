@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+service_receiver::.DontDownloadWidget
+intent::android.intent.action.MAIN
+activity::.DontDownload
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider

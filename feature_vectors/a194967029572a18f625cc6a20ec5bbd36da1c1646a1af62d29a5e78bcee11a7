@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::org.spellbound.HighScore
+intent::android.intent.action.MAIN
+activity::.hello1
+api_call::android/media/MediaPlayer;->start
+activity::org.spellbound.GameLevel
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+activity::Game
+activity::org.spellbound.hello1

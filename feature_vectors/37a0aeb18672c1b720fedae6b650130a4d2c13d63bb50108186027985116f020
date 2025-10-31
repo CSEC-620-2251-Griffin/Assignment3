@@ -1,0 +1,13 @@
+activity::.KHelpActivity
+feature::android.hardware.touchscreen
+activity::.KSplashScreen
+intent::android.intent.action.MAIN
+activity::.KExploreActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+feature::android.hardware.screen.portrait
+activity::.KFavouriteActivity
+activity::.KMainActivity
+activity::.KSearchActivity
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage

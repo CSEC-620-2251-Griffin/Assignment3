@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::news
+intent::android.intent.action.MAIN
+activity::.news
+url::http://wap.pccwmobile.com/news
+intent::android.intent.category.LAUNCHER
+url::wap.pccwmobile.com

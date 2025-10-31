@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::http://www.kochu.net/
+intent::android.intent.action.MAIN
+activity::.main
+intent::android.intent.category.LAUNCHER
+url::www.kochu.net

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+activity::.Prefs
+url::http://android.tampiss.com/category/android-widget/text-widget/
+url::android.tampiss.com
+api_call::android/content/Context;->startService
+service_receiver::.AppWidget$UpdateService
+call::getPackageInfo
+url::http://market.android.com/search?q%3Dpub:tampiss
+provider::android.appwidget.provider

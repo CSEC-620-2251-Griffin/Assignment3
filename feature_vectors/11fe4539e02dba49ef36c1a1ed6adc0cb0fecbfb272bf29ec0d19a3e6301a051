@@ -1,0 +1,5 @@
+activity::.PuzzleActivity
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen

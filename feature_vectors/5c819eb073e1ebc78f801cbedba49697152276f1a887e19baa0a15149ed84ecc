@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.A
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+url::m.umnet.com
+intent::android.intent.category.LAUNCHER
+url::http://m.umnet.com/Download/game/14604/dinner-dash---Nokia-6230i.jar
+call::getPackageInfo
+url::www.netmite.com

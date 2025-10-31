@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.views.Freeciv
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.views.MainMenu
+intent::android.intent.category.LAUNCHER
+activity::.StartupSplash
+activity::.views.CityDialog
+api_call::android/app/Activity;->startActivity
+activity::.views.LoadGame
+call::getSystemService

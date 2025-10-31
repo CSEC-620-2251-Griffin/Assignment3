@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+activity::GreekIMESettings
+permission::android.permission.READ_USER_DICTIONARY
+call::getDeviceId
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/provider/UserDictionary$Words;->addWord
+permission::android.permission.WRITE_USER_DICTIONARY
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.WRITE_USER_DICTIONARY
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_CONTACTS
+api_call::android/os/Vibrator;->vibrate
+call::getSystemService

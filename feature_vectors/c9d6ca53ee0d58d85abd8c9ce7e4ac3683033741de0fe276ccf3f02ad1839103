@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+url::friedflow.blogspot.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+provider::android.appwidget.provider
+service_receiver::.Widget$UpdateService
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Remote
+intent::android.intent.category.LAUNCHER
+url::http://www.appbrain.com/app/spotget-spotify-remote/com.friedflow.spotget
+api_call::java/net/DatagramSocket
+url::http://friedflow.blogspot.com/\n\nPlease
+url::www.appbrain.com

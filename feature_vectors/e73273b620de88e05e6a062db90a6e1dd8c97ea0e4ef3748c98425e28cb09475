@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.NewActivity
+intent::android.intent.action.MAIN
+url::http://ac.ebis.ne.jp/tr_set.php?argument%3DJwhbHFgv&ai%3D405
+url::http://ac.ebis.ne.jp/tr_set.php?argument%3DJwhbHFgv&ai%3D103
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+url::http://ac.ebis.ne.jp/tr_set.php?argument%3DJwhbHFgv&ai%3D166
+intent::android.intent.category.LAUNCHER
+url::http://ac.ebis.ne.jp/tr_set.php?argument%3DJwhbHFgv&ai%3D165
+url::http://ac.ebis.ne.jp/tr_set.php?argument%3DJwhbHFgv&ai%3D304
+url::http://ac.ebis.ne.jp/tr_set.php?argument%3DJwhbHFgv&ai%3D169
+url::http://ac.ebis.ne.jp/tr_set.php?argument%3DJwhbHFgv&ai%3D168
+call::getSystemService
+url::ac.ebis.ne.jp

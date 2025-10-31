@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::https://sites.google.com/a/rcpt.to/fe-fi/help/upload-key
+activity::.TabbedHomeActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::java/net/Socket
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://schemas.xmlsoap.org/soap/envelope/
+url::http://schemas.xmlsoap.org/soap/envelope/\
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+service_receiver::EyefiReceiverService
+url::sites.google.com
+real_permission::android.permission.INTERNET
+activity::.FeFi
+call::getSystemService
+url::schemas.xmlsoap.org

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://rssfeeds.s3.amazonaws.com/goldbox
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::rssfeeds.s3.amazonaws.com
+api_call::java/net/URL;->openConnection
+service_receiver::AmazonWidgetProvider
+provider::android.appwidget.provider
+service_receiver::UpdateService
+api_call::android/content/Context;->startService

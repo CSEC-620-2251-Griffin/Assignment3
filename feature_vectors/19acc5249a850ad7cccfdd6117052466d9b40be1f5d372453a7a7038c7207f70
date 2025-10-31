@@ -1,0 +1,19 @@
+activity::Acceleration Times
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::LapList
+activity::.MainActivity
+feature::android.hardware.screen.portrait
+activity::Calibration
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::Car Show Room
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+activity::LapStats
+activity::Graph
+call::Read/Write External Storage
+feature::android.hardware.screen.landscape
+call::printStackTrace
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+call::system/bin/su
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.READ_LOGS
+permission::android.permission.BLUETOOTH
+api_call::java/lang/Runtime;->exec
+service_receiver::.InstantRootReceiver
+call::Execution of external commands
+real_permission::android.permission.VIBRATE
+permission::android.permission.BLUETOOTH_ADMIN
+api_call::android/content/Context;->sendBroadcast
+intent::android.intent.category.DEFAULT
+call::getSystemService

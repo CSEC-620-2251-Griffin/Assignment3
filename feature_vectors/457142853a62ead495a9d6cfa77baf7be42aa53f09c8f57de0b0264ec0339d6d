@@ -1,0 +1,15 @@
+activity::.RheumaTrack
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+service_receiver::.notifications.MedicationsAlarm
+service_receiver::.notifications.DoctorAlarm
+activity::.SplashScreen
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+service_receiver::.notifications.CheckAlarm
+call::getSystemService
+service_receiver::.notifications.EntryAlarm

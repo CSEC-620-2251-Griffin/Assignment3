@@ -1,0 +1,17 @@
+activity::.ResDisplay
+activity::.ResidenceStatus
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.CALL_PHONE
+url::http://www.immigroup.com/CanadianCitizenshipCard.aspx
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.ResidentCalculator
+url::www.immigroup.com
+feature::android.hardware.location.network

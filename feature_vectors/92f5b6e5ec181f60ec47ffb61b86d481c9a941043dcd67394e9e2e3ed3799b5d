@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.piday.org
+intent::android.intent.category.LAUNCHER
+url::http://www.piday.org/?utm_source%3Dandroid_pitrainer
+activity::.pitrainer

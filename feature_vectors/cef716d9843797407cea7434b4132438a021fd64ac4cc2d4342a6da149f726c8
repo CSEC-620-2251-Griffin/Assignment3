@@ -1,0 +1,11 @@
+url::http://www.facebook.com/pages/Rajendran-Krishnan/252963954720689
+url::twitter.com
+url::www.facebook.com
+url::http://player.vimeo.com/video/25765281?title%3D0&byline%3D0&portrait%3D0
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::player.vimeo.com
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://twitter.com/
+activity::.Splash

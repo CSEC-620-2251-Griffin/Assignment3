@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.availableCats
+intent::android.intent.action.MAIN
+activity::.availabeDivisions
+activity::.prefs
+activity::Add New Member
+permission::android.permission.INTERNET
+activity::.diysports
+activity::.selectuser
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::.generateForm
+activity::.paymentInfo
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::.viewcart

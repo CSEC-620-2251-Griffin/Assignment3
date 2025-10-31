@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://open.spotify.com/artist/2FOROU2Fdxew72QmueWSUy
+api_call::android/media/MediaPlayer;->start
+activity::.Main
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+url::http://www.dr-sounds.com
+call::printStackTrace
+url::www.dr-sounds.com
+url::open.spotify.com

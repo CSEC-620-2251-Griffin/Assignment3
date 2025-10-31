@@ -1,0 +1,16 @@
+url::http://mobile.versus.com/nhlStories/nhlblogs.xml
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::mobile.versus.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://mobile.versus.com/versus/headlines.xml
+activity::MainActivity
+url::http://mobile.versus.com/nhlStories/
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK

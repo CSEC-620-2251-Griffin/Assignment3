@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.SigmaStat
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+activity::.SigmaStatGraph
+activity::.SigmaGraph
+activity::.SigmaCalculator
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getSystemService
+intent::android.intent.action.VIEW
+real_permission::android.permission.WAKE_LOCK

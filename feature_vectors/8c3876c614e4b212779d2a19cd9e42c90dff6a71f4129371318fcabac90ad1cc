@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::http://dengon.ezweb.ne.jp/
+intent::android.intent.action.MAIN
+activity::.webbooter
+intent::android.intent.category.LAUNCHER
+url::dengon.ezweb.ne.jp
+activity::webbooter

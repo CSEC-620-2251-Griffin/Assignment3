@@ -1,0 +1,30 @@
+activity::TeslaLED Widget Timer Setup
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.Flashlight
+permission::android.permission.FLASHLIGHT
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+real_permission::android.permission.CAMERA
+url::market.android.com
+feature::android.hardware.camera.autofocus
+api_call::android/content/Context;->startActivity
+service_receiver::.LEDService
+url::http://market.android.com/search?q%3Dcom.teslacoilsw.flashlightDonate
+activity::.TimerPrompt
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+permission::android.permission.WAKE_LOCK
+intent::com.teslacoilsw.intent.FLASHLIGHT
+permission::android.permission.CAMERA
+api_call::android/hardware/Camera;->open
+activity::DroidFroyo Helper
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+feature::android.hardware.camera
+service_receiver::TeslaLED
+url::http://market.android.com/search?q%3Dpub:\
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.camera.flash
+provider::android.appwidget.provider

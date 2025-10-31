@@ -1,0 +1,24 @@
+activity::.GPSTether
+permission::android.permission.ACCESS_FINE_LOCATION
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.READ_SETTINGS
+permission::android.permission.WRITE_SETTINGS
+feature::android.hardware.location.gps
+call::printStackTrace
+permission::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+feature::android.hardware.location
+service_receiver::GPS Tether Service
+real_permission::android.permission.INTERNET
+call::getSystemService
+api_call::android/webkit/WebView
+api_call::android/content/Context;->startService
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER

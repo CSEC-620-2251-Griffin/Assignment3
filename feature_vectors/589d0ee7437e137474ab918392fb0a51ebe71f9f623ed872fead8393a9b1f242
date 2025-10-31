@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+service_receiver::.FlipClockProvider
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.READ_LOGS
+service_receiver::.GenerateFiles
+intent::android.intent.action.TIMEZONE_CHANGED
+real_permission::android.permission.VIBRATE
+activity::.InfoActivity
+call::getPackageInfo
+intent::android.intent.action.TIME_SET
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+call::getSystemService
+intent::android.intent.category.LAUNCHER

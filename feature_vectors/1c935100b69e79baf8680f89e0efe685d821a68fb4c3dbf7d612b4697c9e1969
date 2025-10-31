@@ -1,0 +1,14 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+url::http://wordsmith.org/anagram/anagram.cgi?anagram%3D
+url::http://wordsmith.org/anagram/
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::wordsmith.org
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getSystemService
+activity::.Findagram

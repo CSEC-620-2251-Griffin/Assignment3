@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://m.omahatitle.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::m.omahatitle.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Webview
+intent::android.intent.category.LAUNCHER

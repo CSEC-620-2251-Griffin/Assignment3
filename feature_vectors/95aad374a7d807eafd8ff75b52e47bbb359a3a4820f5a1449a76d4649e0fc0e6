@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/net/wifi/WifiManager;->startScan
+real_permission::android.permission.CHANGE_WIFI_STATE
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+url::m.library.illinois.edu
+activity::.LibraryWelcome
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+api_call::android/net/wifi/WifiManager;->getScanResults
+real_permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.CHANGE_WIFI_STATE
+url::http://m.library.illinois.edu/
+call::getSystemService

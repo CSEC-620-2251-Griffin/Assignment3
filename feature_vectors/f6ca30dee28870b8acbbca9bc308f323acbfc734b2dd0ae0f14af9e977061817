@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::aristo.android.MoneyToday
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::.MoneyToday

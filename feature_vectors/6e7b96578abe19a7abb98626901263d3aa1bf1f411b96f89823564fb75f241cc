@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.activities.workoutViews.WorkoutTemplateView
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+activity::.Main
+call::Read/Write External Storage
+activity::.activities.workoutViews.WorkoutView
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.activities.exerciseViews.ExerciseList
+activity::.activities.Main

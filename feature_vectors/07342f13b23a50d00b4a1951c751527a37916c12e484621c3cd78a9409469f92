@@ -1,0 +1,16 @@
+activity::com.greentrucksoftware.messagescroller.LauncherActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.DEFAULT
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::schemas.android.com
+url::http://search.twitter.com/search.json?q%3D
+permission::android.permission.INTERNET
+url::search.twitter.com
+real_permission::android.permission.INTERNET
+activity::com.greentrucksoftware.messagescroller.PreferencesActivity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.VIEW
+activity::MessageScroller
+url::http://schemas.android.com/apk/res/android
+activity::.LauncherActivity

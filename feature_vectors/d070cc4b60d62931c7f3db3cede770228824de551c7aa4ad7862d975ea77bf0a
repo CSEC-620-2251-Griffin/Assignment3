@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+call::Obfuscation(Base64)
+call::printStackTrace

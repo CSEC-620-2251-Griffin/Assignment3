@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+activity::ActivityInstructions
+call::printStackTrace
+activity::ActivityPreferences
+activity::.Enigma
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::getSystemService

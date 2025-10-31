@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.ifractal.msileadership.activities.LoginDialog
+activity::com.ifractal.msileadership.activities.WebViewScreen
+activity::.SplashScreen
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::com.ifractal.msileadership.activities.SplashScreen
+api_call::android/webkit/WebView
+activity::com.ifractal.msileadership.activities.MainNavigator
+real_permission::android.permission.INTERNET

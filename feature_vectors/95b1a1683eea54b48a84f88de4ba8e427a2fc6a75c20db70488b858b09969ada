@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+call::getSystemService
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.VIBRATE
+service_receiver::ccc71.bmw.icons.xda.circleA.palin.bmw_notification

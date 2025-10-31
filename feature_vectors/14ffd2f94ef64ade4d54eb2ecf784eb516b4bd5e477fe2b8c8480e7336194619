@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://market.android.com/details?id%3Dnet.grysonweb.NFEnvoyPro
+intent::android.intent.action.MAIN
+url::market.android.com
+url::http://apps.grysonweb.net/main/navigate-fate/envoy/change-log
+url::apps.grysonweb.net
+intent::android.intent.category.LAUNCHER
+url::http://apps.grysonweb.net/main/navigate-fate
+activity::.NFEnvoy

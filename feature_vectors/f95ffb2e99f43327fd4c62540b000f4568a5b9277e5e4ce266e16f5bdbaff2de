@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+call::Read/Write External Storage
+provider::android.appwidget.provider
+service_receiver::widget_sdspace

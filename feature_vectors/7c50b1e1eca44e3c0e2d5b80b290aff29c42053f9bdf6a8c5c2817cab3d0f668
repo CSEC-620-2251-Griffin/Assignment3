@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::android.experienceproject.com
+intent::android.intent.action.MAIN
+call::getSystemService
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::http://android.experienceproject.com/
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+intent::android.intent.action.VIEW
+activity::.LauncherActivity

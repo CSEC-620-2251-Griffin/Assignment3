@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::m.anysports.net
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+activity::.anysports15
+call::getSystemService
+url::http://m.anysports.net/

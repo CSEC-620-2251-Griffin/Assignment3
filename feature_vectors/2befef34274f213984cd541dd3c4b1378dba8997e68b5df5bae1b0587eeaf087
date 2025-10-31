@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::mobileguild.eu
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+api_call::android/location/LocationManager;->requestLocationUpdates
+api_call::java/net/Socket
+call::getSystemService
+url::http://mobileguild.eu/apps/find_hackathon/event.xml

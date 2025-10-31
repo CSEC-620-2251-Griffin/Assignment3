@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.activities.SavingsActivity
+activity::.activities.MyDevicesActivity
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.activities.PricesActivity
+intent::android.intent.category.LAUNCHER
+activity::.activities.AddDeviceActivity
+real_permission::android.permission.INTERNET
+activity::.SplashActivity
+api_call::java/net/URL;->openConnection

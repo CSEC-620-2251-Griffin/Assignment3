@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.distcalc
+activity::.HelloTabWidget
+intent::android.intent.category.LAUNCHER
+activity::.tipcalc
+activity::.tempcalc

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+call::Cipher()
+intent::android.intent.action.MAIN
+url::http://www.netmite.com/android/srv/2.0/upload/game_31236_www_77phone_com.jar
+call::Cipher(icon.png)
+activity::.GeneCipherMidlet
+url::http://www.netmite.com/android/andme_signed.apk
+call::Cipher(/data/test/2.0/upload/game_31236_www_77phone_com.jar)
+call::Cipher(launcherclassname)
+intent::android.intent.category.LAUNCHER
+call::Cipher(ABC)
+call::getPackageInfo
+call::Cipher(\u9ed8\u8ba4\u540d)
+api_call::android/content/Context;->startActivity
+call::Cipher(audio/midi)
+url::www.netmite.com

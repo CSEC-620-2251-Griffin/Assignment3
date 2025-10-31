@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+service_receiver::CountDownWidget
+service_receiver::.CountdownService
+activity::.WeddingWidgetConfig
+provider::android.appwidget.provider
+call::getSystemService

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.simple-shop.si
+permission::android.permission.INTERNET
+activity::.Activity1
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://www.simple-shop.si/index.php/feed

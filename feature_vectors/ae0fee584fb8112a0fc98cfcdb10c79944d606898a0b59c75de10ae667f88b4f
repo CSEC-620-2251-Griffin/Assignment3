@@ -1,0 +1,53 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+url::http://maps.google.com/maps/api/staticmap?center%3D
+url::http://apache.org/xml/features/nonvalidating/load-external-dtd
+permission::android.permission.RECEIVE_SMS
+real_permission::android.permission.ACCESS_FINE_LOCATION
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::Cipher(RSA/ECB/PKCS1Padding)
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+feature::android.hardware.location.gps
+url::hibernate.sourceforge.net
+url::http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+feature::android.hardware.location
+call::Cipher(Algorithm attribute needs to be set.)
+call::Cipher(invalid key (null).)
+call::Obfuscation(Base64)
+call::getSystemService
+call::Cipher(Blowfish/ECB/PKCS5Padding)
+url::http://localhost:8080/JtPortal/JtRestService
+call::Cipher(Jt.security.JtSymmetricCipher)
+url::http://localhost:8080/axis/services/JtAxisService
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+url::apache.org
+call::Cipher(Key attribute needs to be set.)
+call::Execution of external commands
+url::http://localhost:8080/axis/services/MyService
+feature::android.hardware.telephony
+call::Cipher(Jt.security.JtMessageCipher)
+url::localhost
+api_call::java/net/URL;->openConnection
+call::Cipher(Jt.security.JtAsymmetricCipher)
+call::Cipher(key)
+call::Cipher(Invalid message: null)
+api_call::android/telephony/SmsManager;->sendMultipartTextMessage
+call::sendSMS
+call::Cipher(Jt)
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+call::Cipher(Blowfish)
+real_permission::android.permission.INTERNET
+call::Cipher(Invalid encrypted message (null):)
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+call::Cipher(JtGENERATE_KEY)
+url::maps.google.com
+api_call::java/lang/Runtime;->exec
+api_call::android/content/Context;->startActivity
+call::Cipher(Invalid certificate name (null).)

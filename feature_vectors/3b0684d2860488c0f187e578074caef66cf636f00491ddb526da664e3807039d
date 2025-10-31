@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.Match
+intent::android.intent.action.MAIN
+url::market.android.com
+url::http://market.android.com/details?id%3Dapp.hindi.dictionary
+permission::android.permission.INTERNET
+activity::Match
+url::http://market.android.com/details?id%3Dlearn.hin.eng
+intent::android.intent.category.LAUNCHER

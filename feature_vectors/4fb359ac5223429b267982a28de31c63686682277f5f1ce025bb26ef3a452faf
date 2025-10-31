@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::gadget.gadgetium.com
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://gadget.gadgetium.com/test-center-snmptn/
+intent::android.intent.action.MAIN
+url::http://gadget.gadgetium.com/test-center-snmptn
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.category.LAUNCHER
+call::getSystemService

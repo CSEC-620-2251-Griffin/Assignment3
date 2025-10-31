@@ -1,0 +1,46 @@
+feature::android.hardware.touchscreen
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::.core.helper.Updater$UpdateService
+intent::android.intent.category.HOME
+permission::android.permission.READ_PHONE_STATE
+service_receiver::.core.helper.Restarter
+activity::.Main
+intent::android.intent.category.DEFAULT
+service_receiver::.extra.WidgetProvider$UpdateService
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_PHONE_STATE
+service_receiver::DroidStats BootDetector
+service_receiver::.widget.WidgetProvider$UpdateService
+api_call::android/telephony/TelephonyManager;->getLine1Number
+service_receiver::Main$FirstSyncService
+service_receiver::DroidStats 3x1
+call::getSystemService
+real_permission::android.permission.VIBRATE
+intent::android.intent.category.PREFERENCE
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+service_receiver::DroidStats 1x1
+api_call::android/content/Context;->startService
+service_receiver::.core.traffic.Resetter
+service_receiver::DroidStats 2x1
+service_receiver::.core.helper.Updater
+service_receiver::.extra.WidgetProvider3x1$UpdateService
+service_receiver::.extra.WidgetProvider2x1$UpdateService
+intent::android.intent.action.MAIN
+service_receiver::.widget.WidgetProvider2x1$UpdateService
+service_receiver::.core.watcher.CallStateWatcher
+provider::android.appwidget.provider
+intent::android.intent.action.PHONE_STATE
+feature::android.hardware.screen.portrait
+url::www.paypal.com
+intent::android.intent.category.LAUNCHER
+service_receiver::.widget.WidgetProvider3x1$UpdateService
+url::https://www.paypal.com/cgi-bin/webscr?cmd%3D_s-xclick&hosted_button_id%3D10897692
+api_call::android/app/NotificationManager;->notify
+service_receiver::.core.traffic.Updater
+service_receiver::.core.watcher.SmsWatchService
+service_receiver::.core.traffic.CronScheduler

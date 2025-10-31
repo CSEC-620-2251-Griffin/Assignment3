@@ -1,0 +1,21 @@
+intent::android.intent.action.REBOOT
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_LOGS
+service_receiver::.Widget
+intent::android.intent.action.MAIN
+real_permission::android.permission.VIBRATE
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/content/Context;->startActivity
+activity::.Main
+intent::android.intent.category.DEFAULT
+call::Execution of external commands
+service_receiver::.Setter
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+activity::.Widget_Dialog
+service_receiver::.Reboot
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+provider::android.appwidget.provider
+api_call::java/lang/Runtime;->exec
+call::getSystemService

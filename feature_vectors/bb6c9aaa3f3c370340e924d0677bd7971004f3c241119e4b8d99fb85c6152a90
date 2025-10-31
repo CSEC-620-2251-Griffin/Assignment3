@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::sites.google.com
+intent::android.intent.action.MAIN
+url::http://www.aelf.org/office-messe?date_my%3D
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+activity::.Breviaire
+activity::.Settings
+api_call::android/webkit/WebView
+url::http://www.aelf.org/faire-un-don
+activity::ImagesListPreference
+intent::android.intent.category.LAUNCHER
+url::www.aelf.org
+url::http://www.aelf.org/office-
+url::http://sites.google.com/site/androidbreviaire/data/
+real_permission::android.permission.INTERNET
+call::printStackTrace
+permission::android.permission.FULLSCREEN

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://aggiecamps.wordpress.com/about
+intent::android.intent.action.MAIN
+activity::.Startup
+permission::android.permission.INTERNET
+url::http://golfwithaggies.wordpress.com/about
+intent::android.intent.category.LAUNCHER
+url::aggiecamps.wordpress.com
+url::golfwithaggies.wordpress.com

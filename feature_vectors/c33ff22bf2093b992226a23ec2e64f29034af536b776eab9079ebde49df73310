@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::www.jobst-software.com
+api_call::android/app/Activity;->startActivity
+url::http://www.w3.org/TR/2001/REC-xhtml11-20010531/DTD/xhtml11-flat.dtd\
+intent::android.intent.action.MAIN
+permission::android.permission.READ_PHONE_STATE
+url::www.w3.org
+api_call::java/net/URL;->openStream
+activity::.JHotlinerechnungPrintViewer
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::JHotlinerechnung_AT
+activity::.JHotlinerechnung_AT
+intent::android.intent.category.LAUNCHER
+api_call::android/location/LocationManager;->getLastKnownLocation
+real_permission::android.permission.INTERNET
+url::http://www.jobst-software.com
+permission::android.permission.READ_CONTACTS
+activity::Eintrag ...
+call::getSystemService

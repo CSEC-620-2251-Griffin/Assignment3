@@ -1,0 +1,16 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::http://www.mt4files.com
+url::http://i54.tinypic.com/20paelk.jpg
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://feeds2.feedburner.com/Forex-YahooNewsSearchResults
+url::http://androidforum.androidretail.com/forex.html\
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::i54.tinypic.com
+url::feeds2.feedburner.com
+url::www.mt4files.com
+activity::.Activity1
+url::androidforum.androidretail.com

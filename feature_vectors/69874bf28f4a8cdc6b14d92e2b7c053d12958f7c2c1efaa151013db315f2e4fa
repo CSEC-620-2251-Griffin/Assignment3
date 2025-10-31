@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.as
+intent::android.intent.action.MAIN
+url::www.fgc.cat
+intent::android.intent.category.LAUNCHER
+url::http://www.fgc.cat/mobil/index.php

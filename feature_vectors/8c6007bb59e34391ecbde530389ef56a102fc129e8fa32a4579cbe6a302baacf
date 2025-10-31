@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+url::wapking.mobi
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+activity::.GameMidlet
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.ALTERNATIVE
+call::getPackageInfo
+url::http://wapking.mobi/files/4uj75td/javagames/s60v3/Metal_Gear_Acid_-_2_n80.jar
+intent::android.intent.category.LAUNCHER

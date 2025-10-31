@@ -1,0 +1,5 @@
+url::http://www.bbc.co.uk/mobile/
+feature::android.hardware.touchscreen
+activity::.MainActivity
+url::www.bbc.co.uk
+intent::android.intent.category.DEFAULT

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.MusicMate
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::wapstack.mobi
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://wapstack.mobi/downloads//app/java/MusicMate_W810_EU.jar
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+url::www.netmite.com

@@ -1,0 +1,16 @@
+url::saju84.co.kr
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.CALL_PHONE
+activity::.MainActivity
+permission::android.permission.INTERNET
+permission::android.permission.READ_PHONE_STAT
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+url::http://www.sajulive.com/mobile/arslist.aspx
+url::www.sajulive.com
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+url::http://saju84.co.kr
+api_call::android/webkit/WebView

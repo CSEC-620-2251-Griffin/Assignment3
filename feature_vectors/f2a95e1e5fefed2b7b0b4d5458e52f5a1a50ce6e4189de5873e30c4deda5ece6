@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://125.17.140.50/BPSFineDetails/BPSFineDetails.aspx
+permission::android.permission.INTERNET
+url::125.17.140.50
+intent::android.intent.category.LAUNCHER
+activity::.TrafficApp
+real_permission::android.permission.INTERNET
+call::HttpPost
+api_call::java/net/URL;->getContent

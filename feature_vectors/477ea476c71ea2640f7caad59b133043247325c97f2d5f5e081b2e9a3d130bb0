@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::gumbogarden.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.LSUBB2011
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://gumbogarden.com/lsubb2011.html
+real_permission::android.permission.INTERNET

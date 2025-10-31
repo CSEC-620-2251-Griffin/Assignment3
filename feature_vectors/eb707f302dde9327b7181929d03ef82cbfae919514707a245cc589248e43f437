@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::com.twofortyfouram.locale.intent.action.FIRE_SETTING
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+intent::com.twofortyfouram.locale.intent.action.EDIT_SETTING
+service_receiver::com.androgone.locale.smsnotif.FireReceiver
+feature::android.hardware.telephony
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage
+intent::android.intent.category.INFO

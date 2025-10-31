@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.QrGen
+service_receiver::QrAppWidgetProvider
+intent::android.intent.action.SEND
+intent::android.intent.category.DEFAULT
+permission::android.permission.READ_CONTACTS
+provider::android.appwidget.provider

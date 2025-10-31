@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+activity::.Benchmark
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://softweg-studio.com/benchmark/insert_table.php
+url::http://softweg-studio.com/benchmark-score-table
+intent::android.intent.category.LAUNCHER
+url::softweg-studio.com

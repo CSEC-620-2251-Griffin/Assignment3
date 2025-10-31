@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::com.docmanna.crypticmessage.App
+activity::.App
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::Obfuscation(Base64)
+intent::android.intent.category.LAUNCHER
+call::getSystemService

@@ -1,0 +1,24 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://www.ch7.com/copaamerica2011/wap/live
+call::Read/Write External Storage
+activity::.Splash
+real_permission::android.permission.INTERNET
+url::http://www.ch7.com/copaamerica2011/wap/matchtoday
+call::getSystemService
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+activity::main
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Tab2
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::Tab1
+feature::android.hardware.screen.portrait
+url::http://www.ch7.com/copaamerica2011/wap/clip
+url::www.ch7.com
+url::http://www.ch7.com/copaamerica2011/wap/grouptotal
+intent::android.intent.category.LAUNCHER
+url::http://www.ch7.com

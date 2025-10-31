@@ -1,0 +1,17 @@
+url::http://pagestackandroid.appspot.com/access/get/
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.action.SEND
+permission::android.permission.INTERNET
+url::http://pagestackandroid.appspot.com/thumbnail/
+intent::android.intent.category.DEFAULT
+url::http://pagestackandroid.appspot.com/mobile_push/
+url::pagestackandroid.appspot.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://pagestackandroid.appspot.com/view/json/
+url::http://pagestackandroid.appspot.com/pop/
+call::HttpPost
+activity::.PageStackHome

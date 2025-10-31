@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Obfuscation(Base64)
+activity::.ChineseNameActivity
+service_receiver::BillingReceiver
+feature::android.hardware.screen.portrait
+service_receiver::BillingService
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+permission::com.android.vending.BILLING
+api_call::android/content/Context;->startService

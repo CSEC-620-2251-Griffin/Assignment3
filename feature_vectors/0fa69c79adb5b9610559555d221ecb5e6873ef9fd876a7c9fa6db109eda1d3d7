@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::AdvertPurchase
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::WebViewDemo
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/media/MediaPlayer;->stop
+url::http://www.playscreen.com/g1/ads/ads1.php
+intent::android.intent.category.LAUNCHER
+activity::Blackjack
+real_permission::android.permission.INTERNET
+activity::.Blackjack
+url::www.playscreen.com
+real_permission::android.permission.WAKE_LOCK

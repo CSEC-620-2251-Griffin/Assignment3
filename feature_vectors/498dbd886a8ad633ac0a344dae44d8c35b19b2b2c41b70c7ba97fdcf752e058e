@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->query
+activity::.Settings
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS

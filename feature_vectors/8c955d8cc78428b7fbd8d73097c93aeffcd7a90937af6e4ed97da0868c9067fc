@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::m.ticketgenie.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Home
+url::http://m.ticketgenie.com
+intent::android.intent.category.LAUNCHER

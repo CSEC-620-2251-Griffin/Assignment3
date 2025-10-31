@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+url::http://www.crystaleez.com/mobile-app/tamarins/cap-ouest/img/14.jpg
+url::www.crystaleez.com
+intent::android.intent.action.MAIN
+permission::android.permission.CALL_PHONE
+activity::.Main
+url::http://www.crystaleez.com/mobile-app/tamarins/cap-ouest/img/12.jpg
+permission::android.permission.INTERNET
+url::http://www.crystaleez.com/mobile-app/tamarins/cap-ouest/img/10.jpg
+feature::android.hardware.screen.portrait
+url::http://www.crystaleez.com/mobile-app/tamarins/cap-ouest/img/11.jpg
+url::http://www.crystaleez.com/mobile-app/tamarins/cap-ouest/img/13.jpg
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.screen.landscape
+activity::.Plans
+activity::.Programme
+activity::.Geolocalisation
+activity::Le Ruitor : Vid%C3%A9o
+activity::.GrilleDesPrix
+activity::.Photos

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.About
+activity::.MexicanGame
+activity::.DixitGame
+activity::.Dizit
+activity::.MexicaliGame
+activity::.SeeRules
+intent::android.intent.category.LAUNCHER
+activity::.ThreeManGame
+intent::android.intent.action.MAIN
+activity::.DiceGame

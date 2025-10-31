@@ -1,0 +1,24 @@
+url::www.ucee.com
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_OWNER_DATA
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/app/Activity;->startActivity
+activity::com.ucee.android.UCeeMain
+activity::com.ucee.android.UCeeActivity
+url::http://www.ucee.com/regUser.html
+real_permission::android.permission.VIBRATE
+call::getSystemService
+activity::.UCeeMain
+intent::android.intent.action.USER_PRESENT
+service_receiver::com.ucee.android.UCeeServiceReceiver
+intent::android.intent.category.DEFAULT
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::com.ucee.android.UCee
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_OWNER_DATA
+permission::android.permission.CHANGE_NETWORK_STATE

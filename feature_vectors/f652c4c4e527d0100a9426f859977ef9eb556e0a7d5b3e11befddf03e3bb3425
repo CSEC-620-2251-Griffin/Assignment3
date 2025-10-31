@@ -1,0 +1,13 @@
+url::de.wikipedia.org
+api_call::android/webkit/WebView
+activity::.VaniSearch
+intent::android.intent.action.MAIN
+activity::.VaniBrowse
+permission::android.permission.INTERNET
+url::vaniwiki.schmidke.de
+url::http://de.wikipedia.org/w/index.php?printable%3Dyes&title%3D
+intent::android.intent.category.LAUNCHER
+url::de.m.wikipedia.org\
+real_permission::android.permission.INTERNET
+url::http://de.m.wikipedia.org\
+url::http://vaniwiki.schmidke.de/x.php?q%3D

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.DachshundConfirmDialog
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+url::www.google.com
+permission::android.permission.INTERNET
+activity::.DachshundUrlPreference
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+url::http://www.google.com/search?q%3D

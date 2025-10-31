@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://www.garebaresoftware.com/add_shoutfire.php
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+call::printStackTrace
+service_receiver::.RetrieverService
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.garebaresoftware.com/retrieve_shoutfire.php
+intent::android.intent.category.LAUNCHER
+activity::.MenuActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/app/NotificationManager;->notify
+url::www.garebaresoftware.com
+call::HttpPost
+call::getSystemService

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+feature::android.hardware.camera.autofocus
+activity::.Outfitplanner
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+feature::android.hardware.camera

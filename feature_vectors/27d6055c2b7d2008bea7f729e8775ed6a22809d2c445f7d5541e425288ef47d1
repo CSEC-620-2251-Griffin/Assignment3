@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.results.ResultActivity
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::quizicle.com
+activity::.about.AboutActivity
+url::http://quizicle.com/webservices/service.php
+activity::.splashscreen.SplashActivity
+call::getSystemService
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.submitresults.SubmitResultsActivity
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.home.HomeActivity
+activity::.SplashActivity

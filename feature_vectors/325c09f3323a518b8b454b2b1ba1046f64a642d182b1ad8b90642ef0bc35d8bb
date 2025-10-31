@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT
+activity::.WorkClock
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+call::getSystemService

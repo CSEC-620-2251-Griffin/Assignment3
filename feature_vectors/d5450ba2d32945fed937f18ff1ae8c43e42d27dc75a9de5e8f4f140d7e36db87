@@ -1,0 +1,14 @@
+url::favstar.fm
+feature::android.hardware.touchscreen
+url::http://favstar.fm/best-tweet-of-the-day
+intent::android.intent.action.MAIN
+url::http://favstar.fm
+url::http://favstar.fm/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.favstar
+intent::android.intent.category.LAUNCHER
+url::http://favstar.fm/authorization/new?clicked%3DSign+in
+url::http://favstar.fm/popular-on-twitter-by-tweets-with-50-favorites
+api_call::android/webkit/WebView
+url::http://favstar.fm/tweets/popular

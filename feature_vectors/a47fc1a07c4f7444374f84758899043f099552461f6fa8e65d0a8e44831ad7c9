@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.myconsumeradvantage.org
+permission::android.permission.INTERNET
+url::http://www.myconsumeradvantage.org/baby_stuff.php
+intent::android.intent.category.LAUNCHER
+activity::.FreeBabyStuff

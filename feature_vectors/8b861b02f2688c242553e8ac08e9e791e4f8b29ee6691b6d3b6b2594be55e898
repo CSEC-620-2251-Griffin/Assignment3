@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+url::trace.nullwire.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::elsdoerfer.name
+call::getSystemService
+url::http://elsdoerfer.name/android/trace
+real_permission::android.permission.READ_LOGS
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+activity::.ListActivity
+url::http://trace.nullwire.com/collect/
+intent::android.intent.category.LAUNCHER
+activity::.HelpActivity
+call::getPackageInfo
+call::system/bin/su
+call::HttpPost
+api_call::java/lang/Runtime;->exec
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

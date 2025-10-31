@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+call::Cipher(AES/CFB/NoPadding)
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+call::getPackageInfo
+api_call::android/app/Activity;->startActivity
+call::getSystemService

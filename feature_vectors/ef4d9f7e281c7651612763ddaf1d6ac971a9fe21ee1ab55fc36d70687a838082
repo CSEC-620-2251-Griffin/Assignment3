@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.SMSImporterLite
+intent::android.intent.action.MAIN
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+permission::android.permission.WRITE_SMS
+intent::android.intent.category.LAUNCHER

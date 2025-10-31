@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://www.mojodroid.com
+intent::android.intent.action.MAIN
+activity::.Prefs
+activity::.PackagesOverview
+url::www.mojodroid.com
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.PackageDetail

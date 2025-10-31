@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::http://feeds.feedburner.com/Dailyvideorecipes
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::dailyvideorecipes.com
+permission::android.permission.INTERNET
+url::http://i51.tinypic.com/300cy79.jpg
+url::feeds.feedburner.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::i51.tinypic.com
+activity::.Activity1
+url::http://dailyvideorecipes.com

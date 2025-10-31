@@ -1,0 +1,9 @@
+activity::.website
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.wingtsiun.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.wingtsiun.com/modules/news/
+api_call::android/webkit/WebView

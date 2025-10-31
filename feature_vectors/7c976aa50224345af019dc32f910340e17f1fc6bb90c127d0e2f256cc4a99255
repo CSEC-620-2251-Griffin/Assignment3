@@ -1,0 +1,9 @@
+url::http://sites.google.com/site/graffihelp/
+feature::android.hardware.touchscreen
+url::sites.google.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.GraffiActivity
+api_call::android/content/Context;->startActivity
+activity::GraffiActivity
+intent::android.intent.category.LAUNCHER

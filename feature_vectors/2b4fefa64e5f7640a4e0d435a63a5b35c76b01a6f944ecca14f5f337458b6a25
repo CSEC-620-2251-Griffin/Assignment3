@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+service_receiver::Bluetooth Toggle Widget
+intent::android.intent.action.MAIN
+real_permission::android.permission.BLUETOOTH
+permission::android.permission.BLUETOOTH
+api_call::android/bluetooth/BluetoothAdapter;->disable
+api_call::android/bluetooth/BluetoothAdapter;->isEnabled
+service_receiver::.BluetoothReceiver
+service_receiver::.BluetoothToggleWidget$UpdateService
+permission::android.permission.BLUETOOTH_ADMIN
+real_permission::android.permission.BLUETOOTH_ADMIN
+activity::Bluetooth Toggle Widget
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+call::getSystemService
+service_receiver::.BluetoothToggleService

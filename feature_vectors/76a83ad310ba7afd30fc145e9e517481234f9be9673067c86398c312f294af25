@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+service_receiver:::remote
+intent::android.intent.action.PACKAGE_ADDED
+intent::android.intent.action.MAIN
+activity::.AppActivity
+intent::android.intent.action.PACKAGE_REMOVED
+call::printStackTrace
+activity::.LetterActivity
+service_receiver::.receiver.AppReceiver
+intent::android.intent.action.PACKAGE_INSTALL
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.HomeActivity
+activity::.FrequenceActivity

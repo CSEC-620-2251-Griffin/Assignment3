@@ -1,0 +1,71 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::SQLite3 Viewer
+url::http://absolute-system.bevermy.com/goodies/fonts/
+activity::.system_goodies_menu
+api_call::android/telephony/TelephonyManager;->getDeviceId
+url::absolute-system.bevermy.com
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://absolute-system.bevermy.com/goodies/bootanimation_list.php
+activity::Absolute Boot Animation Installer Settings
+activity::terminal emulator
+activity::.test
+real_permission::android.permission.ACCESS_WIFI_STATE
+call::getPackageInfo
+activity::bootanimation.zip Editor
+permission::android.permission.ACCESS_COARSE_UPDATES
+activity::.system_process_viewer
+activity::Absolute Font Installer
+feature::android.hardware.location.gps
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::System App Management
+activity::.system_app_backup_restore_main
+activity::bootanimation.zip desc.txt Editor
+url::http://absolute-system.bevermy.com/goodies/hostsblock.zip
+activity::.absolute_system
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::.system_overclock_droidx
+activity::Network Tools
+permission::android.permission.READ_PHONE_STATE
+activity::Zip File Editor
+call::getSimCountryIso
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+activity::Absolute Boot Animation Downloaded Installer
+activity::.system_overclock_droidx_custom
+activity::.system_goodies_boot_animation_installer_download_dialog
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+url::http://absolute-system.bevermy.com/goodies/common_questions.zip
+call::getDeviceId
+call::Execution of external commands
+activity::Absolute Boot Animation Installer
+call::Cipher(AES/CBC/PKCS5Padding)
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+url::http://absolute-system.bevermy.com/goodies/fonts/previews/
+api_call::android/telephony/TelephonyManager;->getCellLocation
+real_permission::android.permission.READ_PHONE_STATE
+activity::.system_file_browser_view_file
+activity::.PhoneStateSample
+activity::Absolute Boot Animation Import Installer
+activity::Build Prop Editor
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.system_file_browser_lv_text_editor
+permission::android.permission.ACCESS_WIFI_STATE
+activity::File Browser
+feature::android.hardware.location.network
+activity::System Info
+activity::.system_build_prop_editor_dialog_view_backups_view_backup
+call::getSubscriberId
+url::http://absolute-system.bevermy.com/goodies/font_list.php

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::firehawk.android.datasource.FileSelectorActivity
+activity::firehawk.android.datasource.WebAddressActivity
+activity::firehawk.android.datasource.LocalFileActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::firehawk.android.read2me.PickLinkListActivity
+intent::android.intent.action.SEND
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::firehawk.android.search.SearchActivity
+activity::firehawk.android.datasource.DataSourceList
+activity::.Read2Me
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService

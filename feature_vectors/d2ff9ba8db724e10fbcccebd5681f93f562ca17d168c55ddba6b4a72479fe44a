@@ -1,0 +1,11 @@
+activity::Login
+activity::Pres
+activity::.mormeds
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::Help
+activity::Regis
+activity::terms
+intent::android.intent.category.LAUNCHER
+activity::Feedback
+activity::About

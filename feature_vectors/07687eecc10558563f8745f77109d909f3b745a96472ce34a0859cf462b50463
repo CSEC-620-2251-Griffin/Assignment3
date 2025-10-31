@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::com.ru.com.ru.SplashScreen
+url::lenta.ru
+intent::android.intent.action.MAIN
+activity::com.ru.com.ru.SeekBar1
+call::getSystemService
+activity::com.ru.com.ru.MainActivity
+activity::.SplashScreen
+intent::android.intent.category.DEFAULT
+activity::com.ru.com.ru.CategoryMainActivity
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::com.ru.com.ru.thisNews
+real_permission::android.permission.INTERNET
+url::http://lenta.ru/rss/
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+activity::com.ru.com.ru.lentaAllNews

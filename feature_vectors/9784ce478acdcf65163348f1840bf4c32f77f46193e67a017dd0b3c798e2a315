@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_PHONE_STATE
+call::Read/Write External Storage
+intent::android.intent.action.TIMEZONE_CHANGED
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+service_receiver::.OnAlarmReceiver
+service_receiver::.Receiver
+real_permission::android.permission.VIBRATE
+call::getSystemService
+intent::android.intent.action.TIME_SET
+api_call::android/os/PowerManager$WakeLock;->acquire
+service_receiver::.CallLogTrimmerService
+service_receiver::.OnBootReceiver
+permission::android.permission.WRITE_CONTACTS
+api_call::android/content/Context;->startService
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.PHONE_STATE
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+activity::.Preferences

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+api_call::java/lang/Runtime;->exec
+intent::android.intent.action.MAIN
+url::demo.sibvisions.org
+activity::.Login
+real_permission::android.permission.READ_LOGS
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+url::http://10.0.2.2/Packung.Server/services/Server
+intent::android.intent.category.LAUNCHER
+url::10.0.2.2
+url::http://cloud.sibvisions.com/wm2010/services/Server
+url::cloud.sibvisions.com
+call::getSystemService
+url::http://demo.sibvisions.org/packung/services/Server

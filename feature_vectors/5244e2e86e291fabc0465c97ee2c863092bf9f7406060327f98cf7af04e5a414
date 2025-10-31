@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.DailyProverbs
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://apps.tropicalpcsolutions.com/android/files/daily-wisdom/
+api_call::android/webkit/WebView
+url::apps.tropicalpcsolutions.com

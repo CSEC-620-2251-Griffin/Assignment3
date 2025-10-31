@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+api_call::android/app/Activity;->startActivity
+activity::.DrawActivity
+activity::.SelectCurve
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.SelectCurveForWallpaperActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.action.EDIT
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+activity::.RenderActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW

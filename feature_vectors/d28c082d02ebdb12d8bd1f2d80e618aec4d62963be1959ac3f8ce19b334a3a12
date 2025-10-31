@@ -1,0 +1,21 @@
+activity::org.jtb.alogcat.PrefsActivity
+feature::android.hardware.touchscreen
+activity::.LogActivity
+service_receiver::org.jtb.alogcat.SaveService
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::org.jtb.alogcat.WakeLockReceiver
+activity::org.jtb.alogcat.LogActivity
+service_receiver::org.jtb.alogcat.SaveReceiver
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+api_call::android/content/Context;->startService
+api_call::android/app/NotificationManager;->notify
+call::Execution of external commands
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

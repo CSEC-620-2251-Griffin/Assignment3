@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/Socket
+activity::.ManageSettings
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+url::http://google.com
+real_permission::android.permission.INTERNET
+intent::android.intent.category.BROWSABLE
+url::google.com
+intent::android.intent.action.VIEW

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.FreeAdvertisingNetwork
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Congratulations
+intent::android.intent.category.LAUNCHER
+activity::.SignUp
+api_call::android/webkit/WebView
+call::HttpPost
+activity::.CreateAd

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.mastodonfan.com/roster
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+url::http://mobile.mastodonfan.com
+real_permission::android.permission.INTERNET
+url::mobile.mastodonfan.com
+intent::android.intent.category.LAUNCHER
+url::http://mobile.mastodonfan.com/about
+url::http://mobile.mastodonfan.com/stats
+activity::Mastodon Fan
+url::http://mobile.mastodonfan.com/schedule

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://m.korcham.net/Service/Main/appl/main.asp
+api_call::android/webkit/WebView
+api_call::android/content/Context;->startActivity
+url::m.korcham.net
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Korcham

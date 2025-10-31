@@ -1,0 +1,18 @@
+api_call::android/webkit/WebView
+activity::.KanjiFlashcards
+intent::android.intent.action.RUN
+url::pagead2.googlesyndication.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::getSystemService
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+activity::Choose grade(s)
+intent::android.intent.category.LAUNCHER
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+activity::Quiz results
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startActivity
+activity::Choose group(s)

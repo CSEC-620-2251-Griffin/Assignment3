@@ -1,0 +1,35 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.READ_PHONE_STATE
+url::portal.t-ime.com
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.activity.AddressBook
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::.AddressBook
+api_call::android/app/Activity;->startActivity
+url::http://portal.t-ime.com/portal/mob.ComMobilePtlBoardMngt.doj?strCommand%3DWrite
+permission::android.permission.VIBRATE
+call::Cipher(AES/ECB/PKCS5Padding)
+call::getSystemService
+url::http://m.t-ime.com/iris_th_mobile/sync/syncLogin.jsp
+activity::.activity.Login
+call::Obfuscation(Base64)
+activity::%EC%A3%BC%EC%EB%A1 %EB%B0%EC%B4%ED%B0%EB%B2%A0%EC%B4%EC%A4 %EB%A4%EC%B4%EB%A1%EB
+url::http://m.t-ime.com/iris_th_mobile/LogoutHandler
+url::http://m.t-ime.com/iris_th_mobile/GroupWare
+url::m.t-ime.com
+url::http://portal.t-ime.com/sso/authsign?done_url%3Ddashboardm&encYn%3DY
+url::http://portal.t-ime.com/sso/authsign?done_url%3Dcop_bbsarticle&encYn%3DY
+url::http://m.t-ime.com/iris_th_mobile/sync/syncDeptUser.jsp?finalDate%3D
+intent::android.intent.action.MAIN
+url::http://portal.t-ime.com/sso/authsign?done_url%3Dloginxml&encYn%3DY
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+activity::%EC%A3%BC%EC%EB%A1 %EB%B0%EC%B4%ED%B0%EB%B2%A0%EC%B4%EC%A4 %EB%EA%B8%B0%ED
+intent::android.intent.category.LAUNCHER
+activity::%EC%B2%A8%EB%B6%ED%EC%BC %EB%A4%EC%B4%EB%A1%EB
+url::http://m.t-ime.com/iris_th_mobile/acl/logon/login.jsp?gubun%3DLOGOUT
+permission::android.permission.CHANGE_NETWORK_STATE

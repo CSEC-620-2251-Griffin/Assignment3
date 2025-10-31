@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AnyMemo
+url::http://anymemo.org/pages/json-databases.php
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::anymemo.org
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+url::http://anymemo.org/pages/download.php?wordlistname%3DDatabasesTable&filename%3D
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://anymemo.org/index.php?p%3D1_6_Version-History
+real_permission::android.permission.INTERNET
+url::http://anymemo.org/index.php?p%3D1_7_Guide
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,16 @@
+activity::.AljexSplashActivity
+api_call::java/net/URL;->openStream
+permission::android.permission.READ_SYNC_STATS
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.INTERNET
+permission::android.permission.WRITE_SYNC_SETTINGS
+real_permission::android.permission.INTERNET
+permission::android.permission.READ_SYNC_SETTINGS
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CHANGE_WIFI_STATE
+call::getSystemService
+permission::android.permission.CHANGE_NETWORK_STATE

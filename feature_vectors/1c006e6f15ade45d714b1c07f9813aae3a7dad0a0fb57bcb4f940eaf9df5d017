@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::dClockConfiguration
+service_receiver::.dClockService
+service_receiver::dClockWidget
+provider::android.appwidget.provider
+call::getSystemService

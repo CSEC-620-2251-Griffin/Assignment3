@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+url::https://www.googleapis.com/language/translate/v2?
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+activity::.main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.InputWindow
+intent::android.intent.category.LAUNCHER
+url::www.googleapis.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+call::getSystemService

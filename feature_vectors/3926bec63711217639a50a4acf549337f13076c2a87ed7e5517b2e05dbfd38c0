@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://www.hotshops.co.kr/ad/ad_yokM.html
+intent::android.intent.action.MAIN
+url::http://mobile.twitter.com/
+url::www.hotshops.co.kr
+api_call::android/media/MediaPlayer;->start
+activity::.Main
+activity::.CategoryList
+activity::.PlayView
+permission::android.permission.INTERNET
+url::mobile.twitter.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK

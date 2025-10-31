@@ -1,0 +1,10 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.action.PICK
+intent::android.intent.action.SET_WALLPAPER
+activity::.main
+intent::android.intent.category.DEFAULT
+api_call::android/app/WallpaperManager;->setResource
+call::getSystemService
+real_permission::android.permission.SET_WALLPAPER

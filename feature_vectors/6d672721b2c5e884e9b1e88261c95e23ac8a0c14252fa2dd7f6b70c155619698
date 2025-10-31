@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MainActivity
+activity::com.arvind.appman.EditActivity
+activity::com.arvind.appman.MainActivity
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::com.arvind.appman.Settings
+activity::com.arvind.appman.ViewActivity
+call::getSystemService

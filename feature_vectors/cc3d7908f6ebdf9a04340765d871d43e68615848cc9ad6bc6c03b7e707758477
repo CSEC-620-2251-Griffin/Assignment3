@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.opticomdataresearch.com/HubbleAndroid.php
+intent::android.intent.category.LAUNCHER
+activity::.HubbleImageViewer
+url::www.opticomdataresearch.com

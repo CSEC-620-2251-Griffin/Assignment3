@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://probaseballapps.com/apps/derek_holland.php
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::probaseballapps.com
+activity::.derekholland
+permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.category.LAUNCHER

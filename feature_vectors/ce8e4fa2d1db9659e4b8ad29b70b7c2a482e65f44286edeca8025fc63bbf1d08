@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://1392.live.streamtheworld.com:80/KINTFMCMP3
+intent::android.intent.action.MAIN
+url::1392.live.streamtheworld.com
+url::www.sapocom.com
+api_call::android/media/MediaPlayer;->start
+url::http://www.sapocom.com/AndroidApps/contact.cfm?APP%3DKINTRA&interface%3Dandroid
+activity::.mainactivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://www.sapocom.com/AndroidApps/info.php?APP%3DKINTRA&interface%3Dandroid
+real_permission::android.permission.WAKE_LOCK

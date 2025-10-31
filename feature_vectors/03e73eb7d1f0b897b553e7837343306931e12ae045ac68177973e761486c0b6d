@@ -1,0 +1,13 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+api_call::android/media/AudioRecord
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+activity::monostockportfolio.activites.EditPortfolioActivity
+activity::.MainActivity
+permission::android.permission.INTERNET
+activity::monostockportfolio.activites.mainscreen.PortfolioActivity
+activity::monostockportfolio.activites.ConfigActivity
+intent::android.intent.category.LAUNCHER
+activity::monostockportfolio.activites.EditPositionActivity
+real_permission::android.permission.INTERNET

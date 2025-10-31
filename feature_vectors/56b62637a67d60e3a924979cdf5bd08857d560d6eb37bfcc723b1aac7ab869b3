@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://bridge.thomasoandrews.com/xml/no-table.css\
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.SplashScreen
+url::bridge.thomasoandrews.com

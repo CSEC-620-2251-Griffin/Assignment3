@@ -1,0 +1,40 @@
+feature::android.hardware.touchscreen
+activity::MenuActivity
+call::getDeviceId
+url::http://admin.guidebookapp.com/service/v1/guides/%s/events/%s/ratings
+service_receiver::.OnBootAlarmSetup
+permission::android.permission.INTERNET
+activity::Schedule
+activity::com.guidebook.android.WebActivity
+url::http://admin.guidebookapp.com/service/v1/guides/%s/version/
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::EventAlertAlarm
+api_call::java/net/Socket
+url::http://admin.guidebookapp.com/service/v1/guides/%s/bundle/logo.png
+activity::About Guidebook
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+activity::.LaunchActivity
+call::getSystemService
+url::admin.guidebookapp.com
+activity::Download Guides
+activity::Maps
+activity::Redeem Code
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+activity::Exhibitors
+activity::Create Task
+url::http://admin.guidebookapp.com/service/v1/upcoming
+activity::GuideSelector
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+feature::android.hardware.screen.portrait
+activity::Event Details
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::Todo
+url::http://admin.guidebookapp.com/service/v1/redeem?
+activity::General Info

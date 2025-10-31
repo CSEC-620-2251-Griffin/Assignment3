@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.WebViewer
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.SplashScreen
+url::www.assistamerica.com
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+permission::android.permission.CHANGE_NETWORK_STATE
+call::getSystemService
+url::http://www.assistamerica.com/mobile

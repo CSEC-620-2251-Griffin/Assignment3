@@ -1,0 +1,32 @@
+feature::android.hardware.touchscreen
+activity::Wheel_InDay
+call::printStackTrace
+activity::Wheel_OutDay
+activity::Wheel_LoveDay
+url::http://www.menupan.com
+real_permission::android.permission.WAKE_LOCK
+activity::%EA%BE%B8%EB%EA%B3%B0%EC%A0%EC%EC^^...
+url::www.menupan.com
+url::http://rnseo.cyworld.com
+activity::%EC%EB%A6%BC%EC %EC%A4%EC%A0%EC%EB%EB%A4
+real_permission::android.permission.VIBRATE
+permission::android.permission.WRITE_INTERNAL_STORAGE
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/media/MediaPlayer;->stop
+api_call::android/os/Vibrator;->vibrate
+activity::.notepad3
+url::cafe.naver.com
+url::http://cafe.naver.com/komusincafe
+activity::Wheel_Birth
+url::cafe.daum.net
+url::http://cafe.daum.net/uk
+permission::android.permission.WAKE_LOCK
+activity::%EB%A4%EC%B4%EC%B4%EB%A6%AC%EC%EB%A0%A5 %EB%B0 %ED%B8%EC%A7
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+url::rnseo.cyworld.com
+intent::android.intent.category.LAUNCHER
+activity::.AlarmInfo
+activity::.Loading

@@ -1,0 +1,17 @@
+url::http://www.w3.org/TR/html4/loose.dtd\
+feature::android.hardware.touchscreen
+call::Cipher(DES/CBC/NoPadding)
+url::www.snmp4j.org
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.apache.org
+url::www.w3.org
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::Cipher(DESede/CBC/NoPadding)
+api_call::java/net/HttpURLConnection
+call::Cipher(AES/CFB/NoPadding)
+intent::android.intent.category.LAUNCHER
+activity::.snmp
+url::http://www.apache.org/licenses/LICENSE-2.0.txt
+url::http://www.snmp4j.org

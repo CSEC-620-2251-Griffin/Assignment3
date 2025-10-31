@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+activity::.MainActivity
+url::http://maps.google.com/maps?q%3D
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+activity::.activity.MainActivity
+api_call::android/location/LocationManager;->isProviderEnabled
+url::maps.google.com
+permission::android.permission.READ_CONTACTS
+call::getSystemService

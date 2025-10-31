@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::www.timie.co.uk
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.timie.co.uk/
+feature::android.hardware.screen.portrait
+activity::.KJV_Bible
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection

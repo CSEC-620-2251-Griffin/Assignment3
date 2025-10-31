@@ -1,0 +1,13 @@
+url::www.amazon.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.missionsbox.org)
+url::http://www.missionsbox.org
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.DailyView
+url::www.missionsbox.org
+url::http://www.amazon.com
+url::www.missionsbox.org)
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER

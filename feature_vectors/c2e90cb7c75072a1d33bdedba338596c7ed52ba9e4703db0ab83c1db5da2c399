@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.ColorPickerActivity
+activity::.Main
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://code.google.com/p/color-picker-view/
+call::getSystemService
+url::code.google.com

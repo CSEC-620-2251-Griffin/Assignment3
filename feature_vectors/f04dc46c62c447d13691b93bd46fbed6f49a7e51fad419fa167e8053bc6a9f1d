@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.help
+activity::.numbercalc
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+activity::.CalculatorRN
+intent::android.intent.action.MAIN

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::highscoretables.appspot.com
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+activity::.GameActivity
+activity::.HighScoreActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://highscoretables.appspot.com/api/game/SnappyEaster/global
+intent::android.intent.category.LAUNCHER
+url::http://highscoretables.appspot.com/api/game/SnappyEaster/global.csv?s%3D
+real_permission::android.permission.INTERNET
+call::HttpPost
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

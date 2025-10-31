@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.netmite.com/android/srv/2.0/upload/Nokia_S60v3_240x320_N73.jar
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+url::www.netmite.com
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+activity::.GloftBBD2

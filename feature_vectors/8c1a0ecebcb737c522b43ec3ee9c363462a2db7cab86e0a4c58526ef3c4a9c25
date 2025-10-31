@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.MainMenuActivity
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->stop
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/webkit/WebView
+activity::.SettingsActivity
+activity::.TireYardActivity
+api_call::android/os/Vibrator;->cancel
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::xmlpull.org
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+activity::.XMLEngine
+call::getSystemService
+url::http://xmlpull.org/v1/doc/features.html

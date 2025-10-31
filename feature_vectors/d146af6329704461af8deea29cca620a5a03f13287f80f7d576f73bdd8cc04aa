@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.DiscoverSVG2
+permission::android.permission.INTERNET
+url::184.168.85.75
+url::http://184.168.85.75/svg/
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.MainActivity
+permission::android.intent.action.DIAL
+intent::android.intent.action.DIAL
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+call::getSystemService

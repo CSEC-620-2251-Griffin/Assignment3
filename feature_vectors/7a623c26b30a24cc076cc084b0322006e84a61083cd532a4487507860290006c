@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::morse.worldclockr.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+url::http://morse.worldclockr.com/android.html
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

@@ -1,0 +1,14 @@
+feature::android.hardware.location.network
+activity::.yongDriver_Houston
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location.gps
+permission::android.permission.INTERNET
+feature::android.hardware.location
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://yongdriver.appspot.com
+real_permission::android.permission.INTERNET
+url::yongdriver.appspot.com

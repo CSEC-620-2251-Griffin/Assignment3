@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.google.com/m?q%3D
+intent::android.intent.action.MAIN
+url::www.google.com
+url::http://www.droidcore.net/ManD5/Changelog.txt
+url::www.forums.droidcore.net
+intent::android.intent.category.LAUNCHER
+activity::.filebrowser.AndroidFileBrowser
+activity::.ManD5
+call::getSystemService
+url::www.droidcore.net
+url::http://www.forums.droidcore.net/

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+service_receiver::Clock1BroadcastReceiver
+intent::android.intent.action.MAIN
+url::http://clockwidget.dnsproject.de/packs/index.php?mode%3Dget_packs
+activity::Clock1PreferenceActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::clockwidget.dnsproject.de
+provider::android.appwidget.provider
+call::getSystemService
+activity::Clock1ListActivity

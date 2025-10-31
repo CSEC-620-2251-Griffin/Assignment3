@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::.OnBoot
+api_call::android/media/MediaPlayer;->start
+activity::.BootPride
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.screen.NavodilaActivity
+activity::.screen.MainActivity
+intent::android.intent.action.MAIN
+api_call::android/os/Vibrator;->vibrate
+activity::.MainActivity
+activity::.screen.TockeActivity
+activity::.screen.ZazigajActivity
+real_permission::android.permission.VIBRATE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.EMBED
+call::getSystemService
+intent::android.intent.category.LAUNCHER

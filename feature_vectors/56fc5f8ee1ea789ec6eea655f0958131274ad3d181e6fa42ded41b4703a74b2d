@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::Help
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+url::where.yahooapis.com
+api_call::android/content/Context;->startActivity
+url::http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
+call::getSystemService
+url::www.ecb.europa.eu
+activity::.ProConvertActivity
+url::https://data.flurry.com/aar.do
+url::data.flurry.com
+url::http://data.flurry.com/aar.do
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+activity::ProSettingsActivity
+url::http://where.yahooapis.com/geocode?flags%3DJG&q%3D
+real_permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+api_call::android/media/MediaPlayer;->start

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+service_receiver::PachubeWidget
+feature::android.hardware.wifi
+service_receiver::PachubeWidgetService
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::https://api.pachube.com/v1/feeds/
+call::printStackTrace
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::api.pachube.com
+provider::android.appwidget.provider
+call::getSystemService

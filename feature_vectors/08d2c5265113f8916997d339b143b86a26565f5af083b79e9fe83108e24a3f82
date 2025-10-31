@@ -1,0 +1,34 @@
+feature::android.hardware.touchscreen
+activity::.OLDroidActivity
+call::printStackTrace
+activity::.activities.EditPreferencesActivity
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+activity::.activities.PictureGalleriesActivity
+activity::.activities.CalendarAgendaActivity
+url::www.olweb.fr
+service_receiver::Actualit%C3%A9s OL
+call::getSystemService
+activity::.activities.VideosActivity
+service_receiver::.widgets.NewsWidget$UpdateService
+activity::.activities.NewsActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.activities.CalendarResultsActivity
+api_call::android/content/Context;->startService
+activity::.activities.PicturesActivity
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.activities.TeamActivity
+permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::.widgets.NewsWidgetBig$UpdateService
+activity::.activities.TableActivity
+real_permission::android.permission.INTERNET
+url::http://www.olweb.fr
+activity::.activities.OLStoresActivity
+intent::android.intent.category.LAUNCHER
+service_receiver::Actualit%C3%A9s OL (grand)
+feature::android.hardware.screen.landscape
+provider::android.appwidget.provider

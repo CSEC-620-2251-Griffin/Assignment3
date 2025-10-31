@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.MAIN
+url::http://www.tic-mobile.de/?pc%3Dcomic&pk%3DAndroid
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.ui.activity.InfoActivity
+activity::.HomeActivity
+intent::android.intent.category.DEFAULT
+url::www.tic-mobile.de
+intent::android.intent.action.VIEW
+activity::.ui.activity.ReaderActivity

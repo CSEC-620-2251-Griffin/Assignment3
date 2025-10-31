@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+call::readSMS
+call::sendSMS
+intent::android.intent.action.MAIN
+real_permission::android.permission.SEND_SMS
+intent::android.intent.action.DATA_SMS_RECEIVED
+service_receiver::.SMSReceiver
+permission::android.permission.RECEIVE_SMS
+activity::.SMSAppActivity
+api_call::android/telephony/SmsManager;->sendTextMessage
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::android.permission.SEND_SMS

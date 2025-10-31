@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::org.underdev.penetrate.Preferences
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::org.underdev.penetrate.Penetrate
+real_permission::android.permission.ACCESS_WIFI_STATE
+activity::org.underdev.penetrate.Results
+url::sites.google.com
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/content/Context;->startActivity
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+real_permission::android.permission.VIBRATE
+call::getSystemService
+url::http://sites.google.com/site/gson/gson-user-guide
+permission::android.permission.CHANGE_WIFI_STATE
+url::http://penetrate.underdev.org/s/thomson.service.php?id%3D
+real_permission::android.permission.CHANGE_WIFI_STATE
+url::penetrate.underdev.org
+api_call::android/net/wifi/WifiManager;->startScan
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+real_permission::android.permission.INTERNET
+activity::.Penetrate
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify

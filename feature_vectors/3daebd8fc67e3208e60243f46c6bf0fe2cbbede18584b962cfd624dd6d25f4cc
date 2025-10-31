@@ -1,0 +1,3 @@
+activity::com.signals23.honeycombpink.Theme
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN

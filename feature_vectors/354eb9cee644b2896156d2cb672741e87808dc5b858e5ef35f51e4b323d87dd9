@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.ActMain
+activity::.ActNoCars
+activity::.ActLoginFail
+activity::.ActAddMaintenance
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::.ActLandingPage
+url::mycarprojects.net
+activity::.ActViewHealth
+call::getSystemService
+api_call::java/net/URL;->openStream
+activity::.ActViewAlerts
+activity::.ActViewLogs
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.ActViewNotes
+activity::.ActAddFuel
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+url::http://mycarprojects.net
+intent::android.intent.category.LAUNCHER
+activity::.ActSuggestionBox
+activity::.ActCreateAccount

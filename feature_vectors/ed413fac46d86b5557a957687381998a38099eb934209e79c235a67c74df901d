@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::PopupActivity
+intent::android.intent.action.MAIN
+activity::.SmsListActivity
+permission::android.permission.RECEIVE_SMS
+api_call::android/content/Context;->startActivity
+service_receiver::MsgReceiver
+call::readSMS
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+permission::android.permission.WRITE_SMS
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+provider::android.provider.Telephony.SMS_RECEIVED

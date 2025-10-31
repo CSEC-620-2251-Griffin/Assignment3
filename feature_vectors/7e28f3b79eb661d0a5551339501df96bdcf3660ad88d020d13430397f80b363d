@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.HOME
+intent::android.intent.category.DEFAULT
+api_call::android/content/pm/PackageManager;->clearPackagePreferredActivities
+activity::Default Home
+real_permission::android.permission.SET_PREFERRED_APPLICATIONS

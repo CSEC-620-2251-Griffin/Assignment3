@@ -1,0 +1,35 @@
+activity::Touchscreen Guard
+feature::android.hardware.touchscreen
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.READ_PHONE_STATE
+service_receiver::ToggleWidget
+service_receiver::.PhoneReceiver
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.WRITE_SETTINGS
+api_call::android/content/Context;->startActivity
+service_receiver::.Toggler
+permission::android.permission.CALL_PHONE
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+service_receiver::.ScreenMediator
+activity::myLock utilities
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::AutoDismiss$AutoDismissActivity
+activity::Call Prompt
+real_permission::android.permission.DISABLE_KEYGUARD
+service_receiver::.AutoDismiss
+feature::android.hardware.telephony
+permission::android.permission.DISABLE_KEYGUARD
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+service_receiver::.BootHandler
+provider::android.appwidget.provider
+intent::android.intent.action.PHONE_STATE
+feature::android.hardware.screen.portrait
+api_call::android/app/KeyguardManager;->exitKeyguardSecurely
+service_receiver::myLockBootReceiver
+intent::android.intent.category.LAUNCHER
+permission::android.permission.MODIFY_PHONE_STATE
+activity::.MainPreferenceActivity
+permission::android.permission.RECEIVE_BOOT_COMPLETED

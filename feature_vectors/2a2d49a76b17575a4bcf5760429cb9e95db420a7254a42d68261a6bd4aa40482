@@ -1,0 +1,15 @@
+activity::ControlActivity
+feature::android.hardware.touchscreen
+service_receiver::BootReceiver
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+permission::android.permission.READ_PHONE_STATE
+service_receiver::RouteFixService
+activity::.ControlActivity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+api_call::android/content/Context;->startService

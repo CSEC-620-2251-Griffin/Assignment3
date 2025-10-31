@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+url::http://mypos.radonsoft.net/soundcheck.php?freq%3D
+activity::.SoundCheck
+url::mypos.radonsoft.net
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+api_call::android/media/AudioRecord
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.INTERNET

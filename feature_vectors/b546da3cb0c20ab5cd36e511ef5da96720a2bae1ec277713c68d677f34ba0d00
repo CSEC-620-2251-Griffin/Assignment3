@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://capegazette.villagesoup.com/mobile/android/index.seam
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::capegazette.villagesoup.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Cape_Gazette

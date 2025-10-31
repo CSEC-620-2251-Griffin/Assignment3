@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.imediabank.com
+activity::Application
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService
+activity::.Application
+url::http://www.imediabank.com
+real_permission::android.permission.WAKE_LOCK

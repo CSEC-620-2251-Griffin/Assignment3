@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+service_receiver::.Unlock
+permission::android.permission.WAKE_LOCK
+service_receiver::.GoogleWake
+real_permission::android.permission.DISABLE_KEYGUARD
+permission::android.permission.DISABLE_KEYGUARD
+api_call::android/app/KeyguardManager$KeyguardLock;->disableKeyguard
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

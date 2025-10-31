@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::Help Title
+intent::android.intent.action.MAIN
+url::http://www.phillyhistory.org/PhotoArchive/AR_help.html
+feature::android.hardware.screen.portrait
+url::www.phillyhistory.org
+intent::android.intent.category.LAUNCHER
+activity::.Splasher

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::twitter.com
+permission::android.permission.INTERNET
+url::search.twitter.com
+url::https://)
+url::http://search.twitter.com/search.json?q%3Dfrom%3A
+url::)
+url::http://twitter.com/
+activity::.InfoActivity
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

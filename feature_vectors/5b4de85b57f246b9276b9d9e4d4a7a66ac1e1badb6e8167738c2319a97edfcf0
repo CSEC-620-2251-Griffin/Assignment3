@@ -1,0 +1,19 @@
+url::www.mobilscan.dk
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::java/net/URL;->openConnection
+activity::.ImageViewActivity
+intent::android.intent.action.MAIN
+url::http://www.mobilscan.dk/lemans/
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.LemansListActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::http://www.mobilscan.dk/lemans/cars.txt
+activity::.LemansGalleryActivity
+call::Read/Write External Storage
+call::getSystemService

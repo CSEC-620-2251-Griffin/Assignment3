@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/pm/PackageManager;->addPreferredActivity
+permission::android.permission.RESTART_PACKAGES
+api_call::android/app/ActivityManager;->restartPackage
+activity::.Main
+activity::.control.Preferences
+feature::android.hardware.screen.portrait
+permission::android.permission.SET_PREFERRED_APPLICATIONS
+real_permission::android.permission.SET_PREFERRED_APPLICATIONS
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::Froyo Home Switch
+real_permission::android.permission.RESTART_PACKAGES
+activity::Home Stim
+call::getSystemService

@@ -1,0 +1,19 @@
+feature::android.hardware.location.network
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.READ_FRAME_BUFFER
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getBestProvider
+call::Read/Write External Storage
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::com.ackdev.android.paintballhelper.PaintBallMap
+activity::.PaintBallMap
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.SEARCH
+call::getSystemService

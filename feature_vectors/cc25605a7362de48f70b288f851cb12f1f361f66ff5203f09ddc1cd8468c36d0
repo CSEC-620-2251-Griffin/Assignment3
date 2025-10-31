@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::http://zenthought.org/flashrec/cm-recovery-1.4-32a.img
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::zenthought.org
+service_receiver::Flash/Dump Service
+url::http://zenthought.org/flashrec/cm-recovery-1.4.img
+activity::.FlashRec
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.BLUETOOTH
+api_call::java/lang/Runtime;->exec
+service_receiver::Download Service
+call::Execution of external commands
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.BLUETOOTH_ADMIN

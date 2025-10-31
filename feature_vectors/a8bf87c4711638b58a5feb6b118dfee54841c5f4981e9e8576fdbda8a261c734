@@ -1,0 +1,24 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.VersionSelector
+permission::android.permission.INTERNET
+activity::.Preferences
+call::getPackageInfo
+url::http://www.elegosproject.org/android/repositories.php
+url::sites.google.com
+url::http://www.elegosproject.org/android/upload.php
+activity::.Downloads
+url::http://sites.google.com/site/gson/gson-user-guide
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+activity::.ROMUpdater
+url::www.elegosproject.org
+activity::.VersionsList
+activity::.RepositoriesList
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.Restore
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

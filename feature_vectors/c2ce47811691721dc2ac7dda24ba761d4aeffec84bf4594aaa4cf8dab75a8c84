@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+url::forum.xda-developers.com
+call::getPackageInfo
+feature::android.software.live_wallpaper
+real_permission::android.permission.VIBRATE
+url::http://forum.xda-developers.com/showthread.php?t%3D975413
+service_receiver::com.sunnykwong.HCLW.HCLWService
+call::getSystemService

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CONTACTS
+intent::android.intent.action.MAIN
+activity::.FrontDoorActivity
+intent::android.intent.action.CREATE_SHORTCUT
+feature::android.hardware.screen.portrait
+activity::.CustomShortcutCreatorActivity
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.DEFAULT
+activity::.ActivityPickerActivity
+api_call::android/content/ContentResolver;->query

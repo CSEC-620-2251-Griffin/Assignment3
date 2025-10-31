@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.bisonupdate.com/stats
+url::mobile.bisonupdate.com
+activity::Bison Update
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mobile.bisonupdate.com/about
+url::http://mobile.bisonupdate.com/roster
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://mobile.bisonupdate.com
+url::http://mobile.bisonupdate.com/schedule

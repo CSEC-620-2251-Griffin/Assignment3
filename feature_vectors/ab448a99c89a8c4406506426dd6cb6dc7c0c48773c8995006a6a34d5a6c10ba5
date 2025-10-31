@@ -1,0 +1,20 @@
+url::twitter.com
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::www.lavinmusic.com
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+url::http://www.lavinmusic.com/30/AwayForTheSummer.mp3
+activity::.IndexTabActivity
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::ws.audioscrobbler.com
+real_permission::android.permission.INTERNET
+url::https://twitter.com/statuses/user_timeline/
+api_call::android/media/MediaPlayer;->start
+url::http://ws.audioscrobbler.com/2.0/?method%3Dartist.getinfo&artist%3D
+real_permission::android.permission.WAKE_LOCK

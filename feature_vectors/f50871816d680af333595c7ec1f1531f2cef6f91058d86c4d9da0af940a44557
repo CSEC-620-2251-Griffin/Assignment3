@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.TextViewer
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+intent::android.intent.action.GET_CONTENT
+activity::.Main
+intent::android.intent.action.EDIT
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+intent::android.intent.category.OPENABLE
+intent::android.intent.action.VIEW

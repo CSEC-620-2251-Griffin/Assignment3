@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Puzzler
+intent::android.intent.category.LAUNCHER
+url::http://code.google.com/p/ptbw-codespace/wiki/Puzzler
+activity::com.ptbwillis.Puzzler.Puzzler
+url::code.google.com

@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::musicbrainz.org
+url::www.id3.org
+intent::android.intent.action.MAIN
+url::http://www.albumart.org/us,e/1/Music/
+api_call::android/media/MediaPlayer;->start
+url::www.albumart.org
+activity::.AlbumArtViewer
+activity::.MP3FileChooser
+activity::.MP3TaggerPreferences
+intent::android.intent.category.LAUNCHER
+url::http://www.id3.org/dummy/ufid.html
+url::http://musicbrainz.org
+api_call::java/net/HttpURLConnection
+real_permission::android.permission.INTERNET
+activity::.MP3Tagger
+real_permission::android.permission.WAKE_LOCK

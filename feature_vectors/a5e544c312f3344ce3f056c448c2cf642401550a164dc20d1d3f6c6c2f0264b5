@@ -1,0 +1,26 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::getDeviceId
+call::printStackTrace
+url::wap.casee.cn
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/telephony/TelephonyManager;->getSubscriberId
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::http://wap.casee.cn/mo/SiteAd.ad?b%3D1&m%3D&s%3D
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+activity::.Uninstall
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+real_permission::android.permission.READ_PHONE_STATE
+service_receiver::cad.android.update.CaUpdateServ
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getSubscriberId

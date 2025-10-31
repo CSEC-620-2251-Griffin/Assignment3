@@ -1,0 +1,17 @@
+activity::.SecondScreen
+activity::.Dynamic_totstats
+activity::.Newentry
+activity::.OptionScreen
+intent::android.intent.action.MAIN
+activity::.Group_options
+activity::.txn_list_view
+feature::android.hardware.touchscreen
+activity::.confirm_new_entry
+activity::.select_dutch_gang
+activity::.txnid_details
+activity::.Dutchmate_txn_details
+intent::android.intent.category.LAUNCHER
+activity::.totstats
+activity::.LoginExample
+activity::.transfer
+activity::.dutchsetting

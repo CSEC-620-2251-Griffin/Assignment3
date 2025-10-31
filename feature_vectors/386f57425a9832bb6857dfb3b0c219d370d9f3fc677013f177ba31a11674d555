@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.wku.ac.kr
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::www.wku.ac.kr
+permission::android.permission.INTERNET
+activity::.wonkwanguniv
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+activity::.SplashActivity
+call::getSystemService

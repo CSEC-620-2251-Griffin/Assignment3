@@ -1,0 +1,16 @@
+url::http://prod.smpk.fr/PocketAdServer/json?ts%3D
+feature::android.hardware.touchscreen
+activity::.AlcooFlash
+activity::.AlcooResultat
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::prod.smpk.fr
+intent::android.intent.category.LAUNCHER
+activity::.AlcooInfos
+api_call::java/net/URL;->getContent
+activity::.AlcooSanctions
+call::HttpPost
+activity::.AlcooCalcul

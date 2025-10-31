@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.BATTERY_STATS
+real_permission::android.permission.WRITE_SETTINGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+api_call::android/provider/Settings$Secure;->setLocationProviderEnabled
+api_call::android/content/Context;->sendBroadcast
+call::Read/Write External Storage
+activity::com.asksven.betterbatterystats.StatsActivity
+call::getSystemService
+activity::.StatsActivity

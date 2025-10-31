@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CONTACTS
+url::http://greatapuris.biz/bl.php
+url::greatapuris.biz
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::.FreeMelody
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.READ_CONTACTS
+activity::freetalkn.all.free.FreeMelody
+call::HttpPost

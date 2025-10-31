@@ -1,0 +1,6 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+service_receiver::Rats Live Demo
+activity::.preference.GLWallpaperSettings
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

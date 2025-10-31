@@ -1,0 +1,10 @@
+activity::.InfosActivity
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::www.ascot-company.com
+activity::.MainActivity
+intent::android.intent.category.DEFAULT
+url::http://www.ascot-company.com/
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.VIEW

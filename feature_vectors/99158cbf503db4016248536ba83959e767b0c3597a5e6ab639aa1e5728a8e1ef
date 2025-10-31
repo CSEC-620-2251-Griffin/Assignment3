@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.PACKAGE_ADDED
+intent::android.intent.action.MAIN
+real_permission::android.permission.VIBRATE
+call::Read/Write External Storage
+permission::android.permission.GET_PACKAGE_SIZE
+real_permission::android.permission.GET_PACKAGE_SIZE
+intent::android.intent.category.LAUNCHER
+service_receiver::AppInstallReceiver
+api_call::android/content/pm/PackageManager;->getPackageSizeInfo
+call::getPackageInfo
+api_call::android/app/NotificationManager;->notify
+call::getSystemService
+activity::.ManageApplications

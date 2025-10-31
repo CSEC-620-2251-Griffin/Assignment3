@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.MainMenuActivity
+intent::android.intent.action.MAIN
+url::market.android.com
+activity::BackgroundSelector
+activity::transparentGameDialog
+call::printStackTrace
+url::http://market.android.com/search?q%3Dpub:\
+feature::android.hardware.screen.portrait
+activity::CustomSetTiles
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService

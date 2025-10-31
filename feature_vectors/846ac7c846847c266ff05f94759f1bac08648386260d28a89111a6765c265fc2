@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+service_receiver::.PowerBlack$UpdateService
+intent::android.intent.action.BATTERY_CHANGED
+activity::Configuration
+intent::android.intent.category.LAUNCHER
+service_receiver::PowerTime
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

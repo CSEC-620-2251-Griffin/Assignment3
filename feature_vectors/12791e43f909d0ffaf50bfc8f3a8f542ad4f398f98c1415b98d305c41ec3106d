@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::Stats
+intent::android.intent.action.MAIN
+activity::PnpResults
+api_call::android/media/MediaPlayer;->start
+activity::PnpPlayers
+intent::android.intent.category.LAUNCHER
+activity::PnpGame
+activity::Game
+activity::.SoYouThinkYouCanType
+activity::SoloResults
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

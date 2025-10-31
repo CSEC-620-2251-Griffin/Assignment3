@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+activity::jp.chofu.ishihama.butfish2.But2Activity
+intent::android.intent.action.MAIN
+activity::.But2Activity
+intent::android.intent.category.LAUNCHER

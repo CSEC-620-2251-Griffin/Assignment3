@@ -1,0 +1,40 @@
+feature::android.hardware.touchscreen
+activity::ExhibitorsActivity
+call::getDeviceId
+url::http://conventionist.com/service/checkVersion?guideId%3D
+url::http://conventionist.com/service/logos/
+permission::android.permission.INTERNET
+activity::MenuActivity
+activity::ScheduleActivity
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+activity::EventDetailsActivity
+activity::TaskActivity
+url::http://conventionist.com/service/rate?guideId%3D
+call::printStackTrace
+url::http://conventionist.com/service/redeem?
+real_permission::android.permission.VIBRATE
+activity::InfoActivity
+activity::.LaunchActivity
+call::getSystemService
+service_receiver::OnBootAlarmSetup
+activity::Redeem Code
+api_call::java/lang/Runtime;->exec
+url::http://conventionist.com/service/downloadGuide?id%3D
+call::Execution of external commands
+activity::Create Task
+url::http://conventionist.com/service/ratings?guideId%3D
+activity::GuideSelector
+url::conventionist.com
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::GuideDownloaderActivity
+feature::android.hardware.screen.portrait
+url::http://conventionist.com/service/upcoming
+intent::android.intent.category.LAUNCHER
+activity::MapsActivity
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::EventAlertAlarm

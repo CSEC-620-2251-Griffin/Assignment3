@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+service_receiver::checkwebserver_widgetService
+url::http://checkwebserver.appspot.com/checkwebserver.py?checkuri%3Dhttp://
+api_call::android/app/NotificationManager;->notify
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::checkwebserver.appspot.com
+real_permission::android.permission.VIBRATE
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

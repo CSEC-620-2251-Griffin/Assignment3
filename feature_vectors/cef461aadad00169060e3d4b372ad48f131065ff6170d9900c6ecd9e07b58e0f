@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.4shared.com
+url::www.4shared.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.FourShared
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER

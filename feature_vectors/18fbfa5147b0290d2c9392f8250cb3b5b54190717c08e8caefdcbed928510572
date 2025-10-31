@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://sav.joke-blonde.fr/
+intent::android.intent.action.MAIN
+activity::.joke
+url::sav.joke-blonde.fr
+activity::.sav.joke
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

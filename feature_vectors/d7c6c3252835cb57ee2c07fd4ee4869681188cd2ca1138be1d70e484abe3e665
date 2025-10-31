@@ -1,0 +1,13 @@
+service_receiver::.BCReceiver
+feature::android.hardware.touchscreen
+real_permission::android.permission.GET_TASKS
+intent::android.intent.action.MAIN
+activity::.Juulu
+api_call::android/app/ActivityManager;->getRunningTasks
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+permission::android.permission.GET_TASKS
+intent::android.intent.category.LAUNCHER
+activity::SetupMenu
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

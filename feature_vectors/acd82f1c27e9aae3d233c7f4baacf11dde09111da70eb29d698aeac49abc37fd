@@ -1,0 +1,15 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_CONTACTS
+url::market.android.com
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+service_receiver::com.appventive.groupring.SyncReceiver
+intent::android.intent.category.LAUNCHER
+activity::com.appventive.groupring.GroupRing
+provider::com.appventive.groupring.provider
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.GroupRing
+permission::android.permission.READ_CONTACTS
+activity::com.appventive.groupring.SoundPicker

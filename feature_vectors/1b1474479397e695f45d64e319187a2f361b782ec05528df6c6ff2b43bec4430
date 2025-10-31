@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_MOCK_LOCATION
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+feature::android.hardware.location.gps
+feature::android.hardware.location
+intent::android.intent.category.DEFAULT
+call::getSystemService
+intent::android.intent.category.SAMPLE_CODE
+activity::.photomapmaker
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.VIEW
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.SEND
+intent::android.intent.category.LAUNCHER
+activity::.FileList

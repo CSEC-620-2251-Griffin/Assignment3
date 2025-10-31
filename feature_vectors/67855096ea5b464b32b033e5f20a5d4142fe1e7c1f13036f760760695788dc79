@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.READ_LOGS
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+url::http://www.umeng.com/app_logs
+url::www.umeng.com
+call::getPackageInfo
+call::HttpPost
+call::printStackTrace
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.SET_WALLPAPER
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::.main
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER

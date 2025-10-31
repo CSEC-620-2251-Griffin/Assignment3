@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::http://graph.mygeotools.de/codetabellen/en/?xml
+url::http://www.mygeotools.de/thumb.php?src%3D%s&w%3D%d
+intent::android.intent.action.MAIN
+url::www.mygeotools.de
+api_call::android/app/Activity;->startActivity
+url::graph.mygeotools.de
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.AboutActivity
+feature::android.hardware.screen.portrait
+activity::.CodeTabActivity
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://graph.mygeotools.de/codetabellen/?xml
+activity::.CodeTabPrefsActivity
+real_permission::android.permission.INTERNET
+activity::.CodeTabListActivity
+call::getSystemService

@@ -1,0 +1,9 @@
+url::http://mobile-pixel.appspot.com/
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.main
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+url::mobile-pixel.appspot.com
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW

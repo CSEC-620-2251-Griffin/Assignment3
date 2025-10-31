@@ -1,0 +1,12 @@
+activity::hLockManagerDummy
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+real_permission::android.permission.DISABLE_KEYGUARD
+permission::android.permission.DISABLE_KEYGUARD
+service_receiver::hPeekReceiver?
+activity::.HomePeekConfiguration
+intent::android.intent.category.LAUNCHER
+api_call::android/app/KeyguardManager$KeyguardLock;->disableKeyguard
+call::getSystemService
+service_receiver::HomePeekService

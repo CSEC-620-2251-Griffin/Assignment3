@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://www.haahaa.com
+url::profile.china.alibaba.com
+intent::android.intent.action.MAIN
+url::www.haahaa.com
+permission::android.permission.CALL_PHONE
+url::http://profile.china.alibaba.com/user
+url::china.alibaba.com
+url::search.china.alibaba.com
+permission::android.permission.INTERNET
+feature::android.hardware.telephony
+url::http://search.china.alibaba.com/company/k-
+intent::android.intent.category.LAUNCHER
+activity::.KingCIS
+url::http://china.alibaba.com/company/detail/contact/
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection

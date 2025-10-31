@@ -1,0 +1,35 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+service_receiver::.notif.NotifService
+call::printStackTrace
+intent::android.intent.category.HOME
+permission::android.permission.READ_PHONE_STATE
+service_receiver::Quick App Clean Cache
+call::Read/Write External Storage
+url::evtc.free.fr
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/content/Context;->startActivity
+intent::android.intent.action.PACKAGE_REPLACED
+url::http://evtc.free.fr/?id%3D
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+api_call::android/telephony/TelephonyManager;->getDeviceId
+real_permission::android.permission.VIBRATE
+call::getSystemService
+service_receiver::.notif.StartupIntentReceiver
+api_call::android/provider/Browser;->clearSearches
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+activity::.QuickAppClean
+real_permission::android.permission.READ_PHONE_STATE
+real_permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::.widget.WidgetActivity
+real_permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+api_call::android/provider/Browser;->clearHistory
+permission::android.permission.GET_PACKAGE_SIZE
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+permission::android.permission.RECEIVE_BOOT_COMPLETED

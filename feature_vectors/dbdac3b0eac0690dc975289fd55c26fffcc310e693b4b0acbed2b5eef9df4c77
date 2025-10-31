@@ -1,0 +1,7 @@
+activity::.JotizCongruence
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.jotiz.com/compat/index.php
+permission::android.permission.INTERNET
+url::www.jotiz.com
+intent::android.intent.category.LAUNCHER

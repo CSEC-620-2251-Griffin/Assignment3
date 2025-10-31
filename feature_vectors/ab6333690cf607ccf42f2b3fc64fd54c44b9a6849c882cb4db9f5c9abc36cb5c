@@ -1,0 +1,40 @@
+activity::.LostMobileTrackingSystemLite
+feature::android.hardware.touchscreen
+call::getDeviceId
+call::printStackTrace
+activity::Help
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.INTERNET
+activity::Trial Registration
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::java/net/HttpURLConnection
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::com.micro.mlmtslite.MyStartupIntentReceiver
+url::http://www.google.com/glm/mmap
+url::www.google.com
+api_call::android/content/Context;->startActivity
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::About Us MicroLMTSLite v8.11
+permission::android.permission.SEND_SMS
+call::getSystemService
+service_receiver::com.micro.mlmtslite.TrialService
+real_permission::android.permission.SEND_SMS
+feature::android.hardware.telephony
+api_call::android/telephony/TelephonyManager;->getCellLocation
+real_permission::android.permission.READ_PHONE_STATE
+service_receiver::StandardService
+activity::Introduction
+activity::com.micro.mlmtslite.TrialPeriodExpired
+call::sendSMS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSubscriberId
+activity::Instructions
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+activity::Standard Registration
+activity::Privacy Policy
+permission::android.permission.RECEIVE_BOOT_COMPLETED

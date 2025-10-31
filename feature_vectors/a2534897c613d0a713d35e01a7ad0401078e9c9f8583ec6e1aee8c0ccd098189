@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CONTACTS
+activity::.AddCallActivity
+intent::android.intent.action.MAIN
+activity::.EasyCallActivity
+provider::com.xtakagi.android.provider.easycall
+activity::.ContactListActivity
+intent::android.intent.action.EDIT
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CALL_PHONE
+intent::android.intent.action.INSERT
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.DEFAULT

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::pagead2.googlesyndication.com
+api_call::android/webkit/WebView
+activity::.HelloAndroidMarketFree
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://pagead2.googlesyndication.com/pagead/show_afmc_ads.js\%27></script>
+real_permission::android.permission.INTERNET

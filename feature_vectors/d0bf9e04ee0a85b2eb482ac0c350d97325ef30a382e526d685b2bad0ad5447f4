@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::en.wikipedia.org
+api_call::android/media/MediaPlayer;->start
+activity::.JainPictures
+activity::.JainStavans
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+url::http://en.wikipedia.org/wiki/Jainism
+activity::.JainMantra
+activity::.JainImageView

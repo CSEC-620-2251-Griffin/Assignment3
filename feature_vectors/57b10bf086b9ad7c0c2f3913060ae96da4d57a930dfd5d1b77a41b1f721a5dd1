@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.mobileroots.biz
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Margaret4Gov
+permission::android.permission.INTERNET
+url::http://www.mobileroots.biz/margaret2010
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CALL_PHONE
+real_permission::android.permission.INTERNET

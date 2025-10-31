@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.activities.HowToActivity
+intent::android.intent.action.MAIN
+activity::.activities.GameActivity
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.portrait
+activity::.activities.SplashActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.activities.MainMenuActivity
+activity::.SplashActivity
+call::getSystemService

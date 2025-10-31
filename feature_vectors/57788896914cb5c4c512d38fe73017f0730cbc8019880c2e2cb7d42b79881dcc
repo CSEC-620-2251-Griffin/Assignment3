@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.nthfusion.com
+intent::android.intent.action.MAIN
+activity::.WhoAmITitleActivity
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+activity::.WhoAmIMainActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->startActivity
+url::http://www.nthfusion.com
+real_permission::android.permission.WAKE_LOCK

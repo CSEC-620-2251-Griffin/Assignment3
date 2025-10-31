@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.DEFAULT
+url::http://schemas.android.com/apk/res/android
+activity::.VRTunnelLiteSettings
+call::getSystemService
+url::schemas.android.com

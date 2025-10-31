@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+activity::.Gloft11US
+real_permission::android.permission.MODIFY_AUDIO_SETTINGS
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::Gloft11US
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.portrait
+api_call::android/media/AudioManager;->setMicrophoneMute
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+permission::android.permission.FULLSCREEN

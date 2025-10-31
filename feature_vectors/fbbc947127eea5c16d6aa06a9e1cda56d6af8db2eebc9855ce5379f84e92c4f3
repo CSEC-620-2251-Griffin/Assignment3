@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.MODIFY_AUDIO_SETTINGS
+intent::android.intent.action.MAIN
+service_receiver::AudioJackService
+service_receiver::AudioJackStartReceiver
+api_call::android/media/AudioManager;->isWiredHeadsetOn
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.AudioJackDetectorActivity
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+api_call::android/content/Context;->startService

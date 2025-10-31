@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEND
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.FreeMemoActivity
+intent::android.intent.category.DEFAULT
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+api_call::android/app/Activity;->startActivity

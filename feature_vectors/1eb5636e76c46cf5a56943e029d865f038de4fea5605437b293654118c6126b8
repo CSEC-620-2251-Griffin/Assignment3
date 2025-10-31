@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.Partitesten
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+url::partitesten.no
+url::http://partitesten.no/

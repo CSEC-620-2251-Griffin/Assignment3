@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://powerforce.moo.jp/
+intent::android.intent.action.MAIN
+url::panicpumpkin.omiki.com
+url::powerforce.moo.jp
+url::http://homepage2.nifty.com/hamcorossam
+url::homepage2.nifty.com
+activity::.Main
+url::http://panicpumpkin.omiki.com/
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

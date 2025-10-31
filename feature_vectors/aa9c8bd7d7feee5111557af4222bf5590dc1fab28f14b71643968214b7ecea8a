@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::.main
+call::printStackTrace
+activity::.login
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+url::www.netfolder.co.kr
+permission::android.permission.READ_EXTERNAL_STORAGE
+service_receiver::com.netfolder.apps.DownLoadService
+real_permission::android.permission.VIBRATE
+call::getSystemService
+url::http://www.netfolder.co.kr/img/bnr_idx01.jpg
+real_permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::ConnReceiver
+intent::android.net.conn.CONNECTIVITY_CHANGE
+api_call::android/app/Activity;->startActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.intro
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CHANGE_NETWORK_STATE

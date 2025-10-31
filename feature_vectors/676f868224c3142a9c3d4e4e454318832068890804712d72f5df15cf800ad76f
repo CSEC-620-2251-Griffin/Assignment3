@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::soft.fun.FAQListView
+api_call::android/content/Context;->startActivity
+activity::soft.fun.PAListView
+url::androidfun-alex.blogspot.com
+intent::android.intent.action.MAIN
+activity::ListAll_digraphs
+activity::soft.fun.Help
+activity::soft.fun.About
+permission::android.permission.INTERNET
+url::http://androidfun-alex.blogspot.com/2011/02/first-app.html
+intent::android.intent.category.LAUNCHER
+activity::soft.fun.DiplomaticPlates
+activity::soft.fun.SpotReport
+call::getSystemService
+activity::.DiplomaticPlates
+activity::CodesTabBar

@@ -1,0 +1,16 @@
+activity::.opengl.game
+activity::.AppActivity
+intent::android.intent.category.SAMPLE_CODE
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::AppActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+intent::android.intent.category.DEFAULT
+permission::android.permission.VIBRATE
+real_permission::android.permission.VIBRATE
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+api_call::android/os/Vibrator;->cancel
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

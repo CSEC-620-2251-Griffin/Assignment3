@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://lightningboltsatellite.com/taylorswift/taylorswift.html
+url::lightningboltsatellite.com
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.Celeb1
+url::http://lightningboltsatellite.com/taylorswift/taylorswift.html?stamp%3D
+permission::android.permission.WRITE_SETTINGS

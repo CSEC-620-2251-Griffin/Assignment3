@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://washington-ia.villagesoup.com/mobile/android/index.seam
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Washington_Journal
+intent::android.intent.category.LAUNCHER
+url::washington-ia.villagesoup.com

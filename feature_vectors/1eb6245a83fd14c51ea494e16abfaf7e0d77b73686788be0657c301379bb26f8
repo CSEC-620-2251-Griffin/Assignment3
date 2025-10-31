@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+service_receiver::.FlingServiceManager
+intent::android.intent.action.MAIN
+activity::.Fling
+api_call::android/media/MediaPlayer;->start
+service_receiver::.FlingService
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

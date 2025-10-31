@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://radiobox.omroep.nl/channel/read_channel_now_on_air/read.json?channel_id%3D3
+intent::android.intent.action.MAIN
+activity::.NowPlaying3FMSavedSongs
+url::radiobox.omroep.nl
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.NowPlaying3FM
+intent::android.intent.category.LAUNCHER
+api_call::java/net/URL;->openConnection

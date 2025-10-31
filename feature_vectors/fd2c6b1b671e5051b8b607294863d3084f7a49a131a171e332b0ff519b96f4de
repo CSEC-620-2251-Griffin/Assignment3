@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.lawyersphoneapps.com/lookupRepByCode.php?code%3D
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.RepCode
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.lawyersphoneapps.com/mobile_bb.php?code%3D
+activity::.Details
+call::HttpPost
+url::www.lawyersphoneapps.com

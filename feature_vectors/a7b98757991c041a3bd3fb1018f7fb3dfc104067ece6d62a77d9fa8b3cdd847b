@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.WebViewTemplate
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::m.spitsnieuws.nl
+url::http://m.spitsnieuws.nl
+activity::com.spitskrant.nl.WebViewTemplate

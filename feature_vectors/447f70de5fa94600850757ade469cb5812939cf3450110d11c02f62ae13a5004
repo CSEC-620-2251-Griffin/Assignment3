@@ -1,0 +1,16 @@
+activity::com.teazel.crossword.RevealActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.teazel.crossword.MainMenuActivity
+call::Obfuscation(Base64)
+activity::com.teazel.crossword.PackListActivity
+activity::com.teazel.crossword.TutorialActivity
+call::getPackageInfo
+call::Cipher(AES/CBC/PKCS5Padding)
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+activity::com.teazel.crossword.HelpActivity
+real_permission::android.permission.INTERNET
+call::getSystemService
+activity::com.teazel.crossword.AboutActivity

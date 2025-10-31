@@ -1,0 +1,17 @@
+url::droidee.com
+feature::android.hardware.touchscreen
+url::http://www.wmata.com/rider_tools/pids/showpid.cfm?station_id%3D
+intent::android.intent.action.MAIN
+activity::com.skeevisarts.meetrodc.StationTimesActivity
+intent::android.intent.action.CREATE_SHORTCUT
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.SplashScreenActivity
+intent::android.intent.category.DEFAULT
+activity::com.skeevisarts.meetrodc.CreateShortcutActivity
+activity::com.skeevisarts.meetrodc.MainActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://droidee.com/resources/metromapdc.jpg
+url::www.wmata.com

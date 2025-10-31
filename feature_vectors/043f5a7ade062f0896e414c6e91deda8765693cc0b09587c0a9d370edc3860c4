@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+service_receiver::Sms-Forwarder Receiver
+call::sendSMS
+intent::android.intent.action.MAIN
+provider::android.provider.Telephony.SMS_RECEIVED
+real_permission::android.permission.SEND_SMS
+permission::android.permission.SEND_SMS
+activity::.SmsForwarderConfig
+permission::android.permission.RECEIVE_SMS
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage

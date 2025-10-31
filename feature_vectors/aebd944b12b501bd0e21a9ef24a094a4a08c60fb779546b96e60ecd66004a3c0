@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::http://svt.se/svttext/tv/pages/
+url::svt.se
+call::printStackTrace
+activity::.TextTV
+url::http://texttv.tv3.se/texttv/images/
+url::http://svt.se/svttext/images
+url::http://texttv.tv3.se/texttv/
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://svt.se/svttext/web/pages/
+real_permission::android.permission.INTERNET
+call::getSystemService
+url::texttv.tv3.se

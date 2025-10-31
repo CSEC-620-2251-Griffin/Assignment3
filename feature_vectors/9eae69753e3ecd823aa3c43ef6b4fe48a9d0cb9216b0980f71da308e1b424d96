@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.OptionsActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.MenuActivity
+activity::.Memory
+intent::android.intent.category.DEFAULT
+api_call::android/content/Context;->startActivity

@@ -1,0 +1,17 @@
+activity::.scoreBoard
+activity::.GameScreen
+url::ximad.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://www.ximad.com/ad/ximad_redirect_am.php\
+activity::.main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://ximad.com/
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+url::www.ximad.com
+call::getSystemService
+activity::.instructions

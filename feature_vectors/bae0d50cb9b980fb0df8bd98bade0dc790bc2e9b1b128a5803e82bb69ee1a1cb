@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.PACKAGE_ADDED
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.AppsList
+service_receiver::CustomReceiver
+intent::android.intent.category.LAUNCHER

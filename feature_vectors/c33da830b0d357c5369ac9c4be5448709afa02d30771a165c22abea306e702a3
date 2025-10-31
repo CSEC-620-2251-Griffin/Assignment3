@@ -1,0 +1,15 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+service_receiver::.Widget$UpdateTrafficServiceView
+activity::.AllTrafficView
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.pdactech.com
+url::http://www.pdactech.com/pdactech/
+permission::android.permission.INTERNET
+service_receiver::.Widget$UpdateTrafficService
+url::http://www.pdactech.com/android/TrafficWidget.asp
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

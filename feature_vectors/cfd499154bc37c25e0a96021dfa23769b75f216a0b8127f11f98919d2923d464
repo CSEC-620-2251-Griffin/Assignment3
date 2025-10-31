@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+activity::.moustache_lite
+url::http://wiki.processing.org/w/Android
+url::wiki.processing.org
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::android/hardware/Camera;->open
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+call::printStackTrace
+api_call::java/net/URL;->openStream
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+real_permission::android.permission.CAMERA
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+call::Read/Write External Storage
+api_call::java/lang/Runtime;->exec
+call::getSystemService

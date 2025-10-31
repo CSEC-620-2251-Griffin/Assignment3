@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://www.aavidsoft.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.aavidsoft.com
+call::printStackTrace
+call::Read/Write External Storage
+activity::.BrowserActivity
+intent::android.intent.category.LAUNCHER

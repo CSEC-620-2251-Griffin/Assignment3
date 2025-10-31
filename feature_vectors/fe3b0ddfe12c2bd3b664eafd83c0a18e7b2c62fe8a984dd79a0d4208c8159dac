@@ -1,0 +1,11 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+service_receiver::SilentWidgetProvider
+permission::android.permission.BROADCAST_STICKY
+service_receiver::SilentWidgetProvider$VibrateService
+api_call::android/os/Vibrator;->vibrate
+call::getSystemService
+real_permission::android.permission.VIBRATE
+provider::android.appwidget.provider
+service_receiver::.SilentWidgetProvider$UpdateService
+api_call::android/content/Context;->startService

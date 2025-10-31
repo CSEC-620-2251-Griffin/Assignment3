@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.habitaclia.com
+url::www.habitaclia.com
+activity::.SplashScreen
+intent::android.intent.category.DEFAULT
+permission::android.permission.INTERNET
+url::http://m.habitaclia.com/
+url::m.habitaclia.com
+intent::android.intent.category.LAUNCHER

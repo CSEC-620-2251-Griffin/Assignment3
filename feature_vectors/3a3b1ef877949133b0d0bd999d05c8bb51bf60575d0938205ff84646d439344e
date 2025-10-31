@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::StatisticsActivity
+url::chart.apis.google.com
+activity::RecordActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.ExerciseJournal
+activity::GraphicsActivity
+api_call::java/net/Socket
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+intent::android.intent.category.PREFERENCE
+activity::PreferenceActivity
+activity::TrackActivity
+intent::android.intent.category.EMBED
+url::http://chart.apis.google.com/chart?chs%3D
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

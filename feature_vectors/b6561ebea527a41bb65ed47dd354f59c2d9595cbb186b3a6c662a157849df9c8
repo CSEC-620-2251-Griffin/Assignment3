@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/webkit/WebChromeClient;->onGeolocationPermissionsShowPrompt
+url::http://www.recon2011.mobilefringe.com/
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::www.recon2011.mobilefringe.com
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_PHONE_STATE

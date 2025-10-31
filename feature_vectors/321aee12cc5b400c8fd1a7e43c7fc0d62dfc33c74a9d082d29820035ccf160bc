@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.Idtravel
+url::http://id.mrorange.nu/index.aspx?from%3D
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::id.mrorange.nu
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

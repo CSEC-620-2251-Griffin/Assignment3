@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://bw17.cn
+intent::android.intent.action.MAIN
+url::http://10.0.0.172:80
+url::www.netmite.com
+api_call::android/content/Context;->startActivity
+activity::.GameMidlet
+url::http://www.netmite.com/android/andme_signed.apk
+url::moader.com
+intent::android.intent.category.LAUNCHER
+url::bw17.cn
+call::getPackageInfo
+url::http://moader.com/down/427bawang2/020/BW2_GELTD.jad
+url::http://10.0.0.172:80/
+url::10.0.0.172

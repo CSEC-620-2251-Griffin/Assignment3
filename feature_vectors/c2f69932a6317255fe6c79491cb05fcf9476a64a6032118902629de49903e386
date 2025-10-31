@@ -1,0 +1,5 @@
+activity::.Raceday
+feature::android.hardware.touchscreen
+activity::Prefs
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

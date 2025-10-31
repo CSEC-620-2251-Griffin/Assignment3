@@ -1,0 +1,17 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::z3.invisionfree.com
+url::http://z3.invisionfree.com/For_King_And_Court/index.php
+url::z7.invisionfree.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::View Threads Activity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::View Categories Activity
+activity::View Forums Activity
+intent::android.intent.category.LAUNCHER
+url::http://z7.invisionfree.com/ex32/index.php
+activity::.IFMRActivity
+activity::View Posts Activity
+call::getSystemService

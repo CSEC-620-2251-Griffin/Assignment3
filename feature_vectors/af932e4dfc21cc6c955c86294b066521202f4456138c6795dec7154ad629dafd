@@ -1,0 +1,36 @@
+url::http://www.gherp.com/pricelist_droid.php?filterCat%3DInvertebrates
+feature::android.hardware.touchscreen
+activity::.InvertebrateView
+activity::.VenomousView
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::PriceLists
+permission::android.permission.INTERNET
+url::http://www.gherp.com/pricelist_droid.php?filterCat%3DBoas%20and%20Pythons
+intent::android.intent.category.DEFAULT
+activity::Contact Us Now
+intent::android.intent.category.ALTERNATIVE
+call::HttpPost
+activity::.LizardsView
+url::http://www.gherp.com/get_all_shows.php
+activity::.ColubridsView
+intent::android.intent.category.TAB
+activity::.SettingsPage
+activity::.AmphibianView
+activity::Shows List
+activity::.TurtleView
+activity::.BoaView
+intent::android.intent.category.PREFERENCE
+feature::android.hardware.telephony
+url::www.gherp.com
+url::http://www.gherp.com/pricelist_droid.php?filterCat%3DColubrids
+url::http://www.gherp.com/pricelist_droid.php?filterCat%3DLizards
+intent::android.intent.action.VIEW
+permission::android.permission.CALL_PHONE
+activity::.TarantulaView
+url::http://www.gherp.com/pricelist_droid.php?filterCat%3DVenomous
+intent::android.intent.action.MAIN
+url::http://www.gherp.com/pricelist_droid.php?filterCat%3DTarantula%20Spiders
+real_permission::android.permission.INTERNET
+activity::.GHerp
+intent::android.intent.category.LAUNCHER
+url::http://www.gherp.com/pricelist_droid.php?filterCat%3DAmphibians

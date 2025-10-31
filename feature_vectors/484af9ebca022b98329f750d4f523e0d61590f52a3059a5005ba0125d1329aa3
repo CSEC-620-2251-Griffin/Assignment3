@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.LookupActivityFree
+call::Obfuscation(Base64)
+call::Cipher(AES)
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+activity::com.care2wear.dtclookup.LookupActivityFree
+call::getPackageInfo
+call::getSystemService

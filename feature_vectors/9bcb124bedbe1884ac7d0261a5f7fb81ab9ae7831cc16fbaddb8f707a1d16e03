@@ -1,0 +1,10 @@
+activity::.XboxCompatibility
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::http://support.xbox.com/en-us/pages/xbox-360/how-to/play-original-games.aspx
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::support.xbox.com
+call::getSystemService
+intent::android.intent.category.LAUNCHER

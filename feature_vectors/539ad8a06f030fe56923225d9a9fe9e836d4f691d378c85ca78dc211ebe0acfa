@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.window
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::.Info
+intent::android.intent.action.MAIN
+activity::.ties
+feature::android.hardware.screen.portrait
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+activity::.more
+call::getSystemService
+activity::.EasyTieLite

@@ -1,0 +1,27 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.LoquendoPaola
+api_call::java/net/HttpURLConnection
+call::getPackageInfo
+url::market.android.com
+intent::android.intent.category.tts_engine.LOQUENDOTTS
+url::http://tts.loquendo.com/AndroidMarket/
+url::eyes-free.googlecode.com
+url::tts.loquendo.com
+call::Obfuscation(Base64)
+url::http://eyes-free.googlecode.com/svn/trunk/thirdparty/espeak-data.zip
+activity::.LoquendoConfig
+permission::com.android.vending.CHECK_LICENSE
+url::http://tts.loquendo.com/AndroidMarket2/android_help_
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.action.START_TTS_ENGINE
+call::Read/Write External Storage
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.tts_lang.en.US
+api_call::android/app/Activity;->sendBroadcast

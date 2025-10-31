@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::supware.net
+api_call::android/os/Vibrator;->vibrate
+activity::.MainActivity
+feature::android.hardware.screen.portrait
+activity::net.supware.ti8x.SettingsActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+url::http://supware.net/donate
+call::getSystemService

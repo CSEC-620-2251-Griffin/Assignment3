@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.cjCode
+intent::android.intent.action.MAIN
+url::www.zdic.net
+url::http://www.zdic.net/search/?q%3D
+intent::android.intent.category.LAUNCHER
+call::getSystemService

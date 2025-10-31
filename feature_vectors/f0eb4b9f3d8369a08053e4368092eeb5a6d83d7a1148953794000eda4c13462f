@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://search.twitter.com/search.json?q%3D%23msswit&page%3D
+permission::android.permission.INTERNET
+url::search.twitter.com
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.MenuActivity
+real_permission::android.permission.INTERNET

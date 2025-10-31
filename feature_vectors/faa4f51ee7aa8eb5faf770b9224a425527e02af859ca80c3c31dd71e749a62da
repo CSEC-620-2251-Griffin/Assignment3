@@ -1,0 +1,13 @@
+activity::.Thunderbird
+feature::android.hardware.touchscreen
+url::http://www.fugumobile.com/backend/globalhighscore1.asp?game%3DThunderbird&name%3D
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+url::www.fugumobile.com
+url::http://www.fugumobile.com/backend/scoresubmission.asp?game%3DThunderbird&name%3D
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://java.prowap.ru/res/media/12513.jar
+url::java.prowap.ru
+url::www.netmite.com

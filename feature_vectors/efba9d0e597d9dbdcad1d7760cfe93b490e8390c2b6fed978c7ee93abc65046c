@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.MicroEmulator
+url::http://flymalmo.se/novaServices/MobileService
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::flymalmo.se
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/app/Activity;->setContentView
+call::Obfuscation(Base64)
+call::getSystemService

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::com.google.android.c2dm.intent.RECEIVE
+activity::.AppMain
+intent::android.intent.action.MAIN
+intent::com.google.android.c2dm.intent.REGISTRATION
+service_receiver::C2DMReceiver
+permission::android.permission.INTERNET
+permission::com.shinsegae.android.permission.C2D_MESSAGE
+permission::com.google.android.c2dm.permission.RECEIVE
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK

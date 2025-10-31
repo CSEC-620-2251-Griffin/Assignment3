@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.knightupdate.com/about
+intent::android.intent.action.MAIN
+url::http://mobile.knightupdate.com/stats
+activity::Knight Update
+activity::.Main
+permission::android.permission.INTERNET
+url::http://mobile.knightupdate.com/roster
+real_permission::android.permission.INTERNET
+url::mobile.knightupdate.com
+url::http://mobile.knightupdate.com/schedule
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://mobile.knightupdate.com

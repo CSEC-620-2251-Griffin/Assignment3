@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::QuizTopic
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.SplashScreen
+intent::android.intent.category.DEFAULT
+activity::SplashScreen
+intent::android.intent.category.LAUNCHER

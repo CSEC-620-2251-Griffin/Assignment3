@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+url::http://andromeda.energymarketprice.com/EMPUsers.asp?Command%3Danjjdornaccnt_383
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.main.LogInForm
+activity::.main.NewsItemDisplayer
+activity::.Splash
+url::http://andromeda.energymarketprice.com/Validation.asp?cmd%3Dandrlogin&username%3D
+real_permission::android.permission.INTERNET
+url::andromeda.energymarketprice.com
+activity::com.emp.charts.PricesChartBuilder
+api_call::java/net/URL;->openStream
+activity::.main.DataActivity
+call::getSystemService
+call::Read/Write External Storage
+activity::.main.Splash
+url::http://andromeda.energymarketprice.com/Server/android_srv.asp?s.op%3Ddchrt&tInt%3D
+url::http://andromeda.energymarketprice.com/Server/android_srv.asp?s.op%3Dlvdata44svcvd
+url::http://andromeda.energymarketprice.com/Validation.asp?cmd%3Dandrlogin
+url::http://andromeda.energymarketprice.com/Text/RSS/news_emp.xml
+url::http://andromeda.energymarketprice.com/Server/android_srv.asp?s.op%3Ddpret&sGr%3D
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+activity::.main.PricesListActivity
+intent::android.intent.category.LAUNCHER

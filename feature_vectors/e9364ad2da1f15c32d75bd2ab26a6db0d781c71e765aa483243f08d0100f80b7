@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.fiveday
+activity::jokes
+activity::.mexican
+intent::android.intent.action.MAIN
+activity::.calories1200
+activity::.advices
+activity::.sevendays
+activity::.southern
+intent::android.intent.category.LAUNCHER
+activity::threesamples

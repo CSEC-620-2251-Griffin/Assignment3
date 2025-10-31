@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.topsicomedia.com
+url::http://www.topsicomedia.com/wp-content/uploads/2011/07/BookTrans.png\
+permission::android.permission.INTERNET
+url::www.lynxtrack.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://www.lynxtrack.com/click/roxp0D7MZDRM3XGxD09g/s-SID
+activity::.Activity1

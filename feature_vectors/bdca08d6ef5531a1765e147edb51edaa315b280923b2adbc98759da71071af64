@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://feeds.feedburner.com/KillerTradingSystems
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.Activity1
+url::feeds.feedburner.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://tradingninja.com/2011/01/guide-to-getting-rich-with-forex-robots/
+url::tradingninja.com

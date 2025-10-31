@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+real_permission::android.permission.READ_LOGS
+intent::android.intent.action.PACKAGE_ADDED
+intent::android.intent.action.MAIN
+service_receiver::.AppEventsService
+intent::android.intent.action.PACKAGE_REMOVED
+intent::android.intent.action.PACKAGE_REPLACED
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.Link2SD
+call::Read/Write External Storage
+call::Execution of external commands
+service_receiver::com.buak.Link2SD.AppEventsReceiver
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+api_call::android/app/NotificationManager;->notify
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+permission::android.permission.GET_PACKAGE_SIZE

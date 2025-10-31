@@ -1,0 +1,19 @@
+service_receiver::com.gau.go.launcherex.theme.loveyoupink.GoDownloadService
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::Read/Write External Storage
+api_call::java/net/HttpURLConnection
+url::http://61.145.124.93/soft/3GHeart/com.gau.go.launcherex.apk
+permission::android.permission.VIBRATE
+url::61.145.124.93
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.INFO
+call::getSystemService

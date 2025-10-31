@@ -1,0 +1,5 @@
+intent::android.intent.action.BOOT_COMPLETED
+feature::android.hardware.touchscreen
+call::getSystemService
+service_receiver::Receiver
+intent::android.intent.action.ACTION_SHUTDOWN

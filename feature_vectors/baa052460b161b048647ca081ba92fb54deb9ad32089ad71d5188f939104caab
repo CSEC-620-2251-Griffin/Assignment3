@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+url::http://www.google.co.kr/dictionary?hl%3Dko&q%3D
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::www.bluedic.com
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+url::market.android.com
+url::www.google.co.kr
+api_call::android/media/MediaPlayer;->start
+activity::.MyVoca
+url::http://market.android.com/details?id%3Dcom.incrediblesoft.myvoca
+call::getSystemService
+url::http://www.bluedic.com/
+url::http://www.gstatic.com/dictionary/static/sounds/de/0/
+url::http://www.google.co.kr/dictionary?langpair%3Dko%7Cen&q%3D
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+url::http://www.google.co.kr/dictionary?langpair%3Den%7Cko&q%3D

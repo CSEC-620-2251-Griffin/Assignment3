@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+service_receiver::RandomService
+api_call::java/lang/Runtime;->exec
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.ServiceActivity
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket

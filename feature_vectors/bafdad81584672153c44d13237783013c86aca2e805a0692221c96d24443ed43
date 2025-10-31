@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.adzure.net.cn/zhai360/tgproduct_list.xml
+url::www.360zhai.com
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+url::http://www.360zhai.com/
+url::adzure.net.cn
+activity::.Activity360Zhai
+permission::android.permission.INTERNET
+url::http://adzure.net.cn/zhai360/
+intent::android.intent.category.LAUNCHER
+url::http://www.adzure.net.cn/zhai360/tgproduct.xml
+real_permission::android.permission.INTERNET
+url::www.adzure.net.cn

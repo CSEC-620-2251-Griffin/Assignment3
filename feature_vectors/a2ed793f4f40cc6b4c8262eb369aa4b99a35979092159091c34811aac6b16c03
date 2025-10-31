@@ -1,0 +1,11 @@
+activity::.SCDetails
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.SCSettings
+feature::android.hardware.screen.portrait
+activity::.SCCaclulator
+activity::.SCSplashScreen
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+call::getSystemService
+intent::android.intent.category.LAUNCHER

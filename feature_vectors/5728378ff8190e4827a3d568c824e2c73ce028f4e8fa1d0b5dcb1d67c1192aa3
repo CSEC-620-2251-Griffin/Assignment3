@@ -1,0 +1,4 @@
+activity::.SearchOnGreen
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VOICE_COMMAND
+feature::android.hardware.touchscreen

@@ -1,0 +1,14 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.macau-airport.com
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://www.macau-airport.com/en/data/earr.txt
+real_permission::android.permission.INTERNET
+url::http://www.macau-airport.com/en/data/carr.txt
+activity::.FIDS_Activity
+url::http://www.macau-airport.com/en/data/edep.txt
+url::http://www.macau-airport.com/en/data/cdep.txt
+intent::android.intent.category.LAUNCHER

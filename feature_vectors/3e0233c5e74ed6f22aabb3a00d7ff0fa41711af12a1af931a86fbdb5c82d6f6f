@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.TableMain
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+activity::AddContent
+activity::SetIntervalActivity
+url::http://goo.gl/jCaV
+url::goo.gl
+intent::android.intent.category.LAUNCHER
+activity::Changelog
+provider::android.appwidget.provider
+activity::About
+call::getSystemService

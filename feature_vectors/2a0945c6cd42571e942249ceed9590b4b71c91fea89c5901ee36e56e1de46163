@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::pagead2.googlesyndication.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+url::http://pagead2.googlesyndication.com/pagead/show_mobile_ads.js
+activity::.SettingsActivity
+provider::android.appwidget.provider

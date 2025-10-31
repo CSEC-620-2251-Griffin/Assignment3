@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+activity::com.ToolboxFactory.ColonyCount.Activity.WebActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+activity::com.ToolboxFactory.ColonyCount.Activity.EditPlateActivity
+api_call::android/content/Context;->startActivity
+api_call::java/net/URL;->openConnection
+real_permission::android.permission.VIBRATE
+activity::org.acra.CrashReportDialog
+call::getSystemService
+url::http://xmlpull.org/v1/doc/features.html
+permission::android.permission.VIBRATE
+permission::android.permission.CAMERA
+activity::.MenuActivity
+activity::com.ToolboxFactory.ColonyCount.Activity.EditProjectActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::spreadsheets.google.com
+feature::android.hardware.camera
+url::xmlpull.org
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::https://spreadsheets.google.com/formResponse?formkey%3D

@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+provider::com.noshufou.android.su.provider.READ
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::FeaturedAppsActivity
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+service_receiver::.service.ResultService
+real_permission::android.permission.VIBRATE
+permission::com.noshufou.android.su.provider.READ
+call::getSystemService
+url::http://downloads.androidsu.com/superuser/Superuser3-beta4.apk
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+call::Cipher(AES/CBC/PKCS5Padding)
+activity::BetaDownloaderActivity
+api_call::java/net/URL;->openConnection
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+service_receiver::.service.DownloaderService
+intent::android.intent.category.LAUNCHER
+url::downloads.androidsu.com
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting

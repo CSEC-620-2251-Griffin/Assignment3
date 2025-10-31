@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+permission::android.permission.BLUETOOTH
+permission::android.permission.BLUETOOTH_ADMIN
+provider::android.appwidget.provider
+call::getSystemService
+intent::android.bluetooth.intent.action.BLUETOOTH_STATE_CHANGED

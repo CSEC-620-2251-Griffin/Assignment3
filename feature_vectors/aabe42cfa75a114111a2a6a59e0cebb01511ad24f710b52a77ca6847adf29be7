@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::FourSmilesOptions
+activity::.FourSmilesMain
+feature::android.hardware.screen.portrait
+activity::FourSmilesAbout
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER

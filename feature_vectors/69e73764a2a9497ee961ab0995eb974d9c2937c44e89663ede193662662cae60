@@ -1,0 +1,6 @@
+url::m.wicd15.com
+activity::.WICD
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+intent::android.intent.category.LAUNCHER
+url::http://m.wicd15.com

@@ -1,0 +1,32 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.READ_LOGS
+activity::de.greenrobot.kumpa.GameActivity
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+api_call::android/media/MediaPlayer;->start
+activity::de.greenrobot.kumpa.pregame.StartActivity
+real_permission::android.permission.VIBRATE
+url::http://kumpa-game.com/levelpacks/levelpack_index.json
+call::getSystemService
+permission::android.permission.VIBRATE
+url::kumpa-game.com
+api_call::java/lang/Runtime;->exec
+call::Cipher(AES)
+activity::.StartActivity
+call::Execution of external commands
+feature::android.hardware.screen.landscape
+url::https://ssl-account.com/kumpa-game.com/levelpacks/levelpack_index.json
+api_call::android/app/Activity;->startActivity
+call::Cipher(RSA/ECB/PKCS1PADDING)
+url::ssl-account.com
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+activity::.MainWindow
+intent::android.intent.action.MAIN
+url::http://folkets-lexikon.csc.kth.se/folkets/folkets/lookupword
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::folkets-lexikon.csc.kth.se
+url::http://folkets-lexikon.csc.kth.se/folkets/folkets/
+call::getSystemService

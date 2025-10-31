@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Hello1Activity
+intent::android.intent.category.LAUNCHER
+url::www.shwetastudios.com
+url::http://www.shwetastudios.com

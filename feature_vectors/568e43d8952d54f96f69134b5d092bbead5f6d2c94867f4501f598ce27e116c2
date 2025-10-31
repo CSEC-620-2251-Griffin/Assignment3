@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Connection
+activity::b0bby.remote.controler.motion.ui.Motion
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+api_call::java/net/Socket
+intent::android.intent.action.VIEW

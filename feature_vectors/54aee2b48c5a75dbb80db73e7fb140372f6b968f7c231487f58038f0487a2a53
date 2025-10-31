@@ -1,0 +1,10 @@
+activity::.AmazonUnder10
+feature::android.hardware.touchscreen
+url::nintendo.monroeworld.com
+intent::android.intent.action.MAIN
+url::http://nintendo.monroeworld.com/lists/clientunder10.php?systemid%3D
+activity::.under10
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::java/net/URL;->openConnection

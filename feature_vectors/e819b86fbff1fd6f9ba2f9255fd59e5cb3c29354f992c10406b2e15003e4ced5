@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::Clock Service
+activity::Catty Clock Widget
+intent::android.intent.category.DEFAULT
+service_receiver::Clock Widget
+api_call::android/content/Context;->startService
+intent::android.intent.action.DEFAULT
+provider::android.appwidget.provider

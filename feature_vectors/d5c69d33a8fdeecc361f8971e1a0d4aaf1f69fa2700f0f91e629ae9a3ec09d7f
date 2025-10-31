@@ -1,0 +1,13 @@
+url::nyt.current.at
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::NYTArticleSearchAbout
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.nytimes.com
+url::mobile.nytimes.com
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.NYTArticleSearch
+api_call::java/net/URL;->openConnection
+url::http://nyt.current.at/update.txt

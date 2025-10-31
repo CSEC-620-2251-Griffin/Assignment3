@@ -1,0 +1,30 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://gis.hicentral.com/arcgis/rest/services/OperPublicSafety/MapServer
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::HttpPost
+url::gis.hicentral.com
+feature::android.hardware.location.gps
+api_call::android/app/Activity;->startActivity
+url::market.android.com
+feature::android.hardware.location
+url::http://dev.virtualearth.net/REST/
+call::getSystemService
+api_call::java/net/URL;->openStream
+activity::Honolulu Flood Zones: Check GPS
+call::Obfuscation(Base64)
+url::http://market.android.com/details?id%3Dgov.honolulu.floodzones
+url::dev.virtualearth.net
+url::www.arcgis.com
+url::http://www.arcgis.com
+url::http://www.arcgis.com/sharing/content/items/
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.main
+real_permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+activity::Honolulu Flood Zones

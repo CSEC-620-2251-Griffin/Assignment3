@@ -1,0 +1,10 @@
+activity::.ActSettings
+activity::.ActCard
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.ActWebView
+feature::android.hardware.screen.portrait
+activity::.ActDayReport
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::ActExpense

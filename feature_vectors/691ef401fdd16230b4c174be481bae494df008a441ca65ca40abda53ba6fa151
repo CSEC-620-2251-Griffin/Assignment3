@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.RidgePFTimer
+activity::.com.jackson13.prep_timer
+intent::android.intent.action.MAIN
+activity::.com.jackson13.case_timer
+activity::.com.jackson13.summary_timer
+activity::.com.jackson13.final_timer
+intent::android.intent.category.LAUNCHER
+activity::.com.jackson13.RidgePFTimer
+activity::.com.jackson13.Home2
+activity::.com.jackson13.crossfire_timer

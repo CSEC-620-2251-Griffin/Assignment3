@@ -1,0 +1,7 @@
+url::http://rootive.com/\
+feature::android.hardware.touchscreen
+activity::.Clock
+url::rootive.com
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

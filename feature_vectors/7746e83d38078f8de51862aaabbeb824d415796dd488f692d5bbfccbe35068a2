@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::www.yctrack.com
+intent::android.intent.action.MAIN
+url::http://www.yctrack.com/click.track?CID%3D167281&AFID%3D-1&ADID%3D-1&SID%3D
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.Activity1

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.CALL_BUTTON
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+permission::android.permission.CALL_PHONE
+intent::android.intent.action.GET_CONTENT
+activity::.CitysScreen
+activity::.HotelsScreen
+feature::android.hardware.telephony
+activity::.DetailScreen
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.WelecomeScreen
+intent::android.intent.action.VIEW

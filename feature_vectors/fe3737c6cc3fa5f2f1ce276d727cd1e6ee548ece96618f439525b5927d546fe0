@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::Obfuscation(Base64)
+activity::DisplayCertActivity
+activity::CertToolsActivity
+intent::android.intent.category.DEFAULT
+activity::.CertToolsActivity
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+intent::android.intent.category.LAUNCHER

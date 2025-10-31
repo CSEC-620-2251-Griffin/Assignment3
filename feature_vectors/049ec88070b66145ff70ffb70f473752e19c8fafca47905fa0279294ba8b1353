@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.greatdanenation.com/schedule
+url::http://mobile.greatdanenation.com/about
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://mobile.greatdanenation.com/stats
+url::mobile.greatdanenation.com
+url::http://mobile.greatdanenation.com/roster
+url::http://mobile.greatdanenation.com
+activity::Greatdane Nation

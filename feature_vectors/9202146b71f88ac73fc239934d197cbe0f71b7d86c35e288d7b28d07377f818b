@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://feeds.feedburner.com/quotationspage/qotd
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::feeds.feedburner.com
+url::http://feeds.feedburner.com/quotationspage/mqotd
+api_call::android/webkit/WebView
+activity::.Activity1
+intent::android.intent.category.LAUNCHER

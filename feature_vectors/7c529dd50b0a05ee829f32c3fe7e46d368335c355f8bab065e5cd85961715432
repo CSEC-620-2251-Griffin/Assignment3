@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.Popupnews
+url::http://android-france.fr
+intent::android.intent.action.MAIN
+url::feeds2.feedburner.com
+service_receiver::.WidgetBeGeek$UpdateService
+permission::android.permission.INTERNET
+api_call::java/net/URL;->openStream
+url::android-france.fr
+intent::android.intent.category.LAUNCHER
+url::http://feeds2.feedburner.com/be-geek
+intent::android.intent.action.INSERT
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

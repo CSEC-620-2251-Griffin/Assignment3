@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://keygenjukebox.com/m/
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+activity::.kgjbPlayActivity
+intent::android.intent.action.VIEW
+call::getSystemService
+api_call::java/net/URL;->openStream
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::.kgjbActivity
+activity::.kgjbPlaylistActivity
+intent::android.intent.category.DEFAULT
+url::http://keygenjukebox.com
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+url::keygenjukebox.com
+url::http://keygenjukebox.com/playlist.xspf
+intent::android.intent.category.LAUNCHER

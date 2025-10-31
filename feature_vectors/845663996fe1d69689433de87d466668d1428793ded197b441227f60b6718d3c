@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+service_receiver::SakuyasanTokeiWidgetProvider
+provider::android.appwidget.provider

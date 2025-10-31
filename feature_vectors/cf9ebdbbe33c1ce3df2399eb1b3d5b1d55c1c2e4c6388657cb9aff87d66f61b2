@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.Main
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::PrefHelp
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::getSystemService

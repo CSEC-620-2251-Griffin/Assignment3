@@ -1,0 +1,16 @@
+url::publisher.affili.net
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::http://publisher.affili.net
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Publisher_Info_Project
+permission::android.permission.INTERNET
+url::http://publisher.affili.net/
+intent::android.intent.category.LAUNCHER
+url::https://api.affili.net/Publisher/Account.asmx/GetPublisherSummary?PublisherID%3D
+real_permission::android.permission.INTERNET
+url::api.affili.net
+feature::android.hardware.screen.portrait
+call::HttpPost
+url::https://publisher.affili.net/

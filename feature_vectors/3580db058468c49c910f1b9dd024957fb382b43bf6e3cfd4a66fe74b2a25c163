@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.ChapterListActivity
+service_receiver::.AudioBroadcastReceiver
+intent::android.intent.action.MAIN
+service_receiver::.BackgroundAudioService
+call::getSystemService
+activity::.AudioPlayerActivity
+url::http://schemas.android.com/apk/res/android
+activity::.AboutDialogActivity
+activity::.ConfigurationActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.action.MEDIA_BUTTON
+url::schemas.android.com

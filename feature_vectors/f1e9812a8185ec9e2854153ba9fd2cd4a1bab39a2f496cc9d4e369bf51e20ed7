@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.UIBenchv2Jni
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+url::http://www.flexycore.com.\n\nIf
+url::www.flexycore.com.\n\nIf
+permission::android.permission.INTERNET
+url::http://cvs.flexycore.com/android
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::cvs.flexycore.com
+call::getSystemService

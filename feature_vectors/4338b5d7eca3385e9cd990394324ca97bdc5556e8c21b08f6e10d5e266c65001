@@ -1,0 +1,16 @@
+activity::Article3
+activity::Amendments11To27
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::Declaration
+activity::.WeThePeople
+activity::BillOfRights
+activity::Article2
+activity::Article1
+activity::Article7
+activity::Article6
+activity::Article5
+activity::Article4
+activity::Preamble
+activity::Constitution
+intent::android.intent.category.LAUNCHER

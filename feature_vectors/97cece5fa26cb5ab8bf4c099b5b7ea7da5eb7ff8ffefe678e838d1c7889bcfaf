@@ -1,0 +1,6 @@
+activity::.akimar
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::www.akimar.com.ve
+intent::android.intent.category.LAUNCHER
+url::http://www.akimar.com.ve/?rel%3Ddroid

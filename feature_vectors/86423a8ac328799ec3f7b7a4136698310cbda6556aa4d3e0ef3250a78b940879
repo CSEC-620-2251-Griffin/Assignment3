@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::feeddroid.com
+intent::android.intent.action.MAIN
+url::http://feeddroid.com/expectant-mother/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.Activity1

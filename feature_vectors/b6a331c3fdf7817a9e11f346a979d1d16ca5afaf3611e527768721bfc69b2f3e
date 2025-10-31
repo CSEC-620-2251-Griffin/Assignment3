@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::www.edgeemu.org
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.edgeemu.org/AndroidApps/Launchers/Roms.php
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Roms

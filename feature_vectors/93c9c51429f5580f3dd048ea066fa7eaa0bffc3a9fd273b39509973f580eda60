@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+service_receiver::SiestaAlarmReceiver
+activity::.SiestaActivity
+service_receiver::SiestaAppWidgetProvider
+real_permission::android.permission.VIBRATE
+provider::android.appwidget.provider
+call::getSystemService

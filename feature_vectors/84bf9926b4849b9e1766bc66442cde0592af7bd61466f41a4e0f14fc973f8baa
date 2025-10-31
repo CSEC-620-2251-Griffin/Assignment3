@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+call::Read/Write External Storage
+activity::br.com.passeionaweb.android.billing.BuyActivity
+call::getPackageInfo
+service_receiver::.notification.NotificationReceiver
+activity::.PreferencesActivity
+api_call::android/content/Context;->startActivity
+activity::.DayActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+permission::android.permission.VIBRATE
+real_permission::android.permission.VIBRATE
+activity::.BlotterActivity
+call::Obfuscation(Base64)
+activity::.MonthActivity
+service_receiver::.widget.CheckpointWidget
+activity::.HoursBank
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::com.android.vending.BILLING
+activity::.WeekActivity
+provider::android.appwidget.provider

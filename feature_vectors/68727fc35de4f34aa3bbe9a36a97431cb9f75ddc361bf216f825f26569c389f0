@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+activity::.FreeSMS
+permission::android.permission.INTERNET
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+permission::android.permission.WRITE_SMS
+activity::.Preferences
+real_permission::android.permission.INTERNET
+permission::android.permission.READ_CONTACTS
+intent::android.intent.category.LAUNCHER

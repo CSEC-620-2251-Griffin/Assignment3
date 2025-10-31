@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.SelectLevelActivity
+intent::android.intent.action.MAIN
+activity::.AboutActivity
+activity::.HowToActivity
+intent::android.intent.category.LAUNCHER
+activity::.PreferencesActivity
+activity::.PuzzleListActivity
+feature::android.hardware.screen.portrait
+activity::.TitleActivity
+activity::.PuzzleInfoActivity
+call::getSystemService

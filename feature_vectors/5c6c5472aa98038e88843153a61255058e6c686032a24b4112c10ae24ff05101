@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.skinland.com/mobile/xml/dermaInfo/page1_list.php
+intent::android.intent.action.MAIN
+permission::android.permission.CALL_PHONE
+activity::.main
+url::http://www.skinland.com/mobile/xml/dermaInfo/page4_list.php
+permission::android.permission.INTERNET
+feature::android.hardware.telephony
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://www.skinland.com/mobile/xml/dermaInfo/page2_list.php
+url::http://www.skinland.com/mobile/xml/dermaInfo/page3_list.php
+url::www.skinland.com

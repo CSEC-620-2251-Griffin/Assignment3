@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+service_receiver::RemoteAdjuster
+service_receiver::ToggleWidgetProvider
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+call::getSystemService
+provider::android.appwidget.provider
+intent::android.intent.action.MEDIA_BUTTON

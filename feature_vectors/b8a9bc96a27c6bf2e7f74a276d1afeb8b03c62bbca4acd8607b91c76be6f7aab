@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.AudioPreview
+url::www.googleapis.com
+intent::android.intent.action.MAIN
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.Beatbox
+url::https://www.googleapis.com/urlshortener/v1/url
+url::http://translate.google.com/translate_tts?q%3D
+intent::android.intent.category.LAUNCHER
+url::translate.google.com
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW

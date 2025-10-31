@@ -1,0 +1,13 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getSystemService
+permission::android.permission.CALL_PHONE
+activity::.Main
+url::awave.se
+permission::android.permission.INTERNET
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://awave.se/blogg?format%3Dfeed&type%3Drss

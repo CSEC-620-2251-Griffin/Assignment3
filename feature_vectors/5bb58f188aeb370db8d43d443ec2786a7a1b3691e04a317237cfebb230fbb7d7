@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+activity::.MessageList
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::com.jimmy.dushku.MessageList
+api_call::java/net/URL;->openConnection

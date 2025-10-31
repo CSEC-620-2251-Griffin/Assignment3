@@ -1,0 +1,21 @@
+url::www.escolapasgrau.com
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+activity::.MenuPrincipalActivity
+url::http://www.escolapasgrau.com/rss/entradas/seccion:alertas/idioma:
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.PreferenciasActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+url::http://www.escolapasgrau.com/rss/entradas/seccion:consejos-top-class/idioma:
+url::escolapg.grandvalira.com
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::.PestanaActivity
+url::http://img.youtube.com/vi/
+real_permission::android.permission.INTERNET
+url::img.youtube.com
+call::getSystemService
+url::https://escolapg.grandvalira.com/escolapas/

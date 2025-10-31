@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::jp.co.c_lis.ccl.tmak.ui.SettingActivity
+intent::android.intent.action.MAIN
+url::market.android.com
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+service_receiver::jp.co.c_lis.ccl.tmak.receiver.BroadcastReceiver
+intent::android.intent.category.DEFAULT
+url::http://market.android.com/search?q%3Dpname:jp.co.c_lis.ccl.apps_center
+provider::jp.co.c_lis.provider.apps_settings
+call::getSystemService
+intent::android.intent.category.INFO
+intent::android.intent.action.VIEW

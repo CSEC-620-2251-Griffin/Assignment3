@@ -1,0 +1,12 @@
+activity::info.redx.pipes.ActivityRules
+feature::android.hardware.touchscreen
+url::http://www.redx.info
+activity::.ActivityMainMenu
+activity::info.redx.pipes.ActivityGame
+call::getSystemService
+activity::info.redx.pipes.ActivityScores
+intent::android.intent.category.LAUNCHER
+activity::info.redx.pipes.ActivitySettings
+intent::android.intent.action.MAIN
+url::www.redx.info
+activity::info.redx.pipes.ActivityAbout

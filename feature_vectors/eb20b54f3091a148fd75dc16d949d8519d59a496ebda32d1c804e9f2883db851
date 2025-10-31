@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.WordLists
+activity::.PersonalWordList
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/content/Context;->startActivity
+activity::.Main
+intent::android.intent.category.PREFERENCE
+intent::android.intent.category.DEFAULT
+activity::.IgnoreList
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+service_receiver::.LoadWordFileService
+real_permission::android.permission.INTERNET
+call::getSystemService

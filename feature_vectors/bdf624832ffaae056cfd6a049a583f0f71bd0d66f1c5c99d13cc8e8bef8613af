@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+call::printStackTrace
+service_receiver::.MPService
+api_call::android/media/MediaPlayer;->stop
+activity::.MP3Play
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

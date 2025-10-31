@@ -1,0 +1,6 @@
+permission::android.permission.VIBRATE
+activity::.TimerActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.MainActivity
+intent::android.intent.category.LAUNCHER

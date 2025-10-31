@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::http://api.dribbble.com/players/
+activity::.Asssist
+intent::android.intent.action.MAIN
+url::twitter.com
+call::getSystemService
+url::http://api.dribbble.com/
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.PREFERENCE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::api.dribbble.com
+intent::android.intent.category.LAUNCHER
+url::http://twitter.com/
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+url::http://api.dribbble.com/shots/
+activity::.Preferences

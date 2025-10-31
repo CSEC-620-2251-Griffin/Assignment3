@@ -1,0 +1,11 @@
+service_receiver::com.andmoid.dailyringtone.DRAlarmReceiver
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.WRITE_SETTINGS
+intent::android.intent.category.LAUNCHER
+activity::.dailyringtone
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/media/RingtoneManager;->setActualDefaultRingtoneUri
+activity::com.andmoid.dailyringtone.dailyringtone
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::com.littlebunnytoons.bunny.BunnyToon
+activity::com.littlebunnytoons.bunny.BunnyWebView
+intent::android.intent.action.MAIN
+activity::com.littlebunnytoons.bunny.DragActivity
+activity::com.littlebunnytoons.bunny.BunnySlidePuzzle
+activity::com.littlebunnytoons.bunny.MoveActivity
+real_permission::android.permission.INTERNET
+activity::.BunnyMain
+intent::android.intent.category.LAUNCHER
+activity::com.littlebunnytoons.bunny.BunnyMain
+activity::com.littlebunnytoons.bunny.BunnyMemoryGame
+api_call::java/net/HttpURLConnection
+intent::android.intent.category.EMBED
+call::getSystemService
+activity::com.littlebunnytoons.bunny.BunnyEasterPuzzle

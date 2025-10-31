@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+service_receiver::YukkuriWidget
+api_call::android/media/MediaPlayer;->start
+api_call::android/content/Context;->startService
+service_receiver::PlayMusicService
+provider::android.appwidget.provider
+real_permission::android.permission.WAKE_LOCK

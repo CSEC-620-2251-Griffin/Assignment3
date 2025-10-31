@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::HttpPost
+url::mobisland.com
+url::navystrat.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://navystrat.com
+intent::android.intent.category.LAUNCHER
+activity::.NavyStratActivity
+url::http://mobisland.com
+api_call::android/app/Activity;->startActivity
+url::http://mobisland.com/NSHSDB/Action
+call::getSystemService

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::com.olegapps.forestlwp.ForestSettings
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getSystemService
+url::robobunny.com
+url::http://robobunny.com
+feature::android.software.live_wallpaper
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+activity::.LaunchActivity
+intent::android.intent.category.INFO
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

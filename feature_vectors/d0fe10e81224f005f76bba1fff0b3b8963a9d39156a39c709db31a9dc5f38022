@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::www.kritisolutions.com
+permission::android.permission.INTERNET
+activity::.TextMap
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+call::HttpPost
+url::http://www.kritisolutions.com/princetonphp/ocontent.php

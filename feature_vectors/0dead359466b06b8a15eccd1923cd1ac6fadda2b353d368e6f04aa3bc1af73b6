@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::http://scoreboard.androidaz.com/
+intent::android.intent.action.MAIN
+url::scoreboard.androidaz.com
+call::getSystemService
+activity::.BalanceSheetActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::java/net/URL;->openStream
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::com.androidaz.moneytracker.BalanceSheetActivity
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.INTERNET
+activity::com.androidaz.moneytracker.TransactionsListActivity
+activity::com.androidaz.moneytracker.AccountsListActivity

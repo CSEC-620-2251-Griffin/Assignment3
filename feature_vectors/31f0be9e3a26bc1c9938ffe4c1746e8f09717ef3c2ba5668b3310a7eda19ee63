@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.e-media-ab.com
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.e-media-ab.com/DSN/ro-v11.bas
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::Read/Write External Storage
+call::getSystemService

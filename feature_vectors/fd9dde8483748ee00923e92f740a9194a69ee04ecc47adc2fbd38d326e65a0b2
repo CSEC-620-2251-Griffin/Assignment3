@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+url::www.wretch.cc
+permission::android.permission.INTERNET
+activity::hank.world.test2.Main
+intent::android.intent.category.LAUNCHER
+url::http://www.wretch.cc/blog/hankworld
+real_permission::android.permission.INTERNET

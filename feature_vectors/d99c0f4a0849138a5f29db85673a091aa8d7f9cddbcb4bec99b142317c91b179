@@ -1,0 +1,22 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+url::http://schemas.android.com/apk/lib/com.google.ads
+call::getPackageInfo
+service_receiver::Bullets LWP Free
+real_permission::android.permission.WAKE_LOCK
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+url::http://a.admob.com/f0?
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(AES/CBC/PKCS5Padding)
+url::a.admob.com
+permission::android.permission.WAKE_LOCK
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+url::www.gstatic.com
+activity::WallpaperSettings
+url::schemas.android.com

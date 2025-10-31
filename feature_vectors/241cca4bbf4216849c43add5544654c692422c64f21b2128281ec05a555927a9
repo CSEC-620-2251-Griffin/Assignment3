@@ -1,0 +1,14 @@
+url::http://mobile.dailydawgs.com
+activity::Daily Dawgs
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://mobile.dailydawgs.com/schedule
+activity::.Main
+url::http://mobile.dailydawgs.com/roster
+permission::android.permission.INTERNET
+url::http://mobile.dailydawgs.com/stats
+url::http://mobile.dailydawgs.com/about
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::mobile.dailydawgs.com

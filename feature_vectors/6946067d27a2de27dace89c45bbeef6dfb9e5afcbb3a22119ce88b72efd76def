@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::sites.google.com
+intent::com.twofortyfouram.locale.intent.action.FIRE_SETTING
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://sites.google.com/site/androgone/projets/play-sound-plug-in-for-locale
+service_receiver::com.androgone.locale.ninjanotif.FireReceiver
+intent::com.twofortyfouram.locale.intent.action.EDIT_SETTING
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.INFO
+real_permission::android.permission.WAKE_LOCK

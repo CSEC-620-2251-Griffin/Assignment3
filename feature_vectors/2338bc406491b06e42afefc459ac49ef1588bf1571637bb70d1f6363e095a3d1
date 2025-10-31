@@ -1,0 +1,36 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEND
+call::getPackageInfo
+real_permission::android.permission.WRITE_SETTINGS
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+service_receiver::.Calendar.Calendar_Widget$LogBook_Calendar_Widget_Service
+real_permission::android.permission.READ_CONTACTS
+activity::.LogBook_MainPage
+permission::android.permission.READ_CONTACTS
+permission::android.permission.WRITE_SETTINGS
+api_call::android/content/ContentResolver;->query
+api_call::android/location/LocationManager;->requestLocationUpdates
+api_call::android/content/Context;->startActivity
+call::getSystemService
+service_receiver::Pilot Logbook Calendar
+service_receiver::Pilot Logbook Stopwatch
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_CALENDAR
+call::Execution of external commands
+permission::android.permission.WRITE_SYNC_SETTINGS
+call::Read/Write External Storage
+api_call::android/provider/Settings$System;->putInt
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::Pilot Logbook Calendar Big
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+provider::android.appwidget.provider
+service_receiver::.Widget.StopClock_Widget$AvitionWidget_UpdateService

@@ -1,0 +1,41 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+activity::GamePause
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+url::http://mm.admob.com/static/android/tiles/default.png
+url::r.admob.com
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::LinkWeb
+activity::Game Options
+real_permission::android.permission.WAKE_LOCK
+url::http://game.goodteamstudio.com/class/kiss.do?mid%3D
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+api_call::android/content/Context;->startActivity
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+real_permission::android.permission.VIBRATE
+url::http://www.goodteamstudio.com/mobile.aspx
+api_call::android/os/Vibrator;->cancel
+call::getSystemService
+permission::android.permission.VIBRATE
+url::game.goodteamstudio.com
+activity::About Us
+activity::Game Help
+activity::.ClassRoomStory
+feature::android.hardware.screen.landscape
+url::api.admob.com
+url::http://game.goodteamstudio.com/class/kiss/top.do?mid%3D
+url::www.goodteamstudio.com
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER
+url::schemas.android.com
+url::http://mm.admob.com/static/android/i18n/20090728
+url::mm.admob.com

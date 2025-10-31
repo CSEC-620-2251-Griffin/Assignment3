@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+activity::.Main
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::@string/app_name
+api_call::android/app/NotificationManager;->notify
+call::getSystemService

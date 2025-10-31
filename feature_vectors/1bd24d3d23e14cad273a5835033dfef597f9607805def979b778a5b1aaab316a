@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+service_receiver::IncCallReceiver
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+activity::.MainActivity
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::getSystemService

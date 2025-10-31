@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::http://mlb.com%s
+url::http://gdx.mlb.com/components/copyright.txt-->
+url::http://gdx.mlb.com/components/copyright.txt--><game
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ScoreboardMain
+url::http://gdx.mlb.com/components/copyright.txt--><boxscore
+intent::android.intent.category.LAUNCHER
+activity::.SingleGameActivity
+url::gdx.mlb.com
+activity::.ScoreboardSettings
+api_call::android/content/Context;->startActivity
+call::getSystemService
+url::mlb.com%s

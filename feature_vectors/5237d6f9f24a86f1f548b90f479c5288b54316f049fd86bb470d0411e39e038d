@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.BigDigitalClock
+intent::com.shinybit.intent.action.BigClockPreference
+intent::android.intent.category.PREFERENCE
+activity::.BigClockPreferenceActivity
+intent::android.intent.category.LAUNCHER

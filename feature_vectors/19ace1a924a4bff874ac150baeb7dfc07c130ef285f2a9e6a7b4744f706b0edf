@@ -1,0 +1,16 @@
+url::http://kindle-nook.blogspot.com/2011/07/500-amazon-gift-card.html
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://kindle-nook.blogspot.com/2011/07/barnes-and-noble-nook-color.html
+intent::android.intent.action.MAIN
+url::http://kindle-nook.blogspot.com/2011/07/nook-vs-ipad-2.html
+activity::.SplashActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/webkit/WebView
+url::kindle-nook.blogspot.com
+url::http://kindle-nook.blogspot.com/2011/07/ipad-2-vs-kindle.html
+call::getSystemService

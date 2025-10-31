@@ -1,0 +1,16 @@
+url::http://www.aljazeera.net/AljazeeraRss/Rss.aspx?URL%3DRSS-News.xml
+activity::.JazNews
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://www.aljazeera.net/AljazeeraRss/Rss.aspx?URL%3DRSS-Channel.xml
+url::http://www.aljazeera.net/AljazeeraRss/Rss.aspx?URL%3DRSS-Human%20Rights.xml
+url::http://www.aljazeera.net/AljazeeraRss/Rss.aspx?URL%3DRSS-Portal.xml
+permission::android.permission.INTERNET
+api_call::java/net/HttpURLConnection
+url::www.aljazeera.net
+intent::android.intent.category.LAUNCHER
+url::http://www.aljazeera.net/AljazeeraRss/Rss.aspx?URL%3DRSS-Studies.xml
+real_permission::android.permission.INTERNET
+call::printStackTrace
+url::http://www.aljazeera.net/AljazeeraRss/Rss.aspx?URL%3DRSS-KnowledgeGate.xml
+url::http://www.aljazeera.net/AljazeeraRss/Rss.aspx?URL%3DRSS-eBusiness.xml

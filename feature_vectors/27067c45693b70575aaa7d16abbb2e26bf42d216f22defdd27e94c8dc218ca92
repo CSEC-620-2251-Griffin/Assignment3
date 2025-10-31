@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+service_receiver::AirBridgeService
+permission::android.permission.READ_PHONE_STATE
+activity::Gravity Lander
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::java/net/ServerSocket
+call::getPackageInfo
+activity::.MainApp
+call::Read/Write External Storage
+call::getSystemService

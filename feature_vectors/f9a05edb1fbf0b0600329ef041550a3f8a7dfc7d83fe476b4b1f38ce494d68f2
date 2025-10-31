@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.ThatsSoRandom
+intent::android.intent.action.MAIN
+url::bradandroid.webs.com
+url::http://bradandroid.webs.com/index.htm
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

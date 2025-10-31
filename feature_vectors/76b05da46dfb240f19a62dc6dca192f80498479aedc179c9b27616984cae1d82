@@ -1,0 +1,5 @@
+activity::.OmegaToolsLite
+feature::android.hardware.touchscreen
+activity::OmegaToolsLite
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER

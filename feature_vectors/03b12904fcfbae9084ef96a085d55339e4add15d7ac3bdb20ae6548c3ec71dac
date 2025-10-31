@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.faintsociety.com/mobileinfo.xhtml
+activity::.faintsocietyinfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.faintsocietywebsite
+url::http://www.faintsociety.com
+permission::android.permission.INTERNET
+url::www.faintsociety.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.faintsocietyabout

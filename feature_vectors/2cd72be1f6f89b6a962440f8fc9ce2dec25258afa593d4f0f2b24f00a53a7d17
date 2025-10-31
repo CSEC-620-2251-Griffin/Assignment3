@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::http://t.72.cl/postalchile/getpostal.php
+activity::.Mapa
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ChilePostal
+activity::.PostalHistory
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::t.72.cl
+call::getSystemService

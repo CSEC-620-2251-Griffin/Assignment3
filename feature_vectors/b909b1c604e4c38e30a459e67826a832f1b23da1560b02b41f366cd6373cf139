@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://dic.yahoo.co.jp/dsearch?p%3D
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+url::dic.yahoo.co.jp
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::images.ad-maker.info
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://images.ad-maker.info/apps/imic1h31bdo2.html
+call::getSystemService

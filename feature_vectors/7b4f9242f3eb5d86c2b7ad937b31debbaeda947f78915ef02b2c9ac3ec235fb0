@@ -1,0 +1,27 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://sj.xiaomi.com
+url::http://sj.xiaomi.com/client/cities
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.INTERNET
+activity::Feedback
+activity::SelectCity
+api_call::android/app/Activity;->startActivity
+activity::AddCar
+call::HttpPost
+activity::CarInfo
+call::printStackTrace
+activity::CarImagesPickerActivity
+activity::.MainInfo
+activity::AddressList
+url::sj.xiaomi.com
+service_receiver::Widget
+url::http://sj.xiaomi.com/client
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::AboutUs
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://sj.xiaomi.com/server/v1/xml.php
+provider::android.appwidget.provider

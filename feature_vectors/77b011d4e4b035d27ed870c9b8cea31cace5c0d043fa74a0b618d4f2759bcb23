@@ -1,0 +1,7 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::https://market.android.com/details?id%3Dsam.perez.massive&feature%3Dsearch_result
+url::market.android.com
+call::printStackTrace
+real_permission::android.permission.INTERNET
+url::https://market.android.com/details?id%3Dsam.perez.xbox&feature%3Dsearch_result

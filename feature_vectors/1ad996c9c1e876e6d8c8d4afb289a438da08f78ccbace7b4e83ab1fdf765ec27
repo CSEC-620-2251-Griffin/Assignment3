@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+url::http://m.utis.go.kr
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+activity::.UtisViewer
+intent::android.intent.category.LAUNCHER
+url::m.utis.go.kr

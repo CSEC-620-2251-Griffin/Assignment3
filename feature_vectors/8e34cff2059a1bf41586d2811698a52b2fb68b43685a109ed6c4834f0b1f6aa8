@@ -1,0 +1,44 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+service_receiver::AlarmServiceForZero
+url::http://schemas.android.com/apk/res/
+call::printStackTrace
+service_receiver::.WidgetTask$UpdateService
+service_receiver::.Widget$UpdateService
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+service_receiver::AA Task(Both, 3x3)
+activity::.Frank
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.WidgetMemo$UpdateService
+real_permission::android.permission.WAKE_LOCK
+url::http://mm.admob.com/static/android/canvas.html
+url::http://mm.admob.com/static/android/i18n/20100820
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+url::http://a.admob.com/f0?
+permission::android.permission.VIBRATE
+service_receiver::AlarmService_Service
+url::r.admob.com
+api_call::android/os/Vibrator;->cancel
+call::getSystemService
+service_receiver::AA Task(Memo, 2x3)
+api_call::android/media/MediaPlayer;->stop
+url::mm.admob.com
+real_permission::android.permission.VIBRATE
+api_call::android/content/Context;->startService
+url::api.admob.com
+url::a.admob.com
+service_receiver::AA Task(Task, 2x3)
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::AlarmInitReceiver
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+activity::AlarmAlert
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+url::schemas.android.com

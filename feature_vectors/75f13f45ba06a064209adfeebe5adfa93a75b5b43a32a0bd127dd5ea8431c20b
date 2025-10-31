@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.about
+activity::.Main
+activity::.Splash
+activity::.kit1
+activity::.kit2
+activity::.kit3
+call::getSystemService
+intent::android.intent.category.LAUNCHER

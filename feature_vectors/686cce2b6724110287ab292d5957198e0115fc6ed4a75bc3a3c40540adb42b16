@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+activity::.gtuner
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+call::Execution of external commands
+call::printStackTrace
+service_receiver::BootService
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::BootComplete
+intent::android.intent.category.LAUNCHER

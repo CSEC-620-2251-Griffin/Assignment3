@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Dice
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::www.alialicoo.com
+url::http://www.alialicoo.com/android_app/happydice/web_image/happydice_image.html

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.PalaceFone
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+url::http://palacefone.appspot.com/showtimes/?Body%3D
+real_permission::android.permission.INTERNET
+url::palacefone.appspot.com
+intent::android.intent.category.LAUNCHER
+activity::.Showtimes

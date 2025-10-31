@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+activity::.NationCapitals
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+activity::cn.com.cloudfly.qsee.activity.ImageSwitcherActivity
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/Context;->startActivity
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+call::getSystemService
+activity::cn.com.cloudfly.qsee.activity.SettingsActivity
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/content/Context;->clearWallpaper
+feature::android.software.live_wallpaper
+activity::.MainView
+call::Read/Write External Storage
+intent::android.intent.action.VIEW
+permission::android.permission.SET_WALLPAPER
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+service_receiver::android.permission.BIND_WALLPAPER
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.SET_WALLPAPER

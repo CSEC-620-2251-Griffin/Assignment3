@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+url::http://94.198.81.101:8080/
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+activity::.GameMidlet
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+url::testing.lemonquest.com
+call::getPackageInfo
+url::http://94.198.81.101:8080/WODServer/wodservlet
+url::http://testing.lemonquest.com/tqa/tino/WOD_Jars/WOD_K800/wod_se_k800_en.jar
+url::94.198.81.101

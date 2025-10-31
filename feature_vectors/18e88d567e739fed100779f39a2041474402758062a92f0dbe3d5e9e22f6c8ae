@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.rubyrepeat.com
+intent::android.intent.action.MAIN
+url::http://www.rubyrepeat.com/high-scores.html
+activity::.PauseScreen
+url::www.rubyrepeat.com
+activity::.TitleScreen
+feature::android.hardware.screen.portrait
+activity::.MainGame
+activity::.InfoScreen
+activity::.Loader
+intent::android.intent.category.LAUNCHER
+activity::.GameOver
+call::getSystemService

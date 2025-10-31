@@ -1,0 +1,18 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+service_receiver::com.sonyericsson.extras.liveview.plugins.PluginReceiver
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+api_call::android/telephony/SmsManager;->sendTextMessage
+intent::android.intent.category.DEFAULT
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+permission::android.permission.WRITE_SMS
+intent::android.intent.category.LAUNCHER
+activity::com.sonyericsson.extras.liveview.plugins.PluginPreferences
+real_permission::android.permission.READ_CONTACTS
+service_receiver::SendSMS PluginService
+permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->startActivity
+api_call::android/content/ContentResolver;->query

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/app/backup/BackupManager;->dataChanged
+intent::android.intent.action.MAIN
+activity::com.guenmat.android.optimus2x.PreferencesActivity
+real_permission::android.permission.BACKUP
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+service_receiver::com.guenmat.android.optimus2x.receiver.BootCompletedBroadcastReceiver
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+activity::com.guenmat.android.optimus2x.BrightnessActivity
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+activity::.BrightnessActivity

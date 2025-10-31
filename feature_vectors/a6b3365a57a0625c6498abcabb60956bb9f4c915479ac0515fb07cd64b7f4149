@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+activity::Settings
+feature::android.software.live_wallpaper
+call::getSystemService

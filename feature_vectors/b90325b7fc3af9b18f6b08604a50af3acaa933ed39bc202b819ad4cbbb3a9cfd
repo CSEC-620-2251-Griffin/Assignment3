@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.BlobPlay
+activity::Preview
+intent::android.intent.action.MAIN
+activity::.BlobDemo
+activity::QuickPlay
+api_call::android/media/MediaPlayer;->start
+activity::Context
+activity::Options
+feature::android.hardware.screen.portrait
+url::http://sites.google.com/site/kammobilegames\nfor
+activity::Career
+intent::android.intent.category.LAUNCHER
+url::sites.google.com
+real_permission::android.permission.WAKE_LOCK
+activity::Confirm
+activity::Choose Background

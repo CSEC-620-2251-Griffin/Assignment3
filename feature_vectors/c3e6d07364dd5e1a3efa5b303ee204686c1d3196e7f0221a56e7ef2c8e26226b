@@ -1,0 +1,12 @@
+activity::com.whizical.kalfree.ImgPick
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://www.Whizical.com/WhizSprt.htm\%27>Contact/Support</a>
+call::Read/Write External Storage
+url::www.Whizical.com
+intent::android.intent.category.LAUNCHER
+url::http://www.Whizical.com\%27>www.Whizical.com</a>
+real_permission::android.permission.READ_CONTACTS
+url::www.Whizical.com\%27>www.Whizical.com<
+activity::.KalWind
+api_call::android/content/ContentResolver;->query

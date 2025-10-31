@@ -1,0 +1,20 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+api_call::android/app/KeyguardManager$KeyguardLock;->disableKeyguard
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.DEVICE_POWER
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+permission::android.permission.DISABLE_KEYGUARD
+service_receiver::.WakeupTimerService
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.DISABLE_KEYGUARD
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+activity::.BioTimerAct
+api_call::android/content/Context;->startActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

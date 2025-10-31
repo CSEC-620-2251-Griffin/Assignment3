@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.Artikujt
+activity::.Info
+intent::android.intent.action.MAIN
+url::http://www.albdevnet.com/feed/
+url::http://www.eltonkola.com
+url::www.albdevnet.com
+url::http://www.albdevnet.com
+permission::android.permission.INTERNET
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+url::www.eltonkola.com
+real_permission::android.permission.INTERNET
+activity::.Komentet
+activity::.Shkrimi
+url::http://www.albdevnet.com/comments/feed/
+activity::.AdnReader

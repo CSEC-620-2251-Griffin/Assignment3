@@ -1,0 +1,9 @@
+url::http://www.mojodroid.com
+activity::.ListItemsActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+url::www.mojodroid.com
+activity::.ListGroupsActivity
+intent::android.intent.category.LAUNCHER

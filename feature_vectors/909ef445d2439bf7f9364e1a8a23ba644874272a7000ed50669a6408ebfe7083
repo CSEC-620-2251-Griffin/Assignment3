@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+activity::eu.chainfire.dslrcontroller.PTPAttachedActivity
+activity::.LiveViewActivity
+feature::android.hardware.usb.host
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo
+api_call::android/content/Context;->sendBroadcast
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+activity::LiveViewActivity

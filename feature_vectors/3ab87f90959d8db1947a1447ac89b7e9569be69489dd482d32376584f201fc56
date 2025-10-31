@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+activity::.CyberhoodWorkflowDetailTabs
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::.CyberhoodWorkflowServices
+url::www.kinghood.com.tw
+call::getSystemService
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(AES)
+activity::.CyberhoodWorkflowMain
+url::http://www.kinghood.com.tw
+activity::.CyberhoodWorkflowDetail
+activity::.CyberhoodWorkflowListBrowse
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(Blowfish)
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

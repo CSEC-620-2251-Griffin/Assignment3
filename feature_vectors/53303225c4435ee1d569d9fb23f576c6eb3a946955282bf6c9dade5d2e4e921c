@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+provider::android.appwidget.provider
+activity::nl.netwaves.fctwenteclock.Info
+intent::android.intent.category.INFO
+intent::android.intent.action.MAIN

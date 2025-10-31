@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/media/AudioRecord
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+activity::.MainActivity
+activity::com.simplyusefulapps.android.sillyfunnymouth.MainActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+url::http://bit.ly/suandro1
+permission::android.permission.RECORD_AUDIO
+url::bit.ly

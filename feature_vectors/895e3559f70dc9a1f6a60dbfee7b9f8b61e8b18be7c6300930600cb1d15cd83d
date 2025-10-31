@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+api_call::java/net/HttpURLConnection
+url::http://schemas.google.com/g/2005
+permission::android.permission.INTERNET
+url::https://www.google.com/accounts/ClientLogin
+url::schemas.google.com
+url::www.google.com
+url::android.storm-frandsen.dk
+url::http://www.w3.org/2005/Atom\%27
+url::docs.google.com
+activity::.activity.GroceryListTab
+activity::.activity.UserList
+activity::.activity.Dashboard
+url::http://android.storm-frandsen.dk
+activity::.activity.Settings
+activity::.activity.GroceryLists
+call::Read/Write External Storage
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.w3.org
+real_permission::android.permission.INTERNET
+activity::.Dashboard
+activity::.activity.NewGroceryList
+intent::android.intent.category.LAUNCHER
+url::http://schemas.google.com/acl/2007
+activity::.activity.Help
+url::https://docs.google.com/feeds/default/private/full

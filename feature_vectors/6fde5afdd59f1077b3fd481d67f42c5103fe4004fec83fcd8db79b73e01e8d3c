@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+activity::.AntBikeDemo
+feature::android.hardware.screen.portrait
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::com.dsi.ant.permission.ANT_ADMIN
+url::http://market.android.com/search?q%3D
+api_call::android/content/Context;->startActivity
+permission::com.dsi.ant.permission.ANT

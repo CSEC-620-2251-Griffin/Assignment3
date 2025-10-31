@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.SizeSelect
+intent::android.intent.action.MAIN
+real_permission::android.permission.VIBRATE
+api_call::android/content/Context;->startActivity
+activity::.ShowNoteHistory
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+activity::.Setting
+activity::.List
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService
+api_call::android/content/ContentResolver;->query

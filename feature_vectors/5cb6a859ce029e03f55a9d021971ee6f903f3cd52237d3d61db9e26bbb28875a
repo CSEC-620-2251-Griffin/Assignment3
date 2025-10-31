@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+url::http://kagawaweb.net/udongame/cgi-bin/write.cgi
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+url::http://kagawaweb.net/udongame/cgi-bin/read.cgi
+url::kagawaweb.net
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::.UdonGameActivity

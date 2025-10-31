@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::www.lola-vegas.com
+intent::android.intent.action.MAIN
+url::http://www.lola-vegas.com/m/index.html
+activity::.lolamobile
+intent::android.intent.category.LAUNCHER

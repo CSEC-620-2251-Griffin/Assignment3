@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::com.pekechis.ceplora.BlogRoll
+url::search.yahoo.com
+intent::android.intent.action.MAIN
+url::http://search.yahoo.com/mrss/
+activity::com.pekechis.ceplora.CEPLora
+activity::com.pekechis.ceplora.Viewer
+permission::android.permission.INTERNET
+activity::com.pekechis.ceplora.NewsRoll
+url::http://www.loracep.org/index.php?option%3Dcom_rss
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+url::www.loracep.org
+real_permission::android.permission.INTERNET
+url::http://www.loracep.org/blog/?feed%3Drss2
+activity::.CEPLora

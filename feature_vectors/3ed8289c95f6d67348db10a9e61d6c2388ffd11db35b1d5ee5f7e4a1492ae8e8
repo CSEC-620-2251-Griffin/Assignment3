@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+activity::com.mapfriends.moveit.MainActivityManager
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getPackageInfo
+url::http://android.mapfriends.se/DataHandler3.ashx
+activity::.MainActivityManager
+intent::android.intent.category.DEFAULT
+url::android.mapfriends.se
+intent::android.intent.category.LAUNCHER
+url::http://android.mapfriends.se
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection

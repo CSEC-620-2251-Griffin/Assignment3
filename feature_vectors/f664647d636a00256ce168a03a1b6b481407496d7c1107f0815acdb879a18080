@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.TabViewActivity
+url::http://docs.rackspacecloud.com/servers/api/v1.0\
+permission::android.permission.INTERNET
+activity::.ViewServerActivity
+activity::.ListServersActivity
+activity::.RackspaceCloudActivity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.APPLICATION
+url::https://auth.api.rackspacecloud.com/v1.0
+url::docs.rackspacecloud.com
+activity::.AddServerActivity
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::auth.api.rackspacecloud.com

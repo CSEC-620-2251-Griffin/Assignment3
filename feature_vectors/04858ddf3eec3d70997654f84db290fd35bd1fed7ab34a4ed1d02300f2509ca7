@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+activity::.Midlet
+url::http://wap.pipyaki.ru/help.php?dn%3D
+intent::android.intent.action.MAIN
+url::wap.pipyaki.ru
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+url::http://www.netmite.com/android/srv/2.0/upload/Pipyakas_jing.jar
+call::getPackageInfo
+url::http://get.pipyakas.com/pipyaka/pipyaka.php?p%3D4&dn%3D
+url::get.pipyakas.com

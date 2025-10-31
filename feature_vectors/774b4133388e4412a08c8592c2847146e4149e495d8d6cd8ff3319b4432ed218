@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+url::bist.knu.ac.kr
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.GameActivity
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::http://bist.knu.ac.kr/android/flipflop/
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

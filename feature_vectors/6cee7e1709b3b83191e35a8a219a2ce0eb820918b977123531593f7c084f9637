@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.MobileHoju
+url::http://mhoju.com
+activity::MobileHoju
+permission::android.permission.INTERNET
+url::mhoju.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

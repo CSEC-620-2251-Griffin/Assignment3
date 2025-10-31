@@ -1,0 +1,33 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+permission::android.permission.READ_PHONE_STATE
+service_receiver::Vanilla Music 1x4
+service_receiver::Vanilla Music 1x1
+service_receiver::Vanilla Music 2x2
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.MODIFY_AUDIO_SETTINGS
+activity::SongSelector
+api_call::android/media/MediaPlayer;->start
+service_receiver::PlaybackService
+activity::FullPlaybackActivity
+real_permission::android.permission.VIBRATE
+activity::.LaunchActivity
+call::getSystemService
+api_call::android/telephony/TelephonyManager;->listen
+api_call::android/content/Context;->startService
+real_permission::android.permission.READ_PHONE_STATE
+activity::MiniPlaybackActivity
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+intent::android.intent.action.MEDIA_BUTTON
+permission::android.permission.WAKE_LOCK
+service_receiver::MediaButtonReceiver
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::LaunchActivity
+activity::.OneCellWidgetConfigure
+intent::android.intent.category.LAUNCHER
+api_call::android/media/AudioManager;->isBluetoothA2dpOn
+provider::android.appwidget.provider

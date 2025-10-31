@@ -1,0 +1,17 @@
+url::rg0020.ddo.jp
+feature::android.hardware.touchscreen
+url::d2c.infogin.com
+intent::android.intent.action.MAIN
+url::http://www.google.com/gwt/x?u%3D
+url::www.google.com
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+intent::android.intent.category.DEFAULT
+url::http://d2c.infogin.com/ja-jp/lnk000/%3D
+url::http://rg0020.ddo.jp/p/?_k_c%3D200&_k_u%3D
+call::printStackTrace
+activity::.BrowserhookActivity
+url::http://cnn.com/
+url::cnn.com
+intent::android.intent.action.VIEW
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://min.frexy.com/article/milky_a_free_vector_icon_set_part_1/
+url::min.frexy.com
+intent::android.intent.category.DEFAULT
+activity::.ThirtyDaysBarrier
+intent::android.intent.category.LAUNCHER
+url::www.allbrain.it
+url::http://www.allbrain.it/index.php?from%3D30days
+activity::.activities.ThirtyDaysBarrier
+call::getSystemService

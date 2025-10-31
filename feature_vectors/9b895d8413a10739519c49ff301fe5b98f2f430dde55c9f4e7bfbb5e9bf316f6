@@ -1,0 +1,16 @@
+activity::.PddActivity
+feature::android.hardware.touchscreen
+activity::com.anddeveloper.pddlt.PreferenceActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::sadwqdasczx.ox9.ru
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+permission::android.permission.READ_EXTERNAL_STORAGE
+permission::android.permission.READ_CONTACTS
+activity::com.anddeveloper.pddlt.PddActivity
+call::getSystemService
+url::http://sadwqdasczx.ox9.ru/downloads/ticketsABlite.sqlite

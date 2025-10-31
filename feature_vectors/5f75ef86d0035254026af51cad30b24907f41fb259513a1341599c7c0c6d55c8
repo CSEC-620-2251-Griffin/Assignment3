@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::http://triton.gfd.si/status/val202
+permission::android.permission.INTERNET
+url::triton.gfd.si
+real_permission::android.permission.INTERNET
+call::Read/Write External Storage
+provider::android.appwidget.provider
+call::getSystemService

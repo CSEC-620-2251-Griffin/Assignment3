@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::CacheDescriptionView
+feature::android.hardware.location.gps
+activity::GDAK
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+activity::CompassViewActivity
+call::getSystemService
+activity::SettingsActivity
+activity::.CacheListActivity
+intent::android.intent.category.PREFERENCE
+activity::CacheViewerActivity
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::CacheLogsActivity
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+activity::ShortCacheViewActivity

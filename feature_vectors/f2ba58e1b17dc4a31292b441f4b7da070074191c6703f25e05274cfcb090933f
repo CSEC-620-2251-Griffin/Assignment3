@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.Editor
+intent::android.intent.action.MAIN
+activity::.Prefs
+call::getSystemService
+call::printStackTrace
+intent::android.intent.action.EDIT
+permission::android.permission.INTERNET
+activity::.FileCommander
+intent::android.intent.category.LAUNCHER
+api_call::java/net/ServerSocket
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+intent::android.intent.action.VIEW

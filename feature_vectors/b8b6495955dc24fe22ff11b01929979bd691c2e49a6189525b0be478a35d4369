@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+service_receiver::.ChargingOffReceiver
+intent::android.intent.action.ACTION_POWER_CONNECTED
+intent::android.intent.action.ACTION_POWER_DISCONNECTED
+service_receiver::Battery Last Unplugged
+service_receiver::.ChargingOnReceiver
+provider::android.appwidget.provider

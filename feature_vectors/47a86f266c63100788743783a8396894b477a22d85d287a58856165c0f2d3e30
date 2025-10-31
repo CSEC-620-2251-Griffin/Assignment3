@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.Main
+permission::android.permission.INTERNET
+url::http://www.mundirecargas.com/h2h/android.asp
+feature::android.hardware.screen.portrait
+url::www.mundirecargas.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::HttpPost

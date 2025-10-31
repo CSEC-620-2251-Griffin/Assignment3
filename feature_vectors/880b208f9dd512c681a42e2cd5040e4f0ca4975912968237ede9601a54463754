@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.UBSmobileActivity
+url::https://ent.univ-ubs.fr/
+intent::android.intent.category.LAUNCHER
+url::ent.univ-ubs.fr

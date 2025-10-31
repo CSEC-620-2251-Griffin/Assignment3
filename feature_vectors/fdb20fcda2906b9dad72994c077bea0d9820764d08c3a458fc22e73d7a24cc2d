@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::quizler.main.FileHandler
+activity::.FileHandler
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::quizler.main.FileWrite
+activity::quizler.main.MainMenu

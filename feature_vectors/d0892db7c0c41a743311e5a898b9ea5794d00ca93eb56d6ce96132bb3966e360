@@ -1,0 +1,12 @@
+url::www.nikstrade.co.in
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::java/net/Socket
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.nikstrade.co.in/blog/nikstrade/blog.html
+intent::android.intent.category.LAUNCHER
+url::http://www.nikstrade.co.in/android/storeUser.php?name%3D
+url::http://www.nikstrade.co.in

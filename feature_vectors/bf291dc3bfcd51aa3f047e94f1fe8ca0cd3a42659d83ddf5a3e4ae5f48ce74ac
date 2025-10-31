@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::YANA
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.action.EDIT
+intent::android.intent.action.DELETE
+intent::android.intent.category.DEFAULT
+activity::YANA_About
+intent::android.intent.category.LAUNCHER
+activity::YANA_Editor
+intent::android.intent.action.INSERT
+activity::.YANA
+call::getSystemService
+intent::android.intent.action.VIEW

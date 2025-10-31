@@ -1,0 +1,12 @@
+url::m.iusm.co.kr
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://m.iusm.co.kr
+intent::android.intent.category.LAUNCHER
+activity::.IUSMR
+real_permission::android.permission.INTERNET
+url::http://218.232.105.121/
+url::218.232.105.121

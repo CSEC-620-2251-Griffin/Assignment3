@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.Info
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+service_receiver::Ravenclaw Clock

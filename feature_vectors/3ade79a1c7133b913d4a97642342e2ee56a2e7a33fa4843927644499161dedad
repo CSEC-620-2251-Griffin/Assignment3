@@ -1,0 +1,9 @@
+url::http://www.ptkdev.it
+feature::android.hardware.touchscreen
+url::www.ptkdev.it
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

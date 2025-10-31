@@ -1,0 +1,14 @@
+permission::android.permission.CALL_PHONE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+permission::android.permission.READ_PHONE_STATE
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+real_permission::android.permission.INTERNET
+call::getSystemService

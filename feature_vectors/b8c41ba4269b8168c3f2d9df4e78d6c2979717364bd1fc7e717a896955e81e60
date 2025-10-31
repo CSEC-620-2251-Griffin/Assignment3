@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.protocol1
+intent::android.intent.action.MAIN
+activity::.protocol2
+call::printStackTrace
+activity::.SplashScreen
+feature::android.hardware.screen.portrait
+activity::.med
+activity::.desc
+intent::android.intent.category.LAUNCHER
+activity::.desc2
+intent::android.intent.category.DEFAULT

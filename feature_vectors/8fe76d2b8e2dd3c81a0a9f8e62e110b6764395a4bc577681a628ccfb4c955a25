@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+activity::net.obtuse.games.drumprodigy.lite.Splash
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.ObtuseSplash
+activity::net.obtuse.games.drumprodigy.lite.Main
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

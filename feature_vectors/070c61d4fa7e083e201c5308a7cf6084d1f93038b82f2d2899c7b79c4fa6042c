@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://kubotama.cafe.coocan.jp/i/and/
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+activity::.f_rpg1Activity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::kubotama.cafe.coocan.jp
+real_permission::android.permission.WAKE_LOCK

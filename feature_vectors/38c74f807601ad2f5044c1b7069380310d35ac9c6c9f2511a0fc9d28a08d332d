@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.jennifer-c-wong.com/MobileAd.html
+activity::.TicTacToe
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+activity::.Game
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+url::www.jennifer-c-wong.com
+call::getSystemService

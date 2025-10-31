@@ -1,0 +1,16 @@
+activity::.Scoreboard
+feature::android.hardware.touchscreen
+url::http://www.hayava.com/insertrecordteams.php
+url::http://www.hayava.com/insertrecordscore.php
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://www.hayava.com/insertrecordlocation.php
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://www.hayava.com/getteamscore.php
+real_permission::android.permission.INTERNET
+url::http://www.hayava.com/updatescore.php
+url::www.hayava.com
+intent::android.intent.category.LAUNCHER
+call::HttpPost
+url::http://www.hayava.com/getalllocationsafter.php

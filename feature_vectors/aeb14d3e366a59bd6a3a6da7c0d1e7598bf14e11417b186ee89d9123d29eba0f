@@ -1,0 +1,58 @@
+feature::android.hardware.touchscreen
+url::http://www.fishbase.org/Summary/FamilySummary.php?ID%3D445
+url::http://www.fishbase.org/Summary/OrdersSummary.php?order%3DCypriniformes
+url::http://www.fishbase.org/Summary/OrdersSummary.php?order%3DPerciformes
+activity::Taxonomy Rank Details
+url::http://www.fishbase.org/Summary/FamilySummary.php?ID%3D460
+url::http://www.fishbase.org/Summary/OrdersSummary.php?order%3DScorpaeniformes
+intent::android.intent.category.DEFAULT
+url::http://blog.reefcharter.com/2009/07/damsel-fish-species-of-the-reef.html]
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.INTERNET
+url::fishbase.sinica.edu.tw
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+url::blog.reefcharter.com
+url::http://en.wikipedia.org/wiki/Koi
+url::http://www.fishbase.org/Summary/FamilySummary.php?ID%3D264
+provider::.provider.FishesProvider
+api_call::android/content/ContentResolver;->query
+feature::android.hardware.location.gps
+url::http://www.fishbase.org/Summary/FamilySummary.php?ID%3D350
+url::http://en.wikipedia.org/wiki/Clownfish]
+activity::Fishes Settings
+url::www.fishbase.org
+feature::android.hardware.location
+url::http://www.fishbase.org/Summary/OrdersSummary.php?order%3DTetraodontiformes
+provider::com.shuffledbits.fishid.provider.FishId
+intent::android.intent.action.INSERT
+activity::Fishes List
+activity::Fishes Map
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+call::getSystemService
+url::http://en.wikipedia.org/wiki/Butterflyfish]
+url::http://www.fishbase.org/Summary/FamilySummary.php?ID%3D343
+url::http://www.fishbase.org/Summary/FamilySummary.php?ID%3D122
+activity::Fish Details
+activity::Species Details
+activity::Fish Taxonomy
+intent::android.intent.action.GET_CONTENT
+activity::Authors
+intent::android.intent.action.EDIT
+activity::Species List
+url::http://fishbase.sinica.edu.tw/summary/SpeciesSummary.php?id%3D6026
+api_call::android/location/LocationManager;->getBestProvider
+url::en.wikipedia.org
+intent::android.intent.action.VIEW
+url::http://en.wikipedia.org/wiki/Emperor_angelfish]
+url::http://en.wikipedia.org/wiki/Red_lionfish]
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+activity::Taxonomy Ranks List
+url::http://en.wikipedia.org/wiki/Lagoon_triggerfish]
+feature::android.hardware.screen.portrait
+activity::Author Details
+activity::.Home
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->startActivity

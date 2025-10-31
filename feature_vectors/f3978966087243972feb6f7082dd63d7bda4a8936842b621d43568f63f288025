@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+activity::.Main
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.INTERNET
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+url::www.apache.org%21
+api_call::android/media/MediaPlayer;->start
+url::http://[\\.\\w\\-\\?/
+service_receiver::.MsgReceiver
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/telephony/TelephonyManager;->listen
+api_call::java/net/URL;->openStream
+url::http://www.apache.org\
+call::Obfuscation(Base64)
+url::www.apache.org\
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://www.apache.org%21

@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+activity::.StockDemo
+call::printStackTrace
+activity::.Movie
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.INTERNET
+url::http://soroo.com
+url::http://soroo.com/church/api/sendFileList.php
+url::http://soroo.com/church/api/sendFileList.php?status%3Dall
+permission::android.permission.READ_PHONE_STATE
+activity::.version.VersionManager
+url::soroo.com
+activity::.StockDemoMain
+url::http://soroo.com/church/api/sendFileList.php?status%3Dupdate&updateDate%3D
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RESTART_PACKAGES
+url::http://soroo.com/church/Church/

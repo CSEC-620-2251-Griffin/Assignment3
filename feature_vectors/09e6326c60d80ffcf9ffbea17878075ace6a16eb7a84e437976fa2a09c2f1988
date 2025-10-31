@@ -1,0 +1,7 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+service_receiver::vader.luv.battery.AWProvider
+real_permission::android.permission.VIBRATE
+provider::android.appwidget.provider
+call::getSystemService

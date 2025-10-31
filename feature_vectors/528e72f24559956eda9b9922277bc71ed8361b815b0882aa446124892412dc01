@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://opensourcebridge.org/events/2011/schedule.json
+intent::android.intent.category.LAUNCHER
+url::opensourcebridge.org
+url::http://opensourcebridge.org/users/
+call::getSystemService

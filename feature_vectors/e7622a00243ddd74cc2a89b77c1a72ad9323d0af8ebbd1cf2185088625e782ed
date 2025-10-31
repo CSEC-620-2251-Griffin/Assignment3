@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://localfreeapps.com/api/mobileapp.php?appid%3D33
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.ParkwayNissan
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::localfreeapps.com

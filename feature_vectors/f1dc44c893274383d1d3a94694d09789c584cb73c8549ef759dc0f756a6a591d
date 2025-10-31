@@ -1,0 +1,13 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.AddChannelWnd
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+activity::.ChannelList
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.ViewItem
+activity::.ViewChannel
+api_call::java/net/URL;->openConnection
+permission::android.permission.READ_EXTERNAL_STORAGE

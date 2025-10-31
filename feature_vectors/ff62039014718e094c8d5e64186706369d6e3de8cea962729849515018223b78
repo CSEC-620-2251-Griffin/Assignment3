@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::secure.join.me
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::https://secure.join.me/Client/NativeClient.aspx?personalURL%3D
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+activity::.JoinMeActivity
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+url::https://secure.join.me/Client/NativeClient.aspx?code%3D
+api_call::java/net/Socket
+call::getSystemService

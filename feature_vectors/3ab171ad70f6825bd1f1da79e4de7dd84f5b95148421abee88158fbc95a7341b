@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+url::http://api.appz.im/
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.AppzIm
+url::m.appz.im
+url::api.appz.im
+intent::android.intent.category.LAUNCHER
+url::http://m.appz.im/signup
+url::http://m.appz.im/about

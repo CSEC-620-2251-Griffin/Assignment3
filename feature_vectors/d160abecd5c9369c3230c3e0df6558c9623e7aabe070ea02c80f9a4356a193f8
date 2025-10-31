@@ -1,0 +1,17 @@
+activity::.PerssearchActivity
+permission::android.permission.WRITE_CONTACTS
+url::perssearch.unibas.ch
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::https://perssearch.unibas.ch/?Json%3D1
+api_call::android/app/Activity;->startActivity
+activity::.view.PersonDetailsActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::https://perssearch.unibas.ch/?Json%3D1&query%3D
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+permission::android.permission.READ_CONTACTS
+call::getSystemService

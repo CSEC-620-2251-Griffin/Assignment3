@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://uk.news.search.yahoo.com/rss?ei%3DUTF-8&p%3Dlottery&fr%3Dnews_sb_hd
+url::http://img821.imageshack.us/img821/2025/splashz.png
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://e31bdfmiokqixa4dga12wnsh8a.hop.clickbank.net/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::e31bdfmiokqixa4dga12wnsh8a.hop.clickbank.net
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::img821.imageshack.us
+url::uk.news.search.yahoo.com
+activity::.Activity1

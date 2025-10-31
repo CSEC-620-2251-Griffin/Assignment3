@@ -1,0 +1,16 @@
+activity::.ProgressBarActivity
+activity::.FileBrowser
+permission::android.permission.WRITE_CONTACTS
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::Obfuscation(Base64)
+call::printStackTrace
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+permission::android.permission.WRITE_SMS
+intent::android.intent.category.LAUNCHER
+activity::.Main_BackupUtility
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::getSystemService
+api_call::android/content/ContentResolver;->query

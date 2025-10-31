@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::conf.activities.TagsActivity
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::conf.activities.SpeakersActivity
+permission::android.permission.INTERNET
+activity::conf.activities.SessionActivity
+real_permission::android.permission.INTERNET
+api_call::android/media/AudioRecord
+activity::conf.activities.SpeakerActivity
+activity::conf.activities.FavouritesActivity
+activity::.HomeActivity
+activity::conf.activities.SessionsActivity
+intent::android.intent.category.LAUNCHER

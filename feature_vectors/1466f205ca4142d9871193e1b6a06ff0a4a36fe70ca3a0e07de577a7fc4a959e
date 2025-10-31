@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+feature::android.software.live_wallpaper
+permission::android.permission.SET_WALLPAPER_HINTS

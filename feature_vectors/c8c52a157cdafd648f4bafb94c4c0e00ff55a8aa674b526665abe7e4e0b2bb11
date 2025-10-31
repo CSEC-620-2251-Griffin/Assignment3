@@ -1,0 +1,12 @@
+activity::.calcpitch.CPActivity
+activity::.calcgap.CGActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.pitch_gap_list.PGLActivity
+activity::.pitch_g_sensor.PGSActivity
+feature::android.hardware.screen.portrait
+activity::.mark_blades_in_picture.MBIPActivity
+activity::.RCHeliPitch
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getSystemService

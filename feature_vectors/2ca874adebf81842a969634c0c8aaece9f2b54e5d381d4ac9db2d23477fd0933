@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.fujirockfestival.com
+url::http://www.fujirockfestival.com/artist/artistdata.asp?id%3D
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getSystemService

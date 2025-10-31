@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::.Whois
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+activity::mobi.dzs.android.whois12114.Whois
+real_permission::android.permission.INTERNET
+url::www.bizsms.cn
+url::http://www.bizsms.cn/InterFace/InterFace.php
+intent::android.intent.category.LAUNCHER
+url::http://www.bizsms.cn/InterFaceV3/InterFace.php
+call::getSystemService

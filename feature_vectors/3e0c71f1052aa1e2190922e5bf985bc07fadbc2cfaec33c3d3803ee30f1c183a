@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::mobile.bikeparking.co.kr
+url::http://m.ecglobal.co.kr
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.ImageBtnExam
+url::http://mobile.bikeparking.co.kr
+url::m.ecglobal.co.kr
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait

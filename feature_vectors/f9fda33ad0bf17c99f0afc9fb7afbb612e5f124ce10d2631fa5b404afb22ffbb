@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::Settings
+intent::android.intent.action.MAIN
+activity::HowToPlay
+api_call::android/media/MediaPlayer;->start
+activity::Alphabet Gallery
+intent::android.intent.category.LAUNCHER
+activity::.TamilAlphaMemory
+real_permission::android.permission.WAKE_LOCK

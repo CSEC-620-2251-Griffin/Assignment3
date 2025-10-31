@@ -1,0 +1,10 @@
+activity::.Force2SD
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::mobi.pruss.force2sd.Force2SD
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService

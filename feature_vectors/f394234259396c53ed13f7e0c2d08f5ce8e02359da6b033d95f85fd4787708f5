@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::http://www.blouzo.com\n\nThe
+url::www.blouzo.com\n\nThe
+intent::android.intent.action.MAIN
+activity::.SplashScreen
+intent::android.intent.category.DEFAULT
+activity::SplashScreen
+intent::android.intent.category.LAUNCHER

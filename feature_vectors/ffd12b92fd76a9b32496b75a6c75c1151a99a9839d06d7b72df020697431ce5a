@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.multas
+intent::android.intent.action.MAIN
+url::http://www.buscamultas.com
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.buscamultas.com

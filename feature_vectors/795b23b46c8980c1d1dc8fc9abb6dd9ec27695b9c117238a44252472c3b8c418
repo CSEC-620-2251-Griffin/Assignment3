@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+url::http://market.android.com/search?q%3Dpname:com.bitartist.donutclock
+provider::android.appwidget.provider
+api_call::android/content/Context;->startActivity
+url::market.android.com

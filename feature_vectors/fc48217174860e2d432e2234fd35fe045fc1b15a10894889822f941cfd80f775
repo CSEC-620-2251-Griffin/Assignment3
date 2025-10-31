@@ -1,0 +1,3 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+call::getSystemService

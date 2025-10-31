@@ -1,0 +1,10 @@
+activity::.Boulder
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.meetup.com/Boulder-Android/
+url::http://BoulderAndroid.com
+url::twitter.com
+url::http://twitter.com/BoulderAndroid
+intent::android.intent.category.LAUNCHER
+url::BoulderAndroid.com
+url::www.meetup.com

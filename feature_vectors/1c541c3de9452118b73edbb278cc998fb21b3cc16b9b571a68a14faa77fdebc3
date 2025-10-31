@@ -1,0 +1,18 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_PHONE_STATE
+service_receiver::.BlockCallService
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::.CallBlocker
+api_call::java/lang/Runtime;->exec
+intent::android.intent.category.DEFAULT
+call::Execution of external commands
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+permission::android.permission.CALL_PHONE
+real_permission::android.permission.READ_CONTACTS
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.READ_CONTACTS
+activity::About
+call::getSystemService

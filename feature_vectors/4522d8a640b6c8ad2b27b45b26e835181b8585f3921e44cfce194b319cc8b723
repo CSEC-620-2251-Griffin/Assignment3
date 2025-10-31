@@ -1,0 +1,16 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::promotrcker.info
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.easybabylife.com
+permission::android.permission.INTERNET
+url::http://www.160tracker.com/?a%3Da3pztw&b%3Dd40rou&s1%3Dxxxx&s2%3Dxxxx
+url::i1184.photobucket.com
+url::http://www.easybabylife.com/Baby.xml
+intent::android.intent.category.LAUNCHER
+url::http://promotrcker.info/x/0/3324/18389/
+url::http://i1184.photobucket.com/albums/z338/ajsnsc/landingpage.jpg
+real_permission::android.permission.INTERNET
+activity::.Activity1
+url::www.160tracker.com

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://bighits.net/clevelandjobs/index.php
+permission::android.permission.INTERNET
+activity::.clevelandjobs
+intent::android.intent.category.LAUNCHER
+url::bighits.net
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

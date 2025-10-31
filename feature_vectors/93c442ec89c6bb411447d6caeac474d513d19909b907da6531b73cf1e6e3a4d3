@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_LOGS
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.deepraid.com/dr_stats/buy
+api_call::android/media/MediaPlayer;->start
+api_call::android/content/Context;->startActivity
+url::http://www.deepraid.com/dr_stats/comment
+url::http://www.deepraid.com/dr_stats/first
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+feature::android.hardware.screen.landscape
+activity::.MissionNoGL
+url::www.deepraid.com
+url::http://www.deepraid.com/dr_stats/mission
+real_permission::android.permission.WAKE_LOCK
+api_call::java/lang/Runtime;->exec
+call::printStackTrace
+api_call::java/net/URL;->getContent
+intent::android.intent.category.LAUNCHER

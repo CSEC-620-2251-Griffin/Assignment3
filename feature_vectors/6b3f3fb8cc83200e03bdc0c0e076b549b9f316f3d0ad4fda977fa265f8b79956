@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.FarmonyFree
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.RESTART_PACKAGES
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+api_call::android/app/ActivityManager;->restartPackage
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.RESTART_PACKAGES
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

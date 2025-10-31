@@ -1,0 +1,13 @@
+service_receiver::.Services.UpdateService
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::HttpPost
+activity::.MainActivity
+permission::android.permission.INTERNET
+api_call::java/net/Socket
+real_permission::android.permission.INTERNET
+service_receiver::SmallWidget
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

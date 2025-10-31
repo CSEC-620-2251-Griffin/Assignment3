@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.BunnyGames
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::www.catglo.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://www.catglo.com/key.html
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

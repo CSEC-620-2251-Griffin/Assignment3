@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+intent::android.intent.action.SEND_MULTIPLE
+intent::android.intent.action.SENDTO
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+intent::android.intent.action.SEND
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.VIBRATE
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+service_receiver::BootCompletedReceiver
+activity::SupportText
+intent::android.intent.action.BOOT_COMPLETED
+intent::android.intent.category.BROWSABLE
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+intent::android.intent.action.VIEW
+activity::.SupportText

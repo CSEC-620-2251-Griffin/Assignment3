@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.zinewrapper
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::digital.reneweveryday.com
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://digital.reneweveryday.com/title/7121?ref%3Dandroid_app

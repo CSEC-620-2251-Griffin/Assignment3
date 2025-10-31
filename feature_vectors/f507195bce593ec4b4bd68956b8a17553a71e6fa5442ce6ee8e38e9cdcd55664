@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::m.wics.com
+url::http://m.wics.com
+activity::.WICS
+intent::android.intent.category.LAUNCHER

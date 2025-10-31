@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+activity::.UserListActivity
+url::http://www.facebook.com/profile.php?id%3D
+url::app.webomer.ru
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::http://app.webomer.ru/api/
+real_permission::android.permission.INTERNET
+activity::.ui.users.UserListActivity

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.andvari.net/
+intent::android.intent.action.MAIN
+intent::com.twofortyfouram.locale.intent.action.FIRE_SETTING
+real_permission::android.permission.WRITE_SYNC_SETTINGS
+api_call::android/content/ContentResolver;->setMasterSyncAutomatically
+intent::com.twofortyfouram.locale.intent.action.EDIT_SETTING
+permission::android.permission.WRITE_SYNC_SETTINGS
+call::getPackageInfo
+url::www.andvari.net
+service_receiver::.FireReceiver
+intent::android.intent.category.INFO

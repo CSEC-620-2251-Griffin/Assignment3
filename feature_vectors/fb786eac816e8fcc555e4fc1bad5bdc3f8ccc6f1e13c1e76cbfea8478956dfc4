@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::http://www.nadovich.com/chris/resume.html
+intent::android.intent.action.MAIN
+url::www.nadovich.com
+activity::.main
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://www.nadovich.com/chris/resume.html\

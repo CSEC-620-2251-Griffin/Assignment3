@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+url::http://bit.ly/a5vt6J
+permission::tunnybrowser.permission.Extension
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+url::bit.ly
+intent::android.intent.category.INFO

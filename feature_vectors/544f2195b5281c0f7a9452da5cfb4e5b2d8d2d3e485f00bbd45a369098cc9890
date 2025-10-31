@@ -1,0 +1,14 @@
+url::http://www.dadbiz.es\%27>www.dadbiz.es</a>
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+activity::.MainActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::www.dadbiz.es\%27>www.dadbiz.es<
+activity::MainActivity
+call::Read/Write External Storage
+call::getSystemService

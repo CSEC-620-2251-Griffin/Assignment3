@@ -1,0 +1,21 @@
+activity::PlayActivity
+feature::android.hardware.touchscreen
+service_receiver::AutoMute
+url::http://gdata.youtube.com/feeds/api/videos?vq%3D
+intent::android.intent.action.MAIN
+activity::SettingActivity
+call::getSystemService
+url::www.youtube.com
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::gdata.youtube.com
+service_receiver::PlayService
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://www.youtube.com/watch?v%3D
+call::Read/Write External Storage
+service_receiver::CacheService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+url::59.145.174.109
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.INTERNET
+url::192.168.101.22
+real_permission::android.permission.READ_CONTACTS
+call::HttpPost
+api_call::android/content/ContentResolver;->query
+feature::android.hardware.telephony
+call::getSystemService
+activity::.Mitr
+url::216.154.215.246
+url::http://192.168.101.22:8080
+url::http://59.145.174.109:8080
+url::192.168.105.23
+url::http://192.168.105.23:9080
+intent::android.intent.action.MAIN
+url::http://216.154.215.246:8080
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::Enter Text
+url::https://192.168.101.22:8443

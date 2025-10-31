@@ -1,0 +1,66 @@
+activity::.ui.Dashboard
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::getDeviceId
+intent::android.intent.action.PACKAGE_ADDED
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+service_receiver::InstallReceiver
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+activity::Notification Settings
+permission::android.permission.READ_CONTACTS
+service_receiver::SmsListener
+real_permission::android.permission.WAKE_LOCK
+activity::Backup Settings
+feature::android.hardware.location.gps
+permission::android.permission.WRITE_CONTACTS
+intent::android.intent.action.PACKAGE_REPLACED
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::.LoadDispatch
+feature::android.hardware.location
+activity::Anti-Virus Settings
+real_permission::android.permission.VIBRATE
+activity::Connection Settings
+real_permission::android.permission.INTERNET
+activity::.ui.AboutActivity
+call::getSystemService
+intent::.intent.action.WARN_VIRUS
+provider::android.provider.Telephony.SMS_RECEIVED
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.DEVICE_POWER
+permission::android.permission.WAKE_LOCK
+permission::android.permission.MASTER_CLEAR
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.PERSISTENT_ACTIVITY
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+api_call::android/app/Activity;->setContentView
+api_call::android/content/Context;->sendBroadcast
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/content/ContentResolver;->query
+activity::.ui.CreateAccount
+activity::.ui.LegalActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+call::getSubscriberId
+activity::.ui.LoginToAccount
+api_call::android/os/PowerManager;->goToSleep
+permission::android.permission.ADD_SYSTEM_SERVICE
+feature::android.hardware.location.network
+activity::.ui.LoadDispatch
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_OWNER_DATA
+intent::android.intent.action.PACKAGE_CHANGED
+activity::.ui.MainScreen
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::AppLauncher
+service_receiver::NotificationService

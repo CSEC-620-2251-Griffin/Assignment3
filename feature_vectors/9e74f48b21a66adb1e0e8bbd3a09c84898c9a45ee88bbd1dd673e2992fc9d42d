@@ -1,0 +1,15 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.precinctfind.com/phone2/ph2_GetVoter.php
+url::www.precinctfind.com
+url::http://www.precinctfind.com/phone2/ph2_GetVoter.php?op%3DX2&cn%3D
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.searchform
+api_call::android/app/Activity;->setContentView
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::http://www.precinctfind.com/handle_upload.php
+url::http://www.precinctfind.com/phone2/ph2_GetVoter.php?op%3DX1&nm%3D

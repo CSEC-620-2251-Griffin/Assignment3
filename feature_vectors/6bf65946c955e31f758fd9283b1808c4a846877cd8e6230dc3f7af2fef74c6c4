@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://market.android.com/details?id%3Dfishnoodle.bamboo
+url::market.android.com
+call::Read/Write External Storage
+url::http://www.kittehface.com
+url::www.kittehface.com

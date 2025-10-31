@@ -1,0 +1,10 @@
+url::http://www.netmite.com/android/srv/2.0/upload/snowythebe_b55mhida.jar
+feature::android.hardware.touchscreen
+activity::.SnowyAdventures
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::www.netmite.com

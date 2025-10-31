@@ -1,0 +1,16 @@
+url::https://twitter.com/intent/user?screen_name%3Ddualbootgames
+feature::android.hardware.touchscreen
+url::www.facebook.com
+activity::.VDayActivity
+url::market.android.com
+intent::android.intent.action.MAIN
+url::twitter.com
+url::http://www.facebook.com/dualbootgames
+intent::android.intent.category.PREFERENCE
+intent::android.intent.category.DEFAULT
+feature::android.software.live_wallpaper
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+url::https://market.android.com/details?id%3Dcom.dualboot.apps.vday
+api_call::android/content/ContentResolver;->query

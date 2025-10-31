@@ -1,0 +1,11 @@
+url::http://whoopsinmobile.appspot.com/
+feature::android.hardware.touchscreen
+url::whoopsinmobile.appspot.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.w3.org
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.w3.org/1999/xhtml\
+activity::.tabs

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::.ServiceReceiver
+url::androidapps.ch
+activity::.CallBlocker
+intent::android.intent.action.PHONE_STATE
+feature::android.hardware.telephony
+url::http://androidapps.ch/?p%3D
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CALL_PHONE
+call::getPackageInfo
+call::getSystemService

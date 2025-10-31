@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://.+.gif
+call::printStackTrace
+provider::android.appwidget.provider
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startService
+call::getPackageInfo
+service_receiver::.WidgetUpdater$UpdateService
+url::.+.gif

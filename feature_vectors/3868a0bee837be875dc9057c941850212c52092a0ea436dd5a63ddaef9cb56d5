@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/media/AudioRecord
+real_permission::android.permission.RECORD_AUDIO
+activity::TwoActivity
+intent::android.intent.action.MAIN
+activity::NextActivity
+feature::android.hardware.microphone
+activity::.MainActivity
+activity::PreferenceActivity
+activity::ThreeActivity
+intent::android.intent.category.LAUNCHER
+activity::OneActivity
+activity::FourActivity
+feature::android.hardware.screen.portrait
+permission::android.permission.RECORD_AUDIO
+call::getSystemService

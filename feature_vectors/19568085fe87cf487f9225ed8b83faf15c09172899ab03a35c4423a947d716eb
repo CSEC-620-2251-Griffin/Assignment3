@@ -1,0 +1,43 @@
+activity::Sort runes by
+feature::android.hardware.touchscreen
+call::getDeviceId
+activity::Sort items by
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+url::my.mobfox.com
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::Item info
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+real_permission::android.permission.INTERNET
+activity::Rune info
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+url::http://a.admob.com/f0?
+api_call::android/location/LocationManager;->isProviderEnabled
+activity::Select champion
+call::getSystemService
+call::Read/Write External Storage
+activity::Select champion level
+activity::Export build
+url::http://my.mobfox.com/request.php
+activity::Mastery info
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.Splashscreen
+activity::LoL Builder Lite
+call::Cipher(AES/CBC/PKCS5Padding)
+activity::Import build
+real_permission::android.permission.READ_PHONE_STATE
+url::a.admob.com
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+url::schemas.android.com

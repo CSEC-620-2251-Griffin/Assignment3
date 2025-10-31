@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::java/net/Socket
+url::http://www.emezeta.com/EPA/list.txt
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::www.emezeta.com
+activity::.EPA
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+url::http://www.emezeta.com/articulos/formato-epa-elige-tu-propia-aventura
+call::HttpPost
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

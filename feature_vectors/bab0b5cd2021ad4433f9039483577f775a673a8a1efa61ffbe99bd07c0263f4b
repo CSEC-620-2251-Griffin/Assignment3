@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::frogdroid.com
+intent::android.intent.category.LAUNCHER
+url::http://frogdroid.com/counter.html
+activity::.CounterActivity
+call::getSystemService
+activity::CounterActivity

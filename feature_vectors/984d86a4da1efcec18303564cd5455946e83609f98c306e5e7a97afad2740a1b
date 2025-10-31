@@ -1,0 +1,11 @@
+activity::.GearsES1cupcake
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+intent::android.intent.category.ALTERNATIVE
+real_permission::android.permission.INTERNET
+intent::android.intent.action.ABOUT
+activity::.Gears4AndroidAbout
+url::http://www.jeffboody.net/gears4android.php\
+url::www.jeffboody.net
+intent::android.intent.category.LAUNCHER

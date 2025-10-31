@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+url::avlweb.charlottesville.org
+url::http://avlweb.charlottesville.org/RTT/Public/RoutePositionET.aspx?PlatformNo%3D
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.CavBusFinder
+real_permission::android.permission.INTERNET
+call::getSystemService

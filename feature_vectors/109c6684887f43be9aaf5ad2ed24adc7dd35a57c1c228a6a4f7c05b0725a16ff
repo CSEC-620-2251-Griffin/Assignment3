@@ -1,0 +1,15 @@
+activity::.Views.LogListView
+intent::android.intent.action.MAIN
+activity::.Views.TeamsView
+feature::android.hardware.touchscreen
+activity::.Views.EditPressureView
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.DEFAULT
+activity::.Views.ShowUnitView
+intent::android.intent.category.HOME
+activity::.Views.NewTeamView
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::.Views.SplashScreenView
+activity::.SplashScreenView
+activity::.Views.FileView

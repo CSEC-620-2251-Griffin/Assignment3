@@ -1,0 +1,14 @@
+activity::.NumKeypad
+activity::.HrTxt
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::teletekst1.hrt.hr
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::teletekst.hrt.hr
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://teletekst1.hrt.hr/images/
+url::http://teletekst1.hrt.hr/images/100-01.gif
+url::http://teletekst.hrt.hr/?str%3D

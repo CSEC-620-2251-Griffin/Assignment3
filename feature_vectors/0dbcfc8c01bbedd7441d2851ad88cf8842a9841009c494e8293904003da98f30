@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.QQMini
+url::w.qq.com
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+permission::android.permission.FLASHLIGHT
+real_permission::android.permission.INTERNET
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+permission::android.permission.BRICK
+intent::android.intent.action.MAIN
+url::http://w.qq.com/indexandroid.html
+call::getSystemService

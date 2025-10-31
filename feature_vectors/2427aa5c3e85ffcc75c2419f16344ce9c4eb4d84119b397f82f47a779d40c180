@@ -1,0 +1,21 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+activity::.LogEntriesActivity
+activity::com.pdr.android.apps.mylogs.LogFilterActivity
+intent::android.intent.action.MAIN
+activity::com.pdr.android.apps.mylogs.LoggerEntryActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Help
+api_call::android/content/Context;->startActivity
+url::www.w3.org
+url::http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\
+real_permission::android.permission.INTERNET
+activity::com.pdr.android.apps.mylogs.LogEntryActivity
+url::http://www.ambitico.com/docs/MyLogs/mylogs_usersguide.html
+intent::android.intent.category.LAUNCHER
+url::http://www.w3.org/1999/xhtml\
+url::www.ambitico.com
+call::Read/Write External Storage
+activity::com.pdr.android.apps.mylogs.LogCategoryActivity
+activity::com.pdr.android.apps.mylogs.LogEntriesActivity
+call::getSystemService

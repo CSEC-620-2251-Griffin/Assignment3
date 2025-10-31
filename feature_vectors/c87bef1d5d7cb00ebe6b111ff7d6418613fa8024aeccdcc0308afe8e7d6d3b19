@@ -1,0 +1,9 @@
+activity::.GameScreen
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.PlayingScreen
+activity::.MainScreen
+intent::android.intent.category.LAUNCHER
+activity::.ColorNameGame
+activity::.ScoresScreen
+call::getSystemService

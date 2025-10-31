@@ -1,0 +1,29 @@
+feature::android.hardware.touchscreen
+activity::Top Matches:
+url::download.lardlad.com
+intent::android.intent.category.HOME
+permission::android.permission.CALL_PHONE
+activity::.SettingListActivity
+intent::android.intent.category.DEFAULT
+activity::.WYDIMainActivity
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+provider::com.WYDIWYG.WYDI.Trial.provider.GesturesProvider
+permission::android.permission.WRITE_SETTINGS
+api_call::android/content/ContentResolver;->query
+permission::android.permission.WRITE_CONTACTS
+provider::com.WYDIWYG.WYDI.Trial.provider.ApplicationGesturesProvider
+activity::.ApplicationsListActivity
+url::http://download.lardlad.com/sounds/season8/canine6.mp3
+activity::Top Matches
+real_permission::android.permission.WRITE_SETTINGS
+call::getSystemService
+activity::.ContactsListActivity
+feature::android.hardware.telephony
+intent::android.intent.category.MONKEY
+api_call::android/content/Context;->sendBroadcast
+api_call::android/provider/Settings$System;->putInt
+intent::android.intent.action.MAIN
+activity::.EditPreferences
+call::printStackTrace
+intent::android.intent.category.LAUNCHER

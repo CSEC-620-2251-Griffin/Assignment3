@@ -1,0 +1,17 @@
+url::http://www.ebookhow.info/Galaxy_S_2/Gadgets_for_Samsung_Galaxy_S_2.html
+feature::android.hardware.touchscreen
+url::http://galaxys.samsungmobile.com/mobile/index.html
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+url::galaxys.samsungmobile.com
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.ebookhow.info
+url::http://www.ebookhow.info/Galaxy_S_2/Reviews_of_Samsung_Galaxy_S_2.html
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getSystemService
+activity::.SplashActivity
+url::http://www.ebookhow.info/Galaxy_S_2/Samsung_Galaxy_S_2.html

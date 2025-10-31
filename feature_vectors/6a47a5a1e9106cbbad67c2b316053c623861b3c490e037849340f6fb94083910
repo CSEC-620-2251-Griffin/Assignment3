@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::http://www.polaris104fm.com/
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+activity::.PolarisRadio
+intent::android.intent.category.LAUNCHER
+url::www.polaris104fm.com

@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::com.swedroid.widget.activity.WidgetMedium$UpdateWidget
+url::wallieballie.eggplant.feralhosting.com
+activity::com.swedroid.widget.activity.Latest
+activity::com.swedroid.widget.activity.Article
+activity::com.swedroid.widget.activity.WidgetMedium$UpdateSmall
+api_call::android/content/Context;->startActivity
+call::getSystemService
+activity::com.swedroid.widget.activity.Articles
+service_receiver::Widget 4x3
+service_receiver::Widget 4x2
+service_receiver::Widget 4x4
+service_receiver::com.swedroid.widget.activity.Main$UpdateWidget
+intent::android.intent.action.MAIN
+url::http://wallieballie.eggplant.feralhosting.com/public_dir/swedroid_thumbnails/
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::com.swedroid.widget.activity.WidgetMedium$UpdateSmall
+url::http://wallieballie.eggplant.feralhosting.com/public_dir/swedroid_feed/
+service_receiver::com.swedroid.widget.activity.WidgetMedium$UpdateWidget
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+service_receiver::com.swedroid.widget.activity.Main
+provider::android.appwidget.provider

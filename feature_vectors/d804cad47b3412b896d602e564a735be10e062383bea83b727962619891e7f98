@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::tokyo-ame.jwa.or.jp
+url::http://tokyo-ame.jwa.or.jp/scripts/mesh_index.js
+intent::android.intent.action.MAIN
+url::http://tokyo-ame.jwa.or.jp
+url::http://tokyo-ame.jwa.or.jp/mesh/000/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.TokyoAmesh
+api_call::org/apache/http/impl/client/DefaultHttpClient

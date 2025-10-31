@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+service_receiver::AlarmReceiver
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.SEND_SMS
+activity::.a2skatepark
+url::http://www.refresheverything.com/a2skatepark\n\nYou
+api_call::android/telephony/SmsManager;->sendTextMessage
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+url::www.refresheverything.com
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+permission::android.permission.SEND_SMS
+call::getSystemService
+service_receiver::BootDemoReceiver

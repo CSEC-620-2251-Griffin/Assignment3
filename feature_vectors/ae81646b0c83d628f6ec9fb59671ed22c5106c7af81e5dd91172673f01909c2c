@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+call::HttpPost
+url::http://schemas.android.com/apk/res/android
+activity::ARGBDialogActivity
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+call::getSystemService
+url::logger-funnything.appspot.com
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+url::https://logger-funnything.appspot.com/register
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::schemas.android.com

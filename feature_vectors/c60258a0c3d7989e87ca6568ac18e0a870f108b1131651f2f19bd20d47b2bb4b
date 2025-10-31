@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+activity::com.lumisvision.games.kaleidomagiclib.transparentGameDialog
+call::printStackTrace
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.RootActivity
+call::getPackageInfo
+call::Read/Write External Storage
+call::getSystemService

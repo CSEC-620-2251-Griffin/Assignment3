@@ -1,0 +1,12 @@
+api_call::android/media/RingtoneManager;->setActualDefaultRingtoneUri
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/media/MediaPlayer;->start
+url::www.britishgaming.co.uk
+url::http://www.britishgaming.co.uk/
+intent::android.intent.category.LAUNCHER
+activity::.VirtualBacon
+real_permission::android.permission.WAKE_LOCK
+permission::android.permission.WRITE_SETTINGS

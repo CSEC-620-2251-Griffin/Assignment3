@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_PHONE_STATE
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.READ_PHONE_STATE
+url::xoap.weather.com
+url::http://xoap.weather.com/search/search?where%3D
+permission::android.permission.INTERNET
+permission::android.permission.RAISED_THREAD_PRIORITY
+intent::android.intent.category.LAUNCHER
+activity::.Weather
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::getSystemService

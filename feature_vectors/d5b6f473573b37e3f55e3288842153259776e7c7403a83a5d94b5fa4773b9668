@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://linkiem.com
+url::zymonik.pl
+activity::.RSSReader
+intent::android.intent.action.MAIN
+url::http://linkiem.com/feed/iphone/
+url::linkiem.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://linkiem3.bc.u.netizens.pl
+intent::android.intent.category.LAUNCHER
+url::linkiem3.bc.u.netizens.pl
+api_call::java/net/URL;->getContent
+url::http://zymonik.pl/linkiem/iphone_org.xml

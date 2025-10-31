@@ -1,0 +1,15 @@
+activity::.anGallery
+feature::android.hardware.touchscreen
+url::itclock.puke365.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://itclock.puke365.com/mobile/meinv.html
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+permission::android.permission.SET_WALLPAPER
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+real_permission::android.permission.SET_WALLPAPER
+api_call::android/app/Activity;->setWallpaper

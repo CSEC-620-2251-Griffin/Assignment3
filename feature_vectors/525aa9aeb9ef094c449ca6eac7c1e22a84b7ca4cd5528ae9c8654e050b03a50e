@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.pacificsoftwaresolutions.net/support.html
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.pacificsoftwaresolutions.net
+call::Read/Write External Storage
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService
+url::http://www.pacificsoftwaresolutions.net/photovault.html
+activity::.PhotoVault

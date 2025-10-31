@@ -1,0 +1,12 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::ThumbActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::AccusmartViewActivity
+activity::.NkPhotoViewerMain
+activity::GalleryActivity
+call::getSystemService

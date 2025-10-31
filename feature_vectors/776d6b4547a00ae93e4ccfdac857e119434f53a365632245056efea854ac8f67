@@ -1,0 +1,21 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+call::getDeviceId
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::Baseball Superstars%E2%A2 2010
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getPackageInfo
+activity::.BS2010Launcher
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/os/Vibrator;->vibrate
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

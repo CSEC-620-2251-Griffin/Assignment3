@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.ShowFavorites
+activity::.ShowData
+activity::.ShowCategories
+activity::.ShowSearch
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+activity::.ShowList

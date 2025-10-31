@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+call::getSystemService
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+activity::.Main
+permission::android.permission.INTERNET
+url::kairopark.jp
+feature::android.hardware.screen.portrait
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+url::http://kairopark.jp/j7hjT4ua//gm46/paddock_android.jar
+real_permission::android.permission.INTERNET
+api_call::android/media/MediaPlayer;->start
+activity::Main
+real_permission::android.permission.WAKE_LOCK

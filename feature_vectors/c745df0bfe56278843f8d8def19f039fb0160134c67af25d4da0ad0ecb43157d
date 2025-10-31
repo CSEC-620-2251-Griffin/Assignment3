@@ -1,0 +1,5 @@
+activity::pSplash
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+activity::.pSplash
+feature::android.hardware.touchscreen

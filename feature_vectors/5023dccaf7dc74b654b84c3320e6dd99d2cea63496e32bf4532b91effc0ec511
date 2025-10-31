@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.TitlePage
+intent::android.intent.action.MAIN
+url::http://api.hotukdeals.com/rest_api/v2/
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::api.hotukdeals.com
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+call::HttpPost
+api_call::java/net/URL;->getContent
+call::getSystemService

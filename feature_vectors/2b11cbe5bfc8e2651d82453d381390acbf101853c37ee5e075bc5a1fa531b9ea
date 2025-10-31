@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+activity::com.myownbs.brainsidesample.MainActivity
+activity::com.myownbs.brainsidesample.GameActivity
+intent::android.intent.category.LAUNCHER
+activity::ResultActivity
+intent::android.intent.category.DEFAULT
+activity::.SplashActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

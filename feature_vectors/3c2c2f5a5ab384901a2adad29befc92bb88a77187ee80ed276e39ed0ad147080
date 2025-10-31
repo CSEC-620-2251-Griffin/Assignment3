@@ -1,0 +1,15 @@
+activity::com.milac.android.deaeru.hikaku007.MyWebView007
+feature::android.hardware.touchscreen
+url::deaeru.tv
+activity::.HtmlView
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::getSystemService
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://deaeru.tv/hitozuma/index.html
+intent::android.intent.category.LAUNCHER
+activity::.MyWebView007
+real_permission::android.permission.INTERNET
+activity::.Contents
+url::http://deaeru.tv/hitozuma/

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://nuclearweaponarchive.org/Usa/Tests/,
+intent::android.intent.action.MAIN
+activity::.SplashScreen
+activity::.showEONW
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::nuclearweaponarchive.org
+activity::.preferences

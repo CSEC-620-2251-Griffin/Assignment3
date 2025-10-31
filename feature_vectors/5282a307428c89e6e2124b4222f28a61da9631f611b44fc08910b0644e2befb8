@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::LanguageAppsActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://apps.cafetalk.com/api/search/?type%3D2
+activity::Search
+permission::android.permission.INTERNET
+activity::.ActSplashScreen
+feature::android.hardware.screen.portrait
+url::http://i.cafetalk.com/
+url::apps.cafetalk.com
+activity::HelpActivity
+intent::android.intent.category.LAUNCHER
+url::http://apps.cafetalk.com/api/viewcount/?id%3D
+real_permission::android.permission.INTERNET
+url::i.cafetalk.com
+call::getSystemService

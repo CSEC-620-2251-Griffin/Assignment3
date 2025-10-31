@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Indulge
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.IndulgeReader
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.action.VIEW

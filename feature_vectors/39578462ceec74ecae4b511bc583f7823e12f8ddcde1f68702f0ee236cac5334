@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+feature::android.hardware.location.network
+feature::android.hardware.location.gps
+url::http://inviewmobile.com/rest
+intent::android.intent.category.FLAG_ACTIVITY_NO_ANIMATION
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+call::getSystemService
+call::Read/Write External Storage
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::inviewmobile.com
+real_permission::android.permission.INTERNET
+activity::.InView
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER

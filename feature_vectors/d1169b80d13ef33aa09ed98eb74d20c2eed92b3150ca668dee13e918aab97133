@@ -1,0 +1,13 @@
+activity::.OBubble4Kids
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.VIBRATE
+feature::android.hardware.screen.landscape
+activity::.Preferences
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+intent::android.intent.category.LAUNCHER

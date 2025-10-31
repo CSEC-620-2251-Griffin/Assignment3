@@ -1,0 +1,10 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://market.android.com/details?id%3Dfishnoodle.hearts
+call::Read/Write External Storage
+feature::android.software.live_wallpaper
+url::http://www.kittehface.com
+url::www.kittehface.com
+intent::android.intent.category.INFO

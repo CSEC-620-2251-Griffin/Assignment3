@@ -1,0 +1,18 @@
+feature::android.hardware.touchscreen
+api_call::android/net/wifi/WifiManager;->getDhcpInfo
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+activity::.TVPlayerActivity
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::java/net/DatagramSocket
+real_permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/content/Context;->sendBroadcast
+call::Read/Write External Storage
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

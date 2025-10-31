@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+permission::tunnybrowser.permission.Extension
+api_call::android/webkit/WebView
+call::getPackageInfo
+url::bit.ly
+intent::android.intent.category.INFO
+call::getSystemService
+url::http://bit.ly/bXEJsH

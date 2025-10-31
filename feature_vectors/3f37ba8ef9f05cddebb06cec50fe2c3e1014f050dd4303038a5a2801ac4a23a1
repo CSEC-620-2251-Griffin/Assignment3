@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::net.securesmith.fiscalcalendar.Main
+intent::android.intent.action.MAIN
+activity::.Main
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+call::getPackageInfo
+call::getSystemService

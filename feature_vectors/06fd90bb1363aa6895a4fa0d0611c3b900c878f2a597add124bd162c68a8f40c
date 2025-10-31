@@ -1,0 +1,33 @@
+feature::android.hardware.touchscreen
+activity::com.bi.baarish.MainMenu
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+call::HttpPost
+api_call::android/content/ContentResolver;->query
+activity::com.bi.baarish.BaarishSplashScreen
+api_call::android/content/Context;->startActivity
+api_call::java/lang/Runtime;->exec
+activity::Dashboard
+call::Cipher(PBEWithSHA256And256BitAES-CBC-BC)
+activity::com.bi.baarish.ShowAbout
+call::getSystemService
+activity::IntroFlow
+api_call::java/net/URL;->openStream
+activity::com.bi.baarish.ShowRules
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.StartActivity
+call::Execution of external commands
+url::api.openfeint.com
+activity::com.bi.baarish.ShowSettings
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::https://api.openfeint.com
+activity::com.bi.baarish.Baarish
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE

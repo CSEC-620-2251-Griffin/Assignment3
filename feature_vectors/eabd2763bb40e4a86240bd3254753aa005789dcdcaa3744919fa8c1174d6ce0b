@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+permission::android.permission.HARDWARE_TEST
+intent::android.intent.action.MAIN
+activity::.SimpleLEDActivity
+permission::android.permission.FLASHLIGHT
+intent::android.intent.category.LAUNCHER

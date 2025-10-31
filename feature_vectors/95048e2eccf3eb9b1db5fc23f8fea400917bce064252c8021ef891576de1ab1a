@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Page2
+activity::.Page3
+activity::.Page1
+activity::.Page4
+activity::.Page5
+activity::.TabWidget
+intent::android.intent.category.LAUNCHER
+call::getSystemService

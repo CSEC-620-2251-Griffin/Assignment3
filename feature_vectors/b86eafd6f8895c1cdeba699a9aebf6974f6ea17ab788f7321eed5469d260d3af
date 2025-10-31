@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->query
+permission::android.permission.CALL_PHONE
+permission::android.permission.SEND_SMS
+activity::.PromptActivity
+service_receiver::.PictureDialWidgetLarge$UpdateService
+service_receiver::.PictureDialWidgetSmall$UpdateService
+feature::android.hardware.telephony
+api_call::android/content/Context;->startService
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+provider::android.appwidget.provider
+call::getSystemService

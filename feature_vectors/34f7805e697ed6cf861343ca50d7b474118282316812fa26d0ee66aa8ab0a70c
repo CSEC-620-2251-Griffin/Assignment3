@@ -1,0 +1,12 @@
+service_receiver::.other.MonitorNotifyService
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.READ_PHONE_STATE
+activity::.RemotifyMyDroidActivity
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.PreferencesActivity
+api_call::java/net/DatagramSocket

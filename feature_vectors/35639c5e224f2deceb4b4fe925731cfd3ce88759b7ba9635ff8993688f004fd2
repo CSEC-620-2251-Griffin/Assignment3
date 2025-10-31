@@ -1,0 +1,9 @@
+url::acronym.pro
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.WebKitDemo
+url::http://acronym.pro/mobile/examples/server_side/test.html
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

@@ -1,0 +1,10 @@
+activity::info
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.category.LAUNCHER
+url::nl.wiktionary.org
+call::getPackageInfo
+url::http://nl.wiktionary.org/wiki/
+activity::.VerbsActivity
+call::getSystemService

@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+activity::.Main
+feature::android.hardware.screen.portrait
+activity::ListNomAop
+intent::android.intent.category.LAUNCHER
+activity::AffichageImageBoitier
+real_permission::android.permission.VIBRATE
+activity::AopActivity
+activity::PontDivActivity
+call::getSystemService
+activity::CodeCouleurActivity

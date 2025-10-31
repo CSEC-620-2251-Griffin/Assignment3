@@ -1,0 +1,15 @@
+activity::.Activity_Preferences
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.Act_Preferences
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.Activity_Library
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.Act_Splash
+activity::.Activity_ReadBook
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_EXTERNAL_STORAGE
+activity::.ActTableOfContents
+call::getSystemService
+activity::.Activity_Bookmark

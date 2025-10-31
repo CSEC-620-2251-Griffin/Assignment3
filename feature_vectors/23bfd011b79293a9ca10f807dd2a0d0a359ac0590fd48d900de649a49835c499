@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::ru.arsenalmedia.iprobka.ListMain
+url::http://www.vladprobka.ru/services/probki_xml.php
+activity::ru.arsenalmedia.iprobka.Iprobka
+url::http://www.vladprobka.ru/services/probki_xml_cam.php
+permission::android.permission.INTERNET
+activity::.Iprobka
+intent::android.intent.category.LAUNCHER
+activity::ru.arsenalmedia.iprobka.CamMain
+url::www.vladprobka.ru
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection

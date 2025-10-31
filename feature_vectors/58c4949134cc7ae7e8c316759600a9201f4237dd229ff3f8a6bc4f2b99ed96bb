@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.BrowserClient
+intent::android.intent.action.MAIN
+real_permission::android.permission.CHANGE_NETWORK_STATE
+call::Obfuscation(Base64)
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->stopUsingNetworkFeature
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+call::getSystemService
+permission::android.permission.CHANGE_NETWORK_STATE

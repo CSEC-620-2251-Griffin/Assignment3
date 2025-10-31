@@ -1,0 +1,18 @@
+activity::.RecorderActivity
+real_permission::android.permission.CAMERA
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.activities.ViewImageActivity
+permission::android.permission.FLASHLIGHT
+call::Read/Write External Storage
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.activities.RecorderActivity
+feature::android.hardware.camera.flash
+call::getSystemService
+permission::android.permission.CAMERA

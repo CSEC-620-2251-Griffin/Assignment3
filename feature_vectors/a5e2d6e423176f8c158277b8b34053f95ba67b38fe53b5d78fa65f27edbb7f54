@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+url::https://www.cellitstudio.com/widgithandler.php
+permission::android.permission.INTERNET
+url::www.cellitstudio.com
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.category.LAUNCHER
+activity::.ManageLoyaltyKeywordsActivity
+activity::.SettingsActivity
+activity::.HomeActivity
+real_permission::android.permission.INTERNET
+call::getSystemService

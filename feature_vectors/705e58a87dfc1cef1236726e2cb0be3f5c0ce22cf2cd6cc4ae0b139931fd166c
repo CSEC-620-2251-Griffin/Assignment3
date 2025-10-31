@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+intent::android.intent.action.SEARCH
+real_permission::android.permission.WAKE_LOCK
+activity::HistoryLiveFolder
+url::http://francois.gannaz.free.fr/Littre/xmlittre.php?requete%3D%s
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/webkit/WebView
+url::francois.gannaz.free.fr
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.CREATE_LIVE_FOLDER
+provider::org.alexis.littre.stardictprovider
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+activity::.littre
+intent::android.intent.category.LAUNCHER

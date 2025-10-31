@@ -1,0 +1,5 @@
+activity::.ConvertActivity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+activity::.ResultActivity
+feature::android.hardware.touchscreen

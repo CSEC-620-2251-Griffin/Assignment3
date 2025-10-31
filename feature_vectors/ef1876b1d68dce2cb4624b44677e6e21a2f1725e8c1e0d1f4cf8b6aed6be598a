@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::stirtrek.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://stirtrek.com/Feed/JSON
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::www.stirtrek.com
+url::http://www.stirtrek.com/\%27>www.stirtrek.com</a><br
+call::HttpPost
+call::getSystemService

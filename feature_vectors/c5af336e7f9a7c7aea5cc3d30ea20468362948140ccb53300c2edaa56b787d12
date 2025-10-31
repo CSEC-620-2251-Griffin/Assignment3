@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::com.appleft.ebook.reader.config.ColorConfig
+activity::com.appleft.ebook.reader.Aareader
+intent::android.intent.action.MAIN
+activity::com.appleft.ebook.reader.config.Sysconfig
+activity::com.appleft.ebook.reader.config.ImgExplorer
+activity::.ChapterActivity
+activity::com.appleft.ebook.reader.config.Preconfig
+activity::com.appleft.ebook.reader.config.FontConfig
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::com.appleft.ebook.reader.config.explorer
+url::www.appleft.com
+url::http://www.appleft.com/aaread/AaReader-release-e.apk
+activity::com.appleft.ebook.reader.book.VipImageActivity
+activity::com.appleft.ebook.reader.config.ColorConfigNight

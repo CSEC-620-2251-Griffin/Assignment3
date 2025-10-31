@@ -1,0 +1,83 @@
+activity::flipboard.activities.WidgetConfigActivity
+real_permission::android.permission.READ_LOGS
+feature::android.hardware.touchscreen
+activity::flipboard.activities.LoginActivity
+api_call::java/net/Socket
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::https://fbchina.flipboard.com
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::flipboard.activities.UpdateAccountActivity
+activity::Choose Account
+url::cdn.flipboard.com
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+activity::Service Settings
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::flipboard.activities.FirstRunActivity
+url::flpbd.it
+activity::Social card
+activity::flipboard.activities.ContentDrawerActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::https://rink.hockeyapp.net/
+url::http://localhost/template.html
+activity::flipboard.activities.CreateAccountActivity
+activity::flipboard.activities.SettingsActivity
+url::jira.flipboard.com
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+url::geert.dev.flipboard.com
+activity::flipboard.activities.DetailActivity
+url::api1.hockeyapp.net
+url::http://cdn.flipboard.com/flipmag?url%3D
+activity::flipboard.activities.InitialConfigLoadActivity
+activity::flipboard.activities.SectionActivity
+url::https://api1.hockeyapp.net/
+activity::Service Login
+url::http://localhost/styles.css
+url::vimeo.com
+activity::About
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+url::beacon.flipboard.com
+url::http://flipboard.com/browserproxy)
+intent::android.intent.action.MANAGE_NETWORK_USAGE
+url::https://fbprod.flipboard.com
+url::https://jira.flipboard.com/rest/api/2/issue
+url::http://geert.dev.flipboard.com:3000
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::fbprod.flipboard.com
+permission::android.permission.INTERNET
+url::flipboard.com
+url::http://cdn.flipboard.com/serviceIcons/twitter-verified-small.png
+url::https://jira.flipboard.com/rest/api/2/user/search?username%3D%s
+activity::.TOCActivity
+activity::flipboard.activities.VideoActivity
+intent::android.intent.category.BROWSABLE
+url::localhost
+url::http://vimeo.com/
+intent::android.intent.action.VIEW
+activity::Content Cache Configuration
+call::Execution of external commands
+url::fbchina.flipboard.com
+api_call::android/content/ContentResolver;->openInputStream
+url::https://jira.flipboard.com/rest/api/2/issue/%s/attachments
+service_receiver::flipboard.widget.FlipboardWidgetManager$AlarmReceiver
+intent::android.intent.action.MAIN
+activity::flipboard.activities.ReportIssueActivity
+url::http://schemas.android.com/apk/res/android
+permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.SEND
+api_call::java/lang/Runtime;->exec
+activity::Read Later Services
+activity::Muted Authors
+url::http://flpbd.it/about-android
+url::rink.hockeyapp.net
+api_call::android/location/LocationManager;->getLastKnownLocation
+activity::Content Guide
+service_receiver::flipboard.widget.FlipboardWidget$UpdateService
+url::https://beacon.flipboard.com/
+provider::android.appwidget.provider
+url::schemas.android.com

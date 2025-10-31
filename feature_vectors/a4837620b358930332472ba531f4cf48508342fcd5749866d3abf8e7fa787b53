@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.OZmobi
+url::ozmobi.mobi
+url::http://ozmobi.mobi
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,17 @@
+url::m.medipreis.de
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://m.medipreis.de//index.php?partner%3Dandroid
+activity::.Main
+url::http://m.medipreis.de//index.php?partner%3Dandroid&page%3Dsearch&query%3D
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://m.medipreis.de/
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+api_call::android/app/Activity;->startActivity
+call::getSystemService

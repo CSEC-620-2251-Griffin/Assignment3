@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.LottoScope
+permission::android.permission.INTERNET
+url::lottoscope.mobi
+real_permission::android.permission.INTERNET
+url::http://lottoscope.mobi/lottoscope/LS.php
+intent::android.intent.category.LAUNCHER
+call::getSystemService

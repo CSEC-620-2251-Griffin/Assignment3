@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::com.chessquare.cchess.ui.BoardActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+activity::com.chessquare.cchess.ui.SettingsActivity
+real_permission::android.permission.INTERNET
+activity::com.chessquare.cchess.commonui.Help
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/webkit/WebView
+activity::.BoardActivity
+call::getSystemService

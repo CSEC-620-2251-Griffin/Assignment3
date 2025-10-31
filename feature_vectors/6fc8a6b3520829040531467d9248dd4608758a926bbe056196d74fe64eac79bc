@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+permission::android.permission.DELETE_PACKAGES
+activity::.Uninstaller
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

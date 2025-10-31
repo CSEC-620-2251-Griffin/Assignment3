@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::https://m2inet.icicibank.co.in/m2iMobile/m2iNetLoginForm.jsp
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::m2inet.icicibank.co.in
+activity::.BrowserApp
+intent::android.intent.category.LAUNCHER

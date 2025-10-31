@@ -1,0 +1,18 @@
+activity::com.oxygen.android.client.OxygenLogin
+feature::android.hardware.touchscreen
+activity::com.oxygen.android.client.OxygenCloud
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+activity::.OxygenCloud
+url::https://signup.oxygencloud.com/reset
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::https://signup.oxygencloud.com/
+activity::com.oxygen.android.client.OxygenItems
+activity::com.oxygen.android.client.OxygenSpaces
+api_call::android/webkit/WebView
+url::signup.oxygencloud.com
+real_permission::android.permission.INTERNET
+call::getSystemService
+intent::android.intent.category.LAUNCHER

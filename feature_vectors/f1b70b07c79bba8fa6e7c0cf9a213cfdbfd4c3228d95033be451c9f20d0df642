@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::com.jrv.hn.UseHnComments
+url::http://news.ycombinator.com/item?id%3D
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::http://ycombinator.com/images/s.gif\
+url::http://news.ycombinator.com
+intent::android.intent.category.LAUNCHER
+url::news.ycombinator.com
+activity::.UseHnOnline
+url::ycombinator.com

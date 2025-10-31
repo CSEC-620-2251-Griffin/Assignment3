@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.lynxtrack.com/click/pk3gvHnTFHYTsB1QQ/s-SID
+permission::android.permission.INTERNET
+url::www.lynxtrack.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.Activity1

@@ -1,0 +1,49 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+call::printStackTrace
+activity::Destination
+activity::.MainActivity
+activity::Max duration
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::Max size
+feature::android.hardware.microphone
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECORD_AUDIO
+activity::.PromptForSaveActivity
+real_permission::android.permission.WAKE_LOCK
+service_receiver::Quick Recorder
+intent::android.intent.action.NEW_OUTGOING_CALL
+intent::android.intent.action.MEDIA_SHARED
+service_receiver::.TotalRecallService
+real_permission::android.permission.VIBRATE
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.PROCESS_OUTGOING_CALLS
+call::getSystemService
+service_receiver::.OutgoingReceiver
+intent::android.intent.action.MEDIA_EJECT
+api_call::android/media/MediaRecorder;->setAudioSource
+intent::android.intent.action.MEDIA_CHECKING
+service_receiver::.BootReceiver
+api_call::java/lang/Runtime;->exec
+service_receiver::.StorageReceiver
+intent::android.intent.action.MEDIA_MOUNTED
+real_permission::android.permission.RECORD_AUDIO
+feature::android.hardware.telephony
+service_receiver::.IncomingReceiver
+intent::android.intent.action.MEDIA_UNMOUNTED
+intent::android.intent.action.MEDIA_UNMOUNTABLE
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+call::Execution of external commands
+intent::android.intent.action.MEDIA_BAD_REMOVAL
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+intent::android.intent.action.PHONE_STATE
+real_permission::android.permission.READ_LOGS
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MEDIA_NOFS
+provider::android.appwidget.provider
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.action.MEDIA_REMOVED

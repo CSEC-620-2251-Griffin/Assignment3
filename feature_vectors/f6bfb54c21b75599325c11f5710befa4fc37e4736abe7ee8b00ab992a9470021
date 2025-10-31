@@ -1,0 +1,25 @@
+url::twitter.com
+permission::android.permission.ACCESS_FINE_LOCATION
+call::printStackTrace
+url::http://apache.org/xml/features/nonvalidating/load-external-dtd
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.STORAGE
+activity::.RootActivity
+real_permission::android.permission.WAKE_LOCK
+url::apache.org
+url::http://www.apple.com/DTDs/PropertyList-1.0.dtd\
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/os/Vibrator;->vibrate
+url::http://twitter.com/
+url::www.apple.com
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+api_call::android/media/MediaPlayer;->start

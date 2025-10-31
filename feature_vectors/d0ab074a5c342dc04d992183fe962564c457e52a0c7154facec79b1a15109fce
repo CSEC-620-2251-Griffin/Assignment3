@@ -1,0 +1,35 @@
+feature::android.hardware.touchscreen
+activity::.editor.OperationEditor
+call::getDeviceId
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.INTERNET
+service_receiver::.service.RadisService
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.service.InstallRadisServiceReceiver
+real_permission::android.permission.WAKE_LOCK
+activity::.AccountList
+call::HttpPost
+real_permission::android.permission.VIBRATE
+activity::org.acra.CrashReportDialog
+call::getSystemService
+call::Read/Write External Storage
+api_call::android/os/PowerManager$WakeLock;->acquire
+permission::android.permission.WAKE_LOCK
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+activity::OperationList
+api_call::android/content/Context;->sendBroadcast
+real_permission::android.permission.READ_PHONE_STATE
+service_receiver::.service.OnAlarmReceiver
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::spreadsheets.google.com
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+activity::AccountList
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+url::https://spreadsheets.google.com/formResponse?formkey%3D

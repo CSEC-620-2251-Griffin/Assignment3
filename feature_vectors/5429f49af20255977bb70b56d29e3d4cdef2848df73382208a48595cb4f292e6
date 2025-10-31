@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.activity.Browse
+activity::.Main
+real_permission::android.permission.INTERNET
+activity::.activity.Main
+activity::.activity.ItemDetailsDialog
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+api_call::android/content/Context;->startActivity

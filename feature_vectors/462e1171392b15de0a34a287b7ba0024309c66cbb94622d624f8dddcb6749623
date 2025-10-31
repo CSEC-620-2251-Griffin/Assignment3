@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.Compass
+intent::android.intent.action.MAIN
+activity::TestListView
+activity::Analysis
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->setContentView
+real_permission::android.permission.INTERNET
+activity::TipsListView
+call::getSystemService

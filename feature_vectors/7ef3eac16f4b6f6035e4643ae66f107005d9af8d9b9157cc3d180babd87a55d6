@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+activity::nimue.apps.Hfree.Main
+url::https://market.android.com/details?id%3Dnimue.apps.Hocd
+api_call::android/content/Context;->startActivity
+activity::.Main
+feature::android.hardware.screen.portrait
+url::https://market.android.com/details?id%3Dnimue.apps.Hsmoking
+api_call::android/media/MediaPlayer;->stop
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+url::https://market.android.com/details?id%3Dnimue.apps.Hfull
+call::printStackTrace
+url::https://market.android.com/details?id%3Dnimue.apps.Hweight
+url::https://market.android.com/details?id%3Dnimue.apps.Halcohol

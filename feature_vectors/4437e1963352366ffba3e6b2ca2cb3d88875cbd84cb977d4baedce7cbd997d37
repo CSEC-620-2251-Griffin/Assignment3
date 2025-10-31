@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.ClearReport
+intent::android.intent.action.MAIN
+activity::.reports.RenderAndDetailView
+call::Obfuscation(Base64)
+url::https://www.inetsoftware.de/reporting/public
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::www.inetsoftware.de
+api_call::android/webkit/WebView
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+activity::.folderlist.FolderList

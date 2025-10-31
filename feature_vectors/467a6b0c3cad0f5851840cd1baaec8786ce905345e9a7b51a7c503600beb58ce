@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEND
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.Options
+api_call::android/content/Context;->startActivity
+activity::.Main
+intent::android.intent.action.SEND_MULTIPLE
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::Read/Write External Storage
+call::getSystemService
+activity::.Instructions

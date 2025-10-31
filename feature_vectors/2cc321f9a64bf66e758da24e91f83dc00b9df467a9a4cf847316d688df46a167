@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://compare.hotels-fairy.com/Mobile
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://compare.hotels-fairy.com/Mobile?
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::compare.hotels-fairy.com
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.SplashActivity
+url::http://compare.hotels-fairy.com/Mobile/City/
+call::getSystemService

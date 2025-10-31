@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::printStackTrace
+permission::android.permission.INTERNET
+service_receiver::Receiver
+activity::.Chessdance
+intent::android.intent.category.LAUNCHER
+api_call::java/net/DatagramSocket
+real_permission::android.permission.INTERNET
+call::getSystemService

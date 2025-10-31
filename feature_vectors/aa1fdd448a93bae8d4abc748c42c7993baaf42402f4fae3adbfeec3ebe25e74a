@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::.activities.ViewImageActivity
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.CAMERA
+api_call::android/app/Activity;->startActivity
+feature::android.hardware.camera.autofocus
+call::getSystemService
+permission::android.permission.CAMERA
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+real_permission::android.permission.READ_PHONE_STATE
+activity::.RecorderActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.activities.RecorderActivity
+feature::android.hardware.camera
+permission::android.permission.FLASHLIGHT
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.camera.flash

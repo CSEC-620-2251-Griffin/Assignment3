@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.AlphabetGuru
+real_permission::android.permission.RECORD_AUDIO
+url::http://www.sevabharathi.org
+intent::android.intent.action.MAIN
+url::www.sevabharathi.org,an
+url::http://groups.google.com/group/alphabetguru
+api_call::android/media/MediaRecorder;->setAudioSource
+url::www.sevabharathi.org
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+url::groups.google.com
+permission::android.permission.RECORD_AUDIO
+url::http://www.sevabharathi.org,an
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

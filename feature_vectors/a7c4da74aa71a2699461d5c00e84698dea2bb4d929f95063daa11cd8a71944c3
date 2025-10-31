@@ -1,0 +1,5 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+real_permission::android.permission.INTERNET
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT

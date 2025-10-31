@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+service_receiver::TabegoeWidget
+intent::android.intent.action.MAIN
+service_receiver::TabegoeWidget$TabegoeWidgetService
+activity::.Tabegoe
+intent::android.intent.category.LAUNCHER
+service_receiver::.ResetReceiver
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

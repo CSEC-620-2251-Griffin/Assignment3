@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.CALL_PHONE
+url::http://m.busansidae.com/?android
+permission::android.permission.INTERNET
+permission::android.permission.CALL_PRIVILEGED
+activity::.busansidae
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://m.busansidae.com
+url::m.busansidae.com

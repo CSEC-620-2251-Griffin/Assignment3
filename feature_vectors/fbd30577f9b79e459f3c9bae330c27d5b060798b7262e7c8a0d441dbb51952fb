@@ -1,0 +1,83 @@
+activity::User
+feature::android.hardware.touchscreen
+activity::com.goodreads.android.activity.LocalHtmlViewerActivity
+activity::com.goodreads.android.activity.BookReviewsActivity
+activity::com.goodreads.android.activity.ShelfShowActivity
+call::printStackTrace
+url::http://www.goodreads.com/review/destroy.xml
+url::https://www.
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::com.goodreads.android.activity.MainMenuActivity
+permission::android.permission.INTERNET
+api_call::android/hardware/Camera;->open
+activity::com.goodreads.android.activity.FriendAddContactsActivity
+activity::com.goodreads.android.activity.SignInActivity
+activity::Review
+activity::Goodreads
+activity::Barcode Scanner
+activity::Review Book
+activity::Barcode Scanning
+url::http://www.goodreads.com/api/match_users.xml
+permission::android.permission.READ_CONTACTS
+activity::com.goodreads.android.activity.SearchActivity
+activity::Updates
+url::www.
+url::http://www.goodreads.com/friend/send_single_invite.xml
+activity::Sign Up
+real_permission::android.permission.CAMERA
+url::http://www.goodreads.com/shelf/add_to_shelf.xml
+activity::com.goodreads.android.activity.UserFriendsActivity
+url::http://www.goodreads.com/api/auth_user
+activity::Author
+activity::Reviews
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::com.goodreads.android.activity.UpdatesActivity
+activity::com.goodreads.android.activity.BookShelverActivity
+activity::com.goodreads.android.activity.SignUpActivity
+activity::Shelf
+permission::android.permission.CAMERA
+call::getSystemService
+activity::com.goodreads.android.activity.BarcodeShelvingActivity
+permission::android.permission.VIBRATE
+url::http://www.goodreads.com/user_status.xml
+url::http://www.goodreads.com/friend/add_as_friend.xml
+api_call::android/os/Vibrator;->vibrate
+url::http://www.goodreads.com/user_shelves.xml
+activity::com.goodreads.android.activity.ReviewShowActivity
+activity::com.goodreads.android.activity.BarcodeHistoryActivity
+call::Obfuscation(Base64)
+url::http://www.goodreads.com/comment.xml
+activity::com.goodreads.android.activity.BarcodeScannerMenuActivity
+real_permission::android.permission.VIBRATE
+activity::Contact Friends
+feature::android.hardware.screen.landscape
+activity::Author's books
+url::http://www.goodreads.com/review.xml
+api_call::android/app/Activity;->startActivity
+activity::com.goodreads.android.activity.AuthorListActivity
+activity::Book
+url::http://www.goodreads.com/review/
+api_call::java/net/URL;->getContent
+activity::com.goodreads.android.activity.AuthorShowActivity
+activity::com.goodreads.android.activity.UserShelvesActivity
+intent::android.intent.action.MAIN
+activity::Friends
+activity::Sign In
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.camera
+activity::Search Books
+url::http://www.goodreads.com/work/compare_prices/%d?book%3D%s
+activity::com.goodreads.android.activity.BookShowActivity
+real_permission::android.permission.INTERNET
+activity::com.goodreads.android.activity.UserShowActivity
+activity::com.goodreads.android.activity.ReviewEditorActivity
+url::http://www.goodreads.com/user/:user_id/followers?format%3Dxml
+url::www.goodreads.com
+activity::Shelve Book
+intent::android.intent.category.LAUNCHER
+url::http://www.
+activity::Barcode Scanning History
+activity::com.goodreads.android.activity.TopicShowActivity
+activity::.SplashActivity
+call::HttpPost
+url::http://www.goodreads.com/shelf/add_books_to_shelves.xml

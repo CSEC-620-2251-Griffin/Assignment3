@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+url::http://www.wcfdataservices.com/highscore/Service.svc/GetHighScoreJSON?top%3D15
+call::Cipher(DES/ECB/NoPadding)
+activity::.CelebrityTrumpMain
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::CelebrityTrumpGamePaused
+intent::android.intent.category.LAUNCHER
+url::www.wcfdataservices.com
+api_call::java/net/Socket
+call::Obfuscation(Base64)
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+url::mi-eng.appspot.com
+url::http://mi-eng.appspot.com/meteo/mythenquai
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.WeatherView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mi-eng.appspot.com/meteoreading/
+intent::android.intent.category.LAUNCHER
+url::http://mi-eng.appspot.com/meteo/tiefenbrunnen
+provider::android.appwidget.provider
+service_receiver::.UpdateService

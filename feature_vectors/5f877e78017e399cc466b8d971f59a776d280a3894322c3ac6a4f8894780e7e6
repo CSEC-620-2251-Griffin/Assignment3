@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+service_receiver::org.signalos.audioboostgs2.AudioService
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.HOME
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+activity::AudioBoost
+api_call::android/app/NotificationManager;->notify
+call::Execution of external commands
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.AudioBoost
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::org.signalos.audioboostgs2.OnBootReceiver
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+api_call::android/content/Context;->startService

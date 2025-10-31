@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::http://www.wvtc.net/app2.php
+intent::android.intent.action.MAIN
+url::http://www.wvtc.net/app.php?request%3D
+url::www.wvtc.net
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://www.wvtc.net/video.jpg
+intent::android.intent.category.LAUNCHER
+url::http://www.wvtc.net/now_playing.php
+real_permission::android.permission.INTERNET
+url::http://www.wvtc.net/
+activity::.WVTC
+url::http://www.wvtc.net/android/recent.php

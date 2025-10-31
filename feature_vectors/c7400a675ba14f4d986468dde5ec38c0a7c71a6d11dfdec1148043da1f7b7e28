@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.GET_ACCOUNTS
+real_permission::android.permission.WAKE_LOCK
+activity::.CompressorLookup
+activity::.Login
+call::Cipher(UTF-8)
+activity::.CompressorDetails
+api_call::android/accounts/AccountManager;->getAccounts
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::Obfuscation(Base64)
+service_receiver::Download Service
+permission::android.permission.GET_ACCOUNTS
+activity::.XRef
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.ImportData
+activity::.CompressorSearch

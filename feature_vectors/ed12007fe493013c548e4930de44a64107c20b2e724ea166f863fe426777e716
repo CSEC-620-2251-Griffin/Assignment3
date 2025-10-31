@@ -1,0 +1,10 @@
+url::http://phil.io/rift/forum/id/
+activity::.Forum
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+url::phil.io
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::java/net/URL;->openConnection

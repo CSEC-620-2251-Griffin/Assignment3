@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.TimerSplashActivity
+intent::android.intent.category.LAUNCHER
+service_receiver::.TimerWidgetProvider
+provider::android.appwidget.provider

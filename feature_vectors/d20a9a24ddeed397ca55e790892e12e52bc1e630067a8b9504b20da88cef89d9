@@ -1,0 +1,16 @@
+url::market.android.com
+feature::android.hardware.touchscreen
+url::https://market.android.com/details?id%3Dcom.gs.oyunu
+activity::.Menu
+intent::android.intent.action.MAIN
+activity::.StartGame
+service_receiver::.Music
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+activity::.QuickPrefsActivity
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.Hakkimda
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

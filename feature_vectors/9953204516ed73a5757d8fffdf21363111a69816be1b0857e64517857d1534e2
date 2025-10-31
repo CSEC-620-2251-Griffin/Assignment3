@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+url::http://www.slf4j.org/codes.html
+activity::.SavedPageSelector
+intent::android.intent.action.SEND
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.SavedPageViewer
+activity::.GetPage
+intent::android.intent.category.LAUNCHER
+url::www.slf4j.org
+api_call::java/net/HttpURLConnection
+intent::android.intent.category.INTERNAL
+real_permission::android.permission.INTERNET
+service_receiver::.GetPageService

@@ -1,0 +1,15 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::com.admob.android.ads.analytics.InstallReceiver
+call::printStackTrace
+activity::com.schogini.cricketJigsaw.cricketjigsaw
+permission::android.permission.INTERNET
+url::http://a.admob.com/f0?
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.cricketjigsaw
+real_permission::android.permission.INTERNET
+url::a.admob.com
+call::getSystemService

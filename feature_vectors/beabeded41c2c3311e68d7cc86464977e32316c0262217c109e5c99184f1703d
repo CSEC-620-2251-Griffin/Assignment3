@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::Littlerock Nation
+url::http://mobile.littlerocknation.com/about
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::mobile.littlerocknation.com
+activity::.Main
+url::http://mobile.littlerocknation.com/stats
+permission::android.permission.INTERNET
+url::http://mobile.littlerocknation.com/schedule
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://mobile.littlerocknation.com
+url::http://mobile.littlerocknation.com/roster

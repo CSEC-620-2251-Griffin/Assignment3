@@ -1,0 +1,11 @@
+url::http://finance.yahoo.com/d/quotes.csv?s%3D
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://download.finance.yahoo.com/d/quotes.csv?s%3D
+url::finance.yahoo.com
+url::download.finance.yahoo.com
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::java/net/HttpURLConnection

@@ -1,0 +1,11 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+url::http://goeswin.us/
+intent::android.intent.action.MAIN
+real_permission::android.permission.VIBRATE
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.portrait
+url::goeswin.us
+intent::android.intent.category.LAUNCHER
+activity::.LotteryGenMain
+call::getSystemService

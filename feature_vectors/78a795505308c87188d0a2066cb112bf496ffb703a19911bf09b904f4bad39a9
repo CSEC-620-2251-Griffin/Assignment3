@@ -1,0 +1,5 @@
+service_receiver::com.anysoftkeyboard.languagepack.hawaiian.KeyboardBroadcastReceiver
+feature::android.hardware.touchscreen
+intent::android.intent.category.ALTERNATIVE
+intent::android.intent.category.SELECTED_ALTERNATIVE
+intent::android.intent.category.DEFAULT

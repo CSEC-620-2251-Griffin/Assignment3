@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+activity::.payback.CreateEditPaybackFrom
+api_call::android/app/backup/BackupManager;->dataChanged
+activity::.Main
+call::Read/Write External Storage
+activity::.expense.CreateEditExpenseDataWeights
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+activity::.expense.CreateEditExpenseForWhom
+activity::.contact.ViewContacts
+call::printStackTrace
+real_permission::android.permission.BACKUP
+call::getSystemService
+activity::.exchangeRate.ViewPreferencesAppExchangeRates
+activity::.preferences.EditPreferences
+activity::.payback.CreateEditPaybackTo
+activity::.expense.CreateEditExpenseWhoPaid
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->startActivity

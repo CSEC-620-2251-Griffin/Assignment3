@@ -1,0 +1,53 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+activity::.Activity_Help
+call::printStackTrace
+url::http://mm.admob.com/static/android/tiles/default.png
+url::r.admob.com
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+intent::android.intent.category.DEFAULT
+call::Execution of external commands
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://www.subtitlesource.org/download/zip/
+call::getPackageInfo
+activity::.Activity_DirectoryBrowser
+url::http://mm.admob.com/static/android/i18n/20091123
+real_permission::android.permission.WAKE_LOCK
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+api_call::android/content/Context;->startActivity
+activity::.Activity_Preferences
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+url::www.subtitlesource.org
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::java/net/URL;->openStream
+api_call::android/os/Vibrator;->vibrate
+url::mm.admob.com
+permission::android.permission.WAKE_LOCK
+activity::mVideoPlayer - %E8%AE%BE%E7%BD%AE%E2%E2%E2%E2%E2%E2%E2%E2%E2
+api_call::java/lang/Runtime;->exec
+url::http://imdb.com/title/tt
+activity::mVideoPlayer
+activity::.Activity_LatestSubtitles
+activity::.Activity_IMDbInfo
+url::api.admob.com
+call::Read/Write External Storage
+url::http://www.subtitlesource.org/api/xmlsearch/
+intent::android.intent.action.VIEW
+activity::.Activity_VideoList
+activity::mVideoPlayer - %E5%AD%E5%B9%E6%E7%B4%A2%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2%E2
+intent::android.intent.action.MAIN
+url::http://www.subtitlesource.org/rss/0/
+url::http://www.subtitlesource.org/title/tt
+real_permission::android.permission.READ_LOGS
+api_call::android/location/LocationManager;->getBestProvider
+feature::android.hardware.screen.portrait
+activity::%E4%B9%A6%E7%AD%BE%E2%E2%E2%E2%E2%E2%E2
+intent::android.intent.category.LAUNCHER
+url::http://www.subtitlesource.org/subs/
+url::imdb.com
+activity::.Activity_VideoDirectoriesPreference
+api_call::android/media/MediaPlayer;->start
+url::schemas.android.com

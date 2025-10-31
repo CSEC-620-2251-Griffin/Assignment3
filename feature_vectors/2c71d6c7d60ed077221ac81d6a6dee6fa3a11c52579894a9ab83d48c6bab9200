@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://sites.google.com/site/gson/gson-user-guide
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.SplashScreenActivity
+real_permission::android.permission.INTERNET
+activity::.splash.SplashScreenActivity
+intent::android.intent.category.LAUNCHER
+activity::.main.MainActivity
+url::sites.google.com

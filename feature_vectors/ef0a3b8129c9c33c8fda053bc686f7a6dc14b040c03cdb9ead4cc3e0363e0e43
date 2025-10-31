@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+api_call::android/app/ActivityManager;->restartPackage
+real_permission::android.permission.WAKE_LOCK
+permission::android.permission.GET_TASKS
+intent::android.intent.action.SIM_STATE_CHANGED
+service_receiver::.EmulateService
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+service_receiver::.BootReceiver
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.RESTART_PACKAGES
+call::Execution of external commands
+api_call::android/content/Context;->startService
+activity::.view.ListView
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::.view.StartUpView
+activity::.StartUpView
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RESTART_PACKAGES
+call::system/bin/su

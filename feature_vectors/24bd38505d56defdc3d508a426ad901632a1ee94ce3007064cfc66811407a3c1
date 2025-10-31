@@ -1,0 +1,13 @@
+feature::android.hardware.location.network
+activity::.IBARoot
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.CALL_PHONE
+call::printStackTrace
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

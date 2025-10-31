@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+permission::android.permission.DEVICE_POWER
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Chat
+intent::android.intent.category.LAUNCHER
+url::chat.onlinechat4all.com
+api_call::android/webkit/WebView
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+url::http://chat.onlinechat4all.com

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::nominis.cef.fr
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://www.cantonuovo.eu/?feed%3Drss2
+url::http://nominis.cef.fr/rss/nominis.php
+service_receiver::.SaintWidget$UpdateService
+intent::android.intent.category.DEFAULT
+url::www.cantonuovo.eu
+url::feeds.feedburner.com
+permission::android.permission.INTERNET
+url::http://liturgia.silvestrini.org/rss.santi.xml
+url::liturgia.silvestrini.org
+url::http://feeds.feedburner.com/catholicnewsagency/saintoftheday/
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

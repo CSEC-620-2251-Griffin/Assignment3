@@ -1,0 +1,12 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+real_permission::android.permission.GET_TASKS
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+permission::android.permission.RESTART_PACKAGES
+api_call::android/app/ActivityManager;->restartPackage
+api_call::android/app/ActivityManager;->getRecentTasks
+real_permission::android.permission.RESTART_PACKAGES
+intent::android.intent.category.LAUNCHER
+activity::.CommantalbActivity
+call::getSystemService

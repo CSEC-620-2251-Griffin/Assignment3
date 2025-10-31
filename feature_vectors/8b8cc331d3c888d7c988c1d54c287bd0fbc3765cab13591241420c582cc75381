@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.SyncClient
+url::www.sktechnology.net
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::java/net/ServerSocket
+call::getPackageInfo
+api_call::android/app/Activity;->sendBroadcast
+url::http://www.sktechnology.net/android/sksync

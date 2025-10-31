@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_LOGS
+activity::.Main
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+permission::android.permission.INSTALL_PACKAGES
+permission::android.permission.INSTALL_LOCATION_PROVIDER
+api_call::android/app/Activity;->setContentView
+permission::android.permission.ACCESS_CHECKIN_PROPERTIES
+permission::android.permission.ACCESS_WIFI_STATE
+feature::android.hardware.location
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+call::Cipher(DES)
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+permission::android.permission.SET_ORIENTATION
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.DELETE_PACKAGES
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

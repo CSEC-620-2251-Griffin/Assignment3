@@ -1,0 +1,9 @@
+url::https://www.my.commbank.com.au/mobile/i/default.aspx
+feature::android.hardware.touchscreen
+activity::.BrowserView
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.my.commbank.com.au
+intent::android.intent.category.LAUNCHER

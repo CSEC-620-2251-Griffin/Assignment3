@@ -1,0 +1,36 @@
+feature::android.hardware.touchscreen
+activity::Louncher
+url::http://schemas.android.com/apk/res/
+permission::android.permission.WRITE_OWNER_DATA
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::hiphotos.baidu.com
+call::getPackageInfo
+call::getDeviceId
+call::HttpPost
+api_call::android/app/Activity;->startActivity
+call::getSystemService
+api_call::java/net/URL;->openStream
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.Louncher
+api_call::java/lang/Runtime;->exec
+url::http://hiphotos.baidu.com/eajar/pic/item/
+call::Execution of external commands
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.SET_WALLPAPER
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.READ_LOGS
+url::http://hi.baidu.com
+real_permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+url::hi.baidu.com
+call::getSubscriberId
+url::schemas.android.com

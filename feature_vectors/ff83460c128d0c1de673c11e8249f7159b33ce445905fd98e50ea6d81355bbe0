@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::.BootCompletedBroadcastReceiver
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+activity::.MainActivity
+url::http://code.google.com/p/milestone-overclock/
+call::Read/Write External Storage
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+url::code.google.com
+service_receiver::.AutoloadService

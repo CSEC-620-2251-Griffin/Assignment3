@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+service_receiver::Perfect System Monitor 4x1
+service_receiver::.MonitorUpdateService
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.BATTERY_STATS
+intent::android.intent.action.BATTERY_CHANGED
+activity::.MainActivity
+call::Read/Write External Storage
+service_receiver::Perfect System Monitor 2x1
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/app/NotificationManager;->notify
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

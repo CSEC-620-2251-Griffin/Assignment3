@@ -1,0 +1,11 @@
+activity::.AboutDialog
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+activity::.SettingView
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.goforandroid.com/ebook
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::www.goforandroid.com
+call::getSystemService

@@ -1,0 +1,5 @@
+activity::com.kitasato.graphicsex2.GraphicsEx
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+activity::.GraphicsEx
+feature::android.hardware.touchscreen

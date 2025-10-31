@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.EggHunt
+intent::android.intent.action.MAIN
+call::Obfuscation(Base64)
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService

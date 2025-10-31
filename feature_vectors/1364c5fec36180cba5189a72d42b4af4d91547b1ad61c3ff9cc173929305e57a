@@ -1,0 +1,15 @@
+url::http://www.powells.com/partner/34549/sellonline?p_sb_c&isbn_list%3D
+feature::android.hardware.touchscreen
+activity::.Help
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://www.powells.com/?&PID%3D34549
+feature::android.hardware.screen.portrait
+activity::Powell's Books
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+activity::.PowellBooks
+url::http://www.powells.com/obb-svc?isbn%3D
+url::www.powells.com

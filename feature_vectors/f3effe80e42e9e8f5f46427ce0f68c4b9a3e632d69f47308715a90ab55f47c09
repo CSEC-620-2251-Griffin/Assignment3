@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.MAIN
+intent::android.intent.action.SERVICE_STATE
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+intent::android.intent.category.DEFAULT
+service_receiver::.MainReceiver
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CALL_PHONE
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService

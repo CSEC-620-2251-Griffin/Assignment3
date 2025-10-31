@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.Billkorea
+url::http://m.billkorea.co.kr/ebill/m/v1/app.jsp
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.CALL_PHONE
+activity::.SplashScreen
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::m.billkorea.co.kr

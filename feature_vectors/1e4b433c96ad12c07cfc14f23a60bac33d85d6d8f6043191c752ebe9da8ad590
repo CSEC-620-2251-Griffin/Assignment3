@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::http://www.droidgenerator.com
+url::http://www.apptailer.com/apps/country/country.jpg
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.apptailer.com/apps/country/widget.html\
+permission::android.permission.INTERNET
+activity::.Activity1
+url::www.apptailer.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://www.apptailer.com/apps/country/widget.html
+url::www.droidgenerator.com

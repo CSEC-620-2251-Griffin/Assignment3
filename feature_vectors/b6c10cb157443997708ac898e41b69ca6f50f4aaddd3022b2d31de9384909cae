@@ -1,0 +1,15 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+call::getDeviceId
+activity::.DialogActivity
+url::market.android.com
+real_permission::android.permission.READ_LOGS
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+call::Execution of external commands
+call::Cipher(AES/CBC/PKCS5Padding)
+call::getPackageInfo
+real_permission::android.permission.READ_PHONE_STATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService

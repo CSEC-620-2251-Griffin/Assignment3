@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.MeatView
+intent::android.intent.action.MAIN
+activity::.ShowView
+activity::.AutoView
+activity::.WaterView
+activity::.CigaretteView
+intent::android.intent.category.LAUNCHER
+activity::.HelloListView
+activity::.GrainView
+activity::.PlaneView
+activity::.ClothView
+api_call::android/content/Context;->startActivity
+activity::.ElectricView
+activity::.GasView

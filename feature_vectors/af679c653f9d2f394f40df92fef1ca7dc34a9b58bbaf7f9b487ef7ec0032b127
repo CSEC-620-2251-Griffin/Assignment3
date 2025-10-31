@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+service_receiver::applications.rfo.SilencerService
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+intent::android.intent.category.HOME
+permission::android.permission.READ_PHONE_STATE
+service_receiver::.BootStarter
+activity::.FadeOutConfigure
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService
+api_call::android/content/Context;->startService

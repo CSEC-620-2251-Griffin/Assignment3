@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.BiasBindingCalculator
+url::http://www.mark-martin.com/apps/quilt/bbc/update
+intent::android.intent.action.MAIN
+url::www.mark-martin.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::java/net/URL;->openConnection

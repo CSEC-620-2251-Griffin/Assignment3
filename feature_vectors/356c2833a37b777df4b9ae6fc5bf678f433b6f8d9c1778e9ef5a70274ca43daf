@@ -1,0 +1,33 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::NativeBrowser
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::HttpPost
+api_call::android/content/ContentResolver;->query
+api_call::android/content/Context;->startActivity
+activity::.LongJump
+activity::Dashboard
+call::Cipher(PBEWithSHA256And256BitAES-CBC-BC)
+call::getSystemService
+activity::IntroFlow
+activity::Settings
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+permission::android.permission.GET_ACCOUNTS
+feature::android.hardware.screen.landscape
+url::api.openfeint.com
+api_call::android/webkit/WebView
+url::http://images.ad-maker.info/apps
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::https://api.openfeint.com
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://images.ad-maker.info/apps/kyh8vdmreoao.html
+real_permission::android.permission.INTERNET
+url::images.ad-maker.info
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE

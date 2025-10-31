@@ -1,0 +1,15 @@
+call::getSystemService
+feature::android.hardware.touchscreen
+url::deaeru.tv
+activity::.HtmlView
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://deaeru.tv/sm/
+permission::android.permission.INTERNET
+activity::com.milac.android.deaeru.hikaku008.MyWebView008
+feature::android.hardware.screen.portrait
+url::http://deaeru.tv/sm/index.html
+activity::.MyWebView008
+real_permission::android.permission.INTERNET
+activity::.Contents
+intent::android.intent.category.LAUNCHER

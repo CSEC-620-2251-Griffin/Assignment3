@@ -1,0 +1,10 @@
+call::getSystemService
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::SelectMap
+intent::android.intent.category.LAUNCHER
+activity::WarFire
+activity::.SelectMap
+activity::About
+intent::android.intent.action.ACTION_VIEW

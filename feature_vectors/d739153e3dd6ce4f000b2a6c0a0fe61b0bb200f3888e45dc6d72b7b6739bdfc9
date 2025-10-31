@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.BATTERY_STATS
+url::www.aoidev.com
+url::http://www.aoidev.com
+intent::android.intent.category.INFO
+call::getSystemService

@@ -1,0 +1,14 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://ajax.googleapis.com/ajax/services/search/images?v%3D1.0&rsz%3Dlarge
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::ajax.googleapis.com
+real_permission::android.permission.INTERNET
+call::getSystemService

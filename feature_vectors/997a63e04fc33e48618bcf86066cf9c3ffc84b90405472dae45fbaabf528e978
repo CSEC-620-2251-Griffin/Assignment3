@@ -1,0 +1,98 @@
+service_receiver::.core.AnalyzerCore$RegistryService
+url::http://schemas.android.com/apk/res/
+url::http://wap.casee.cn/wlogo.gif
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.ACCESS_FINE_LOCATION
+service_receiver::.plugins.location.LocationPlugin
+service_receiver::.plugins.locationaccuracy.BReceiver
+service_receiver::.plugins.camera.CameraPlugin
+service_receiver::.plugins.memory.MemoryPlugin
+url::http://www.souapp.com/media_alias/souappapk/libo_deviceinfo.apk
+api_call::android/hardware/Camera;->open
+service_receiver::.plugins.camera.BReceiver
+service_receiver::.plugins.keyboard.BReceiver
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+url::myapk.cn
+call::getSystemService
+real_permission::android.permission.VIBRATE
+service_receiver::radio interfaces plugin receiver
+permission::android.permission.CAMERA
+service_receiver::.plugins.locationaccuracy.GPSBenchmarkBReceiver
+service_receiver::.plugins.cpu.BReceiver
+url::www.souapp.com
+url::www.casee.cn
+service_receiver::.plugins.device.BReceiver
+url::http://www.souapp.com/mobile/checkupdate?package%3Dcom.souapp.deviceinfo.check
+url::http://myapk.cn/sdkapi.php
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::.plugins.api.BReceiver
+url::http://www.casee.cn
+api_call::android/location/LocationManager;->getLastKnownLocation
+service_receiver::.plugins.radiointerfaces.BReceiver
+permission::android.permission.READ_LOGS
+service_receiver::location plugin receiver
+permission::android.permission.INTERNET
+call::getPackageInfo
+url::www.umeng.com
+service_receiver::.plugins.keyboard.KeyboardPlugin
+api_call::android/content/Context;->startActivity
+service_receiver::.plugins.sensors.SensorsPlugin
+service_receiver::.plugins.locationaccuracy.LocationAccuracyPlugin
+url::http://wap.casee.cn/mo/fee.jsp
+url::http://www.souapp.com
+service_receiver::.plugins.device.DeviceInfoPlugin
+real_permission::android.permission.READ_PHONE_STATE
+service_receiver::browser plugin receiver
+activity::.gui.AnalyzerList
+service_receiver::.plugins.radiointerfaces.RadioInterfacesPlugin
+feature::android.hardware.camera
+service_receiver::.plugins.display.BReceiver
+service_receiver::api plugin receiver
+call::getDeviceId
+intent::android.intent.category.LAUNCHER
+service_receiver::.plugins.memory.BReceiver
+service_receiver::device info plugin receiver
+api_call::java/net/HttpURLConnection
+api_call::android/telephony/TelephonyManager;->getDeviceId
+call::Read/Write External Storage
+url::AndroidFragmentation.com
+url::http://www.umeng.com/app_logs
+real_permission::android.permission.CAMERA
+feature::android.hardware.camera.autofocus
+service_receiver::.plugins.location.BReceiver
+service_receiver::plugins.browser.BrowserPlugin
+permission::android.permission.READ_PHONE_STATE
+service_receiver::.plugins.display.DisplayPlugin
+activity::.SplashView
+call::Execution of external commands
+service_receiver::keyboard plugin receiver
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::gps benchmark plugin receiver
+api_call::android/app/NotificationManager;->notify
+url::schemas.android.com
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::http://wap.casee.cn/mo/SiteAd.ad?b%3D1&m%3D
+url::wap.casee.cn
+real_permission::android.permission.ACCESS_WIFI_STATE
+url::http://AndroidFragmentation.com/SubmitDeviceReport
+permission::android.permission.ACCESS_WIFI_STATE
+service_receiver::camera plugin receiver
+service_receiver::display plugin receiver
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+service_receiver::.plugins.api.APIPlugin
+service_receiver::cpu plugin receiver
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::location accuracy plugin receiver
+feature::android.hardware.wifi
+url::http://www.umeng.com/api/check_app_update
+service_receiver::.plugins.sensors.BReceiver
+real_permission::android.permission.INTERNET
+service_receiver::.plugins.cpu.CPUPlugin
+service_receiver::sensors plugin receiver
+activity::.gui.AnalyzerSettings
+call::getSubscriberId
+call::HttpPost

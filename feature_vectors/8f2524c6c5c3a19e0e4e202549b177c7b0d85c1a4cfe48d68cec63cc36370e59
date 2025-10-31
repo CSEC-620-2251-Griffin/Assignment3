@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.activity.TagsActivity
+api_call::android/webkit/WebView
+api_call::android/os/Vibrator;->vibrate
+activity::.MainActivity
+real_permission::android.permission.INTERNET
+service_receiver::JustExpense Tag
+activity::.activity.HelpActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.appwidget.JeXTopTagWidgetConfigurationActivity
+activity::MainActivity
+provider::android.appwidget.provider
+call::getSystemService

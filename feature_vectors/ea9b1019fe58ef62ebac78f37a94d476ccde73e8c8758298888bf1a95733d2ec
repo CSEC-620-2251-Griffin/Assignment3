@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+activity::Help
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+activity::.Main
+activity::Converting Image...
+activity::.ShowPicture
+activity::.AsciiResult
+api_call::android/hardware/Camera;->open
+activity::Alert
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+call::getSystemService
+activity::Load Image
+activity::.Cam

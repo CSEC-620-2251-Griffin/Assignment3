@@ -1,0 +1,16 @@
+permission::android.permission.CALL_PHONE
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+service_receiver::.IncomingBroadcastReceiver
+intent::android.intent.action.MAIN
+url::http://www.cpsolutions.org/cps/
+permission::android.permission.READ_PHONE_STATE
+activity::IncomingCallActivity
+intent::android.intent.action.ANSWER
+activity::.CallerIdAppMain
+url::www.cpsolutions.org
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::android.permission.MODIFY_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+call::getSystemService

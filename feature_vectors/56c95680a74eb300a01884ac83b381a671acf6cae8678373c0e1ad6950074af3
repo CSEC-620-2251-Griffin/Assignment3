@@ -1,0 +1,9 @@
+activity::.SpanishTester
+feature::android.hardware.touchscreen
+activity::.SpanishTester2
+intent::android.intent.action.MAIN
+activity::.doQuestion
+call::getPackageInfo
+activity::.doSetup
+activity::.doResult
+intent::android.intent.category.LAUNCHER

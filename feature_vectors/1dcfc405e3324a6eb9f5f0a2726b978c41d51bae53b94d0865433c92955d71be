@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::www.zemanel.eu
+intent::android.intent.action.MAIN
+activity::.MainActivity
+url::www.twitter.com
+url::http://www.zemanel.eu
+intent::android.intent.category.LAUNCHER
+url::http://www.twitter.com/zemanel
+url::http://www.facebook.com/ELZeManel

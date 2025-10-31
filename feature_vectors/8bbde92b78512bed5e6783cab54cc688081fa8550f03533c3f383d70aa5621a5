@@ -1,0 +1,6 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Random1
+call::getSystemService
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+service_receiver::.AlertReceiver
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.TodayActivity
+activity::.GraphActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.CalendarActivity
+real_permission::android.permission.VIBRATE
+call::Read/Write External Storage
+call::getSystemService
+activity::.Tracker

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://www.intercall.com/sign-up.php
+intent::android.intent.action.MAIN
+permission::android.permission.MODIFY_PHONE_STATE
+permission::android.permission.CALL_PHONE
+activity::.ProfilesActivity
+permission::android.permission.READ_PHONE_STATE
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::ViewProfileActivity
+call::getPackageInfo
+activity::.AddProfileActivity
+url::www.intercall.com

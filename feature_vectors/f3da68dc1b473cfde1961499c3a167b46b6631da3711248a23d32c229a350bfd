@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::knox.villagesoup.com
+intent::android.intent.action.MAIN
+url::http://knox.villagesoup.com/mobile/android/index.seam
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.knox
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

@@ -1,0 +1,12 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::printStackTrace
+service_receiver::.LOLWidget$UpdateService
+permission::android.permission.INTERNET
+service_receiver::.LOLWidgetReceiver
+api_call::android/content/Context;->startService
+url::api.cheezburger.com
+url::http://api.cheezburger.com/xml/category/
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+call::getSystemService

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://akiware.com/allvolumes/help12.html
+intent::android.intent.action.MAIN
+intent::com.twofortyfouram.locale.intent.action.FIRE_SETTING
+intent::com.twofortyfouram.locale.intent.action.EDIT_SETTING
+url::akiware.com
+call::getPackageInfo
+service_receiver::.FireReceiver
+intent::android.intent.category.INFO
+call::getSystemService

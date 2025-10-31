@@ -1,0 +1,11 @@
+url::www.mysticgd.com
+feature::android.hardware.touchscreen
+url::http://www.mysticgd.com/website/iBoobs-Android-v110.php
+intent::android.intent.action.MAIN
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

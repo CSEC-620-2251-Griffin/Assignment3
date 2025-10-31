@@ -1,0 +1,8 @@
+activity::.Demo
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.TableData
+activity::.StartActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.EditData

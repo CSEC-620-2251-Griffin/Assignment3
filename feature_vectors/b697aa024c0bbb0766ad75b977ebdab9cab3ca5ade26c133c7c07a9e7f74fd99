@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+url::pagead2.googlesyndication.com
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.welcome
+feature::android.hardware.camera.autofocus
+api_call::android/content/Context;->startActivity
+call::getSystemService
+permission::android.permission.CAMERA
+call::Obfuscation(Base64)
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+api_call::android/webkit/WebView
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::farm%s.static.flickr.com
+intent::android.intent.action.MAIN
+url::www.flickr.com
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://farm%s.static.flickr.com/%s/%s_%s%s.jpg
+activity::com.earthalbum.photo.travel.activity.PhotoView
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+url::http://www.flickr.com/images/buddyicon.jpg
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://farm%s.static.flickr.com/%s/buddyicons/%s.jpg
+activity::.EarthAlbum
+call::getSystemService

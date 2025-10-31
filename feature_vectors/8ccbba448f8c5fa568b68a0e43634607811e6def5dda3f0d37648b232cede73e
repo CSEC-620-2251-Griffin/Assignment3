@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.PACKAGE_ADDED
+intent::android.intent.action.PACKAGE_REMOVED
+activity::.Main
+service_receiver::PackageChangedReceiver
+activity::.LockActivity
+activity::.PackageChangedActivity
+intent::android.intent.action.PACKAGE_REPLACED
+api_call::android/app/ActivityManager;->killBackgroundProcesses
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+permission::android.permission.KILL_BACKGROUND_PROCESSES
+real_permission::android.permission.RESTART_PACKAGES
+call::Execution of external commands
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+activity::.SettingsActivity
+api_call::android/content/Context;->startActivity

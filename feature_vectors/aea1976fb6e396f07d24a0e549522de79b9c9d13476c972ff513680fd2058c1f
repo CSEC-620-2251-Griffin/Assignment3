@@ -1,0 +1,21 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+url::www.shoutcast.com
+api_call::java/net/URL;->openConnection
+service_receiver::.StreamerService
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+activity::.AntPlayerTabs
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/media/MediaPlayer;->stop
+url::http://www.shoutcast.com/sbin/newxml.phtml?search%3D
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+permission::android.permission.READ_PHONE_STATE
+url::http://www.shoutcast.com/sbin/tunein-station.pls?id%3D
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

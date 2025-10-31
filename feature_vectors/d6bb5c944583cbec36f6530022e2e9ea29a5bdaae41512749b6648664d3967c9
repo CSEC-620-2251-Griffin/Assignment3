@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::droid.tostada.org
+intent::android.intent.action.MAIN
+url::http://droid.tostada.org/appJ.html
+url::http://droid.tostada.org/appK.html
+url::http://droid.tostada.org/appE.html
+intent::android.intent.category.LAUNCHER
+activity::.setting
+call::getSystemService
+service_receiver::.SetViv

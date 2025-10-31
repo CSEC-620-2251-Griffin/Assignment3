@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+permission::android.permission.CALL_PHONE
+permission::android.permission.RECEIVE_SMS
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+provider::android.provider.Telephony.SMS_SENT
+api_call::android/content/ContentResolver;->query
+activity::com.metandroid.quickdial.DialerActivity
+intent::android.intent.action.SERVICE_STATE
+api_call::android/content/Context;->startActivity
+api_call::android/telephony/TelephonyManager;->getLine1Number
+service_receiver::QuickDialFree 3X1
+permission::android.permission.READ_PHONE_STATE
+call::getSystemService
+provider::android.provider.Telephony.SMS_RECEIVED
+intent::android.intent.action.DATA_SMS_RECEIVED
+permission::android.permission.RECEIVE_MMS
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+service_receiver::QuickDialFree 2X1
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+service_receiver::QuickDialFree 4X1
+service_receiver::com.metandroid.quickdial.QuickDialService
+provider::android.appwidget.provider

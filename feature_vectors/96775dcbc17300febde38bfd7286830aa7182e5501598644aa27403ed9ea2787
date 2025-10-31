@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::rfc.bsmt.fr
+intent::android.intent.action.MAIN
+url::http://rfc.bsmt.fr
+activity::.RFC
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

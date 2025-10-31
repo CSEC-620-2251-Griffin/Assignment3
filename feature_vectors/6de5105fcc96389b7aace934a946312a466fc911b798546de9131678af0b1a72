@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::http://www.l3stratis.com
+intent::android.intent.action.MAIN
+permission::android.permission.REBOOT
+activity::.L3STRATIS
+url::http://www.l3stratis.com/\%27\%27>http://www.L-3STRATIS.com/</a>
+permission::android.permission.INTERNET
+url::http://www.l3stratis.com/\%27\%27>http://www.L-3STRATIS.com/</a><br
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.splash
+activity::splash
+url::www.l3stratis.com

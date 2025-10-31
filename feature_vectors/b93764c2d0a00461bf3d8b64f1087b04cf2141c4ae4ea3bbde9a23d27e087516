@@ -1,0 +1,33 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::getDeviceId
+activity::com.darkpain.myinfo.info
+permission::android.permission.READ_PHONE_STATE
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://darkpain0.com
+real_permission::android.permission.ACCESS_WIFI_STATE
+feature::android.hardware.location.gps
+url::darkpain0.com
+permission::android.permission.ACCESS_WIFI_STATE
+feature::android.hardware.camera.autofocus
+api_call::android/media/AudioManager;->isWiredHeadsetOn
+feature::android.hardware.location
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::My info
+permission::android.permission.BLUETOOTH
+call::getSimCountryIso
+call::getSystemService
+real_permission::android.permission.BLUETOOTH
+permission::android.permission.CAMERA
+api_call::android/location/LocationManager;->isProviderEnabled
+real_permission::android.permission.MODIFY_AUDIO_SETTINGS
+real_permission::android.permission.READ_PHONE_STATE
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+feature::android.hardware.camera
+activity::.main
+api_call::android/bluetooth/BluetoothAdapter;->getName
+intent::android.intent.category.LAUNCHER
+permission::android.permission.BLUETOOTH_ADMIN
+api_call::android/net/wifi/WifiManager;->isWifiEnabled

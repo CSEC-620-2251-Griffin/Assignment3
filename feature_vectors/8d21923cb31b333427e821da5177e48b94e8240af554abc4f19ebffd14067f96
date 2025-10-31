@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.TentaizuLite
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::Obfuscation(Base64)
+real_permission::android.permission.INTERNET
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+call::getSystemService

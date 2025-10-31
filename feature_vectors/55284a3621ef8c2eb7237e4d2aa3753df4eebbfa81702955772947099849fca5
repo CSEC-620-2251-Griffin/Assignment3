@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+url::tehimp.com.
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+service_receiver::.SteamCompanionWidget2$UpdateService2
+real_permission::android.permission.INTERNET
+url::http://tehimp.com.
+activity::.About
+url::steamcommunity.com
+api_call::android/content/ContentResolver;->openOutputStream
+service_receiver::SteamCompanion (2x1)
+url::tehimp.com
+service_receiver::SteamCompanion (4x1)
+api_call::android/content/Context;->startService
+api_call::java/net/URL;->openConnection
+service_receiver::.SteamCompanionWidget$UpdateService
+url::http://tehimp.com
+intent::android.intent.action.MAIN
+activity::.Profile
+activity::.Game
+feature::android.hardware.screen.portrait
+activity::.SteamCompanion
+intent::android.intent.category.LAUNCHER
+url::http://steamcommunity.com/id/
+provider::android.appwidget.provider
+url::http://steamcommunity.com/profiles/

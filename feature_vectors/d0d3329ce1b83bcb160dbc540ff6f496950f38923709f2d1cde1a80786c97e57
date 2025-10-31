@@ -1,0 +1,16 @@
+url::http://en.wikipedia.org/wiki/Planning_poker
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.10pines.com
+url::www.10pines.com
+url::en.wikipedia.org
+activity::DeckActivity
+api_call::java/net/Socket
+real_permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::.SplashActivity
+call::HttpPost

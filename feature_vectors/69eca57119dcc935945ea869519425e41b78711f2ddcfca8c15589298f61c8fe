@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.oesia.com/m/oesia_minuto/notificador.xml
+activity::.SplashScreen
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::www.oesia.com
+real_permission::android.permission.INTERNET

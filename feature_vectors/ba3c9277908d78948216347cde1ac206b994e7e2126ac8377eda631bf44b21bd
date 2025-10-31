@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.login
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::www.sbinursery.com
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+real_permission::android.permission.INTERNET
+call::HttpPost
+real_permission::android.permission.CAMERA
+feature::android.hardware.camera.autofocus
+api_call::java/net/Socket
+api_call::android/telephony/TelephonyManager;->getLine1Number
+call::getSystemService
+permission::android.permission.CAMERA
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.camera
+url::http://www.sbinursery.com/RedirectToSBISupportUtility.asp?A%3DGatewayIP
+feature::android.hardware.screen.portrait
+activity::.MainMenu
+intent::android.intent.category.LAUNCHER

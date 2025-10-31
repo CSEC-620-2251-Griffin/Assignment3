@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::http://rasp.heroku.com/regions/
+intent::android.intent.action.MAIN
+api_call::android/provider/ContactsContract$Contacts;->openContactPhotoInputStream
+activity::.RegionActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::be.suffix.rasp.activities.DayActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+url::rasp.heroku.com
+call::getSystemService
+activity::be.suffix.rasp.activities.RegionActivity

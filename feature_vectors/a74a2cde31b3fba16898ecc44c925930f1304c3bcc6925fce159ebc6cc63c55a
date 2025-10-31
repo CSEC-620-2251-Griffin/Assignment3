@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::FAU Review
+activity::.Main
+url::http://mobile.faureview.com/about
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.faureview.com/roster
+url::http://mobile.faureview.com/stats
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://mobile.faureview.com
+url::http://mobile.faureview.com/schedule
+url::mobile.faureview.com

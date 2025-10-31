@@ -1,0 +1,16 @@
+activity::LineResults
+activity::LineSearch
+activity::Settings
+activity::.HelloAndroid
+intent::android.intent.action.MAIN
+activity::LineStops
+activity::Help
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.touchscreen
+activity::StopStop
+intent::android.intent.category.LAUNCHER
+activity::StopStopResults
+activity::DataChooser
+activity::About
+call::getSystemService
+activity::StopSearch

@@ -1,0 +1,14 @@
+service_receiver::.AirplaneToggleWidget$UpdateService
+feature::android.hardware.touchscreen
+service_receiver::.AirplaneToggleService
+intent::android.intent.action.MAIN
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.category.INFO
+service_receiver::Airplane Toggle Widget
+real_permission::android.permission.WRITE_SETTINGS
+service_receiver::.AirplaneReceiver
+api_call::android/content/Context;->sendBroadcast
+provider::android.appwidget.provider
+activity::Airplane Toggle Widget
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.WRITE_SETTINGS

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.SimsimActivity
+url::m.fileguri.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://m.fileguri.com/bbs/FgMBBSPopularityList.asp
+url::http://m.fileguri.com/bbs/FgMBBSSearchList.asp?pageNo%3D1&search%3D
+intent::android.intent.category.LAUNCHER
+url::http://m.fileguri.com/
+url::http://m.fileguri.com/bbs/FgMBBSBestReplyList.asp
+real_permission::android.permission.INTERNET
+call::getSystemService

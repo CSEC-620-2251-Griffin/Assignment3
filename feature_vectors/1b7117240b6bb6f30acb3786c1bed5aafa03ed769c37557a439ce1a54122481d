@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::MenuActivity
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::MainActivity
+call::getPackageInfo
+activity::HighscoresActivity
+real_permission::android.permission.INTERNET
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+activity::PrefsActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::Obfuscation(Base64)
+activity::.MenuActivity
+activity::TiltActivity
+api_call::java/net/DatagramSocket
+api_call::android/app/Activity;->startActivity
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+api_call::android/location/LocationManager;->getBestProvider
+feature::android.hardware.screen.portrait
+activity::HelpActivity
+intent::android.intent.category.LAUNCHER

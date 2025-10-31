@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::http://www.lecrat.org
+intent::android.intent.action.MAIN
+url::http://www.facebook.com/monsuivigrossesse
+activity::.AMain
+api_call::android/content/Context;->startActivity
+feature::android.hardware.screen.portrait
+url::www.lecrat.org
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/app/Activity;->setContentView
+real_permission::android.permission.INTERNET
+call::getSystemService

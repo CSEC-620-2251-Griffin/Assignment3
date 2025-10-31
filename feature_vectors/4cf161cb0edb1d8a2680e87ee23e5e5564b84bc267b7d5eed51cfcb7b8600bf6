@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.SecurityQuestionDetailsActivity
+intent::android.intent.action.MAIN
+activity::.CreateAccountActivity
+call::getSystemService
+activity::.LoginActivity
+activity::.PasswordDetailsActivity
+activity::.GenPasswordActivity
+permission::android.permission.INTERNET
+api_call::java/net/HttpURLConnection
+activity::.PasswordListActivity
+intent::android.intent.category.LAUNCHER
+url::www.passwordtote.com
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+activity::.SecurityQuestionsActivity
+call::HttpPost
+url::https://www.passwordtote.com/online/request-cred-change.aspx

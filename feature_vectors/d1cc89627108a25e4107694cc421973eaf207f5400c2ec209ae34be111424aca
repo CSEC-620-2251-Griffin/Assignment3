@@ -1,0 +1,17 @@
+activity::.BugReport
+activity::.MHTC
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://www.iangei.com
+activity::.ArmorList
+activity::.BowgunPartList
+activity::.GearSimulator
+url::www.iangei.com
+intent::android.intent.category.DEFAULT
+activity::.TalismanSelection
+intent::android.intent.category.LAUNCHER
+activity::.SkillTable
+call::getSystemService
+activity::.DecorationList
+activity::.WeaponList

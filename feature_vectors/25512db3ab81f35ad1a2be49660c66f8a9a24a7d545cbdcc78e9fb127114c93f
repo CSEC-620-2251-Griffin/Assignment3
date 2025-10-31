@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CONTACTS
+api_call::android/app/Activity;->startActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getSystemService
+url::alogcollector.andreabaccega.com
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+activity::android.permission.READ_CONTACTS
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+url::http://alogcollector.andreabaccega.com/ci/api/submit
+call::HttpPost
+activity::.PhotoGallery

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.action.SEND
+intent::android.intent.category.DEFAULT
+activity::.MailMyselfDirectActivity
+intent::android.intent.category.LAUNCHER
+activity::.MMPreferencesActivity
+activity::.MailMyself

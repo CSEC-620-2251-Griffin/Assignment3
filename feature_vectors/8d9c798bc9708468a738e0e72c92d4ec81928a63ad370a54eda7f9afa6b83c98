@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.OraNewsLivePlay
+feature::android.hardware.screen.landscape
+activity::RTVOraNews
+activity::.RTVOraNews
+intent::android.intent.category.LAUNCHER

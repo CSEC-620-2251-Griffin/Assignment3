@@ -1,0 +1,17 @@
+service_receiver::.ClockrAlarm
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+service_receiver::Clockr
+intent::android.intent.action.MAIN
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+intent::android.intent.category.DEFAULT
+activity::.ClockrCreditsActivity
+service_receiver::.ClockrConfig
+intent::android.intent.category.LAUNCHER
+activity::.ClockrPreferences
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.ClockrUpdateService
+provider::android.appwidget.provider
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+call::getSystemService
+api_call::android/content/Context;->startService

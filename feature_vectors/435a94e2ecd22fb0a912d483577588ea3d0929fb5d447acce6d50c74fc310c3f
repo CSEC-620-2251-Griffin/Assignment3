@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.CipherConnectDemoActivity
+intent::android.intent.category.LAUNCHER
+call::Cipher(/sdcard/)
+call::Cipher(OK)
+call::Cipher(CipherConnectDemo.txt)

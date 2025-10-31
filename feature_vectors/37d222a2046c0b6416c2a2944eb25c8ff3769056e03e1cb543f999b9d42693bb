@@ -1,0 +1,16 @@
+activity::.catagory_screen
+activity::.sms_screen
+url::market.android.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.first_screen
+api_call::android/media/MediaPlayer;->start
+activity::.favorites_screen
+intent::android.intent.category.DEFAULT
+activity::.cata1_vfj_screen
+activity::.favorite_view
+intent::android.intent.category.LAUNCHER
+activity::.today_joke
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.action.VIEW
+url::http://market.android.com/details?id%3Djoke.pro.com

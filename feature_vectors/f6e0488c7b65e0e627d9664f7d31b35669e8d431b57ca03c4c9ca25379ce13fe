@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://cdn.dzone.com/links/images/avatars/48x48/
+url::http://www.dzone.com/feed/queue/rss.xml
+permission::android.permission.INTERNET
+url::http://www.dzone.com/links/voteCountImage?linkId%3D
+activity::.RSSTitleListViewer
+url::http://www.dzone.com/links/images/avatars/
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::cdn.dzone.com
+url::www.dzone.com

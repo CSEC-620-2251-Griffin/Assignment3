@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.action.PICK
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.DEFAULT
+activity::.TracedActivity
+intent::android.intent.category.LAUNCHER
+activity::.RayTracer
+intent::android.intent.action.VIEW

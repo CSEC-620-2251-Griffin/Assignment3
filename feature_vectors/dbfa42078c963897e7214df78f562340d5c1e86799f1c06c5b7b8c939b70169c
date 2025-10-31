@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.ExtendLockTime
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/provider/Settings$System;->putLong
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WRITE_SETTINGS

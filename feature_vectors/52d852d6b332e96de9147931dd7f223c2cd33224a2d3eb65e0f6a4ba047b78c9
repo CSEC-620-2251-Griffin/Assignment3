@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::http://josephmakandroid.blogspot.com/
+url::josephmakandroid.blogspot.com
+intent::android.intent.action.MAIN
+activity::TextViewer
+intent::android.intent.category.LAUNCHER
+activity::.TOCActivity
+call::getPackageInfo

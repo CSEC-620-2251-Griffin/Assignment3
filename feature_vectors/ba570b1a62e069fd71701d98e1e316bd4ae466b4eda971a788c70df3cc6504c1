@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::de.dj.john.light.smartinput.SmartInputPreference
+api_call::android/os/Vibrator;->vibrate
+call::Read/Write External Storage
+feature::android.hardware.screen.portrait
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService
+activity::.SmartInputPreference
+service_receiver::de.dj.john.light.smartinput.SmartInput

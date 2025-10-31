@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.EmActivity
+intent::android.intent.action.MAIN
+activity::.OrActivity
+activity::.MainDisplay
+intent::android.intent.category.LAUNCHER
+call::getSystemService

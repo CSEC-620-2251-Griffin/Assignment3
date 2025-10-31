@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.everymanatiger.com/roster
+intent::android.intent.action.MAIN
+url::mobile.everymanatiger.com
+url::http://mobile.everymanatiger.com/stats
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://mobile.everymanatiger.com/about
+url::http://mobile.everymanatiger.com/schedule
+url::http://mobile.everymanatiger.com
+activity::Every Man A Tiger

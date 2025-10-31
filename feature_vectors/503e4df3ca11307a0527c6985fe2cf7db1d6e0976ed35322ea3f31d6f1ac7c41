@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mm.admob.com/static/android/tiles/default.png
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://gw.youmi.net/reqad
+url::gw.youmi.net
+intent::android.intent.category.LAUNCHER
+activity::.MenuActivity
+url::mm.admob.com
+api_call::android/app/Activity;->startActivity
+url::http://gw.youmi.net/clkad
+call::getSystemService
+url::schemas.android.com

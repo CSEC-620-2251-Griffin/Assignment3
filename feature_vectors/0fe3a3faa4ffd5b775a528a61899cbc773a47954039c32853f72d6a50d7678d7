@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.Copyrights
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT
+activity::DateChangedBroadcastListener
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.DATE_CHANGED
+service_receiver::DateChangedBroadcastListener
+call::getSystemService
+intent::android.intent.action.VIEW

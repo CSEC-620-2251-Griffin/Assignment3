@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::https://api.facebook.com/restserver.php
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.INTERNET
+permission::android.permission.INTERNET
+url::http://www.facebook.com/login.php
+url::http://www.facebook.com/connect/prompt_feed.php
+call::printStackTrace
+url::http://www.facebook.com/connect/prompt_permissions.php
+url::api.facebook.com
+url::http://api.facebook.com/restserver.php
+api_call::java/net/URL;->openConnection

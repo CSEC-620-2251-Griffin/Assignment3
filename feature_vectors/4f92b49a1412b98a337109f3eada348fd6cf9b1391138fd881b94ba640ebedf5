@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::.mascleta
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::es.novapeg.demomascleta.mascleta

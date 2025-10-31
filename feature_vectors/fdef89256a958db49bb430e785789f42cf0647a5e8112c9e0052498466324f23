@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::http://www.facebook.com/group.php?gid%3D51602463718&ref%3Dts
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.WRITE_SETTINGS
+activity::Hodgeisms
+activity::SnatchCard
+activity::WordLookup
+activity::.PortalScreen
+feature::android.hardware.screen.portrait
+api_call::android/media/MediaPlayer;->stop
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/media/RingtoneManager;->setActualDefaultRingtoneUri
+real_permission::android.permission.WAKE_LOCK
+activity::SoundBoardList
+permission::android.permission.WRITE_SETTINGS

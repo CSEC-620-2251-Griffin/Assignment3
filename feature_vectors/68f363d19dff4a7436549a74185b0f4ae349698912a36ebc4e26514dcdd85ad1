@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.BTS
+intent::android.intent.action.MAIN
+activity::th
+intent::android.intent.category.LAUNCHER
+activity::en

@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+service_receiver::BootUpReceiver
+intent::android.intent.action.MAIN
+api_call::android/provider/Settings$System;->putString
+real_permission::android.permission.WRITE_SETTINGS
+service_receiver::RadioWakeUpReceiver
+service_receiver::RadioSleepReceiver
+activity::SettingsActivity
+activity::.SettingsActivity
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/content/Context;->sendBroadcast
+permission::android.permission.WRITE_SETTINGS
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+intent::android.intent.category.LAUNCHER

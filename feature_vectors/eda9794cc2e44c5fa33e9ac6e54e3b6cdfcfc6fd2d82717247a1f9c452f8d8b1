@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.OPENABLE
+call::system/bin/su
+activity::.RootExplorer
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.GET_CONTENT
+real_permission::android.permission.READ_LOGS
+call::printStackTrace
+activity::.AboutActivity
+activity::.SQLiteEditorAdvert
+call::Execution of external commands
+api_call::java/lang/Runtime;->exec
+activity::.CreateArchive
+activity::.PermissionsActivity
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://bbs.mumayi.com
+intent::android.intent.category.DEFAULT
+url::bbs.mumayi.com
+activity::.SearchCriteria

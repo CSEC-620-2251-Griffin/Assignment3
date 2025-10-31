@@ -1,0 +1,34 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://remoid.net/IP?type%3D2&rtsc%3D
+call::getPackageInfo
+real_permission::android.permission.ACCESS_WIFI_STATE
+real_permission::android.permission.WAKE_LOCK
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::.LoginActivity
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+feature::android.hardware.screen.landscape
+api_call::java/net/DatagramSocket
+real_permission::android.permission.READ_PHONE_STATE
+url::http://remoid.net/IP?type%3D3&rtsc%3D
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify
+url::http://remoid.net
+url::remoid.net

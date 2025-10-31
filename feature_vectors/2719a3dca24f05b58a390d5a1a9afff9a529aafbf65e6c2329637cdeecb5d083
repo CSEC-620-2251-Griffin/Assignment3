@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.SeekingGodFlashCardsActivity
+intent::android.intent.action.MAIN
+activity::.ShowVerseTextActivity
+intent::android.intent.category.LAUNCHER
+url::www.biblegateway.com
+url::http://www.biblegateway.com/passage/?search%3D

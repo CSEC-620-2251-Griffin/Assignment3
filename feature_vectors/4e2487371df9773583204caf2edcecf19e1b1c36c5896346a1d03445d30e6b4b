@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::suprememastertv.com
+url::http://suprememastertv.com/m/
+activity::.SupremeMasterTV
+intent::android.intent.category.LAUNCHER

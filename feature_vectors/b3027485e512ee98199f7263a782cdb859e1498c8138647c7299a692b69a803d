@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://ebookhow.info/SLoan/More_-_SLoan.html
+url::http://ebookhow.info/SLoan/Pitfalls.html
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://ebookhow.info/Student_Loans/Student_Loan_News.html
+activity::.SplashActivity
+url::ebookhow.info
+call::getSystemService
