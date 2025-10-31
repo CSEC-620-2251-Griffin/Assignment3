@@ -1,0 +1,12 @@
+# Example labels file format
+# Format: hash,label,family
+# OR simplified: hash,family (label inferred: benign if family='benign', else malware)
+#
+# Lines starting with # are comments
+# The hash should match the filename in feature_vectors/
+
+# Example entries:
+# 00002d74a9faa53f5199c910b652ef09d3a7f6bd42b693755a233635c3ffb0f4,malware,family1
+# 000068216bdb459df847bfdd67dd11069c3c50166db1ea8772cdc9250d948bcf,benign,benign
+# 0000764713b286cfe7e8e76c7038c92312977712d9c5a86d504be54f3c1d025a,malware,family2
+

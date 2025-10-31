@@ -1,0 +1,230 @@
+Malware Classification Project — LLM Execution Blueprint
+1. Project Goals
+
+Build malware classifier using SVM and SGD from scratch (no sklearn SVM/SGD).
+
+Train binary classifier (malware vs benign).
+
+Train multi-class malware family classifier (OvA or OvO).
+
+2. Dataset Setup
+Tasks
+
+Load dataset (feature files + labels)
+
+Read metadata/README
+
+Extract labels & sample features
+
+Outputs
+
+Dataset object / loader
+
+List of malware families & counts
+
+3. Feature Engineering
+Tasks
+
+Build global vocabulary of all unique features
+
+Convert each sample → binary feature vector (1 = present, 0 = absent)
+
+Store label as +1 / −1 for binary mode, multi-class label index for family mode
+
+Outputs
+
+X_binary, y_binary
+
+X_multiclass, y_multiclass
+
+Vocabulary size
+
+4. Model Architecture
+SVM Model Components
+
+Weight vector w
+
+Bias b
+
+Prediction: y = w · x − b
+
+Outputs
+
+Custom SVM class object w/ params
+
+5. Loss Function
+Implement Hinge Loss
+
+Loss = max(0, 1 − t*y)
+
+Add soft-margin term C * ||w||²
+
+Outputs
+
+Loss function module
+
+Option to toggle hard/soft margin
+
+6. Optimization — SGD
+Tasks
+
+Initialize w, b
+
+Loop over epochs & samples
+
+Compute gradients via PyTorch
+
+Update weights
+
+Reset gradients
+
+Hyperparameters to expose
+
+learning_rate
+
+C
+
+epochs
+
+Outputs
+
+Trained SVM weights
+
+Training loss history
+
+7. Multi-Class Strategy
+
+Choose ONE (required):
+
+One-vs-All ✅ baseline
+OR
+
+One-vs-One ✅ baseline
+
+(Optional bonus: do both)
+
+Outputs
+
+A list of trained binary classifiers
+
+Multi-class prediction function
+
+8. Model Evaluation
+Binary Classification (Malware vs Benign)
+
+Train on reduced benign sample subset
+
+Compute:
+
+Accuracy C / (C + W)
+
+Benign/malware ratio report
+
+Multi-Class Malware Classification
+
+Exclude benign
+
+Evaluate on malware classes only
+
+Show top 20 classes
+
+Metrics:
+
+Accuracy
+
+Normalized confusion matrix
+
+Outputs
+
+Metric dictionary
+
+Confusion matrix plot
+
+9. Hyperparameter Tuning
+Grid over
+
+C
+
+learning_rate
+
+epochs
+
+Outputs
+
+Performance table
+
+Graphs w/ results (Loss vs epoch, Accuracy vs C, etc.)
+
+10. Feature Importance
+Tasks
+
+Rank by |w|
+
+Show:
+
+Top 10 most influential features
+
+Bottom 10 least influential features
+
+Comment on trends & normalization
+
+Outputs
+
+Importance tables + comments
+
+11. Kernel Comparison (Sklearn)
+Tasks
+
+Train:
+
+LinearSVC
+
+SVC(kernel="rbf")
+
+Compare against custom model
+
+Use small subset
+
+Outputs
+
+Performance comparison table
+
+Short explanation when RBF helps
+
+12. Concept Questions
+
+LLM must generate written responses on:
+
+When kernels help
+
+Meaning of |y| < 1 (support vectors)
+
+Why hinge loss emphasizes these samples
+
+13. Deliverables Generated
+
+✅ Source code files
+✅ README install + run instructions
+✅ 3-page report w/ sections:
+
+Dataset + sample ratios
+
+Results + confusion matrix
+
+Hyperparameter tuning discussion + graphs
+
+Feature importance analysis
+
+Kernel comparison
+
+SVM theory questions answered
+✅ Citations included
+✅ No SVM/SGD libraries used
+
+14. Bonus (Optional)
+
+Implement both OvA + OvO
+
+Compare results
+
+Explain observed differences
