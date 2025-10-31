@@ -1,6 +1,0 @@
-activity::.GuessNumberActivity
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::AboutActivity
-activity::GuessNumberActivity
-intent::android.intent.category.LAUNCHER

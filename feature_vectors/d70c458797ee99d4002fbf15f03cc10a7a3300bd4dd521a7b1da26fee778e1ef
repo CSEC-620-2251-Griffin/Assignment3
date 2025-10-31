@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.Main
-activity::KeySetting
-intent::android.intent.category.LAUNCHER
-feature::android.hardware.screen.landscape
-activity::GameActivity
-activity::About
-activity::FileBrowser

@@ -1,8 +1,0 @@
-url::http://market.android.com/details?id%3D
-feature::android.hardware.touchscreen
-url::https://market.android.com/search?q%3Dmastermind-arts&c%3Dapps
-url::market.android.com
-intent::android.intent.action.MAIN
-activity::.MMA_Activity
-feature::android.software.live_wallpaper
-intent::android.intent.category.LAUNCHER

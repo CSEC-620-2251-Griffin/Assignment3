@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.AquiferLevel
-url::www.edwardsaquifer.org
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::http://www.edwardsaquifer.org/display_historical_text.php
-api_call::java/net/URL;->openConnection

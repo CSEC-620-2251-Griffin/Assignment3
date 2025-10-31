@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::Game
-activity::.Help
-intent::android.intent.action.MAIN
-call::printStackTrace
-activity::BestTimes
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo
-activity::.Sudoku10000

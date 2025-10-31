@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::TomClockV1
-feature::android.hardware.screen.portrait
-api_call::android/content/Context;->startService
-service_receiver::TomClockV1Service
-provider::android.appwidget.provider

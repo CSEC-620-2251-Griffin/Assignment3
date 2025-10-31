@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.smallscreensoftware.com
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-url::http://www.smallscreensoftware.com/cgenius.html
-activity::.CheckbookHyper
-call::printStackTrace
-intent::android.intent.category.LAUNCHER
-call::getSystemService

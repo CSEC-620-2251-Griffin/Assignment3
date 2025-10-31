@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.MainActivity
-activity::com.smartsoftworksllc.android.kittysilentmodetoggle.MainActivity
-service_receiver::com.smartsoftworksllc.android.kittysilentmodetoggle.AppWidget$ToggleService
-intent::android.intent.category.LAUNCHER
-provider::android.appwidget.provider
-call::getSystemService
-api_call::android/content/Context;->startService

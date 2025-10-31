@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Calculator
-intent::android.intent.action.MAIN
-activity::de.levidensis.Calculator
-intent::android.intent.category.LAUNCHER
-call::getSystemService

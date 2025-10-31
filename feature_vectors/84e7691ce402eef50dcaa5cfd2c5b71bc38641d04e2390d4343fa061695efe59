@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-activity::.InsertItemActivity
-call::Read/Write External Storage
-intent::android.intent.category.LAUNCHER
-activity::com.oversea.mymoney.InsertItemActivity
-call::getSystemService

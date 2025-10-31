@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-call::getSystemService
-intent::android.intent.action.MAIN
-activity::.GPicMapMainActivity
-intent::android.intent.category.LAUNCHER

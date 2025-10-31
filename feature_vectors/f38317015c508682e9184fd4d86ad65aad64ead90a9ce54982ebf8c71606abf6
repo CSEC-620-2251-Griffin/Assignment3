@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://2010.geecon.org/main/home
-provider::android.appwidget.provider
-url::2010.geecon.org

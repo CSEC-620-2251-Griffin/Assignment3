@@ -1,3 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/content/Context;->startActivity
-intent::android.intent.action.ACTION_POWER_CONNECTED

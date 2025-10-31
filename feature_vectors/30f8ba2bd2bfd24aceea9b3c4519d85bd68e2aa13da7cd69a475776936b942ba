@@ -1,7 +1,0 @@
-service_receiver::.SearchService
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.ShowActivity
-activity::.SmartyActivity
-intent::android.intent.category.LAUNCHER
-activity::.AddDBActivity

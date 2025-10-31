@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.SET_WALLPAPER_COMPONENT
-feature::android.software.live_wallpaper
-permission::android.permission.BIND_WALLPAPER
-call::getSystemService

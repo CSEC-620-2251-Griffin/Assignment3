@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.GraphWebActivity
-intent::android.intent.action.MAIN
-call::printStackTrace
-real_permission::android.permission.INTERNET
-activity::.DetailScreen
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView
-activity::.HomePage

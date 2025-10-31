@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.thegamingproject.org
-intent::android.intent.action.MAIN
-activity::.Snake
-feature::android.hardware.screen.portrait
-url::http://www.thegamingproject.org
-call::getSystemService
-intent::android.intent.category.LAUNCHER

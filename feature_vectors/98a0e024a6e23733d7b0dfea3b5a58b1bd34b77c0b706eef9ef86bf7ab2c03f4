@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.RadioAlphabet
-url::littleblue.homelinux.com
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://littleblue.homelinux.com/AndroidAdverts/ras.html
-intent::android.intent.category.LAUNCHER

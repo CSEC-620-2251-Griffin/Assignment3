@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.MostraAgenda
-provider::android.appwidget.provider
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

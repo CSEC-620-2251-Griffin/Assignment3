@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.SEARCH_LONG_PRESS
-intent::android.intent.action.MAIN
-service_receiver::Droid Lock Admin
-activity::.DroidLock
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-permission::android.permission.DEVICE_POWER

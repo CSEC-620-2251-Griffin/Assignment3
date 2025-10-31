@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.ConfiguracionIdioma
-intent::android.intent.action.MAIN
-call::printStackTrace
-activity::.MessageTTS
-intent::android.intent.category.LAUNCHER
-call::getSystemService
-activity::.AccionesFrecuentes

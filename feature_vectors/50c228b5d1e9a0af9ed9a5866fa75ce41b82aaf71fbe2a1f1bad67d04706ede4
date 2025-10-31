@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::java/net/HttpURLConnection
-url::developer.motorola.com
-activity::.MainActivity
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::http://developer.motorola.com/eventstraining/summit/agenda-app/

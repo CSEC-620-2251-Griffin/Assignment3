@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::jp.bkiwad.cofm.service.ApplicationService
-intent::android.intent.action.MAIN
-activity::.BuyCoffeeListActivity
-intent::android.intent.category.LAUNCHER

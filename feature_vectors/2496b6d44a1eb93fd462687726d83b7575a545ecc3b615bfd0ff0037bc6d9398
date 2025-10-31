@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-real_permission::android.permission.WRITE_SETTINGS
-activity::BrightnessSelect
-intent::android.intent.category.LAUNCHER
-activity::.BrightnessSelect
-provider::android.appwidget.provider
-api_call::android/provider/Settings$System;->putInt
-permission::android.permission.WRITE_SETTINGS

@@ -1,9 +1,0 @@
-activity::de.p_b_e.homeVisu.Info
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::de.p_b_e.homeVisu.PreferencesScreen
-intent::android.intent.category.LAUNCHER
-activity::.HomeVisu
-api_call::java/net/Socket

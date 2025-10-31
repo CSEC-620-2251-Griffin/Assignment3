@@ -1,8 +1,0 @@
-activity::.StraightPoolSheet
-feature::android.hardware.touchscreen
-activity::Preferences
-activity::StraightPoolSheet
-intent::android.intent.action.MAIN
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-call::Read/Write External Storage
-intent::android.intent.category.LAUNCHER

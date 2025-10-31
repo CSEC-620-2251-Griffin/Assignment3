@@ -1,8 +1,0 @@
-activity::.CAUActivity
-url::http://smart.cau.ac.kr/MWS/index.jsp
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-permission::android.permission.INTERNET
-url::smart.cau.ac.kr
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER

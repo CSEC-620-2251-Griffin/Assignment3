@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.AppList
-intent::android.intent.action.MAIN
-activity::.OnePackage
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

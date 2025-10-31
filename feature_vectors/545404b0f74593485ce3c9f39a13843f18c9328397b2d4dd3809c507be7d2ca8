@@ -1,3 +1,0 @@
-activity::.RadioNetwork
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

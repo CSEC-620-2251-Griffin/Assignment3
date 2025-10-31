@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::org/apache/http/impl/client/DefaultHttpClient
-intent::android.intent.action.MAIN
-url::www.google.com
-activity::.Main
-url::http://www.google.com/movies?hl%3Den&near%3D
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.INTERNET

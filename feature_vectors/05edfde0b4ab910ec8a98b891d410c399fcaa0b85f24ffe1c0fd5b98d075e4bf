@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-real_permission::android.permission.MODIFY_AUDIO_SETTINGS
-api_call::android/media/AudioManager;->setSpeakerphoneOn
-intent::android.intent.action.MAIN
-activity::.Pianoid
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-call::getSystemService

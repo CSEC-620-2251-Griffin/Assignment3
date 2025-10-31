@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Sensors
-intent::android.intent.action.MAIN
-permission::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
-feature::android.hardware.location
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-call::getSystemService

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::meteocenter.sv3.net.ua
-url::http://meteocenter.sv3.net.ua/mobile/
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.getWether
-intent::android.intent.category.LAUNCHER
-api_call::org/apache/http/impl/client/DefaultHttpClient

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::Config
-intent::android.intent.action.MAIN
-activity::.Main
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::http://dl.dropbox.com/u/3022745/appa/index.html
-activity::.Add
-url::dl.dropbox.com

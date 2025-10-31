@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::Obfuscation(Base64)
-activity::.Base64Encoder
-call::getSystemService
-intent::android.intent.category.LAUNCHER

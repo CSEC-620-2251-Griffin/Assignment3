@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-url::http://lurkmore.ru/
-intent::android.intent.category.LAUNCHER
-activity::.Lurkmore
-url::lurkmore.ru

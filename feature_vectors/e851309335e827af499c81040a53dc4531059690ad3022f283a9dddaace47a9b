@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.mashVolCalc
-intent::android.intent.action.MAIN
-activity::mashVolCalc
-call::getSystemService
-intent::android.intent.category.LAUNCHER

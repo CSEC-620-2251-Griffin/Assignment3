@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://www.accountingsystemsdesign.com/
-activity::.ASD
-url::www.accountingontheweb.com
-url::www.accountingsystemsdesign.com
-intent::android.intent.category.LAUNCHER
-url::http://www.accountingontheweb.com/m/

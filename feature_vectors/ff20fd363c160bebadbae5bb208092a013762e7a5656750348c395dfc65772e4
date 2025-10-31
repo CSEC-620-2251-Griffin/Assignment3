@@ -1,5 +1,0 @@
-activity::com.plazawin.games392.majormillions.PlazaWinMajorMillions
-activity::.PlazaWinMajorMillions
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen

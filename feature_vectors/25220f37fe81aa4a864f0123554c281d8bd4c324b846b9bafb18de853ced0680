@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::com.squalllinesoftware.android.widgets.sleepmeter.Widget1x1ConfigureActivity
-api_call::android/content/Context;->startActivity
-activity::com.squalllinesoftware.android.widgets.sleepmeter.Widget2x1ConfigureActivity
-service_receiver::com.squalllinesoftware.android.widgets.sleepmeter.WidgetUpdateService
-provider::android.appwidget.provider
-call::getSystemService

@@ -1,7 +1,0 @@
-activity::.AboutDialog
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.MemoListActivity
-intent::android.intent.category.LAUNCHER
-call::getSystemService
-activity::.Preferences

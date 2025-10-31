@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.OnAlarmReceiver
-provider::android.appwidget.provider
-call::getSystemService

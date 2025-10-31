@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-permission::com.android.vending.CHECK_LICENSE
-call::Obfuscation(Base64)
-feature::android.hardware.screen.portrait
-call::Cipher(AES/CBC/PKCS5Padding)
-feature::android.software.live_wallpaper
-call::getPackageInfo
-activity::.Settings
-call::getSystemService

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/content/Context;->startActivity
-url::http://www.negotiationpal.com
-url::www.negotiationpal.com
-activity::.Home
-activity::.views.Home
-intent::android.intent.category.LAUNCHER

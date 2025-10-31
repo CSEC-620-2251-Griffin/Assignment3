@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.SearchPage
-activity::.ExpandableList
-call::printStackTrace
-activity::.SplashScreen
-intent::android.intent.category.LAUNCHER
-call::getSystemService

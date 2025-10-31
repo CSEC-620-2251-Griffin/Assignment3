@@ -1,5 +1,0 @@
-permission::android.permission.ACCESS_SURFACE_FLINGER
-feature::android.hardware.touchscreen
-call::Read/Write External Storage
-call::getSystemService
-service_receiver::ActiveBlocks

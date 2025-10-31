@@ -1,7 +1,0 @@
-activity::G2
-feature::android.hardware.touchscreen
-activity::sub
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-activity::.G1

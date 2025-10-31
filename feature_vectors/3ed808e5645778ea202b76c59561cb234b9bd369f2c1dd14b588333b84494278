@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.bestmobilemanager.com
-url::http://www.bestmobilemanager.com
-call::getSystemService
-intent::android.intent.category.DEFAULT

@@ -1,5 +1,0 @@
-activity::multiplicacion
-feature::android.hardware.touchscreen
-activity::.multiplicacion
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

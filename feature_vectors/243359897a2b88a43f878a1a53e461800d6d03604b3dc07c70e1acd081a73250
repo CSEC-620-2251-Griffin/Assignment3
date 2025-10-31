@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-call::printStackTrace
-call::Read/Write External Storage
-feature::android.software.live_wallpaper
-service_receiver::Night Beach

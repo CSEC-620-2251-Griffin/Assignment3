@@ -1,3 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.HomeActivity
-intent::android.intent.action.MAIN

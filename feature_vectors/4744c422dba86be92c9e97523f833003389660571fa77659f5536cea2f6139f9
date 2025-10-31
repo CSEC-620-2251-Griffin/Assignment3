@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.WRITE_USER_DICTIONARY
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-permission::android.permission.READ_USER_DICTIONARY
-activity::SettingsActivity
-call::getSystemService

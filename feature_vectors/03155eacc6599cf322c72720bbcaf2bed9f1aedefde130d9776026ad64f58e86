@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Pesquisa
-activity::.PorTitulo
-activity::.Sobre
-activity::.Main
-activity::.PorNumero
-activity::.Hino
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

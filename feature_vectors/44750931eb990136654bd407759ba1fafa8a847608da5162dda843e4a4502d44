@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::com.songs.PesnVozrojdeniya.Search
-api_call::android/content/Context;->startActivity
-activity::com.songs.PesnVozrojdeniya.PickSong
-intent::android.intent.category.LAUNCHER
-activity::.Hymns
-activity::com.songs.PesnVozrojdeniya.Hymns

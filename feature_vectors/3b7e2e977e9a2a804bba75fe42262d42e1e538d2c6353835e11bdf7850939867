@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::java/net/HttpURLConnection
-url::tokita.net
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.marubatsu
-url::http://tokita.net/test2/ok.txt?
-real_permission::android.permission.INTERNET

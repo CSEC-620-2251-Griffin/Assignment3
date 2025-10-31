@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.menu
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-url::https://chart.googleapis.com/chart?cht%3Dlc&chd%3Dt:
-url::chart.googleapis.com

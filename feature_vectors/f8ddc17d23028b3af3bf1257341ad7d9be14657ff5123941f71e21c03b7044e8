@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.OpenActivity
-intent::android.intent.category.INFO
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET

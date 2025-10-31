@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.ReceiptsList
-activity::.CategoriesList
-activity::.ReceiptEdit
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.higherED
-intent::android.intent.action.MAIN
-url::www.infoontheweb.com
-url::http://www.infoontheweb.com
-url::www.accountingontheweb.com
-intent::android.intent.category.LAUNCHER
-url::http://www.accountingontheweb.com/5MinTour2/HiEd/main.htm

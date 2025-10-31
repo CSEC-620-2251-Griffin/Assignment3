@@ -1,9 +1,0 @@
-url::http://vip.puchidevile.com/auth/result_pc.php?smp%3Dtrue&login_user_id%3D
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.MainActivity
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::vip.puchidevile.com

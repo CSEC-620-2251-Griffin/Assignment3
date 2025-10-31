@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
-activity::.ShareActivity
-intent::android.intent.action.MAIN
-intent::android.intent.action.SEND
-intent::android.intent.category.DEFAULT
-activity::.ReTweetActivity
-intent::android.intent.category.LAUNCHER
-api_call::android/content/pm/PackageManager;->setComponentEnabledSetting

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.MainActivity
-activity::exostag.games.thegameofsquaresfree.MainActivity
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-call::getSystemService

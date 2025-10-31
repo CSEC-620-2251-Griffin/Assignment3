@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.Sixpackabsformula.info
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.main
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://www.Sixpackabsformula.info
-intent::android.intent.category.LAUNCHER

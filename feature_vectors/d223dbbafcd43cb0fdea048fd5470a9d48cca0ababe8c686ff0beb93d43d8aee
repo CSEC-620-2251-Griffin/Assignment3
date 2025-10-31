@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://dengon.docomo.ne.jp/inoticelist.cgi
-intent::android.intent.action.MAIN
-activity::.webbooter
-intent::android.intent.category.LAUNCHER
-url::dengon.docomo.ne.jp
-activity::webbooter

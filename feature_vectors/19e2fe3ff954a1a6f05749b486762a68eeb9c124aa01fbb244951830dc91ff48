@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.NoteTaker
-intent::android.intent.action.MAIN
-call::printStackTrace
-url::williamsandroidapps.webs.com.
-url::http://williamsandroidapps.webs.com.
-intent::android.intent.category.LAUNCHER

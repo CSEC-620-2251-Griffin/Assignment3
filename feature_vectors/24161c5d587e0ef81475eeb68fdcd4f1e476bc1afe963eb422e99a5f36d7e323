@@ -1,6 +1,0 @@
-activity::.WorldDistance
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-activity::.Settings
-intent::android.intent.category.LAUNCHER

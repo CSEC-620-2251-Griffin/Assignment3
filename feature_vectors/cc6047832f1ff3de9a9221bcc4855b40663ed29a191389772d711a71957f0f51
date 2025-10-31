@@ -1,7 +1,0 @@
-service_receiver::Droid Eye Blue Clock
-feature::android.hardware.touchscreen
-service_receiver::Droid Eye Green Clock
-service_receiver::Droid Eye Golden Clock
-service_receiver::Droid Eye Cyan Clock
-service_receiver::Droid Eye Red Clock
-provider::android.appwidget.provider

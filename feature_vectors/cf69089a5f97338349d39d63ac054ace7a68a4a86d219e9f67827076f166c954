@@ -1,6 +1,0 @@
-activity::.z011
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://pc.for-juptr.jp/?adv%3Dandmk09
-intent::android.intent.category.LAUNCHER
-url::pc.for-juptr.jp

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.ShowCard
-api_call::android/media/MediaPlayer;->start
-call::Read/Write External Storage
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.WAKE_LOCK

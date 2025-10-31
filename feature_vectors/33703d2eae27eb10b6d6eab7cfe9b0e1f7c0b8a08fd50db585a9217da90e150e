@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::wamwamkun.com
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-activity::.wam_solitaire
-url::http://wamwamkun.com/
-api_call::android/media/MediaPlayer;->start
-real_permission::android.permission.WAKE_LOCK

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.WidgetUpdateService
-activity::.WidgetConfigurationNormal
-api_call::android/content/Context;->startService
-provider::android.appwidget.provider
-call::getSystemService
-activity::.WidgetConfigurationSmall

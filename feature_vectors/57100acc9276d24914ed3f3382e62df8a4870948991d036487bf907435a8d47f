@@ -1,5 +1,0 @@
-activity::WidgetConfigure
-feature::android.hardware.touchscreen
-service_receiver::NetTraffic Widget Lite
-provider::android.appwidget.provider
-call::getSystemService

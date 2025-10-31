@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.yakouchou
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://www.yakouchou.com/index_pc.htm
-intent::android.intent.category.LAUNCHER
-url::www.yakouchou.com

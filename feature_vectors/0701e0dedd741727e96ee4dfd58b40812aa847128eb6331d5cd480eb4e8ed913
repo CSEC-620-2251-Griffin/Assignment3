@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::market.android.com
-activity::.BitAnt
-url::http://market.android.com/search?q%3Dpub:%22Andreas%20Rudolph%22
-intent::android.intent.category.LAUNCHER
-call::getSystemService

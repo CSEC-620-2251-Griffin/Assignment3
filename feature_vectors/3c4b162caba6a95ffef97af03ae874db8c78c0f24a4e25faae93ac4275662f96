@@ -1,8 +1,0 @@
-call::Read/Write External Storage
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-feature::android.hardware.screen.portrait
-activity::.HowToActivity
-permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-intent::android.intent.category.INFO

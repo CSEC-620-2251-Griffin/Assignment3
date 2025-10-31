@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.GasUsageTrackingActivity
-intent::android.intent.category.LAUNCHER
-url::tabletoptappware.byethost4.com
-url::http://tabletoptappware.byethost4.com/\%27>Come
-call::getSystemService

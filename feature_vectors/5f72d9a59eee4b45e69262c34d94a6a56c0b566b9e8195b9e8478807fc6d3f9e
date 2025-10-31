@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.MainMenu
-activity::MainMenu
-activity::com.visiontouch7.android.geographyfree.Man_Spec
-intent::android.intent.category.LAUNCHER
-activity::.Man_Geography

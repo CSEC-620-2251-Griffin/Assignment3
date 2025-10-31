@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.dagens-ord.se
-url::www.dagens-ord.se
-call::printStackTrace
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-provider::android.appwidget.provider
-api_call::java/net/URL;->openConnection

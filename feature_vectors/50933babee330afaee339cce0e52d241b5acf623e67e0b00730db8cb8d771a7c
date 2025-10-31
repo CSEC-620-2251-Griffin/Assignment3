@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-service_receiver::Cool Clock
-activity::nEx.Software.Tutorials.Widgets.AnalogClock.Info
-provider::android.appwidget.provider
-intent::android.intent.category.INFO

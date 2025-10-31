@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.AtBeatWidgetLargeProvider$AtBeatService
-service_receiver::AtBeatWidget Large
-service_receiver::.AtBeatWidgetSmallProvider$AtBeatService
-activity::.Settings
-api_call::android/content/Context;->startService
-provider::android.appwidget.provider
-service_receiver::AtBeatWidget Small
-call::getSystemService

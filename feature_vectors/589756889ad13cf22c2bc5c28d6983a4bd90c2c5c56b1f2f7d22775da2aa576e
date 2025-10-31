@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::SittharPulambal
-activity::.SittharPulambal
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

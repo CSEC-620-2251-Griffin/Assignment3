@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::GnuGo
-activity::.Test
-intent::android.intent.action.MAIN
-permission::android.permission.WRITE_EXTERNAL_STORAGE

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.WAKE_LOCK
-activity::.AppEntry
-activity::4x4x4 Tic-Tac-Toe
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

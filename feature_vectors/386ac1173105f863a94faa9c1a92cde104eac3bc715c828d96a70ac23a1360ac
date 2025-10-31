@@ -1,3 +1,0 @@
-activity::.ImageShortcut
-feature::android.hardware.touchscreen
-intent::android.intent.action.CREATE_SHORTCUT

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.LookOfDisapprovalWallpaperSettings
-activity::.home
-intent::android.intent.category.LAUNCHER
-api_call::android/content/Context;->startActivity
-call::getSystemService

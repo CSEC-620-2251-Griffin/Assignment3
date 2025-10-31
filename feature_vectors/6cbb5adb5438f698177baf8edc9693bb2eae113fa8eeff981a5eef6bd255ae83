@@ -1,9 +1,0 @@
-real_permission::android.permission.INJECT_EVENTS
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/app/Instrumentation;->sendPointerSync
-intent::android.intent.category.LAUNCHER
-url::eurokalkulaator.acxe12.net\n
-url::http://eurokalkulaator.acxe12.net\n
-activity::.Eurocalculator
-call::getSystemService

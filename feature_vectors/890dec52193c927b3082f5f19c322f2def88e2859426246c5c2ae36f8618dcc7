@@ -1,3 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.INTERNET
-feature::android.hardware.screen.portrait

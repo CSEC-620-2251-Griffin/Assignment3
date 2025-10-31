@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.sgw.inwire.dk
-intent::android.intent.action.MAIN
-url::http://www.sgw.inwire.dk
-permission::android.permission.INTERNET
-activity::.SGWAdvisorActivity
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView

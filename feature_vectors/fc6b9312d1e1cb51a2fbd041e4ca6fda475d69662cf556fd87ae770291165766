@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.RECEIVE_BOOT_COMPLETED
-service_receiver::CheckVolume
-api_call::android/content/Context;->startService
-intent::android.intent.action.BOOT_COMPLETED
-service_receiver::StartService
-call::getSystemService

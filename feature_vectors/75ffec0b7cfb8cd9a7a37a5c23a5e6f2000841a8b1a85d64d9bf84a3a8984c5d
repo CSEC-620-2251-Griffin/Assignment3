@@ -1,5 +1,0 @@
-provider::com.intsig.provider.Lic.CamScanner
-feature::android.hardware.touchscreen
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN
-activity::.CamScannerLicense

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-real_permission::android.permission.READ_LOGS
-api_call::java/lang/Runtime;->exec
-activity::.Add2Hosts
-call::Execution of external commands
-activity::Add2Hosts
-intent::android.intent.category.LAUNCHER
-call::system/bin/su

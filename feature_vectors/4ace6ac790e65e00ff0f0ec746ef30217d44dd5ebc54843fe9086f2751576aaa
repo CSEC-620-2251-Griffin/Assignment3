@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.HelloAndroid
-intent::android.intent.action.MAIN
-activity::HelloAndroid
-service_receiver::HelloAndroidService
-intent::android.intent.category.LAUNCHER

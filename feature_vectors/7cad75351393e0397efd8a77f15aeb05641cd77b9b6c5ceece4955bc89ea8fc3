@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.shanghai-expo-sangyoukan.jp
-url::http://www.shanghai-expo-sangyoukan.jp/
-activity::.main
-feature::android.hardware.screen.portrait
-call::printStackTrace
-intent::android.intent.category.LAUNCHER
-call::getSystemService

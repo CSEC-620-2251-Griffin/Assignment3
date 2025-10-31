@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-url::www.vpnmaster.com
-intent::android.intent.category.LAUNCHER
-activity::.Imageweb
-url::http://www.vpnmaster.com/mobile

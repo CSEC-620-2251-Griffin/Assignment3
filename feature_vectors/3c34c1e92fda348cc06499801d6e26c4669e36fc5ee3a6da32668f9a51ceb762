@@ -1,9 +1,0 @@
-activity::.SlideMenuActivity
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.SlideSettingsActivity
-activity::.SlideHelpActivity
-intent::android.intent.category.LAUNCHER
-activity::.SlideScoresActivity
-activity::.SlideGameNumberActivity
-activity::.SlideSplashActivity

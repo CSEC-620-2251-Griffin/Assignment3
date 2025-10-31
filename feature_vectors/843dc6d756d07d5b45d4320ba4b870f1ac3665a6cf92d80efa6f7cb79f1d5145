@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.WorldClockWidgetService
-service_receiver::WorldClockWidgetProvider
-activity::.WorldClockWidgetConfigure
-api_call::android/content/Context;->sendBroadcast
-provider::android.appwidget.provider

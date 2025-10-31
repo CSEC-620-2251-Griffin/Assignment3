@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.BMICalculator
-intent::android.intent.action.MAIN
-activity::.Imperial
-activity::.Metric
-intent::android.intent.category.LAUNCHER
-call::getSystemService

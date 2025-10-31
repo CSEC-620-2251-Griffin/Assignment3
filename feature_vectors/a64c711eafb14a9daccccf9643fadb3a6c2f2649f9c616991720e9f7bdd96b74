@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.pmsoftwaresolutions.com/
-intent::android.intent.action.MAIN
-activity::.dja
-url::www.accountingontheweb.com
-url::http://www.accountingontheweb.com/m/
-url::www.pmsoftwaresolutions.com
-intent::android.intent.category.LAUNCHER

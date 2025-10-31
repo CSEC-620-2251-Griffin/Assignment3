@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::com.dummies.android.silentmodetoggle15.MainActivity
-activity::.MainActivity
-service_receiver::com.dummies.android.silentmodetoggle15.AppWidget$ToggleService
-intent::android.intent.category.LAUNCHER
-provider::android.appwidget.provider
-call::getSystemService
-api_call::android/content/Context;->startService

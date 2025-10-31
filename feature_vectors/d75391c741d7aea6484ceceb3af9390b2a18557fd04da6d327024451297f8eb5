@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::mobile.esecutive.com
-intent::android.intent.action.MAIN
-url::http://mobile.esecutive.com/
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.Esecutive
-api_call::android/webkit/WebView

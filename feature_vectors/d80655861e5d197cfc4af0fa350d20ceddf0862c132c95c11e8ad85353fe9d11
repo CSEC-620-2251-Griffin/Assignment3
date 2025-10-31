@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.crosswordtogo.com
-url::http://www.crosswordtogo.com
-activity::.MainActivity
-intent::android.intent.category.LAUNCHER
-activity::.CanvasActivity
-call::getSystemService

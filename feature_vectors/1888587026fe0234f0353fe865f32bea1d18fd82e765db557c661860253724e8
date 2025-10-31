@@ -1,8 +1,0 @@
-permission::android.permission.SET_WALLPAPER
-feature::android.hardware.touchscreen
-activity::.HollywoodRepDL
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-api_call::android/app/WallpaperManager;->setBitmap
-real_permission::android.permission.SET_WALLPAPER
-activity::HollywoodRepDL

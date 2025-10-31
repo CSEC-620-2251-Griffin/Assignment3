@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.About
-intent::android.intent.action.MAIN
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-intent::android.intent.action.CREATE_SHORTCUT
-feature::android.hardware.screen.portrait
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-activity::.KamiList

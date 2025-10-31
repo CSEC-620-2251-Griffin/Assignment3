@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.service.StartBatteryWatchService
-permission::android.permission.CHANGE_CONFIGURATION
-service_receiver::.widget.UpdateService
-permission::android.permission.GET_ACCOUNTS
-api_call::android/content/Context;->startService
-service_receiver::.widget.BatteryStatusTrackingService
-provider::android.appwidget.provider
-call::getSystemService

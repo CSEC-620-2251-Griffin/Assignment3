@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-real_permission::android.permission.WRITE_SETTINGS
-feature::android.hardware.screen.portrait
-activity::.WariKen
-intent::android.intent.category.LAUNCHER
-api_call::android/provider/Settings$System;->putInt
-call::getSystemService
-permission::android.permission.WRITE_SETTINGS

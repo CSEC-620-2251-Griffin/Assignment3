@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.WeightEditor
-activity::.TabView
-activity::.TipCalculator
-intent::android.intent.category.LAUNCHER
-activity::.EvenSplit
-call::getPackageInfo
-activity::.Preferences

@@ -1,7 +1,0 @@
-activity::Launcher
-activity::.Launcher
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-url::mcineplex.appspot.com
-url::http://mcineplex.appspot.com/
-intent::android.intent.category.LAUNCHER

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.tri
-intent::android.intent.category.LAUNCHER
-activity::.glavno
-activity::.cetiri
-activity::.dva

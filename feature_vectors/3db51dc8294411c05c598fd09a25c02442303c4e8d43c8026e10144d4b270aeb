@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://layar.it/g6rdKR
-activity::.main
-intent::android.intent.category.LAUNCHER
-url::layar.it

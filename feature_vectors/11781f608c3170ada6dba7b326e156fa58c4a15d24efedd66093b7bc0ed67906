@@ -1,4 +1,0 @@
-permission::android.permission.BATTERY_STATS
-feature::android.hardware.touchscreen
-feature::android.software.live_wallpaper
-call::getSystemService

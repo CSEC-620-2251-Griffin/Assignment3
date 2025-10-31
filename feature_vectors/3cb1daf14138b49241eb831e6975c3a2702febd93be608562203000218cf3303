@@ -1,6 +1,0 @@
-url::www.jewishgen.org
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.main
-url::http://www.jewishgen.org/infofiles/soundex.html\n\n(excertp
-intent::android.intent.category.LAUNCHER

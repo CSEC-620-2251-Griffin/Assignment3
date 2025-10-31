@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.NewApp
-intent::android.intent.action.MAIN
-activity::.ListApps
-activity::.AppInfo
-activity::.PasswordProtector
-intent::android.intent.category.LAUNCHER
-call::getSystemService
-activity::.EditApp

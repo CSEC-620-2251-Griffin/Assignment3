@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://gregmartins.me/travelbudget/
-intent::android.intent.category.LAUNCHER
-activity::.TravelBudget
-url::gregmartins.me

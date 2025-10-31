@@ -1,9 +1,0 @@
-activity::.PictureMapper
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/content/ContentResolver;->query
-activity::Screen2
-permission::android.permission.INTERNET
-api_call::android/app/Activity;->startActivity
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.READ_CONTACTS

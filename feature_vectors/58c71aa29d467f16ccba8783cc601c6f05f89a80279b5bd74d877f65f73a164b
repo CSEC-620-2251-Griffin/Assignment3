@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/app/NotificationManager;->notify
-service_receiver::at.aauer1.battery.theme.gingerbread.GingerbreadGreen
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.ALTERNATIVE
-real_permission::android.permission.VIBRATE
-call::getSystemService
-intent::android.intent.category.SELECTED_ALTERNATIVE

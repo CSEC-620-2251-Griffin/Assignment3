@@ -1,5 +1,0 @@
-activity::.CupidsGameActivity
-intent::android.intent.category.LAUNCHER
-activity::.Numbers
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen

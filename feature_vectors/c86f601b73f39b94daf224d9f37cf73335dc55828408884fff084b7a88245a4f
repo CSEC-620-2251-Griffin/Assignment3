@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.HowWednesday
-intent::android.intent.action.MAIN
-call::printStackTrace
-feature::android.hardware.screen.portrait
-activity::FileList
-intent::android.intent.category.LAUNCHER
-url::http://rhp.ninja-x.jp/android/HowWednesday.html
-url::rhp.ninja-x.jp

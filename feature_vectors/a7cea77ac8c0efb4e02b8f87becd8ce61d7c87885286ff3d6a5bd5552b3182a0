@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.AllRecPros.com
-intent::android.intent.action.MAIN
-activity::.Main
-intent::android.intent.category.LAUNCHER
-url::www.AllRecPros.com

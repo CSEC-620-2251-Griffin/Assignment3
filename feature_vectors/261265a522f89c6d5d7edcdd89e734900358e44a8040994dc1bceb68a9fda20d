@@ -1,5 +1,0 @@
-url::http://market.android.com/details?id%3Dcom.ewy.andorbitd
-feature::android.hardware.touchscreen
-feature::android.software.live_wallpaper
-url::market.android.com
-service_receiver::Android Orbit

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::mobile.trackmaster.com
-url::http://mobile.trackmaster.com/tmtMobiFree.htm
-activity::.main
-intent::android.intent.category.LAUNCHER

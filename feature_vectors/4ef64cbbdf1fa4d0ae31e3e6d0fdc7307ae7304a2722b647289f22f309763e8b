@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Emerald
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo
-call::getSystemService

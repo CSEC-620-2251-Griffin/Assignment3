@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.netmite.com/android/srv/2.0/upload/Dfw_320x480_T.jad
-intent::android.intent.action.MAIN
-activity::.M
-api_call::android/content/Context;->startActivity
-url::http://www.netmite.com/android/andme_signed.apk
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo
-url::www.netmite.com

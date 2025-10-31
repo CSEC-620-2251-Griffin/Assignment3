@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-permission::android.permission.WRITE_CALENDAR
-intent::android.intent.category.LAUNCHER
-permission::android.permission.READ_CALENDAR
-real_permission::android.permission.READ_CONTACTS
-activity::.ConverterActivity
-api_call::android/content/ContentResolver;->query

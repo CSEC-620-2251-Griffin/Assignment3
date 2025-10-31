@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Preferences
-call::getSystemService
-service_receiver::Starfield Twist

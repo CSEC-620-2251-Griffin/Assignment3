@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::random.main.Random
-activity::.Random
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

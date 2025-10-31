@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://jc3.uol.com.br/blogs/blogsocial1/mobile
-activity::.Social1
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-url::jc3.uol.com.br

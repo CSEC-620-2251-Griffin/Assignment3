@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.TNTitle
-feature::android.hardware.screen.portrait
-activity::.TNGame
-intent::android.intent.category.LAUNCHER

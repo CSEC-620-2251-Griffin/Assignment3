@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://www.gnu.org/licenses/gpl-3.0.html)\nMore
-url::www.gnu.org
-intent::android.intent.category.LAUNCHER
-call::getSystemService
-activity::.Androsens

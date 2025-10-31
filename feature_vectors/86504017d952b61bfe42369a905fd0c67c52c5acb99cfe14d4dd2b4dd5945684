@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.WeightPad
-intent::android.intent.action.MAIN
-api_call::android/content/ContentResolver;->query
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.READ_CONTACTS
-call::getSystemService

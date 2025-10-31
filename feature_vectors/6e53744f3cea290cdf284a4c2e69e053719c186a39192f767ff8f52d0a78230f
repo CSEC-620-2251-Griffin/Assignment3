@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.PdaNetActivity
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-service_receiver::com.pdanet.PdaNetService
-intent::android.intent.category.LAUNCHER
-api_call::java/net/Socket

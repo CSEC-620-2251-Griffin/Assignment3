@@ -1,9 +1,0 @@
-url::halocharts.com
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://halocharts.com/lite.php
-permission::android.permission.INTERNET
-activity::.HaloChartsMobile
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView
-real_permission::android.permission.INTERNET

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::org/apache/http/impl/client/DefaultHttpClient
-call::printStackTrace
-url::www.mi5.gov.uk
-url::https://www.mi5.gov.uk/output/threat-levels.html
-url::https://www.mi5.gov.uk/UKThreatLevel/UKThreatLevel.xml
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-provider::android.appwidget.provider

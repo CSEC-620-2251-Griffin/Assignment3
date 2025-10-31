@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.category.SAMPLE_CODE
-intent::android.intent.action.MAIN
-activity::.ECalculators
-activity::.inductor
-intent::android.intent.category.LAUNCHER

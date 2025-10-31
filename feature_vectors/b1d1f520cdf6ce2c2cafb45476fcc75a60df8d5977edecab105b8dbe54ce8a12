@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.UpdateService
-activity::.CompassSettingsSmall
-provider::android.appwidget.provider
-call::getSystemService
-api_call::android/content/Context;->startService

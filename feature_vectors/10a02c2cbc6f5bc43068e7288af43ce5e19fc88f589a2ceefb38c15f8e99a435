@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AdvancedPreferences
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-call::Read/Write External Storage
-intent::android.intent.action.SEARCH
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo
-activity::.PocketAMCReader

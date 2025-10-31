@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::bradandroid.webs.com
-activity::.TileGame
-url::http://bradandroid.webs.com/index.htm
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

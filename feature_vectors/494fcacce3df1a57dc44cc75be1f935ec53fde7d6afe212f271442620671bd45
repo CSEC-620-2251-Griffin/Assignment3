@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::org.juicesteam.bubbletaplite.Main
-intent::android.intent.action.MAIN
-api_call::android/content/Context;->startActivity
-activity::.Main
-intent::android.intent.category.LAUNCHER
-call::getSystemService

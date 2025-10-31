@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.LaunchBrowser
-intent::android.intent.category.LAUNCHER
-url::http://mobile.airasia.com
-url::mobile.airasia.com
-intent::android.intent.action.VIEW

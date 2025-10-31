@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.FirstRun
-intent::android.intent.action.MAIN
-activity::.PasswordView
-activity::.Settings
-intent::android.intent.category.LAUNCHER
-activity::.PasswordEdit
-activity::.PasswordVault
-activity::.MasterEnter

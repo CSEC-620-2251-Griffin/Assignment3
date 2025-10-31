@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/content/Context;->startService
-service_receiver::.DigitalClockService
-intent::android.intent.action.ALARM_CHANGED
-intent::android.intent.action.USER_PRESENT
-intent::android.intent.action.TIMEZONE_CHANGED
-provider::android.appwidget.provider
-intent::android.intent.action.TIME_SET

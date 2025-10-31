@@ -1,5 +1,0 @@
-permission::com.android.launcher.permission.INSTALL_SHORTCUT
-activity::.ShortCutActivity
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen

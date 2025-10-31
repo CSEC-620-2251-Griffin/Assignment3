@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider
-activity::.Cleaner
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

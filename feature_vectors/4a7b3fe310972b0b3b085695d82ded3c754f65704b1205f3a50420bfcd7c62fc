@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::HawAppWidgetProvider
-api_call::android/webkit/WebView
-real_permission::android.permission.INTERNET
-service_receiver::.HawWidgetService
-intent::android.intent.category.DEFAULT
-provider::android.appwidget.provider
-call::getSystemService
-api_call::android/content/Context;->startService

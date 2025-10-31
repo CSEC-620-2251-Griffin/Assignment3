@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.portrait
-activity::.SeatArrangement
-intent::android.intent.category.LAUNCHER
-activity::.RandomSeating
-activity::.SeatingChart

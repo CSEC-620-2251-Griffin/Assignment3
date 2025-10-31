@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.doggiedealer.com/dog_breed_selector_APP.php
-intent::android.intent.action.MAIN
-url::www.doggiedealer.com
-api_call::android/webkit/WebView
-activity::.main
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER

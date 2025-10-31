@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::Settings
-url::www.appbrain.com
-api_call::android/webkit/WebView
-real_permission::android.permission.INTERNET
-url::http://www.appbrain.com/app/sexy-christmas-live-wallpaper/sexy.christmasv10\%27
-call::getSystemService

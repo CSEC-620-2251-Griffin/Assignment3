@@ -1,5 +1,0 @@
-activity::.result
-intent::android.intent.category.LAUNCHER
-activity::.lohnrechner
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen

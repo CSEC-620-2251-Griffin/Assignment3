@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AKeletBolcsessege
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-call::getSystemService
-provider::android.appwidget.provider
-intent::android.intent.action.VIEW

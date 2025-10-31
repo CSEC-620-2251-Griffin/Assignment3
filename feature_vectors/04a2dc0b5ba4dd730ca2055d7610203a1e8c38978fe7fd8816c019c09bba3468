@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::bbqschedule
-activity::addresses
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.splash
-activity::hosts
-activity::about

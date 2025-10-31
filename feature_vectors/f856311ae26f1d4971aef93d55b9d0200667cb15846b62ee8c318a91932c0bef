@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::Preferences
-intent::android.intent.action.MAIN
-activity::.MeetingCostTimer
-activity::MeetingCostTimer
-intent::android.intent.category.LAUNCHER
-call::getSystemService

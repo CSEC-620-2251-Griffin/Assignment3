@@ -1,7 +1,0 @@
-activity::%E7%B3%E9
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AppEntry
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

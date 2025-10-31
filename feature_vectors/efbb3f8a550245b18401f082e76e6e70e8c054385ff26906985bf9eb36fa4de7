@@ -1,5 +1,0 @@
-activity::.DroidSansTweakTools
-call::Execution of native code
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::www.vampire-life.com
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://www.vampire-life.com/login537t83jf85j9dhd42949565f65f6f081244.php
-activity::.VampireLife
-intent::android.intent.category.LAUNCHER

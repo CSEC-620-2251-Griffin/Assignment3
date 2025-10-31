@@ -1,5 +1,0 @@
-activity::ResistorRatio
-feature::android.hardware.touchscreen
-activity::.ResistorRatio
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

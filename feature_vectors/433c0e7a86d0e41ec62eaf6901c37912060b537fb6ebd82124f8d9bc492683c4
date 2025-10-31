@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::android.khan.im
-activity::.EuControl
-permission::android.permission.INTERNET
-url::http://android.khan.im
-intent::android.intent.category.LAUNCHER

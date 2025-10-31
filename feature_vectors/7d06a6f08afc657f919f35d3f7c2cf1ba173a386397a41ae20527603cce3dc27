@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.ValidateDialog
-activity::ValidateDialog
-activity::.StartActivity
-intent::android.intent.category.LAUNCHER

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://www.ledsavingsolutions.com/contact
-feature::android.hardware.screen.portrait
-activity::.lpa
-url::www.ledsavingsolutions.com
-intent::android.intent.category.LAUNCHER

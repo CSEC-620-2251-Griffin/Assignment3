@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::com.jupiterapps.phoneusagepro.activity.PhoneUsageActivity
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER
-activity::.PhoneUsageActivity

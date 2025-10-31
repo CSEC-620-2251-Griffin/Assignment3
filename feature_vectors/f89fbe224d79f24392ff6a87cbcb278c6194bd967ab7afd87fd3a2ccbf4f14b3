@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.SideShieldWidgetProvider
-intent::android.intent.action.MAIN
-activity::.SideShield
-intent::android.intent.category.LAUNCHER
-provider::android.appwidget.provider
-call::getSystemService

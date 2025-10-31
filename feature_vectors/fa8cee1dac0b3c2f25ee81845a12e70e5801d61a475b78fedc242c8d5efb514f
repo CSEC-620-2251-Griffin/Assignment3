@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-activity::.MainActivity
-activity::.AboutActivity
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER
-call::Read/Write External Storage

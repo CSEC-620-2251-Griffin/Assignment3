@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-activity::.JoJoLineMushroom
-activity::.JoJoLineActivity
-call::getSystemService

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-feature::android.hardware.screen.portrait
-activity::.HalfDay24
-intent::android.intent.category.LAUNCHER
-activity::com.halfday24.HalfDay24
-real_permission::android.permission.INTERNET

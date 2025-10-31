@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Luftschichtenrechner
-intent::android.intent.action.MAIN
-activity::Luftschichtenrechner
-intent::android.intent.category.LAUNCHER

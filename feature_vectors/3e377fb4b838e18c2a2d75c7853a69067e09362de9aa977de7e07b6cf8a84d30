@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.BingoHost
-intent::android.intent.action.MAIN
-activity::.activity.Caller
-intent::android.intent.category.LAUNCHER
-activity::.activity.Numbers
-activity::.activity.BingoHost
-activity::.activity.Tab

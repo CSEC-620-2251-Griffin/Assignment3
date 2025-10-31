@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.mb01.com
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::http://www.mb01.com/lnk.asp?o%3D4013&c%3D918271&a%3D34468
-activity::.Imageweb

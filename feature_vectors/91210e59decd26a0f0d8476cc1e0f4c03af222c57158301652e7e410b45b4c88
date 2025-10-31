@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Type
-intent::android.intent.action.MAIN
-url::http://www.saweet.com\%27>www.saweet.com</a>
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-url::www.saweet.com\%27>www.saweet.com<
-activity::.History
-activity::.Report

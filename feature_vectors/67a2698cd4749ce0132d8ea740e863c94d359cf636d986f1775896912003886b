@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.portrait
-activity::.PulsateActivity
-intent::android.intent.category.LAUNCHER
-activity::.SettingsActivity
-call::getSystemService

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-url::http://doghousebreakingtraining.net/claim-your-free-report-and-training-program
-intent::android.intent.category.LAUNCHER
-url::doghousebreakingtraining.net
-activity::.Activity1

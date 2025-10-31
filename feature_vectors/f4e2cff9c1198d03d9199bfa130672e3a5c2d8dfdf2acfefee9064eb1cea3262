@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.StandardGPACalculator
-intent::android.intent.action.MAIN
-url::xmlpull.org
-intent::android.intent.category.LAUNCHER
-url::http://xmlpull.org/v1/doc/features.html

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://www.lagranm.com/android/app-visit.php?nombre%3D
-activity::.test
-intent::android.intent.category.LAUNCHER
-url::www.lagranm.com

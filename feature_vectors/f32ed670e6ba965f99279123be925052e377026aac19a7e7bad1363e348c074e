@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-activity::Busan_map
-activity::Busan_title
-activity::.Transfer_3

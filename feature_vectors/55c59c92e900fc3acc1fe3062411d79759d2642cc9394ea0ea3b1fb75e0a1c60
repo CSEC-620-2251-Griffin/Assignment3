@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-api_call::java/lang/Runtime;->exec
-real_permission::android.permission.READ_LOGS
-call::Execution of external commands
-service_receiver::.ProcessingService1
-service_receiver::.ProcessingService2
-service_receiver::.ProcessingService
-call::printStackTrace

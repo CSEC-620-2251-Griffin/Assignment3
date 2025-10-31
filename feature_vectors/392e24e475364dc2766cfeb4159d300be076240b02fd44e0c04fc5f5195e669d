@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.canardpc.com
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://www.canardpc.com/feed.php
-provider::android.appwidget.provider
-api_call::java/net/URL;->openConnection

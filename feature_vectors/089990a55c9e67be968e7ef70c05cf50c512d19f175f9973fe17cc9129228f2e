@@ -1,7 +1,0 @@
-url::ifilefinder.net
-url::http://ifilefinder.net/m
-activity::.main_act
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER

@@ -1,9 +1,0 @@
-permission::android.permission.SET_WALLPAPER
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/app/WallpaperManager;->clear
-activity::.GameView
-activity::.MainMenu
-intent::android.intent.category.LAUNCHER
-activity::.ResultView
-real_permission::android.permission.SET_WALLPAPER

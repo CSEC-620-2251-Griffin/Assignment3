@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN
-activity::.MountUsb

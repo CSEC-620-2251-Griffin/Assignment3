@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.RECEIVE_BOOT_COMPLETED
-intent::android.intent.action.ACTION_SHUTDOWN
-real_permission::android.permission.WRITE_SETTINGS
-intent::android.intent.action.BOOT_COMPLETED
-api_call::android/content/Context;->sendBroadcast
-provider::android.appwidget.provider
-api_call::android/provider/Settings$System;->putInt
-permission::android.permission.WRITE_SETTINGS

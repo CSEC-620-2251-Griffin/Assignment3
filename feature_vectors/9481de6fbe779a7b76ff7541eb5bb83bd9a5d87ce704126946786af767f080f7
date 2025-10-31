@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AppEntry
-activity::Close to 20, 100, 1000 - Math Game
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

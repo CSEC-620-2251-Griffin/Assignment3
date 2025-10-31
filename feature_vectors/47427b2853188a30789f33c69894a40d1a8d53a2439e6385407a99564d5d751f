@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.AllTasks
-intent::android.intent.action.MAIN
-activity::.ui.AllTasks
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.VIBRATE
-api_call::android/app/NotificationManager;->notify
-call::getSystemService
-api_call::android/content/Context;->startService

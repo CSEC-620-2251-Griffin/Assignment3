@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-call::printStackTrace
-feature::android.hardware.sensor.accelerometer
-activity::.Prefs
-feature::android.hardware.touchscreen.multitouch
-feature::android.software.live_wallpaper
-call::getSystemService

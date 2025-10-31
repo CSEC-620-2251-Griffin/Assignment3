@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/content/ContentResolver;->query
-permission::android.permission.RECEIVE_SMS
-feature::android.hardware.telephony
-real_permission::android.permission.READ_CONTACTS
-permission::android.permission.READ_CONTACTS
-url::http://schemas.android.com/apk/res/android
-url::schemas.android.com

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.trends.TrendsDialog
-api_call::java/net/HttpURLConnection
-permission::android.permission.INTERNET
-intent::android.intent.category.DEFAULT
-activity::.settings.Settings
-real_permission::android.permission.INTERNET

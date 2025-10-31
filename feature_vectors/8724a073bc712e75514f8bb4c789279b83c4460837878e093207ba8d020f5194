@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.field-recording.org.uk
-api_call::android/media/MediaPlayer;->start
-activity::.SplashScreen
-intent::android.intent.category.DEFAULT
-url::http://www.field-recording.org.uk/
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.WAKE_LOCK

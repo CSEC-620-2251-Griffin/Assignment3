@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.VPlayerUnlocker
-intent::android.intent.action.VIEW
-intent::android.intent.category.DEFAULT

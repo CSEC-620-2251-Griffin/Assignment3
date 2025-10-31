@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-feature::android.hardware.wifi
-permission::android.permission.CHANGE_WIFI_STATE
-permission::android.permission.ACCESS_WIFI_STATE
-intent::android.net.wifi.WIFI_AP_STATE_CHANGED
-provider::android.appwidget.provider
-call::getSystemService

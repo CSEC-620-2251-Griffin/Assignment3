@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::Get the Full Version!
-url::http://dxtop.accesslane.com/wallpaper/index.php?LW
-api_call::android/content/Context;->startActivity
-service_receiver::Space Junk Free
-url::dxtop.accesslane.com
-call::getSystemService

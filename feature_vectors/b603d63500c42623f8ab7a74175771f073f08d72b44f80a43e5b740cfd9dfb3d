@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://wap.pccwmobile.com/mingle
-activity::.mingle
-intent::android.intent.category.LAUNCHER
-url::wap.pccwmobile.com
-activity::mingle

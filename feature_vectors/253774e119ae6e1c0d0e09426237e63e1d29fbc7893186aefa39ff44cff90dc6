@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://m.wolipop.com
-activity::.Wolipop
-intent::android.intent.category.LAUNCHER
-url::m.wolipop.com

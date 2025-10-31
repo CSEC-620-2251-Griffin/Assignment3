@@ -1,7 +1,0 @@
-activity::.Web2Go
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://m.daum.net
-url::m.daum.net
-intent::android.intent.category.LAUNCHER
-activity::Web2Go

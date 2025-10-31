@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-call::readSMS
-service_receiver::.main
-provider::android.provider.Telephony.SMS_RECEIVED

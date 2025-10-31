@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.fastTouch2Main
-intent::android.intent.category.LAUNCHER

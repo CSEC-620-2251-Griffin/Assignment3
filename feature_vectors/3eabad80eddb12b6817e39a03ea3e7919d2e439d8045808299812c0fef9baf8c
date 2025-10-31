@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.TitlePage
-intent::android.intent.action.MAIN
-url::market.android.com
-feature::android.hardware.screen.portrait
-url::http://market.android.com/details?id%3Dapps30000.soccerstardom
-intent::android.intent.category.LAUNCHER
-call::getSystemService

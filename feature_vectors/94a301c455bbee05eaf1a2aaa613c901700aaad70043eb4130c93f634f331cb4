@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.yonglocate
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::yonglocate.appspot.com
-url::http://yonglocate.appspot.com

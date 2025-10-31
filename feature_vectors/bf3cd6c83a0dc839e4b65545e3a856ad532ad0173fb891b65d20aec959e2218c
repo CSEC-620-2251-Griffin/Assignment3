@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::http://www.konsumenten-schutz.at/
-permission::android.permission.INTERNET
-url::www.konsumenten-schutz.at
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.INTERNET
-activity::.Konsumentenschutz

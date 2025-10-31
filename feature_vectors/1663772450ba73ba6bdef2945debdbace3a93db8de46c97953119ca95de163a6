@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::DecisionRoulette
-feature::android.hardware.screen.portrait
-activity::.DecisionScreen
-intent::android.intent.category.LAUNCHER
-intent::android.intent.category.DEFAULT

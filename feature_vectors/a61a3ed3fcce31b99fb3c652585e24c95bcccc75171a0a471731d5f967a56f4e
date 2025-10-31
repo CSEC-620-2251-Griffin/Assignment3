@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.MainActivity
-permission::android.permission.INTERNET
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-intent::android.intent.category.BROWSABLE
-provider::android.appwidget.provider
-intent::android.intent.action.VIEW

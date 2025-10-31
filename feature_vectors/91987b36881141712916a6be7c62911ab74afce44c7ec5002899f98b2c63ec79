@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.SplashSettings
-call::getSystemService
-service_receiver::Splash of Color

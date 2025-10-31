@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.antbusinesssolutions.com/antservices/tracking.srv
-intent::android.intent.action.MAIN
-activity::.MainActivity
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::www.antbusinesssolutions.com
-api_call::java/net/URL;->openConnection

@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::com.audish.example.helloandroid.HelloAndroid
-activity::.HelloAndroid
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

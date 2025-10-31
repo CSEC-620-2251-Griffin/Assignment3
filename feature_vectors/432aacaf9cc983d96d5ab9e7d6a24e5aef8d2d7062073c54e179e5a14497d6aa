@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider
-activity::mx.tron.analogclock.Info
-intent::android.intent.action.MAIN
-intent::android.intent.category.INFO

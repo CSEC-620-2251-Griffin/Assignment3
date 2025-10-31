@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://xbakesx.is-a-geek.net/mtg/json/
-call::printStackTrace
-url::xbakesx.is-a-geek.net
-intent::android.intent.category.LAUNCHER
-activity::.Scorekeeper
-real_permission::android.permission.INTERNET
-api_call::java/net/URL;->openConnection

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::market.android.com
-url::https://market.android.com/details?id%3Dcom.google.zxing.client.android
-url::http://market.android.com/search?q%3Dpname:
-intent::android.intent.category.LAUNCHER
-url::https://market.android.com/details?id%3D
-call::getSystemService
-activity::.AppReferrer

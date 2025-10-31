@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.TexasMateOpener
-url::www.gemego.com
-intent::android.intent.category.LAUNCHER
-url::http://www.gemego.com/

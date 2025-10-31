@@ -1,9 +1,0 @@
-permission::android.permission.SET_WALLPAPER
-feature::android.hardware.touchscreen
-real_permission::android.permission.SET_WALLPAPER
-intent::android.intent.action.MAIN
-activity::.StartWall
-intent::android.intent.category.LAUNCHER
-activity::com.gao.wallpaper050609.UpdateWall
-intent::android.intent.action.VIEW
-api_call::android/app/Activity;->setWallpaper

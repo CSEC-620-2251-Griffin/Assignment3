@@ -1,3 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.SEARCH_LONG_PRESS
-intent::android.intent.category.DEFAULT

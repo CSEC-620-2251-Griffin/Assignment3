@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-call::Obfuscation(Base64)
-call::Read/Write External Storage
-activity::.pdf.OpenPdf
-intent::android.intent.category.DEFAULT

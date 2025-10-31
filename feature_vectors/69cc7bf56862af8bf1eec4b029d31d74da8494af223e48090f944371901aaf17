@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.ImagesWallpaperSettings
-activity::.About
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo
-url::http://schemas.android.com/apk/res/android
-url::schemas.android.com

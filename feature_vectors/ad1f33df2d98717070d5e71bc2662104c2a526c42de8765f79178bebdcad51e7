@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.RegistActivity
-intent::android.intent.action.MAIN
-activity::.ShowActivity
-activity::.ListActivity
-intent::android.intent.category.LAUNCHER
-activity::.TeamCreateActivity

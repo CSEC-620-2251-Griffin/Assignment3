@@ -1,9 +1,0 @@
-activity::GraphWindow
-feature::android.hardware.touchscreen
-api_call::java/net/URL;->openStream
-intent::android.intent.action.MAIN
-activity::Help
-activity::.Main
-real_permission::android.permission.INTERNET
-activity::GraphAddFunction
-intent::android.intent.category.LAUNCHER

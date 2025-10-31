@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.CalculatorActivity
-intent::android.intent.action.MAIN
-url::www.collercapital.com\
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-url::http://www.collercapital.com\
-call::getSystemService

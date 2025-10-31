@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.handb
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://bighits.net/cmhandb/index.php
-intent::android.intent.category.LAUNCHER
-url::bighits.net

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.FlitSkinService
-intent::com.locnet.flitkeyboard.plugin.intent.category.SKIN_KEYBOARD_PINK
-intent::com.locnet.flitkeyboard.plugin.intent.category.SKIN_KEYBOARD_WHITE
-intent::com.locnet.flitkeyboard.plugin.intent.action.PICK_SKIN
-intent::com.locnet.flitkeyboard.plugin.intent.action.PICK_PLUGIN
-service_receiver::.FlitPinkService

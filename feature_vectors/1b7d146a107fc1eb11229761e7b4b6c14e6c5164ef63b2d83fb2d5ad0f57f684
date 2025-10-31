@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.facebook.com
-intent::android.intent.action.MAIN
-call::printStackTrace
-api_call::android/media/MediaPlayer;->start
-intent::android.intent.category.LAUNCHER
-url::http://www.facebook.com/pages/Glosculptor-ISDS/373624377375
-activity::.Mswjungle
-real_permission::android.permission.WAKE_LOCK

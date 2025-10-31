@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::http://godap.info/rank_camera/index_free.html
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.Rank_cameraActivity
-url::godap.info
-intent::android.intent.category.LAUNCHER

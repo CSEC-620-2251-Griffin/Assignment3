@@ -1,6 +1,0 @@
-activity::.OmdStart
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::RegisterActivity
-intent::android.intent.category.LAUNCHER
-activity::MillionaireActivity

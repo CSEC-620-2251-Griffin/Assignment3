@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::java/net/DatagramSocket
-call::printStackTrace
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET

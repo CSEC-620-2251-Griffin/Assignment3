@@ -1,9 +1,0 @@
-api_call::java/net/HttpURLConnection
-url::www.worldweatheronline.com
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.LastMap
-url::http://www.worldweatheronline.com/feed/weather.ashx?q%3D
-intent::android.intent.category.LAUNCHER

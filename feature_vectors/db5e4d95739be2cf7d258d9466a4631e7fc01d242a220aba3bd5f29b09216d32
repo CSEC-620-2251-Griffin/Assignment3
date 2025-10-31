@@ -1,8 +1,0 @@
-activity::.ThresholdHeartRateActivity
-feature::android.hardware.touchscreen
-activity::.HeartRateDataActivity
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-activity::.AgeHeartRateActivity
-activity::.HeartRateActivity
-activity::.KarvonenHeartRateActivity

@@ -1,7 +1,0 @@
-permission::android.permission.ACCESS_FINE_LOCATION
-permission::android.permission.ACCESS_MOCK_LOCATION
-intent::android.intent.action.MAIN
-api_call::android/location/LocationManager;->getBestProvider
-real_permission::android.permission.ACCESS_FINE_LOCATION
-intent::android.intent.category.LAUNCHER
-call::getSystemService

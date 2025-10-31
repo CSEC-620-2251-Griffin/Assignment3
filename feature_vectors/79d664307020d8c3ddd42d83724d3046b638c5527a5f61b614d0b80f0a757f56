@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://webmarkcom.net/android/circleChart/
-intent::android.intent.action.MAIN
-url::webmarkcom.net
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.circleChartActivity
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView

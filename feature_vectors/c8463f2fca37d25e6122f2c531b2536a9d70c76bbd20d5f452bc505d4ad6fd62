@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::com.kcp.brokenscreen.Widget
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-provider::android.appwidget.provider
-activity::.BrokenScreen

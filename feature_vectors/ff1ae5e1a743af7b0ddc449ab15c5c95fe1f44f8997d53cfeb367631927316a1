@@ -1,9 +1,0 @@
-url::http://www.knoxcounty.org/m/android_apps/election/index_app.php
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.knoxcounty.org
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView
-activity::.knoxvotes

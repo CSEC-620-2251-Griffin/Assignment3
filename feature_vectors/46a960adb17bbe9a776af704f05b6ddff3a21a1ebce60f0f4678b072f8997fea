@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.settings.Setting
-url::en.favotter.net
-intent::android.intent.category.DEFAULT
-url::http://en.favotter.net/user/
-url::http://favotter.net/user/
-url::favotter.net

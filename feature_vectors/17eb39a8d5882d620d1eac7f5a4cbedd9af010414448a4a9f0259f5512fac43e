@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/app/Activity;->startActivity
-activity::.scan_to_email
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

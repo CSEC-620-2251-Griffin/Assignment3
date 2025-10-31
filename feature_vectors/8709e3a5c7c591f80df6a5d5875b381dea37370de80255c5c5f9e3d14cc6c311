@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::Manchester Utd Clock
-intent::android.intent.action.MAIN
-activity::.Info
-provider::android.appwidget.provider
-intent::android.intent.category.INFO

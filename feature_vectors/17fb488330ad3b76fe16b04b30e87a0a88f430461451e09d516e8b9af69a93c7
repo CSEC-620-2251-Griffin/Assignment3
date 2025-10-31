@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-provider::android.appwidget.provider
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo
-activity::.gcWidgetConfigure
-activity::.gcWidgetSetPrefs

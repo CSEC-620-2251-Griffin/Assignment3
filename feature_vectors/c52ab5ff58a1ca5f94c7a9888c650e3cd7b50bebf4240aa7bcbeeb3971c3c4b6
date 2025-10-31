@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.testapp
-activity::com.realitybytes.android.testapp02.testapp
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

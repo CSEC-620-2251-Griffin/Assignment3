@@ -1,5 +1,0 @@
-activity::.flashlight
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.whiteflashlight
-intent::android.intent.category.LAUNCHER

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.noenga.com
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.art
-url::http://www.noenga.com/iphone/index_iphone.php

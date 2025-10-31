@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.ElementData
-api_call::android/content/Context;->startActivity
-activity::.Elements
-intent::android.intent.category.LAUNCHER

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-activity::.CalculSalariu
-intent::android.intent.category.LAUNCHER
-call::getSystemService

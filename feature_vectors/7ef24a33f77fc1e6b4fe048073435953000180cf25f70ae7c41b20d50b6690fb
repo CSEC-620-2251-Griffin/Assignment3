@@ -1,9 +1,0 @@
-url::http://www.gotopenang.com/events
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::www.gotopenang.com
-permission::android.permission.INTERNET
-activity::.PenangEvent
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.INTERNET

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/content/Context;->startActivity
-activity::.SnappySeeker
-intent::android.intent.category.LAUNCHER
-activity::SnappySeeker

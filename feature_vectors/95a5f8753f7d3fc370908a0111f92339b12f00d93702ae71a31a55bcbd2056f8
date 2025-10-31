@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://www.nagradniigri.com.mk/index.php?format%3Dfeed&type%3Drss
-permission::android.permission.INTERNET
-url::www.nagradniigri.com.mk
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView
-activity::.NagradniIgri

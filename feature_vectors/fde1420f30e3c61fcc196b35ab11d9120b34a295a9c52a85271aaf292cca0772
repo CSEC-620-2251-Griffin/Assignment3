@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider
-service_receiver::Light Analog Clock
-api_call::android/content/Context;->startService

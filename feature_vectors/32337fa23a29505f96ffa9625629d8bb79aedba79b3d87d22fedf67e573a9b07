@@ -1,9 +1,0 @@
-url::www.mobilaistelefons.lv
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.main
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://www.mobilaistelefons.lv/vestnesis/news.php
-intent::android.intent.category.LAUNCHER

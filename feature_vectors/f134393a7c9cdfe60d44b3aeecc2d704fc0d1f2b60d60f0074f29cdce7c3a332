@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.c4spirits.com
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.Main
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::http://www.c4spirits.com/world/ads-on-c4/\

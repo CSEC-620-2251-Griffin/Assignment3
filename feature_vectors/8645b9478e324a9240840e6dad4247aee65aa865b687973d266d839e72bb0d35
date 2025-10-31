@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.Conti_main
-activity::com.hxt.conti.Conti_main
-intent::android.intent.category.LAUNCHER

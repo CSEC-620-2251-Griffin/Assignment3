@@ -1,6 +1,0 @@
-activity::.Lauchers
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-url::http://m.android-indonesia.com/
-intent::android.intent.category.LAUNCHER
-url::m.android-indonesia.com

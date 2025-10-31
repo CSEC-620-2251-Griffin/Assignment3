@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::PermReq
-intent::android.intent.action.MAIN
-intent::android.intent.category.DEFAULT
-intent::android.intent.action.SEARCH
-activity::.PermReq
-intent::android.intent.category.LAUNCHER

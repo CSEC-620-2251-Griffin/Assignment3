@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-activity::.DCTuxedo
-api_call::android/media/MediaPlayer;->stop
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-call::getSystemService
-real_permission::android.permission.WAKE_LOCK

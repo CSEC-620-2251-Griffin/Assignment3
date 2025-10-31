@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.MainActivity
-permission::android.permission.INTERNET
-url::www.maxsnowboard.com
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.INTERNET
-url::http://www.maxsnowboard.com/

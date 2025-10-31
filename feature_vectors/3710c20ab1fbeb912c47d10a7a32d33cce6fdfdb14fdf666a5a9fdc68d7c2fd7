@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/content/ContentResolver;->openInputStream
-intent::android.intent.action.MAIN
-url::www.aoidev.com
-url::http://www.aoidev.com
-feature::android.hardware.screen.portrait
-real_permission::android.permission.READ_CONTACTS
-intent::android.intent.category.INFO
-call::getSystemService

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::com.boardmasterscountdown.CountdownService
-url::www.boardmasters.co.uk
-url::http://www.boardmasters.co.uk/
-activity::com.boardmasterscountdown.CountdownConfiguration
-service_receiver::com.boardmasterscountdown.boardmastersCountdown
-provider::android.appwidget.provider
-call::getSystemService

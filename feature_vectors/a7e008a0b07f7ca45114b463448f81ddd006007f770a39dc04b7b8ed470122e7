@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::org.ros.cruciDemo.Load
-activity::org.ros.cruciDemo.Game
-feature::android.hardware.screen.portrait
-activity::org.ros.cruciDemo.Cruciverba
-activity::org.ros.cruciDemo.Prefs
-activity::.Cruciverba
-intent::android.intent.category.LAUNCHER

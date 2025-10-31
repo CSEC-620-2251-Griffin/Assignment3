@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::L-R Keyboard V2(Beta)
-intent::android.intent.action.MAIN
-activity::src.lr.v2.beta.publish.S

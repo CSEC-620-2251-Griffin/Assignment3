@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::an.Plot.AnPlot
-activity::.AnPlot
-intent::android.intent.category.LAUNCHER

@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.PathActivity
-intent::android.intent.action.SEND
-intent::android.intent.category.DEFAULT

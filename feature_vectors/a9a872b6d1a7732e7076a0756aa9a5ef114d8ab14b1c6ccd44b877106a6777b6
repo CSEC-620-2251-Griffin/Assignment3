@@ -1,9 +1,0 @@
-url::mobil.cugat.cat
-feature::android.hardware.touchscreen
-url::http://mobil.cugat.cat/indexradio.html
-intent::android.intent.action.MAIN
-url::http://mobil.cugat.cat/indextv.html
-url::http://mobil.cugat.cat/index.html
-intent::android.intent.category.LAUNCHER
-activity::.LinkToCugat
-url::http://mobil.cugat.cat/indexagenda.html

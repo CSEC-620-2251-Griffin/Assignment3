@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.maplecrestcars
-intent::android.intent.action.MAIN
-url::http://maplecrestCars.mobi
-url::maplecrestCars.mobi
-intent::android.intent.category.LAUNCHER

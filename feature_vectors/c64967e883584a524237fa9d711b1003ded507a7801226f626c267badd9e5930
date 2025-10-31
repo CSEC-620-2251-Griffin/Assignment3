@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/media/MediaPlayer;->start
-activity::.game
-feature::android.hardware.screen.portrait
-activity::.Trivia_Game
-intent::android.intent.category.LAUNCHER
-activity::.finalscore
-real_permission::android.permission.WAKE_LOCK

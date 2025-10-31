@@ -1,9 +1,0 @@
-url::https://www.forumcuonline.com/MyHome/Home/MyHomeMain.aspx
-activity::.Forum
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::www.forumcuonline.com
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView

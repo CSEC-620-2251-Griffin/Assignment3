@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::mobile.tutsplus.com
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-feature::android.hardware.screen.portrait
-activity::.DSDActivity
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.INTERNET
-url::http://mobile.tutsplus.com

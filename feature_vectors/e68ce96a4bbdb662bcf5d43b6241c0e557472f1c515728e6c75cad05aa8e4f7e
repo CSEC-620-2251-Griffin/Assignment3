@@ -1,3 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.PongSettings
-call::Read/Write External Storage

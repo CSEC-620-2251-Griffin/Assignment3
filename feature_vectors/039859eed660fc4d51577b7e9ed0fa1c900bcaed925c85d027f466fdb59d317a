@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::itclock.puke365.com
-api_call::android/webkit/WebView
-url::http://itclock.puke365.com/mobile/meinv.html
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-feature::android.software.live_wallpaper

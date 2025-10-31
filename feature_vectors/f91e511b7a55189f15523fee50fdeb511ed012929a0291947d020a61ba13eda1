@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Gingerbread
-intent::android.intent.action.MAIN
-intent::android.intent.category.DEFAULT

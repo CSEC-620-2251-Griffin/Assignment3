@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.101care.com
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.Main
-real_permission::android.permission.INTERNET
-url::http://www.101care.com/mobileAge
-intent::android.intent.category.LAUNCHER

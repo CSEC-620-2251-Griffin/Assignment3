@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::java/net/URL;->openConnection
-url::http://www.virginia.edu/rcam/current.jpg
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::www.virginia.edu
-activity::.RotundaCam

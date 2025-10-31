@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::HowToPlay
-activity::AH_Playing
-activity::Setting
-activity::.MainMenu
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.VIEW

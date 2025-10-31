@@ -1,6 +1,0 @@
-activity::IPMachine
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.IPMachine
-intent::android.intent.category.LAUNCHER
-call::getSystemService

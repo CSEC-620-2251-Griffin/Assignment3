@@ -1,8 +1,0 @@
-activity::.myMenu
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-permission::android.permission.ACCESS_NETWORK_STATE
-permission::android.permission.INTERNET
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-activity::.myMain

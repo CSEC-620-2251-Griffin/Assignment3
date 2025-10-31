@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-real_permission::android.permission.READ_LOGS
-permission::android.permission.READ_LOGS
-api_call::java/lang/Runtime;->exec
-call::Execution of external commands
-api_call::android/content/Context;->startService
-service_receiver::SrvLogReader
-provider::android.appwidget.provider
-call::getSystemService

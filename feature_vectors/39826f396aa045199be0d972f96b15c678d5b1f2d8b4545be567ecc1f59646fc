@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-url::http://www.celebrities-pictures.net
-activity::.CelebrityPictures
-intent::android.intent.category.LAUNCHER
-url::www.celebrities-pictures.net
-real_permission::android.permission.INTERNET

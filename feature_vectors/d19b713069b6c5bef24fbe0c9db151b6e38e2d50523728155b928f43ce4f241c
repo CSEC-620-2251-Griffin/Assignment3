@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-feature::android.hardware.screen.landscape
-permission::android.permission.INTERNET
-intent::android.intent.action.VIEW
-intent::android.intent.category.DEFAULT

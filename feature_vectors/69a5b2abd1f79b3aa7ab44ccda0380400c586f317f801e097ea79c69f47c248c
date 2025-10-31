@@ -1,8 +1,0 @@
-activity::com.venzon.bmicalculator.BMICalculator
-feature::android.hardware.touchscreen
-activity::.BMICalculator
-intent::android.intent.action.MAIN
-url::www.healthy-living.asia
-activity::com.venzon.bmicalculator.BMICalculatorList
-url::http://www.healthy-living.asia
-intent::android.intent.category.LAUNCHER

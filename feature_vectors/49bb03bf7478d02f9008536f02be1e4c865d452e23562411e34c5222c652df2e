@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AllaitActivity
-activity::.AllaitPrefActivity
-intent::android.intent.category.LAUNCHER
-activity::.AllaitHistoryActivity

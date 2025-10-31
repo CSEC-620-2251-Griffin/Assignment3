@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.AndroidBigImage
-intent::android.intent.action.MAIN
-url::flattr.com
-url::www.hopstop.com
-url::http://www.hopstop.com/pda?city1%3Dnewyork&city2%3Dnewyork&sid%3D&
-intent::android.intent.category.LAUNCHER
-url::http://flattr.com/thing/17839/New-York-Subway-Map

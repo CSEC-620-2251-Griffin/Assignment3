@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.CheckDateTime
-activity::com.zenzof21.checkdatetime77.CheckDateTime
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

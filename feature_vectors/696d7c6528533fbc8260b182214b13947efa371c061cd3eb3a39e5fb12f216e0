@@ -1,9 +1,0 @@
-activity::Einstellungen
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER
-url::http://www.bussgeldkataloge.eu
-activity::.Bussgeldrechner
-intent::android.intent.action.view
-url::www.bussgeldkataloge.eu

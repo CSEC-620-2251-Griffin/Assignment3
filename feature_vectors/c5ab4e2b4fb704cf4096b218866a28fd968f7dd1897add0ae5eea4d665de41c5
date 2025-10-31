@@ -1,5 +1,0 @@
-activity::.BQConfig
-service_receiver::BibleQuoteWidget
-provider::android.appwidget.provider
-call::getSystemService
-feature::android.hardware.touchscreen

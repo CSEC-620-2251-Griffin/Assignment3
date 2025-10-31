@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.astuforme.com
-url::http://www.astuforme.com/IMC/
-activity::astuforme
-intent::android.intent.category.LAUNCHER
-activity::.astuforme
-call::getSystemService

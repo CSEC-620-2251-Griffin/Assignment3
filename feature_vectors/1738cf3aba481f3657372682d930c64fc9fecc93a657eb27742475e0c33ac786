@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::History
-activity::Calculate
-activity::.Calculate
-intent::android.intent.category.LAUNCHER

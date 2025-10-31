@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.StepChartExampleActivity
-activity::.MainActivity
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-activity::.OrientationSensorExampleActivity
-call::getSystemService

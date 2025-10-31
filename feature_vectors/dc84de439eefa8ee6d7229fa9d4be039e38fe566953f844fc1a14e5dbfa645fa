@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.LaoKeyboardSetting
-intent::android.intent.action.MAIN
-service_receiver::LaoKeyboard

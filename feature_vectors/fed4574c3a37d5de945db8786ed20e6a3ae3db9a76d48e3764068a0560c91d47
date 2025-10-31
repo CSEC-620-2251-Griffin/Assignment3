@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://apspr.tmc-11.com/chakuutakouhinsituranking/
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-activity::.chakuutakouhinsituranking
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::apspr.tmc-11.com

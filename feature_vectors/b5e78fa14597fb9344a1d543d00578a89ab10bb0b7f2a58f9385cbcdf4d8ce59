@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::Settings
-api_call::android/media/MediaRecorder;->setAudioSource
-real_permission::android.permission.RECORD_AUDIO
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-call::printStackTrace
-feature::android.hardware.microphone
-permission::android.permission.RECORD_AUDIO
-call::getSystemService

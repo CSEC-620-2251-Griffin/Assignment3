@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::com.leebrimelow.pescilines.Main
-api_call::android/media/MediaPlayer;->start
-activity::.Main
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.WAKE_LOCK

@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.Receiver
-intent::android.intent.action.PACKAGE_ADDED
-call::getSystemService
-intent::android.intent.action.PACKAGE_REMOVED

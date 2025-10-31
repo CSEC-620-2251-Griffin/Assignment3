@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.s2rsolutions.com
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-url::www.s2rsolutions.com
-activity::.s2rsolutions

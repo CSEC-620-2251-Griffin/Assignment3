@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://hypest.org
-activity::.alfadi
-intent::android.intent.action.MAIN
-url::hypest.org
-intent::android.intent.category.LAUNCHER
-call::getSystemService
-url::http://hypest.org/alfadi

@@ -1,5 +1,0 @@
-service_receiver::IshClockProvider
-feature::android.hardware.touchscreen
-api_call::android/content/Context;->sendBroadcast
-provider::android.appwidget.provider
-call::getSystemService

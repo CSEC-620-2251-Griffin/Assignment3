@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::market.android.com
-activity::.RingerController
-url::http://market.android.com/search?q%3Dpub:Nash
-intent::android.intent.category.LAUNCHER
-call::getSystemService

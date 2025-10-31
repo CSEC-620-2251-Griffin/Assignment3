@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::Immigration Application Processing Times
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.portrait
-activity::.immprocessingtime
-activity::.FurtherTables
-intent::android.intent.category.LAUNCHER
-activity::.Tabledisplay

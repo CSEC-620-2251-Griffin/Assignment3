@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::sp.melad.jp
-intent::android.intent.action.MAIN
-url::http://sp.melad.jp/andmk03
-activity::.z047
-intent::android.intent.category.LAUNCHER

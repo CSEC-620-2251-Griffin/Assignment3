@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::ASelectUnit
-intent::android.intent.action.MAIN
-activity::.AMain
-feature::android.hardware.screen.portrait
-activity::AMain
-intent::android.intent.category.LAUNCHER
-activity::AInfo

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.facebook.com
-intent::android.intent.action.MAIN
-url::www.surveymonkey.com
-activity::.MainActivity
-api_call::android/content/Context;->startActivity
-url::http://www.facebook.com/pages/TarotDroid/154223664646519?sk%3Dwall
-url::http://www.surveymonkey.com/s/6FBPZJD\
-intent::android.intent.category.LAUNCHER

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::m.aletscharena.ch
-activity::.main
-intent::android.intent.category.LAUNCHER
-url::http://m.aletscharena.ch

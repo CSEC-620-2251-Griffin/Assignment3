@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::market.android.com
-url::http://market.android.com/search?q%3DM-UP,+inc.
-permission::android.permission.INTERNET
-feature::android.software.live_wallpaper
-call::getSystemService

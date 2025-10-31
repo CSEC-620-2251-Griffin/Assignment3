@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.SystemSounds
-activity::.CreateAProfile
-intent::android.intent.action.MAIN
-activity::.ProfilesPage
-intent::android.intent.action.PROFILES
-intent::android.intent.action.CREATEAPROFILE
-intent::android.intent.category.LAUNCHER
-call::getSystemService

@@ -1,7 +1,0 @@
-activity::.Box2dDemo
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-url::www.bayninestudios.com
-url::http://www.bayninestudios.com
-call::getSystemService
-intent::android.intent.category.LAUNCHER

@@ -1,9 +1,0 @@
-service_receiver::.services.UpdateService
-feature::android.hardware.touchscreen
-api_call::java/net/URL;->getContent
-url::.*jpg
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-api_call::android/content/Context;->startService
-provider::android.appwidget.provider
-url::http://.*jpg

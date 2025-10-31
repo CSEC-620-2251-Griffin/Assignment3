@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::com.flopcode.android.networkbrowser.sshtcp
-api_call::android/content/Context;->startActivity
-activity::.SshTcpAdapter
-intent::android.intent.category.DEFAULT
-intent::android.intent.action.VIEW

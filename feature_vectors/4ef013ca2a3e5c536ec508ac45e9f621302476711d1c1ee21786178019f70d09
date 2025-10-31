@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.NoteView
-activity::NotesList
-activity::NoteNew
-feature::android.hardware.screen.portrait
-activity::.StartVideoActivity
-intent::android.intent.category.LAUNCHER
-activity::NoteEditor

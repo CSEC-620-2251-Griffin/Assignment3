@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::FrozenWindow1
-activity::.FrozenWindow1
-intent::android.intent.category.LAUNCHER

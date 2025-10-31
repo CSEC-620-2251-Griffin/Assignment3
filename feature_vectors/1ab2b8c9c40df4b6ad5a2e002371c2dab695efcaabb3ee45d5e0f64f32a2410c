@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::mobi.minicountryman.it
-intent::android.intent.action.MAIN
-activity::.countrymanActivity
-url::http://mobi.minicountryman.it/home
-intent::android.intent.category.LAUNCHER

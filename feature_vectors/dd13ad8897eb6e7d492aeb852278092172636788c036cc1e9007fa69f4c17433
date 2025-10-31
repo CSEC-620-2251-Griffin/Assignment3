@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.CubeBaby
-intent::android.intent.action.MAIN
-activity::CubeBaby
-intent::android.intent.category.LAUNCHER

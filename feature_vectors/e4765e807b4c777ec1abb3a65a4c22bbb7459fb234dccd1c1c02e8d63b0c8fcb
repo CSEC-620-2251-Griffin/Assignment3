@@ -1,5 +1,0 @@
-activity::.ScoresActivity
-feature::android.hardware.touchscreen
-activity::.SameGame
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.CoverActivity
-feature::android.hardware.screen.portrait
-activity::.QueryActivity
-intent::android.intent.category.LAUNCHER
-activity::.ResultActivity

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://subjectorange.com/peopleofnotewebapp/peopleofnotewebapp
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::subjectorange.com
-intent::android.intent.category.LAUNCHER
-activity::.peopleofnote
-api_call::android/webkit/WebView

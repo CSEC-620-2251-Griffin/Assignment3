@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.MainWidgetView$UpdateService
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-api_call::android/content/Context;->startService
-url::http://campusnews.wizperzone.com/mensaxml.php
-url::campusnews.wizperzone.com
-provider::android.appwidget.provider
-api_call::java/net/URL;->openConnection

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-intent::android.intent.category.HOME
-real_permission::android.permission.WRITE_SETTINGS
-intent::android.intent.category.DEFAULT
-activity::AutoRotate On/Off
-api_call::android/provider/Settings$System;->putInt
-permission::android.permission.WRITE_SETTINGS

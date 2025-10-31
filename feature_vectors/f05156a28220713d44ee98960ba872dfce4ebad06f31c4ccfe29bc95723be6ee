@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.About
-intent::android.intent.action.MAIN
-url::www.kritnu.com\%27>www.kritnu.com<
-url::http://www.kritnu.com\%27>www.kritnu.com</a>
-intent::android.intent.category.LAUNCHER
-activity::.Splash
-intent::android.intent.category.ALTERNATIVE

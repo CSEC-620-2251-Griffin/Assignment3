@@ -1,7 +1,0 @@
-activity::.view.activities.ItemsActivity
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-activity::.Main
-intent::android.intent.category.LAUNCHER
-call::getSystemService

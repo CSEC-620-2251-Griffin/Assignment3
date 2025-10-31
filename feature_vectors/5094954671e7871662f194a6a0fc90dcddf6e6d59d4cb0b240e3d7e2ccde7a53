@@ -1,9 +1,0 @@
-activity::.mizugi4
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::adlyze.net
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://adlyze.net/link/bi4top.html
-intent::android.intent.category.LAUNCHER

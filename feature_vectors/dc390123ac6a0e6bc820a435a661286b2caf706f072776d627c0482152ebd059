@@ -1,9 +1,0 @@
-url::www.baidu.com
-feature::android.hardware.touchscreen
-url::whois.domaintools.com
-intent::android.intent.action.MAIN
-url::http://www.baidu.com
-permission::tunnybrowser.permission.Extension
-call::getPackageInfo
-url::http://whois.domaintools.com/
-intent::android.intent.category.INFO

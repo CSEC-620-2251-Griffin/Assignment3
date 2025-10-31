@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.PPC1500Result
-activity::.PPC1500Counter
-activity::.PPC1500Calculator
-call::getSystemService
-intent::android.intent.category.LAUNCHER

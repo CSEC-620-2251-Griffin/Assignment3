@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.ConnectTheDots
-activity::.Welcome
-feature::android.hardware.screen.portrait
-activity::PuzzlePicker
-intent::android.intent.category.LAUNCHER
-call::getSystemService

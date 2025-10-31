@@ -1,7 +1,0 @@
-activity::.AboutDialog
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.showBird
-activity::.FunnyBirdNames
-activity::.SetPreference
-intent::android.intent.category.LAUNCHER

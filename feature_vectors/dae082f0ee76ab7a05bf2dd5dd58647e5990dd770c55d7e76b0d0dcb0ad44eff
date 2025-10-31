@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.settings.WidgetPropertiesActivity
-activity::.DummyConfigurationActivity
-service_receiver::Battery Monitor Service
-permission::android.permission.DEVICE_POWER
-permission::android.permission.BATTERY_STATS
-call::getPackageInfo
-api_call::android/content/Context;->sendBroadcast
-provider::android.appwidget.provider

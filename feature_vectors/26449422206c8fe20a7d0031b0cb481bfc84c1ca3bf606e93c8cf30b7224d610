@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.AReaderPluginPDFActivity
-call::printStackTrace
-call::Read/Write External Storage
-activity::com.reader.areader.plugin.pdf.OpenFileActivity
-call::getPackageInfo
-call::getSystemService

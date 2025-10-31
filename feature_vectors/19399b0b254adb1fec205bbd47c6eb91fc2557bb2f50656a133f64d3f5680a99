@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::org/apache/http/impl/client/DefaultHttpClient
-intent::android.intent.action.MAIN
-url::staging.webar.net
-real_permission::android.permission.INTERNET
-activity::.Memotest
-intent::android.intent.category.LAUNCHER
-call::HttpPost
-url::http://staging.webar.net:8080/equipo4/webar/enviarDatos.asp

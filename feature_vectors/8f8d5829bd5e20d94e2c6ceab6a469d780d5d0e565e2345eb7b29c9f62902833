@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.gotmomostocks.com\%27>GotMomoStocks.com<
-url::http://www.mobisys.in\%27>Mobisys
-activity::.SplashScreen
-intent::android.intent.category.LAUNCHER
-url::http://www.gotmomostocks.com\%27>GotMomoStocks.com</a>
-url::www.mobisys.in\%27>Mobisys
-call::getSystemService

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::http://godap.info/rank_slot/index.html
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::godap.info
-intent::android.intent.category.LAUNCHER
-activity::.Rank_slot

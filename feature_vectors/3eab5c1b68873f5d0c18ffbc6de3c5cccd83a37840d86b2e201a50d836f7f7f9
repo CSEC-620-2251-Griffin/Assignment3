@@ -1,8 +1,0 @@
-permission::android.permission.VIBRATE
-feature::android.hardware.touchscreen
-api_call::android/webkit/WebView
-api_call::android/os/Vibrator;->vibrate
-real_permission::android.permission.INTERNET
-service_receiver::PortugalKeyboard
-real_permission::android.permission.VIBRATE
-call::getSystemService

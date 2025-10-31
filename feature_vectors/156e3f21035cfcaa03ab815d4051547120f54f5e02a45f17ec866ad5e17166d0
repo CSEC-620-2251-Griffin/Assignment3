@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-call::printStackTrace
-provider::android.appwidget.provider
-call::getSystemService
-activity::Widget Settings

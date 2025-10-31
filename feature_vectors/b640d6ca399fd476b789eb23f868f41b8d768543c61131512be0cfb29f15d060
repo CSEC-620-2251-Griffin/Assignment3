@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.meowsbox.com
-intent::android.intent.action.MAIN
-service_receiver::Dancing Neko Live Wallpaper
-activity::.MainActivity
-feature::android.software.live_wallpaper
-intent::android.intent.category.LAUNCHER
-url::http://www.meowsbox.com/donate

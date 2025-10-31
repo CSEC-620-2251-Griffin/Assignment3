@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::Tokei
-activity::.LauncherAppActivity
-service_receiver::.MyClockAlarmReceiver
-intent::android.intent.action.CONFIGURATION_CHANGED
-activity::.MyClockPreferences
-call::getPackageInfo
-provider::android.appwidget.provider
-call::getSystemService

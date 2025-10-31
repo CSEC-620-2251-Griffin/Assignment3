@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.google.com
-intent::android.intent.action.SEND
-permission::android.permission.INTERNET
-url::http://www.google.com/buzz/post?url%3D
-intent::android.intent.category.DEFAULT
-activity::.NewPost

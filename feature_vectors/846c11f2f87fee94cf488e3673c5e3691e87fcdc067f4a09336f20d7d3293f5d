@@ -1,6 +1,0 @@
-activity::.GoLucky
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-intent::android.intent.category.LAUNCHER
-url::http://google.com/search?btnI%3D1&q%3D
-url::google.com

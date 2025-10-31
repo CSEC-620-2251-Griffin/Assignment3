@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.KidsArtShopLite
-intent::android.intent.action.MAIN
-call::Read/Write External Storage
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER

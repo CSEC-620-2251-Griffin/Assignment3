@@ -1,5 +1,0 @@
-activity::.view.login.LoginPinView
-feature::android.hardware.touchscreen
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN
-activity::.LoginPinView

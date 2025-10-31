@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.ResultsActivity
-activity::.MainActivity
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.SavedActivity

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.SEARCH_LONG_PRESS
-activity::.MCLauncher
-intent::android.intent.action.MAIN
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo
-permission::android.permission.READ_CONTACTS
-call::getSystemService

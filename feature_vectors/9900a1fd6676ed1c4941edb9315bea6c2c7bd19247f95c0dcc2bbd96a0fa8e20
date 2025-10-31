@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::Read/Write External Storage
-activity::.SystemMonitorActivity
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo
-provider::android.appwidget.provider
-call::getSystemService

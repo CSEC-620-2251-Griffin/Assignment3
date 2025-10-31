@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-feature::android.hardware.screen.portrait
-feature::android.software.live_wallpaper
-api_call::android/content/Context;->startActivity
-activity::.ColorPickerActivity

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Info
-intent::android.intent.action.MAIN
-service_receiver::Modern Clock3
-service_receiver::Modern Clock2
-service_receiver::Modern Clock1
-service_receiver::Modern Clock4
-provider::android.appwidget.provider
-intent::android.intent.category.INFO

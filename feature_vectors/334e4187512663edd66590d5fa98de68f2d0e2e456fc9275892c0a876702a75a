@@ -1,6 +1,0 @@
-activity::.qrcode
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://ohvideo.net/t/qr.php?mode%3Devent
-intent::android.intent.category.LAUNCHER
-url::ohvideo.net

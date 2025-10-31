@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://saju.seedtech.pe.kr:8080/smart/index.jsp
-url::saju.seedtech.pe.kr
-permission::android.permission.INTERNET
-activity::.FortuneLink
-intent::android.intent.category.LAUNCHER

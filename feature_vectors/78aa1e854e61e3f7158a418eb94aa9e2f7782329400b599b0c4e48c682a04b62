@@ -1,6 +1,0 @@
-activity::.ThemeBrownActivity
-feature::android.hardware.touchscreen
-url::http://wap.zifei.cn/common/prog/index.php?pid%3D56491&post%3Dsmstheme
-intent::android.intent.action.MAIN
-intent::android.intent.category.INFO
-url::wap.zifei.cn

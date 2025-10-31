@@ -1,8 +1,0 @@
-permission::android.permission.VIBRATE
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.WAKE_LOCK
-activity::.MainActivity
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-call::getSystemService

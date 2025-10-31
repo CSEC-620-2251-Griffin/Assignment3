@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.bbthemeworld.com/tp/butterflies
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-url::www.bbthemeworld.com
-activity::.Butterflies

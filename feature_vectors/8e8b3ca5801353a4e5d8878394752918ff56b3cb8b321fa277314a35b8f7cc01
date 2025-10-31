@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.JumpB
-intent::android.intent.action.MAIN
-api_call::android/content/Context;->startActivity
-url::apliget.com
-url::http://apliget.com/android/index.php
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER

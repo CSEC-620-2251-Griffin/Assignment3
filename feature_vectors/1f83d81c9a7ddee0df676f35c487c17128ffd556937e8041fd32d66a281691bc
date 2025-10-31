@@ -1,8 +1,0 @@
-activity::.BalanceActivity
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.CALL_PHONE
-activity::SelectNumberActivity
-feature::android.hardware.telephony
-intent::android.intent.category.LAUNCHER
-call::getSystemService

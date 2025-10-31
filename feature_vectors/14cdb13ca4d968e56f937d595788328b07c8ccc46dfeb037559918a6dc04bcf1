@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.nowsports
-intent::android.intent.action.MAIN
-activity::nowsports
-url::http://wap.pccwmobile.com/nowsports
-url::wap.pccwmobile.com
-intent::android.intent.category.LAUNCHER

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::market.android.com
-intent::android.intent.action.MAIN
-url::http://market.android.com/details?id%3Dfishnoodle.storm
-call::Read/Write External Storage
-url::http://www.kittehface.com
-url::www.kittehface.com

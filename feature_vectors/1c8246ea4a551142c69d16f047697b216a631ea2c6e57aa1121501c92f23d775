@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::SetsudenService
-api_call::java/net/HttpURLConnection
-url::http://www.tepco.co.jp/forecast/html/images/juyo-j.csv
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-provider::android.appwidget.provider
-call::getSystemService
-url::www.tepco.co.jp

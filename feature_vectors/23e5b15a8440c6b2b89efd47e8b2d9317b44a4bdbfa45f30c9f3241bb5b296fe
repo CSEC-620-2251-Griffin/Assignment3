@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.ActivityGameOptions
-intent::android.intent.action.MAIN
-activity::.ActivityGameVsOtherUser
-intent::android.intent.category.LAUNCHER
-activity::.ActivityGameSelect
-activity::.ActivityGameVsDroid

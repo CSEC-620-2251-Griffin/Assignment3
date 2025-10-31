@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.column.ColumnActivity
-intent::android.intent.action.MAIN
-activity::.DateList
-intent::android.intent.category.LAUNCHER
-activity::.date.DateList

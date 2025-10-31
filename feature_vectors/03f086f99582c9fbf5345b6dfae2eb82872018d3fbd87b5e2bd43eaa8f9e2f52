@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::com.android.vending.CHECK_LICENSE
-call::Obfuscation(Base64)
-activity::.SDMunlocker
-call::Cipher(AES/CBC/PKCS5Padding)
-call::getPackageInfo

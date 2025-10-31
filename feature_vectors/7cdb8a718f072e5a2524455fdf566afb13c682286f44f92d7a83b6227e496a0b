@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider
-intent::android.intent.action.PACKAGE_ADDED
-service_receiver::WidgetBroadcastReceiver
-intent::android.intent.action.PACKAGE_REMOVED

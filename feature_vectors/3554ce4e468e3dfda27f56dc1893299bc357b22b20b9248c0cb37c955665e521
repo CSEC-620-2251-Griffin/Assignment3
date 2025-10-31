@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.result
-activity::.play
-activity::.home
-intent::android.intent.category.LAUNCHER
-activity::.fruits

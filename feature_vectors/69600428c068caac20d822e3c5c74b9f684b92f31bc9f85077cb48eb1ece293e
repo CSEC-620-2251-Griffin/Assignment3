@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AutotimestampAddIn
-api_call::android/app/Activity;->startActivity
-feature::android.hardware.location
-permission::android.permission.INSTALL_LOCATION_PROVIDER
-intent::android.intent.category.LAUNCHER
-activity::.AutotimestampAddOut
-activity::.AutotimestampToggle

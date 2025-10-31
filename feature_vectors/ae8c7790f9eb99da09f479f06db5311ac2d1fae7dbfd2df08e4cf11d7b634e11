@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::andbots.com
-intent::android.intent.action.MAIN
-activity::.navynews
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::http://andbots.com/navynews/
-api_call::android/webkit/WebView

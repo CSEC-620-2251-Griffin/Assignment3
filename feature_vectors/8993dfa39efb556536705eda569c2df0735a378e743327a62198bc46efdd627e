@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.sharetocopy
-intent::android.intent.action.SEND
-intent::android.intent.category.DEFAULT
-activity::sharetocopy
-call::getSystemService
-intent::android.intent.category.LAUNCHER

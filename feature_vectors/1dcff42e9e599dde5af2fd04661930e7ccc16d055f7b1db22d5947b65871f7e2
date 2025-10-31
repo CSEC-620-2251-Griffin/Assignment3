@@ -1,7 +1,0 @@
-service_receiver::WhiteDigitalClockWidget12Service
-feature::android.hardware.touchscreen
-service_receiver::WhiteDigitalClockWidgetService
-service_receiver::BlackDigitalClockWidget12Service
-service_receiver::BlackDigitalClockWidgetService
-api_call::android/content/Context;->startService
-provider::android.appwidget.provider

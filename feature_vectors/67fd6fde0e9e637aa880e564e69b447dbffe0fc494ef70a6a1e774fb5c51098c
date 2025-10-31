@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.MotoXMayhem
-intent::android.intent.category.LAUNCHER
-activity::com.occamy.android.motoxmayhem.MotoXMayhem
-call::getSystemService

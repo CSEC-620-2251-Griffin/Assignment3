@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.AlarmReceiver
-intent::android.intent.action.MAIN
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.VIBRATE
-api_call::android/app/NotificationManager;->notify
-call::getSystemService
-activity::.BatteryMain

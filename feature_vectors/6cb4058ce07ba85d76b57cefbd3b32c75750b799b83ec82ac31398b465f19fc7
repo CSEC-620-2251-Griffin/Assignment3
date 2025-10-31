@@ -1,8 +1,0 @@
-url::http://www.
-feature::android.hardware.touchscreen
-service_receiver::QR Code 4x4
-url::https://www.
-service_receiver::QR Code 2x2
-service_receiver::QR Code 3x3
-provider::android.appwidget.provider
-url::www.

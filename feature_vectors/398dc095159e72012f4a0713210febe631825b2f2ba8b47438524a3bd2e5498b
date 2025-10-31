@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.SplashActivity
-activity::.FlamesAct
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

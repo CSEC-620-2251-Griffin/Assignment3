@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://yongforum.appspot.com
-url::yongforum.appspot.com
-activity::.yongForum
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER

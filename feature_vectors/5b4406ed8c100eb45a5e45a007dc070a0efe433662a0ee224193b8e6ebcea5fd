@@ -1,9 +1,0 @@
-activity::.DayMatchesActivity
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AllMatchesActivity
-activity::.MainActivity
-activity::.GroupsActivity
-intent::android.intent.category.LAUNCHER
-activity::.TeamsActivity
-call::getSystemService

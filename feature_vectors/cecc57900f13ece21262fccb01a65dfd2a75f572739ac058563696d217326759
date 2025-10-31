@@ -1,4 +1,0 @@
-activity::PreferencesActivity
-provider::android.appwidget.provider
-call::getSystemService
-feature::android.hardware.touchscreen

@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.APPWIDGET_CONFIGURE
-provider::android.appwidget.provider
-activity::.ImageSelectionActivity

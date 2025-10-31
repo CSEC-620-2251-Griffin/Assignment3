@@ -1,5 +1,0 @@
-activity::MatchCardsActivity
-feature::android.hardware.touchscreen
-activity::.MatchCardsActivity
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

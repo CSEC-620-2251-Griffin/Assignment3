@@ -1,5 +1,0 @@
-activity::.OverView
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN
-activity::.URshuttleschedule
-feature::android.hardware.touchscreen

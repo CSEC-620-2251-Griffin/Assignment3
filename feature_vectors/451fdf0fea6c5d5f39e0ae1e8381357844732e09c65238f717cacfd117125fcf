@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.CountDownToDo
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo
-provider::android.appwidget.provider

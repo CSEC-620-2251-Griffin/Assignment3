@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-provider::com.swcmobile.provider.texasholdem
-intent::android.intent.action.MAIN
-activity::.MainApp
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-api_call::java/net/DatagramSocket

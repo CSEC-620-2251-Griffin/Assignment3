@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::stpatricks.free.live.wallpaper.LiveWallpaperLauncher
-feature::android.hardware.screen.portrait
-api_call::android/content/Context;->startService
-intent::android.intent.category.INFO
-call::getSystemService

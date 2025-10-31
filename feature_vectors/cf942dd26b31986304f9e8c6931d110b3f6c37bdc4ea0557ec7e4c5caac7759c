@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.jetflicks.mobi/user/new.php
-intent::android.intent.action.MAIN
-url::www.jetflicks.mobi
-activity::.jetflicksmobi
-url::http://www.jetflicks.mobi/mb/mobi_faq.php
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::http://www.jetflicks.mobi

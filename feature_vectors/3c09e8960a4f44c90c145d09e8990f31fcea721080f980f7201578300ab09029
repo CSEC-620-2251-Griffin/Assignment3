@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-feature::android.hardware.camera.autofocus
-feature::android.hardware.camera
-intent::android.intent.category.LAUNCHER
-permission::android.permission.CAMERA
-activity::.pictocube

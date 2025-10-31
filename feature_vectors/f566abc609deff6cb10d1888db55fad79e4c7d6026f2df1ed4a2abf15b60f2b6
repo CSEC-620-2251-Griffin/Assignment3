@@ -1,6 +1,0 @@
-activity::.UpdateTest
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-permission::android.permission.ACCESS_NETWORK_STATE
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

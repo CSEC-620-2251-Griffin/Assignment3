@@ -1,9 +1,0 @@
-api_call::java/net/HttpURLConnection
-url::twitter.com
-api_call::android/app/Activity;->startActivity
-feature::android.hardware.touchscreen
-intent::android.intent.action.SEND
-permission::android.permission.INTERNET
-intent::android.intent.category.DEFAULT
-url::http://twitter.com/
-real_permission::android.permission.INTERNET

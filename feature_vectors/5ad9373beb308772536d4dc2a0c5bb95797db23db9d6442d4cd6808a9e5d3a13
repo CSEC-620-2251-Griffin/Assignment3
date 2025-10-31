@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-activity::.Beacon
-url::https://my.mshift.com/gs?msestks%3Dbeaconcu.xml&stk%3Dhome&zqqx%3Dsh
-url::my.mshift.com

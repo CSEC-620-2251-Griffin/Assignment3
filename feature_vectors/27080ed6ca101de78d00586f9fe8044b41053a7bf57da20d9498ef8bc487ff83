@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://foursquare.com/venue/
-intent::android.intent.action.MAIN
-activity::.PhiSq_Scanner
-url::m.foursquare.com
-intent::android.intent.category.LAUNCHER
-url::http://m.foursquare.com/checkin?vid%3D
-url::foursquare.com

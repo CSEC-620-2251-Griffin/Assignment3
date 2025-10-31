@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-real_permission::android.permission.DISABLE_KEYGUARD
-intent::android.intent.category.LAUNCHER
-activity::.PhoneLockManager
-api_call::android/app/KeyguardManager$KeyguardLock;->disableKeyguard
-call::getSystemService
-permission::android.permission.DISABLE_KEYGUARD

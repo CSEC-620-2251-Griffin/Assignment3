@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN
-intent::yanzm.example.getintentlist
-activity::.GetIntentList

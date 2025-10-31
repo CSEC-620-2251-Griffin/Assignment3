@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-url::www.blog-cao.com
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.WebPageLoader
-url::http://www.blog-cao.com/

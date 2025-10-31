@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.FinnishKeyboardBroadcastReceiver
-intent::android.intent.category.ALTERNATIVE
-intent::android.intent.category.SELECTED_ALTERNATIVE
-intent::android.intent.category.DEFAULT

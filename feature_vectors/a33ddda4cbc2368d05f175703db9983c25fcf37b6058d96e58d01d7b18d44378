@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::com.artfulbits.aicharts.Demo.Financial.ChartEditorActivity
-intent::android.intent.action.MAIN
-call::printStackTrace
-activity::.FinancialChartDemo
-activity::com.artfulbits.aicharts.Demo.Financial.FinancialChartDemo
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.VIEW

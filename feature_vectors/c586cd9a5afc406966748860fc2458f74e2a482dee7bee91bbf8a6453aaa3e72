@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-call::printStackTrace
-api_call::android/media/MediaPlayer;->start
-permission::android.permission.INTERNET
-service_receiver::.DianWidget$BatteryMonitorReceiver
-api_call::android/content/Context;->startService
-provider::android.appwidget.provider
-service_receiver::.DianWidget
-real_permission::android.permission.WAKE_LOCK

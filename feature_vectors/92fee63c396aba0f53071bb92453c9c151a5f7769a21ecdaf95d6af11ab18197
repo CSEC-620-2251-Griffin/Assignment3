@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.motorplus-online.com
-activity::.Launcher
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-url::http://www.motorplus-online.com

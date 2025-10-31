@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.BabylonianActivity
-intent::android.intent.action.MAIN
-activity::.GreekActivity
-activity::.MainActivity
-activity::.EgyptianActivity
-activity::.RomanActivity
-intent::android.intent.category.LAUNCHER
-activity::.MayanActivity

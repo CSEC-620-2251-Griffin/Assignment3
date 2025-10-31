@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.seobuddy
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::www.jeremymorgan.com
-url::http://www.jeremymorgan.com/apps/seobuddy/feed.php
-real_permission::android.permission.INTERNET

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::%EC%A4%EC%ED %EC%EC%B9%B4%EA%B3%A0
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-api_call::android/media/MediaPlayer;->start
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.AudioDemo
-real_permission::android.permission.WAKE_LOCK

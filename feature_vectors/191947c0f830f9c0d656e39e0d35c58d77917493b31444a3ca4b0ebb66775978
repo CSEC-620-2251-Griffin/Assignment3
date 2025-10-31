@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::mobile.cheaphotel-search.com
-permission::android.permission.INTERNET
-url::http://mobile.cheaphotel-search.com/mobile
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.INTERNET
-activity::.CHS

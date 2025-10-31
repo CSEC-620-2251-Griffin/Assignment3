@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.TopCallerActivity
-intent::android.intent.action.MAIN
-call::printStackTrace
-call::Obfuscation(Base64)
-call::Cipher(AES/CBC/PKCS5Padding)
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

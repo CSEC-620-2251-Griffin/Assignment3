@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://m.cexams.com/hp/
-url::m.cexams.com
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.HomeopathyActivity
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/content/ContentResolver;->openInputStream
-url::http://dcpost.jp/
-feature::android.hardware.screen.portrait
-url::dcpost.jp
-feature::android.software.live_wallpaper
-real_permission::android.permission.READ_CONTACTS
-call::getSystemService

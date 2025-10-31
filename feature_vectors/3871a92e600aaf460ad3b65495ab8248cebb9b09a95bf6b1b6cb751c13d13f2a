@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.READ_USER_DICTIONARY
-intent::android.intent.action.MAIN
-activity::UserDictionarySettings
-intent::android.intent.category.DEFAULT
-provider::com.betterandroid.providers.userdictionary
-permission::android.permission.WRITE_USER_DICTIONARY
-intent::android.intent.category.VOICE_LAUNCH

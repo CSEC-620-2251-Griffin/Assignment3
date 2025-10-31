@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://ts.tandt.com/mobile
-intent::android.intent.category.LAUNCHER
-activity::.resx
-url::ts.tandt.com

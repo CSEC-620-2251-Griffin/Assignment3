@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::java/net/URL;->openStream
-intent::android.intent.action.MAIN
-url::http://con.getseen.us/con.php?t%3D
-activity::.Conjugar
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::con.getseen.us
-intent::android.intent.category.LAUNCHER

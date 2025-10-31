@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.category.DEFAULT
-activity::.SMSFixForNFC
-intent::android.intent.action.SENDTO
-feature::android.hardware.screen.portrait

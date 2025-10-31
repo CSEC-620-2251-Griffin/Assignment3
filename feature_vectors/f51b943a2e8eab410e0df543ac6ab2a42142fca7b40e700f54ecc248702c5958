@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.DisplayShabad
-intent::android.intent.action.MAIN
-activity::.SearchShabad
-activity::.DhurKiBani
-activity::.SearchByAng
-intent::android.intent.category.LAUNCHER
-activity::.SikhPrayers

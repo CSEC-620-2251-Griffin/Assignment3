@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-permission::android.permission.CALL_PHONE
-feature::android.hardware.screen.portrait
-activity::.WelcomeActivity
-feature::android.hardware.telephony
-intent::android.intent.category.LAUNCHER

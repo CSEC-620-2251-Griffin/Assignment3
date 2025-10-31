@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-feature::android.hardware.screen.landscape
-intent::android.intent.action.MAIN
-activity::.BlockDude
-intent::android.intent.category.LAUNCHER

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.Widget
-call::Read/Write External Storage
-api_call::android/content/Context;->startService
-service_receiver::.Broadcaster
-provider::android.appwidget.provider
-call::getSystemService

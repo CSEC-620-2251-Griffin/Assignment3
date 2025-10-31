@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-activity::ImageViewer
-intent::android.intent.action.VIEW
-intent::android.intent.category.DEFAULT

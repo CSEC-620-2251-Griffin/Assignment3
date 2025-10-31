@@ -1,5 +1,0 @@
-activity::.DataCounterWidget
-url::http://market.android.com/search?q%3Dpname:com.roysolberg.android.datacounter
-url::market.android.com
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen

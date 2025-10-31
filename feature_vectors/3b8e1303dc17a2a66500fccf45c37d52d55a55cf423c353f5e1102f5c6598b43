@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::m.sogang.ac.kr
-url::http://m.sogang.ac.kr
-intent::android.intent.category.LAUNCHER
-activity::.sogang_mobile

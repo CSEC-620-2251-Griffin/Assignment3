@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.GraphActivity
-intent::android.intent.category.LAUNCHER
-activity::.TaxView
-intent::android.intent.action.VIEW

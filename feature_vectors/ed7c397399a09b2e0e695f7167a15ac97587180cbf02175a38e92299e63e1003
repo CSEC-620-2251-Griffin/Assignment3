@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/media/MediaPlayer;->start
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER
-activity::.DinosaurLiteFlashCards
-api_call::android/content/Context;->startActivity
-real_permission::android.permission.WAKE_LOCK

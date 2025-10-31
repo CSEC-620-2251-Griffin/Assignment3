@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::Add Item
-permission::android.permission.INTERNET
-activity::.HowLongSince
-intent::android.intent.category.LAUNCHER
-call::getSystemService

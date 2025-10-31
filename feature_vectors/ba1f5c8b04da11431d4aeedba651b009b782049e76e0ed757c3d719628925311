@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/app/NotificationManager;->notify
-intent::android.intent.action.MAIN
-activity::.keyboardmanager
-permission::android.permission.WRITE_SECURE_SETTINGS
-service_receiver::KeyboardSwitcher
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.VIBRATE
-call::getSystemService

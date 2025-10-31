@@ -1,5 +1,0 @@
-activity::.Configure
-intent::android.intent.category.DEFAULT
-provider::android.appwidget.provider
-intent::android.intent.action.VIEW
-feature::android.hardware.touchscreen

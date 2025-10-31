@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-call::sendSMS
-permission::android.permission.SEND_SMS
-real_permission::android.permission.SEND_SMS
-api_call::android/telephony/SmsManager;->sendTextMessage
-feature::android.hardware.telephony
-provider::android.appwidget.provider

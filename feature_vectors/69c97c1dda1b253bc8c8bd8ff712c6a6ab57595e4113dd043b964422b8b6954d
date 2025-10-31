@@ -1,5 +1,0 @@
-activity::.Answer
-feature::android.hardware.touchscreen
-activity::.EasyLife
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

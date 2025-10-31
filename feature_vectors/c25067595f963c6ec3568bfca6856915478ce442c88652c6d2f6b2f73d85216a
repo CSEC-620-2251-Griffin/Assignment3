@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.fragrance7.com
-url::http://www.fragrance7.com/mobile/womens_fragrances.php
-intent::android.intent.action.MAIN
-url::http://www.fragrance7.com/mobile/cologne_fragrance_men.php
-intent::android.intent.category.LAUNCHER
-activity::.Fragrance7
-url::http://www.fragrance7.com/mobile/categories.php

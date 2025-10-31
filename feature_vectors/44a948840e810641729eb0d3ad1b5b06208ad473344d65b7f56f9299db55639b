@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.WAKE_LOCK
-activity::.AppEntry
-permission::android.permission.INTERNET
-activity::Zombie Christmas
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

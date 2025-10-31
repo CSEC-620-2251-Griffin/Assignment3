@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.ResultsActivity
-service_receiver::WidgetProvider
-intent::android.intent.category.LAUNCHER
-activity::.HomeActivity
-provider::android.appwidget.provider

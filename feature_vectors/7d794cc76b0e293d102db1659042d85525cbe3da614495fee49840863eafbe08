@@ -1,9 +1,0 @@
-activity::.isotopes
-feature::android.hardware.touchscreen
-activity::.decay
-intent::android.intent.action.MAIN
-activity::.radshot
-activity::.main
-activity::.settings
-intent::android.intent.category.LAUNCHER
-activity::.radcalc

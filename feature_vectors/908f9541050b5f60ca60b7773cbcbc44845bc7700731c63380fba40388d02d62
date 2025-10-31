@@ -1,5 +1,0 @@
-activity::.com.nxinvestments.roi
-feature::android.hardware.touchscreen
-activity::.roi
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

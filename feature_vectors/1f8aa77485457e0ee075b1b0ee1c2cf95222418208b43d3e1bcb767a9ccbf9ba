@@ -1,7 +1,0 @@
-url::http://whatsonyourandroid.appspot.com/details?p%3D
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AppShareMain
-intent::android.intent.category.LAUNCHER
-url::whatsonyourandroid.appspot.com
-call::getSystemService

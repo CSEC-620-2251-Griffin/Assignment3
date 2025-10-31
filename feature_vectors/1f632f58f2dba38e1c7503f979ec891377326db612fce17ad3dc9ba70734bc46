@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.STATUS_BAR
-activity::.ViPOT
-intent::android.intent.action.MAIN
-call::printStackTrace
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER
-permission::android.permission.EXPAND_STATUS_BAR
-call::getSystemService

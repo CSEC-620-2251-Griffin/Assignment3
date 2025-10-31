@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-url::schemas.android.com
-url::http://schemas.android.com/apk/res/android
-activity::.Settings

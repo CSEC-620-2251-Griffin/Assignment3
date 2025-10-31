@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.Main
-intent::android.intent.category.LAUNCHER
-permission::com.android.launcher.permission.INSTALL_SHORTCUT
-api_call::android/content/Context;->sendBroadcast

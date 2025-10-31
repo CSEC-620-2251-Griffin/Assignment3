@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.WTG_Mobile
-intent::android.intent.category.LAUNCHER
-url::wtgig.com
-url::http://wtgig.com/mobile

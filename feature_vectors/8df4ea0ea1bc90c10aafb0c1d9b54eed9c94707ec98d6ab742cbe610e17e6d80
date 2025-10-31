@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::BatteryApp$MyService
-provider::android.appwidget.provider
-api_call::android/content/Context;->startService
-service_receiver::BatteryApp

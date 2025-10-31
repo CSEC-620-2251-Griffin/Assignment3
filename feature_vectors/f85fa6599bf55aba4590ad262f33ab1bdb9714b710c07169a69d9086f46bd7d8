@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://www.trend1012fm.com/
-permission::android.permission.INTERNET
-activity::.TrendFM
-url::www.trend1012fm.com
-intent::android.intent.category.LAUNCHER

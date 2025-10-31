@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.StatsCarActivity
-intent::android.intent.action.MAIN
-activity::lukasoft.luccyo.statsCar.StatsCarActivity
-intent::android.intent.category.LAUNCHER
-call::getSystemService

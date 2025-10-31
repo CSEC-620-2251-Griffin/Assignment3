@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::ShowRecordsActivity
-intent::android.intent.action.MAIN
-activity::.HumidityActivity
-activity::SaveReadingActivity
-activity::.TakeReadingActivity
-activity::ShowReadingActivity
-intent::android.intent.category.LAUNCHER

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::Mizzou Clock 2x1
-intent::android.intent.action.MAIN
-provider::android.appwidget.provider
-activity::Clockinfo
-service_receiver::Mizzou Clock 3x2
-intent::android.intent.category.INFO

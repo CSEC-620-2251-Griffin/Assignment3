@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.EditNote
-provider::com.shnaper.notes.providers.notescontentprovider
-activity::.DeleteNote
-provider::android.appwidget.provider
-call::getSystemService
-provider::com.shnaper.notes.providers.NotesContentProvider

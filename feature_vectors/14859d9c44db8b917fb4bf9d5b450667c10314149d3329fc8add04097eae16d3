@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Rank_majyan
-intent::android.intent.action.MAIN
-url::http://godap.info/rank_majyan/index_free.html
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::godap.info
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView

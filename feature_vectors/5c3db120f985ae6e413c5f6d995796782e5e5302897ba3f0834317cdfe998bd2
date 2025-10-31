@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.portrait
-url::m.synoptik.se
-intent::android.intent.category.LAUNCHER
-activity::.SynoptikActivity
-url::http://m.synoptik.se

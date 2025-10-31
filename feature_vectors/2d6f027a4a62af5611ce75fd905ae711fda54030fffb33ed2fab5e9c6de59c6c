@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::uang.in
-activity::.DreamHome
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://uang.in/dreamhome
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView

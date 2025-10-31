@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://market.android.com/search?q%3Dpub:SpeedyMarks
-call::getSystemService
-url::market.android.com

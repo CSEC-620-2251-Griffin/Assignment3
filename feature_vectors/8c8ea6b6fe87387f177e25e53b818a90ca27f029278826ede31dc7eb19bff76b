@@ -1,5 +1,0 @@
-intent::com.locnet.flitkeyboard.plugin.intent.action.PICK_KEYBOARD
-feature::android.hardware.touchscreen
-service_receiver::.FlitKeypadService
-intent::com.locnet.flitkeyboard.plugin.intent.action.PICK_PLUGIN
-intent::com.locnet.flitkeyboard.plugin.intent.category.KEYPAD_EXTRA

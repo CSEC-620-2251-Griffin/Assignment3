@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.MainActivity
-permission::android.permission.INTERNET
-url::sgwonchild.or.kr
-intent::android.intent.category.LAUNCHER
-url::http://sgwonchild.or.kr/m/

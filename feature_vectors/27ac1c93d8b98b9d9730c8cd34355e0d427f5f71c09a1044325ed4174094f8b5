@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.StartScreenActivity
-feature::android.hardware.screen.portrait
-activity::HelpActivity
-intent::android.intent.category.LAUNCHER
-activity::TapJackActivity

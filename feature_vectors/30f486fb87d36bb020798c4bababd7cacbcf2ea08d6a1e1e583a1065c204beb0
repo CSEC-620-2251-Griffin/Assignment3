@@ -1,3 +1,0 @@
-feature::android.hardware.touchscreen
-activity::fr.mazesloup.android.game.puzzlesquare.addon.pack2.Pack
-intent::android.intent.category.DEFAULT

@@ -1,7 +1,0 @@
-activity::.EMTSurfport
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://wap.emt.ee
-permission::android.permission.INTERNET
-url::wap.emt.ee
-intent::android.intent.category.LAUNCHER

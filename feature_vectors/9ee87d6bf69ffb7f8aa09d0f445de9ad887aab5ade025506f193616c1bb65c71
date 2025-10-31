@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.androidside.com/app/androidwidget/new.php
-api_call::org/apache/http/impl/client/DefaultHttpClient
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://www.androidside.com/app/androidwidget/best.php
-url::www.androidside.com
-provider::android.appwidget.provider

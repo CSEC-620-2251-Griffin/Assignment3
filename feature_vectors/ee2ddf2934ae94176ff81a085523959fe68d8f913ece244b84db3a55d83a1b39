@@ -1,9 +1,0 @@
-activity::com.letstopik.GesturesActivity
-feature::android.hardware.touchscreen
-activity::com.letstopik.LetsTopikExam
-activity::com.letstopik.LetsTopikInfo
-intent::android.intent.action.MAIN
-activity::.LetsTopikActivity
-intent::android.intent.category.DEFAULT
-activity::com.letstopik.TopikScore
-intent::android.intent.category.LAUNCHER

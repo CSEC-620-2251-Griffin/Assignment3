@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.siyusong.com
-feature::android.hardware.screen.portrait
-url::http://www.siyusong.com/android/\n
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo
-activity::.PickerActivity

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::java/net/URL;->openStream
-intent::android.intent.action.MAIN
-call::printStackTrace
-real_permission::android.permission.INTERNET
-activity::.TxtList
-intent::android.intent.category.LAUNCHER
-permission::android.permission.SET_ORIENTATION
-call::Read/Write External Storage

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Info
-intent::android.intent.action.MAIN
-service_receiver::.GoldenClockXLWidgetProvider$UpdateService
-service_receiver::GoldenClockXLWidgetProvider
-api_call::android/content/Context;->startService
-provider::android.appwidget.provider
-intent::android.intent.category.INFO
-call::getSystemService

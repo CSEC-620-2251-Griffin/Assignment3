@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.fotonfuturo.es
-intent::android.intent.action.MAIN
-activity::.Main
-url::http://www.fotonfuturo.es/pcbudget/procesar.phtml?
-intent::android.intent.category.LAUNCHER

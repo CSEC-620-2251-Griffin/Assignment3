@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.tv-on-phone.com
-activity::.MainScreen
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER
-url::http://www.tv-on-phone.com

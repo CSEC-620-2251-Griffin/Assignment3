@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::www.vystarcu.org
-activity::.Web
-url::http://www.vystarcu.org
-intent::android.intent.category.LAUNCHER

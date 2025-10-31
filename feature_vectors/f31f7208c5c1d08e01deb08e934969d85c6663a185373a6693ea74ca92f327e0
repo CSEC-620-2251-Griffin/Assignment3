@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::STG_ika002
-intent::android.intent.action.MAIN
-activity::.AppEntry
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

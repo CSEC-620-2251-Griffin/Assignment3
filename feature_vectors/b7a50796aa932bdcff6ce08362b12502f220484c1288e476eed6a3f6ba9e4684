@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.SphereBreakHome
-intent::android.intent.action.MAIN
-intent::android.intent.category.DEFAULT
-feature::android.hardware.screen.landscape
-activity::SphereBreakHome
-api_call::android/app/Activity;->startActivity
-intent::android.intent.category.LAUNCHER

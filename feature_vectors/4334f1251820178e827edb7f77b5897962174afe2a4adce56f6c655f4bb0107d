@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Tela_Result
-activity::.Menu
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-activity::.Sobre
-call::getSystemService

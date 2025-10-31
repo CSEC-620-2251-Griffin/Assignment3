@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.LuvitOrShuvit
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://www.luvitorshuvit.com
-intent::android.intent.category.LAUNCHER
-url::www.luvitorshuvit.com

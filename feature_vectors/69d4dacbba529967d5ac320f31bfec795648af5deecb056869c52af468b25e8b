@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.PoemLayout
-activity::.AboutVema
-activity::.SummaryList
-intent::android.intent.category.LAUNCHER
-activity::.Vemana

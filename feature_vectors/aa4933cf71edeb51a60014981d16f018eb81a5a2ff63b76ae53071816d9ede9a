@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://idhamma.pyephyohan.info\n
-intent::android.intent.category.LAUNCHER
-activity::.DhammaDroid
-url::idhamma.pyephyohan.info\n
-call::getSystemService

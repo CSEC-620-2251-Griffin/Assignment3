@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.portrait
-activity::.NewScorecard
-activity::.Scorecard
-activity::.UniversalScorecard
-call::getSystemService
-intent::android.intent.category.LAUNCHER

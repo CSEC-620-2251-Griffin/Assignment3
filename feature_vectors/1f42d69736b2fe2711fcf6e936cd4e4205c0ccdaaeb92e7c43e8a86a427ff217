@@ -1,5 +1,0 @@
-intent::com.momoonga.getintentclassname
-feature::android.hardware.touchscreen
-activity::.GetIntentClassNameActivity
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

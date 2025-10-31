@@ -1,6 +1,0 @@
-url::http://m.aptoide.com
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-activity::.Start
-url::m.aptoide.com

@@ -1,7 +1,0 @@
-url::http://eripmav99.appspot.com/Part2.html
-feature::android.hardware.touchscreen
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-provider::android.appwidget.provider
-url::eripmav99.appspot.com

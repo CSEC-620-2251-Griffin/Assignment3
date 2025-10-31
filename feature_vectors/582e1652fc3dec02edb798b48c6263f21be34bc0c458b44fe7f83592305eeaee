@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://greba.euskalherrian.info
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-activity::.GrebaOrokorra
-api_call::java/net/URL;->openStream
-url::greba.euskalherrian.info
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER

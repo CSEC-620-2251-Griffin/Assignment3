@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.MineSpider
-intent::android.intent.category.LAUNCHER
-activity::.MineSpiderPreferenceActivity
-activity::MineSpider
-url::http://schemas.android.com/apk/res/android
-url::schemas.android.com

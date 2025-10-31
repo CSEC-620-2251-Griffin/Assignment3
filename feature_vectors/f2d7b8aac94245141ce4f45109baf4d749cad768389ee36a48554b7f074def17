@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::StatusChanger
-permission::com.fsck.k9.permission.REMOTE_CONTROL
-provider::android.appwidget.provider
-api_call::android/content/Context;->sendBroadcast

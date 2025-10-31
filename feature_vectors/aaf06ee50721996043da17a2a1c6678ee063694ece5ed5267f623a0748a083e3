@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Redirect
-url::market.android.com
-intent::android.intent.action.MAIN
-activity::com.betterandroid.keyboard.skins.k3d.Redirect
-url::http://market.android.com/search?q%3Dpub:\
-intent::android.intent.category.LAUNCHER
-activity::com.betterandroid.keyboard.skins.k3d.Main
-url::http://market.android.com/search?q%3Dpname:com.betterandroid.betterkeyboard

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.SpinnerActivity2
-real_permission::android.permission.INTERNET
-url::http://superzeus.web.fc2.com/index.html\u3000\u3000\u3000\n
-url::superzeus.web.fc2.com
-intent::android.intent.category.LAUNCHER

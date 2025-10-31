@@ -1,5 +1,0 @@
-permission::android.permission.SET_WALLPAPER
-activity::.preference.GLWallpaperSettings
-url::schemas.android.com
-url::http://schemas.android.com/apk/res/android
-feature::android.hardware.touchscreen

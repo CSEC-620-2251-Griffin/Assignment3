@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.portrait
-activity::.Bluegrass5k
-activity::.Cause
-intent::android.intent.category.LAUNCHER
-activity::.Details
-activity::.Training
-activity::.Route

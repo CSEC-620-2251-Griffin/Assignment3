@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-intent::android.intent.action.RIDReverse
-activity::.OptionsAct
-activity::.ReverseCalcAct
-activity::.ResistorId
-intent::android.intent.action.VIEW
-intent::android.intent.category.LAUNCHER

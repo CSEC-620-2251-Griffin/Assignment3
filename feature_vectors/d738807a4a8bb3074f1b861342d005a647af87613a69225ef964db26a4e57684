@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.electoral-vote.com/evp2010/Icons/ev.png
-permission::android.permission.INTERNET
-url::http://electoral-vote.com/
-real_permission::android.permission.INTERNET
-url::www.electoral-vote.com
-provider::android.appwidget.provider
-api_call::java/net/URL;->openConnection
-url::electoral-vote.com

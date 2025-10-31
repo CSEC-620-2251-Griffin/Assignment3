@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://dxtop.accesslane.com/wallpaper/index.php?LW
-api_call::android/content/Context;->startActivity
-feature::android.hardware.screen.portrait
-call::getSystemService
-activity::.SettingsActivity
-url::dxtop.accesslane.com
-service_receiver::Turkey Run

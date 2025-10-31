@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.FoodDetailActivity
-activity::.FoodOrderActivity
-activity::.FoodCategoryActivity
-activity::.MainActivity
-intent::android.intent.category.LAUNCHER
-activity::.NutritionDetailActivity
-intent::android.intent.action.MAIN
-activity::.FoodSearchActivity

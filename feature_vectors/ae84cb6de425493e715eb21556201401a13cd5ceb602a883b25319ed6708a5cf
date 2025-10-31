@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.FredLoya
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::https://www.fredloya.com/mobile
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::www.fredloya.com

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::java/net/URL;->openStream
-intent::android.intent.action.MAIN
-url::http://www.thetechnoant.info/campmap/marks.php?rnd%3D
-url::www.thetechnoant.info
-activity::.MainActivity
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER

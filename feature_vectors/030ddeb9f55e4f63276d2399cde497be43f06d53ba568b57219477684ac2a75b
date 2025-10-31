@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Futbolgirona
-url::www.futbolgirona.com
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::http://www.futbolgirona.com/android/index.php?t%3D0\%27><p>Not\u00edcies</p></a><a

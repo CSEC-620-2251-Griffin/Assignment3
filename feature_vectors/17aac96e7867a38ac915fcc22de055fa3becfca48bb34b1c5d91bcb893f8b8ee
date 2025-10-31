@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.FootprintActivity
-intent::android.intent.action.MAIN
-activity::.FootprintTestActivity
-activity::.FootprintSummaryActivity
-intent::android.intent.category.LAUNCHER
-api_call::android/content/ContentResolver;->openOutputStream
-call::getPackageInfo
-real_permission::android.permission.READ_CONTACTS

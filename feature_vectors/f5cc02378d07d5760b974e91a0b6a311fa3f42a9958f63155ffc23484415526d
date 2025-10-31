@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-call::Cipher(DES/CBC/PKCS5Padding)
-activity::.Main
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

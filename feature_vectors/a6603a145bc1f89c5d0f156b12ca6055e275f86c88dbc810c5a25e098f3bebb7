@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::219.136.248.93
-intent::android.intent.action.MAIN
-intent::android.intent.category.DEFAULT
-url::http://219.136.248.93:1080/j.p/qudao/go_launcher_ex_385.apk
-intent::android.intent.category.INFO
-provider::com.gau.go.launcherex.gowidget.taskmanager.provider

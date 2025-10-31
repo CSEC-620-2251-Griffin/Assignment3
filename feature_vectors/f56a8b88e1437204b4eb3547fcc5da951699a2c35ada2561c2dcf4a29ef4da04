@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.CreateGestureActivity
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-call::Read/Write External Storage
-activity::.TestGestureActivity
-intent::android.intent.category.LAUNCHER
-activity::.GestureBuilderActivity
-call::getSystemService

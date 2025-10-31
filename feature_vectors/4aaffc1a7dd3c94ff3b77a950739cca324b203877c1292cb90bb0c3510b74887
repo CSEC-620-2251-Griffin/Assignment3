@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::com.nbz.FunSudoku.FunSudokuLite
-activity::.FunSudokuLite
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

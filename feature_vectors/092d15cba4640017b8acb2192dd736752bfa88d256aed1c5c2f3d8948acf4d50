@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::https://www.healthgram.com/mobile
-url::www.healthgram.com
-activity::.MainActivity
-intent::android.intent.category.LAUNCHER

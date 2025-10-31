@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.google.com/
-intent::android.intent.action.MAIN
-url::www.google.com
-activity::.MainActivity
-intent::android.intent.category.LAUNCHER

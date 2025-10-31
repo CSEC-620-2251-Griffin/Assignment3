@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Nine
-intent::android.intent.action.MAIN
-url::www.bonifazi.eu
-feature::android.hardware.screen.portrait
-url::http://www.bonifazi.eu
-intent::android.intent.category.LAUNCHER

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-call::printStackTrace
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.ZoomActivity
-call::getSystemService
-activity::MyDialog

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-permission::com.slamjibe.android.gottodo.permission.READ_TASKS
-api_call::android/content/ContentResolver;->query
-permission::org.dayup.gtask.permission.READ_TASKS
-real_permission::android.permission.READ_CONTACTS
-permission::com.timsu.astrid.permission.READ_TASKS

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::com.flopcode.android.networkbrowser.rfbtcp
-activity::.RfbAdapter
-api_call::android/content/Context;->startActivity
-intent::android.intent.category.DEFAULT
-intent::android.intent.action.VIEW

@@ -1,9 +1,0 @@
-url::http://www.youtube.com/user/SwedishMealTime
-feature::android.hardware.touchscreen
-activity::.ROSMT
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::www.youtube.com
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER

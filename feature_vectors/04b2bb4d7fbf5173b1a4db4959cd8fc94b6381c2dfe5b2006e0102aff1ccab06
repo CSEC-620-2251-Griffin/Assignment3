@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.BrowserActivity
-intent::android.intent.category.LAUNCHER
-url::http://www.administrativejobs.com/m/?mobile%3Dy
-url::www.administrativejobs.com

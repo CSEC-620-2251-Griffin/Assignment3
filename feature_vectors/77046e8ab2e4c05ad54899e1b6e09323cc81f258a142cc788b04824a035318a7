@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.TatsuoTestApp
-permission::android.permission.READ_EXTERNAL_STORAGE

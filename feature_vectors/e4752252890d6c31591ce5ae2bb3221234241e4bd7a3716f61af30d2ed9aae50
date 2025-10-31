@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.ATTACH_DATA
-activity::.UnitsConv
-intent::android.intent.action.MAIN
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-activity::.TemperatureActivity
-activity::.UnitsActivity
-intent::android.intent.action.VIEW

@@ -1,9 +1,0 @@
-url::www.extracon.com
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.Main
-url::http://www.extracon.com/mobile/default.aspx?ThemeName%3DRedBullMobile
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.INTERNET

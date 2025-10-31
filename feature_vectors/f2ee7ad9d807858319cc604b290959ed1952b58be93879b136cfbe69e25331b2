@@ -1,9 +1,0 @@
-api_call::android/webkit/WebView
-intent::android.intent.action.MAIN
-activity::SQReaderActivity
-call::getSystemService
-call::printStackTrace
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-intent::android.intent.category.DEFAULT
-intent::android.intent.action.VIEW

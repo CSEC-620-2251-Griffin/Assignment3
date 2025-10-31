@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.arttec.co.jp
-intent::android.intent.action.MAIN
-activity::.BMICheckerActivity
-url::http://www.arttec.co.jp/sat-box/
-feature::android.hardware.screen.portrait
-activity::ResultActivity
-intent::android.intent.category.LAUNCHER

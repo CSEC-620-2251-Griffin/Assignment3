@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.KostiziConfig
-intent::android.intent.action.MAIN
-activity::.KostiziWidget
-activity::.KostiziCheckOut
-intent::android.intent.category.LAUNCHER
-activity::.KostiziShop
-activity::.KostiziBuy
-activity::.KostiziVGC

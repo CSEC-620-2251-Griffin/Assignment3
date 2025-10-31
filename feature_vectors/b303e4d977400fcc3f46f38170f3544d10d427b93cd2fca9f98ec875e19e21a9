@@ -1,6 +1,0 @@
-service_receiver::Fridge Notes(1x1) Lite
-feature::android.hardware.touchscreen
-activity::.ConfigActivitySmall
-url::www.google.com
-url::http://www.google.com
-provider::android.appwidget.provider

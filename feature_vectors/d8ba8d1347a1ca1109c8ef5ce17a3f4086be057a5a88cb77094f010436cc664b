@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::commonsware.com
-url::http://commonsware.com/misc/test2.3gp
-intent::android.intent.category.LAUNCHER
-activity::.toCalc

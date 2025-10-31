@@ -1,3 +1,0 @@
-activity::.MainActivity
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

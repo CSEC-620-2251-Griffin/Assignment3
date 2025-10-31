@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.YFLauncher
-activity::.YFPay
-activity::.YFPlanResult
-activity::.YFPlan
-intent::android.intent.category.LAUNCHER
-activity::.YFPayResult
-feature::android.hardware.screen.portrait

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-activity::.yongmate
-url::http://yongmate.appspot.com
-url::yongmate.appspot.com
-intent::android.intent.category.LAUNCHER

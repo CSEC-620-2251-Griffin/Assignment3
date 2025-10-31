@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::jp.chofu.ishihama.klein.KleinActivity
-activity::.KleinActivity
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://appli-mo.com/game/
-activity::.MainActivity
-url::appli-mo.com
-intent::android.intent.category.LAUNCHER

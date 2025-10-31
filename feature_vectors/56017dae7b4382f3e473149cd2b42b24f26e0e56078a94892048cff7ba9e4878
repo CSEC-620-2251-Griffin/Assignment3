@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver:::remote
-intent::android.intent.action.MAIN
-service_receiver::.service.AudioPlayerService
-api_call::android/media/MediaPlayer;->start
-activity::.MainActivity
-intent::android.intent.category.LAUNCHER
-call::getSystemService
-real_permission::android.permission.WAKE_LOCK

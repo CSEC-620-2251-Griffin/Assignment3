@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.READ_PHONE_STATE
-activity::.splashScreen
-feature::android.hardware.screen.portrait
-api_call::android/telephony/TelephonyManager;->getLine1Number
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.READ_PHONE_STATE
-call::getSystemService

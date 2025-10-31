@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::mycoosh.com
-intent::android.intent.action.MAIN
-url::http://mycoosh.com/coosh/categorycache.php?s%3Dandroidcn
-activity::.MainLoader
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-api_call::java/net/URL;->openConnection

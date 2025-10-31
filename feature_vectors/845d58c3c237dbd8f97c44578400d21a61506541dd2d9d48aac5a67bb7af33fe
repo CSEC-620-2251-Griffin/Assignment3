@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.JewelryBoxGuide
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/content/ContentResolver;->openInputStream
-call::getSystemService
-real_permission::android.permission.READ_CONTACTS

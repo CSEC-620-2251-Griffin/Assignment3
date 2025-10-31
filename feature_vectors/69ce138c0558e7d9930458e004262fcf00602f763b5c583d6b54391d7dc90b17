@@ -1,9 +1,0 @@
-permission::android.permission.SET_WALLPAPER
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-activity::.wpshuffler_lite
-service_receiver::WallpaperShufflerServiceLite
-api_call::android/app/WallpaperManager;->setBitmap
-call::getSystemService
-real_permission::android.permission.SET_WALLPAPER

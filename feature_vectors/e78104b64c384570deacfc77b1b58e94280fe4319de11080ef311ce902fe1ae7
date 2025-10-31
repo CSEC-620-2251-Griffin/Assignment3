@@ -1,5 +1,0 @@
-activity::.explorer
-activity::kr.android.v2fileExplorer.explorer
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen

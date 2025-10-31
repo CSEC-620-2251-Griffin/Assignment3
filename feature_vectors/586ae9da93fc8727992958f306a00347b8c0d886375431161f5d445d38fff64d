@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::com.visualz.magicmushrooms_livewallpaper.SetLiveWallpaperActivity
-intent::android.intent.action.MAIN
-activity::.SetLiveWallpaperActivity
-url::http://adinf.se/advertisement/
-feature::android.software.live_wallpaper
-intent::android.intent.category.LAUNCHER
-url::adinf.se
-activity::WallpaperSettings

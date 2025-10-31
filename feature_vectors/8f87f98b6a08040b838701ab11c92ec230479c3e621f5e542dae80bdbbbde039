@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-service_receiver::Barcelona FC Analog Clock
-activity::.main
-provider::android.appwidget.provider
-intent::android.intent.category.INFO

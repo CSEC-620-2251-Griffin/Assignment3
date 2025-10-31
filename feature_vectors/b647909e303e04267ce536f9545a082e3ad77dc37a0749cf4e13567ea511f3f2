@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.GalaxySMusicReceiver
-service_receiver::.GalaxySMusicScrobblerService
-api_call::android/content/Context;->startService
-call::getPackageInfo
-call::getSystemService

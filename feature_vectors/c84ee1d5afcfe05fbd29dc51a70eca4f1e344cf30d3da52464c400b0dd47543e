@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AppEntry
-activity::Talk like a Monster
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-feature::android.hardware.microphone
-call::getPackageInfo
-permission::android.permission.RECORD_AUDIO

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.Main
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::64.147.172.7
-intent::android.intent.category.LAUNCHER
-url::http://64.147.172.7/restaurant/denver?search%3D
-api_call::java/net/URL;->openConnection

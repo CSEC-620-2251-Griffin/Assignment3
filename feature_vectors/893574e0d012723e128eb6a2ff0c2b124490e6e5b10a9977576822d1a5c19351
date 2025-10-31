@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider
-activity::.Preference
-service_receiver::2012 Countdown

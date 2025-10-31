@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.MobileViewer
-intent::android.intent.category.LAUNCHER
-activity::MobileViewer
-api_call::java/net/Socket
-call::getSystemService

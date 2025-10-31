@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://www.youtube.com/watch?v%3DavOiikinJsE
-api_call::android/webkit/WebView
-url::www.youtube.com
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.NoMansLand

@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.EuroKalkulaatorActivity
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.portrait

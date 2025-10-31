@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://layh.com/rm.php?pn%3Dcom.layh.android.tipafriend
-url::layh.com
-activity::.TipAFriend
-intent::android.intent.category.LAUNCHER
-url::http://layh.com/rm.php?pn%3D

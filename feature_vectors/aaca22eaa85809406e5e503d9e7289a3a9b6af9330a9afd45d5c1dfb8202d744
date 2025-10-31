@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.SplashScreenActivity
-feature::android.hardware.screen.portrait
-activity::.resistencias
-intent::android.intent.category.LAUNCHER

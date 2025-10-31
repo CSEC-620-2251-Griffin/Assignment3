@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::Help
-permission::android.permission.WRITE_SYNC_SETTINGS
-permission::android.permission.READ_SYNC_SETTINGS
-activity::WidgetSettings
-provider::android.appwidget.provider
-intent::android.intent.category.INFO
-call::getSystemService

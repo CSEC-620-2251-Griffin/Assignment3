@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.MainActivity
-provider::android.appwidget.provider
-service_receiver::.WorldClockWidget

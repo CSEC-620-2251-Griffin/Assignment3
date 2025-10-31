@@ -1,8 +1,0 @@
-intent::android.intent.action.MAIN
-intent::android.intent.action.NEW
-call::printStackTrace
-intent::android.intent.category.DEFAULT
-activity::.Formulari
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.INSERT
-intent::android.intent.action.VIEW

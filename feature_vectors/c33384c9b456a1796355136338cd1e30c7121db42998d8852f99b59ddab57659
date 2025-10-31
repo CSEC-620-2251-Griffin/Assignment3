@@ -1,8 +1,0 @@
-activity::.Eiercode
-feature::android.hardware.touchscreen
-url::www.was-steht-auf-dem-ei.de
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-real_permission::android.permission.INTERNET
-url::http://www.was-steht-auf-dem-ei.de/mobile/android.php?haltungsform%3D
-intent::android.intent.category.LAUNCHER

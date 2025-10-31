@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-api_call::android/app/Activity;->startActivity
-activity::.Trap
-intent::android.intent.category.LAUNCHER

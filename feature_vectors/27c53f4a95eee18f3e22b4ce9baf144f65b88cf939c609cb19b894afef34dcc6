@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::mobile.teencentral.net
-intent::android.intent.CATEGORY_ALTERNATIVE
-activity::.KidsPeace
-url::http://mobile.teencentral.net
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.VIEW

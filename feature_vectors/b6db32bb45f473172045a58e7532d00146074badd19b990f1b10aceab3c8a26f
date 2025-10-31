@@ -1,5 +1,0 @@
-service_receiver::.CalculatorService
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider
-service_receiver::.WidgetProvider
-api_call::android/content/Context;->startService

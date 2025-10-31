@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::https://my.mshift.com/gs?msestks%3Dteamone.xml&stk%3Dhome
-intent::android.intent.category.LAUNCHER
-activity::.TeamOne
-url::my.mshift.com

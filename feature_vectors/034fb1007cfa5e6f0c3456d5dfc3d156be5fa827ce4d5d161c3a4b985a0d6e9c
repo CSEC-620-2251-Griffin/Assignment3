@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.CardActivity
-intent::android.intent.category.LAUNCHER
-activity::.PreferencesActivity
-activity::.WordListActivity

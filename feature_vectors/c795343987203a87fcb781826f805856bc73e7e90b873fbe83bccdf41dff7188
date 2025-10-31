@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.noscor.com
-intent::android.intent.action.MAIN
-activity::.revthatbike
-api_call::android/media/MediaPlayer;->start
-url::http://www.noscor.com
-intent::android.intent.category.LAUNCHER
-call::getSystemService
-real_permission::android.permission.WAKE_LOCK

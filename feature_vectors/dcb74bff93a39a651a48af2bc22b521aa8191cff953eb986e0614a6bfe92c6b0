@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.activity.SplashActivity
-feature::android.hardware.screen.portrait
-activity::.activity.AddRecordActivity
-intent::android.intent.category.LAUNCHER
-activity::.SplashActivity
-call::getSystemService

@@ -1,7 +1,0 @@
-activity::.FileBrowser
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-call::Read/Write External Storage
-intent::android.intent.category.LAUNCHER
-url::http://www.graphilos.com/Mobile.aspx
-url::www.graphilos.com

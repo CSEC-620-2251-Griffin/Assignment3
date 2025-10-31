@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::m.bing.com
-api_call::android/app/Activity;->startActivity
-url::http://m.bing.com/search/search.aspx?a%3Dresults&Q%3D
-intent::android.intent.category.LAUNCHER
-activity::.SearchActivity

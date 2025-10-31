@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::EventListActivityDemo
-intent::android.intent.action.MAIN
-activity::.EventListActivityDemo
-permission::android.permission.WRITE_CALENDAR
-intent::android.intent.category.LAUNCHER
-permission::android.permission.READ_CALENDAR
-call::getSystemService

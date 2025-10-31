@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::com.htc.launcher.intent.LOADING_COMPLETE
-service_receiver::.DFReceiver
-permission::android.permission.CHANGE_CONFIGURATION
-permission::com.htc.launcher.permission.CLEAN_SCENE
-call::getSystemService

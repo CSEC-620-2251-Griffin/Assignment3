@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.category.DESK_DOCK
-intent::android.intent.category.CAR_DOCK
-intent::android.intent.action.MAIN
-intent::android.intent.category.DEFAULT

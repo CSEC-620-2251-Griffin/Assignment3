@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.READ_CONTACTS
-intent::android.intent.action.MAIN
-url::e-ujier.uji.es
-url::https://e-ujier.uji.es/pls/www/%21gri_www.euji20780?p_accion%3DEnviar
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.READ_CONTACTS
-activity::.ujiSms
-api_call::android/content/ContentResolver;->query

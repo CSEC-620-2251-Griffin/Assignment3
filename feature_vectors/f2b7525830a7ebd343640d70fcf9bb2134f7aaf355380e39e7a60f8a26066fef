@@ -1,5 +1,0 @@
-call::getSystemService
-feature::android.hardware.touchscreen
-activity::.HelloToEICv22
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

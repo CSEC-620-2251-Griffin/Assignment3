@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::k.games.free.fr
-intent::android.intent.action.MAIN
-url::http://k.games.free.fr/android/index.html
-activity::.SolitaireHome
-intent::android.intent.category.LAUNCHER
-feature::android.hardware.screen.portrait

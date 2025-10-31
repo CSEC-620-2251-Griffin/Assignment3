@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::java/net/URL;->openStream
-intent::android.intent.action.MAIN
-real_permission::android.permission.INTERNET
-activity::.ChaosTopApp
-intent::android.intent.category.LAUNCHER

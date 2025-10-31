@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.gaia_app
-intent::android.intent.category.LAUNCHER

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://www.magicfinger.co.kr
-intent::android.intent.category.LAUNCHER
-activity::.MagicFinger
-url::www.magicfinger.co.kr

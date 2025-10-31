@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://www.mikekohn.net/
-activity::.NakenVideoPoker
-url::www.mikekohn.net
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-activity::NakenVideoPoker

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/content/ContentResolver;->openInputStream
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-intent::android.intent.action.SEND
-activity::CropActivity
-intent::android.intent.category.DEFAULT
-real_permission::android.permission.READ_CONTACTS
-call::Read/Write External Storage

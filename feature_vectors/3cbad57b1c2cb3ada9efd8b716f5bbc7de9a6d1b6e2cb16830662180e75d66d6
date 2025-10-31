@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.LuvBids
-url::http://luvbids.com/view_all_live_auctions_phone.php
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::luvbids.com

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::SetUserLanguageActivity
-intent::android.intent.action.MAIN
-activity::ResultActivity
-intent::android.intent.category.LAUNCHER
-activity::PhrasebookActivity
-activity::.HomeActivity
-call::getSystemService

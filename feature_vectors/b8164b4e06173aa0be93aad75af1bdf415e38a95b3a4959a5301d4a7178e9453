@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.ChooseImageActivity
-intent::android.intent.action.MAIN
-activity::.ShowImageActivity
-activity::.PuzzleActivity
-intent::android.intent.category.LAUNCHER

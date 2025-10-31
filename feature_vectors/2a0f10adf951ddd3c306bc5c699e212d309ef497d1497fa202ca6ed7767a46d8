@@ -1,8 +1,0 @@
-service_receiver::myUTCWidget
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.myUTCConfig
-intent::android.intent.category.LAUNCHER
-activity::.InfoActivity
-provider::android.appwidget.provider
-call::getSystemService

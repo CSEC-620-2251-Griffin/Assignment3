@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::preferences
-intent::android.intent.action.MAIN
-activity::.aShisen
-activity::aShisen
-call::getSystemService
-intent::android.intent.category.LAUNCHER

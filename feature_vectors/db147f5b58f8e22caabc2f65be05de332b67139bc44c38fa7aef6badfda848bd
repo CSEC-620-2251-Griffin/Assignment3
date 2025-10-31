@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::market.android.com
-intent::android.intent.action.MAIN
-activity::.Question
-activity::.CatChooser
-activity::.MainActivity
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::http://market.android.com/details?id%3Dcom.ShaheelCaunhye.islamicinfo

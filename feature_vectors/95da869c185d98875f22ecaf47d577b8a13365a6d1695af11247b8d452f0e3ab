@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.WAKE_LOCK
-activity::%EB%AA%B0%EB%EC%A4%EC%B9%B4%EC%B4 %EB%AF%B8%EA%B6%EA%B2%EC[V5.0]
-activity::.AppEntry
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

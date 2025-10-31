@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::mobileurl.mobi
-activity::.Main
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://mobileurl.mobi/g8/
-intent::android.intent.category.LAUNCHER

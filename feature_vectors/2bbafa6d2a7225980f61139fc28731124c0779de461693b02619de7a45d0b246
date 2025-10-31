@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-service_receiver::HSWidgetProvider
-intent::android.intent.category.LAUNCHER
-activity::.HSClockWidget
-service_receiver::HSWidgetProvider$MyService
-provider::android.appwidget.provider
-call::getSystemService
-api_call::android/content/Context;->startService

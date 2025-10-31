@@ -1,9 +1,0 @@
-activity::.wv
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-url::http://be-an.imobileappsys.com
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::be-an.imobileappsys.com
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView

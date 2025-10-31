@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.HG
-api_call::android/content/Context;->startActivity
-url::http://www.netmite.com/android/andme_signed.apk
-url::www.netmite.com
-call::getPackageInfo
-url::http://www.netmite.com/android/srv/2.0/upload/P1F17144ACD77FFC4.jar
-intent::android.intent.category.LAUNCHER

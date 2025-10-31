@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.QTRTableActivity
-activity::.QTRSliderActivity
-intent::android.intent.action.MAIN
-url::http://bna.com
-url::bna.com
-activity::.QTRMainMenuActivity
-call::getSystemService
-intent::android.intent.category.LAUNCHER

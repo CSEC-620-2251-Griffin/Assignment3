@@ -1,7 +1,0 @@
-url::losingbellyfatexercises.com
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.Activity1
-url::http://losingbellyfatexercises.com/claim-your-free-report-and-training-program

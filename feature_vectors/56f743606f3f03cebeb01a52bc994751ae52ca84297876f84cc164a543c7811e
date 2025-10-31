@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.QuestionScreen
-activity::.HelpScreen
-activity::.MathQuest
-intent::android.intent.category.LAUNCHER

@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider
-service_receiver::.cl_draw
-call::getSystemService
-api_call::android/content/Context;->startService

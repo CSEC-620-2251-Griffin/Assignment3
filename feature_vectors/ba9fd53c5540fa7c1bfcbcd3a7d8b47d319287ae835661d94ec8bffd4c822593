@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/content/ContentResolver;->query
-provider::com.boombuler.widgets.contacts.provider
-real_permission::android.permission.READ_CONTACTS
-api_call::android/content/Context;->sendBroadcast
-permission::android.permission.READ_CONTACTS
-provider::android.appwidget.provider

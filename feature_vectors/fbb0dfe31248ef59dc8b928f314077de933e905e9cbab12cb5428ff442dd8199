@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.AppList
-activity::net.appositedesigns.appshare.AppList
-intent::android.intent.action.MAIN
-url::market.android.com
-intent::android.intent.category.LAUNCHER
-url::https://market.android.com/details?id%3D
-call::getSystemService

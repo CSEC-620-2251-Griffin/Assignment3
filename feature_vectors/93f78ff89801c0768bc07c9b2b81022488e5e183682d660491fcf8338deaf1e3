@@ -1,8 +1,0 @@
-activity::hois.net.socket.test33.SocketNetT
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.SocketNetT
-intent::android.intent.category.LAUNCHER
-api_call::java/net/Socket

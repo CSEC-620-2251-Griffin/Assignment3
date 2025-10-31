@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::https://market.android.com/details?id%3Dcom.qiexamprep.android.nclex
-intent::android.intent.action.MAIN
-url::market.android.com
-intent::android.intent.category.LAUNCHER
-activity::.Splash

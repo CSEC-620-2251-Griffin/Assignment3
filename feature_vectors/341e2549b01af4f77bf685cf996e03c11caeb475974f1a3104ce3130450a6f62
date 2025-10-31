@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.GLOBAL_SEARCH
-url::www.smallscreensoftware.com
-intent::android.intent.action.ACTION_SCREEN_ON
-intent::android.intent.action.ACTION_SCREEN_OFF
-url::http://www.smallscreensoftware.com
-service_receiver::.StateChangeReceiver
-provider::android.appwidget.provider
-call::getSystemService

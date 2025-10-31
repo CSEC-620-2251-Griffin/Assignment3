@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
-intent::android.intent.action.MAIN
-permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
-activity::.ThreeGLink
-permission::com.android.launcher.permission.INSTALL_SHORTCUT
-intent::android.intent.category.LAUNCHER

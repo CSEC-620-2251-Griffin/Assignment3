@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::getSystemService
-intent::android.intent.category.LAUNCHER
-activity::.Splash
-intent::android.intent.category.VIEW
-intent::android.intent.action.DEFAULT
-activity::.IPCalc

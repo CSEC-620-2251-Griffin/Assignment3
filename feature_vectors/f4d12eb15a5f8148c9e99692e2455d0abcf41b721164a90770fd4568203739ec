@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.Pregnancyguidetips.info
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.main
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::www.Pregnancyguidetips.info
-intent::android.intent.category.LAUNCHER

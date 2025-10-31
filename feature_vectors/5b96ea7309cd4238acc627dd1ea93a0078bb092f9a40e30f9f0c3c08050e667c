@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.main
-intent::android.intent.category.LAUNCHER
-activity::%EA%B2%B0%EA%B3%BC
-activity::.AbleActivity

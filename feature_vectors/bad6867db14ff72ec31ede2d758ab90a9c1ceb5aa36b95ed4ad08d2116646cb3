@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-activity::.TimeKeeperOfLife
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-call::Read/Write External Storage
-intent::android.intent.category.LAUNCHER
-call::getSystemService

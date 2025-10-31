@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::org/apache/http/impl/client/DefaultHttpClient
-intent::android.intent.action.MAIN
-activity::.CityTramTimeTableByTime
-activity::.CityTramTimeTable
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.CityTramMapView
-intent::android.intent.category.LAUNCHER

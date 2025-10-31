@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::com.OziApp.oldtown.Start
-intent::android.intent.action.MAIN
-call::printStackTrace
-activity::.BookStat
-intent::android.intent.category.LAUNCHER
-activity::.Start

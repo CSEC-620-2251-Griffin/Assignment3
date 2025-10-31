@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.mitework.com
-intent::android.intent.action.MAIN
-url::http://www.mitework.com/games/keepyup/addscore.php?score%3D
-feature::android.hardware.screen.portrait
-activity::.KeepyUppy
-intent::android.intent.category.LAUNCHER
-url::http://www.mitework.com/games/keepyup/viewscores.php

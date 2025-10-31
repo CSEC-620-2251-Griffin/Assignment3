@@ -1,6 +1,0 @@
-activity::.EventListViewActivity
-activity::.EventAddActivity
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-intent::android.intent.category.LAUNCHER
-activity::.EventDetailsViewActivity

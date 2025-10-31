@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-url::amazing-apps.com
-activity::.pad
-intent::android.intent.category.LAUNCHER
-url::http://amazing-apps.com/smf

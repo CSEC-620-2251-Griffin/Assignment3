@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.TopiPhoneNews
-intent::android.intent.action.MAIN
-url::http://www.bolicua.com/iphone/news.html
-permission::android.permission.INTERNET
-url::www.bolicua.com
-intent::android.intent.category.LAUNCHER

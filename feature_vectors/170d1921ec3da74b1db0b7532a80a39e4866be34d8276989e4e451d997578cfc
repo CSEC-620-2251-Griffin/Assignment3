@@ -1,8 +1,0 @@
-service_receiver::.aWidget$silentModeToggleService
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-activity::.WelcomeScreen
-intent::android.intent.category.LAUNCHER
-provider::android.appwidget.provider
-call::getSystemService
-api_call::android/content/Context;->startService

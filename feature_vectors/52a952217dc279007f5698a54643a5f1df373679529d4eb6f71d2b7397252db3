@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::onlinefuntester.wordpress.com
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://onlinefuntester.wordpress.com
-activity::.onlinefuntester
-intent::android.intent.category.LAUNCHER

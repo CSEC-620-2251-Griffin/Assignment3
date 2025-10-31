@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Main
-intent::android.intent.action.MAIN
-activity::com.hackathon.game.EndGame
-activity::com.hackathon.game.Main
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER
-activity::com.hackathon.game.GameActivity

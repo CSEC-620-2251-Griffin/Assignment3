@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::com.maxmpz.audioplayer.widgetpack1.WidgetPAPIReceiver
-api_call::android/content/Context;->startService
-service_receiver::com.maxmpz.audioplayer.widgetpack1.WidgetUpdaterService
-provider::android.appwidget.provider
-intent::android.intent.action.MEDIA_REMOVED

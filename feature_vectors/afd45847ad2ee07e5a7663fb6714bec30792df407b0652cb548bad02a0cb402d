@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::sites.google.com
-intent::android.intent.action.MAIN
-url::http://sites.google.com/site/emjero/
-intent::android.intent.category.LAUNCHER
-activity::.eZConverterLite
